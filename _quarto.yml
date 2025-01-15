@@ -7,14 +7,14 @@ project:
     - "/_redirects"
 
 website:
-  title: "OS in Pharma"
-  image: "images/opensourceInPharma_transparent.png"
+  title: "R/Pharma"
+  image: "images/logo-rinpharma.png"
   favicon: "favicon.png"
   google-analytics: "G-SRBLBCD4NS"
   open-graph: true
   twitter-card: true
-  site-url: https://opensourceinpharma.com
-  repo-url: https://github.com/OpenSourceinPharma/OpenSourceinPharma
+  site-url: https://rinpharma.com
+  repo-url: https://github.com/rinpharma/rinpharma
   repo-actions: [edit, issue]
   page-navigation: true
   page-footer:
@@ -30,18 +30,18 @@ website:
         href: license.qmd
     right:
       - icon: twitter
-        href: https://twitter.com/OpenSourceinPharma
+        href: https://twitter.com/rinpharma
         aria-label: R/Pharma Twitter
       - icon: github
-        href: https://github.com/openpharma
-        aria-label: OpenPharma github
+        href: https://github.com/rinpharma
+        aria-label: R/Pharma github
 #      - icon: rss
 #        href: 
 #        aria-label:      
   navbar:
     background: light
-    logo: images/opensourceInPharma_white.png
-    logo-alt: "Quarto logo."
+    logo: images/logo-rinpharma.png
+    logo-alt: "R/Pharma logo."
     title: false
     collapse-below: lg
     left:
