@@ -1,23 +1,24 @@
 ---
-title: "Open Source in Pharma Governance"
+title: "R/Pharma Events"
 listing: 
-  - id: listing-directors
-    contents: listings/directors.yml
+  - id: listing-conference-oc
+    contents: listings/conference-oc.yml
     type: table
     field-links: 
     - name
     field-display-names: 
       name: Name
-      role: Directorship
+      years: Years
       affiliation: Affiliation
-  - id: listing-documents
-    contents: listings/documents.yml
+  - id: listing-summit-oc
+    contents: listings/summit-oc.yml
     type: table
     field-links: 
     - name
     field-display-names: 
-      name: Document
-      description: Description
+      name: Name
+      years: Years
+      affiliation: Affiliation
 ---
 
 {{< include _listing-preamble.qmd >}}
@@ -46,14 +47,14 @@ The following aspirational goals support the overall mission. As a foundation we
 
 :::
 
-### Board of Directors {.unlisted}
+### Conference Organising Committee {.unlisted}
 
-::: {#listing-directors}
+::: {#listing-conference-oc}
 :::
 
-### Key Documents {.unlisted}
+### Summit Organising Committee {.unlisted}
 
-::: {#listing-documents}
+::: {#listing-summit-oc}
 :::
 
 {{< include _listing-footer.qmd >}}
