@@ -29,14 +29,14 @@ discussions on the most pressing topics for late-stage reporting in R.
 The discussion was crowdsourced via a github discussion, and led to the 
 following topics:
 
-- [Transitioning our people from SAS to R](/change-management.html)
-- [How best to engage and enable small/mid-size pharma to use R and open source tools](/smallmidpharma.html)
-- [Future core competency of clinical statistical programmer with AI/LLM](/llms.html)
-- [Can we do data storage and processing better in clinical trials?](/datatrials.html)
-- [Sharing R data products externally](/rproducts.html)
-- [Validation of shiny apps](/validate-shiny.html)
-- [R package validation](/validate-package.html)
-- [Leveraging operational metrics for better SCEs/platforms](/scemetrics.html)
+- [Transitioning our people from SAS to R](/summit/posts/2023-change-mgt.html)
+- [How best to engage and enable small/mid-size pharma to use R and open source tools](/summit/posts/2024-small-mid-pharma.html)
+- [Future core competency of clinical statistical programmer with AI/LLM](/summit/posts/2024-ai.html)
+- [Can we do data storage and processing better in clinical trials?](/summit/posts/2023-dataformat.html)
+- [Sharing R data products externally](/summit/posts/2024-rproducts.html)
+- [Validation of shiny apps](/summit/posts/2024-shiny-validation.html)
+- [R package validation](/summit/posts/2024-r-pkg-validation.html)
+- [Leveraging operational metrics for better SCEs/platforms](/summit/posts/2023-sce.html)
 
 :::
 
@@ -50,14 +50,14 @@ discussions on the most pressing topics for late-stage reporting in R.
 The discussion was crowdsourced via a github discussion, and led to the 
 following topics:
 
-- [What are our goals for a modern clinical reporting workflow, on a modern SCE?](/modern-sce.html)
+- [What are our goals for a modern clinical reporting workflow, on a modern SCE?](/summit/posts/2023-sce.html)
 - [What are the risks with our increasing external business code dependencies?](/os-depends.html)
-- [We have a path to R package validation - but what are we doing with shiny apps?](/validate-shiny.html)
-- [What is the path to an interactive CSR?](/shiny-csr.html)
-- [The case for contributing to OS](/case-os.html)
-- [Where are we with our people?](/change-management.html)
-- [What should we be doing to leverage advances in LLMs/AA/AI impact? (at the drug development through to developer efficiency levels)](/llms.html)
-- [What are the barriers bringing imaging/genomics/digital biomarkers and the CRF closer?](/multi-modal.html)
+- [We have a path to R package validation - but what are we doing with shiny apps?](/summit/posts/2024-shiny-validation.html)
+- [What is the path to an interactive CSR?](/summit/posts/2024-shiny-validation.html)
+- [The case for contributing to OS](/summit/posts/2023-case-os.html)
+- [Where are we with our people?](/summit/posts/2023-change-mgt.html)
+- [What should we be doing to leverage advances in LLMs/AA/AI impact? (at the drug development through to developer efficiency levels)](/summit/posts/2024-ai.html)
+- [What are the barriers bringing imaging/genomics/digital biomarkers and the CRF closer?](/summit/posts/2023-multi-modal.html)
 
 :::
 
