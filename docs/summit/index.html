@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>R/Pharma summit – R/Pharma</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-551628670c3192ed326fb14c73bbe934.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SRBLBCD4NS"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
+</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #EDF3F9;
+      }
+</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+<link rel="alternate" type="application/rss+xml" title="R/Pharma" href="index.xml" data-external="1"><meta property="og:title" content="R/Pharma summit – R/Pharma">
+<meta property="og:description" content="The in-person event">
+<meta property="og:image" content="https://rinpharma.com/docs/summit/images/logo-rinpharma.png">
+<meta property="og:site_name" content="R/Pharma">
+<meta name="twitter:title" content="R/Pharma summit – R/Pharma">
+<meta name="twitter:description" content="The in-person event">
+<meta name="twitter:image" content="https://rinpharma.com/docs/summit/images/logo-rinpharma.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Overview</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/conference/index.html"> 
+<span class="menu-text">Conference</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../docs/summit/index.html" aria-current="page"> 
+<span class="menu-text">Summit</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/blog/index.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/rinpharma"> <i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/openpharma"> <i class="bi bi-github" role="img" aria-label="OpenPharma github">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">R/Pharma summit</h1>
+            <p class="subtitle lead">The in-person event</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#rpharma-summit-round-table-discussions" id="toc-rpharma-summit-round-table-discussions" class="nav-link active" data-scroll-target="#rpharma-summit-round-table-discussions">R/Pharma summit round table discussions</a></li>
+  <li><a href="#summit-discussions" id="toc-summit-discussions" class="nav-link" data-scroll-target="#summit-discussions">Summit discussions</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/summit/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Q2hhbmdlJTIwbWFuYWdlbWVudA==">Change management <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YQ==">Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T1M=">OS <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UHJvZHVjdHM=">Products <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(4)</span></div><div class="category" data-category="U2hpbnk=">Shiny <span class="quarto-category-count">(1)</span></div></div></div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+<section id="rpharma-summit-round-table-discussions" class="level2">
+<h2 class="anchored" data-anchor-id="rpharma-summit-round-table-discussions">R/Pharma summit round table discussions</h2>
+<p>This document captures discussion, pain points and a path to next steps discussed at R/Pharma Summits.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<i class="fa-solid fa-users" aria-label="users"></i> 2024 F2F Roundtables in Seattle
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>~120 leaders from 40+ companies met F2F in Seattle for a series of discussions on the most pressing topics for late-stage reporting in R.</p>
+<p>The discussion was crowdsourced via a github discussion, and led to the following topics:</p>
+<ul>
+<li><a href="../../summit/posts/2023-change-mgt.html">Transitioning our people from SAS to R</a></li>
+<li><a href="../../summit/posts/2024-small-mid-pharma.html">How best to engage and enable small/mid-size pharma to use R and open source tools</a></li>
+<li><a href="../../summit/posts/2024-ai.html">Future core competency of clinical statistical programmer with AI/LLM</a></li>
+<li><a href="../../summit/posts/2023-dataformat.html">Can we do data storage and processing better in clinical trials?</a></li>
+<li><a href="../../summit/posts/2024-rproducts.html">Sharing R data products externally</a></li>
+<li><a href="../../summit/posts/2024-shiny-validation.html">Validation of shiny apps</a></li>
+<li><a href="../../summit/posts/2024-r-pkg-validation.html">R package validation</a></li>
+<li><a href="../../summit/posts/2023-sce.html">Leveraging operational metrics for better SCEs/platforms</a></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<i class="fa-solid fa-users" aria-label="users"></i> 2023 F2F Roundtables in Chicago
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>~60 leaders from 40+ companies met F2F in Chicago for a series of discussions on the most pressing topics for late-stage reporting in R.</p>
+<p>The discussion was crowdsourced via a github discussion, and led to the following topics:</p>
+<ul>
+<li><a href="../../summit/posts/2023-sce.html">What are our goals for a modern clinical reporting workflow, on a modern SCE?</a></li>
+<li><a href="../../os-depends.html">What are the risks with our increasing external business code dependencies?</a></li>
+<li><a href="../../summit/posts/2024-shiny-validation.html">We have a path to R package validation - but what are we doing with shiny apps?</a></li>
+<li><a href="../../summit/posts/2024-shiny-validation.html">What is the path to an interactive CSR?</a></li>
+<li><a href="../../summit/posts/2023-case-os.html">The case for contributing to OS</a></li>
+<li><a href="../../summit/posts/2023-change-mgt.html">Where are we with our people?</a></li>
+<li><a href="../../summit/posts/2024-ai.html">What should we be doing to leverage advances in LLMs/AA/AI impact? (at the drug development through to developer efficiency levels)</a></li>
+<li><a href="../../summit/posts/2023-multi-modal.html">What are the barriers bringing imaging/genomics/digital biomarkers and the CRF closer?</a></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> References
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><a href="https://psiaims.github.io/CAMIS/">CAMIS - comparing differences based on tool used</a></p>
+<p><a href="https://phuse-org.github.io/E2E-OS-Guidance/">PHUSE Open Source guidance</a></p>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2024</h2>
+<p><a href="https://pharmar.github.io/events-positconf2024/#/title-slide">R Validation Hub update</a></p>
+<p><a href="https://rinpharma.github.io/rinpharma-summit-2024/">2024 planning repo</a></p>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2023</h2>
+<p><a href="https://pharmar.github.io/events-rpharma2023/">R Validation Hub update</a></p>
+<p><a href="https://pharmar.github.io/events-positconf2023/#/title-slide">Doug’s slides on the shared validated repo</a></p>
+<p><a href="https://rinpharma.github.io/positconf-roundtables-2023/">2023 planning repo</a></p>
+</section>
+</div>
+</div>
+</section>
+<section id="summit-discussions" class="level2">
+<h2 class="anchored" data-anchor-id="summit-discussions">Summit discussions</h2>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Ug==" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1737495907991" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="1000">
+<div class="thumbnail">
+<p><a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external"></a></p><a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external">Validating R packages</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external">Doug Kelkhof and Margaret Wishart</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+</div>
+<div class="listing-description">
+<a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external">Validating R packages </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2024
+</div>
+<div class="listing-author">
+Doug Kelkhof, Margaret Wishart
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="QUk=" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1737495907991" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1665">
+<div class="thumbnail">
+<p><a href="../../docs/summit/posts/2023-sce.html" class="no-external"></a></p><a href="../../docs/summit/posts/2023-sce.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../../docs/summit/posts/2023-sce.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2023-sce.html" class="no-external">Modern SCEs</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2023-sce.html" class="no-external">James Black &amp; Satish Murphy</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
+AI
+</div>
+</div>
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-sce.html" class="no-external">What are our goals with a modern SCE? </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2023-sce.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2024
+</div>
+<div class="listing-author">
+James Black, Satish Murphy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="T1MlMkNSJTJDUHJvZHVjdHM=" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1737495907991" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="244">
+<div class="thumbnail">
+<p><a href="../../docs/summit/posts/2024-rproducts.html" class="no-external"></a></p><a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../../docs/summit/posts/2024-rproducts.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">Sharing R code without sharing R code</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">Sharing R code without sharing R code</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">
+OS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvZHVjdHM='); return false;">
+Products
+</div>
+</div>
+<div class="listing-description">
+<a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">Depending on Open Source </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2024
+</div>
+<div class="listing-author">
+Rohan Parmar, Min Lee
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="UiUyQ1NoaW55" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1737495907991" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="964">
+<div class="thumbnail">
+<p><a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external"></a></p><a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">Can we validate shiny?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">Devin Pastoor and Ellis Hughes</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('U2hpbnk='); return false;">
+Shiny
+</div>
+</div>
+<div class="listing-description">
+<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">Can we validate shiny? </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2024
+</div>
+<div class="listing-author">
+James Black, Harvey Lieberman
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Ug==" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1737495907991" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
+<div class="thumbnail">
+<p><a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external"></a></p><a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">Small to mid Pharma in an post-SAS world</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">Katie Igartua and Kas Yousefi</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+</div>
+<div class="listing-description">
+<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">Small to mid Pharma in an post-SAS world </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2024
+</div>
+<div class="listing-author">
+Katie Igartua, Kas Yousefi
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="QUk=" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1737495907991" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="708">
+<div class="thumbnail">
+<p><a href="../../docs/summit/posts/2024-ai.html" class="no-external"></a></p><a href="../../docs/summit/posts/2024-ai.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../../docs/summit/posts/2024-ai.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2024-ai.html" class="no-external">AI opportunities</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2024-ai.html" class="no-external">Vincent Shen and Melanie Hullings</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
+AI
+</div>
+</div>
+<div class="listing-description">
+<a href="../../docs/summit/posts/2024-ai.html" class="no-external">What are the LLMs/AA/AI opportunities in drug development? </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2024-ai.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2024
+</div>
+<div class="listing-author">
+Vincent Shen, Melanie Hullings
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="QUk=" data-listing-date-sort="1696118400000" data-listing-file-modified-sort="1737495907991" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
+<div class="thumbnail">
+<p><a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external"></a></p><a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external">Interactive CSR</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external">Ning Leng and Phil Bowsher</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
+AI
+</div>
+</div>
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external">What are our goals with an interactive CSR? </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2023
+</div>
+<div class="listing-author">
+Ning Ling, Phil Bowsher
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="T1M=" data-listing-date-sort="1696118400000" data-listing-file-modified-sort="1737495907991" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<div class="thumbnail">
+<p><a href="../../docs/summit/posts/2023-os-depends.html" class="no-external"></a></p><a href="../../docs/summit/posts/2023-os-depends.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../../docs/summit/posts/2023-os-depends.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2023-os-depends.html" class="no-external">Depending on Open Source</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2023-os-depends.html" class="no-external">Mike Smith &amp; Ed Lauzier</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">
+OS
+</div>
+</div>
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-os-depends.html" class="no-external">Depending on Open Source </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2023-os-depends.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2023
+</div>
+<div class="listing-author">
+Mike Smith, Ed Lauzier
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="QUk=" data-listing-date-sort="1696118400000" data-listing-file-modified-sort="1737495907991" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
+<div class="thumbnail">
+<p><a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external"></a></p><a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external">Multi-modal drug development</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external">Katie Igartua</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
+AI
+</div>
+</div>
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external">Multi-modal drug development </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2023
+</div>
+<div class="listing-author">
+Katie Igartua
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="T1MlMkNDaGFuZ2UlMjBtYW5hZ2VtZW50" data-listing-date-sort="1694908800000" data-listing-file-modified-sort="1737495907990" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1251">
+<div class="thumbnail">
+<p><a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external"></a></p><a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">Change management</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">Cassie Murcray and Dror Berel</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">
+OS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q2hhbmdlJTIwbWFuYWdlbWVudA=='); return false;">
+Change management
+</div>
+</div>
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">Transitioning from SAS to R in the Pharmaceutical Industry </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">
+<div class="listing-date">
+Sep 17, 2023
+</div>
+<div class="listing-author">
+Cassie Murcray, Dror Berel
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="T1MlMkNEYXRh" data-listing-date-sort="1694908800000" data-listing-file-modified-sort="1737495907990" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="469">
+<div class="thumbnail">
+<p><a href="../../docs/summit/posts/2023-dataformat.html" class="no-external"></a></p><a href="../../docs/summit/posts/2023-dataformat.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../../docs/summit/posts/2023-dataformat.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2023-dataformat.html" class="no-external">Can we do data storage and processing better in clinical trials?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2023-dataformat.html" class="no-external">Stephanie Lussier and Doug Kelkhoff</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">
+OS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YQ=='); return false;">
+Data
+</div>
+</div>
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-dataformat.html" class="no-external">Can we do data storage and processing better in clinical trials? </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2023-dataformat.html" class="no-external">
+<div class="listing-date">
+Sep 17, 2023
+</div>
+<div class="listing-author">
+Stephanie Lussier, Doug Kelkhoff
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="T1M=" data-listing-date-sort="1694908800000" data-listing-file-modified-sort="1737495907990" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="418">
+<div class="thumbnail">
+<p><a href="../../docs/summit/posts/2023-case-os.html" class="no-external"></a></p><a href="../../docs/summit/posts/2023-case-os.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../../docs/summit/posts/2023-case-os.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2023-case-os.html" class="no-external">The case for OS</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2023-case-os.html" class="no-external">Satish Murphy &amp; Becca Krouse</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">
+OS
+</div>
+</div>
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-case-os.html" class="no-external">What is stopping people and companies from contributions in OS? Can we define the case for contributing to OS? </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2023-case-os.html" class="no-external">
+<div class="listing-date">
+Sep 17, 2023
+</div>
+<div class="listing-author">
+Satish Murphy &amp; Becca Krouse
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
+<script type="text/javascript">
+
+// replace cmd keyboard shortcut w/ control on non-Mac platforms
+const kPlatformMac = typeof navigator !== 'undefined' ? /Mac/.test(navigator.platform) : false;
+if (!kPlatformMac) {
+   var kbds = document.querySelectorAll("kbd")
+   kbds.forEach(function(kbd) {
+      kbd.innerHTML = kbd.innerHTML.replace(/⌘/g, '⌃');
+   });
+}
+
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/rinpharma\.com");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Proud organizer of <a href="https://www.rinpharma.com"><img src="../../images/logo-rinpharma.png" class="img-fluid" alt="OS in Pharma logo" width="65"></a></p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+<p>About</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../docs/faq/index.html">
+<p>FAQ</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../license.html">
+<p>License</p>
+</a>
+  </li>  
+</ul>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/summit/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/rinpharma">
+      <i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/rinpharma">
+      <i class="bi bi-github" role="img" aria-label="R/Pharma github">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
