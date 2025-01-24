@@ -19,6 +19,82 @@
 <generator>quarto-1.6.40</generator>
 <lastBuildDate>Tue, 01 Oct 2024 00:00:00 GMT</lastBuildDate>
 <item>
+  <title>Small to mid Pharma in an post-SAS world</title>
+  <dc:creator>Katie Igartua</dc:creator>
+  <dc:creator>Kas Yousefi</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="smallmid-pharma-os" class="level2">
+<h2 class="anchored" data-anchor-id="smallmid-pharma-os">Small/mid pharma &amp; OS</h2>
+<p>Chair: Katie Igartua and Kas Yousefi</p>
+<section id="proposal" class="level3">
+<h3 class="anchored" data-anchor-id="proposal">Proposal</h3>
+<p>A pressing topic I think we should discuss is how best to engage and enable small/mid-sized pharma to use open source Ecosystems.</p>
+<p>It can be sometimes overwhelming and would be helpful to have an idea where to start to join the open source journey and utilize the resources and approaches already available.</p>
+<p>Some questions:</p>
+<ol type="1">
+<li>How to go about setting up an open source Environment? What are the hurdles? How can the crowd-sourced groups help?</li>
+<li>Could small pharma use R for IB/DSUR? Does this need to be in a validated environment?</li>
+<li>How do other small pharma companies uses open-source environments? and what would be areas for collaboration?</li>
+</ol>
+</section>
+<section id="expected-impact" class="level3">
+<h3 class="anchored" data-anchor-id="expected-impact">Expected impact</h3>
+<p>I believe this topic would be a benefit because small pharma often needs to be innovative, but due to resource limits may rely on traditional approaches and heavily rely on CROs. Having stronger small pharma presence could help in new resources and approaches for open-sourced solutions</p>
+</section>
+<section id="prior-discussionswork" class="level3">
+<h3 class="anchored" data-anchor-id="prior-discussionswork">Prior discussions/work</h3>
+<p>Some prior work includes……</p>
+<ul>
+<li>BBSW Panel Discussion for Open Source Tools in Small/mid sized pharma</li>
+<li><a href="https://github.com/rinpharma/rinpharma-summit-2024/discussions/17">How best to engage and enable small/mid-size pharma to use open source tools · rinpharma rinpharma-summit-2024 · Discussion #17</a></li>
+</ul>
+</section>
+</section>
+<section id="round-table" class="level1">
+<h1>Round table</h1>
+<ul>
+<li>Open sourcing adoption/contribution barrier
+<ul>
+<li>risk taking when you only have one product</li>
+<li>cost: small companies often fully outsource regulatory work to CROs, hard to justify additional investment on infra or open source work for non regulatory tasks</li>
+<li>IT resource: posit installation for small pharma - small company may not have the right in house IT talent to even get posit running</li>
+<li>Are you ready to be a shiny dev ops person &amp; R admin?</li>
+</ul></li>
+<li>What are use cases to use open source? mainly in non validated env
+<ul>
+<li>data review, monitoring, visualization, patient profile, DSUR</li>
+<li>IDCC uses shiny for IDMC close sessions (instead of long pdf)</li>
+</ul></li>
+<li>Asks to the community
+<ul>
+<li>can large pharma open source their infra config? such as AMS yaml file?
+<ul>
+<li>from the perspective at the intersection of IT, DS, stat</li>
+</ul></li>
+<li>what about a “single” opinionated workflow (pharmaverse is seen more as a comprehensive tool box)
+<ul>
+<li>from an independent body such as r consortium?</li>
+<li>or can individual big pharma publish the whole workflow</li>
+</ul></li>
+</ul></li>
+<li>GxP set up: timing tradeoff - is it good to set up early or late? setting up early can put on restrictions that is hard to change later. balance of flexibility, best practice and cost</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</guid>
+  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Validating R packages</title>
   <dc:creator>Doug Kelkhof</dc:creator>
   <dc:creator>Margaret Wishart</dc:creator>
@@ -76,6 +152,372 @@
  ]]></description>
   <category>R</category>
   <guid>https://rinpharma.com/docs/summit/posts/2024-r-pkg-validation.html</guid>
+  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Sharing R code without sharing R code</title>
+  <dc:creator>Rohan Parmar</dc:creator>
+  <dc:creator>Min Lee</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="sharing-r-code-without-sharing-r-code" class="level2">
+<h2 class="anchored" data-anchor-id="sharing-r-code-without-sharing-r-code">Sharing R code without sharing R code</h2>
+<p>Chairs: Sharing R code without sharing R code</p>
+<section id="proposal" class="level3">
+<h3 class="anchored" data-anchor-id="proposal">Proposal</h3>
+<p>You created a small shiny application for your colleagues in a small team (2-5 people), that application is now getting extensive usage with more than 20, 30 or even 300 users. How do you go about scaling up your application? We want to hear from other users’ experience in creating long lived R based workflows. This can be anything from small snippets of code that started off as scripts that can be sequestered into R packages that are idiomatic to commonly used R interfaces to cater to a wider audience. Shiny apps that are doing computationally heavy tasks with multiple users that require you to think about scalability, fault tolerance, and complexity.</p>
+</section>
+<section id="expected-impact" class="level3">
+<h3 class="anchored" data-anchor-id="expected-impact">Expected impact</h3>
+<p>Sharing how others have made their R code into something that is much more user friendly or easier to contribute to. Code that readily interfaces with prior frameworks like tidyverse or scales easily. Other R users can navigate the trade-offs around consistency and scalability. Make informed decisions when writing R code taking into account future necessities such as validation requirements or maintainability.</p>
+<p><a href="https://github.com/rinpharma/rinpharma-summit-2024/discussions/16">Productionalizing R code · rinpharma rinpharma-summit-2024 · Discussion #16</a></p>
+<p>In the discussion, it was noted this was a common problem where an app grows into something bigger organically, and Nitesh flagged some connection to the topic of wanting to share R functions without sharing the R code.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We are waiting on content from Rohan and Min. Once recieved this page will be updated.</p>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>OS</category>
+  <category>R</category>
+  <category>Products</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</guid>
+  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AI opportunities</title>
+  <dc:creator>Vincent Shen</dc:creator>
+  <dc:creator>Melanie Hullings</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2024-ai.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="ai-opportunities" class="level1">
+<h1>AI opportunities</h1>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2024</h2>
+<section id="llmsaaai-opportunities" class="level3">
+<h3 class="anchored" data-anchor-id="llmsaaai-opportunities">LLMs/AA/AI opportunities?</h3>
+<p>Chairs: Vincent Shen and Melanie Hullings</p>
+</section>
+<section id="current-ai-usage-and-adoption" class="level3">
+<h3 class="anchored" data-anchor-id="current-ai-usage-and-adoption">1. Current AI Usage and Adoption</h3>
+<ul>
+<li><strong>Academia</strong>:
+<ul>
+<li>Cautious approach with AI project review committees and approvals</li>
+<li>Concern on safety safety, trust, and legal implications</li>
+<li>Challenges in education, balancing AI use without it becoming a crutch</li>
+</ul></li>
+<li><strong>Pharma</strong>:
+<ul>
+<li>Varying levels of adoption across companies</li>
+<li>Legal and trust issues often limiting factor</li>
+<li>Emphasis on human-in-the-loop approaches</li>
+<li>Some companies offer a wide range of AI tools and models</li>
+</ul></li>
+<li><strong>Smaller Pharma/Biotech</strong>:
+<ul>
+<li>More open to AI and developing custom tools</li>
+<li>Applications in genomics data querying, report generation, and biological discovery</li>
+</ul></li>
+</ul>
+</section>
+<section id="specific-use-cases-and-tools" class="level3">
+<h3 class="anchored" data-anchor-id="specific-use-cases-and-tools">2. Specific Use Cases and Tools</h3>
+<ul>
+<li>Writing a first draft that is then reviewed by human experts</li>
+<li>DSUR report generation automation</li>
+<li>Querying public databases and grant-writing assistance</li>
+<li>Code conversion (e.g., R to Python)</li>
+<li>Tools mentioned: Copilot, rtutor, Chattr</li>
+<li>Fine-tuning of open-source models for specific tasks (e.g., R package chatbot)</li>
+<li>Prototypes of AI agents for data analysis</li>
+<li>Manufacturing use case: API access to all kinds of GenAI models / RAG-based application to search from historic logs on certain process</li>
+<li>LLM/GenAI for drug discovery (on genetic structures)</li>
+</ul>
+</section>
+<section id="challenges-and-limitations" class="level3">
+<h3 class="anchored" data-anchor-id="challenges-and-limitations">3. Challenges and Limitations</h3>
+<ul>
+<li>Legal and regulatory concerns, including new EU law with assigned risk levels</li>
+<li>Resistance to using clinical data with LLMs</li>
+<li>Hosting issues for AI models and applications</li>
+<li>Need for better tools in data processing and manipulation</li>
+<li>Potential dangers of using AI without understanding the underlying processes</li>
+</ul>
+</section>
+<section id="implementation-and-cultural-shifts" class="level3">
+<h3 class="anchored" data-anchor-id="implementation-and-cultural-shifts">4. Implementation and Cultural Shifts</h3>
+<ul>
+<li>Need for workforce training on responsible AI use</li>
+<li>Varying levels of AI adoption across companies require guides and training</li>
+<li>Importance of leadership support, IT infrastructure, and legal guidance</li>
+<li>Need for standardization and policies (e.g., documentation of AI-generated code)</li>
+</ul>
+</section>
+<section id="opportunities-and-benefits" class="level3">
+<h3 class="anchored" data-anchor-id="opportunities-and-benefits">5. Opportunities and Benefits</h3>
+<ul>
+<li>Time-saving potential, especially for those with basic programming knowledge</li>
+<li>Knowledge management improvements</li>
+<li>Potential for automating routine tasks and reports</li>
+<li>Use of RAG (Retrieval-Augmented Generation) for various applications</li>
+</ul>
+</section>
+<section id="future-of-statistical-programming" class="level3">
+<h3 class="anchored" data-anchor-id="future-of-statistical-programming">6. Future of Statistical Programming</h3>
+<ul>
+<li>Main benefit of AI is increased efficiency in programming tasks</li>
+<li>Leadership questioning the impact on workforce size and composition</li>
+<li>Current stage: Proof of concept tools, full impact still uncertain</li>
+<li>Evolution of programmer roles:
+<ul>
+<li>Shift from coding from scratch to code review and oversight</li>
+<li>Expansion into new areas within clinical data analysis domain</li>
+<li>Transition from coding to solution architecture</li>
+</ul></li>
+<li>Need to redefine essential aspects of the AP (Analysis Programmer) role as tasks become automated</li>
+<li>Statistical Programmer job will evolve but not be eliminated</li>
+<li>Increased efficiency allows for focus on more complex analytical tasks</li>
+</ul>
+</section>
+<section id="ai-model-development-and-evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="ai-model-development-and-evaluation">7. AI Model Development and Evaluation</h3>
+<ul>
+<li>Transition from general GPT models to fine-tuned, domain-specific models</li>
+<li>Distinct approaches needed for coding vs.&nbsp;RAG/document tasks</li>
+<li>Importance of evaluating RAG effectiveness, potentially using LLMs for this purpose</li>
+</ul>
+</section>
+<section id="next-steps" class="level3">
+<h3 class="anchored" data-anchor-id="next-steps">Next Steps</h3>
+<ol type="1">
+<li><strong>Establish AI&lt;&gt;R Working Group</strong>
+<ul>
+<li>Goal would be to develop an open-source R package bot but would need to figure out how to fine-tune, host, collaborate, etc.</li>
+<li>Address model storage and deployment challenges</li>
+</ul></li>
+<li><strong>Enhance Education and Standardization</strong>
+<ul>
+<li>Create guidelines for responsible AI use in statistical programming</li>
+<li>Develop industry-wide best practices and policies</li>
+</ul></li>
+<li><strong>Advance Use Cases and Infrastructure</strong>
+<ul>
+<li>Validate AI tools for specific tasks (e.g., DSUR report generation)</li>
+<li>Develop secure frameworks for AI use with clinical data</li>
+</ul></li>
+<li><strong>Redefine Roles and Processes</strong>
+<ul>
+<li>Analyze impact of AI on statistical programming roles</li>
+<li>Integrate AI into workflows while maintaining human oversight</li>
+</ul></li>
+<li><strong>Improve Knowledge Management and Collaboration</strong>
+<ul>
+<li>Implement systems for sharing AI solutions across organizations</li>
+<li>Foster partnerships for developing industry-specific AI models</li>
+</ul></li>
+<li><strong>Develop AI Evaluation Methods</strong>
+<ul>
+<li>Create standardized processes for QC of AI outputs</li>
+<li>Improve methods for assessing AI-generated code quality</li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2023</h2>
+<section id="llmsaaai-opportunities-1" class="level3">
+<h3 class="anchored" data-anchor-id="llmsaaai-opportunities-1">LLMs/AA/AI opportunities?</h3>
+<p>Chairs: Paulo Bargo &amp; Ning Leng</p>
+</section>
+<section id="question" class="level3">
+<h3 class="anchored" data-anchor-id="question">Question</h3>
+<p>What should we be doing to leverage advances in LLMs/AA/AI impact? (at the drug development through to developer efficiency levels)</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Missing notes
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Content is still coming, an email will be shared once the site is complete.</p>
+</div>
+</div>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <category>AI</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2024-ai.html</guid>
+  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Can we validate shiny?</title>
+  <dc:creator>James Black</dc:creator>
+  <dc:creator>Harvey Lieberman</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2024-shiny-validation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="validate-shiny" class="level1">
+<h1>Validate shiny?</h1>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2024</h2>
+<p>Chairs: Devin Pastoor and Ellis Hughes</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We are waiting on content from our 2024 chairs. It will be added here when they reply.</p>
+</div>
+</div>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2023</h2>
+<p>Chairs: James Black and Harvey Lieberman</p>
+<section id="question" class="level3">
+<h3 class="anchored" data-anchor-id="question">Question</h3>
+<p>We have a path to R package validation - but what about shiny apps? In what context would validation become relevant to shiny app code, and how can we get ahead of this topic to pave a way forward for interactive CSRs?</p>
+</section>
+<section id="topics-discussed" class="level3">
+<h3 class="anchored" data-anchor-id="topics-discussed">Topics discussed</h3>
+<section id="do-we-need-to-validate" class="level4">
+<h4 class="anchored" data-anchor-id="do-we-need-to-validate">Do we need to validate?</h4>
+<ul>
+<li>Tiered approach / decision tree
+<ul>
+<li>Lowest is made by study team for study team. 2nd level is risk is unsupervised use, or specific contexts - e.g.&nbsp;making an app for dosing or safety. 3rd would be shiny CSR.</li>
+<li>Is the results going directly from the app into a submission?</li>
+<li>Don’t validate a shiny app - validate the static functions in the R packages. CSV may not be relevant for UIs (vs static R packages)</li>
+</ul></li>
+</ul>
+</section>
+<section id="what-are-we-testing-and-why" class="level4">
+<h4 class="anchored" data-anchor-id="what-are-we-testing-and-why">What are we Testing and Why?</h4>
+<p>There is a clear difference of opinion throughout the industry, often led by quality groups. Some companies validate shiny apps as if they were distinct pieces of software, using their internal software validation procedures. These processes are often outdated and unsuitable, requiring timestamped user-testing and screen captures.</p>
+<p>Other companies solely consider packages, not even validating shiny apps, but validating just the logic. The group discussed a preferred way of working – separating the logic and the UI.</p>
+<p>This brings up the question – <strong>do we really need to validate shiny apps? Can we just validate the logic?</strong></p>
+</section>
+<section id="who-does-the-testing" class="level4">
+<h4 class="anchored" data-anchor-id="who-does-the-testing">Who Does the Testing?</h4>
+<p>Again, there is some difference between companies in who does the testing. Generally, the developer writes the tests but tests are performed either by the business or by the quality group.</p>
+</section>
+<section id="use-of-automation" class="level4">
+<h4 class="anchored" data-anchor-id="use-of-automation">Use of Automation</h4>
+<p>Question posed to people present around the table: Does your company’s validation system allow for automation? Answers from the table: 8 companies = yes, 2 companies = no. Another 4 companies = no (offered by consultant who works with Pharma companies). Clearly a range of capabilities across the industry.</p>
+<p>From an automation perspective, the Pharma industry is very far behind the technology industry. Technology codebases tend to be far more complex but they are also automated. Can we learn from their platforms and apply their processes to validating shiny apps? Tools such as {shinytest2} are daunting to use. Can they be made more user friendly? There have been some steps to help automate these tasks – eg {shinyvalidator} but more work is needed in this area.</p>
+<p>It’s very challenging to validate a reactive graph. Automated processes have the ability to detect changes in a single pixel – is this desirable or undesirable?</p>
+</section>
+<section id="types-of-testing" class="level4">
+<h4 class="anchored" data-anchor-id="types-of-testing">Types of Testing</h4>
+<p>There is a clear difference across companies in opinions as to the amount of unit testing vs UAT and end-user testing. Unit tests are easy to write but are do not demonstrate how an app works. {shinytest2} can be used for end-user testing but, as mentioned above, may be daunting to use, may not be acceptable within a quality organization and may not fit in current work practices.</p>
+<p>Unit tests are generally written as code is written. They are fast to write and fast to execute. End-to-end tests, however, are written once code is complete and tend to be slow to execute.</p>
+</section>
+<section id="robust-uis" class="level4">
+<h4 class="anchored" data-anchor-id="robust-uis">Robust UIs?</h4>
+<ul>
+<li>Good to have unit tests - often manual testing. Automated can easily get messed up as the code evolves.</li>
+<li>We should use the git flow - e.g.&nbsp;protect master and disable manual deployments</li>
+<li>Show or download R code is perfect for reproducibility → e.g.&nbsp;show code button
+<ul>
+<li>But then need to actually run that in a prod batch run</li>
+<li>this use can case skip validation as code is run as study code</li>
+</ul></li>
+<li>Some cases where you don’t want to export and run code → e.g.&nbsp;output used directly for decision making are coming</li>
+<li>How to handle risk of UI problems if our focus is on the static code - e.g.&nbsp;misnamed reactive values so wrong values being shown, even if static R packages giving correct results.</li>
+<li>Risk based is really important - e.g.&nbsp;for something like dark mode breaking, we need to know what requirements are high risk (e.g.&nbsp;table is correct) vs low risk (e.g.&nbsp;dark mode button)</li>
+</ul>
+</section>
+<section id="ideas-to-improve-the-process" class="level4">
+<h4 class="anchored" data-anchor-id="ideas-to-improve-the-process">Ideas to improve the process</h4>
+<ul>
+<li>Validation tests as text files (ATDD/BDD from software engineering).<br>
+</li>
+<li>Frame in <a href="https://www.guru99.com/gherkin-test-cucumber.html">Gherkin format</a> plus package of fixtures</li>
+<li>Contribute test code to public packages</li>
+<li>When companies write extra tests, make a PR to add them to the actual package test suite and get others in the community to review and comment</li>
+<li>Extend to more than tests – documentation, etc.</li>
+<li>We need clarity around packages used in submissions.</li>
+<li>Would big Pharma be willing to list all packages that pass their internal risk-assessment and share? Also share why they pass/fail a risk-assessment?</li>
+<li>Validating shiny apps – can we share some cross-industry experience?</li>
+<li>QA vs validation. At what stage should I worry about validation?
+<ul>
+<li>Can we talk to QA departments / QA senior leadership to get them to write up their thoughts / requirements? Ask “How can we make your job easier?”<br>
+</li>
+</ul></li>
+<li>Should we include QA and more IT at next year’s summit?</li>
+</ul>
+</section>
+<section id="actions" class="level4">
+<h4 class="anchored" data-anchor-id="actions">Actions</h4>
+<ul>
+<li>Can we share some common high level guidance on stratifying risk in shiny shared across companies? (Pfizer has written this already internally).</li>
+<li>Discuss if we should have an extension of R package whitepaper to cover shiny?</li>
+</ul>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<i class="fa-solid fa-list" aria-label="list"></i>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Establish a CSR working group (first talk to Shiny submissions working group to establish overlap?)</li>
+</ul>
+</div>
+</div>
+
+
+</section>
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Shiny</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2024-shiny-validation.html</guid>
   <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -296,522 +738,6 @@
   <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Sharing R code without sharing R code</title>
-  <dc:creator>Rohan Parmar</dc:creator>
-  <dc:creator>Min Lee</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="sharing-r-code-without-sharing-r-code" class="level2">
-<h2 class="anchored" data-anchor-id="sharing-r-code-without-sharing-r-code">Sharing R code without sharing R code</h2>
-<p>Chairs: Sharing R code without sharing R code</p>
-<section id="proposal" class="level3">
-<h3 class="anchored" data-anchor-id="proposal">Proposal</h3>
-<p>You created a small shiny application for your colleagues in a small team (2-5 people), that application is now getting extensive usage with more than 20, 30 or even 300 users. How do you go about scaling up your application? We want to hear from other users’ experience in creating long lived R based workflows. This can be anything from small snippets of code that started off as scripts that can be sequestered into R packages that are idiomatic to commonly used R interfaces to cater to a wider audience. Shiny apps that are doing computationally heavy tasks with multiple users that require you to think about scalability, fault tolerance, and complexity.</p>
-</section>
-<section id="expected-impact" class="level3">
-<h3 class="anchored" data-anchor-id="expected-impact">Expected impact</h3>
-<p>Sharing how others have made their R code into something that is much more user friendly or easier to contribute to. Code that readily interfaces with prior frameworks like tidyverse or scales easily. Other R users can navigate the trade-offs around consistency and scalability. Make informed decisions when writing R code taking into account future necessities such as validation requirements or maintainability.</p>
-<p><a href="https://github.com/rinpharma/rinpharma-summit-2024/discussions/16">Productionalizing R code · rinpharma rinpharma-summit-2024 · Discussion #16</a></p>
-<p>In the discussion, it was noted this was a common problem where an app grows into something bigger organically, and Nitesh flagged some connection to the topic of wanting to share R functions without sharing the R code.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>We are waiting on content from Rohan and Min. Once recieved this page will be updated.</p>
-</div>
-</div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>OS</category>
-  <category>R</category>
-  <category>Products</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</guid>
-  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Can we validate shiny?</title>
-  <dc:creator>James Black</dc:creator>
-  <dc:creator>Harvey Lieberman</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2024-shiny-validation.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="validate-shiny" class="level1">
-<h1>Validate shiny?</h1>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2024</h2>
-<p>Chairs: Devin Pastoor and Ellis Hughes</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>We are waiting on content from our 2024 chairs. It will be added here when they reply.</p>
-</div>
-</div>
-</section>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1">2023</h2>
-<p>Chairs: James Black and Harvey Lieberman</p>
-<section id="question" class="level3">
-<h3 class="anchored" data-anchor-id="question">Question</h3>
-<p>We have a path to R package validation - but what about shiny apps? In what context would validation become relevant to shiny app code, and how can we get ahead of this topic to pave a way forward for interactive CSRs?</p>
-</section>
-<section id="topics-discussed" class="level3">
-<h3 class="anchored" data-anchor-id="topics-discussed">Topics discussed</h3>
-<section id="do-we-need-to-validate" class="level4">
-<h4 class="anchored" data-anchor-id="do-we-need-to-validate">Do we need to validate?</h4>
-<ul>
-<li>Tiered approach / decision tree
-<ul>
-<li>Lowest is made by study team for study team. 2nd level is risk is unsupervised use, or specific contexts - e.g.&nbsp;making an app for dosing or safety. 3rd would be shiny CSR.</li>
-<li>Is the results going directly from the app into a submission?</li>
-<li>Don’t validate a shiny app - validate the static functions in the R packages. CSV may not be relevant for UIs (vs static R packages)</li>
-</ul></li>
-</ul>
-</section>
-<section id="what-are-we-testing-and-why" class="level4">
-<h4 class="anchored" data-anchor-id="what-are-we-testing-and-why">What are we Testing and Why?</h4>
-<p>There is a clear difference of opinion throughout the industry, often led by quality groups. Some companies validate shiny apps as if they were distinct pieces of software, using their internal software validation procedures. These processes are often outdated and unsuitable, requiring timestamped user-testing and screen captures.</p>
-<p>Other companies solely consider packages, not even validating shiny apps, but validating just the logic. The group discussed a preferred way of working – separating the logic and the UI.</p>
-<p>This brings up the question – <strong>do we really need to validate shiny apps? Can we just validate the logic?</strong></p>
-</section>
-<section id="who-does-the-testing" class="level4">
-<h4 class="anchored" data-anchor-id="who-does-the-testing">Who Does the Testing?</h4>
-<p>Again, there is some difference between companies in who does the testing. Generally, the developer writes the tests but tests are performed either by the business or by the quality group.</p>
-</section>
-<section id="use-of-automation" class="level4">
-<h4 class="anchored" data-anchor-id="use-of-automation">Use of Automation</h4>
-<p>Question posed to people present around the table: Does your company’s validation system allow for automation? Answers from the table: 8 companies = yes, 2 companies = no. Another 4 companies = no (offered by consultant who works with Pharma companies). Clearly a range of capabilities across the industry.</p>
-<p>From an automation perspective, the Pharma industry is very far behind the technology industry. Technology codebases tend to be far more complex but they are also automated. Can we learn from their platforms and apply their processes to validating shiny apps? Tools such as {shinytest2} are daunting to use. Can they be made more user friendly? There have been some steps to help automate these tasks – eg {shinyvalidator} but more work is needed in this area.</p>
-<p>It’s very challenging to validate a reactive graph. Automated processes have the ability to detect changes in a single pixel – is this desirable or undesirable?</p>
-</section>
-<section id="types-of-testing" class="level4">
-<h4 class="anchored" data-anchor-id="types-of-testing">Types of Testing</h4>
-<p>There is a clear difference across companies in opinions as to the amount of unit testing vs UAT and end-user testing. Unit tests are easy to write but are do not demonstrate how an app works. {shinytest2} can be used for end-user testing but, as mentioned above, may be daunting to use, may not be acceptable within a quality organization and may not fit in current work practices.</p>
-<p>Unit tests are generally written as code is written. They are fast to write and fast to execute. End-to-end tests, however, are written once code is complete and tend to be slow to execute.</p>
-</section>
-<section id="robust-uis" class="level4">
-<h4 class="anchored" data-anchor-id="robust-uis">Robust UIs?</h4>
-<ul>
-<li>Good to have unit tests - often manual testing. Automated can easily get messed up as the code evolves.</li>
-<li>We should use the git flow - e.g.&nbsp;protect master and disable manual deployments</li>
-<li>Show or download R code is perfect for reproducibility → e.g.&nbsp;show code button
-<ul>
-<li>But then need to actually run that in a prod batch run</li>
-<li>this use can case skip validation as code is run as study code</li>
-</ul></li>
-<li>Some cases where you don’t want to export and run code → e.g.&nbsp;output used directly for decision making are coming</li>
-<li>How to handle risk of UI problems if our focus is on the static code - e.g.&nbsp;misnamed reactive values so wrong values being shown, even if static R packages giving correct results.</li>
-<li>Risk based is really important - e.g.&nbsp;for something like dark mode breaking, we need to know what requirements are high risk (e.g.&nbsp;table is correct) vs low risk (e.g.&nbsp;dark mode button)</li>
-</ul>
-</section>
-<section id="ideas-to-improve-the-process" class="level4">
-<h4 class="anchored" data-anchor-id="ideas-to-improve-the-process">Ideas to improve the process</h4>
-<ul>
-<li>Validation tests as text files (ATDD/BDD from software engineering).<br>
-</li>
-<li>Frame in <a href="https://www.guru99.com/gherkin-test-cucumber.html">Gherkin format</a> plus package of fixtures</li>
-<li>Contribute test code to public packages</li>
-<li>When companies write extra tests, make a PR to add them to the actual package test suite and get others in the community to review and comment</li>
-<li>Extend to more than tests – documentation, etc.</li>
-<li>We need clarity around packages used in submissions.</li>
-<li>Would big Pharma be willing to list all packages that pass their internal risk-assessment and share? Also share why they pass/fail a risk-assessment?</li>
-<li>Validating shiny apps – can we share some cross-industry experience?</li>
-<li>QA vs validation. At what stage should I worry about validation?
-<ul>
-<li>Can we talk to QA departments / QA senior leadership to get them to write up their thoughts / requirements? Ask “How can we make your job easier?”<br>
-</li>
-</ul></li>
-<li>Should we include QA and more IT at next year’s summit?</li>
-</ul>
-</section>
-<section id="actions" class="level4">
-<h4 class="anchored" data-anchor-id="actions">Actions</h4>
-<ul>
-<li>Can we share some common high level guidance on stratifying risk in shiny shared across companies? (Pfizer has written this already internally).</li>
-<li>Discuss if we should have an extension of R package whitepaper to cover shiny?</li>
-</ul>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<i class="fa-solid fa-list" aria-label="list"></i>
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Establish a CSR working group (first talk to Shiny submissions working group to establish overlap?)</li>
-</ul>
-</div>
-</div>
-
-
-</section>
-</section>
-</section>
-</section>
-
- ]]></description>
-  <category>R</category>
-  <category>Shiny</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2024-shiny-validation.html</guid>
-  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Small to mid Pharma in an post-SAS world</title>
-  <dc:creator>Katie Igartua</dc:creator>
-  <dc:creator>Kas Yousefi</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="smallmid-pharma-os" class="level2">
-<h2 class="anchored" data-anchor-id="smallmid-pharma-os">Small/mid pharma &amp; OS</h2>
-<p>Chair: Katie Igartua and Kas Yousefi</p>
-<section id="proposal" class="level3">
-<h3 class="anchored" data-anchor-id="proposal">Proposal</h3>
-<p>A pressing topic I think we should discuss is how best to engage and enable small/mid-sized pharma to use open source Ecosystems.</p>
-<p>It can be sometimes overwhelming and would be helpful to have an idea where to start to join the open source journey and utilize the resources and approaches already available.</p>
-<p>Some questions:</p>
-<ol type="1">
-<li>How to go about setting up an open source Environment? What are the hurdles? How can the crowd-sourced groups help?</li>
-<li>Could small pharma use R for IB/DSUR? Does this need to be in a validated environment?</li>
-<li>How do other small pharma companies uses open-source environments? and what would be areas for collaboration?</li>
-</ol>
-</section>
-<section id="expected-impact" class="level3">
-<h3 class="anchored" data-anchor-id="expected-impact">Expected impact</h3>
-<p>I believe this topic would be a benefit because small pharma often needs to be innovative, but due to resource limits may rely on traditional approaches and heavily rely on CROs. Having stronger small pharma presence could help in new resources and approaches for open-sourced solutions</p>
-</section>
-<section id="prior-discussionswork" class="level3">
-<h3 class="anchored" data-anchor-id="prior-discussionswork">Prior discussions/work</h3>
-<p>Some prior work includes……</p>
-<ul>
-<li>BBSW Panel Discussion for Open Source Tools in Small/mid sized pharma</li>
-<li><a href="https://github.com/rinpharma/rinpharma-summit-2024/discussions/17">How best to engage and enable small/mid-size pharma to use open source tools · rinpharma rinpharma-summit-2024 · Discussion #17</a></li>
-</ul>
-</section>
-</section>
-<section id="round-table" class="level1">
-<h1>Round table</h1>
-<ul>
-<li>Open sourcing adoption/contribution barrier
-<ul>
-<li>risk taking when you only have one product</li>
-<li>cost: small companies often fully outsource regulatory work to CROs, hard to justify additional investment on infra or open source work for non regulatory tasks</li>
-<li>IT resource: posit installation for small pharma - small company may not have the right in house IT talent to even get posit running</li>
-<li>Are you ready to be a shiny dev ops person &amp; R admin?</li>
-</ul></li>
-<li>What are use cases to use open source? mainly in non validated env
-<ul>
-<li>data review, monitoring, visualization, patient profile, DSUR</li>
-<li>IDCC uses shiny for IDMC close sessions (instead of long pdf)</li>
-</ul></li>
-<li>Asks to the community
-<ul>
-<li>can large pharma open source their infra config? such as AMS yaml file?
-<ul>
-<li>from the perspective at the intersection of IT, DS, stat</li>
-</ul></li>
-<li>what about a “single” opinionated workflow (pharmaverse is seen more as a comprehensive tool box)
-<ul>
-<li>from an independent body such as r consortium?</li>
-<li>or can individual big pharma publish the whole workflow</li>
-</ul></li>
-</ul></li>
-<li>GxP set up: timing tradeoff - is it good to set up early or late? setting up early can put on restrictions that is hard to change later. balance of flexibility, best practice and cost</li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <category>R</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</guid>
-  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>AI opportunities</title>
-  <dc:creator>Vincent Shen</dc:creator>
-  <dc:creator>Melanie Hullings</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2024-ai.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="ai-opportunities" class="level1">
-<h1>AI opportunities</h1>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2024</h2>
-<section id="llmsaaai-opportunities" class="level3">
-<h3 class="anchored" data-anchor-id="llmsaaai-opportunities">LLMs/AA/AI opportunities?</h3>
-<p>Chairs: Vincent Shen and Melanie Hullings</p>
-</section>
-<section id="current-ai-usage-and-adoption" class="level3">
-<h3 class="anchored" data-anchor-id="current-ai-usage-and-adoption">1. Current AI Usage and Adoption</h3>
-<ul>
-<li><strong>Academia</strong>:
-<ul>
-<li>Cautious approach with AI project review committees and approvals</li>
-<li>Concern on safety safety, trust, and legal implications</li>
-<li>Challenges in education, balancing AI use without it becoming a crutch</li>
-</ul></li>
-<li><strong>Pharma</strong>:
-<ul>
-<li>Varying levels of adoption across companies</li>
-<li>Legal and trust issues often limiting factor</li>
-<li>Emphasis on human-in-the-loop approaches</li>
-<li>Some companies offer a wide range of AI tools and models</li>
-</ul></li>
-<li><strong>Smaller Pharma/Biotech</strong>:
-<ul>
-<li>More open to AI and developing custom tools</li>
-<li>Applications in genomics data querying, report generation, and biological discovery</li>
-</ul></li>
-</ul>
-</section>
-<section id="specific-use-cases-and-tools" class="level3">
-<h3 class="anchored" data-anchor-id="specific-use-cases-and-tools">2. Specific Use Cases and Tools</h3>
-<ul>
-<li>Writing a first draft that is then reviewed by human experts</li>
-<li>DSUR report generation automation</li>
-<li>Querying public databases and grant-writing assistance</li>
-<li>Code conversion (e.g., R to Python)</li>
-<li>Tools mentioned: Copilot, rtutor, Chattr</li>
-<li>Fine-tuning of open-source models for specific tasks (e.g., R package chatbot)</li>
-<li>Prototypes of AI agents for data analysis</li>
-<li>Manufacturing use case: API access to all kinds of GenAI models / RAG-based application to search from historic logs on certain process</li>
-<li>LLM/GenAI for drug discovery (on genetic structures)</li>
-</ul>
-</section>
-<section id="challenges-and-limitations" class="level3">
-<h3 class="anchored" data-anchor-id="challenges-and-limitations">3. Challenges and Limitations</h3>
-<ul>
-<li>Legal and regulatory concerns, including new EU law with assigned risk levels</li>
-<li>Resistance to using clinical data with LLMs</li>
-<li>Hosting issues for AI models and applications</li>
-<li>Need for better tools in data processing and manipulation</li>
-<li>Potential dangers of using AI without understanding the underlying processes</li>
-</ul>
-</section>
-<section id="implementation-and-cultural-shifts" class="level3">
-<h3 class="anchored" data-anchor-id="implementation-and-cultural-shifts">4. Implementation and Cultural Shifts</h3>
-<ul>
-<li>Need for workforce training on responsible AI use</li>
-<li>Varying levels of AI adoption across companies require guides and training</li>
-<li>Importance of leadership support, IT infrastructure, and legal guidance</li>
-<li>Need for standardization and policies (e.g., documentation of AI-generated code)</li>
-</ul>
-</section>
-<section id="opportunities-and-benefits" class="level3">
-<h3 class="anchored" data-anchor-id="opportunities-and-benefits">5. Opportunities and Benefits</h3>
-<ul>
-<li>Time-saving potential, especially for those with basic programming knowledge</li>
-<li>Knowledge management improvements</li>
-<li>Potential for automating routine tasks and reports</li>
-<li>Use of RAG (Retrieval-Augmented Generation) for various applications</li>
-</ul>
-</section>
-<section id="future-of-statistical-programming" class="level3">
-<h3 class="anchored" data-anchor-id="future-of-statistical-programming">6. Future of Statistical Programming</h3>
-<ul>
-<li>Main benefit of AI is increased efficiency in programming tasks</li>
-<li>Leadership questioning the impact on workforce size and composition</li>
-<li>Current stage: Proof of concept tools, full impact still uncertain</li>
-<li>Evolution of programmer roles:
-<ul>
-<li>Shift from coding from scratch to code review and oversight</li>
-<li>Expansion into new areas within clinical data analysis domain</li>
-<li>Transition from coding to solution architecture</li>
-</ul></li>
-<li>Need to redefine essential aspects of the AP (Analysis Programmer) role as tasks become automated</li>
-<li>Statistical Programmer job will evolve but not be eliminated</li>
-<li>Increased efficiency allows for focus on more complex analytical tasks</li>
-</ul>
-</section>
-<section id="ai-model-development-and-evaluation" class="level3">
-<h3 class="anchored" data-anchor-id="ai-model-development-and-evaluation">7. AI Model Development and Evaluation</h3>
-<ul>
-<li>Transition from general GPT models to fine-tuned, domain-specific models</li>
-<li>Distinct approaches needed for coding vs.&nbsp;RAG/document tasks</li>
-<li>Importance of evaluating RAG effectiveness, potentially using LLMs for this purpose</li>
-</ul>
-</section>
-<section id="next-steps" class="level3">
-<h3 class="anchored" data-anchor-id="next-steps">Next Steps</h3>
-<ol type="1">
-<li><strong>Establish AI&lt;&gt;R Working Group</strong>
-<ul>
-<li>Goal would be to develop an open-source R package bot but would need to figure out how to fine-tune, host, collaborate, etc.</li>
-<li>Address model storage and deployment challenges</li>
-</ul></li>
-<li><strong>Enhance Education and Standardization</strong>
-<ul>
-<li>Create guidelines for responsible AI use in statistical programming</li>
-<li>Develop industry-wide best practices and policies</li>
-</ul></li>
-<li><strong>Advance Use Cases and Infrastructure</strong>
-<ul>
-<li>Validate AI tools for specific tasks (e.g., DSUR report generation)</li>
-<li>Develop secure frameworks for AI use with clinical data</li>
-</ul></li>
-<li><strong>Redefine Roles and Processes</strong>
-<ul>
-<li>Analyze impact of AI on statistical programming roles</li>
-<li>Integrate AI into workflows while maintaining human oversight</li>
-</ul></li>
-<li><strong>Improve Knowledge Management and Collaboration</strong>
-<ul>
-<li>Implement systems for sharing AI solutions across organizations</li>
-<li>Foster partnerships for developing industry-specific AI models</li>
-</ul></li>
-<li><strong>Develop AI Evaluation Methods</strong>
-<ul>
-<li>Create standardized processes for QC of AI outputs</li>
-<li>Improve methods for assessing AI-generated code quality</li>
-</ul></li>
-</ol>
-</section>
-</section>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1">2023</h2>
-<section id="llmsaaai-opportunities-1" class="level3">
-<h3 class="anchored" data-anchor-id="llmsaaai-opportunities-1">LLMs/AA/AI opportunities?</h3>
-<p>Chairs: Paulo Bargo &amp; Ning Leng</p>
-</section>
-<section id="question" class="level3">
-<h3 class="anchored" data-anchor-id="question">Question</h3>
-<p>What should we be doing to leverage advances in LLMs/AA/AI impact? (at the drug development through to developer efficiency levels)</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Missing notes
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Content is still coming, an email will be shared once the site is complete.</p>
-</div>
-</div>
-
-
-</section>
-</section>
-</section>
-
- ]]></description>
-  <category>AI</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2024-ai.html</guid>
-  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Interactive CSR</title>
-  <dc:creator>Ning Ling</dc:creator>
-  <dc:creator>Phil Bowsher</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-interactive-csr.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="interactive-csr" class="level1">
-<h1>Interactive CSR</h1>
-<p>Chairs: Ning Leng and Phil Bowsher</p>
-</section>
-<section id="question" class="level1">
-<h1>Question</h1>
-<p>If we assume it’s technically possible to transfer - what would it mean to give an interactive CSR? How would primary, secondary and ad-hoc analysis be viewed? Would views change depending on role (e.g.&nbsp;sponsor, statistical reviewer, clinical reviewer)?</p>
-</section>
-<section id="why" class="level1">
-<h1>Why?</h1>
-<p>The current process of CSR generation and review involves generating large amounts of tables and plots. In such scenarios, we believe an interactive application would provide a more efficient method to explore both primary and secondary analysis results.</p>
-</section>
-<section id="barriers" class="level1">
-<h1>Barriers</h1>
-<ul>
-<li>Internally
-<ul>
-<li>Most companies have a highly process driven to medical writing, where any change is difficult to implement</li>
-</ul></li>
-<li>External / FDA
-<ul>
-<li>Concern of encouraging data fishing, if controls on for instance subgroup analysis are not in place?</li>
-<li>Need cross industry harmonization as HA is highly unlikely to accept each pharma company submitting an interactive CSR based on a different framework</li>
-</ul></li>
-</ul>
-</section>
-<section id="requirements" class="level1">
-<h1>Requirements</h1>
-<ul>
-<li>Can an interactive CSR by default be limited to only analyses defined in the SAP, should/can exploring a wider scope be allowed with clear and explicit intent by the app user?
-<ul>
-<li>How is the ROI of interactivity in a CSR impacted if it’s limited to produce only pre-specified anlayses? Would different reviewers have different access? (e.g.&nbsp;statisticla vs clinical)</li>
-</ul></li>
-<li>There is a gap in patient profile modules and patient narratives in shiny apps</li>
-</ul>
-</section>
-<section id="path-to-the-csr" class="level1">
-<h1>Path to the CSR</h1>
-<p>There are many places where this tooling can be applied before the CSR:</p>
-<ul>
-<li>Monitoring</li>
-<li>Decision making - data in clinical science hands</li>
-<li>Efficiency boost (e.g.&nbsp;at unblinding app is on hand)</li>
-<li>CSR</li>
-</ul>
-<p>Can we define the tangible benefits? What is the ROI over different use cases? Could this allow health authorities to make less requests? How does this lead to faster reviews in tangible terms?</p>
-<p>How would access control and security work? How would this be audited? Would this be validated? How would results be archived?</p>
-<p>Can commenting be possible (as you can markup a PDF/work doc)?</p>
-<p>Existing frameworks exist - e.g.&nbsp;<code>teal</code> from NEST. ARDs may mean additional results can be pre-generated in a controlled way - but ARDs can’t further process data.</p>
-</section>
-<section id="resources" class="level1">
-<h1>Resources</h1>
-<p>Eric Nantz, from the R Submissions working group, <a href="https://rconsortium.github.io/submissions-wg/pilot2.html">which have been working with the FDA on a shiny submisson as part of pilot 2</a>:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/5TEpJruIm-Y?si=-B8yoFhrPKGw_8CP" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-
-
-</section>
-
- ]]></description>
-  <category>AI</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-interactive-csr.html</guid>
-  <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
   <title>Depending on Open Source</title>
   <dc:creator>Mike Smith</dc:creator>
   <dc:creator>Ed Lauzier</dc:creator>
@@ -889,134 +815,78 @@ Missing notes
   <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Change management</title>
-  <dc:creator>Cassie Murcray</dc:creator>
-  <dc:creator>Dror Berel</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</link>
+  <title>Interactive CSR</title>
+  <dc:creator>Ning Ling</dc:creator>
+  <dc:creator>Phil Bowsher</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2023-interactive-csr.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<section id="change-management" class="level2">
-<h2 class="anchored" data-anchor-id="change-management">Change management</h2>
+<section id="interactive-csr" class="level1">
+<h1>Interactive CSR</h1>
+<p>Chairs: Ning Leng and Phil Bowsher</p>
 </section>
-<section id="notes" class="level2">
-<h2 class="anchored" data-anchor-id="notes">2024 notes</h2>
-<p>Chairs: Cassie Murcray and Dror Berel</p>
-<section id="summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry" class="level3">
-<h3 class="anchored" data-anchor-id="summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry">Summary: Transitioning from SAS to R in the Pharmaceutical Industry</h3>
-<p>Over the past two years, there has been a significant shift in the pharmaceutical industry from SAS to R, driven by the rising costs of SAS licenses and the influx of new talent trained in R and other open-source tools. Despite these trends, the industry’s conservative nature, particularly in a highly regulated environment, often results in a reluctance to change well-established practices.</p>
-<p>As of 2024, this transition is well underway, with several companies already setting timelines for a complete migration to R. This includes replicating legacy SAS code in R for ongoing and long-term studies, as well as opting not to renew SAS licenses. While some SAS programmers find the transition to R more intuitive, others may face significant challenges.</p>
+<section id="question" class="level1">
+<h1>Question</h1>
+<p>If we assume it’s technically possible to transfer - what would it mean to give an interactive CSR? How would primary, secondary and ad-hoc analysis be viewed? Would views change depending on role (e.g.&nbsp;sponsor, statistical reviewer, clinical reviewer)?</p>
 </section>
-<section id="supporting-sas-programmers-in-transitioning-to-r" class="level3">
-<h3 class="anchored" data-anchor-id="supporting-sas-programmers-in-transitioning-to-r">Supporting SAS Programmers in Transitioning to R</h3>
-<p>To facilitate the learning process for SAS programmers, various strategies can be employed:</p>
-<ol type="1">
-<li><strong>Traditional Training and Mentorship</strong>: Programs such as Posit Academy and mentoring from experienced R programmers are essential. Large organizations often establish Centers of Excellence, where a designated “R floating buddy” mentors SAS programmers throughout the various stages of learning R. This mentorship should be conducted with patience and empathy, recognizing the challenges of adapting to a new programming language with different principles and syntax.</li>
-<li><strong>Strategic Learning Approaches</strong>:
+<section id="why" class="level1">
+<h1>Why?</h1>
+<p>The current process of CSR generation and review involves generating large amounts of tables and plots. In such scenarios, we believe an interactive application would provide a more efficient method to explore both primary and secondary analysis results.</p>
+</section>
+<section id="barriers" class="level1">
+<h1>Barriers</h1>
 <ul>
-<li><strong>Address Key Pain Points</strong>: Focus on demonstrating how specific challenges are effectively resolved with R, highlighting the value of the R-based solution, and celebrating small wins to foster continued learning.</li>
-<li><strong>Simplify the Learning Ecosystem</strong>: Introduce a simple set of R packages, such as the tidyverse, before gradually introducing more advanced concepts. Avoid overwhelming learners with multiple equivalent approaches.</li>
-<li><strong>Gradual Progression</strong>: Start with basic concepts and gradually introduce more advanced topics like version control, beginning with individual contributions and progressing to collaborative work.</li>
+<li>Internally
+<ul>
+<li>Most companies have a highly process driven to medical writing, where any change is difficult to implement</li>
 </ul></li>
-</ol>
-</section>
-<section id="managing-the-transition" class="level3">
-<h3 class="anchored" data-anchor-id="managing-the-transition">Managing the Transition</h3>
-<p>The successful shift from SAS to R requires active management by senior leadership, including clear directives, timelines, and ongoing support. It is crucial to allocate time for learning while maintaining productivity on ongoing projects.</p>
-</section>
-<section id="action-items" class="level3">
-<h3 class="anchored" data-anchor-id="action-items">Action Items</h3>
-<p>To support this transition, the following resources should be developed:</p>
+<li>External / FDA
 <ul>
-<li><strong>Cheat Sheets</strong>: Create reference guides with common code examples translated from SAS to R.</li>
-<li><strong>Cross-Tool Comparison</strong>: Develop a Comparative Analysis of Methods and Implementations in SAS, R, and Python (CAMIS) to help programmers understand the default parameters and methods used in each tool.</li>
-</ul>
-<p>This transition will not happen organically; it requires deliberate management and a structured approach to ensure successful adoption of R across the industry.</p>
-</section>
-</section>
-<section id="notes-1" class="level2">
-<h2 class="anchored" data-anchor-id="notes-1">2023 notes</h2>
-<p>Chairs: Matthew Kumar and Cassie Burns</p>
-<section id="question" class="level3">
-<h3 class="anchored" data-anchor-id="question">Question</h3>
-<p>Where are we on getting data analysts and data scientists that work with clinical data on board (in particular, those delivering CSRs and submission packages)? What are the challenges - what has been overcome?</p>
-</section>
-<section id="who-are-our-people" class="level3">
-<h3 class="anchored" data-anchor-id="who-are-our-people">Who are our people?</h3>
-<p>Prefaced both sessions by asking individuals to define the <em>our</em> in <em>our people</em>;</p>
-<ul>
-<li>Stat Programmers</li>
-<li>Statisticians</li>
-<li>Data Management</li>
-<li>Other CSR-deliverable oriented roles (e.g.&nbsp;medical and scientific writing)</li>
-<li>Management, Leadership</li>
-</ul>
-<p><strong>Theme: R Adoption and Challenges</strong></p>
-<ul>
-<li><p>The adoption of R requires varied types of commitment depending on the perspective of the stakeholders involved, notably management and employees.</p></li>
-<li><p>Leadership usually supports the adoption of R, yet, in many cases, they don’t adequately communicate or advocate its application. Common concerns include the lack of realized ROI and the perception of R as a “nice-to-have” rather than a necessity.</p></li>
-<li><p>It is not viable to mandate or compel individuals to learn R.</p></li>
-<li><p>Seasoned programmers, who prefer proprietary software, may leave the company if forced to switch.</p></li>
-<li><p>These programmers often prefer to maintain current workflows that involve proprietary tools, established macros, homegrown IDEs, etc.</p></li>
-<li><p>Some in management endorse an approach of “mandate” or “force,” while others aim to “encourage.”</p></li>
-<li><p>Experienced stat programmers cite R’s learning curve as an obstacle to transition, and some don’t see the ROI in making the switch.</p></li>
-</ul>
-<p><strong>Theme: Change Management</strong></p>
-<ul>
-<li><p>Implementing proper change management was emphasized by several attendees in both sessions.</p></li>
-<li><p>Organically, through change management, approximately 25% of experienced statistical programmers or statisticians have successfully completed R training, while the remaining 75% have shown resistance.</p></li>
-<li><p>Among the successful 25%, only 5% have applied what they’ve learned in actual study work. This is often due to time constraints related to product deliverables.</p></li>
-<li><p>Mapping the transition to R with learning and development goals is one strategy.</p></li>
-<li><p>A structured learning plan and a roadmap for R upskilling are essential. This includes trainings focused on R, particularly in the context of the pharmaceutical industry, and from a proprietary software programmer’s perspective.</p></li>
-<li><p>Identification of champions or early adopters among statistical programmers could aid in transitioning colleagues.</p></li>
-<li><p>Several companies shared their strategies for promoting community learning (e.g., bi-monthly meetings, presentations, assignments), both on a “just in time” basis and on a regular schedule.</p></li>
-<li><p>Pointing individuals to ongoing efforts and resources, such as R in Pharma, PharmaVerse, Phuse, etc., can boost awareness and participation.</p></li>
-<li><p>Granting individuals protected or dedicated time to learn and fail is recommended. An analogy used was “giving them a safe sandbox to try making a castle.”</p></li>
-<li><p>R need not be used for all tasks immediately. A more measured approach, such as starting with creating figures and then moving to more complex tasks, like AdAM programming, could better build confidence and competence.</p></li>
-<li><p>Ensuring enough transition time and clear direction (“as of X date, we’ll work in R”) is crucial.</p></li>
-<li><p>Having leadership advocacy is vital at the end of the day.</p></li>
-</ul>
-</section>
-<section id="theme-emerging-talent" class="level3">
-<h3 class="anchored" data-anchor-id="theme-emerging-talent">Theme: Emerging Talent</h3>
-<ul>
-<li><p>Newer talent is increasingly trained in open-source approaches and languages, with fewer exposed to proprietary tools.</p></li>
-<li><p>With the rise of data science as a field of study, many are less interested in joining a company for routine implementation work; they identify as “data scientists” and have been trained in markedly different ways.</p></li>
-<li><p>This affects talent attraction, development, and retention within a company.</p></li>
-<li><p>Innovation can come from new hires, justifying the need to foster their development and listen to their insights.</p></li>
-<li><p>There’s a unique opportunity for co-mentorship: new hires (proficient in R, Python, etc.) and existing staff (experts in domain knowledge, clinical trials, etc.):&nbsp;<em>how vs what/why</em></p></li>
-<li><p>There’s a need for clear “career pathing” or “trajectories” within statistical programming as roles evolve. Examples include:</p>
-<ul>
-<li>&nbsp;“Analyst” requires traditional statistical programming knowledge and training</li>
-<li>“Engineer” needs DevOps skills and a systems mindset</li>
-<li>“Tool builder” needs a software engineering mindset</li>
+<li>Concern of encouraging data fishing, if controls on for instance subgroup analysis are not in place?</li>
+<li>Need cross industry harmonization as HA is highly unlikely to accept each pharma company submitting an interactive CSR based on a different framework</li>
 </ul></li>
-<li><p>General trends suggest companies are demanding a secondary language in addition to proprietary software (not necessarily R), but knowledge of at least two languages indicates an individual could reasonably learn R.</p></li>
 </ul>
 </section>
-<section id="theme-other-points-and-considerations" class="level3">
-<h3 class="anchored" data-anchor-id="theme-other-points-and-considerations">Theme: Other Points and Considerations</h3>
+<section id="requirements" class="level1">
+<h1>Requirements</h1>
 <ul>
-<li><p>Questions to consider include:&nbsp;<em>What kind of training will people need in the future state?</em>&nbsp;<em>How should the support be arranged to enable the future state, potentially with IT and DEV involvement?</em></p></li>
-<li><p>Due to the required skillset, statistics and programming now need to work together more than ever</p></li>
-<li><p>Stakeholders seek the benefits of R (e.g., Shiny, Rmarkdown), but often lack personnel to build and maintain these assets.</p></li>
-<li><p>R and Shiny tools can be utilized in more areas beyond TLF programming such as dose decision meetings, clinical trial design, administrative tasks, and long-term-focused applications.</p></li>
-<li><p>Legacy infrastructure (e.g., virtual machines and proprietary software) can pose challenges when implementing newer approaches like R and Shiny, making the transition difficult and cumbersome.</p></li>
-<li><p>AI and GPT can be a valuable tool in transitioning to R, but won’t completely replace a programmer. It can be used to effectively explain or translate existing code or generate entirely new code.</p></li>
+<li>Can an interactive CSR by default be limited to only analyses defined in the SAP, should/can exploring a wider scope be allowed with clear and explicit intent by the app user?
+<ul>
+<li>How is the ROI of interactivity in a CSR impacted if it’s limited to produce only pre-specified anlayses? Would different reviewers have different access? (e.g.&nbsp;statisticla vs clinical)</li>
+</ul></li>
+<li>There is a gap in patient profile modules and patient narratives in shiny apps</li>
 </ul>
+</section>
+<section id="path-to-the-csr" class="level1">
+<h1>Path to the CSR</h1>
+<p>There are many places where this tooling can be applied before the CSR:</p>
+<ul>
+<li>Monitoring</li>
+<li>Decision making - data in clinical science hands</li>
+<li>Efficiency boost (e.g.&nbsp;at unblinding app is on hand)</li>
+<li>CSR</li>
+</ul>
+<p>Can we define the tangible benefits? What is the ROI over different use cases? Could this allow health authorities to make less requests? How does this lead to faster reviews in tangible terms?</p>
+<p>How would access control and security work? How would this be audited? Would this be validated? How would results be archived?</p>
+<p>Can commenting be possible (as you can markup a PDF/work doc)?</p>
+<p>Existing frameworks exist - e.g.&nbsp;<code>teal</code> from NEST. ARDs may mean additional results can be pre-generated in a controlled way - but ARDs can’t further process data.</p>
+</section>
+<section id="resources" class="level1">
+<h1>Resources</h1>
+<p>Eric Nantz, from the R Submissions working group, <a href="https://rconsortium.github.io/submissions-wg/pilot2.html">which have been working with the FDA on a shiny submisson as part of pilot 2</a>:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/5TEpJruIm-Y?si=-B8yoFhrPKGw_8CP" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
-</section>
 </section>
 
  ]]></description>
-  <category>OS</category>
-  <category>Change management</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</guid>
-  <pubDate>Sun, 17 Sep 2023 00:00:00 GMT</pubDate>
+  <category>AI</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2023-interactive-csr.html</guid>
+  <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Can we do data storage and processing better in clinical trials?</title>
@@ -1204,6 +1074,136 @@ Missing notes
  ]]></description>
   <category>OS</category>
   <guid>https://rinpharma.com/docs/summit/posts/2023-case-os.html</guid>
+  <pubDate>Sun, 17 Sep 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Change management</title>
+  <dc:creator>Cassie Murcray</dc:creator>
+  <dc:creator>Dror Berel</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="change-management" class="level2">
+<h2 class="anchored" data-anchor-id="change-management">Change management</h2>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">2024 notes</h2>
+<p>Chairs: Cassie Murcray and Dror Berel</p>
+<section id="summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry" class="level3">
+<h3 class="anchored" data-anchor-id="summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry">Summary: Transitioning from SAS to R in the Pharmaceutical Industry</h3>
+<p>Over the past two years, there has been a significant shift in the pharmaceutical industry from SAS to R, driven by the rising costs of SAS licenses and the influx of new talent trained in R and other open-source tools. Despite these trends, the industry’s conservative nature, particularly in a highly regulated environment, often results in a reluctance to change well-established practices.</p>
+<p>As of 2024, this transition is well underway, with several companies already setting timelines for a complete migration to R. This includes replicating legacy SAS code in R for ongoing and long-term studies, as well as opting not to renew SAS licenses. While some SAS programmers find the transition to R more intuitive, others may face significant challenges.</p>
+</section>
+<section id="supporting-sas-programmers-in-transitioning-to-r" class="level3">
+<h3 class="anchored" data-anchor-id="supporting-sas-programmers-in-transitioning-to-r">Supporting SAS Programmers in Transitioning to R</h3>
+<p>To facilitate the learning process for SAS programmers, various strategies can be employed:</p>
+<ol type="1">
+<li><strong>Traditional Training and Mentorship</strong>: Programs such as Posit Academy and mentoring from experienced R programmers are essential. Large organizations often establish Centers of Excellence, where a designated “R floating buddy” mentors SAS programmers throughout the various stages of learning R. This mentorship should be conducted with patience and empathy, recognizing the challenges of adapting to a new programming language with different principles and syntax.</li>
+<li><strong>Strategic Learning Approaches</strong>:
+<ul>
+<li><strong>Address Key Pain Points</strong>: Focus on demonstrating how specific challenges are effectively resolved with R, highlighting the value of the R-based solution, and celebrating small wins to foster continued learning.</li>
+<li><strong>Simplify the Learning Ecosystem</strong>: Introduce a simple set of R packages, such as the tidyverse, before gradually introducing more advanced concepts. Avoid overwhelming learners with multiple equivalent approaches.</li>
+<li><strong>Gradual Progression</strong>: Start with basic concepts and gradually introduce more advanced topics like version control, beginning with individual contributions and progressing to collaborative work.</li>
+</ul></li>
+</ol>
+</section>
+<section id="managing-the-transition" class="level3">
+<h3 class="anchored" data-anchor-id="managing-the-transition">Managing the Transition</h3>
+<p>The successful shift from SAS to R requires active management by senior leadership, including clear directives, timelines, and ongoing support. It is crucial to allocate time for learning while maintaining productivity on ongoing projects.</p>
+</section>
+<section id="action-items" class="level3">
+<h3 class="anchored" data-anchor-id="action-items">Action Items</h3>
+<p>To support this transition, the following resources should be developed:</p>
+<ul>
+<li><strong>Cheat Sheets</strong>: Create reference guides with common code examples translated from SAS to R.</li>
+<li><strong>Cross-Tool Comparison</strong>: Develop a Comparative Analysis of Methods and Implementations in SAS, R, and Python (CAMIS) to help programmers understand the default parameters and methods used in each tool.</li>
+</ul>
+<p>This transition will not happen organically; it requires deliberate management and a structured approach to ensure successful adoption of R across the industry.</p>
+</section>
+</section>
+<section id="notes-1" class="level2">
+<h2 class="anchored" data-anchor-id="notes-1">2023 notes</h2>
+<p>Chairs: Matthew Kumar and Cassie Burns</p>
+<section id="question" class="level3">
+<h3 class="anchored" data-anchor-id="question">Question</h3>
+<p>Where are we on getting data analysts and data scientists that work with clinical data on board (in particular, those delivering CSRs and submission packages)? What are the challenges - what has been overcome?</p>
+</section>
+<section id="who-are-our-people" class="level3">
+<h3 class="anchored" data-anchor-id="who-are-our-people">Who are our people?</h3>
+<p>Prefaced both sessions by asking individuals to define the <em>our</em> in <em>our people</em>;</p>
+<ul>
+<li>Stat Programmers</li>
+<li>Statisticians</li>
+<li>Data Management</li>
+<li>Other CSR-deliverable oriented roles (e.g.&nbsp;medical and scientific writing)</li>
+<li>Management, Leadership</li>
+</ul>
+<p><strong>Theme: R Adoption and Challenges</strong></p>
+<ul>
+<li><p>The adoption of R requires varied types of commitment depending on the perspective of the stakeholders involved, notably management and employees.</p></li>
+<li><p>Leadership usually supports the adoption of R, yet, in many cases, they don’t adequately communicate or advocate its application. Common concerns include the lack of realized ROI and the perception of R as a “nice-to-have” rather than a necessity.</p></li>
+<li><p>It is not viable to mandate or compel individuals to learn R.</p></li>
+<li><p>Seasoned programmers, who prefer proprietary software, may leave the company if forced to switch.</p></li>
+<li><p>These programmers often prefer to maintain current workflows that involve proprietary tools, established macros, homegrown IDEs, etc.</p></li>
+<li><p>Some in management endorse an approach of “mandate” or “force,” while others aim to “encourage.”</p></li>
+<li><p>Experienced stat programmers cite R’s learning curve as an obstacle to transition, and some don’t see the ROI in making the switch.</p></li>
+</ul>
+<p><strong>Theme: Change Management</strong></p>
+<ul>
+<li><p>Implementing proper change management was emphasized by several attendees in both sessions.</p></li>
+<li><p>Organically, through change management, approximately 25% of experienced statistical programmers or statisticians have successfully completed R training, while the remaining 75% have shown resistance.</p></li>
+<li><p>Among the successful 25%, only 5% have applied what they’ve learned in actual study work. This is often due to time constraints related to product deliverables.</p></li>
+<li><p>Mapping the transition to R with learning and development goals is one strategy.</p></li>
+<li><p>A structured learning plan and a roadmap for R upskilling are essential. This includes trainings focused on R, particularly in the context of the pharmaceutical industry, and from a proprietary software programmer’s perspective.</p></li>
+<li><p>Identification of champions or early adopters among statistical programmers could aid in transitioning colleagues.</p></li>
+<li><p>Several companies shared their strategies for promoting community learning (e.g., bi-monthly meetings, presentations, assignments), both on a “just in time” basis and on a regular schedule.</p></li>
+<li><p>Pointing individuals to ongoing efforts and resources, such as R in Pharma, PharmaVerse, Phuse, etc., can boost awareness and participation.</p></li>
+<li><p>Granting individuals protected or dedicated time to learn and fail is recommended. An analogy used was “giving them a safe sandbox to try making a castle.”</p></li>
+<li><p>R need not be used for all tasks immediately. A more measured approach, such as starting with creating figures and then moving to more complex tasks, like AdAM programming, could better build confidence and competence.</p></li>
+<li><p>Ensuring enough transition time and clear direction (“as of X date, we’ll work in R”) is crucial.</p></li>
+<li><p>Having leadership advocacy is vital at the end of the day.</p></li>
+</ul>
+</section>
+<section id="theme-emerging-talent" class="level3">
+<h3 class="anchored" data-anchor-id="theme-emerging-talent">Theme: Emerging Talent</h3>
+<ul>
+<li><p>Newer talent is increasingly trained in open-source approaches and languages, with fewer exposed to proprietary tools.</p></li>
+<li><p>With the rise of data science as a field of study, many are less interested in joining a company for routine implementation work; they identify as “data scientists” and have been trained in markedly different ways.</p></li>
+<li><p>This affects talent attraction, development, and retention within a company.</p></li>
+<li><p>Innovation can come from new hires, justifying the need to foster their development and listen to their insights.</p></li>
+<li><p>There’s a unique opportunity for co-mentorship: new hires (proficient in R, Python, etc.) and existing staff (experts in domain knowledge, clinical trials, etc.):&nbsp;<em>how vs what/why</em></p></li>
+<li><p>There’s a need for clear “career pathing” or “trajectories” within statistical programming as roles evolve. Examples include:</p>
+<ul>
+<li>&nbsp;“Analyst” requires traditional statistical programming knowledge and training</li>
+<li>“Engineer” needs DevOps skills and a systems mindset</li>
+<li>“Tool builder” needs a software engineering mindset</li>
+</ul></li>
+<li><p>General trends suggest companies are demanding a secondary language in addition to proprietary software (not necessarily R), but knowledge of at least two languages indicates an individual could reasonably learn R.</p></li>
+</ul>
+</section>
+<section id="theme-other-points-and-considerations" class="level3">
+<h3 class="anchored" data-anchor-id="theme-other-points-and-considerations">Theme: Other Points and Considerations</h3>
+<ul>
+<li><p>Questions to consider include:&nbsp;<em>What kind of training will people need in the future state?</em>&nbsp;<em>How should the support be arranged to enable the future state, potentially with IT and DEV involvement?</em></p></li>
+<li><p>Due to the required skillset, statistics and programming now need to work together more than ever</p></li>
+<li><p>Stakeholders seek the benefits of R (e.g., Shiny, Rmarkdown), but often lack personnel to build and maintain these assets.</p></li>
+<li><p>R and Shiny tools can be utilized in more areas beyond TLF programming such as dose decision meetings, clinical trial design, administrative tasks, and long-term-focused applications.</p></li>
+<li><p>Legacy infrastructure (e.g., virtual machines and proprietary software) can pose challenges when implementing newer approaches like R and Shiny, making the transition difficult and cumbersome.</p></li>
+<li><p>AI and GPT can be a valuable tool in transitioning to R, but won’t completely replace a programmer. It can be used to effectively explain or translate existing code or generate entirely new code.</p></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>OS</category>
+  <category>Change management</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</guid>
   <pubDate>Sun, 17 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
