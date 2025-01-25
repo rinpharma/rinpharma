@@ -15,7 +15,7 @@ title-block-banner-color: body
 search: false
 ---
 
-## R/Pharma summit round table discussions
+## Prior summits
 
 This document captures discussion, pain points and a path to next steps discussed at R/Pharma Summits.
 
@@ -69,14 +69,14 @@ following topics:
 
 [PHUSE Open Source guidance](https://phuse-org.github.io/E2E-OS-Guidance/)
 
-## 2024
+### 2024
 
 [R Validation Hub update](https://pharmar.github.io/events-positconf2024/#/title-slide)
 
 [2024 planning repo](https://rinpharma.github.io/rinpharma-summit-2024/)
 
 
-## 2023
+### 2023
 
 [R Validation Hub update](https://pharmar.github.io/events-rpharma2023/)
 
@@ -87,4 +87,4 @@ following topics:
 
 :::
 
-## Summit discussions
+### Summit discussions
