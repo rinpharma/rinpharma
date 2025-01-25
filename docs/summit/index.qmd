@@ -63,7 +63,7 @@ following topics:
 
 ::: {.callout-note icon=false}
 
-## {{< fa graduation-cap >}} References
+### {{< fa graduation-cap >}} References
 
 [CAMIS - comparing differences based on tool used](https://psiaims.github.io/CAMIS/)
 
@@ -87,4 +87,4 @@ following topics:
 
 :::
 
-### Summit discussions
+## Summit discussions
