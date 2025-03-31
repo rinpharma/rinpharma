@@ -8,7 +8,7 @@ listing:
       avatar: images/people/generic.jpg
       affiliation: Novartis
       linkedin: paulo-bargo-phd-10590830
-      github: NA
+      github: 
     - name: James Black
       id: james-black
       avatar: images/people/james-black.jpg
@@ -20,7 +20,7 @@ listing:
       avatar: images/people/generic.jpg
       affiliation: Beigene
       linkedin: michaelblanks
-      github: NA
+      github: 
     - name: Phil Bowsher
       id: phil-bowsher
       avatar: images/people/generic.jpg
@@ -32,7 +32,7 @@ listing:
       avatar: images/people/generic.jpg
       affiliation: Duke
       linkedin: anna-giczewska-343234155
-      github: NA
+      github: 
     - name: Ellis Hughes
       id: ellis-hughes
       avatar: images/people/generic.jpg
@@ -44,7 +44,7 @@ listing:
       avatar: images/people/generic.jpg
       affiliation: Tempus
       linkedin: catherineigartua
-      github: NA
+      github: 
     - name: Ning Leng
       id: ning-leng
       avatar: images/people/generic.jpg
@@ -62,13 +62,13 @@ listing:
       avatar: images/people/generic.jpg
       affiliation: AbbVie
       linkedin: melvin-munsaka-phd-72461bb
-      github: NA
+      github: 
     - name: Satish Murthy
       id: satish-murthy
       avatar: images/people/generic.jpg
       affiliation: Janssen
       linkedin: satish-murthy-b4236b119
-      github: NA
+      github: 
     - name: Eric Nantz
       id: eric-nantz
       avatar: images/people/generic.jpg
@@ -80,31 +80,31 @@ listing:
       avatar: images/people/generic.jpg
       affiliation: FDA
       linkedin: elena-rantou-79a0a339
-      github: NA
+      github: 
     - name: Jenna Reps
       id: jenna-reps
       avatar: images/people/generic.jpg
       affiliation: Johnson & Johnson
       linkedin: jenna-reps-479018100
-      github: NA
+      github: 
     - name: Paul Schuette
       id: paul-schuette
       avatar: images/people/generic.jpg
       affiliation: FDA
       linkedin: paul-schuette-40aa838
-      github: NA
+      github: 
     - name: Eric Simms
       id: eric-simms
       avatar: images/people/generic.jpg
       affiliation: Glaxosmithkline
       linkedin: eric-simms-3897004
-      github: NA
+      github: 
     - name: Jared Woolfolk
       id: jared-woolfolk
       avatar: images/people/generic.jpg
       affiliation: Cytel
       linkedin: jared-woolfolk
-      github: NA
+      github: 
     - name: Audrey Yeo
       id: audrey-yeo
       avatar: images/people/generic.jpg

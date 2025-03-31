@@ -23,7 +23,7 @@ qmd_people <- glue::glue_data(df_team,
         affiliation: {role}
         linkedin: {linkedin}
         github: {github}
-  '
+  ', .na = ""
 ) |> glue::glue_collapse(sep = "\n")
 
 ## build complete qmd
