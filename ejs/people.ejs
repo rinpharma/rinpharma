@@ -1,0 +1,17 @@
+```{=html}
+<h1>Meet Our Team</h1>
+<div id="team-members">
+    <% items.forEach(function(item) { %>
+        <div class="member">
+            <a href="/author/<%- item.id %>">
+               <img src="<%- item.avatar %>">
+              </a>
+            <div class="member-info">
+                <div class="name"><%= item.name %></div>
+                <div class="affiliation"><%= item.affiliation %></div>
+            </div>
+        </div>
+    <% }); %>
+</div>
+
+```
