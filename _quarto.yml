@@ -47,6 +47,8 @@ website:
     left:
       - text: "Overview"
         href: index.qmd
+      - text: People
+        href: people.md
       - text: Conference
         href: docs/conference/index.qmd
       - text: Summit
@@ -68,7 +70,7 @@ format:
   html:
     toc: true
     theme:
-      light: [cosmo, theme.scss]
+      light: [cosmo, theme.scss, additional.scss]
     code-copy: true
     code-overflow: wrap
     css: styles.css

@@ -1,0 +1,40 @@
+```{=html}
+<h2>Organizing Committee - Europe and North America</h2>
+<div id="team-members">
+    <% items.forEach(function(item) { %>
+        <% if (item.committee == "rpharma") { %>
+            <div class="member">
+                <a href="/author/<%- item.id %>">
+                   <img src="<%- item.avatar %>">
+                  </a>
+                <div class="member-info">
+                    <div class="name"><%= item.name %></div>
+                    <div class="affiliation"><%= item.affiliation %></div>
+                </div>
+                <div class="social">
+                    <% if (item.linkedin) { %>
+                      <a href="https://www.linkedin.com/in/<%= item.linkedin %>" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    <% } %>
+                    <% if (item.github) { %>
+                      <a href="https://github.com/<%= item.github %>" target="_blank">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    <% } %>
+                </div>
+            </div>
+        <% } %>
+    <% }); %>
+</div>
+
+<h2>Organizing Committee - Ex-Members</h2>
+<ul>
+    <% items.forEach(function(item) { %>
+        <% if (item.committee == "ex") { %>
+            <li><%= item.name %></li>
+        <% } %>
+    <% }); %>
+</ul>
+
+```
