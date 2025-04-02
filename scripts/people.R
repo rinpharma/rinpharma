@@ -13,12 +13,14 @@ df_team <- df_team |>
     paste0("images/people/", id, ".jpg"),
     "images/people/generic.jpg"
   )) |>
+  dplyr::mutate(committee = dplyr::if_else(Ex_Committee, "ex", "rpharma")) |>
   dplyr::arrange(lastname)
 
 qmd_people <- glue::glue_data(df_team,
   '    
       - name: {name}
         id: {id}
+        committee: {committee}
         avatar: {avatar}
         affiliation: {role}
         linkedin: {linkedin}
@@ -30,7 +32,7 @@ qmd_people <- glue::glue_data(df_team,
 qmd <- glue::glue(
   '
   ---
-  title: Team
+  title: The people behind the conference
   listing: 
     template: ejs/people.ejs
     contents:
