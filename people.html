@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>R/Pharma Events – R/Pharma</title>
+<title>The people behind the conference – R/Pharma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../favicon.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-0b48d498bcd445a618f5f712d0ce80dc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-0b48d498bcd445a618f5f712d0ce80dc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,48 +72,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing-conference-oc .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-name','listing-years','listing-affiliation',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-name-sort'] }],
+      valueNames: ['listing-name','listing-id','listing-committee','listing-avatar','listing-affiliation','listing-linkedin','listing-github',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-name","listing-years","listing-affiliation"],
+      searchColumns: ["listing-name","listing-id","listing-committee","listing-avatar","listing-affiliation","listing-linkedin","listing-github"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing-conference-oc'] = new List('listing-listing-conference-oc', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing-summit-oc .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-name','listing-years','listing-affiliation',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-name-sort'] }],
-      
-      searchColumns: ["listing-name","listing-years","listing-affiliation"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing-summit-oc'] = new List('listing-listing-summit-oc', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -166,14 +138,12 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="R/Pharma Events – R/Pharma">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://rinpharma.com/docs/conference/images/logo-rinpharma.png">
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="The people behind the conference – R/Pharma">
+<meta property="og:image" content="https://rinpharma.com/images/people/generic.jpg">
 <meta property="og:site_name" content="R/Pharma">
-<meta name="twitter:title" content="R/Pharma Events – R/Pharma">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://rinpharma.com/docs/conference/images/logo-rinpharma.png">
+<meta name="twitter:title" content="The people behind the conference – R/Pharma">
+<meta name="twitter:image" content="https://rinpharma.com/images/people/generic.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -184,8 +154,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -195,23 +165,23 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html"> 
+    <a class="nav-link active" href="./people.html" aria-current="page"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../docs/conference/index.html" aria-current="page"> 
+    <a class="nav-link" href="./docs/conference/index.html"> 
 <span class="menu-text">Conference</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../docs/summit/index.html"> 
+    <a class="nav-link" href="./docs/summit/index.html"> 
 <span class="menu-text">Summit</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../docs/blog/index.html"> 
+    <a class="nav-link" href="./docs/blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -241,11 +211,11 @@ window.Quarto = {
         
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R/Pharma Events</h1>
+<h1 class="title">The people behind the conference</h1>
 </div>
 
 
@@ -262,233 +232,413 @@ window.Quarto = {
 </header>
 
 
-<div class="column-body-outset-right">
-<p>Open Source in Pharma is a transperant non-profit. Use the fields below to get to know our organisation, and where you can get involved.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<h2 class="anchored">Organizing Committee - Europe and North America</h2>
+<div id="team-members">
+    
+        
+            <div class="member">
+                <a href="./author/paulo-bargo">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Paulo Bargo</div>
+                    <div class="affiliation">Novartis</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/paulo-bargo-phd-10590830" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                </div>
+            </div>
+        
+    
+        
+            <div class="member">
+                <a href="./author/james-black">
+                   <img src="images/people/james-black.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">James Black</div>
+                    <div class="affiliation">Roche / Genentech</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/epijim" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                      <a href="https://github.com/epijim" target="_blank">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    
+                </div>
+            </div>
+        
+    
+        
+            <div class="member">
+                <a href="./author/michael-blanks">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Michael Blanks</div>
+                    <div class="affiliation">Beigene</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/michaelblanks" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                </div>
+            </div>
+        
+    
+        
+            <div class="member">
+                <a href="./author/phil-bowsher">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Phil Bowsher</div>
+                    <div class="affiliation">posit</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/philip-bowsher-67151015" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                      <a href="https://github.com/philbowsher" target="_blank">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    
+                </div>
+            </div>
+        
+    
+        
+            <div class="member">
+                <a href="./author/anna-giczewskau">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Anna Giczewskau</div>
+                    <div class="affiliation">Duke</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/anna-giczewska-343234155" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                </div>
+            </div>
+        
+    
+        
+    
+        
+            <div class="member">
+                <a href="./author/katie-igartua">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Katie Igartua</div>
+                    <div class="affiliation">Tempus</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/catherineigartua" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                </div>
+            </div>
+        
+    
+        
+            <div class="member">
+                <a href="./author/ning-leng">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Ning Leng</div>
+                    <div class="affiliation">Roche / Genentech</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/ning-leng-7b2b354a" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                      <a href="https://github.com/lengning" target="_blank">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    
+                </div>
+            </div>
+        
+    
+        
+            <div class="member">
+                <a href="./author/harvey-lieberman">
+                   <img src="images/people/harvey-lieberman.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Harvey Lieberman</div>
+                    <div class="affiliation">Novartis</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/harvey-lieberman" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                      <a href="https://github.com/harveyl888" target="_blank">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    
+                </div>
+            </div>
+        
+    
+        
+            <div class="member">
+                <a href="./author/melvin-munsaka">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Melvin Munsaka</div>
+                    <div class="affiliation">AbbVie</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/melvin-munsaka-phd-72461bb" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                </div>
+            </div>
+        
+    
+        
+            <div class="member">
+                <a href="./author/satish-murthy">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Satish Murthy</div>
+                    <div class="affiliation">Janssen</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/satish-murthy-b4236b119" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                </div>
+            </div>
+        
+    
+        
+            <div class="member">
+                <a href="./author/eric-nantz">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Eric Nantz</div>
+                    <div class="affiliation">Eli Lilly</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/eric-nantz-6621617" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                      <a href="https://github.com/rpodcast" target="_blank">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    
+                </div>
+            </div>
+        
+    
+        
+            <div class="member">
+                <a href="./author/elena-rantou">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Elena Rantou</div>
+                    <div class="affiliation">FDA</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/elena-rantou-79a0a339" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                </div>
+            </div>
+        
+    
+        
+    
+        
+            <div class="member">
+                <a href="./author/paul-schuette">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Paul Schuette</div>
+                    <div class="affiliation">FDA</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/paul-schuette-40aa838" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                </div>
+            </div>
+        
+    
+        
+            <div class="member">
+                <a href="./author/eric-simms">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Eric Simms</div>
+                    <div class="affiliation">Glaxosmithkline</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/eric-simms-3897004" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                </div>
+            </div>
+        
+    
+        
+            <div class="member">
+                <a href="./author/jared-woolfolk">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Jared Woolfolk</div>
+                    <div class="affiliation">Cytel</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/jared-woolfolk" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                </div>
+            </div>
+        
+    
+        
+            <div class="member">
+                <a href="./author/audrey-yeo">
+                   <img src="images/people/generic.jpg">
+                  </a>
+                <div class="member-info">
+                    <div class="name">Audrey Yeo</div>
+                    <div class="affiliation">Roche / Genentech</div>
+                </div>
+                <div class="social">
+                    
+                      <a href="https://www.linkedin.com/in/audrey-yeo-8000" target="_blank">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                    
+                    
+                      <a href="https://github.com/audreyyeoCH" target="_blank">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    
+                </div>
+            </div>
+        
+    
 </div>
-<p>Incoporated as a corporation in 2021 and recognised as a registered non-profit by North Carolina in 2022 (<a href="https://opengovus.com/north-carolina-corporation/2271064">link</a>), <code>Open Source in Pharma</code> was originally formed to govern and support the R/Pharma conference. This has expanded to the R/Pharma task forces, and supporting efforts like the creation of Coursera content.</p>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Mission statement
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Foster a global community centred around adoption of open source technology in Pharma by being an inclusive software foundation devoted to an open philosophy, participatory community driven development, and connecting practitioners into a cohesive community.</p>
-<p><strong>Open Source in Pharma Goals</strong></p>
-<p>The following aspirational goals support the overall mission. As a foundation we seek to:</p>
+
+<h2 class="anchored">Organizing Committee - Ex-Members</h2>
 <ul>
-<li>champion the use of open-source and community participation through the development of an open education curriculum</li>
-<li>remain vendor neutral</li>
-<li>continue to foster the community through conferences, meetups and provide a collaborative platform for discussion</li>
-<li>be a welcoming and inclusive worldwide organization at all levels</li>
-<li>celebrate excellence, openness and service in an open source context within the Pharma community</li>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li>Ellis Hughes</li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li>Jenna Reps</li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
 </ul>
-</div>
-</div>
-<section id="conference-organising-committee" class="level3 unlisted">
-<h3 class="unlisted anchored" data-anchor-id="conference-organising-committee">Conference Organising Committee</h3>
-<div id="listing-listing-conference-oc" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-conference-oc-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing-conference-oc'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-name-sort" data-direction="asc">
-          Name
-        </option>
-         <option value="listing-years" data-direction="asc">
-          Years
-        </option>
-         <option value="listing-affiliation" data-direction="asc">
-          Affiliation
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-name-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Name</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-years" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Years</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-affiliation" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Affiliation</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-name-sort="[Harvey Lieberman](https://www.linkedin.com/in/harvey-lieberman/)">
-<td>
-<span class="listing-name"><a href="https://www.linkedin.com/in/harvey-lieberman/">Harvey Lieberman</a></span>
-</td>
-<td>
-<span class="listing-years">President</span>
-</td>
-<td>
-<span class="listing-affiliation">Associate Director, Novartis</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-name-sort="[James Black](https://epijim.uk)">
-<td>
-<span class="listing-name"><a href="https://epijim.uk">James Black</a></span>
-</td>
-<td>
-<span class="listing-years">2012-2024</span>
-</td>
-<td>
-<span class="listing-affiliation">Senior Director, Roche</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-name-sort="[Michael Blanks](https://www.linkedin.com/in/michaelblanks/)">
-<td>
-<span class="listing-name"><a href="https://www.linkedin.com/in/michaelblanks/">Michael Blanks</a></span>
-</td>
-<td>
-<span class="listing-years">Treasurer, VP of Finance </span>
-</td>
-<td>
-<span class="listing-affiliation">Associate Director, BeiGene</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-name-sort="[Phil Bowsher](https://www.linkedin.com/in/philip-bowsher-67151015/)">
-<td>
-<span class="listing-name"><a href="https://www.linkedin.com/in/philip-bowsher-67151015/">Phil Bowsher</a></span>
-</td>
-<td>
-<span class="listing-years">Vice Chair, VP of Development </span>
-</td>
-<td>
-<span class="listing-affiliation">Director, Posit</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-name-sort="[Paulo Bargo](https://www.linkedin.com/in/paulo-bargo-phd-10590830/)">
-<td>
-<span class="listing-name"><a href="https://www.linkedin.com/in/paulo-bargo-phd-10590830/">Paulo Bargo</a></span>
-</td>
-<td>
-<span class="listing-years">Chair, VP of Operations </span>
-</td>
-<td>
-<span class="listing-affiliation">Head R&amp;D Data and AA, Ethicon</span>
-</td>
-</tr>
-</tbody>
-</table>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-</section>
-<section id="summit-organising-committee" class="level3 unlisted page-columns page-full">
-<h3 class="unlisted anchored" data-anchor-id="summit-organising-committee">Summit Organising Committee</h3>
-<div id="listing-listing-summit-oc" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-summit-oc-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing-summit-oc'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-name-sort" data-direction="asc">
-          Name
-        </option>
-         <option value="listing-years" data-direction="asc">
-          Years
-        </option>
-         <option value="listing-affiliation" data-direction="asc">
-          Affiliation
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-name-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Name</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-years" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Years</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-affiliation" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Affiliation</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-name-sort="[Katie Igartua](https://www.linkedin.com/in/catherineigartua/)">
-<td>
-<span class="listing-name"><a href="https://www.linkedin.com/in/catherineigartua/">Katie Igartua</a></span>
-</td>
-<td>
-<span class="listing-years">2024-2025</span>
-</td>
-<td>
-<span class="listing-affiliation">VP, Tempus</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-name-sort="[Phil Bowsher](https://www.linkedin.com/in/philip-bowsher-67151015/)">
-<td>
-<span class="listing-name"><a href="https://www.linkedin.com/in/philip-bowsher-67151015/">Phil Bowsher</a></span>
-</td>
-<td>
-<span class="listing-years">2023-2025</span>
-</td>
-<td>
-<span class="listing-affiliation">Director, Posit</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-name-sort="[Harvey Lieberman](https://www.linkedin.com/in/harvey-lieberman/)">
-<td>
-<span class="listing-name"><a href="https://www.linkedin.com/in/harvey-lieberman/">Harvey Lieberman</a></span>
-</td>
-<td>
-<span class="listing-years">2023-2025</span>
-</td>
-<td>
-<span class="listing-affiliation">Associate Director, Novartis</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-name-sort="[James Black](https://epijim.uk)">
-<td>
-<span class="listing-name"><a href="https://epijim.uk">James Black</a></span>
-</td>
-<td>
-<span class="listing-years">2023-2025</span>
-</td>
-<td>
-<span class="listing-affiliation">Executive Director, Novartis</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<div class="column-body-outset-right">
-
-</div>
-
-
-
-</section>
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script type="text/javascript">
 
 // replace cmd keyboard shortcut w/ control on non-Mac platforms
@@ -922,27 +1072,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Proud organizer of <a href="https://www.rinpharma.com"><img src="../../images/logo-rinpharma.png" class="img-fluid" alt="OS in Pharma logo" width="65"></a></p>
+<p>Proud organizer of <a href="https://www.rinpharma.com"><img src="./images/logo-rinpharma.png" class="img-fluid" alt="OS in Pharma logo" width="65"></a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../about.html">
+    <a class="nav-link" href="./about.html">
 <p>About</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../docs/faq/index.html">
+    <a class="nav-link" href="./docs/faq/index.html">
 <p>FAQ</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../license.html">
+    <a class="nav-link" href="./license.html">
 <p>License</p>
 </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/conference/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/people.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

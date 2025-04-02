@@ -16,8 +16,225 @@
 <height>50</height>
 <width>144</width>
 </image>
-<generator>quarto-1.6.40</generator>
+<generator>quarto-1.6.42</generator>
 <lastBuildDate>Tue, 01 Oct 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Modern SCEs</title>
+  <dc:creator>James Black</dc:creator>
+  <dc:creator>Satish Murphy</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2023-sce.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="modern-sces" class="level2">
+<h2 class="anchored" data-anchor-id="modern-sces">Modern SCEs</h2>
+<p>Chairs: James Black and Satish Murphy</p>
+<section id="question" class="level3">
+<h3 class="anchored" data-anchor-id="question">Question</h3>
+<p>What are our goals for a modern clinical reporting workflow, on a modern SCE? What are our learnings today achieving that goal, and how can we better prepare ourselves to balance the drive to innovate while having to evolve people and processes?</p>
+</section>
+<section id="topics-discussed" class="level3">
+<h3 class="anchored" data-anchor-id="topics-discussed">Topics discussed</h3>
+<section id="is-the-next-step-homegrown-or-vendor" class="level4">
+<h4 class="anchored" data-anchor-id="is-the-next-step-homegrown-or-vendor">Is the next step Homegrown or vendor</h4>
+<ul>
+<li>Split in vendor approaches vs homegrown for the new generation. We don’t know what the ideal is today, but we know we need to be able to evolve and adapt to new technologies and approaches much more than we did in the past.</li>
+<li>Homegrown usually means modular, as still relient on different open soruce and vendor solutions (e.g.&nbsp;AWS, Hashicorp, etc). Is a more accurate description turnkey vs modular?</li>
+<li>How to ensure our modular platform scales is an important new aspect, especially using new open source tools.</li>
+<li>In a turnkey, the vendor will have baked in provenance. In a modular we must focus on making sure metadata/provenance runs as a background across the system to ensure we can trace back from an insights and transformations to the source data.</li>
+<li>A major pain point is how things are funded - we are not used to funding a platform for sustained evolution/innovation, but in the data science space things are constantly evolving - so moving to operations/maintenance is equilivant to decay.</li>
+</ul>
+</section>
+<section id="relationship-with-informatics-partners" class="level4">
+<h4 class="anchored" data-anchor-id="relationship-with-informatics-partners">Relationship with informatics partners</h4>
+<ul>
+<li>There is often tension between informatics and the business, with the growth of business written code that looks more like software (e.g.&nbsp;R packages) vs the the scripts/macros we use to make. We shared experiences finding a balance as we entered this new phase.</li>
+<li>It was refreshing to see we have cases where informatics and the business are aligned on one goal, and we need to be more proactive trying to create these relationships (including inviting informatics to our pan-industry discussions. J&amp;J + Roche had informatics representation at this meeting, but otherwise the dialogue was from the business perspective).</li>
+</ul>
+</section>
+<section id="what-is-an-sce" class="level4">
+<h4 class="anchored" data-anchor-id="what-is-an-sce">What is an SCE?</h4>
+<ul>
+<li>Should GxP and exploratory remain seperate platforms?
+<ul>
+<li>Split across companies in the group, with some companies having a single platform for both, and others having seperate platforms.</li>
+<li>With initiatives like the digital protocol coming, we don’t know what the impact will be on routine clinical reporting, and what impacts this will have on the types of people and tasks needed to execute a CSR.</li>
+<li>Pain points merging:
+<ul>
+<li>Validation (CSV) is a long and high cost process in most companies, which can impact ability to support exploratory work.</li>
+<li>Needs are different. E.g. clinical reporting is low compute, while design and biomarker work is often heavy in memory and data.</li>
+</ul></li>
+</ul></li>
+<li>Is data part of the SCE? Traditionally yes, but some but not all companies are de-coupling data from compute.</li>
+<li>Whether it’s in the SCE or not, tracebility is extra important in our domain of regulatory reporting.</li>
+<li>It appeared across all companies access to an SCE is through a web-browser (not a local application)</li>
+</ul>
+</section>
+<section id="building-trust-in-businessopen-source-code" class="level4">
+<h4 class="anchored" data-anchor-id="building-trust-in-businessopen-source-code">Building trust in business/open source code</h4>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">The Cathedral and the Bazaar by Eric Rayman</a> was a recomended essay to read, that talks about ‘Cathedral’ products where the code is developed in a closed environment then released, vs ‘Bazaar’ products where the code is developed in the open. An arguement is the Bazaar model, as long as it is a project with enough eyeballs, will lead to shallow bugs; this is also known as <a href="https://en.wikipedia.org/wiki/Linus%27s_law">Linus’ Law</a>.</li>
+</ul>
+</section>
+<section id="change-management-into-a-modern-sce" class="level4">
+<h4 class="anchored" data-anchor-id="change-management-into-a-modern-sce">Change-management into a modern SCE</h4>
+<ul>
+<li>What are we actually building? A general data science platform? A platform optimised for clinical reporting?
+<ul>
+<li>These are not the same platform, and which you pick has an impact. e.g.&nbsp;should statistical programmers learn git, or should we give a simple GUI for pushing code through QC and to Prod?</li>
+<li>There is not a consensus about this for next-gen, with only a handful of companies expecting statistical programmers to work in the same way as general data scientists.</li>
+</ul></li>
+<li>Historically we depended on SAS, it’s data formats, and filesystems. How to build a modern SCE that doesn’t?
+<ul>
+<li>Do we enable legacy workflows to work in the new SCE?; Only new ways; or how do we find a balance to ensure business continuity while enabling innovation?</li>
+<li>The human and process change management piece is massive, and SCE POs must work in tandem with statistical programming leadership.</li>
+<li>Agreement the biggest pain point is the dependency on file-based network share drives for data and insight outputs. One company mentioned they have millions of directories in their legacy SCE.</li>
+</ul></li>
+<li>Most companies have carried over having the outputs server be a network share drive, but would a more ‘publishing’ type model be more robust?</li>
+</ul>
+</section>
+<section id="general-notes" class="level4">
+<h4 class="anchored" data-anchor-id="general-notes">General notes</h4>
+<ul>
+<li>We manage on user access. A question is whether we should control access based on user access <em>and</em> the intended use. In terms of both where they are working and what the context of the work is.</li>
+<li>We need to rightsize our ambitions, as going to broad will slow us down.</li>
+<li>How will moving to this latest generation be a positive impact on our financials? Interesting point made about putting ourselves in the shoes of someone like a CMO - if you don’t care about how the CSR is generated, how is the new SCE making the company money and when will we get a fiscal ROI?</li>
+<li>Interactive analysis is growing - need to prepare for when people want to use something like shiny for GxP</li>
+<li>The ideal people to work on the SCEs are unicorns - they need to be able to work with the business, understand the trial processes, and be able to work with the technology. We need to be able to train people to be unicorns, and we need to be able to retain them.</li>
+</ul>
+</section>
+<section id="actions" class="level4">
+<h4 class="anchored" data-anchor-id="actions">Actions</h4>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<i class="fa-solid fa-list" aria-label="list"></i>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Can we have a learning series / discussion / panel on experience using a designing git flows</li>
+<li>What are companies experiences across the diverse scopes we’ve placed onto SCEs - need to share more here.</li>
+<li>How do we want to store data post shared drive, how do we want to track?</li>
+<li>We need to share learnings on the value add from these new SCEs!</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="resources" class="level4">
+<h4 class="anchored" data-anchor-id="resources">Resources</h4>
+<p><a href="https://phuse.s3.eu-central-1.amazonaws.com/Events/2021/US+Connect+2021/SCE_White_Paper_Final_15Dec2021.pdf">White paper on late-stage SCEs</a></p>
+<p>Keynote incoporating the discussion at the round tables:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/XO-oPX1TBuw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+</section>
+</section>
+<section id="sharing-r-code-without-sharing-r-code" class="level1">
+<h1>Sharing R code without sharing R code</h1>
+<p>Chairs: James Black</p>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2024</h2>
+<section id="objectively-track-migrationslanguage-use-in-studies" class="level3">
+<h3 class="anchored" data-anchor-id="objectively-track-migrationslanguage-use-in-studies">Objectively track migrations/language use in studies?</h3>
+<ul>
+<li>Most companies are using Github or Gitlab for study code - if we know where all the repos are, can we scan them via the API to track things like which studies are using R, Python or still on SAS?</li>
+<li><strong>Key Questions:</strong>
+<ul>
+<li>What code should be scanned? Look for files present? <code>.sas</code>, <code>.R</code>, <code>.py</code>, <code>.sql</code>, etc.? Is it more accurate than inbuilt language detection present in API endpoints?</li>
+<li>Should the focus be on studying all code written or only focus on study code (e.g.&nbsp;limit scope to org that holds studies)?</li>
+<li>Is there an API endpoint that can indicate which repository is being used?</li>
+</ul></li>
+</ul>
+</section>
+<section id="can-we-understand-what-packages-are-being-used-in-studies" class="level3">
+<h3 class="anchored" data-anchor-id="can-we-understand-what-packages-are-being-used-in-studies">Can we understand what packages are being used in studies?</h3>
+<ul>
+<li><strong>Idea:</strong>
+<ul>
+<li>The Posit Package Manager API doesn’t reliably say what validated R packages are used in each study, but as <code>renv</code> is used more, can we scan the <code>renv.lock</code> files to see what packages are being used?</li>
+</ul></li>
+<li><strong>Purpose:</strong>
+<ul>
+<li>This helps validation teams, our teams working on R packages, as well as help flag if we need to identify who used a specific version of a specific package in a study.</li>
+<li>Where packages are ‘pre-baked’ into containers to speed up ‘time to pulling data’, want to keep that as lean as possible using metrics like this.</li>
+</ul></li>
+</ul>
+</section>
+<section id="understanding-container-use" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-container-use">Understanding container use</h3>
+<ul>
+<li><strong>Challenges:</strong>
+<ul>
+<li>How do we understand uptake of managed images, and who is using old images?</li>
+<li>Need for a strategy to manage container upgrades effectively.</li>
+<li>Actively understand patterns of image use across your SCE</li>
+<li>Look at patterns that should be dealt with - e.g.&nbsp;large numbers of idle interactive containers clogging worker nodes</li>
+</ul></li>
+<li><strong>Idea:</strong>
+<ul>
+<li>Pull k8’s logs to get list of all active containers by person over time</li>
+</ul></li>
+</ul>
+</section>
+<section id="keeping-connect-lean" class="level3">
+<h3 class="anchored" data-anchor-id="keeping-connect-lean">Keeping Connect lean</h3>
+<ul>
+<li><strong>Idea:</strong>
+<ul>
+<li>Roche had an example where &gt;500 broken items, and &gt;500 items not touched in more than a year were on the server</li>
+<li>Use Connect data (the postgres database as the API is very slow) to remove content</li>
+</ul></li>
+<li><strong>Purpose:</strong>
+<ul>
+<li>Remove potentially GBs of un-used data on the Connect server, and also enforce retention rules</li>
+</ul></li>
+</ul>
+</section>
+<section id="general-notes-1" class="level3">
+<h3 class="anchored" data-anchor-id="general-notes-1">General notes</h3>
+<ul>
+<li>Shift continues to data being outside of the SCE</li>
+<li>Some companies moved to ‘iterate anywhere - final batch runs matter’ stance. Some still consider every activity requiring validation.</li>
+<li>Discussion highlighted a split on whether internet access is blocked - in some companies there is no air gap, in ohers there is, particularly on ‘validated batch runs’</li>
+<li>singularity compresses containers better</li>
+<li>big celebrations that now we do not need to rebuild containers each time workbench is updated!!</li>
+<li>Provenance is an audit/validation requirement</li>
+<li>Explore the potential use of common tools to data engineering that are absent in clinical reporting (e.g.&nbsp;dbt, airflow, prefect)</li>
+</ul>
+</section>
+<section id="action-items-and-questions" class="level3">
+<h3 class="anchored" data-anchor-id="action-items-and-questions">Action Items and Questions</h3>
+<ul>
+<li><strong>Action Item:</strong>
+<ul>
+<li>White paper with Mark Bynens on the SCE.</li>
+<li>In white paper, clarify what the SCE is and how to handle program environments and data integration more effectively.</li>
+</ul></li>
+</ul>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<ul>
+<li>James’ posit::conf talk: <a href="https://epijim.uk/talk/giving-your-scientific-computing-environment-sce-a-voice/">epijim.uk/talk/giving-your-scientific-computing-environment-sce-a-voice</a></li>
+<li>Alanah Jonas from GSK may have a relevant talk later in the year at PHUSE EU 2024</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <category>AI</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2023-sce.html</guid>
+  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Small to mid Pharma in an post-SAS world</title>
   <dc:creator>Katie Igartua</dc:creator>
@@ -518,223 +735,6 @@ Warning
   <category>R</category>
   <category>Shiny</category>
   <guid>https://rinpharma.com/docs/summit/posts/2024-shiny-validation.html</guid>
-  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Modern SCEs</title>
-  <dc:creator>James Black</dc:creator>
-  <dc:creator>Satish Murphy</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-sce.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="modern-sces" class="level2">
-<h2 class="anchored" data-anchor-id="modern-sces">Modern SCEs</h2>
-<p>Chairs: James Black and Satish Murphy</p>
-<section id="question" class="level3">
-<h3 class="anchored" data-anchor-id="question">Question</h3>
-<p>What are our goals for a modern clinical reporting workflow, on a modern SCE? What are our learnings today achieving that goal, and how can we better prepare ourselves to balance the drive to innovate while having to evolve people and processes?</p>
-</section>
-<section id="topics-discussed" class="level3">
-<h3 class="anchored" data-anchor-id="topics-discussed">Topics discussed</h3>
-<section id="is-the-next-step-homegrown-or-vendor" class="level4">
-<h4 class="anchored" data-anchor-id="is-the-next-step-homegrown-or-vendor">Is the next step Homegrown or vendor</h4>
-<ul>
-<li>Split in vendor approaches vs homegrown for the new generation. We don’t know what the ideal is today, but we know we need to be able to evolve and adapt to new technologies and approaches much more than we did in the past.</li>
-<li>Homegrown usually means modular, as still relient on different open soruce and vendor solutions (e.g.&nbsp;AWS, Hashicorp, etc). Is a more accurate description turnkey vs modular?</li>
-<li>How to ensure our modular platform scales is an important new aspect, especially using new open source tools.</li>
-<li>In a turnkey, the vendor will have baked in provenance. In a modular we must focus on making sure metadata/provenance runs as a background across the system to ensure we can trace back from an insights and transformations to the source data.</li>
-<li>A major pain point is how things are funded - we are not used to funding a platform for sustained evolution/innovation, but in the data science space things are constantly evolving - so moving to operations/maintenance is equilivant to decay.</li>
-</ul>
-</section>
-<section id="relationship-with-informatics-partners" class="level4">
-<h4 class="anchored" data-anchor-id="relationship-with-informatics-partners">Relationship with informatics partners</h4>
-<ul>
-<li>There is often tension between informatics and the business, with the growth of business written code that looks more like software (e.g.&nbsp;R packages) vs the the scripts/macros we use to make. We shared experiences finding a balance as we entered this new phase.</li>
-<li>It was refreshing to see we have cases where informatics and the business are aligned on one goal, and we need to be more proactive trying to create these relationships (including inviting informatics to our pan-industry discussions. J&amp;J + Roche had informatics representation at this meeting, but otherwise the dialogue was from the business perspective).</li>
-</ul>
-</section>
-<section id="what-is-an-sce" class="level4">
-<h4 class="anchored" data-anchor-id="what-is-an-sce">What is an SCE?</h4>
-<ul>
-<li>Should GxP and exploratory remain seperate platforms?
-<ul>
-<li>Split across companies in the group, with some companies having a single platform for both, and others having seperate platforms.</li>
-<li>With initiatives like the digital protocol coming, we don’t know what the impact will be on routine clinical reporting, and what impacts this will have on the types of people and tasks needed to execute a CSR.</li>
-<li>Pain points merging:
-<ul>
-<li>Validation (CSV) is a long and high cost process in most companies, which can impact ability to support exploratory work.</li>
-<li>Needs are different. E.g. clinical reporting is low compute, while design and biomarker work is often heavy in memory and data.</li>
-</ul></li>
-</ul></li>
-<li>Is data part of the SCE? Traditionally yes, but some but not all companies are de-coupling data from compute.</li>
-<li>Whether it’s in the SCE or not, tracebility is extra important in our domain of regulatory reporting.</li>
-<li>It appeared across all companies access to an SCE is through a web-browser (not a local application)</li>
-</ul>
-</section>
-<section id="building-trust-in-businessopen-source-code" class="level4">
-<h4 class="anchored" data-anchor-id="building-trust-in-businessopen-source-code">Building trust in business/open source code</h4>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">The Cathedral and the Bazaar by Eric Rayman</a> was a recomended essay to read, that talks about ‘Cathedral’ products where the code is developed in a closed environment then released, vs ‘Bazaar’ products where the code is developed in the open. An arguement is the Bazaar model, as long as it is a project with enough eyeballs, will lead to shallow bugs; this is also known as <a href="https://en.wikipedia.org/wiki/Linus%27s_law">Linus’ Law</a>.</li>
-</ul>
-</section>
-<section id="change-management-into-a-modern-sce" class="level4">
-<h4 class="anchored" data-anchor-id="change-management-into-a-modern-sce">Change-management into a modern SCE</h4>
-<ul>
-<li>What are we actually building? A general data science platform? A platform optimised for clinical reporting?
-<ul>
-<li>These are not the same platform, and which you pick has an impact. e.g.&nbsp;should statistical programmers learn git, or should we give a simple GUI for pushing code through QC and to Prod?</li>
-<li>There is not a consensus about this for next-gen, with only a handful of companies expecting statistical programmers to work in the same way as general data scientists.</li>
-</ul></li>
-<li>Historically we depended on SAS, it’s data formats, and filesystems. How to build a modern SCE that doesn’t?
-<ul>
-<li>Do we enable legacy workflows to work in the new SCE?; Only new ways; or how do we find a balance to ensure business continuity while enabling innovation?</li>
-<li>The human and process change management piece is massive, and SCE POs must work in tandem with statistical programming leadership.</li>
-<li>Agreement the biggest pain point is the dependency on file-based network share drives for data and insight outputs. One company mentioned they have millions of directories in their legacy SCE.</li>
-</ul></li>
-<li>Most companies have carried over having the outputs server be a network share drive, but would a more ‘publishing’ type model be more robust?</li>
-</ul>
-</section>
-<section id="general-notes" class="level4">
-<h4 class="anchored" data-anchor-id="general-notes">General notes</h4>
-<ul>
-<li>We manage on user access. A question is whether we should control access based on user access <em>and</em> the intended use. In terms of both where they are working and what the context of the work is.</li>
-<li>We need to rightsize our ambitions, as going to broad will slow us down.</li>
-<li>How will moving to this latest generation be a positive impact on our financials? Interesting point made about putting ourselves in the shoes of someone like a CMO - if you don’t care about how the CSR is generated, how is the new SCE making the company money and when will we get a fiscal ROI?</li>
-<li>Interactive analysis is growing - need to prepare for when people want to use something like shiny for GxP</li>
-<li>The ideal people to work on the SCEs are unicorns - they need to be able to work with the business, understand the trial processes, and be able to work with the technology. We need to be able to train people to be unicorns, and we need to be able to retain them.</li>
-</ul>
-</section>
-<section id="actions" class="level4">
-<h4 class="anchored" data-anchor-id="actions">Actions</h4>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<i class="fa-solid fa-list" aria-label="list"></i>
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Can we have a learning series / discussion / panel on experience using a designing git flows</li>
-<li>What are companies experiences across the diverse scopes we’ve placed onto SCEs - need to share more here.</li>
-<li>How do we want to store data post shared drive, how do we want to track?</li>
-<li>We need to share learnings on the value add from these new SCEs!</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="resources" class="level4">
-<h4 class="anchored" data-anchor-id="resources">Resources</h4>
-<p><a href="https://phuse.s3.eu-central-1.amazonaws.com/Events/2021/US+Connect+2021/SCE_White_Paper_Final_15Dec2021.pdf">White paper on late-stage SCEs</a></p>
-<p>Keynote incoporating the discussion at the round tables:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/XO-oPX1TBuw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-</section>
-</section>
-<section id="sharing-r-code-without-sharing-r-code" class="level1">
-<h1>Sharing R code without sharing R code</h1>
-<p>Chairs: James Black</p>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1">2024</h2>
-<section id="objectively-track-migrationslanguage-use-in-studies" class="level3">
-<h3 class="anchored" data-anchor-id="objectively-track-migrationslanguage-use-in-studies">Objectively track migrations/language use in studies?</h3>
-<ul>
-<li>Most companies are using Github or Gitlab for study code - if we know where all the repos are, can we scan them via the API to track things like which studies are using R, Python or still on SAS?</li>
-<li><strong>Key Questions:</strong>
-<ul>
-<li>What code should be scanned? Look for files present? <code>.sas</code>, <code>.R</code>, <code>.py</code>, <code>.sql</code>, etc.? Is it more accurate than inbuilt language detection present in API endpoints?</li>
-<li>Should the focus be on studying all code written or only focus on study code (e.g.&nbsp;limit scope to org that holds studies)?</li>
-<li>Is there an API endpoint that can indicate which repository is being used?</li>
-</ul></li>
-</ul>
-</section>
-<section id="can-we-understand-what-packages-are-being-used-in-studies" class="level3">
-<h3 class="anchored" data-anchor-id="can-we-understand-what-packages-are-being-used-in-studies">Can we understand what packages are being used in studies?</h3>
-<ul>
-<li><strong>Idea:</strong>
-<ul>
-<li>The Posit Package Manager API doesn’t reliably say what validated R packages are used in each study, but as <code>renv</code> is used more, can we scan the <code>renv.lock</code> files to see what packages are being used?</li>
-</ul></li>
-<li><strong>Purpose:</strong>
-<ul>
-<li>This helps validation teams, our teams working on R packages, as well as help flag if we need to identify who used a specific version of a specific package in a study.</li>
-<li>Where packages are ‘pre-baked’ into containers to speed up ‘time to pulling data’, want to keep that as lean as possible using metrics like this.</li>
-</ul></li>
-</ul>
-</section>
-<section id="understanding-container-use" class="level3">
-<h3 class="anchored" data-anchor-id="understanding-container-use">Understanding container use</h3>
-<ul>
-<li><strong>Challenges:</strong>
-<ul>
-<li>How do we understand uptake of managed images, and who is using old images?</li>
-<li>Need for a strategy to manage container upgrades effectively.</li>
-<li>Actively understand patterns of image use across your SCE</li>
-<li>Look at patterns that should be dealt with - e.g.&nbsp;large numbers of idle interactive containers clogging worker nodes</li>
-</ul></li>
-<li><strong>Idea:</strong>
-<ul>
-<li>Pull k8’s logs to get list of all active containers by person over time</li>
-</ul></li>
-</ul>
-</section>
-<section id="keeping-connect-lean" class="level3">
-<h3 class="anchored" data-anchor-id="keeping-connect-lean">Keeping Connect lean</h3>
-<ul>
-<li><strong>Idea:</strong>
-<ul>
-<li>Roche had an example where &gt;500 broken items, and &gt;500 items not touched in more than a year were on the server</li>
-<li>Use Connect data (the postgres database as the API is very slow) to remove content</li>
-</ul></li>
-<li><strong>Purpose:</strong>
-<ul>
-<li>Remove potentially GBs of un-used data on the Connect server, and also enforce retention rules</li>
-</ul></li>
-</ul>
-</section>
-<section id="general-notes-1" class="level3">
-<h3 class="anchored" data-anchor-id="general-notes-1">General notes</h3>
-<ul>
-<li>Shift continues to data being outside of the SCE</li>
-<li>Some companies moved to ‘iterate anywhere - final batch runs matter’ stance. Some still consider every activity requiring validation.</li>
-<li>Discussion highlighted a split on whether internet access is blocked - in some companies there is no air gap, in ohers there is, particularly on ‘validated batch runs’</li>
-<li>singularity compresses containers better</li>
-<li>big celebrations that now we do not need to rebuild containers each time workbench is updated!!</li>
-<li>Provenance is an audit/validation requirement</li>
-<li>Explore the potential use of common tools to data engineering that are absent in clinical reporting (e.g.&nbsp;dbt, airflow, prefect)</li>
-</ul>
-</section>
-<section id="action-items-and-questions" class="level3">
-<h3 class="anchored" data-anchor-id="action-items-and-questions">Action Items and Questions</h3>
-<ul>
-<li><strong>Action Item:</strong>
-<ul>
-<li>White paper with Mark Bynens on the SCE.</li>
-<li>In white paper, clarify what the SCE is and how to handle program environments and data integration more effectively.</li>
-</ul></li>
-</ul>
-</section>
-<section id="references" class="level3">
-<h3 class="anchored" data-anchor-id="references">References</h3>
-<ul>
-<li>James’ posit::conf talk: <a href="https://epijim.uk/talk/giving-your-scientific-computing-environment-sce-a-voice/">epijim.uk/talk/giving-your-scientific-computing-environment-sce-a-voice</a></li>
-<li>Alanah Jonas from GSK may have a relevant talk later in the year at PHUSE EU 2024</li>
-</ul>
-
-
-</section>
-</section>
-</section>
-
- ]]></description>
-  <category>AI</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-sce.html</guid>
   <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
