@@ -47,6 +47,8 @@ website:
     left:
       - text: "Overview"
         href: index.qmd
+      - text: People
+        href: people.md
       - text: Conference
         href: docs/conference/index.qmd
       - text: Summit
