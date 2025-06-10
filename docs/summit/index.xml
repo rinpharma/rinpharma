@@ -16,8 +16,192 @@
 <height>50</height>
 <width>144</width>
 </image>
-<generator>quarto-1.6.42</generator>
+<generator>quarto-1.7.31</generator>
 <lastBuildDate>Tue, 01 Oct 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Small to mid Pharma in an post-SAS world</title>
+  <dc:creator>Katie Igartua</dc:creator>
+  <dc:creator>Kas Yousefi</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="smallmid-pharma-os" class="level2">
+<h2 class="anchored" data-anchor-id="smallmid-pharma-os">Small/mid pharma &amp; OS</h2>
+<p>Chair: Katie Igartua and Kas Yousefi</p>
+<section id="proposal" class="level3">
+<h3 class="anchored" data-anchor-id="proposal">Proposal</h3>
+<p>A pressing topic I think we should discuss is how best to engage and enable small/mid-sized pharma to use open source Ecosystems.</p>
+<p>It can be sometimes overwhelming and would be helpful to have an idea where to start to join the open source journey and utilize the resources and approaches already available.</p>
+<p>Some questions:</p>
+<ol type="1">
+<li>How to go about setting up an open source Environment? What are the hurdles? How can the crowd-sourced groups help?</li>
+<li>Could small pharma use R for IB/DSUR? Does this need to be in a validated environment?</li>
+<li>How do other small pharma companies uses open-source environments? and what would be areas for collaboration?</li>
+</ol>
+</section>
+<section id="expected-impact" class="level3">
+<h3 class="anchored" data-anchor-id="expected-impact">Expected impact</h3>
+<p>I believe this topic would be a benefit because small pharma often needs to be innovative, but due to resource limits may rely on traditional approaches and heavily rely on CROs. Having stronger small pharma presence could help in new resources and approaches for open-sourced solutions</p>
+</section>
+<section id="prior-discussionswork" class="level3">
+<h3 class="anchored" data-anchor-id="prior-discussionswork">Prior discussions/work</h3>
+<p>Some prior work includes……</p>
+<ul>
+<li>BBSW Panel Discussion for Open Source Tools in Small/mid sized pharma</li>
+<li><a href="https://github.com/rinpharma/rinpharma-summit-2024/discussions/17">How best to engage and enable small/mid-size pharma to use open source tools · rinpharma rinpharma-summit-2024 · Discussion #17</a></li>
+</ul>
+</section>
+</section>
+<section id="round-table" class="level1">
+<h1>Round table</h1>
+<ul>
+<li>Open sourcing adoption/contribution barrier
+<ul>
+<li>risk taking when you only have one product</li>
+<li>cost: small companies often fully outsource regulatory work to CROs, hard to justify additional investment on infra or open source work for non regulatory tasks</li>
+<li>IT resource: posit installation for small pharma - small company may not have the right in house IT talent to even get posit running</li>
+<li>Are you ready to be a shiny dev ops person &amp; R admin?</li>
+</ul></li>
+<li>What are use cases to use open source? mainly in non validated env
+<ul>
+<li>data review, monitoring, visualization, patient profile, DSUR</li>
+<li>IDCC uses shiny for IDMC close sessions (instead of long pdf)</li>
+</ul></li>
+<li>Asks to the community
+<ul>
+<li>can large pharma open source their infra config? such as AMS yaml file?
+<ul>
+<li>from the perspective at the intersection of IT, DS, stat</li>
+</ul></li>
+<li>what about a “single” opinionated workflow (pharmaverse is seen more as a comprehensive tool box)
+<ul>
+<li>from an independent body such as r consortium?</li>
+<li>or can individual big pharma publish the whole workflow</li>
+</ul></li>
+</ul></li>
+<li>GxP set up: timing tradeoff - is it good to set up early or late? setting up early can put on restrictions that is hard to change later. balance of flexibility, best practice and cost</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</guid>
+  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Sharing R code without sharing R code</title>
+  <dc:creator>Rohan Parmar</dc:creator>
+  <dc:creator>Min Lee</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="sharing-r-code-without-sharing-r-code" class="level2">
+<h2 class="anchored" data-anchor-id="sharing-r-code-without-sharing-r-code">Sharing R code without sharing R code</h2>
+<p>Chairs: Sharing R code without sharing R code</p>
+<section id="proposal" class="level3">
+<h3 class="anchored" data-anchor-id="proposal">Proposal</h3>
+<p>You created a small shiny application for your colleagues in a small team (2-5 people), that application is now getting extensive usage with more than 20, 30 or even 300 users. How do you go about scaling up your application? We want to hear from other users’ experience in creating long lived R based workflows. This can be anything from small snippets of code that started off as scripts that can be sequestered into R packages that are idiomatic to commonly used R interfaces to cater to a wider audience. Shiny apps that are doing computationally heavy tasks with multiple users that require you to think about scalability, fault tolerance, and complexity.</p>
+</section>
+<section id="expected-impact" class="level3">
+<h3 class="anchored" data-anchor-id="expected-impact">Expected impact</h3>
+<p>Sharing how others have made their R code into something that is much more user friendly or easier to contribute to. Code that readily interfaces with prior frameworks like tidyverse or scales easily. Other R users can navigate the trade-offs around consistency and scalability. Make informed decisions when writing R code taking into account future necessities such as validation requirements or maintainability.</p>
+<p><a href="https://github.com/rinpharma/rinpharma-summit-2024/discussions/16">Productionalizing R code · rinpharma rinpharma-summit-2024 · Discussion #16</a></p>
+<p>In the discussion, it was noted this was a common problem where an app grows into something bigger organically, and Nitesh flagged some connection to the topic of wanting to share R functions without sharing the R code.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We are waiting on content from Rohan and Min. Once recieved this page will be updated.</p>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>OS</category>
+  <category>R</category>
+  <category>Products</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</guid>
+  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Validating R packages</title>
+  <dc:creator>Doug Kelkhof</dc:creator>
+  <dc:creator>Margaret Wishart</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2024-r-pkg-validation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="validate-r-packages" class="level1">
+<h1>Validate R packages</h1>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2024</h2>
+<p>Chairs: Doug Kelkhof and Margaret Wishart</p>
+<section id="package-lifecycle-management-and-validation" class="level3">
+<h3 class="anchored" data-anchor-id="package-lifecycle-management-and-validation">Package Lifecycle Management and Validation</h3>
+<p>Lifecycle Changes and Impact: Managing the lifecycle of R packages is crucial, particularly understanding what it means for a package to change its behavior. It’s important to assess whether such changes are significant and if they impact the stability or reliability of the package. The use of tools like Diffify can help track lifecycle changes and validate whether new versions introduce breaking changes or fix bugs.</p>
+<p>Containerization and Stability: Containers, such as those created using Nix, are increasingly seen as a way forward for maintaining stable software environments. They help bundle specific package versions, ensuring that a validated environment can be reliably reproduced. However, there are challenges, such as what exactly gets bundled in a container and the legal implications (e.g., GPL license concerns). Posit snapshots are favored by some for controlled environments, as they significantly reduce maintenance, though migrating snapshots can introduce challenges.</p>
+<p>Snapshot Management: Deciding when to lock down a snapshot is crucial. Should it be at the beginning of a project, or after some initial work? Snapshots offer a stable point of reference, but as packages evolve, there’s a risk of missing out on important updates or bug fixes. The question of whether to use an old snapshot or stay on the cutting edge is a balancing act between stability and leveraging new features or fixes.</p>
+<p>Temporal Metrics: With rapidly changing packages, it’s important to look at temporal metrics to assess risks associated with quick changes. For instance, the validation of packages like Arrow needs to consider how a bug fix might impact its validation status and whether a high rate of change poses additional risks.</p>
+</section>
+<section id="risk-management-and-validation-practices" class="level3">
+<h3 class="anchored" data-anchor-id="risk-management-and-validation-practices">Risk Management and Validation Practices</h3>
+<p>Risk Retrospective: There’s a need for a systematic approach to retrospectively evaluate risks. For example, running old tests on new package versions can reveal breaking changes or confirm that past bugs have been addressed. This process ensures that packages remain reliable over time, even as they evolve.</p>
+<p>Automation vs Human Involvement: While automation is key to maintaining consistency, especially in long-term projects, human oversight is crucial for high-risk packages. These packages often require additional validation steps, and there’s debate over how much human intervention is necessary. High-risk packages might involve more in-the-loop validation, while low-risk ones could rely more on automated processes.</p>
+</section>
+<section id="internal-vs-external-package-validation" class="level3">
+<h3 class="anchored" data-anchor-id="internal-vs-external-package-validation">Internal vs External Package Validation</h3>
+<p>Differentiated Validation Criteria: Internal packages often have different validation criteria compared to those on CRAN. Internal developers might not be as familiar with traditional checks like R CMD checks, leading to a need for more tailored validation processes. It’s also noted that internal validation is more stringent, often requiring additional tests that aren’t open-sourced, which raises questions about whether these should be contributed to public repositories.</p>
+<p>Baseline and Organizational Validation: Organizations often maintain a baseline of validated packages and differentiate between internal and third-party vendor packages. Some organizations have recreated their own risk metrics tools, tailoring them to their specific needs. The audit process involves defining testing processes and being aware of the risks associated with package updates or changes.</p>
+</section>
+<section id="unit-testing-and-quality-assurance" class="level3">
+<h3 class="anchored" data-anchor-id="unit-testing-and-quality-assurance">Unit Testing and Quality Assurance</h3>
+<p>Effective Testing Beyond Coverage: Simply hitting a coverage threshold is not enough; the quality of tests is crucial. For instance, high test coverage doesn’t guarantee that the tests are meaningful or effective. There’s a need to ensure that tests validate the core functionality of packages, particularly in statistical packages that might be treated differently due to their implications in analysis.</p>
+<p>Custom and Public Contributions: Organizations often write additional tests on top of package tests to further validate functionality. However, these tests are usually kept internal, which leads to a discussion on the potential benefits of contributing these tests to public repositories. Barriers to this include the time-intensive nature of creating these tests and a lack of familiarity with the contribution process.</p>
+<p>Regulatory and Industry Standards: In regulated industries, such as pharmaceuticals, there are higher requirements for package submissions, including unit tests and documentation. Collaboration with regulatory bodies like the FDA and EMA is essential to establish minimum validation requirements. Pharmaverse, for example, has adopted a notion that all packages must have standardized documentation and testing, accepted by the community.</p>
+</section>
+<section id="package-management-and-environment-control" class="level3">
+<h3 class="anchored" data-anchor-id="package-management-and-environment-control">Package Management and Environment Control</h3>
+<p>Package Manager and Snapshot Control: Managing package snapshots is typically the responsibility of IT, with packages being added as needed. Renv is commonly used but can sometimes fail catastrophically, leading to a preference for Posit snapshots in controlled environments. This method cuts down maintenance significantly, though issues arise when migrating snapshots, as users may have to deal with multiple package version updates simultaneously.</p>
+<p>Containerization Challenges: While Docker containers are technically preferred for creating stable environments, there are trade-offs, such as handling individual environments and licensing concerns. Containers might be seen as derivative works under GPL, which complicates their use in proprietary settings. Nix offers a different approach by locking down R and package versions with a declarative installation method, though challenges remain with mirrors and installation reliability. Snapshot Migration and Version Locking: The decision of when to lock down a snapshot—whether at the beginning of a project or after some work has been done—is critical. Locking down too early might prevent access to necessary updates, while delaying it could introduce instability. Some organizations favor letting certain users work on the bleeding edge to vet new package versions, while others prioritize stability by locking down environments early on.</p>
+</section>
+<section id="action-items-and-future-directions" class="level3">
+<h3 class="anchored" data-anchor-id="action-items-and-future-directions">Action Items and Future Directions</h3>
+<p>Validation Guidelines and Metrics: There’s a need to establish standard validation guidelines that include metrics to help determine risk levels. This could start with Pharmaverse and eventually be expanded to other areas in pharma and beyond.</p>
+<p>Collaboration with Regulatory Bodies: Working with entities like the FDA and EMA to develop minimum validation requirements and documentation standards for R packages is essential. This collaboration would help ensure that the industry adopts consistent and reliable validation practices.</p>
+<p>Text-Based Metric Files: Creating text-based files for major defined metrics would facilitate the tracking and management of package validation. This would help in setting clear criteria for evaluating package risk and determining when additional scrutiny is needed.</p>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2024-r-pkg-validation.html</guid>
+  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Modern SCEs</title>
   <dc:creator>James Black</dc:creator>
@@ -233,190 +417,6 @@
  ]]></description>
   <category>AI</category>
   <guid>https://rinpharma.com/docs/summit/posts/2023-sce.html</guid>
-  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Small to mid Pharma in an post-SAS world</title>
-  <dc:creator>Katie Igartua</dc:creator>
-  <dc:creator>Kas Yousefi</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="smallmid-pharma-os" class="level2">
-<h2 class="anchored" data-anchor-id="smallmid-pharma-os">Small/mid pharma &amp; OS</h2>
-<p>Chair: Katie Igartua and Kas Yousefi</p>
-<section id="proposal" class="level3">
-<h3 class="anchored" data-anchor-id="proposal">Proposal</h3>
-<p>A pressing topic I think we should discuss is how best to engage and enable small/mid-sized pharma to use open source Ecosystems.</p>
-<p>It can be sometimes overwhelming and would be helpful to have an idea where to start to join the open source journey and utilize the resources and approaches already available.</p>
-<p>Some questions:</p>
-<ol type="1">
-<li>How to go about setting up an open source Environment? What are the hurdles? How can the crowd-sourced groups help?</li>
-<li>Could small pharma use R for IB/DSUR? Does this need to be in a validated environment?</li>
-<li>How do other small pharma companies uses open-source environments? and what would be areas for collaboration?</li>
-</ol>
-</section>
-<section id="expected-impact" class="level3">
-<h3 class="anchored" data-anchor-id="expected-impact">Expected impact</h3>
-<p>I believe this topic would be a benefit because small pharma often needs to be innovative, but due to resource limits may rely on traditional approaches and heavily rely on CROs. Having stronger small pharma presence could help in new resources and approaches for open-sourced solutions</p>
-</section>
-<section id="prior-discussionswork" class="level3">
-<h3 class="anchored" data-anchor-id="prior-discussionswork">Prior discussions/work</h3>
-<p>Some prior work includes……</p>
-<ul>
-<li>BBSW Panel Discussion for Open Source Tools in Small/mid sized pharma</li>
-<li><a href="https://github.com/rinpharma/rinpharma-summit-2024/discussions/17">How best to engage and enable small/mid-size pharma to use open source tools · rinpharma rinpharma-summit-2024 · Discussion #17</a></li>
-</ul>
-</section>
-</section>
-<section id="round-table" class="level1">
-<h1>Round table</h1>
-<ul>
-<li>Open sourcing adoption/contribution barrier
-<ul>
-<li>risk taking when you only have one product</li>
-<li>cost: small companies often fully outsource regulatory work to CROs, hard to justify additional investment on infra or open source work for non regulatory tasks</li>
-<li>IT resource: posit installation for small pharma - small company may not have the right in house IT talent to even get posit running</li>
-<li>Are you ready to be a shiny dev ops person &amp; R admin?</li>
-</ul></li>
-<li>What are use cases to use open source? mainly in non validated env
-<ul>
-<li>data review, monitoring, visualization, patient profile, DSUR</li>
-<li>IDCC uses shiny for IDMC close sessions (instead of long pdf)</li>
-</ul></li>
-<li>Asks to the community
-<ul>
-<li>can large pharma open source their infra config? such as AMS yaml file?
-<ul>
-<li>from the perspective at the intersection of IT, DS, stat</li>
-</ul></li>
-<li>what about a “single” opinionated workflow (pharmaverse is seen more as a comprehensive tool box)
-<ul>
-<li>from an independent body such as r consortium?</li>
-<li>or can individual big pharma publish the whole workflow</li>
-</ul></li>
-</ul></li>
-<li>GxP set up: timing tradeoff - is it good to set up early or late? setting up early can put on restrictions that is hard to change later. balance of flexibility, best practice and cost</li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <category>R</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</guid>
-  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Validating R packages</title>
-  <dc:creator>Doug Kelkhof</dc:creator>
-  <dc:creator>Margaret Wishart</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2024-r-pkg-validation.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="validate-r-packages" class="level1">
-<h1>Validate R packages</h1>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2024</h2>
-<p>Chairs: Doug Kelkhof and Margaret Wishart</p>
-<section id="package-lifecycle-management-and-validation" class="level3">
-<h3 class="anchored" data-anchor-id="package-lifecycle-management-and-validation">Package Lifecycle Management and Validation</h3>
-<p>Lifecycle Changes and Impact: Managing the lifecycle of R packages is crucial, particularly understanding what it means for a package to change its behavior. It’s important to assess whether such changes are significant and if they impact the stability or reliability of the package. The use of tools like Diffify can help track lifecycle changes and validate whether new versions introduce breaking changes or fix bugs.</p>
-<p>Containerization and Stability: Containers, such as those created using Nix, are increasingly seen as a way forward for maintaining stable software environments. They help bundle specific package versions, ensuring that a validated environment can be reliably reproduced. However, there are challenges, such as what exactly gets bundled in a container and the legal implications (e.g., GPL license concerns). Posit snapshots are favored by some for controlled environments, as they significantly reduce maintenance, though migrating snapshots can introduce challenges.</p>
-<p>Snapshot Management: Deciding when to lock down a snapshot is crucial. Should it be at the beginning of a project, or after some initial work? Snapshots offer a stable point of reference, but as packages evolve, there’s a risk of missing out on important updates or bug fixes. The question of whether to use an old snapshot or stay on the cutting edge is a balancing act between stability and leveraging new features or fixes.</p>
-<p>Temporal Metrics: With rapidly changing packages, it’s important to look at temporal metrics to assess risks associated with quick changes. For instance, the validation of packages like Arrow needs to consider how a bug fix might impact its validation status and whether a high rate of change poses additional risks.</p>
-</section>
-<section id="risk-management-and-validation-practices" class="level3">
-<h3 class="anchored" data-anchor-id="risk-management-and-validation-practices">Risk Management and Validation Practices</h3>
-<p>Risk Retrospective: There’s a need for a systematic approach to retrospectively evaluate risks. For example, running old tests on new package versions can reveal breaking changes or confirm that past bugs have been addressed. This process ensures that packages remain reliable over time, even as they evolve.</p>
-<p>Automation vs Human Involvement: While automation is key to maintaining consistency, especially in long-term projects, human oversight is crucial for high-risk packages. These packages often require additional validation steps, and there’s debate over how much human intervention is necessary. High-risk packages might involve more in-the-loop validation, while low-risk ones could rely more on automated processes.</p>
-</section>
-<section id="internal-vs-external-package-validation" class="level3">
-<h3 class="anchored" data-anchor-id="internal-vs-external-package-validation">Internal vs External Package Validation</h3>
-<p>Differentiated Validation Criteria: Internal packages often have different validation criteria compared to those on CRAN. Internal developers might not be as familiar with traditional checks like R CMD checks, leading to a need for more tailored validation processes. It’s also noted that internal validation is more stringent, often requiring additional tests that aren’t open-sourced, which raises questions about whether these should be contributed to public repositories.</p>
-<p>Baseline and Organizational Validation: Organizations often maintain a baseline of validated packages and differentiate between internal and third-party vendor packages. Some organizations have recreated their own risk metrics tools, tailoring them to their specific needs. The audit process involves defining testing processes and being aware of the risks associated with package updates or changes.</p>
-</section>
-<section id="unit-testing-and-quality-assurance" class="level3">
-<h3 class="anchored" data-anchor-id="unit-testing-and-quality-assurance">Unit Testing and Quality Assurance</h3>
-<p>Effective Testing Beyond Coverage: Simply hitting a coverage threshold is not enough; the quality of tests is crucial. For instance, high test coverage doesn’t guarantee that the tests are meaningful or effective. There’s a need to ensure that tests validate the core functionality of packages, particularly in statistical packages that might be treated differently due to their implications in analysis.</p>
-<p>Custom and Public Contributions: Organizations often write additional tests on top of package tests to further validate functionality. However, these tests are usually kept internal, which leads to a discussion on the potential benefits of contributing these tests to public repositories. Barriers to this include the time-intensive nature of creating these tests and a lack of familiarity with the contribution process.</p>
-<p>Regulatory and Industry Standards: In regulated industries, such as pharmaceuticals, there are higher requirements for package submissions, including unit tests and documentation. Collaboration with regulatory bodies like the FDA and EMA is essential to establish minimum validation requirements. Pharmaverse, for example, has adopted a notion that all packages must have standardized documentation and testing, accepted by the community.</p>
-</section>
-<section id="package-management-and-environment-control" class="level3">
-<h3 class="anchored" data-anchor-id="package-management-and-environment-control">Package Management and Environment Control</h3>
-<p>Package Manager and Snapshot Control: Managing package snapshots is typically the responsibility of IT, with packages being added as needed. Renv is commonly used but can sometimes fail catastrophically, leading to a preference for Posit snapshots in controlled environments. This method cuts down maintenance significantly, though issues arise when migrating snapshots, as users may have to deal with multiple package version updates simultaneously.</p>
-<p>Containerization Challenges: While Docker containers are technically preferred for creating stable environments, there are trade-offs, such as handling individual environments and licensing concerns. Containers might be seen as derivative works under GPL, which complicates their use in proprietary settings. Nix offers a different approach by locking down R and package versions with a declarative installation method, though challenges remain with mirrors and installation reliability. Snapshot Migration and Version Locking: The decision of when to lock down a snapshot—whether at the beginning of a project or after some work has been done—is critical. Locking down too early might prevent access to necessary updates, while delaying it could introduce instability. Some organizations favor letting certain users work on the bleeding edge to vet new package versions, while others prioritize stability by locking down environments early on.</p>
-</section>
-<section id="action-items-and-future-directions" class="level3">
-<h3 class="anchored" data-anchor-id="action-items-and-future-directions">Action Items and Future Directions</h3>
-<p>Validation Guidelines and Metrics: There’s a need to establish standard validation guidelines that include metrics to help determine risk levels. This could start with Pharmaverse and eventually be expanded to other areas in pharma and beyond.</p>
-<p>Collaboration with Regulatory Bodies: Working with entities like the FDA and EMA to develop minimum validation requirements and documentation standards for R packages is essential. This collaboration would help ensure that the industry adopts consistent and reliable validation practices.</p>
-<p>Text-Based Metric Files: Creating text-based files for major defined metrics would facilitate the tracking and management of package validation. This would help in setting clear criteria for evaluating package risk and determining when additional scrutiny is needed.</p>
-
-
-</section>
-</section>
-</section>
-
- ]]></description>
-  <category>R</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2024-r-pkg-validation.html</guid>
-  <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Sharing R code without sharing R code</title>
-  <dc:creator>Rohan Parmar</dc:creator>
-  <dc:creator>Min Lee</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="sharing-r-code-without-sharing-r-code" class="level2">
-<h2 class="anchored" data-anchor-id="sharing-r-code-without-sharing-r-code">Sharing R code without sharing R code</h2>
-<p>Chairs: Sharing R code without sharing R code</p>
-<section id="proposal" class="level3">
-<h3 class="anchored" data-anchor-id="proposal">Proposal</h3>
-<p>You created a small shiny application for your colleagues in a small team (2-5 people), that application is now getting extensive usage with more than 20, 30 or even 300 users. How do you go about scaling up your application? We want to hear from other users’ experience in creating long lived R based workflows. This can be anything from small snippets of code that started off as scripts that can be sequestered into R packages that are idiomatic to commonly used R interfaces to cater to a wider audience. Shiny apps that are doing computationally heavy tasks with multiple users that require you to think about scalability, fault tolerance, and complexity.</p>
-</section>
-<section id="expected-impact" class="level3">
-<h3 class="anchored" data-anchor-id="expected-impact">Expected impact</h3>
-<p>Sharing how others have made their R code into something that is much more user friendly or easier to contribute to. Code that readily interfaces with prior frameworks like tidyverse or scales easily. Other R users can navigate the trade-offs around consistency and scalability. Make informed decisions when writing R code taking into account future necessities such as validation requirements or maintainability.</p>
-<p><a href="https://github.com/rinpharma/rinpharma-summit-2024/discussions/16">Productionalizing R code · rinpharma rinpharma-summit-2024 · Discussion #16</a></p>
-<p>In the discussion, it was noted this was a common problem where an app grows into something bigger organically, and Nitesh flagged some connection to the topic of wanting to share R functions without sharing the R code.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>We are waiting on content from Rohan and Min. Once recieved this page will be updated.</p>
-</div>
-</div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>OS</category>
-  <category>R</category>
-  <category>Products</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</guid>
   <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -738,47 +738,6 @@ Warning
   <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Depending on Open Source</title>
-  <dc:creator>Mike Smith</dc:creator>
-  <dc:creator>Ed Lauzier</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-os-depends.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="depending-on-os-2023" class="level2">
-<h2 class="anchored" data-anchor-id="depending-on-os-2023">Depending on OS 2023</h2>
-<p>Chairs: Mike Smith &amp; Ed Lauzier</p>
-</section>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>How much risk is there in depending on external packages, and can we foster a clearer set of expectations between developers and people/companies that depend on these packages?</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Missing notes
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>We are currently waiting on Mike and Ed’s content. This site will updated when they reply.</p>
-<p>In the interim - the <a href="https://phuse-org.github.io/E2E-OS-Guidance/using.html">PHUSE Open Source guidance includes a chapter on depending on Open Source</a>.</p>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>OS</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-os-depends.html</guid>
-  <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
   <title>Multi-modal drug development</title>
   <dc:creator>Katie Igartua</dc:creator>
   <link>https://rinpharma.com/docs/summit/posts/2023-multi-modal.html</link>
@@ -887,6 +846,177 @@ Missing notes
   <category>AI</category>
   <guid>https://rinpharma.com/docs/summit/posts/2023-interactive-csr.html</guid>
   <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Depending on Open Source</title>
+  <dc:creator>Mike Smith</dc:creator>
+  <dc:creator>Ed Lauzier</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2023-os-depends.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="depending-on-os-2023" class="level2">
+<h2 class="anchored" data-anchor-id="depending-on-os-2023">Depending on OS 2023</h2>
+<p>Chairs: Mike Smith &amp; Ed Lauzier</p>
+</section>
+<section id="question" class="level2">
+<h2 class="anchored" data-anchor-id="question">Question</h2>
+<p>How much risk is there in depending on external packages, and can we foster a clearer set of expectations between developers and people/companies that depend on these packages?</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Missing notes
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We are currently waiting on Mike and Ed’s content. This site will updated when they reply.</p>
+<p>In the interim - the <a href="https://phuse-org.github.io/E2E-OS-Guidance/using.html">PHUSE Open Source guidance includes a chapter on depending on Open Source</a>.</p>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>OS</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2023-os-depends.html</guid>
+  <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Change management</title>
+  <dc:creator>Cassie Murcray</dc:creator>
+  <dc:creator>Dror Berel</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="change-management" class="level2">
+<h2 class="anchored" data-anchor-id="change-management">Change management</h2>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">2024 notes</h2>
+<p>Chairs: Cassie Murcray and Dror Berel</p>
+<section id="summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry" class="level3">
+<h3 class="anchored" data-anchor-id="summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry">Summary: Transitioning from SAS to R in the Pharmaceutical Industry</h3>
+<p>Over the past two years, there has been a significant shift in the pharmaceutical industry from SAS to R, driven by the rising costs of SAS licenses and the influx of new talent trained in R and other open-source tools. Despite these trends, the industry’s conservative nature, particularly in a highly regulated environment, often results in a reluctance to change well-established practices.</p>
+<p>As of 2024, this transition is well underway, with several companies already setting timelines for a complete migration to R. This includes replicating legacy SAS code in R for ongoing and long-term studies, as well as opting not to renew SAS licenses. While some SAS programmers find the transition to R more intuitive, others may face significant challenges.</p>
+</section>
+<section id="supporting-sas-programmers-in-transitioning-to-r" class="level3">
+<h3 class="anchored" data-anchor-id="supporting-sas-programmers-in-transitioning-to-r">Supporting SAS Programmers in Transitioning to R</h3>
+<p>To facilitate the learning process for SAS programmers, various strategies can be employed:</p>
+<ol type="1">
+<li><strong>Traditional Training and Mentorship</strong>: Programs such as Posit Academy and mentoring from experienced R programmers are essential. Large organizations often establish Centers of Excellence, where a designated “R floating buddy” mentors SAS programmers throughout the various stages of learning R. This mentorship should be conducted with patience and empathy, recognizing the challenges of adapting to a new programming language with different principles and syntax.</li>
+<li><strong>Strategic Learning Approaches</strong>:
+<ul>
+<li><strong>Address Key Pain Points</strong>: Focus on demonstrating how specific challenges are effectively resolved with R, highlighting the value of the R-based solution, and celebrating small wins to foster continued learning.</li>
+<li><strong>Simplify the Learning Ecosystem</strong>: Introduce a simple set of R packages, such as the tidyverse, before gradually introducing more advanced concepts. Avoid overwhelming learners with multiple equivalent approaches.</li>
+<li><strong>Gradual Progression</strong>: Start with basic concepts and gradually introduce more advanced topics like version control, beginning with individual contributions and progressing to collaborative work.</li>
+</ul></li>
+</ol>
+</section>
+<section id="managing-the-transition" class="level3">
+<h3 class="anchored" data-anchor-id="managing-the-transition">Managing the Transition</h3>
+<p>The successful shift from SAS to R requires active management by senior leadership, including clear directives, timelines, and ongoing support. It is crucial to allocate time for learning while maintaining productivity on ongoing projects.</p>
+</section>
+<section id="action-items" class="level3">
+<h3 class="anchored" data-anchor-id="action-items">Action Items</h3>
+<p>To support this transition, the following resources should be developed:</p>
+<ul>
+<li><strong>Cheat Sheets</strong>: Create reference guides with common code examples translated from SAS to R.</li>
+<li><strong>Cross-Tool Comparison</strong>: Develop a Comparative Analysis of Methods and Implementations in SAS, R, and Python (CAMIS) to help programmers understand the default parameters and methods used in each tool.</li>
+</ul>
+<p>This transition will not happen organically; it requires deliberate management and a structured approach to ensure successful adoption of R across the industry.</p>
+</section>
+</section>
+<section id="notes-1" class="level2">
+<h2 class="anchored" data-anchor-id="notes-1">2023 notes</h2>
+<p>Chairs: Matthew Kumar and Cassie Burns</p>
+<section id="question" class="level3">
+<h3 class="anchored" data-anchor-id="question">Question</h3>
+<p>Where are we on getting data analysts and data scientists that work with clinical data on board (in particular, those delivering CSRs and submission packages)? What are the challenges - what has been overcome?</p>
+</section>
+<section id="who-are-our-people" class="level3">
+<h3 class="anchored" data-anchor-id="who-are-our-people">Who are our people?</h3>
+<p>Prefaced both sessions by asking individuals to define the <em>our</em> in <em>our people</em>;</p>
+<ul>
+<li>Stat Programmers</li>
+<li>Statisticians</li>
+<li>Data Management</li>
+<li>Other CSR-deliverable oriented roles (e.g.&nbsp;medical and scientific writing)</li>
+<li>Management, Leadership</li>
+</ul>
+<p><strong>Theme: R Adoption and Challenges</strong></p>
+<ul>
+<li><p>The adoption of R requires varied types of commitment depending on the perspective of the stakeholders involved, notably management and employees.</p></li>
+<li><p>Leadership usually supports the adoption of R, yet, in many cases, they don’t adequately communicate or advocate its application. Common concerns include the lack of realized ROI and the perception of R as a “nice-to-have” rather than a necessity.</p></li>
+<li><p>It is not viable to mandate or compel individuals to learn R.</p></li>
+<li><p>Seasoned programmers, who prefer proprietary software, may leave the company if forced to switch.</p></li>
+<li><p>These programmers often prefer to maintain current workflows that involve proprietary tools, established macros, homegrown IDEs, etc.</p></li>
+<li><p>Some in management endorse an approach of “mandate” or “force,” while others aim to “encourage.”</p></li>
+<li><p>Experienced stat programmers cite R’s learning curve as an obstacle to transition, and some don’t see the ROI in making the switch.</p></li>
+</ul>
+<p><strong>Theme: Change Management</strong></p>
+<ul>
+<li><p>Implementing proper change management was emphasized by several attendees in both sessions.</p></li>
+<li><p>Organically, through change management, approximately 25% of experienced statistical programmers or statisticians have successfully completed R training, while the remaining 75% have shown resistance.</p></li>
+<li><p>Among the successful 25%, only 5% have applied what they’ve learned in actual study work. This is often due to time constraints related to product deliverables.</p></li>
+<li><p>Mapping the transition to R with learning and development goals is one strategy.</p></li>
+<li><p>A structured learning plan and a roadmap for R upskilling are essential. This includes trainings focused on R, particularly in the context of the pharmaceutical industry, and from a proprietary software programmer’s perspective.</p></li>
+<li><p>Identification of champions or early adopters among statistical programmers could aid in transitioning colleagues.</p></li>
+<li><p>Several companies shared their strategies for promoting community learning (e.g., bi-monthly meetings, presentations, assignments), both on a “just in time” basis and on a regular schedule.</p></li>
+<li><p>Pointing individuals to ongoing efforts and resources, such as R in Pharma, PharmaVerse, Phuse, etc., can boost awareness and participation.</p></li>
+<li><p>Granting individuals protected or dedicated time to learn and fail is recommended. An analogy used was “giving them a safe sandbox to try making a castle.”</p></li>
+<li><p>R need not be used for all tasks immediately. A more measured approach, such as starting with creating figures and then moving to more complex tasks, like AdAM programming, could better build confidence and competence.</p></li>
+<li><p>Ensuring enough transition time and clear direction (“as of X date, we’ll work in R”) is crucial.</p></li>
+<li><p>Having leadership advocacy is vital at the end of the day.</p></li>
+</ul>
+</section>
+<section id="theme-emerging-talent" class="level3">
+<h3 class="anchored" data-anchor-id="theme-emerging-talent">Theme: Emerging Talent</h3>
+<ul>
+<li><p>Newer talent is increasingly trained in open-source approaches and languages, with fewer exposed to proprietary tools.</p></li>
+<li><p>With the rise of data science as a field of study, many are less interested in joining a company for routine implementation work; they identify as “data scientists” and have been trained in markedly different ways.</p></li>
+<li><p>This affects talent attraction, development, and retention within a company.</p></li>
+<li><p>Innovation can come from new hires, justifying the need to foster their development and listen to their insights.</p></li>
+<li><p>There’s a unique opportunity for co-mentorship: new hires (proficient in R, Python, etc.) and existing staff (experts in domain knowledge, clinical trials, etc.):&nbsp;<em>how vs what/why</em></p></li>
+<li><p>There’s a need for clear “career pathing” or “trajectories” within statistical programming as roles evolve. Examples include:</p>
+<ul>
+<li>&nbsp;“Analyst” requires traditional statistical programming knowledge and training</li>
+<li>“Engineer” needs DevOps skills and a systems mindset</li>
+<li>“Tool builder” needs a software engineering mindset</li>
+</ul></li>
+<li><p>General trends suggest companies are demanding a secondary language in addition to proprietary software (not necessarily R), but knowledge of at least two languages indicates an individual could reasonably learn R.</p></li>
+</ul>
+</section>
+<section id="theme-other-points-and-considerations" class="level3">
+<h3 class="anchored" data-anchor-id="theme-other-points-and-considerations">Theme: Other Points and Considerations</h3>
+<ul>
+<li><p>Questions to consider include:&nbsp;<em>What kind of training will people need in the future state?</em>&nbsp;<em>How should the support be arranged to enable the future state, potentially with IT and DEV involvement?</em></p></li>
+<li><p>Due to the required skillset, statistics and programming now need to work together more than ever</p></li>
+<li><p>Stakeholders seek the benefits of R (e.g., Shiny, Rmarkdown), but often lack personnel to build and maintain these assets.</p></li>
+<li><p>R and Shiny tools can be utilized in more areas beyond TLF programming such as dose decision meetings, clinical trial design, administrative tasks, and long-term-focused applications.</p></li>
+<li><p>Legacy infrastructure (e.g., virtual machines and proprietary software) can pose challenges when implementing newer approaches like R and Shiny, making the transition difficult and cumbersome.</p></li>
+<li><p>AI and GPT can be a valuable tool in transitioning to R, but won’t completely replace a programmer. It can be used to effectively explain or translate existing code or generate entirely new code.</p></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>OS</category>
+  <category>Change management</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</guid>
+  <pubDate>Sun, 17 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Can we do data storage and processing better in clinical trials?</title>
@@ -1074,136 +1204,6 @@ Missing notes
  ]]></description>
   <category>OS</category>
   <guid>https://rinpharma.com/docs/summit/posts/2023-case-os.html</guid>
-  <pubDate>Sun, 17 Sep 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Change management</title>
-  <dc:creator>Cassie Murcray</dc:creator>
-  <dc:creator>Dror Berel</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="change-management" class="level2">
-<h2 class="anchored" data-anchor-id="change-management">Change management</h2>
-</section>
-<section id="notes" class="level2">
-<h2 class="anchored" data-anchor-id="notes">2024 notes</h2>
-<p>Chairs: Cassie Murcray and Dror Berel</p>
-<section id="summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry" class="level3">
-<h3 class="anchored" data-anchor-id="summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry">Summary: Transitioning from SAS to R in the Pharmaceutical Industry</h3>
-<p>Over the past two years, there has been a significant shift in the pharmaceutical industry from SAS to R, driven by the rising costs of SAS licenses and the influx of new talent trained in R and other open-source tools. Despite these trends, the industry’s conservative nature, particularly in a highly regulated environment, often results in a reluctance to change well-established practices.</p>
-<p>As of 2024, this transition is well underway, with several companies already setting timelines for a complete migration to R. This includes replicating legacy SAS code in R for ongoing and long-term studies, as well as opting not to renew SAS licenses. While some SAS programmers find the transition to R more intuitive, others may face significant challenges.</p>
-</section>
-<section id="supporting-sas-programmers-in-transitioning-to-r" class="level3">
-<h3 class="anchored" data-anchor-id="supporting-sas-programmers-in-transitioning-to-r">Supporting SAS Programmers in Transitioning to R</h3>
-<p>To facilitate the learning process for SAS programmers, various strategies can be employed:</p>
-<ol type="1">
-<li><strong>Traditional Training and Mentorship</strong>: Programs such as Posit Academy and mentoring from experienced R programmers are essential. Large organizations often establish Centers of Excellence, where a designated “R floating buddy” mentors SAS programmers throughout the various stages of learning R. This mentorship should be conducted with patience and empathy, recognizing the challenges of adapting to a new programming language with different principles and syntax.</li>
-<li><strong>Strategic Learning Approaches</strong>:
-<ul>
-<li><strong>Address Key Pain Points</strong>: Focus on demonstrating how specific challenges are effectively resolved with R, highlighting the value of the R-based solution, and celebrating small wins to foster continued learning.</li>
-<li><strong>Simplify the Learning Ecosystem</strong>: Introduce a simple set of R packages, such as the tidyverse, before gradually introducing more advanced concepts. Avoid overwhelming learners with multiple equivalent approaches.</li>
-<li><strong>Gradual Progression</strong>: Start with basic concepts and gradually introduce more advanced topics like version control, beginning with individual contributions and progressing to collaborative work.</li>
-</ul></li>
-</ol>
-</section>
-<section id="managing-the-transition" class="level3">
-<h3 class="anchored" data-anchor-id="managing-the-transition">Managing the Transition</h3>
-<p>The successful shift from SAS to R requires active management by senior leadership, including clear directives, timelines, and ongoing support. It is crucial to allocate time for learning while maintaining productivity on ongoing projects.</p>
-</section>
-<section id="action-items" class="level3">
-<h3 class="anchored" data-anchor-id="action-items">Action Items</h3>
-<p>To support this transition, the following resources should be developed:</p>
-<ul>
-<li><strong>Cheat Sheets</strong>: Create reference guides with common code examples translated from SAS to R.</li>
-<li><strong>Cross-Tool Comparison</strong>: Develop a Comparative Analysis of Methods and Implementations in SAS, R, and Python (CAMIS) to help programmers understand the default parameters and methods used in each tool.</li>
-</ul>
-<p>This transition will not happen organically; it requires deliberate management and a structured approach to ensure successful adoption of R across the industry.</p>
-</section>
-</section>
-<section id="notes-1" class="level2">
-<h2 class="anchored" data-anchor-id="notes-1">2023 notes</h2>
-<p>Chairs: Matthew Kumar and Cassie Burns</p>
-<section id="question" class="level3">
-<h3 class="anchored" data-anchor-id="question">Question</h3>
-<p>Where are we on getting data analysts and data scientists that work with clinical data on board (in particular, those delivering CSRs and submission packages)? What are the challenges - what has been overcome?</p>
-</section>
-<section id="who-are-our-people" class="level3">
-<h3 class="anchored" data-anchor-id="who-are-our-people">Who are our people?</h3>
-<p>Prefaced both sessions by asking individuals to define the <em>our</em> in <em>our people</em>;</p>
-<ul>
-<li>Stat Programmers</li>
-<li>Statisticians</li>
-<li>Data Management</li>
-<li>Other CSR-deliverable oriented roles (e.g.&nbsp;medical and scientific writing)</li>
-<li>Management, Leadership</li>
-</ul>
-<p><strong>Theme: R Adoption and Challenges</strong></p>
-<ul>
-<li><p>The adoption of R requires varied types of commitment depending on the perspective of the stakeholders involved, notably management and employees.</p></li>
-<li><p>Leadership usually supports the adoption of R, yet, in many cases, they don’t adequately communicate or advocate its application. Common concerns include the lack of realized ROI and the perception of R as a “nice-to-have” rather than a necessity.</p></li>
-<li><p>It is not viable to mandate or compel individuals to learn R.</p></li>
-<li><p>Seasoned programmers, who prefer proprietary software, may leave the company if forced to switch.</p></li>
-<li><p>These programmers often prefer to maintain current workflows that involve proprietary tools, established macros, homegrown IDEs, etc.</p></li>
-<li><p>Some in management endorse an approach of “mandate” or “force,” while others aim to “encourage.”</p></li>
-<li><p>Experienced stat programmers cite R’s learning curve as an obstacle to transition, and some don’t see the ROI in making the switch.</p></li>
-</ul>
-<p><strong>Theme: Change Management</strong></p>
-<ul>
-<li><p>Implementing proper change management was emphasized by several attendees in both sessions.</p></li>
-<li><p>Organically, through change management, approximately 25% of experienced statistical programmers or statisticians have successfully completed R training, while the remaining 75% have shown resistance.</p></li>
-<li><p>Among the successful 25%, only 5% have applied what they’ve learned in actual study work. This is often due to time constraints related to product deliverables.</p></li>
-<li><p>Mapping the transition to R with learning and development goals is one strategy.</p></li>
-<li><p>A structured learning plan and a roadmap for R upskilling are essential. This includes trainings focused on R, particularly in the context of the pharmaceutical industry, and from a proprietary software programmer’s perspective.</p></li>
-<li><p>Identification of champions or early adopters among statistical programmers could aid in transitioning colleagues.</p></li>
-<li><p>Several companies shared their strategies for promoting community learning (e.g., bi-monthly meetings, presentations, assignments), both on a “just in time” basis and on a regular schedule.</p></li>
-<li><p>Pointing individuals to ongoing efforts and resources, such as R in Pharma, PharmaVerse, Phuse, etc., can boost awareness and participation.</p></li>
-<li><p>Granting individuals protected or dedicated time to learn and fail is recommended. An analogy used was “giving them a safe sandbox to try making a castle.”</p></li>
-<li><p>R need not be used for all tasks immediately. A more measured approach, such as starting with creating figures and then moving to more complex tasks, like AdAM programming, could better build confidence and competence.</p></li>
-<li><p>Ensuring enough transition time and clear direction (“as of X date, we’ll work in R”) is crucial.</p></li>
-<li><p>Having leadership advocacy is vital at the end of the day.</p></li>
-</ul>
-</section>
-<section id="theme-emerging-talent" class="level3">
-<h3 class="anchored" data-anchor-id="theme-emerging-talent">Theme: Emerging Talent</h3>
-<ul>
-<li><p>Newer talent is increasingly trained in open-source approaches and languages, with fewer exposed to proprietary tools.</p></li>
-<li><p>With the rise of data science as a field of study, many are less interested in joining a company for routine implementation work; they identify as “data scientists” and have been trained in markedly different ways.</p></li>
-<li><p>This affects talent attraction, development, and retention within a company.</p></li>
-<li><p>Innovation can come from new hires, justifying the need to foster their development and listen to their insights.</p></li>
-<li><p>There’s a unique opportunity for co-mentorship: new hires (proficient in R, Python, etc.) and existing staff (experts in domain knowledge, clinical trials, etc.):&nbsp;<em>how vs what/why</em></p></li>
-<li><p>There’s a need for clear “career pathing” or “trajectories” within statistical programming as roles evolve. Examples include:</p>
-<ul>
-<li>&nbsp;“Analyst” requires traditional statistical programming knowledge and training</li>
-<li>“Engineer” needs DevOps skills and a systems mindset</li>
-<li>“Tool builder” needs a software engineering mindset</li>
-</ul></li>
-<li><p>General trends suggest companies are demanding a secondary language in addition to proprietary software (not necessarily R), but knowledge of at least two languages indicates an individual could reasonably learn R.</p></li>
-</ul>
-</section>
-<section id="theme-other-points-and-considerations" class="level3">
-<h3 class="anchored" data-anchor-id="theme-other-points-and-considerations">Theme: Other Points and Considerations</h3>
-<ul>
-<li><p>Questions to consider include:&nbsp;<em>What kind of training will people need in the future state?</em>&nbsp;<em>How should the support be arranged to enable the future state, potentially with IT and DEV involvement?</em></p></li>
-<li><p>Due to the required skillset, statistics and programming now need to work together more than ever</p></li>
-<li><p>Stakeholders seek the benefits of R (e.g., Shiny, Rmarkdown), but often lack personnel to build and maintain these assets.</p></li>
-<li><p>R and Shiny tools can be utilized in more areas beyond TLF programming such as dose decision meetings, clinical trial design, administrative tasks, and long-term-focused applications.</p></li>
-<li><p>Legacy infrastructure (e.g., virtual machines and proprietary software) can pose challenges when implementing newer approaches like R and Shiny, making the transition difficult and cumbersome.</p></li>
-<li><p>AI and GPT can be a valuable tool in transitioning to R, but won’t completely replace a programmer. It can be used to effectively explain or translate existing code or generate entirely new code.</p></li>
-</ul>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>OS</category>
-  <category>Change management</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</guid>
   <pubDate>Sun, 17 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>

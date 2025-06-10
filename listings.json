@@ -1,19 +1,9 @@
 [
   {
-    "listing": "/docs/summit/index.html",
+    "listing": "/docs/blog/index.html",
     "items": [
-      "/docs/summit/posts/2023-sce.html",
-      "/docs/summit/posts/2024-small-mid-pharma.html",
-      "/docs/summit/posts/2024-r-pkg-validation.html",
-      "/docs/summit/posts/2024-rproducts.html",
-      "/docs/summit/posts/2024-ai.html",
-      "/docs/summit/posts/2024-shiny-validation.html",
-      "/docs/summit/posts/2023-os-depends.html",
-      "/docs/summit/posts/2023-multi-modal.html",
-      "/docs/summit/posts/2023-interactive-csr.html",
-      "/docs/summit/posts/2023-dataformat.html",
-      "/docs/summit/posts/2023-case-os.html",
-      "/docs/summit/posts/2023-change-mgt.html"
+      "/docs/blog/posts/2022-06-24-we-are-np/index.html",
+      "/docs/blog/posts/2021-09-17-we-exist/index.html"
     ]
   },
   {
@@ -25,10 +15,20 @@
     "items": []
   },
   {
-    "listing": "/docs/blog/index.html",
+    "listing": "/docs/summit/index.html",
     "items": [
-      "/docs/blog/posts/2022-06-24-we-are-np/index.html",
-      "/docs/blog/posts/2021-09-17-we-exist/index.html"
+      "/docs/summit/posts/2024-small-mid-pharma.html",
+      "/docs/summit/posts/2024-rproducts.html",
+      "/docs/summit/posts/2024-r-pkg-validation.html",
+      "/docs/summit/posts/2023-sce.html",
+      "/docs/summit/posts/2024-ai.html",
+      "/docs/summit/posts/2024-shiny-validation.html",
+      "/docs/summit/posts/2023-multi-modal.html",
+      "/docs/summit/posts/2023-interactive-csr.html",
+      "/docs/summit/posts/2023-os-depends.html",
+      "/docs/summit/posts/2023-change-mgt.html",
+      "/docs/summit/posts/2023-dataformat.html",
+      "/docs/summit/posts/2023-case-os.html"
     ]
   }
 ]
