@@ -125,7 +125,7 @@ listing:
     - name: Audrey Yeo
       id: audrey-yeo
       committee: rpharma
-      avatar: images/people/generic.jpg
+      avatar: images/people/audrey-yeo.jpg
       affiliation: Roche / Genentech
       linkedin: audrey-yeo-8000
       github: audreyyeoCH

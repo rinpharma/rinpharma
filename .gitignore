@@ -5,3 +5,5 @@ site_libs/
 /.luarc.json
 
 .vscode/settings.json
+.Rproj.user/
+rinpharma.Rproj
