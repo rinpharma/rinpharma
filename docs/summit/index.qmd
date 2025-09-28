@@ -1,5 +1,5 @@
 ---
-title: R/Pharma summit
+title: R/Pharma Summit
 subtitle: The in-person event
 listing:
   sort: "date desc"
@@ -15,13 +15,40 @@ title-block-banner-color: body
 search: false
 ---
 
-## Prior summits
+## Purpose
 
-This document captures discussion, pain points and a path to next steps discussed at R/Pharma Summits.
+Our summit builds on one of the initial goals of R/Pharma - to bring people together in a room and start the conversations.  The first two years of R/Pharma were solely in-person events where amazing work was discussed, sparking industry initiatives.  When we moved to online conferences, the benefit of face-to-face interaction was lost.  The R/Pharma Summit brings it back.
 
-::: {.callout-note icon=false}
+Each year we host a face-to-face summit as posit::conf, bringing thought leaders and decision makers together in a room to discuss all things open source and Pharma.  The notes taken, and any actions, are shared with the community.
 
-## {{< fa users >}} 2024 F2F Roundtables in Seattle
+::: {.hello-quarto}
+::: {.content-block}
+
+::: {.hello-quarto-banner}
+
+## Prior Summits
+
+<ul class="nav nav-pills" id="hello-quarto-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="summit-2024-tab" data-bs-toggle="tab" data-bs-target="#summit-2024" type="button" role="tab" aria-controls="summit-2024" aria-selected="true">2024 Summit</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="summit-2023-tab" data-bs-toggle="tab" data-bs-target="#summit-2023" type="button" role="tab" aria-controls="summit-2023" aria-selected="true">2023 Summit</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="summit-references-tab" data-bs-toggle="tab" data-bs-target="#references" type="button" role="tab" aria-controls="references" aria-selected="false">References</button>
+  </li>
+</ul>
+:::
+
+
+<div class="tab-content" id="hello-quarto-tabcontent">
+<div class="tab-pane fade  show active" id="summit-2024" role="tabpanel" aria-labelledby="summit-2024-tab">
+
+::: {.grid}
+::: {.g-col-lg-12 .g-col-12}
+
+### {{< fa users >}} 2024 F2F Roundtables in Seattle
 
 ~120 leaders from 40+ companies met F2F in Seattle for a series of
 discussions on the most pressing topics for late-stage reporting in R. 
@@ -29,20 +56,26 @@ discussions on the most pressing topics for late-stage reporting in R.
 The discussion was crowdsourced via a github discussion, and led to the 
 following topics:
 
-- [Transitioning our people from SAS to R](/summit/posts/2023-change-mgt.html)
-- [How best to engage and enable small/mid-size pharma to use R and open source tools](/summit/posts/2024-small-mid-pharma.html)
-- [Future core competency of clinical statistical programmer with AI/LLM](/summit/posts/2024-ai.html)
-- [Can we do data storage and processing better in clinical trials?](/summit/posts/2023-dataformat.html)
-- [Sharing R data products externally](/summit/posts/2024-rproducts.html)
-- [Validation of shiny apps](/summit/posts/2024-shiny-validation.html)
-- [R package validation](/summit/posts/2024-r-pkg-validation.html)
-- [Leveraging operational metrics for better SCEs/platforms](/summit/posts/2023-sce.html)
+- [Future core competency of clinical statistical programmer with AI/LLM](/docs/summit/posts/2024-ai.html)
+- [Transitioning our people from SAS to R](/docs/summit/posts/2024-change-mgt.html)
+- [Can we do data storage and processing better in clinical trials?](/docs/summit/posts/2024-dataformat.html)
+- [R package validation](/docs/summit/posts/2024-r-pkg-validation.html)
+- [Sharing R data products externally](/docs/summit/posts/2024-rproducts.html)
+- [Leveraging operational metrics for better SCEs/platforms](/docs/summit/posts/2024-sce.html)
+- [Validation of shiny apps](/docs/summit/posts/2024-shiny-validation.html)
+- [How best to engage and enable small/mid-size pharma to use R and open source tools](/docs/summit/posts/2024-small-mid-pharma.html)
 
 :::
+:::
 
-::: {.callout-note icon=false}
+</div>
 
-## {{< fa users >}} 2023 F2F Roundtables in Chicago
+<div class="tab-pane fade" id="summit-2023" role="tabpanel" aria-labelledby="summit-2023-tab">
+
+::: {.grid}
+::: {.g-col-lg-12 .g-col-12}
+
+### {{< fa users >}} 2023 F2F Roundtables in Chicago
 
 ~60 leaders from 40+ companies met F2F in Chicago for a series of
 discussions on the most pressing topics for late-stage reporting in R. 
@@ -50,18 +83,24 @@ discussions on the most pressing topics for late-stage reporting in R.
 The discussion was crowdsourced via a github discussion, and led to the 
 following topics:
 
-- [What are our goals for a modern clinical reporting workflow, on a modern SCE?](/summit/posts/2023-sce.html)
-- [What are the risks with our increasing external business code dependencies?](/os-depends.html)
-- [We have a path to R package validation - but what are we doing with shiny apps?](/summit/posts/2024-shiny-validation.html)
-- [What is the path to an interactive CSR?](/summit/posts/2024-shiny-validation.html)
-- [The case for contributing to OS](/summit/posts/2023-case-os.html)
-- [Where are we with our people?](/summit/posts/2023-change-mgt.html)
-- [What should we be doing to leverage advances in LLMs/AA/AI impact? (at the drug development through to developer efficiency levels)](/summit/posts/2024-ai.html)
-- [What are the barriers bringing imaging/genomics/digital biomarkers and the CRF closer?](/summit/posts/2023-multi-modal.html)
+- [What should we be doing to leverage advances in LLMs/AA/AI impact? (at the drug development through to developer efficiency levels)](/docs/summit/posts/2023-ai.html)
+- [The case for contributing to OS](/docs/summit/posts/2023-case-os.html)
+- [Where are we with our people?](/docs/summit/posts/2023-change-mgt.html)
+- [What is the path to an interactive CSR?](/docs/summit/posts/2023-interactive-csr.html)
+- [What are the barriers bringing imaging/genomics/digital biomarkers and the CRF closer?](/docs/summit/posts/2023-multi-modal.html)
+- [What are the risks with our increasing external business code dependencies?](/docs/summit/posts/2023-os-depends.html)
+- [What are our goals for a modern clinical reporting workflow, on a modern SCE?](/docs/summit/posts/2023-sce.html)
+- [We have a path to R package validation - but what are we doing with shiny apps?](/docs/summit/posts/2023-shiny-validation.html)
 
 :::
+:::
 
-::: {.callout-note icon=false}
+</div>
+
+<div class="tab-pane fade" id="references" role="tabpanel" aria-labelledby="summit-references-tab">
+
+::: {.grid}
+::: {.g-col-lg-12 .g-col-12}
 
 ### {{< fa graduation-cap >}} References
 
@@ -86,5 +125,14 @@ following topics:
 
 
 :::
+:::
+
+</div>
+</div>
+
+:::
+:::
+
+
 
 ## Summit discussions

@@ -4,18 +4,17 @@ subtitle: Stephanie Lussier and Doug Kelkhoff
 description: |
   Can we do data storage and processing better in clinical trials?
 categories:
+  - 2024
   - OS
   - Data
 author: 
   - Stephanie Lussier
   - Doug Kelkhoff
-date: 2023-09-17
-image-alt: "The header from our articles of incoporation"
+date: 2024-08-11
+image-alt: ""
 ---
 
-## Can we do data better?
-
-## 2024
+# Can we do data better?
 
 Chairs: Stephanie Lussier and Doug Kelkhoff
 
@@ -30,7 +29,7 @@ A lot of thought currently about databases, but not a lot of companies using it 
 - Unclear justification for changes, particularly what are we getting from databases for current STDM/ADaM primary use; existing systems are mostly functional.
 - Challenges with concurrent data access by multiple teams in some file based approaches, leading to errors.
 
-### an approach around tortoiseSVN
+### An approach around tortoiseSVN
 
 - One company had been using tortoiseSVN for a while, and is considering moving to snowflake.
 - Pros: Integration with version control and modern cloud storage solutions.

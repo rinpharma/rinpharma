@@ -1,28 +1,31 @@
 ---
-title: Modern SCEs
+title: Modern SCEs (2023)
 subtitle: James Black & Satish Murphy
 description: |
   What are our goals with a modern SCE?
 categories:
-  - AI
+  - 2023
+  - SCE
 author: 
   - James Black
   - Satish Murphy
-date: 2024-10-01
-image-alt: "The header from our articles of incoporation"
+date: 2023-09-18
+image-alt: ""
 ---
 
-## Modern SCEs
+# Modern SCEs
 
 Chairs: James Black and Satish Murphy
 
-### Question
+See also: [2024 Discussion](/docs/summit/posts/2024-sce.html)
+
+## Question
 
 What are our goals for a modern clinical reporting workflow, on a modern SCE? What are our learnings today achieving that goal, and how can we better prepare ourselves to balance the drive to innovate while having to evolve people and processes?
 
-### Topics discussed
+## Topics discussed
 
-#### Is the next step Homegrown or vendor
+### Is the next step Homegrown or vendor
 
 - Split in vendor approaches vs homegrown for the new generation. We don't know what the ideal is today, but we know we need to be able to evolve and adapt to new technologies and approaches much more than we did in the past.
 - Homegrown usually means modular, as still relient on different open soruce and vendor solutions (e.g. AWS, Hashicorp, etc). Is a more accurate description turnkey vs modular?
@@ -30,12 +33,12 @@ What are our goals for a modern clinical reporting workflow, on a modern SCE? Wh
 - In a turnkey, the vendor will have baked in provenance. In a modular we must focus on making sure metadata/provenance runs as a background across the system to ensure we can trace back from an insights and transformations to the source data.
 - A major pain point is how things are funded - we are not used to funding a platform for sustained evolution/innovation, but in the data science space things are constantly evolving - so moving to operations/maintenance is equilivant to decay.
 
-#### Relationship with informatics partners
+### Relationship with informatics partners
 
 - There is often tension between informatics and the business, with the growth of business written code that looks more like software (e.g. R packages) vs the the scripts/macros we use to make. We shared experiences finding a balance as we entered this new phase.
 - It was refreshing to see we have cases where informatics and the business are aligned on one goal, and we need to be more proactive trying to create these relationships (including inviting informatics to our pan-industry discussions. J&J + Roche had informatics representation at this meeting, but otherwise the dialogue was from the business perspective).
 
-#### What is an SCE?
+### What is an SCE?
 
 - Should GxP and exploratory remain seperate platforms?
     - Split across companies in the group, with some companies having a single platform for both, and others having seperate platforms.
@@ -47,11 +50,11 @@ What are our goals for a modern clinical reporting workflow, on a modern SCE? Wh
 - Whether it's in the SCE or not, tracebility is extra important in our domain of regulatory reporting.
 - It appeared across all companies access to an SCE is through a web-browser (not a local application)
 
-#### Building trust in business/open source code
+### Building trust in business/open source code
 
 - [The Cathedral and the Bazaar by Eric Rayman](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar) was a recomended essay to read, that talks about 'Cathedral' products where the code is developed in a closed environment then released, vs 'Bazaar' products where the code is developed in the open. An arguement is the Bazaar model, as long as it is a project with enough eyeballs, will lead to shallow bugs; this is also known as [Linus' Law](https://en.wikipedia.org/wiki/Linus%27s_law).
 
-#### Change-management into a modern SCE
+### Change-management into a modern SCE
 
 - What are we actually building? A general data science platform? A platform optimised for clinical reporting?
     - These are not the same platform, and which you pick has an impact. e.g. should statistical programmers learn git, or should we give a simple GUI for pushing code through QC and to Prod?
@@ -62,7 +65,7 @@ What are our goals for a modern clinical reporting workflow, on a modern SCE? Wh
     - Agreement the biggest pain point is the dependency on file-based network share drives for data and insight outputs. One company mentioned they have millions of directories in their legacy SCE.
 - Most companies have carried over having the outputs server be a network share drive, but would a more 'publishing' type model be more robust?
 
-#### General notes
+### General notes
 
 - We manage on user access. A question is whether we should control access based on user access *and* the intended use. In terms of both where they are working and what the context of the work is.
 - We need to rightsize our ambitions, as going to broad will slow us down.
@@ -70,11 +73,11 @@ What are our goals for a modern clinical reporting workflow, on a modern SCE? Wh
 - Interactive analysis is growing - need to prepare for when people want to use something like shiny for GxP
 - The ideal people to work on the SCEs are unicorns - they need to be able to work with the business, understand the trial processes, and be able to work with the technology. We need to be able to train people to be unicorns, and we need to be able to retain them.
 
-#### Actions
+### Actions
 
 ::: {.callout-note icon=false}
 
-#### {{< fa list >}} 
+### {{< fa list >}} 
 
 - Can we have a learning series / discussion / panel on experience using a designing git flows
 - What are companies experiences across the diverse scopes we've placed onto SCEs - need to share more here.
@@ -83,7 +86,7 @@ What are our goals for a modern clinical reporting workflow, on a modern SCE? Wh
 
 :::
 
-#### Resources
+### Resources
 
 [White paper on late-stage SCEs](https://phuse.s3.eu-central-1.amazonaws.com/Events/2021/US+Connect+2021/SCE_White_Paper_Final_15Dec2021.pdf)
 
@@ -91,64 +94,3 @@ Keynote incoporating the discussion at the round tables:
 
 {{< video https://www.youtube.com/embed/XO-oPX1TBuw >}}
 
-# Sharing R code without sharing R code
-
-Chairs: James Black
-
-## 2024
-
-### Objectively track migrations/language use in studies?
-
-- Most companies are using Github or Gitlab for study code - if we know where all the repos are, can we scan them via the API to track things like which studies are using R, Python or still on SAS?
-- **Key Questions:**
-  - What code should be scanned? Look for files present? `.sas`, `.R`, `.py`, `.sql`, etc.? Is it more accurate than inbuilt language detection present in API endpoints?
-  - Should the focus be on studying all code written or only focus on study code (e.g. limit scope to org that holds studies)?
-  - Is there an API endpoint that can indicate which repository is being used?
-
-### Can we understand what packages are being used in studies?
-
-- **Idea:** 
-  - The Posit Package Manager API doesn't reliably say what validated R packages are used in each study, but as `renv` is used more, 
-    can we scan the `renv.lock` files to see what packages are being used? 
-- **Purpose:** 
-  - This helps validation teams, our teams working on R packages, as well as help flag if we need to identify who used 
-    a specific version of a specific package in a study.
-  - Where packages are 'pre-baked' into containers to speed up 'time to pulling data', want to keep that as lean as possible using metrics like this.
-
-### Understanding container use
-
-- **Challenges:**
-  - How do we understand uptake of managed images, and who is using old images? 
-  - Need for a strategy to manage container upgrades effectively.
-  - Actively understand patterns of image use across your SCE
-  - Look at patterns that should be dealt with - e.g. large numbers of idle interactive containers clogging worker nodes
-- **Idea:** 
-  - Pull k8's logs to get list of all active containers by person over time  
-
-### Keeping Connect lean
-
-- **Idea:** 
-  - Roche had an example where >500 broken items, and >500 items not touched in more than a year were on the server
-  - Use Connect data (the postgres database as the API is very slow) to remove content
-- **Purpose:** 
-  - Remove potentially GBs of un-used data on the Connect server, and also enforce retention rules
-
-### General notes
-
-  - Shift continues to data being outside of the SCE
-  - Some companies moved to 'iterate anywhere - final batch runs matter' stance. Some still consider every activity requiring validation.
-  - Discussion highlighted a split on whether internet access is blocked - in some companies there is no air gap, in ohers there is, particularly on 'validated batch runs'
-  - singularity compresses containers better
-  - big celebrations that now we do not need to rebuild containers each time workbench is updated!!
-  - Provenance is an audit/validation requirement
-  - Explore the potential use of common tools to data engineering that are absent in clinical reporting (e.g. dbt, airflow, prefect) 
-
-### Action Items and Questions
-- **Action Item:** 
-  - White paper with Mark Bynens on the SCE.
-  - In white paper, clarify what the SCE is and how to handle program environments and data integration more effectively.
-
-### References
-
-- James' posit::conf talk: [epijim.uk/talk/giving-your-scientific-computing-environment-sce-a-voice](https://epijim.uk/talk/giving-your-scientific-computing-environment-sce-a-voice/)
-- Alanah Jonas from GSK may have a relevant talk later in the year at PHUSE EU 2024

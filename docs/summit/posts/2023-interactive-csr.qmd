@@ -4,27 +4,28 @@ subtitle: Ning Leng and Phil Bowsher
 description: |
   What are our goals with an interactive CSR?
 categories:
+  - 2023
   - AI
 author: 
   - Ning Ling
   - Phil Bowsher
-date: 2023-10-01
-image-alt: "The header from our articles of incoporation"
+date: 2023-09-18
+image-alt: ""
 ---
 
 # Interactive CSR
 
 Chairs: Ning Leng and Phil Bowsher
 
-# Question
+## Question
 
 If we assume it's technically possible to transfer - what would it mean to give an interactive CSR? How would primary, secondary and ad-hoc analysis be viewed? Would views change depending on role (e.g. sponsor, statistical reviewer, clinical reviewer)?
 
-# Why?
+## Why?
 
 The current process of CSR generation and review involves generating large amounts of tables and plots. In such scenarios, we believe an interactive application would provide a more efficient method to explore both primary and secondary analysis results. 
 
-# Barriers
+## Barriers
 
 - Internally
     - Most companies have a highly process driven to medical writing, where any change is difficult to implement
@@ -32,13 +33,13 @@ The current process of CSR generation and review involves generating large amoun
     - Concern of encouraging data fishing, if controls on for instance subgroup analysis are not in place?
     - Need cross industry harmonization as HA is highly unlikely to accept each pharma company submitting an interactive CSR based on a different framework
 
-# Requirements
+## Requirements
 
 - Can an interactive CSR by default be limited to only analyses defined in the SAP, should/can exploring a wider scope be allowed with clear and explicit intent by the app user?
   - How is the ROI of interactivity in a CSR impacted if it's limited to produce only pre-specified anlayses? Would different reviewers have different access? (e.g. statisticla vs clinical) 
 - There is a gap in patient profile modules and patient narratives in shiny apps
 
-# Path to the CSR
+## Path to the CSR
 
 There are many places where this tooling can be applied before the CSR:
 
@@ -55,7 +56,7 @@ Can commenting be possible (as you can markup a PDF/work doc)?
 
 Existing frameworks exist - e.g. `teal` from NEST. ARDs may mean additional results can be pre-generated in a controlled way - but ARDs can't further process data.
 
-# Resources
+## Resources
 
 Eric Nantz, from the R Submissions working group, [which have been working with the FDA on a shiny submisson as part of pilot 2](https://rconsortium.github.io/submissions-wg/pilot2.html):
 

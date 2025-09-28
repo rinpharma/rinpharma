@@ -1,28 +1,29 @@
 ---
 title: Sharing R code without sharing R code
-subtitle: Sharing R code without sharing R code
+subtitle: Rohan Parmar & Min Lee
 description: |
   Depending on Open Source
 categories:
+  - 2024
   - OS
   - R
   - Products
 author: 
   - Rohan Parmar
   - Min Lee 
-date: 2024-10-01
-image-alt: "The header from our articles of incoporation"
+date: 2024-08-11
+image-alt: ""
 ---
 
-## Sharing R code without sharing R code
+# Sharing R code without sharing R code
 
-Chairs: Sharing R code without sharing R code
+Chairs: Rohan Parmar and Min Lee
 
-### Proposal
+## Proposal
 
 You created a small shiny application for your colleagues in a small team (2-5 people), that application is now getting extensive usage with more than 20, 30 or even 300 users. How do you go about scaling up your application? We want to hear from other users' experience in creating long lived R based workflows. This can be anything from small snippets of code that started off as scripts that can be sequestered into R packages that are idiomatic to commonly used R interfaces to cater to a wider audience. Shiny apps that are doing computationally heavy tasks with multiple users that require you to think about scalability, fault tolerance, and complexity.
 
-### Expected impact
+## Expected impact
 
 Sharing how others have made their R code into something that is much more user friendly or easier to contribute to. Code that readily interfaces with prior frameworks like tidyverse or scales easily. Other R users can navigate the trade-offs around consistency and scalability. Make informed decisions when writing R code taking into account future necessities such as validation requirements or maintainability.
 
@@ -32,6 +33,6 @@ In the discussion, it was noted this was a common problem where an app grows int
 
 ::: {.callout-warning}
 
-We are waiting on content from Rohan and Min. Once recieved this page will be updated.
+Additional notes are not available for this roundtable.
 
 :::
