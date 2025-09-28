@@ -45,7 +45,7 @@ website:
     title: false
     collapse-below: lg
     left:
-      - text: "Overview"
+      - text: Overview
         href: index.qmd
       - text: People
         href: people.md
@@ -53,8 +53,10 @@ website:
         href: docs/conference/index.qmd
       - text: Summit
         href: docs/summit/index.qmd
-      - text: "Blog"
+      - text: Blog
         href: docs/blog/index.qmd
+      - text: Support
+        href: docs/support/index.qmd
     right:
       - icon: twitter
         href: https://twitter.com/rinpharma
