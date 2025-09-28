@@ -22,11 +22,15 @@ website:
       Proud organizer of 
       [![](/images/logo-rinpharma.png){fig-alt="OS in Pharma logo" width=65px}](https://www.rinpharma.com)
     center:
-      - text: "About"
+      - text: About
         href: about.qmd
-      - text: "FAQ"
-        href: docs/faq/index.qmd
-      - text: "License"
+      - text: Privacy Policy
+        href: privacy.qmd
+      - text: Terms and Conditions
+        href: terms.qmd
+#      - text: "FAQ"
+#        href: docs/faq/index.qmd
+      - text: License
         href: license.qmd
     right:
       - icon: twitter
