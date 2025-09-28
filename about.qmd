@@ -5,14 +5,25 @@ subtitle: "Find your way around this website"
 
 ## Overview
 
-Visit the [**Overview tab**](/) to learn more about what OS in Pharma is.
+Visit the [**Overview tab**](/) to learn more about R/Pharma.
 
-## Governance
+## People
 
-Visit the [**governance tab**](/docs/governance/) to learn more about how OS in Pharma is governed, 
-and to find the location of documents relevant to our governance.
+Visit the [**people tab**](/people/) to learn about who is involved.
+
+## Conference
+
+Visit the [**conference tab**](/docs/conference/) to find out about the R/Pharma conferences and events.
+
+## Summit
+
+Visit the [**summit tab**](/docs/summit/) to learn about the face-to-face summits.
 
 ## Blog
 
-Visit the [**blog tab**](/docs/blog/) to hear updates from the OS in Pharma team.
+Visit the [**blog tab**](/docs/blog/) to keep up to date with R/Pharma.
+
+## Support
+
+Visit the [**support tab**](/docs/support/) find out about R/Pharma supporters.
 
