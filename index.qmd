@@ -29,7 +29,7 @@ Our mission:
 - Encourage seminars, dicussion and facilitate collaboration between companies
 
 ::: {.hero-buttons}
-[Register (example of button)](docs/governance/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+[R/Pharma 2025 Registration](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
 [Our blog](docs/blog/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
 ::: 
 
@@ -71,16 +71,17 @@ Our mission:
 ::: {.g-col-lg-6 .g-col-12}
 ## R/Pharma
 
-The first conference took place in 2018, as an in-person event hosted by Harvard. During Covid-19, the 
-conference moved to be online, and grew in participation to more than 1,500 data scientists from the 
-pharma world with a passion for using R.
+The first conference took place in 2018, as an in-person event hosted by Harvard. During Covid-19, the conference moved to be online, and grew in participation to more than 2,600 data scientists from the pharma world with a passion for using R.
 
 The conference is free to attend, and all hosting costs are met by contributions by 
 Pharma companies.
 
-## R/Pharma APAC
+R/Pharma runs Europe/US and APAC tracks.  To register click the button below.
 
-A satellite event scheduled to connect and build our APAC community.
+:::: {.hero-buttons}
+[R/Pharma 2025 Registration](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+:::: 
+
 :::
 
 ::: {.g-col-lg-6 .g-col-12}
@@ -97,9 +98,9 @@ A satellite event scheduled to connect and build our APAC community.
 
 ## R/Pharma Summit
 
-Posit and R/Pharma are excited to announce that the R/Pharma Roundtable Summit is returning for posit::conf(2025). Last year, representatives from ~40 companies met in-person to discuss some of the most pressing topics pharma is tackling to bring data science to late stage development. The in-person summit focuses on the future of drug development using open source and tailored for program leaders and people leading Open Source initiatives. A summary of prior years is here: [Summit page](/docs/summit). 
+The R/Pharma summit has run for three years at posit::conf.  In 2025, over 100 representatives from 40+ companies met in-person to discuss some of the most pressing topics pharma is tackling.  The in-person summit focuses on the future of drug development using open source and tailored for program leaders and people leading Open Source initiatives. A summary of prior years is here: [Summit page](/docs/summit). 
 
-During the 2025 R/Pharma Summit, facilitators will foster in-person discussions and conversations about key items (reproducibility, interactivity, submissions, scalability, etc.) with industry leaders about open-source tools for next-generation submissions.The 2024 advisory board, shaping the agenda and planned actions for the event, spans >10 pharma companies, as well as CROs and academic research centers.
+Throughout the 2025 R/Pharma Summit, facilitators fostered in-person discussions and conversations about key items (reproducibility, interactivity, submissions, scalability, etc.) with industry leaders about open-source tools for next-generation submissions.The advisory board, shaping the agenda and planned actions for the event, spans >10 pharma companies, as well as CROs and academic research centers.
 
 :::
 :::
@@ -109,15 +110,17 @@ During the 2025 R/Pharma Summit, facilitators will foster in-person discussions 
 <div class="tab-pane fade" id="community" role="tabpanel" aria-labelledby="community-tab">
 
 ::: {.grid}
-::: {.g-col-lg-6 .g-col-12}
+::: {.g-col-lg-12 .g-col-12}
 ## Community
 
-Diversity Alliance here? Example image to right.
+### Diversity Alliance
 
-:::
+We aspire to be an inclusive R community for developers who work in the pharma space. Our goal is to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices. The R/Pharma **Diversity Alliance** is a space where all ways of being and doing can feel welcome.  Each year, the Diversity Alliance put on a hackathon to introduce new voices to open source R package development.  For more details subscribe to our [meeting calendar](https://www.addevent.com/calendar/AD808454) or email us at [diversityalliance@opensourceinpharma.com](mailto:diversityalliance@opensourceinpharma.com).
 
-::: {.g-col-lg-6 .g-col-12}
-![](images/coursera.png){fig-alt="Coursera." fig-align="center"}
+### R/Pharma Hangouts
+
+The monthly R/Pharma hangout is a place to discuss all things open source.  The hangouts are hosted by Eric Nantz and Jared Woolfolk and are never recorded so you can be yourself!  For more details, subscribe to our [meeting calendar](https://www.addevent.com/calendar/wC797942).
+
 :::
 :::
 
