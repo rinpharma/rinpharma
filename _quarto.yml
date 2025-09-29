@@ -33,6 +33,9 @@ website:
       - text: License
         href: license.qmd
     right:
+      - icon: linkedin
+        href: https://www.linkedin.com/company/open-source-in-pharma/
+        aria-label: R/Pharma LinkedIn
       - icon: twitter
         href: https://twitter.com/rinpharma
         aria-label: R/Pharma Twitter
@@ -62,6 +65,9 @@ website:
       - text: Support
         href: docs/support/index.qmd
     right:
+      - icon: linkedin
+        href: https://www.linkedin.com/company/open-source-in-pharma/
+        aria-label: R/Pharma LinkedIn
       - icon: twitter
         href: https://twitter.com/rinpharma
         aria-label: R/Pharma Twitter
