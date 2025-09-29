@@ -4,14 +4,19 @@ subtitle: Katie Igartua
 description: |
   Multi-modal drug development
 categories:
+  - 2023
   - AI
 author: 
   - Katie Igartua
-date: 2023-10-01
-image-alt: "The header from our articles of incoporation"
+date: 2023-09-18
+image-alt: ""
 ---
 
-## # Question
+# Multi-modal drug development
+
+Chair: Katie Igartua
+
+## Question
 
 There is more need than ever to integrate different roles, and ways of working, along with different data modalities. What are the barriers bringing imaging/genomics/digital biomarkers and the CRF closer, how could we overcome them, and what is our envisioned benefit?
 

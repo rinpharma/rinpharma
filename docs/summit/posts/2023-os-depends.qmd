@@ -4,15 +4,16 @@ subtitle: Mike Smith & Ed Lauzier
 description: |
   Depending on Open Source
 categories:
+  - 2023
   - OS
 author: 
   - Mike Smith
   - Ed Lauzier
 date: 2023-10-01
-image-alt: "The header from our articles of incoporation"
+image-alt: ""
 ---
 
-## Depending on OS 2023
+# Depending on OS 2023
 
 Chairs: Mike Smith & Ed Lauzier
 
@@ -24,8 +25,6 @@ How much risk is there in depending on external packages, and can we foster a cl
 
 ## Missing notes
 
-We are currently waiting on Mike and Ed's content. This site will updated when they reply. 
-
-In the interim - the [PHUSE Open Source guidance includes a chapter on  depending on Open Source](https://phuse-org.github.io/E2E-OS-Guidance/using.html).
+Notes are not available for this roundtable, however the [PHUSE Open Source guidance](https://phuse-org.github.io/E2E-OS-Guidance/using.html) includes a chapter on  depending on Open Source.
 
 :::

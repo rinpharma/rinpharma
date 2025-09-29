@@ -1,0 +1,32 @@
+---
+title: AI opportunities (2023)
+subtitle: Paulo Bargo and Ning Leng
+description: |
+  What are the LLMs/AA/AI opportunities in drug development?
+categories:
+  - 2023
+  - AI
+author: 
+  - Paulo Bargo
+  - Ning Leng
+date: 2023-09-18
+image-alt: ""
+---
+
+# LLMs/AA/AI opportunities?
+
+Chairs: Paulo Bargo & Ning Leng
+
+See also: [2024 Discussion](/docs/summit/posts/2024-ai.html)
+
+### Question
+
+What should we be doing to leverage advances in LLMs/AA/AI impact? (at the drug development through to developer efficiency levels)
+
+::: {.callout-warning}
+
+### Missing notes
+
+Notes are not available for this roundtable.
+
+:::

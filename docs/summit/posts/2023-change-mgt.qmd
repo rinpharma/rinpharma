@@ -1,62 +1,30 @@
 ---
-title: Change management
-subtitle: Cassie Murcray and Dror Berel 
+title: Change management (2023)
+subtitle: Matthew Kumar and Cassie Burns
 description: |
   Transitioning from SAS to R in the Pharmaceutical Industry
 categories:
+  - 2023
   - OS
   - Change management
 author: 
-  - Cassie Murcray
-  - Dror Berel 
-date: 2023-09-17
-image-alt: "The header from our articles of incoporation"
+  - Matthew Kumar
+  - Cassie Burns
+date: 2023-09-18
+image-alt: ""
 ---
 
-## Change management
-
-## 2024 notes
-
-Chairs: Cassie Murcray and Dror Berel 
-
-### Summary: Transitioning from SAS to R in the Pharmaceutical Industry
-
-Over the past two years, there has been a significant shift in the pharmaceutical industry from SAS to R, driven by the rising costs of SAS licenses and the influx of new talent trained in R and other open-source tools. Despite these trends, the industry’s conservative nature, particularly in a highly regulated environment, often results in a reluctance to change well-established practices.
-
-As of 2024, this transition is well underway, with several companies already setting timelines for a complete migration to R. This includes replicating legacy SAS code in R for ongoing and long-term studies, as well as opting not to renew SAS licenses. While some SAS programmers find the transition to R more intuitive, others may face significant challenges.
-
-### Supporting SAS Programmers in Transitioning to R
-
-To facilitate the learning process for SAS programmers, various strategies can be employed:
-
-1. **Traditional Training and Mentorship**: Programs such as Posit Academy and mentoring from experienced R programmers are essential. Large organizations often establish Centers of Excellence, where a designated "R floating buddy" mentors SAS programmers throughout the various stages of learning R. This mentorship should be conducted with patience and empathy, recognizing the challenges of adapting to a new programming language with different principles and syntax.
-2. **Strategic Learning Approaches**:
-    - **Address Key Pain Points**: Focus on demonstrating how specific challenges are effectively resolved with R, highlighting the value of the R-based solution, and celebrating small wins to foster continued learning.
-    - **Simplify the Learning Ecosystem**: Introduce a simple set of R packages, such as the tidyverse, before gradually introducing more advanced concepts. Avoid overwhelming learners with multiple equivalent approaches.
-    - **Gradual Progression**: Start with basic concepts and gradually introduce more advanced topics like version control, beginning with individual contributions and progressing to collaborative work.
-
-### Managing the Transition
-
-The successful shift from SAS to R requires active management by senior leadership, including clear directives, timelines, and ongoing support. It is crucial to allocate time for learning while maintaining productivity on ongoing projects.
-
-### Action Items
-
-To support this transition, the following resources should be developed:
-
-- **Cheat Sheets**: Create reference guides with common code examples translated from SAS to R.
-- **Cross-Tool Comparison**: Develop a Comparative Analysis of Methods and Implementations in SAS, R, and Python (CAMIS) to help programmers understand the default parameters and methods used in each tool.
-
-This transition will not happen organically; it requires deliberate management and a structured approach to ensure successful adoption of R across the industry.
-
-## 2023 notes
+# Change management
 
 Chairs: Matthew Kumar and Cassie Burns
 
-### Question
+See also: [2024 Discussion](/docs/summit/posts/2024-change-mgt.html)
+
+## Question
 
 Where are we on getting data analysts and data scientists that work with clinical data on board (in particular, those delivering CSRs and submission packages)? What are the challenges - what has been overcome?
 
-### Who are our people?
+## Who are our people?
 
 Prefaced both sessions by asking individuals to define the *our* in *our people*;
 
@@ -66,7 +34,7 @@ Prefaced both sessions by asking individuals to define the *our* in *our people*
 - Other CSR-deliverable oriented roles (e.g. medical and scientific writing)
 - Management, Leadership
 
-**Theme: R Adoption and Challenges**
+### Theme: R Adoption and Challenges
 
 - The adoption of R requires varied types of commitment depending on the perspective of the stakeholders involved, notably management and employees.
 
@@ -82,7 +50,7 @@ Prefaced both sessions by asking individuals to define the *our* in *our people*
 
 - Experienced stat programmers cite R's learning curve as an obstacle to transition, and some don't see the ROI in making the switch.
 
-**Theme: Change Management**
+### Theme: Change Management
 
 - Implementing proper change management was emphasized by several attendees in both sessions.
 
@@ -121,7 +89,7 @@ Prefaced both sessions by asking individuals to define the *our* in *our people*
 - There's a unique opportunity for co-mentorship: new hires (proficient in R, Python, etc.) and existing staff (experts in domain knowledge, clinical trials, etc.): *how vs what/why*
 
 - There's a need for clear "career pathing" or "trajectories" within statistical programming as roles evolve. Examples include:
-    -  "Analyst" requires traditional statistical programming knowledge and training
+    - "Analyst" requires traditional statistical programming knowledge and training
     - "Engineer" needs DevOps skills and a systems mindset
     - "Tool builder” needs a software engineering mindset
 

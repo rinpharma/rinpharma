@@ -1,26 +1,25 @@
 ---
-title: AI opportunities
+title: AI opportunities (2024)
 subtitle: Vincent Shen and Melanie Hullings
 description: |
   What are the LLMs/AA/AI opportunities in drug development?
 categories:
+  - 2024
   - AI
 author: 
   - Vincent Shen
   - Melanie Hullings
-date: 2024-10-01
-image-alt: "The header from our articles of incoporation"
+date: 2024-08-11
+image-alt: ""
 ---
 
-# AI opportunities
-
-## 2024
-
-### LLMs/AA/AI opportunities?
+# LLMs/AA/AI Opportunities
 
 Chairs: Vincent Shen and Melanie Hullings
 
-### 1. Current AI Usage and Adoption
+See also: [2023 Discussion](/docs/summit/posts/2023-ai.html)
+
+## Current AI Usage and Adoption
 
 - **Academia**:
     - Cautious approach with AI project review committees and approvals
@@ -35,7 +34,7 @@ Chairs: Vincent Shen and Melanie Hullings
     - More open to AI and developing custom tools
     - Applications in genomics data querying, report generation, and biological discovery
 
-### 2. Specific Use Cases and Tools
+## Specific Use Cases and Tools
 
 - Writing a first draft that is then reviewed by human experts
 - DSUR report generation automation
@@ -47,7 +46,7 @@ Chairs: Vincent Shen and Melanie Hullings
 - Manufacturing use case: API access to all kinds of GenAI models / RAG-based application to search from historic logs on certain process
 - LLM/GenAI for drug discovery (on genetic structures)
 
-### 3. Challenges and Limitations
+## Challenges and Limitations
 
 - Legal and regulatory concerns, including new EU law with assigned risk levels
 - Resistance to using clinical data with LLMs
@@ -55,21 +54,21 @@ Chairs: Vincent Shen and Melanie Hullings
 - Need for better tools in data processing and manipulation
 - Potential dangers of using AI without understanding the underlying processes
 
-### 4. Implementation and Cultural Shifts
+## Implementation and Cultural Shifts
 
 - Need for workforce training on responsible AI use
 - Varying levels of AI adoption across companies require guides and training
 - Importance of leadership support, IT infrastructure, and legal guidance
 - Need for standardization and policies (e.g., documentation of AI-generated code)
 
-### 5. Opportunities and Benefits
+## Opportunities and Benefits
 
 - Time-saving potential, especially for those with basic programming knowledge
 - Knowledge management improvements
 - Potential for automating routine tasks and reports
 - Use of RAG (Retrieval-Augmented Generation) for various applications
 
-### 6. Future of Statistical Programming
+## Future of Statistical Programming
 
 - Main benefit of AI is increased efficiency in programming tasks
 - Leadership questioning the impact on workforce size and composition
@@ -82,13 +81,13 @@ Chairs: Vincent Shen and Melanie Hullings
 - Statistical Programmer job will evolve but not be eliminated
 - Increased efficiency allows for focus on more complex analytical tasks
 
-### 7. AI Model Development and Evaluation
+## AI Model Development and Evaluation
 
 - Transition from general GPT models to fine-tuned, domain-specific models
 - Distinct approaches needed for coding vs. RAG/document tasks
 - Importance of evaluating RAG effectiveness, potentially using LLMs for this purpose
 
-### Next Steps
+## Next Steps
 
 1. **Establish AI<>R Working Group**
     - Goal would be to develop an open-source R package bot but would need to figure out how to fine-tune, host, collaborate, etc.
@@ -108,21 +107,3 @@ Chairs: Vincent Shen and Melanie Hullings
 6. **Develop AI Evaluation Methods**
     - Create standardized processes for QC of AI outputs
     - Improve methods for assessing AI-generated code quality
-
-## 2023
-
-### LLMs/AA/AI opportunities?
-
-Chairs: Paulo Bargo & Ning Leng
-
-### Question
-
-What should we be doing to leverage advances in LLMs/AA/AI impact? (at the drug development through to developer efficiency levels)
-
-::: {.callout-warning}
-
-### Missing notes
-
-Content is still coming, an email will be shared once the site is complete.
-
-:::
