@@ -6,11 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Satish Murphy &amp; Becca Krouse">
-<meta name="dcterms.date" content="2023-09-18">
-<meta name="description" content="What is stopping people and companies from contributions in OS? Can we define the case for contributing to OS?">
+<meta name="author" content="Cassie Murcray">
+<meta name="author" content="Dror Berel">
+<meta name="dcterms.date" content="2024-08-11">
+<meta name="description" content="Transitioning from SAS to R in the Pharmaceutical Industry">
 
-<title>The case for OS – R/Pharma</title>
+<title>Change management (2024) – R/Pharma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -90,12 +91,12 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="The case for OS – R/Pharma">
-<meta property="og:description" content="What is stopping people and companies from contributions in OS? Can we define the case for contributing to OS?">
+<meta property="og:title" content="Change management (2024) – R/Pharma">
+<meta property="og:description" content="Transitioning from SAS to R in the Pharmaceutical Industry">
 <meta property="og:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta name="twitter:title" content="The case for OS – R/Pharma">
-<meta name="twitter:description" content="What is stopping people and companies from contributions in OS? Can we define the case for contributing to OS?">
+<meta name="twitter:title" content="Change management (2024) – R/Pharma">
+<meta name="twitter:description" content="Transitioning from SAS to R in the Pharmaceutical Industry">
 <meta name="twitter:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -170,16 +171,17 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">The case for OS</h1>
-            <p class="subtitle lead">Satish Murphy &amp; Becca Krouse</p>
+      <h1 class="title">Change management (2024)</h1>
+            <p class="subtitle lead">Cassie Murcray and Dror Berel</p>
                   <div>
         <div class="description">
-          <p>What is stopping people and companies from contributions in OS? Can we define the case for contributing to OS?</p>
+          <p>Transitioning from SAS to R in the Pharmaceutical Industry</p>
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">2023</div>
+                <div class="quarto-category">2024</div>
                 <div class="quarto-category">OS</div>
+                <div class="quarto-category">Change management</div>
               </div>
                   </div>
   </div>
@@ -188,16 +190,17 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
   <div class="quarto-title-meta">
 
       <div>
-      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-heading">Authors</div>
       <div class="quarto-title-meta-contents">
-               <p>Satish Murphy &amp; Becca Krouse </p>
+               <p>Cassie Murcray </p>
+               <p>Dror Berel </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 18, 2023</p>
+        <p class="date">August 11, 2024</p>
       </div>
     </div>
     
@@ -212,21 +215,19 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-case-for-os" id="toc-the-case-for-os" class="nav-link active" data-scroll-target="#the-case-for-os">The case for OS</a>
+  <li><a href="#change-management" id="toc-change-management" class="nav-link active" data-scroll-target="#change-management">Change management</a>
   <ul class="collapse">
-  <li><a href="#question" id="toc-question" class="nav-link" data-scroll-target="#question">Question</a></li>
-  <li><a href="#main-concerns" id="toc-main-concerns" class="nav-link" data-scroll-target="#main-concerns">Main concerns</a>
+  <li><a href="#summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry" id="toc-summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry" class="nav-link" data-scroll-target="#summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry">Summary: Transitioning from SAS to R in the Pharmaceutical Industry</a></li>
+  <li><a href="#supporting-sas-programmers-in-transitioning-to-r" id="toc-supporting-sas-programmers-in-transitioning-to-r" class="nav-link" data-scroll-target="#supporting-sas-programmers-in-transitioning-to-r">Supporting SAS Programmers in Transitioning to R</a>
   <ul class="collapse">
-  <li><a href="#licencing" id="toc-licencing" class="nav-link" data-scroll-target="#licencing">Licencing</a></li>
-  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process">Process</a></li>
-  <li><a href="#liability" id="toc-liability" class="nav-link" data-scroll-target="#liability">Liability</a></li>
-  <li><a href="#people" id="toc-people" class="nav-link" data-scroll-target="#people">People</a></li>
+  <li><a href="#traditional-training-and-mentorship" id="toc-traditional-training-and-mentorship" class="nav-link" data-scroll-target="#traditional-training-and-mentorship">Traditional Training and Mentorship</a></li>
+  <li><a href="#strategic-learning-approaches" id="toc-strategic-learning-approaches" class="nav-link" data-scroll-target="#strategic-learning-approaches">Strategic Learning Approaches</a></li>
   </ul></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
-  <li><a href="#what-can-we-do" id="toc-what-can-we-do" class="nav-link" data-scroll-target="#what-can-we-do">What can we do?</a></li>
+  <li><a href="#managing-the-transition" id="toc-managing-the-transition" class="nav-link" data-scroll-target="#managing-the-transition">Managing the Transition</a></li>
+  <li><a href="#action-items" id="toc-action-items" class="nav-link" data-scroll-target="#action-items">Action Items</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/summit/posts/2023-case-os.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/summit/posts/2024-change-mgt.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -239,61 +240,43 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 
 
 
-<section id="the-case-for-os" class="level1">
-<h1>The case for OS</h1>
-<p>Chairs: Satish Murphy &amp; Becca Krouse</p>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>What is stopping people and companies from contributions in OS? Can we define the case for contributing to OS?</p>
+<section id="change-management" class="level1">
+<h1>Change management</h1>
+<p>Chairs: Cassie Murcray and Dror Berel</p>
+<p>See also: <a href="../../../docs/summit/posts/2023-change-mgt.html">2023 Discussion</a></p>
+<section id="summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry" class="level2">
+<h2 class="anchored" data-anchor-id="summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry">Summary: Transitioning from SAS to R in the Pharmaceutical Industry</h2>
+<p>Over the past two years, there has been a significant shift in the pharmaceutical industry from SAS to R, driven by the rising costs of SAS licenses and the influx of new talent trained in R and other open-source tools. Despite these trends, the industry’s conservative nature, particularly in a highly regulated environment, often results in a reluctance to change well-established practices.</p>
+<p>As of 2024, this transition is well underway, with several companies already setting timelines for a complete migration to R. This includes replicating legacy SAS code in R for ongoing and long-term studies, as well as opting not to renew SAS licenses. While some SAS programmers find the transition to R more intuitive, others may face significant challenges.</p>
 </section>
-<section id="main-concerns" class="level2">
-<h2 class="anchored" data-anchor-id="main-concerns">Main concerns</h2>
-<section id="licencing" class="level3">
-<h3 class="anchored" data-anchor-id="licencing">Licencing</h3>
-<ul>
-<li>R’s core is released on a copyleft GPL license, so there are concerns around any additions we make being required to publish back to the community. This is a concern for companies that are not in the business of selling software, but rather use software as a tool to do their business.</li>
-<li>Python is seen as less of risk, as it is released via permissive licence</li>
-<li>Is there really a legal risk for copy-left licences, and if so under what circumstances? (e.g.&nbsp;using it internally for a plot vs making and selling an app or algorithm that uses the copyleft dependency)</li>
-<li>Can we understand better how IP is protected in OS?</li>
-</ul>
+<section id="supporting-sas-programmers-in-transitioning-to-r" class="level2">
+<h2 class="anchored" data-anchor-id="supporting-sas-programmers-in-transitioning-to-r">Supporting SAS Programmers in Transitioning to R</h2>
+<p>To facilitate the learning process for SAS programmers, various strategies can be employed:</p>
+<section id="traditional-training-and-mentorship" class="level3">
+<h3 class="anchored" data-anchor-id="traditional-training-and-mentorship">Traditional Training and Mentorship</h3>
+<p>Programs such as Posit Academy and mentoring from experienced R programmers are essential. Large organizations often establish Centers of Excellence, where a designated “R floating buddy” mentors SAS programmers throughout the various stages of learning R. This mentorship should be conducted with patience and empathy, recognizing the challenges of adapting to a new programming language with different principles and syntax.</p>
 </section>
-<section id="process" class="level3">
-<h3 class="anchored" data-anchor-id="process">Process</h3>
+<section id="strategic-learning-approaches" class="level3">
+<h3 class="anchored" data-anchor-id="strategic-learning-approaches">Strategic Learning Approaches</h3>
 <ul>
-<li>When using an internal package in a filing, we can package it directly as part of the study code and give to the FDA - which is seen as less of a risk than publishing it as OS where the global community can view the code.</li>
-<li>Folks often want to contribute - but there are some limitations both professionally (e.g.&nbsp;internal process to contribute) and personally</li>
-<li>If someone works on a project in their own time, there is a concern that treated is a company asset even though they are doing it outside of working hours. What is the actual boundary between work and personal contributions?</li>
-<li>People making the policies need to actually understand the topic of OS</li>
-</ul>
-</section>
-<section id="liability" class="level3">
-<h3 class="anchored" data-anchor-id="liability">Liability</h3>
-<ul>
-<li>We know the liability is similar between OS and proprietary software, but there is a perception that all OS is more risky</li>
-</ul>
-</section>
-<section id="people" class="level3">
-<h3 class="anchored" data-anchor-id="people">People</h3>
-<ul>
-<li>OS contributions are seen as nice to have - how can this be prioritised vs project work?</li>
-<li>Be involved in projects like Oak, NEST and admiral brings recognition to the contributors</li>
-<li>Often projects are mostly driven by a handful, or even a couple, of people. What if someone leaves? Is OS actually a benefit here as same developer could promote and lead to use of the package at their new company?</li>
-<li>Write up a short post / article titled “Here’s why you should allow your people to contribute to open source”</li>
-<li>Write a blog post and short PDF that can be shared internally at the leadership level</li>
+<li><strong>Address Key Pain Points</strong>: Focus on demonstrating how specific challenges are effectively resolved with R, highlighting the value of the R-based solution, and celebrating small wins to foster continued learning.</li>
+<li><strong>Simplify the Learning Ecosystem</strong>: Introduce a simple set of R packages, such as the tidyverse, before gradually introducing more advanced concepts. Avoid overwhelming learners with multiple equivalent approaches.</li>
+<li><strong>Gradual Progression</strong>: Start with basic concepts and gradually introduce more advanced topics like version control, beginning with individual contributions and progressing to collaborative work.</li>
 </ul>
 </section>
 </section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<ul>
-<li><a href="https://phuse-org.github.io/E2E-OS-Guidance/slides/eu23">PHUSE Open Source guidance</a></li>
-</ul>
+<section id="managing-the-transition" class="level2">
+<h2 class="anchored" data-anchor-id="managing-the-transition">Managing the Transition</h2>
+<p>The successful shift from SAS to R requires active management by senior leadership, including clear directives, timelines, and ongoing support. It is crucial to allocate time for learning while maintaining productivity on ongoing projects.</p>
 </section>
-<section id="what-can-we-do" class="level2">
-<h2 class="anchored" data-anchor-id="what-can-we-do">What can we do?</h2>
+<section id="action-items" class="level2">
+<h2 class="anchored" data-anchor-id="action-items">Action Items</h2>
+<p>To support this transition, the following resources should be developed:</p>
 <ul>
-<li>Create a framework to help articulate the benefit, and help to tackle the concerns/process that gets in the way</li>
+<li><strong>Cheat Sheets</strong>: Create reference guides with common code examples translated from SAS to R.</li>
+<li><strong>Cross-Tool Comparison</strong>: Develop a Comparative Analysis of Methods and Implementations in SAS, R, and Python (CAMIS) to help programmers understand the default parameters and methods used in each tool.</li>
 </ul>
+<p>This transition will not happen organically; it requires deliberate management and a structured approach to ensure successful adoption of R across the industry.</p>
 
 
 </section>
@@ -770,7 +753,7 @@ if (!kPlatformMac) {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/summit/posts/2023-case-os.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/summit/posts/2024-change-mgt.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

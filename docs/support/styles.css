@@ -1,0 +1,10 @@
+
+#supportlist ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#supportlist li {
+  color: darkblue;
+  font-size: 1.5em;
+}

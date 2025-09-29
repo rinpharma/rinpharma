@@ -16,83 +16,223 @@
 <height>50</height>
 <width>144</width>
 </image>
-<generator>quarto-1.7.31</generator>
-<lastBuildDate>Fri, 17 Sep 2021 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Wed, 30 Jul 2025 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>We exist!</title>
-  <dc:creator>Michael Blanks</dc:creator>
-  <link>https://rinpharma.com/docs/blog/posts/2021-09-17-we-exist/</link>
+  <title>R/Pharma GenAI Day</title>
+  <dc:creator>R/Pharma </dc:creator>
+  <link>https://rinpharma.com/docs/blog/posts/2025-07-30-genAI/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://rinpharma.com/docs/blog/posts/2021-09-17-we-exist/we-exist.png" class="preview-image img-fluid quarto-figure quarto-figure-center figure-img" alt="The header from our articles of incoporation"></p>
-</figure>
-</div>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-It’s day 1 for OS in Pharma!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Just a quick update today, to note we have filed our articles of incoporation with the Secretary of State of the State of North Carolina!</p>
-</div>
-</div>
+<p>We’re so excited to announce the lineup for the second <strong>R/Pharma genAI day</strong>, the single day event focused on examples of using generative artificial intelligence (GenAI) with an emphasis in the drug development space and clinical domain.</p>
+<p>The virtual Single Day Event (August 19th) will be focused on various applications of GenAI such as accelerating the learning of open source languages and supporting late-stage reporting tasks. The day will consist of a workshop, talks, and a panel discussion/hangout.</p>
+<p>Free registration: <a href="https://events.zoom.us/ev/AhJgNAEgFp0gVZG2EFBctyctEm8CstaLIEhxRlQMdtnGW3kbCTuI~ArOl6K2ZzYqVlcryttKbAVtgnsvE6g6mByAhuOim9_vxpcQ-lh-mJvL1Ag" class="uri">https://events.zoom.us/ev/AhJgNAEgFp0gVZG2EFBctyctEm8CstaLIEhxRlQMdtnGW3kbCTuI~ArOl6K2ZzYqVlcryttKbAVtgnsvE6g6mByAhuOim9_vxpcQ-lh-mJvL1Ag</a></p>
+<p>See below for the program (all times in ET).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 28%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Time</th>
+<th>Speaker</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">10:00-10:40AM</td>
+<td>Garrick Aden-Buie (Posit)</td>
+<td>Interactive Session: Building the Future of Data Apps: LLMs Meet Shiny</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10:40-11:00AM</td>
+<td>Break</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">11:00-11:20AM</td>
+<td>Olga Mierzwa-Sulima &amp; Jakub Nowicki (Appsilon)</td>
+<td>Interactive and Instant: GenAI-driven Creation of Clinical Trial Applications</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">11:20-11:40AM</td>
+<td>Ari Siggaard Knoph &amp; Anthony Stefan Rajecki-Doyle (Novo Nordisk)</td>
+<td>Building an AI Pair Programmer for ADaM</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">11:40-12:00PM</td>
+<td>Sam Parmar (Pfizer)</td>
+<td>Enabling genAI Capabilities for Statistical Programmers</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12:00-1:00PM</td>
+<td>Eric Nantz, Jared Woolfolk</td>
+<td>GenAI R/Pharma Hangout (Please note: this session is not recorded)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1:00-1:20PM</td>
+<td>Emily Yates (Formation Bio)</td>
+<td>Maximizing LLM Potential: How Data Structure and Context Drive Quality Insights</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1:20-1:40PM</td>
+<td>Devin Pastoor (A2-AI)</td>
+<td>Agents and MCP and RAG, oh my! Where is the GenAI Yellow-Brick-Road Leading?</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1:40-2:00PM</td>
+<td>Vincent Shen (Roche)</td>
+<td>Customized GenAI coding assistant leveraging multi-agent framework</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2:00-2:20PM</td>
+<td>Break</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2:20-2:40PM</td>
+<td>Jay Timmerman (Biogen)</td>
+<td>Inside an AI Project: From Idea to Value</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2:40-3:00PM</td>
+<td>Vina Ro and Ian M Sturdy (Eli Lilly)</td>
+<td>Natural Language to Code: AI-Powered Automation for CDISC-Compliant Datasets</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3:00-3:20PM</td>
+<td>Jake Gagnon (Biogen)</td>
+<td>Considerations of LLM’s benefits and risks</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3:20-3:40PM</td>
+<td>Thomas Mock (Posit)</td>
+<td>Positron Assistant for Developing Shiny Apps</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3:40-4:00PM</td>
+<td></td>
+<td>Q/A Wrap Up</td>
+</tr>
+</tbody>
+</table>
+<p>genAI Day will also have an Expo. It’s a chance for you to show off your awesome open source contributions (packages, applications, youTube channel, etc). If you are interested in submitting contents for an expo booth please use the following link: <a href="https://docs.google.com/forms/d/e/1FAIpQLScs1oxOn-XmiGCC8Ds11Jaz1EstESZlmhdT9QUvImHomPLBgA/viewform?usp=header" class="uri">https://docs.google.com/forms/d/e/1FAIpQLScs1oxOn-XmiGCC8Ds11Jaz1EstESZlmhdT9QUvImHomPLBgA/viewform?usp=header</a></p>
+<p>This form will guide you through the details we’ll need (description, some images and a short video).</p>
+<p>We look forward to seeing you on Tuesday, August 19th!</p>
 
 
 
  ]]></description>
-  <category>status-update</category>
-  <category>wins</category>
-  <guid>https://rinpharma.com/docs/blog/posts/2021-09-17-we-exist/</guid>
-  <pubDate>Fri, 17 Sep 2021 00:00:00 GMT</pubDate>
-  <media:content url="https://rinpharma.com/docs/blog/posts/2021-09-17-we-exist/we-exist.png" medium="image" type="image/png" height="93" width="144"/>
+  <category>gen-AI-day</category>
+  <guid>https://rinpharma.com/docs/blog/posts/2025-07-30-genAI/</guid>
+  <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2025-07-30-genAI/genAI.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
-  <title>We are officially NP</title>
-  <dc:creator>Michael Blanks</dc:creator>
-  <link>https://rinpharma.com/docs/blog/posts/2022-06-24-we-are-np/</link>
+  <title>Diversity Alliance Hackathon</title>
+  <dc:creator>Diversity Alliance</dc:creator>
+  <link>https://rinpharma.com/docs/blog/posts/2025-07-25-hackathon/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://rinpharma.com/docs/blog/posts/2022-06-24-we-are-np/np.png" class="preview-image img-fluid quarto-figure quarto-figure-center figure-img" alt="The header from our articles of incoporation"></p>
-</figure>
-</div>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-We are now a non-profit with the tools needed to support our efforts
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Just a quick update today, that we recieved the reply from the IRS, meaning we are now able to take donations.</p>
-</div>
-</div>
+<section id="the-rpharma-diversity-alliance-will-be-holding-a-hackathon-on-september-30th." class="level3">
+<h3 class="anchored" data-anchor-id="the-rpharma-diversity-alliance-will-be-holding-a-hackathon-on-september-30th.">The R/Pharma Diversity Alliance will be holding a hackathon on September 30th.</h3>
+</section>
+<section id="for-participants" class="level2">
+<h2 class="anchored" data-anchor-id="for-participants">For Participants</h2>
+<p>Join members of the community in small groups to tackle issues in real projects. The hackathon is aimed for people who identify as underrepresented and would like to get involved in open source projects. We’re here to help you if you’re new to open source and have yet to make your first git commit. In fact we’ll also be running a git clinic to bring you up to speed.<br>
+Please register interest using this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnBeMmLC9CNlS9l65lwd7oF7Q-bogOHXZ88StAgqvwgLWefg/viewform">form</a> and we’ll be sure to reach out to you when registration opens in August.</p>
+</section>
+<section id="for-mentors" class="level2">
+<h2 class="anchored" data-anchor-id="for-mentors">For Mentors</h2>
+<p>Are you an open source developer in R? Would you like to act as a mentor for the hackathon? We’d love to get as many mentors as possible to help. We’re looking for primary mentors (someone who proposes an open source project where they can manage merge requests) and secondary mentors (people to work with the primary mentors during the hackathon). Mentors do not have to identify as being from an under-recognized group.<br>
+If you are interested in acting as a mentor and inspiring the next generation of open source developers, please respond using this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxlngmo_fM2PPIiucjNb4Dx2AxEZOv8GeRYfbwqym9_4nbAA/viewform">form</a>.</p>
+<p>Come join us in September!</p>
 
 
+</section>
 
  ]]></description>
-  <category>status-update</category>
-  <category>wins</category>
-  <guid>https://rinpharma.com/docs/blog/posts/2022-06-24-we-are-np/</guid>
-  <pubDate>Fri, 17 Sep 2021 00:00:00 GMT</pubDate>
-  <media:content url="https://rinpharma.com/docs/blog/posts/2022-06-24-we-are-np/np.png" medium="image" type="image/png" height="95" width="144"/>
+  <category>diversity-alliance</category>
+  <category>hackathon</category>
+  <guid>https://rinpharma.com/docs/blog/posts/2025-07-25-hackathon/</guid>
+  <pubDate>Fri, 25 Jul 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2025-07-25-hackathon/sticky-notes.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
+<item>
+  <title>In-Person and Virtual Events for 2025</title>
+  <dc:creator>R/Pharma </dc:creator>
+  <link>https://rinpharma.com/docs/blog/posts/2025-06-14-announcements/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>There is much excitement for R/Pharma in the second half of the year! Please find below the plan for our in-person Summit and Virtual gathering!</p>
+<section id="genai-day" class="level2">
+<h2 class="anchored" data-anchor-id="genai-day">genAI Day</h2>
+<p>R/Pharma is hosting the second annual, free one-day event, highlighting the use of generative AI in the Pharma industry. Registration is available via this <a href="https://events.zoom.us/ev/AhJgNAEgFp0gVZG2EFBctyctEm8CstaLIEhxRlQMdtnGW3kbCTuI~ArOl6K2ZzYqVlcryttKbAVtgnsvE6g6mByAhuOim9_vxpcQ-lh-mJvL1Ag">link</a>.<br>
+The meeting will run from 10:00AM-3:00PM ET on August 19th, with talks focusing on applications of generative AI for drug development activities and on the use as a coding aid for programmers. Speakers and schedule will be announced shortly.</p>
+</section>
+<section id="in-person-summit" class="level2">
+<h2 class="anchored" data-anchor-id="in-person-summit">In-Person Summit</h2>
+<p>R/Pharma is excited to announce that we are partnering again with Posit PBC to host our in-person program at posit::conf(2025), happening at the Hyatt Regency Seattle. The Summit will be on Monday Sep 15th 2025. The Summit can be booked via the posit::conf(2025) registration page: <a href="https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/">https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/</a>.</p>
+<p>The Summit can be booked independently of posit::conf(2025), or bundled with a posit::conf(2025) ticket, workshop or both.</p>
+<p>The R/Pharma Summit will highlight how open-source tools are shaping the future of drug development. Throughout the event, facilitators will guide in-person discussions with industry leaders on key topics including reproducibility, regulatory submissions, and scalability, all with an emphasis on advancing next-generation submissions through the use of open-source solutions.</p>
+<p>Topics for roundtable summit discussions are sourced from the community. Feel free to add suggestions, comment and upvote <a href="https://github.com/rinpharma/rinpharma-summit-2025/discussions">here</a>, even if you are unable to attend the summit.</p>
+<p>In addition to the summit, there will be two R/Pharma workshops at posit::conf on Tuesday Sep 16th.</p>
+<section id="end-to-end-submissions-in-r-with-the-pharmaverse." class="level4">
+<h4 class="anchored" data-anchor-id="end-to-end-submissions-in-r-with-the-pharmaverse.">End-to-End Submissions in R with the Pharmaverse.</h4>
+<p><strong>Daniel Sjoberg (Genetech) and Becca Krouse (GSK)</strong><br>
+A hands-on introduction to using R and Pharmaverse packages for a streamlined regulatory submission process, covering data preparation, CDISC compliance, and TLG generation. Participants will learn to optimize their workflow from raw data to publication-ready outputs.</p>
+</section>
+<section id="deploying-reproducible-analytics-environments-for-regulated-use-cases" class="level4">
+<h4 class="anchored" data-anchor-id="deploying-reproducible-analytics-environments-for-regulated-use-cases">Deploying Reproducible Analytics Environments for Regulated Use Cases</h4>
+<p><strong>James Black (Novartis), Orla Doyle (Novartis), and Doug Kelkhoff (Roche)</strong><br>
+This workshop addresses the challenges and opportunities of deploying reproducible R analytical environments in regulated industries. Through a mix of discussions and exercises, the workshop will focus on containerization, package management, compliance, and sharing with regulators.</p>
+<p>More information available at <a href="https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/">https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/</a>.</p>
+</section>
+</section>
+<section id="rpharma-virtual-conference" class="level2">
+<h2 class="anchored" data-anchor-id="rpharma-virtual-conference">R/Pharma Virtual Conference</h2>
+<p>R/Pharma Virtual Conference will run from Nov 3-7 with workshops running 3rd, 4th and 7th and presentations 5th and 6th. Call-for-talks is currently open (see <a href="https://sessionize.com/rpharma-2025">https://sessionize.com/rpharma-2025</a>). If you’d like to present a talk or workshop please use the link to submit to the program committee.<br>
+We are also planning our Asia-Pacific region (APAC) event! Use the same link to submit a talk or workshop. If you are interested in helping out with R/Pharma US/Europe/APAC use the R/Pharma contact form <a href="https://rinpharma.com/contact/">https://rinpharma.com/contact/</a>.</p>
+<p>R/Pharma Virtual Conference is a free event. Registration will open in the summer (announcement on R/Pharma website and social media).</p>
+<p>Previous R/Pharma talks and workshop recordings are available at <a href="https://www.youtube.com/c/RinPharma">https://www.youtube.com/c/RinPharma</a>.</p>
+</section>
+<section id="recurring-monthly-events" class="level2">
+<h2 class="anchored" data-anchor-id="recurring-monthly-events">Recurring Monthly Events</h2>
+<section id="diversity-alliance" class="level4">
+<h4 class="anchored" data-anchor-id="diversity-alliance">Diversity Alliance</h4>
+<p>We aspire to be an inclusive R community for developers who work in the pharma space. Our goal is to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices. The <a href="https://opensourceinpharma.github.io/RinPharmaDiversityAlliance/">Diversity Alliance</a> meets monthly and is currently planning a hackathon. If you would like to join the monthly meetings, please click here: <a href="https://www.addevent.com/calendar/AD808454">https://www.addevent.com/calendar/AD808454</a>. The next meeting is scheduled for June 20th at 9:00AM ET.</p>
+</section>
+<section id="rpharma-hangout" class="level4">
+<h4 class="anchored" data-anchor-id="rpharma-hangout">R/Pharma Hangout</h4>
+<p>The hangout is a welcoming space for anyone to come to chat about open source in Pharma. Have a question or an opinion? Come join us. The next meeting is scheduled for June 17th at 12:00PM ET. The hangout calendar is available here: <a href="https://www.addevent.com/calendar/wC797942">https://www.addevent.com/calendar/wC797942</a></p>
+<p><strong>We hope to see you at R/Pharma events in 2025!</strong></p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>summit</category>
+  <category>gen-AI-day</category>
+  <category>conference</category>
+  <guid>https://rinpharma.com/docs/blog/posts/2025-06-14-announcements/</guid>
+  <pubDate>Sat, 14 Jun 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2025-06-14-announcements/fireworks.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

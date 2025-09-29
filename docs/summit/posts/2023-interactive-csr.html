@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ning Ling">
 <meta name="author" content="Phil Bowsher">
-<meta name="dcterms.date" content="2023-10-01">
+<meta name="dcterms.date" content="2023-09-18">
 <meta name="description" content="What are our goals with an interactive CSR?">
 
 <title>Interactive CSR – R/Pharma</title>
@@ -37,14 +37,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../favicon.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-f55738f6ef87315b062dda0a9b42e3bc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-b268d7f29fecf4d8c0d22ba55fbc9faa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -94,11 +95,9 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <meta property="og:description" content="What are our goals with an interactive CSR?">
 <meta property="og:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta property="og:image:alt" content="The header from our articles of incoporation">
 <meta name="twitter:title" content="Interactive CSR – R/Pharma">
 <meta name="twitter:description" content="What are our goals with an interactive CSR?">
 <meta name="twitter:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
-<meta name="twitter:image:alt" content="The header from our articles of incoporation">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -110,7 +109,8 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo">
+    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo light-content">
+    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -139,8 +139,17 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
     <a class="nav-link" href="../../../docs/blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../docs/support/index.html"> 
+<span class="menu-text">Support</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/open-source-in-pharma/"> <i class="bi bi-linkedin" role="img" aria-label="R/Pharma LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/rinpharma"> <i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">
 </i> 
@@ -170,6 +179,7 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
         </div>
       </div>
                           <div class="quarto-categories">
+                <div class="quarto-category">2023</div>
                 <div class="quarto-category">AI</div>
               </div>
                   </div>
@@ -189,7 +199,7 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 1, 2023</p>
+        <p class="date">September 18, 2023</p>
       </div>
     </div>
     
@@ -204,13 +214,15 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#interactive-csr" id="toc-interactive-csr" class="nav-link active" data-scroll-target="#interactive-csr">Interactive CSR</a></li>
+  <li><a href="#interactive-csr" id="toc-interactive-csr" class="nav-link active" data-scroll-target="#interactive-csr">Interactive CSR</a>
+  <ul class="collapse">
   <li><a href="#question" id="toc-question" class="nav-link" data-scroll-target="#question">Question</a></li>
   <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why?</a></li>
   <li><a href="#barriers" id="toc-barriers" class="nav-link" data-scroll-target="#barriers">Barriers</a></li>
   <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a></li>
   <li><a href="#path-to-the-csr" id="toc-path-to-the-csr" class="nav-link" data-scroll-target="#path-to-the-csr">Path to the CSR</a></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/summit/posts/2023-interactive-csr.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
 </nav>
@@ -228,17 +240,16 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <section id="interactive-csr" class="level1">
 <h1>Interactive CSR</h1>
 <p>Chairs: Ning Leng and Phil Bowsher</p>
-</section>
-<section id="question" class="level1">
-<h1>Question</h1>
+<section id="question" class="level2">
+<h2 class="anchored" data-anchor-id="question">Question</h2>
 <p>If we assume it’s technically possible to transfer - what would it mean to give an interactive CSR? How would primary, secondary and ad-hoc analysis be viewed? Would views change depending on role (e.g.&nbsp;sponsor, statistical reviewer, clinical reviewer)?</p>
 </section>
-<section id="why" class="level1">
-<h1>Why?</h1>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why?</h2>
 <p>The current process of CSR generation and review involves generating large amounts of tables and plots. In such scenarios, we believe an interactive application would provide a more efficient method to explore both primary and secondary analysis results.</p>
 </section>
-<section id="barriers" class="level1">
-<h1>Barriers</h1>
+<section id="barriers" class="level2">
+<h2 class="anchored" data-anchor-id="barriers">Barriers</h2>
 <ul>
 <li>Internally
 <ul>
@@ -251,8 +262,8 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 </ul></li>
 </ul>
 </section>
-<section id="requirements" class="level1">
-<h1>Requirements</h1>
+<section id="requirements" class="level2">
+<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
 <ul>
 <li>Can an interactive CSR by default be limited to only analyses defined in the SAP, should/can exploring a wider scope be allowed with clear and explicit intent by the app user?
 <ul>
@@ -261,8 +272,8 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <li>There is a gap in patient profile modules and patient narratives in shiny apps</li>
 </ul>
 </section>
-<section id="path-to-the-csr" class="level1">
-<h1>Path to the CSR</h1>
+<section id="path-to-the-csr" class="level2">
+<h2 class="anchored" data-anchor-id="path-to-the-csr">Path to the CSR</h2>
 <p>There are many places where this tooling can be applied before the CSR:</p>
 <ul>
 <li>Monitoring</li>
@@ -275,12 +286,13 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <p>Can commenting be possible (as you can markup a PDF/work doc)?</p>
 <p>Existing frameworks exist - e.g.&nbsp;<code>teal</code> from NEST. ARDs may mean additional results can be pre-generated in a controlled way - but ARDs can’t further process data.</p>
 </section>
-<section id="resources" class="level1">
-<h1>Resources</h1>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
 <p>Eric Nantz, from the R Submissions working group, <a href="https://rconsortium.github.io/submissions-wg/pilot2.html">which have been working with the FDA on a shiny submisson as part of pilot 2</a>:</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/5TEpJruIm-Y?si=-B8yoFhrPKGw_8CP" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -347,13 +359,14 @@ if (!kPlatformMac) {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -738,8 +751,13 @@ if (!kPlatformMac) {
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../docs/faq/index.html">
-<p>FAQ</p>
+    <a class="nav-link" href="../../../privacy.html">
+<p>Privacy Policy</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../../terms.html">
+<p>Terms and Conditions</p>
 </a>
   </li>  
     <li class="nav-item">
@@ -751,6 +769,12 @@ if (!kPlatformMac) {
     <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/summit/posts/2023-interactive-csr.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/open-source-in-pharma/">
+      <i class="bi bi-linkedin" role="img" aria-label="R/Pharma LinkedIn">
+</i> 
+    </a>
+  </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/rinpharma">
       <i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">

@@ -2,16 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Cassie Murcray">
-<meta name="author" content="Dror Berel">
-<meta name="dcterms.date" content="2023-09-17">
+<meta name="author" content="Matthew Kumar">
+<meta name="author" content="Cassie Burns">
+<meta name="dcterms.date" content="2023-09-18">
 <meta name="description" content="Transitioning from SAS to R in the Pharmaceutical Industry">
 
-<title>Change management – R/Pharma</title>
+<title>Change management (2023) – R/Pharma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,14 +37,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../favicon.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-f55738f6ef87315b062dda0a9b42e3bc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-b268d7f29fecf4d8c0d22ba55fbc9faa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,15 +91,13 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Change management – R/Pharma">
+<meta property="og:title" content="Change management (2023) – R/Pharma">
 <meta property="og:description" content="Transitioning from SAS to R in the Pharmaceutical Industry">
 <meta property="og:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta property="og:image:alt" content="The header from our articles of incoporation">
-<meta name="twitter:title" content="Change management – R/Pharma">
+<meta name="twitter:title" content="Change management (2023) – R/Pharma">
 <meta name="twitter:description" content="Transitioning from SAS to R in the Pharmaceutical Industry">
 <meta name="twitter:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
-<meta name="twitter:image:alt" content="The header from our articles of incoporation">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -110,7 +109,8 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo">
+    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo light-content">
+    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -139,8 +139,17 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
     <a class="nav-link" href="../../../docs/blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../docs/support/index.html"> 
+<span class="menu-text">Support</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/open-source-in-pharma/"> <i class="bi bi-linkedin" role="img" aria-label="R/Pharma LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/rinpharma"> <i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">
 </i> 
@@ -162,14 +171,15 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Change management</h1>
-            <p class="subtitle lead">Cassie Murcray and Dror Berel</p>
+      <h1 class="title">Change management (2023)</h1>
+            <p class="subtitle lead">Matthew Kumar and Cassie Burns</p>
                   <div>
         <div class="description">
           <p>Transitioning from SAS to R in the Pharmaceutical Industry</p>
         </div>
       </div>
                           <div class="quarto-categories">
+                <div class="quarto-category">2023</div>
                 <div class="quarto-category">OS</div>
                 <div class="quarto-category">Change management</div>
               </div>
@@ -182,15 +192,15 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Authors</div>
       <div class="quarto-title-meta-contents">
-               <p>Cassie Murcray </p>
-               <p>Dror Berel </p>
+               <p>Matthew Kumar </p>
+               <p>Cassie Burns </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 17, 2023</p>
+        <p class="date">September 18, 2023</p>
       </div>
     </div>
     
@@ -205,20 +215,16 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#change-management" id="toc-change-management" class="nav-link active" data-scroll-target="#change-management">Change management</a></li>
-  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">2024 notes</a>
-  <ul class="collapse">
-  <li><a href="#summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry" id="toc-summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry" class="nav-link" data-scroll-target="#summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry">Summary: Transitioning from SAS to R in the Pharmaceutical Industry</a></li>
-  <li><a href="#supporting-sas-programmers-in-transitioning-to-r" id="toc-supporting-sas-programmers-in-transitioning-to-r" class="nav-link" data-scroll-target="#supporting-sas-programmers-in-transitioning-to-r">Supporting SAS Programmers in Transitioning to R</a></li>
-  <li><a href="#managing-the-transition" id="toc-managing-the-transition" class="nav-link" data-scroll-target="#managing-the-transition">Managing the Transition</a></li>
-  <li><a href="#action-items" id="toc-action-items" class="nav-link" data-scroll-target="#action-items">Action Items</a></li>
-  </ul></li>
-  <li><a href="#notes-1" id="toc-notes-1" class="nav-link" data-scroll-target="#notes-1">2023 notes</a>
+  <li><a href="#change-management" id="toc-change-management" class="nav-link active" data-scroll-target="#change-management">Change management</a>
   <ul class="collapse">
   <li><a href="#question" id="toc-question" class="nav-link" data-scroll-target="#question">Question</a></li>
-  <li><a href="#who-are-our-people" id="toc-who-are-our-people" class="nav-link" data-scroll-target="#who-are-our-people">Who are our people?</a></li>
+  <li><a href="#who-are-our-people" id="toc-who-are-our-people" class="nav-link" data-scroll-target="#who-are-our-people">Who are our people?</a>
+  <ul class="collapse">
+  <li><a href="#theme-r-adoption-and-challenges" id="toc-theme-r-adoption-and-challenges" class="nav-link" data-scroll-target="#theme-r-adoption-and-challenges">Theme: R Adoption and Challenges</a></li>
+  <li><a href="#theme-change-management" id="toc-theme-change-management" class="nav-link" data-scroll-target="#theme-change-management">Theme: Change Management</a></li>
   <li><a href="#theme-emerging-talent" id="toc-theme-emerging-talent" class="nav-link" data-scroll-target="#theme-emerging-talent">Theme: Emerging Talent</a></li>
   <li><a href="#theme-other-points-and-considerations" id="toc-theme-other-points-and-considerations" class="nav-link" data-scroll-target="#theme-other-points-and-considerations">Theme: Other Points and Considerations</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/summit/posts/2023-change-mgt.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -234,53 +240,16 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 
 
 
-<section id="change-management" class="level2">
-<h2 class="anchored" data-anchor-id="change-management">Change management</h2>
-</section>
-<section id="notes" class="level2">
-<h2 class="anchored" data-anchor-id="notes">2024 notes</h2>
-<p>Chairs: Cassie Murcray and Dror Berel</p>
-<section id="summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry" class="level3">
-<h3 class="anchored" data-anchor-id="summary-transitioning-from-sas-to-r-in-the-pharmaceutical-industry">Summary: Transitioning from SAS to R in the Pharmaceutical Industry</h3>
-<p>Over the past two years, there has been a significant shift in the pharmaceutical industry from SAS to R, driven by the rising costs of SAS licenses and the influx of new talent trained in R and other open-source tools. Despite these trends, the industry’s conservative nature, particularly in a highly regulated environment, often results in a reluctance to change well-established practices.</p>
-<p>As of 2024, this transition is well underway, with several companies already setting timelines for a complete migration to R. This includes replicating legacy SAS code in R for ongoing and long-term studies, as well as opting not to renew SAS licenses. While some SAS programmers find the transition to R more intuitive, others may face significant challenges.</p>
-</section>
-<section id="supporting-sas-programmers-in-transitioning-to-r" class="level3">
-<h3 class="anchored" data-anchor-id="supporting-sas-programmers-in-transitioning-to-r">Supporting SAS Programmers in Transitioning to R</h3>
-<p>To facilitate the learning process for SAS programmers, various strategies can be employed:</p>
-<ol type="1">
-<li><strong>Traditional Training and Mentorship</strong>: Programs such as Posit Academy and mentoring from experienced R programmers are essential. Large organizations often establish Centers of Excellence, where a designated “R floating buddy” mentors SAS programmers throughout the various stages of learning R. This mentorship should be conducted with patience and empathy, recognizing the challenges of adapting to a new programming language with different principles and syntax.</li>
-<li><strong>Strategic Learning Approaches</strong>:
-<ul>
-<li><strong>Address Key Pain Points</strong>: Focus on demonstrating how specific challenges are effectively resolved with R, highlighting the value of the R-based solution, and celebrating small wins to foster continued learning.</li>
-<li><strong>Simplify the Learning Ecosystem</strong>: Introduce a simple set of R packages, such as the tidyverse, before gradually introducing more advanced concepts. Avoid overwhelming learners with multiple equivalent approaches.</li>
-<li><strong>Gradual Progression</strong>: Start with basic concepts and gradually introduce more advanced topics like version control, beginning with individual contributions and progressing to collaborative work.</li>
-</ul></li>
-</ol>
-</section>
-<section id="managing-the-transition" class="level3">
-<h3 class="anchored" data-anchor-id="managing-the-transition">Managing the Transition</h3>
-<p>The successful shift from SAS to R requires active management by senior leadership, including clear directives, timelines, and ongoing support. It is crucial to allocate time for learning while maintaining productivity on ongoing projects.</p>
-</section>
-<section id="action-items" class="level3">
-<h3 class="anchored" data-anchor-id="action-items">Action Items</h3>
-<p>To support this transition, the following resources should be developed:</p>
-<ul>
-<li><strong>Cheat Sheets</strong>: Create reference guides with common code examples translated from SAS to R.</li>
-<li><strong>Cross-Tool Comparison</strong>: Develop a Comparative Analysis of Methods and Implementations in SAS, R, and Python (CAMIS) to help programmers understand the default parameters and methods used in each tool.</li>
-</ul>
-<p>This transition will not happen organically; it requires deliberate management and a structured approach to ensure successful adoption of R across the industry.</p>
-</section>
-</section>
-<section id="notes-1" class="level2">
-<h2 class="anchored" data-anchor-id="notes-1">2023 notes</h2>
+<section id="change-management" class="level1">
+<h1>Change management</h1>
 <p>Chairs: Matthew Kumar and Cassie Burns</p>
-<section id="question" class="level3">
-<h3 class="anchored" data-anchor-id="question">Question</h3>
+<p>See also: <a href="../../../docs/summit/posts/2024-change-mgt.html">2024 Discussion</a></p>
+<section id="question" class="level2">
+<h2 class="anchored" data-anchor-id="question">Question</h2>
 <p>Where are we on getting data analysts and data scientists that work with clinical data on board (in particular, those delivering CSRs and submission packages)? What are the challenges - what has been overcome?</p>
 </section>
-<section id="who-are-our-people" class="level3">
-<h3 class="anchored" data-anchor-id="who-are-our-people">Who are our people?</h3>
+<section id="who-are-our-people" class="level2">
+<h2 class="anchored" data-anchor-id="who-are-our-people">Who are our people?</h2>
 <p>Prefaced both sessions by asking individuals to define the <em>our</em> in <em>our people</em>;</p>
 <ul>
 <li>Stat Programmers</li>
@@ -289,7 +258,8 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <li>Other CSR-deliverable oriented roles (e.g.&nbsp;medical and scientific writing)</li>
 <li>Management, Leadership</li>
 </ul>
-<p><strong>Theme: R Adoption and Challenges</strong></p>
+<section id="theme-r-adoption-and-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="theme-r-adoption-and-challenges">Theme: R Adoption and Challenges</h3>
 <ul>
 <li><p>The adoption of R requires varied types of commitment depending on the perspective of the stakeholders involved, notably management and employees.</p></li>
 <li><p>Leadership usually supports the adoption of R, yet, in many cases, they don’t adequately communicate or advocate its application. Common concerns include the lack of realized ROI and the perception of R as a “nice-to-have” rather than a necessity.</p></li>
@@ -299,7 +269,9 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <li><p>Some in management endorse an approach of “mandate” or “force,” while others aim to “encourage.”</p></li>
 <li><p>Experienced stat programmers cite R’s learning curve as an obstacle to transition, and some don’t see the ROI in making the switch.</p></li>
 </ul>
-<p><strong>Theme: Change Management</strong></p>
+</section>
+<section id="theme-change-management" class="level3">
+<h3 class="anchored" data-anchor-id="theme-change-management">Theme: Change Management</h3>
 <ul>
 <li><p>Implementing proper change management was emphasized by several attendees in both sessions.</p></li>
 <li><p>Organically, through change management, approximately 25% of experienced statistical programmers or statisticians have successfully completed R training, while the remaining 75% have shown resistance.</p></li>
@@ -325,7 +297,7 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <li><p>There’s a unique opportunity for co-mentorship: new hires (proficient in R, Python, etc.) and existing staff (experts in domain knowledge, clinical trials, etc.):&nbsp;<em>how vs what/why</em></p></li>
 <li><p>There’s a need for clear “career pathing” or “trajectories” within statistical programming as roles evolve. Examples include:</p>
 <ul>
-<li>&nbsp;“Analyst” requires traditional statistical programming knowledge and training</li>
+<li>“Analyst” requires traditional statistical programming knowledge and training</li>
 <li>“Engineer” needs DevOps skills and a systems mindset</li>
 <li>“Tool builder” needs a software engineering mindset</li>
 </ul></li>
@@ -344,6 +316,7 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 </ul>
 
 
+</section>
 </section>
 </section>
 
@@ -411,13 +384,14 @@ if (!kPlatformMac) {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -802,8 +776,13 @@ if (!kPlatformMac) {
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../docs/faq/index.html">
-<p>FAQ</p>
+    <a class="nav-link" href="../../../privacy.html">
+<p>Privacy Policy</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../../terms.html">
+<p>Terms and Conditions</p>
 </a>
   </li>  
     <li class="nav-item">
@@ -815,6 +794,12 @@ if (!kPlatformMac) {
     <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/summit/posts/2023-change-mgt.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/open-source-in-pharma/">
+      <i class="bi bi-linkedin" role="img" aria-label="R/Pharma LinkedIn">
+</i> 
+    </a>
+  </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/rinpharma">
       <i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">

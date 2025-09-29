@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>R/Pharma summit – R/Pharma</title>
+<title>R/Pharma Summit – R/Pharma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f55738f6ef87315b062dda0a9b42e3bc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-b268d7f29fecf4d8c0d22ba55fbc9faa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -131,7 +132,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -148,11 +149,11 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../../styles.css">
-<link rel="alternate" type="application/rss+xml" title="R/Pharma" href="index.xml" data-external="1"><meta property="og:title" content="R/Pharma summit – R/Pharma">
+<link rel="alternate" type="application/rss+xml" title="R/Pharma" href="index.xml" data-external="1"><meta property="og:title" content="R/Pharma Summit – R/Pharma">
 <meta property="og:description" content="The in-person event">
 <meta property="og:image" content="https://rinpharma.com/docs/summit/images/logo-rinpharma.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta name="twitter:title" content="R/Pharma summit – R/Pharma">
+<meta name="twitter:title" content="R/Pharma Summit – R/Pharma">
 <meta name="twitter:description" content="The in-person event">
 <meta name="twitter:image" content="https://rinpharma.com/docs/summit/images/logo-rinpharma.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -166,7 +167,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo">
+    <img src="../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo light-content">
+    <img src="../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -195,8 +197,17 @@ window.Quarto = {
     <a class="nav-link" href="../../docs/blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/support/index.html"> 
+<span class="menu-text">Support</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/open-source-in-pharma/"> <i class="bi bi-linkedin" role="img" aria-label="R/Pharma LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/rinpharma"> <i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">
 </i> 
@@ -218,7 +229,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">R/Pharma summit</h1>
+      <h1 class="title">R/Pharma Summit</h1>
             <p class="subtitle lead">The in-person event</p>
                       </div>
   </div>
@@ -240,11 +251,11 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#prior-summits" id="toc-prior-summits" class="nav-link active" data-scroll-target="#prior-summits">Prior summits</a></li>
+  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
   <li><a href="#summit-discussions" id="toc-summit-discussions" class="nav-link" data-scroll-target="#summit-discussions">Summit discussions</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/summit/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Q2hhbmdlJTIwbWFuYWdlbWVudA==">Change management <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YQ==">Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T1M=">OS <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UHJvZHVjdHM=">Products <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(4)</span></div><div class="category" data-category="U2hpbnk=">Shiny <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(16)</span></div><div class="category" data-category="MjAyMw==">2023 <span class="quarto-category-count">(8)</span></div><div class="category" data-category="MjAyNA==">2024 <span class="quarto-category-count">(8)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Q2hhbmdlJTIwbWFuYWdlbWVudA==">Change management <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RGF0YQ==">Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T1M=">OS <span class="quarto-category-count">(6)</span></div><div class="category" data-category="UHJvZHVjdHM=">Products <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(5)</span></div><div class="category" data-category="U0NF">SCE <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U2hpbnk=">Shiny <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -252,69 +263,80 @@ window.Quarto = {
 
 
 
-<section id="prior-summits" class="level2">
-<h2 class="anchored" data-anchor-id="prior-summits">Prior summits</h2>
-<p>This document captures discussion, pain points and a path to next steps discussed at R/Pharma Summits.</p>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<i class="fa-solid fa-users" aria-label="users"></i> 2024 F2F Roundtables in Seattle
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<section id="purpose" class="level2">
+<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
+<p>Our summit builds on one of the initial goals of R/Pharma - to bring people together in a room and start the conversations. The first two years of R/Pharma were solely in-person events where amazing work was discussed, sparking industry initiatives. When we moved to online conferences, the benefit of face-to-face interaction was lost. The R/Pharma Summit brings it back.</p>
+<p>Each year we host a face-to-face summit as posit::conf, bringing thought leaders and decision makers together in a room to discuss all things open source and Pharma. The notes taken, and any actions, are shared with the community.</p>
+</section>
+<div class="hello-quarto">
+<div class="content-block">
+<section id="prior-summits" class="level2 hello-quarto-banner">
+<h2 class="anchored" data-anchor-id="prior-summits">Prior Summits</h2>
+<ul class="nav nav-pills" id="hello-quarto-tab" role="tablist">
+<li class="nav-item" role="presentation">
+<button class="nav-link active" id="summit-2024-tab" data-bs-toggle="tab" data-bs-target="#summit-2024" type="button" role="tab" aria-controls="summit-2024" aria-selected="true">
+2024 Summit
+</button>
+</li>
+<li class="nav-item" role="presentation">
+<button class="nav-link" id="summit-2023-tab" data-bs-toggle="tab" data-bs-target="#summit-2023" type="button" role="tab" aria-controls="summit-2023" aria-selected="true">
+2023 Summit
+</button>
+</li>
+<li class="nav-item" role="presentation">
+<button class="nav-link" id="summit-references-tab" data-bs-toggle="tab" data-bs-target="#references" type="button" role="tab" aria-controls="references" aria-selected="false">
+References
+</button>
+</li>
+</ul>
+</section>
+<div id="hello-quarto-tabcontent" class="tab-content">
+<div id="summit-2024" class="tab-pane fade show active" role="tabpanel" aria-labelledby="summit-2024-tab">
+<div class="grid">
+<section id="f2f-roundtables-in-seattle" class="level3 g-col-lg-12 g-col-12">
+<h3 class="anchored" data-anchor-id="f2f-roundtables-in-seattle"><i class="fa-solid fa-users" aria-label="users"></i> 2024 F2F Roundtables in Seattle</h3>
 <p>~120 leaders from 40+ companies met F2F in Seattle for a series of discussions on the most pressing topics for late-stage reporting in R.</p>
 <p>The discussion was crowdsourced via a github discussion, and led to the following topics:</p>
 <ul>
-<li><a href="../../summit/posts/2023-change-mgt.html">Transitioning our people from SAS to R</a></li>
-<li><a href="../../summit/posts/2024-small-mid-pharma.html">How best to engage and enable small/mid-size pharma to use R and open source tools</a></li>
-<li><a href="../../summit/posts/2024-ai.html">Future core competency of clinical statistical programmer with AI/LLM</a></li>
-<li><a href="../../summit/posts/2023-dataformat.html">Can we do data storage and processing better in clinical trials?</a></li>
-<li><a href="../../summit/posts/2024-rproducts.html">Sharing R data products externally</a></li>
-<li><a href="../../summit/posts/2024-shiny-validation.html">Validation of shiny apps</a></li>
-<li><a href="../../summit/posts/2024-r-pkg-validation.html">R package validation</a></li>
-<li><a href="../../summit/posts/2023-sce.html">Leveraging operational metrics for better SCEs/platforms</a></li>
+<li><a href="../../docs/summit/posts/2024-ai.html">Future core competency of clinical statistical programmer with AI/LLM</a></li>
+<li><a href="../../docs/summit/posts/2024-change-mgt.html">Transitioning our people from SAS to R</a></li>
+<li><a href="../../docs/summit/posts/2024-dataformat.html">Can we do data storage and processing better in clinical trials?</a></li>
+<li><a href="../../docs/summit/posts/2024-r-pkg-validation.html">R package validation</a></li>
+<li><a href="../../docs/summit/posts/2024-rproducts.html">Sharing R data products externally</a></li>
+<li><a href="../../docs/summit/posts/2024-sce.html">Leveraging operational metrics for better SCEs/platforms</a></li>
+<li><a href="../../docs/summit/posts/2024-shiny-validation.html">Validation of shiny apps</a></li>
+<li><a href="../../docs/summit/posts/2024-small-mid-pharma.html">How best to engage and enable small/mid-size pharma to use R and open source tools</a></li>
 </ul>
+</section>
 </div>
 </div>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<i class="fa-solid fa-users" aria-label="users"></i> 2023 F2F Roundtables in Chicago
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div id="summit-2023" class="tab-pane fade" role="tabpanel" aria-labelledby="summit-2023-tab">
+<div class="grid">
+<section id="f2f-roundtables-in-chicago" class="level3 g-col-lg-12 g-col-12">
+<h3 class="anchored" data-anchor-id="f2f-roundtables-in-chicago"><i class="fa-solid fa-users" aria-label="users"></i> 2023 F2F Roundtables in Chicago</h3>
 <p>~60 leaders from 40+ companies met F2F in Chicago for a series of discussions on the most pressing topics for late-stage reporting in R.</p>
 <p>The discussion was crowdsourced via a github discussion, and led to the following topics:</p>
 <ul>
-<li><a href="../../summit/posts/2023-sce.html">What are our goals for a modern clinical reporting workflow, on a modern SCE?</a></li>
-<li><a href="../../os-depends.html">What are the risks with our increasing external business code dependencies?</a></li>
-<li><a href="../../summit/posts/2024-shiny-validation.html">We have a path to R package validation - but what are we doing with shiny apps?</a></li>
-<li><a href="../../summit/posts/2024-shiny-validation.html">What is the path to an interactive CSR?</a></li>
-<li><a href="../../summit/posts/2023-case-os.html">The case for contributing to OS</a></li>
-<li><a href="../../summit/posts/2023-change-mgt.html">Where are we with our people?</a></li>
-<li><a href="../../summit/posts/2024-ai.html">What should we be doing to leverage advances in LLMs/AA/AI impact? (at the drug development through to developer efficiency levels)</a></li>
-<li><a href="../../summit/posts/2023-multi-modal.html">What are the barriers bringing imaging/genomics/digital biomarkers and the CRF closer?</a></li>
+<li><a href="../../docs/summit/posts/2023-ai.html">What should we be doing to leverage advances in LLMs/AA/AI impact? (at the drug development through to developer efficiency levels)</a></li>
+<li><a href="../../docs/summit/posts/2023-case-os.html">The case for contributing to OS</a></li>
+<li><a href="../../docs/summit/posts/2023-change-mgt.html">Where are we with our people?</a></li>
+<li><a href="../../docs/summit/posts/2023-interactive-csr.html">What is the path to an interactive CSR?</a></li>
+<li><a href="../../docs/summit/posts/2023-multi-modal.html">What are the barriers bringing imaging/genomics/digital biomarkers and the CRF closer?</a></li>
+<li><a href="../../docs/summit/posts/2023-os-depends.html">What are the risks with our increasing external business code dependencies?</a></li>
+<li><a href="../../docs/summit/posts/2023-sce.html">What are our goals for a modern clinical reporting workflow, on a modern SCE?</a></li>
+<li><a href="../../docs/summit/posts/2023-shiny-validation.html">We have a path to R package validation - but what are we doing with shiny apps?</a></li>
 </ul>
+</section>
 </div>
 </div>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> References
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div id="references" class="tab-pane fade" role="tabpanel" aria-labelledby="summit-references-tab">
+<div class="grid">
+<div class="g-col-lg-12 g-col-12">
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> References</h3>
 <p><a href="https://psiaims.github.io/CAMIS/">CAMIS - comparing differences based on tool used</a></p>
 <p><a href="https://phuse-org.github.io/E2E-OS-Guidance/">PHUSE Open Source guidance</a></p>
+</section>
 <section id="section" class="level3">
 <h3 class="anchored" data-anchor-id="section">2024</h3>
 <p><a href="https://pharmar.github.io/events-positconf2024/#/title-slide">R Validation Hub update</a></p>
@@ -328,7 +350,10 @@ window.Quarto = {
 </section>
 </div>
 </div>
-</section>
+</div>
+</div>
+</div>
+</div>
 <section id="summit-discussions" class="level2">
 <h2 class="anchored" data-anchor-id="summit-discussions">Summit discussions</h2>
 
@@ -338,7 +363,151 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="T1MlMkNSJTJDUHJvZHVjdHM=" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1749570365674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="244">
+<div class="quarto-post image-right" data-index="0" data-categories="MjAyNCUyQ1NDRQ==" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="571">
+<div class="thumbnail"><a href="../../docs/summit/posts/2024-sce.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2024-sce.html" class="no-external">Modern SCEs (2024)</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2024-sce.html" class="no-external">James Black</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U0NF'); return false;">SCE</div>
+
+</div>
+<div class="delink listing-description"><a href="../../docs/summit/posts/2024-sce.html" class="no-external">
+<p>Leveraging operational metrics for better SCEs/platforms</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2024-sce.html" class="no-external">
+<div class="listing-date">
+Aug 11, 2024
+</div>
+<div class="listing-author">
+James Black
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="MjAyNCUyQ09TJTJDQ2hhbmdlJTIwbWFuYWdlbWVudA==" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="417">
+<div class="thumbnail"><a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external">Change management (2024)</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external">Cassie Murcray and Dror Berel</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">OS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2hhbmdlJTIwbWFuYWdlbWVudA=='); return false;">Change management</div>
+
+</div>
+<div class="delink listing-description"><a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external">
+<p>Transitioning from SAS to R in the Pharmaceutical Industry</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external">
+<div class="listing-date">
+Aug 11, 2024
+</div>
+<div class="listing-author">
+Cassie Murcray, Dror Berel
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="MjAyNCUyQ1I=" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
+<div class="thumbnail"><a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">Small to mid Pharma in an post-SAS world</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">Katie Igartua &amp; Kas Yousefi</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+</div>
+<div class="delink listing-description"><a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">
+<p>Small to mid Pharma in an post-SAS world</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">
+<div class="listing-date">
+Aug 11, 2024
+</div>
+<div class="listing-author">
+Katie Igartua, Kas Yousefi
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="MjAyNCUyQ09TJTJDRGF0YQ==" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="468">
+<div class="thumbnail"><a href="../../docs/summit/posts/2024-dataformat.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2024-dataformat.html" class="no-external">Can we do data storage and processing better in clinical trials?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2024-dataformat.html" class="no-external">Stephanie Lussier and Doug Kelkhoff</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">OS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YQ=='); return false;">Data</div>
+
+</div>
+<div class="delink listing-description"><a href="../../docs/summit/posts/2024-dataformat.html" class="no-external">
+<p>Can we do data storage and processing better in clinical trials?</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2024-dataformat.html" class="no-external">
+<div class="listing-date">
+Aug 11, 2024
+</div>
+<div class="listing-author">
+Stephanie Lussier, Doug Kelkhoff
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="MjAyNCUyQ09TJTJDUiUyQ1Byb2R1Y3Rz" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="234">
 <div class="thumbnail"><a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -349,9 +518,11 @@ window.Quarto = {
 <a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">Sharing R code without sharing R code</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">Sharing R code without sharing R code</a>
+<a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">Rohan Parmar &amp; Min Lee</a>
 </div>
 <div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
 
 <div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">OS</div>
 
@@ -367,7 +538,7 @@ window.Quarto = {
 <div class="metadata">
 <a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">
 <div class="listing-date">
-Oct 1, 2024
+Aug 11, 2024
 </div>
 <div class="listing-author">
 Rohan Parmar, Min Lee
@@ -375,75 +546,7 @@ Rohan Parmar, Min Lee
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="UiUyQ1NoaW55" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1749570365674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="964">
-<div class="thumbnail"><a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">Can we validate shiny?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">Devin Pastoor and Ellis Hughes</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2hpbnk='); return false;">Shiny</div>
-
-</div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">
-<p>Can we validate shiny?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">
-<div class="listing-date">
-Oct 1, 2024
-</div>
-<div class="listing-author">
-James Black, Harvey Lieberman
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Ug==" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1749570365674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
-<div class="thumbnail"><a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">Small to mid Pharma in an post-SAS world</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">Katie Igartua and Kas Yousefi</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-</div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">
-<p>Small to mid Pharma in an post-SAS world</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">
-<div class="listing-date">
-Oct 1, 2024
-</div>
-<div class="listing-author">
-Katie Igartua, Kas Yousefi
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Ug==" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1749570365674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="1000">
+<div class="quarto-post image-right" data-index="5" data-categories="MjAyNCUyQ1I=" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="999">
 <div class="thumbnail"><a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -458,6 +561,8 @@ Katie Igartua, Kas Yousefi
 </div>
 <div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
 <div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
 
 </div>
@@ -468,7 +573,7 @@ Katie Igartua, Kas Yousefi
 <div class="metadata">
 <a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external">
 <div class="listing-date">
-Oct 1, 2024
+Aug 11, 2024
 </div>
 <div class="listing-author">
 Doug Kelkhof, Margaret Wishart
@@ -476,40 +581,7 @@ Doug Kelkhof, Margaret Wishart
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="QUk=" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1749570365674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1665">
-<div class="thumbnail"><a href="../../docs/summit/posts/2023-sce.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2023-sce.html" class="no-external">Modern SCEs</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2023-sce.html" class="no-external">James Black &amp; Satish Murphy</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
-
-</div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2023-sce.html" class="no-external">
-<p>What are our goals with a modern SCE?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../docs/summit/posts/2023-sce.html" class="no-external">
-<div class="listing-date">
-Oct 1, 2024
-</div>
-<div class="listing-author">
-James Black, Satish Murphy
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="QUk=" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1749570365674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="708">
+<div class="quarto-post image-right" data-index="6" data-categories="MjAyNCUyQ0FJ" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="657">
 <div class="thumbnail"><a href="../../docs/summit/posts/2024-ai.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -517,12 +589,14 @@ James Black, Satish Murphy
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2024-ai.html" class="no-external">AI opportunities</a>
+<a href="../../docs/summit/posts/2024-ai.html" class="no-external">AI opportunities (2024)</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../docs/summit/posts/2024-ai.html" class="no-external">Vincent Shen and Melanie Hullings</a>
 </div>
 <div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
 
 <div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
 
@@ -534,7 +608,7 @@ James Black, Satish Murphy
 <div class="metadata">
 <a href="../../docs/summit/posts/2024-ai.html" class="no-external">
 <div class="listing-date">
-Oct 1, 2024
+Aug 11, 2024
 </div>
 <div class="listing-author">
 Vincent Shen, Melanie Hullings
@@ -542,7 +616,44 @@ Vincent Shen, Melanie Hullings
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="T1M=" data-listing-date-sort="1696118400000" data-listing-file-modified-sort="1749570365674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<div class="quarto-post image-right" data-index="7" data-categories="MjAyNCUyQ1IlMkNTaGlueQ==" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<div class="thumbnail"><a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">Can we validate shiny apps (2024)?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">Can we validate shiny?</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2hpbnk='); return false;">Shiny</div>
+
+</div>
+<div class="delink listing-description"><a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">
+<p>Can we validate shiny?</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">
+<div class="listing-date">
+Aug 11, 2024
+</div>
+<div class="listing-author">
+Devin Pastoor, Ellis Hughes
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="MjAyMyUyQ09T" data-listing-date-sort="1696118400000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
 <div class="thumbnail"><a href="../../docs/summit/posts/2023-os-depends.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -556,6 +667,8 @@ Vincent Shen, Melanie Hullings
 <a href="../../docs/summit/posts/2023-os-depends.html" class="no-external">Mike Smith &amp; Ed Lauzier</a>
 </div>
 <div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
 
 <div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">OS</div>
 
@@ -575,7 +688,7 @@ Mike Smith, Ed Lauzier
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="QUk=" data-listing-date-sort="1696118400000" data-listing-file-modified-sort="1749570365673" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
+<div class="quarto-post image-right" data-index="9" data-categories="MjAyMyUyQ0FJ" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
 <div class="thumbnail"><a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -590,6 +703,8 @@ Mike Smith, Ed Lauzier
 </div>
 <div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+
 <div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
 
 </div>
@@ -600,7 +715,7 @@ Mike Smith, Ed Lauzier
 <div class="metadata">
 <a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external">
 <div class="listing-date">
-Oct 1, 2023
+Sep 18, 2023
 </div>
 <div class="listing-author">
 Ning Ling, Phil Bowsher
@@ -608,7 +723,44 @@ Ning Ling, Phil Bowsher
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="QUk=" data-listing-date-sort="1696118400000" data-listing-file-modified-sort="1749570365673" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
+<div class="quarto-post image-right" data-index="10" data-categories="MjAyMyUyQ1IlMkNTaGlueQ==" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="943">
+<div class="thumbnail"><a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external">Can we validate shiny apps (2023)?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external">James Black &amp; Harvey Lieberman</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2hpbnk='); return false;">Shiny</div>
+
+</div>
+<div class="delink listing-description"><a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external">
+<p>Can we validate shiny?</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external">
+<div class="listing-date">
+Sep 18, 2023
+</div>
+<div class="listing-author">
+James Black, Harvey Lieberman
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="MjAyMyUyQ0FJ" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
 <div class="thumbnail"><a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -623,6 +775,8 @@ Ning Ling, Phil Bowsher
 </div>
 <div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+
 <div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
 
 </div>
@@ -633,7 +787,7 @@ Ning Ling, Phil Bowsher
 <div class="metadata">
 <a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external">
 <div class="listing-date">
-Oct 1, 2023
+Sep 18, 2023
 </div>
 <div class="listing-author">
 Katie Igartua
@@ -641,7 +795,42 @@ Katie Igartua
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="T1MlMkNDaGFuZ2UlMjBtYW5hZ2VtZW50" data-listing-date-sort="1694908800000" data-listing-file-modified-sort="1749570365673" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1251">
+<div class="quarto-post image-right" data-index="12" data-categories="MjAyMyUyQ1NDRQ==" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1093">
+<div class="thumbnail"><a href="../../docs/summit/posts/2023-sce.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2023-sce.html" class="no-external">Modern SCEs (2023)</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2023-sce.html" class="no-external">James Black &amp; Satish Murphy</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U0NF'); return false;">SCE</div>
+
+</div>
+<div class="delink listing-description"><a href="../../docs/summit/posts/2023-sce.html" class="no-external">
+<p>What are our goals with a modern SCE?</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2023-sce.html" class="no-external">
+<div class="listing-date">
+Sep 18, 2023
+</div>
+<div class="listing-author">
+James Black, Satish Murphy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="MjAyMyUyQ09TJTJDQ2hhbmdlJTIwbWFuYWdlbWVudA==" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="826">
 <div class="thumbnail"><a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -649,12 +838,14 @@ Katie Igartua
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">Change management</a>
+<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">Change management (2023)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">Cassie Murcray and Dror Berel</a>
+<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">Matthew Kumar and Cassie Burns</a>
 </div>
 <div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
 
 <div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">OS</div>
 
@@ -668,15 +859,50 @@ Katie Igartua
 <div class="metadata">
 <a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">
 <div class="listing-date">
-Sep 17, 2023
+Sep 18, 2023
 </div>
 <div class="listing-author">
-Cassie Murcray, Dror Berel
+Matthew Kumar, Cassie Burns
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="T1M=" data-listing-date-sort="1694908800000" data-listing-file-modified-sort="1749570365673" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="418">
+<div class="quarto-post image-right" data-index="14" data-categories="MjAyMyUyQ0FJ" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
+<div class="thumbnail"><a href="../../docs/summit/posts/2023-ai.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/summit/posts/2023-ai.html" class="no-external">AI opportunities (2023)</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/summit/posts/2023-ai.html" class="no-external">Paulo Bargo and Ning Leng</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
+
+</div>
+<div class="delink listing-description"><a href="../../docs/summit/posts/2023-ai.html" class="no-external">
+<p>What are the LLMs/AA/AI opportunities in drug development?</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../docs/summit/posts/2023-ai.html" class="no-external">
+<div class="listing-date">
+Sep 18, 2023
+</div>
+<div class="listing-author">
+Paulo Bargo, Ning Leng
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="MjAyMyUyQ09T" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1759181255692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="418">
 <div class="thumbnail"><a href="../../docs/summit/posts/2023-case-os.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -691,6 +917,8 @@ Cassie Murcray, Dror Berel
 </div>
 <div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+
 <div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">OS</div>
 
 </div>
@@ -701,45 +929,10 @@ Cassie Murcray, Dror Berel
 <div class="metadata">
 <a href="../../docs/summit/posts/2023-case-os.html" class="no-external">
 <div class="listing-date">
-Sep 17, 2023
+Sep 18, 2023
 </div>
 <div class="listing-author">
 Satish Murphy &amp; Becca Krouse
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-categories="T1MlMkNEYXRh" data-listing-date-sort="1694908800000" data-listing-file-modified-sort="1749570365673" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="469">
-<div class="thumbnail"><a href="../../docs/summit/posts/2023-dataformat.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2023-dataformat.html" class="no-external">Can we do data storage and processing better in clinical trials?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2023-dataformat.html" class="no-external">Stephanie Lussier and Doug Kelkhoff</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">OS</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YQ=='); return false;">Data</div>
-
-</div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2023-dataformat.html" class="no-external">
-<p>Can we do data storage and processing better in clinical trials?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../docs/summit/posts/2023-dataformat.html" class="no-external">
-<div class="listing-date">
-Sep 17, 2023
-</div>
-<div class="listing-author">
-Stephanie Lussier, Doug Kelkhoff
 </div>
 </a>
 </div>
@@ -810,13 +1003,14 @@ if (!kPlatformMac) {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -1172,8 +1366,13 @@ if (!kPlatformMac) {
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../docs/faq/index.html">
-<p>FAQ</p>
+    <a class="nav-link" href="../../privacy.html">
+<p>Privacy Policy</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../terms.html">
+<p>Terms and Conditions</p>
 </a>
   </li>  
     <li class="nav-item">
@@ -1185,6 +1384,12 @@ if (!kPlatformMac) {
     <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/summit/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/open-source-in-pharma/">
+      <i class="bi bi-linkedin" role="img" aria-label="R/Pharma LinkedIn">
+</i> 
+    </a>
+  </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/rinpharma">
       <i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">

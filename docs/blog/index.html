@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f55738f6ef87315b062dda0a9b42e3bc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-b268d7f29fecf4d8c0d22ba55fbc9faa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -129,7 +130,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -148,17 +149,17 @@ window.Quarto = {
 <link rel="stylesheet" href="../../styles.css">
 <link rel="alternate" type="application/rss+xml" title="R/Pharma" href="index.xml" data-external="1"><meta property="og:title" content="OS in Pharma Blog – R/Pharma">
 <meta property="og:description" content="Updates from the OS in Pharma team">
-<meta property="og:image" content="https://rinpharma.com/docs/blog/posts/2021-09-17-we-exist/we-exist.png">
+<meta property="og:image" content="https://rinpharma.com/docs/blog/posts/2025-07-30-genAI/genAI.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta property="og:image:alt" content="The header from our articles of incoporation">
-<meta property="og:image:height" content="1018">
-<meta property="og:image:width" content="1570">
+<meta property="og:image:alt" content="genAI Image">
+<meta property="og:image:height" content="540">
+<meta property="og:image:width" content="810">
 <meta name="twitter:title" content="OS in Pharma Blog – R/Pharma">
 <meta name="twitter:description" content="Updates from the OS in Pharma team">
-<meta name="twitter:image" content="https://rinpharma.com/docs/blog/posts/2021-09-17-we-exist/we-exist.png">
-<meta name="twitter:image:alt" content="The header from our articles of incoporation">
-<meta name="twitter:image-height" content="1018">
-<meta name="twitter:image-width" content="1570">
+<meta name="twitter:image" content="https://rinpharma.com/docs/blog/posts/2025-07-30-genAI/genAI.png">
+<meta name="twitter:image:alt" content="genAI Image">
+<meta name="twitter:image-height" content="540">
+<meta name="twitter:image-width" content="810">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -170,7 +171,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo">
+    <img src="../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo light-content">
+    <img src="../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -199,8 +201,17 @@ window.Quarto = {
     <a class="nav-link active" href="../../docs/blog/index.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/support/index.html"> 
+<span class="menu-text">Support</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/open-source-in-pharma/"> <i class="bi bi-linkedin" role="img" aria-label="R/Pharma LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/rinpharma"> <i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">
 </i> 
@@ -241,7 +252,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3RhdHVzLXVwZGF0ZQ==">status-update <span class="quarto-category-count">(2)</span></div><div class="category" data-category="d2lucw==">wins <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y29uZmVyZW5jZQ==">conference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGl2ZXJzaXR5LWFsbGlhbmNl">diversity-alliance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2VuLUFJLWRheQ==">gen-AI-day <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aGFja2F0aG9u">hackathon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3VtbWl0">summit <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -255,72 +266,107 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="c3RhdHVzLXVwZGF0ZSUyQ3dpbnM=" data-listing-date-sort="1631836800000" data-listing-file-modified-sort="1749570365669" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
-<div class="thumbnail"><a href="../../docs/blog/posts/2021-09-17-we-exist/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="0" data-categories="Z2VuLUFJLWRheQ==" data-listing-date-sort="1753833600000" data-listing-file-modified-sort="1759181255690" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
+<div class="thumbnail"><a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external">
 
-<img loading="lazy" src="../../docs/blog/posts/2021-09-17-we-exist/we-exist.png" class="thumbnail-image" alt="The header from our articles of incoporation">
+<img loading="lazy" src="../../docs/blog/posts/2025-07-30-genAI/genAI.png" class="thumbnail-image" alt="genAI Image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2021-09-17-we-exist/index.html" class="no-external">We exist!</a>
+<a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external">R/Pharma GenAI Day</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/blog/posts/2021-09-17-we-exist/index.html" class="no-external">On the 17th of September we filed our articles of incorporation</a>
+<a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external">Our second genAI single day event</a>
 </div>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('c3RhdHVzLXVwZGF0ZQ=='); return false;">status-update</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('d2lucw=='); return false;">wins</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VuLUFJLWRheQ=='); return false;">gen-AI-day</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2021-09-17-we-exist/index.html" class="no-external">
-<p>A quick update on our path to non-profit status.</p>
+<div class="delink listing-description"><a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external">
+<p>Free virtual conference on the use of genAI in Pharma.</p>
 </a></div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2021-09-17-we-exist/index.html" class="no-external">
+<a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external">
 <div class="listing-date">
-Sep 17, 2021
+Jul 30, 2025
 </div>
 <div class="listing-author">
-Michael Blanks
+R/Pharma
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="c3RhdHVzLXVwZGF0ZSUyQ3dpbnM=" data-listing-date-sort="1631836800000" data-listing-file-modified-sort="1749570365670" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
-<div class="thumbnail"><a href="../../docs/blog/posts/2022-06-24-we-are-np/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="1" data-categories="ZGl2ZXJzaXR5LWFsbGlhbmNlJTJDaGFja2F0aG9u" data-listing-date-sort="1753401600000" data-listing-file-modified-sort="1759181255689" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
+<div class="thumbnail"><a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external">
 
-<img loading="lazy" src="../../docs/blog/posts/2022-06-24-we-are-np/np.png" class="thumbnail-image" alt="The header from our articles of incoporation">
+<img loading="lazy" src="../../docs/blog/posts/2025-07-25-hackathon/sticky-notes.png" class="thumbnail-image" alt="Posting sticky notes">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2022-06-24-we-are-np/index.html" class="no-external">We are officially NP</a>
+<a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external">Diversity Alliance Hackathon</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/blog/posts/2022-06-24-we-are-np/index.html" class="no-external">The IRS has now determined we are a 501(c)(3)</a>
+<a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external">Diversity Alliance Hackathon</a>
 </div>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('c3RhdHVzLXVwZGF0ZQ=='); return false;">status-update</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ZGl2ZXJzaXR5LWFsbGlhbmNl'); return false;">diversity-alliance</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('d2lucw=='); return false;">wins</div>
+<div class="listing-category" onclick="window.quartoListingCategory('aGFja2F0aG9u'); return false;">hackathon</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2022-06-24-we-are-np/index.html" class="no-external">
-<p>A quick update on our path to non-profit status.</p>
+<div class="delink listing-description"><a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external">
+<p>Details of the 2025 R/Pharma Diversity Alliance Hackathon.</p>
 </a></div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2022-06-24-we-are-np/index.html" class="no-external">
+<a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external">
 <div class="listing-date">
-Sep 17, 2021
+Jul 25, 2025
 </div>
 <div class="listing-author">
-Michael Blanks
+Diversity Alliance
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="c3VtbWl0JTJDZ2VuLUFJLWRheSUyQ2NvbmZlcmVuY2U=" data-listing-date-sort="1749859200000" data-listing-file-modified-sort="1759181255689" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="613">
+<div class="thumbnail"><a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external">
+
+<img loading="lazy" src="../../docs/blog/posts/2025-06-14-announcements/fireworks.jpg" class="thumbnail-image" alt="Fireworks">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external">In-Person and Virtual Events for 2025</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external">In-Person and Virtual Events for 2025</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3VtbWl0'); return false;">summit</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VuLUFJLWRheQ=='); return false;">gen-AI-day</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZQ=='); return false;">conference</div>
+
+</div>
+<div class="delink listing-description"><a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external">
+<p>Learn more about In-Person and Virtual Events for 2025.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external">
+<div class="listing-date">
+Jun 14, 2025
+</div>
+<div class="listing-author">
+R/Pharma
 </div>
 </a>
 </div>
@@ -391,13 +437,14 @@ if (!kPlatformMac) {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -753,8 +800,13 @@ if (!kPlatformMac) {
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../docs/faq/index.html">
-<p>FAQ</p>
+    <a class="nav-link" href="../../privacy.html">
+<p>Privacy Policy</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../terms.html">
+<p>Terms and Conditions</p>
 </a>
   </li>  
     <li class="nav-item">
@@ -766,6 +818,12 @@ if (!kPlatformMac) {
     <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/blog/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/open-source-in-pharma/">
+      <i class="bi bi-linkedin" role="img" aria-label="R/Pharma LinkedIn">
+</i> 
+    </a>
+  </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/rinpharma">
       <i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">

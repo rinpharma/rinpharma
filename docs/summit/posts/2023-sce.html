@@ -2,16 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="James Black">
 <meta name="author" content="Satish Murphy">
-<meta name="dcterms.date" content="2024-10-01">
+<meta name="dcterms.date" content="2023-09-18">
 <meta name="description" content="What are our goals with a modern SCE?">
 
-<title>Modern SCEs – R/Pharma</title>
+<title>Modern SCEs (2023) – R/Pharma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,14 +37,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../favicon.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-f55738f6ef87315b062dda0a9b42e3bc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-b268d7f29fecf4d8c0d22ba55fbc9faa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -92,15 +93,13 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Modern SCEs – R/Pharma">
+<meta property="og:title" content="Modern SCEs (2023) – R/Pharma">
 <meta property="og:description" content="What are our goals with a modern SCE?">
 <meta property="og:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta property="og:image:alt" content="The header from our articles of incoporation">
-<meta name="twitter:title" content="Modern SCEs – R/Pharma">
+<meta name="twitter:title" content="Modern SCEs (2023) – R/Pharma">
 <meta name="twitter:description" content="What are our goals with a modern SCE?">
 <meta name="twitter:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
-<meta name="twitter:image:alt" content="The header from our articles of incoporation">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -112,7 +111,8 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo">
+    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo light-content">
+    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -141,8 +141,17 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
     <a class="nav-link" href="../../../docs/blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../docs/support/index.html"> 
+<span class="menu-text">Support</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/open-source-in-pharma/"> <i class="bi bi-linkedin" role="img" aria-label="R/Pharma LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/rinpharma"> <i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">
 </i> 
@@ -164,7 +173,7 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Modern SCEs</h1>
+      <h1 class="title">Modern SCEs (2023)</h1>
             <p class="subtitle lead">James Black &amp; Satish Murphy</p>
                   <div>
         <div class="description">
@@ -172,7 +181,8 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">AI</div>
+                <div class="quarto-category">2023</div>
+                <div class="quarto-category">SCE</div>
               </div>
                   </div>
   </div>
@@ -191,7 +201,7 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 1, 2024</p>
+        <p class="date">September 18, 2023</p>
       </div>
     </div>
     
@@ -209,19 +219,16 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
   <li><a href="#modern-sces" id="toc-modern-sces" class="nav-link active" data-scroll-target="#modern-sces">Modern SCEs</a>
   <ul class="collapse">
   <li><a href="#question" id="toc-question" class="nav-link" data-scroll-target="#question">Question</a></li>
-  <li><a href="#topics-discussed" id="toc-topics-discussed" class="nav-link" data-scroll-target="#topics-discussed">Topics discussed</a></li>
-  </ul></li>
-  <li><a href="#sharing-r-code-without-sharing-r-code" id="toc-sharing-r-code-without-sharing-r-code" class="nav-link" data-scroll-target="#sharing-r-code-without-sharing-r-code">Sharing R code without sharing R code</a>
+  <li><a href="#topics-discussed" id="toc-topics-discussed" class="nav-link" data-scroll-target="#topics-discussed">Topics discussed</a>
   <ul class="collapse">
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2024</a>
-  <ul class="collapse">
-  <li><a href="#objectively-track-migrationslanguage-use-in-studies" id="toc-objectively-track-migrationslanguage-use-in-studies" class="nav-link" data-scroll-target="#objectively-track-migrationslanguage-use-in-studies">Objectively track migrations/language use in studies?</a></li>
-  <li><a href="#can-we-understand-what-packages-are-being-used-in-studies" id="toc-can-we-understand-what-packages-are-being-used-in-studies" class="nav-link" data-scroll-target="#can-we-understand-what-packages-are-being-used-in-studies">Can we understand what packages are being used in studies?</a></li>
-  <li><a href="#understanding-container-use" id="toc-understanding-container-use" class="nav-link" data-scroll-target="#understanding-container-use">Understanding container use</a></li>
-  <li><a href="#keeping-connect-lean" id="toc-keeping-connect-lean" class="nav-link" data-scroll-target="#keeping-connect-lean">Keeping Connect lean</a></li>
-  <li><a href="#general-notes-1" id="toc-general-notes-1" class="nav-link" data-scroll-target="#general-notes-1">General notes</a></li>
-  <li><a href="#action-items-and-questions" id="toc-action-items-and-questions" class="nav-link" data-scroll-target="#action-items-and-questions">Action Items and Questions</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#is-the-next-step-homegrown-or-vendor" id="toc-is-the-next-step-homegrown-or-vendor" class="nav-link" data-scroll-target="#is-the-next-step-homegrown-or-vendor">Is the next step Homegrown or vendor</a></li>
+  <li><a href="#relationship-with-informatics-partners" id="toc-relationship-with-informatics-partners" class="nav-link" data-scroll-target="#relationship-with-informatics-partners">Relationship with informatics partners</a></li>
+  <li><a href="#what-is-an-sce" id="toc-what-is-an-sce" class="nav-link" data-scroll-target="#what-is-an-sce">What is an SCE?</a></li>
+  <li><a href="#building-trust-in-businessopen-source-code" id="toc-building-trust-in-businessopen-source-code" class="nav-link" data-scroll-target="#building-trust-in-businessopen-source-code">Building trust in business/open source code</a></li>
+  <li><a href="#change-management-into-a-modern-sce" id="toc-change-management-into-a-modern-sce" class="nav-link" data-scroll-target="#change-management-into-a-modern-sce">Change-management into a modern SCE</a></li>
+  <li><a href="#general-notes" id="toc-general-notes" class="nav-link" data-scroll-target="#general-notes">General notes</a></li>
+  <li><a href="#actions" id="toc-actions" class="nav-link" data-scroll-target="#actions">Actions</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -238,17 +245,18 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 
 
 
-<section id="modern-sces" class="level2">
-<h2 class="anchored" data-anchor-id="modern-sces">Modern SCEs</h2>
+<section id="modern-sces" class="level1">
+<h1>Modern SCEs</h1>
 <p>Chairs: James Black and Satish Murphy</p>
-<section id="question" class="level3">
-<h3 class="anchored" data-anchor-id="question">Question</h3>
+<p>See also: <a href="../../../docs/summit/posts/2024-sce.html">2024 Discussion</a></p>
+<section id="question" class="level2">
+<h2 class="anchored" data-anchor-id="question">Question</h2>
 <p>What are our goals for a modern clinical reporting workflow, on a modern SCE? What are our learnings today achieving that goal, and how can we better prepare ourselves to balance the drive to innovate while having to evolve people and processes?</p>
 </section>
-<section id="topics-discussed" class="level3">
-<h3 class="anchored" data-anchor-id="topics-discussed">Topics discussed</h3>
-<section id="is-the-next-step-homegrown-or-vendor" class="level4">
-<h4 class="anchored" data-anchor-id="is-the-next-step-homegrown-or-vendor">Is the next step Homegrown or vendor</h4>
+<section id="topics-discussed" class="level2">
+<h2 class="anchored" data-anchor-id="topics-discussed">Topics discussed</h2>
+<section id="is-the-next-step-homegrown-or-vendor" class="level3">
+<h3 class="anchored" data-anchor-id="is-the-next-step-homegrown-or-vendor">Is the next step Homegrown or vendor</h3>
 <ul>
 <li>Split in vendor approaches vs homegrown for the new generation. We don’t know what the ideal is today, but we know we need to be able to evolve and adapt to new technologies and approaches much more than we did in the past.</li>
 <li>Homegrown usually means modular, as still relient on different open soruce and vendor solutions (e.g.&nbsp;AWS, Hashicorp, etc). Is a more accurate description turnkey vs modular?</li>
@@ -257,15 +265,15 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <li>A major pain point is how things are funded - we are not used to funding a platform for sustained evolution/innovation, but in the data science space things are constantly evolving - so moving to operations/maintenance is equilivant to decay.</li>
 </ul>
 </section>
-<section id="relationship-with-informatics-partners" class="level4">
-<h4 class="anchored" data-anchor-id="relationship-with-informatics-partners">Relationship with informatics partners</h4>
+<section id="relationship-with-informatics-partners" class="level3">
+<h3 class="anchored" data-anchor-id="relationship-with-informatics-partners">Relationship with informatics partners</h3>
 <ul>
 <li>There is often tension between informatics and the business, with the growth of business written code that looks more like software (e.g.&nbsp;R packages) vs the the scripts/macros we use to make. We shared experiences finding a balance as we entered this new phase.</li>
 <li>It was refreshing to see we have cases where informatics and the business are aligned on one goal, and we need to be more proactive trying to create these relationships (including inviting informatics to our pan-industry discussions. J&amp;J + Roche had informatics representation at this meeting, but otherwise the dialogue was from the business perspective).</li>
 </ul>
 </section>
-<section id="what-is-an-sce" class="level4">
-<h4 class="anchored" data-anchor-id="what-is-an-sce">What is an SCE?</h4>
+<section id="what-is-an-sce" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-an-sce">What is an SCE?</h3>
 <ul>
 <li>Should GxP and exploratory remain seperate platforms?
 <ul>
@@ -282,14 +290,14 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <li>It appeared across all companies access to an SCE is through a web-browser (not a local application)</li>
 </ul>
 </section>
-<section id="building-trust-in-businessopen-source-code" class="level4">
-<h4 class="anchored" data-anchor-id="building-trust-in-businessopen-source-code">Building trust in business/open source code</h4>
+<section id="building-trust-in-businessopen-source-code" class="level3">
+<h3 class="anchored" data-anchor-id="building-trust-in-businessopen-source-code">Building trust in business/open source code</h3>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">The Cathedral and the Bazaar by Eric Rayman</a> was a recomended essay to read, that talks about ‘Cathedral’ products where the code is developed in a closed environment then released, vs ‘Bazaar’ products where the code is developed in the open. An arguement is the Bazaar model, as long as it is a project with enough eyeballs, will lead to shallow bugs; this is also known as <a href="https://en.wikipedia.org/wiki/Linus%27s_law">Linus’ Law</a>.</li>
 </ul>
 </section>
-<section id="change-management-into-a-modern-sce" class="level4">
-<h4 class="anchored" data-anchor-id="change-management-into-a-modern-sce">Change-management into a modern SCE</h4>
+<section id="change-management-into-a-modern-sce" class="level3">
+<h3 class="anchored" data-anchor-id="change-management-into-a-modern-sce">Change-management into a modern SCE</h3>
 <ul>
 <li>What are we actually building? A general data science platform? A platform optimised for clinical reporting?
 <ul>
@@ -305,8 +313,8 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <li>Most companies have carried over having the outputs server be a network share drive, but would a more ‘publishing’ type model be more robust?</li>
 </ul>
 </section>
-<section id="general-notes" class="level4">
-<h4 class="anchored" data-anchor-id="general-notes">General notes</h4>
+<section id="general-notes" class="level3">
+<h3 class="anchored" data-anchor-id="general-notes">General notes</h3>
 <ul>
 <li>We manage on user access. A question is whether we should control access based on user access <em>and</em> the intended use. In terms of both where they are working and what the context of the work is.</li>
 <li>We need to rightsize our ambitions, as going to broad will slow us down.</li>
@@ -315,15 +323,15 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 <li>The ideal people to work on the SCEs are unicorns - they need to be able to work with the business, understand the trial processes, and be able to work with the technology. We need to be able to train people to be unicorns, and we need to be able to retain them.</li>
 </ul>
 </section>
-<section id="actions" class="level4">
-<h4 class="anchored" data-anchor-id="actions">Actions</h4>
+<section id="actions" class="level3">
+<h3 class="anchored" data-anchor-id="actions">Actions</h3>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<i class="fa-solid fa-list" aria-label="list"></i>
+<span class="screen-reader-only">Note</span><i class="fa-solid fa-list" aria-label="list"></i>
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -336,103 +344,11 @@ gtag('config', 'G-SRBLBCD4NS', { 'anonymize_ip': true});
 </div>
 </div>
 </section>
-<section id="resources" class="level4">
-<h4 class="anchored" data-anchor-id="resources">Resources</h4>
+<section id="resources" class="level3">
+<h3 class="anchored" data-anchor-id="resources">Resources</h3>
 <p><a href="https://phuse.s3.eu-central-1.amazonaws.com/Events/2021/US+Connect+2021/SCE_White_Paper_Final_15Dec2021.pdf">White paper on late-stage SCEs</a></p>
 <p>Keynote incoporating the discussion at the round tables:</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/XO-oPX1TBuw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-</section>
-</section>
-<section id="sharing-r-code-without-sharing-r-code" class="level1">
-<h1>Sharing R code without sharing R code</h1>
-<p>Chairs: James Black</p>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1">2024</h2>
-<section id="objectively-track-migrationslanguage-use-in-studies" class="level3">
-<h3 class="anchored" data-anchor-id="objectively-track-migrationslanguage-use-in-studies">Objectively track migrations/language use in studies?</h3>
-<ul>
-<li>Most companies are using Github or Gitlab for study code - if we know where all the repos are, can we scan them via the API to track things like which studies are using R, Python or still on SAS?</li>
-<li><strong>Key Questions:</strong>
-<ul>
-<li>What code should be scanned? Look for files present? <code>.sas</code>, <code>.R</code>, <code>.py</code>, <code>.sql</code>, etc.? Is it more accurate than inbuilt language detection present in API endpoints?</li>
-<li>Should the focus be on studying all code written or only focus on study code (e.g.&nbsp;limit scope to org that holds studies)?</li>
-<li>Is there an API endpoint that can indicate which repository is being used?</li>
-</ul></li>
-</ul>
-</section>
-<section id="can-we-understand-what-packages-are-being-used-in-studies" class="level3">
-<h3 class="anchored" data-anchor-id="can-we-understand-what-packages-are-being-used-in-studies">Can we understand what packages are being used in studies?</h3>
-<ul>
-<li><strong>Idea:</strong>
-<ul>
-<li>The Posit Package Manager API doesn’t reliably say what validated R packages are used in each study, but as <code>renv</code> is used more, can we scan the <code>renv.lock</code> files to see what packages are being used?</li>
-</ul></li>
-<li><strong>Purpose:</strong>
-<ul>
-<li>This helps validation teams, our teams working on R packages, as well as help flag if we need to identify who used a specific version of a specific package in a study.</li>
-<li>Where packages are ‘pre-baked’ into containers to speed up ‘time to pulling data’, want to keep that as lean as possible using metrics like this.</li>
-</ul></li>
-</ul>
-</section>
-<section id="understanding-container-use" class="level3">
-<h3 class="anchored" data-anchor-id="understanding-container-use">Understanding container use</h3>
-<ul>
-<li><strong>Challenges:</strong>
-<ul>
-<li>How do we understand uptake of managed images, and who is using old images?</li>
-<li>Need for a strategy to manage container upgrades effectively.</li>
-<li>Actively understand patterns of image use across your SCE</li>
-<li>Look at patterns that should be dealt with - e.g.&nbsp;large numbers of idle interactive containers clogging worker nodes</li>
-</ul></li>
-<li><strong>Idea:</strong>
-<ul>
-<li>Pull k8’s logs to get list of all active containers by person over time</li>
-</ul></li>
-</ul>
-</section>
-<section id="keeping-connect-lean" class="level3">
-<h3 class="anchored" data-anchor-id="keeping-connect-lean">Keeping Connect lean</h3>
-<ul>
-<li><strong>Idea:</strong>
-<ul>
-<li>Roche had an example where &gt;500 broken items, and &gt;500 items not touched in more than a year were on the server</li>
-<li>Use Connect data (the postgres database as the API is very slow) to remove content</li>
-</ul></li>
-<li><strong>Purpose:</strong>
-<ul>
-<li>Remove potentially GBs of un-used data on the Connect server, and also enforce retention rules</li>
-</ul></li>
-</ul>
-</section>
-<section id="general-notes-1" class="level3">
-<h3 class="anchored" data-anchor-id="general-notes-1">General notes</h3>
-<ul>
-<li>Shift continues to data being outside of the SCE</li>
-<li>Some companies moved to ‘iterate anywhere - final batch runs matter’ stance. Some still consider every activity requiring validation.</li>
-<li>Discussion highlighted a split on whether internet access is blocked - in some companies there is no air gap, in ohers there is, particularly on ‘validated batch runs’</li>
-<li>singularity compresses containers better</li>
-<li>big celebrations that now we do not need to rebuild containers each time workbench is updated!!</li>
-<li>Provenance is an audit/validation requirement</li>
-<li>Explore the potential use of common tools to data engineering that are absent in clinical reporting (e.g.&nbsp;dbt, airflow, prefect)</li>
-</ul>
-</section>
-<section id="action-items-and-questions" class="level3">
-<h3 class="anchored" data-anchor-id="action-items-and-questions">Action Items and Questions</h3>
-<ul>
-<li><strong>Action Item:</strong>
-<ul>
-<li>White paper with Mark Bynens on the SCE.</li>
-<li>In white paper, clarify what the SCE is and how to handle program environments and data integration more effectively.</li>
-</ul></li>
-</ul>
-</section>
-<section id="references" class="level3">
-<h3 class="anchored" data-anchor-id="references">References</h3>
-<ul>
-<li>James’ posit::conf talk: <a href="https://epijim.uk/talk/giving-your-scientific-computing-environment-sce-a-voice/">epijim.uk/talk/giving-your-scientific-computing-environment-sce-a-voice</a></li>
-<li>Alanah Jonas from GSK may have a relevant talk later in the year at PHUSE EU 2024</li>
-</ul>
 
 
 </section>
@@ -503,13 +419,14 @@ if (!kPlatformMac) {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -894,8 +811,13 @@ if (!kPlatformMac) {
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../docs/faq/index.html">
-<p>FAQ</p>
+    <a class="nav-link" href="../../../privacy.html">
+<p>Privacy Policy</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../../terms.html">
+<p>Terms and Conditions</p>
 </a>
   </li>  
     <li class="nav-item">
@@ -907,6 +829,12 @@ if (!kPlatformMac) {
     <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rinpharma/rinpharma/edit/main/docs/summit/posts/2023-sce.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/open-source-in-pharma/">
+      <i class="bi bi-linkedin" role="img" aria-label="R/Pharma LinkedIn">
+</i> 
+    </a>
+  </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/rinpharma">
       <i class="bi bi-twitter" role="img" aria-label="R/Pharma Twitter">
