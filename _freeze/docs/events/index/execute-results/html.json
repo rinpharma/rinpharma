@@ -1,0 +1,15 @@
+{
+  "hash": "c86f5335e5e9b357a4e84d7da8526131",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"R/Pharma Events\"\nformat: html\nengine: knitr\nfilters:\n  - shinylive\n---\n\n```{shinylive-r}\n#| standalone: true\n#| viewerHeight: 600\n\nlibrary(shiny)\nlibrary(dplyr)\nlibrary(arrow)\nlibrary(bslib)\nlibrary(bsicons)\n\n# Load the talks CSV dataset\ntalks <- read.csv(\"https://rinpharma.github.io/data-pipelines/output/processed_talks.csv\")\n\nui <- page_fluid(\n  \n  layout_sidebar(\n    sidebar = sidebar(\n      selectInput(\n        \"event\", \"Select Event:\",\n        choices = sort(unique(talks$Event)),\n        selected = unique(talks$Event)[1]\n      ),\n      uiOutput(\"day_buttons\")\n    ),\n    card(\n      card_header(\"Schedule\"),\n       uiOutput(\"schedule_ui\")\n    )\n  )\n)\n\nserver <- function(input, output, session) {\n  \n  # Reactive subset by event\n  event_data <- reactive({\n    talks %>% filter(Event == input$event)\n  })\n  \n  # Available days in selected event\n  days <- reactive({\n    unique(event_data()$Date)\n  })\n  \n  # dynamically generate day filter buttons\n  output$day_buttons <- renderUI({\n    lapply(days(), function(d) {\n      actionButton(inputId = paste0(\"day_\", d), label = d, class = \"btn-primary m-1\")\n    })\n  })\n  \n  # track selected day\n  selected_day <- reactiveVal(NULL)\n  \n  # default day\n  observeEvent(days(), {\n    if (length(days()) > 0) selected_day(days()[1])\n  })\n  \n  # update when button clicked\n  observe({\n    lapply(days(), function(d) {\n      observeEvent(input[[paste0(\"day_\", d)]], {\n        selected_day(d)\n      })\n    })\n  })\n  \n  # schedule table\n  output$schedule_ui <- renderUI({\n    req(selected_day())\n    df <- event_data() %>% filter(Date == selected_day())\n    \n    if (nrow(df) == 0) {\n      return(HTML(\"<p>No sessions for this day.</p>\"))\n    }\n    \n    \n    # Build rows with popovers\n    rows <- lapply(seq_len(nrow(df)), function(i) {\n      session <- df[i,]\n      p <- popover(\n        trigger = bs_icon(\"file-earmark-text\"),\n        title = \"Abstract\",\n        session$Abstract\n      )\n    shiny::tags$div(\n        class = \"p-2 border-bottom\",\n        div(\n  style = \"display: flex; justify-content: space-between; align-items: center; width: 100%;\",\n  span(shiny::tags$strong(session$Start)),\n  span(shiny::a(href = session$Video, target = \"_blank\", bs_icon(\"youtube\")), p)\n),\n        # br(),\n        shiny::p(session$Title),\n#          shiny::a(href = session$Video, target = \"_blank\", session$Title),\n        # br(),\n        shiny::tags$span(\n        paste0(session$Speaker, \" (\", session$Affiliation, \")\"),\n        style = \"color: #444; font-size: 90%;\"\n        )\n#        br(),\n#        p\n      )\n    })\n    \n    div(class = \"list-group\", rows)\n  })\n}\n\nshinyApp(ui, server)\n```",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
