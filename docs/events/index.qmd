@@ -18,6 +18,15 @@ library(bsicons)
 # Load the talks CSV dataset
 talks <- read.csv("https://rinpharma.github.io/data-pipelines/output/processed_talks.csv")
 
+icon_types <- c(
+  "Keynote" = "person-video", 
+  "Talk" = "person-video3", 
+  "Workshop" = "people", 
+  "Coffee session" = "cup-hot", 
+  "Schedule only" = "cup-hot", 
+  "On-Demand" = "person-video3"
+)
+
 ui <- page_fluid(
 tags$head(
   tags$style(HTML("
@@ -105,6 +114,12 @@ server <- function(input, output, session) {
     rows <- lapply(seq_len(nrow(df)), function(i) {
       session <- df[i,]
 
+      if (session$Type %in% c("Keynote", "Talk", "Workshop", "Coffee session", "Schedule only", "On-Demand")) {
+        type_icon <- bs_icon(icon_types[session$Type])
+      } else {
+        type_icon <- bs_icon("app")
+      }
+
       if (is.na(session$Abstract)) {
         abstract_icon <- bs_icon("file-earmark-text", color = "#ccc")
       } else {
@@ -124,7 +139,10 @@ server <- function(input, output, session) {
       shiny::tags$div(
         class = "item-outer",
         div(class = "item-inner",
-          span(shiny::tags$strong(substr(session$Start, 1, 5))),
+          span(
+            type_icon,
+            span(shiny::tags$strong(substr(session$Start, 1, 5)))
+          ),
           span(youtube_icon, abstract_icon)
         ),
         shiny::tags$div(class = "event-title", session$Title),
