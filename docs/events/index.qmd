@@ -133,17 +133,20 @@ server <- function(input, output, session) {
       if (is.na(session$Video)) {
         youtube_icon <- bs_icon("youtube", color = "#ccc")
       } else {
-        youtube_icon <- shiny::a(href = session$Video, target = "_blank", bs_icon("youtube"))
+        youtube_icon <- shiny::a(href = session$Video, target = "_blank", bs_icon("youtube", color = "#f00"))
       }
 
       shiny::tags$div(
         class = "item-outer",
         div(class = "item-inner",
           span(
-            type_icon,
+            span(class = "me-2", type_icon),
             span(shiny::tags$strong(substr(session$Start, 1, 5)))
           ),
-          span(youtube_icon, abstract_icon)
+          span(
+            span(class = "me-2", youtube_icon), 
+            abstract_icon
+          )
         ),
         shiny::tags$div(class = "event-title", session$Title),
         shiny::tags$div(class = "event-speaker",
