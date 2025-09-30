@@ -20,7 +20,7 @@ jobs:
       - name: Install R packages
         run: |
           Rscript -e 'install.packages("remotes")'
-          Rscript -e 'remotes::install_cran(c("shiny", "dplyr", "bslib", "bsicons", "shinylive"))'
+          Rscript -e 'remotes::install_cran(c("shiny", "dplyr", "bslib", "bsicons", "shinylive", "rmarkdown", "knitr", "jsonlite"))'
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
