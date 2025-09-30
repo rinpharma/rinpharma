@@ -41,6 +41,7 @@ tags$head(
       width: 100%;
     }
     #event-items .event-title {
+      font-weight: bold;
       margin-bottom: 0.25rem;
     }
     #event-items .event-speaker {
@@ -58,10 +59,7 @@ tags$head(
       ),
       uiOutput("day_buttons")
     ),
-    card(
-      card_header("Schedule"),
-       uiOutput("schedule_ui")
-    )
+    uiOutput("schedule_ui")
   )
 )
 
@@ -115,9 +113,9 @@ server <- function(input, output, session) {
       session <- df[i,]
 
       if (session$Type %in% c("Keynote", "Talk", "Workshop", "Coffee session", "Schedule only", "On-Demand")) {
-        type_icon <- bs_icon(icon_types[session$Type])
+        type_icon <- bs_icon(icon_types[session$Type]) |> tooltip(session$Type)
       } else {
-        type_icon <- bs_icon("app")
+        type_icon <- bs_icon("app") 
       }
 
       if (is.na(session$Abstract)) {
@@ -141,7 +139,7 @@ server <- function(input, output, session) {
         div(class = "item-inner",
           span(
             span(class = "me-2", type_icon),
-            span(shiny::tags$strong(substr(session$Start, 1, 5)))
+            substr(session$Start, 1, 5)
           ),
           span(
             span(class = "me-2", youtube_icon), 
@@ -155,7 +153,11 @@ server <- function(input, output, session) {
       )
     })
     
-    div(id = "event-items", class = "list-group", rows)
+    card(
+      card_header(paste("Schedule:", selected_day())),
+      div(id = "event-items", class = "list-group", rows)
+    )
+    
   })
 }
 
