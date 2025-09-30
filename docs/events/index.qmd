@@ -1,0 +1,119 @@
+---
+title: "R/Pharma Events"
+format: html
+engine: knitr
+filters:
+  - shinylive
+---
+
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+library(shiny)
+library(dplyr)
+library(arrow)
+library(bslib)
+library(bsicons)
+
+# Load the talks CSV dataset
+talks <- read.csv("https://rinpharma.github.io/data-pipelines/output/processed_talks.csv")
+
+ui <- page_fluid(
+  
+  layout_sidebar(
+    sidebar = sidebar(
+      selectInput(
+        "event", "Select Event:",
+        choices = sort(unique(talks$Event)),
+        selected = unique(talks$Event)[1]
+      ),
+      uiOutput("day_buttons")
+    ),
+    card(
+      card_header("Schedule"),
+       uiOutput("schedule_ui")
+    )
+  )
+)
+
+server <- function(input, output, session) {
+  
+  # Reactive subset by event
+  event_data <- reactive({
+    talks %>% filter(Event == input$event)
+  })
+  
+  # Available days in selected event
+  days <- reactive({
+    unique(event_data()$Date)
+  })
+  
+  # dynamically generate day filter buttons
+  output$day_buttons <- renderUI({
+    lapply(days(), function(d) {
+      actionButton(inputId = paste0("day_", d), label = d, class = "btn-primary m-1")
+    })
+  })
+  
+  # track selected day
+  selected_day <- reactiveVal(NULL)
+  
+  # default day
+  observeEvent(days(), {
+    if (length(days()) > 0) selected_day(days()[1])
+  })
+  
+  # update when button clicked
+  observe({
+    lapply(days(), function(d) {
+      observeEvent(input[[paste0("day_", d)]], {
+        selected_day(d)
+      })
+    })
+  })
+  
+  # schedule table
+  output$schedule_ui <- renderUI({
+    req(selected_day())
+    df <- event_data() %>% filter(Date == selected_day())
+    
+    if (nrow(df) == 0) {
+      return(HTML("<p>No sessions for this day.</p>"))
+    }
+    
+    
+    # Build rows with popovers
+    rows <- lapply(seq_len(nrow(df)), function(i) {
+      session <- df[i,]
+      p <- popover(
+        trigger = bs_icon("file-earmark-text"),
+        title = "Abstract",
+        session$Abstract
+      )
+    shiny::tags$div(
+        class = "p-2 border-bottom",
+        div(
+  style = "display: flex; justify-content: space-between; align-items: center; width: 100%;",
+  span(shiny::tags$strong(session$Start)),
+  span(shiny::a(href = session$Video, target = "_blank", bs_icon("youtube")), p)
+),
+        # br(),
+        shiny::p(session$Title),
+#          shiny::a(href = session$Video, target = "_blank", session$Title),
+        # br(),
+        shiny::tags$span(
+        paste0(session$Speaker, " (", session$Affiliation, ")"),
+        style = "color: #444; font-size: 90%;"
+        )
+#        br(),
+#        p
+      )
+    })
+    
+    div(class = "list-group", rows)
+  })
+}
+
+shinyApp(ui, server)
+```

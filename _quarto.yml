@@ -56,8 +56,8 @@ website:
         href: index.qmd
       - text: People
         href: people.md
-      - text: Conference
-        href: docs/conference/index.qmd
+      - text: Events
+        href: docs/events/index.qmd
       - text: Summit
         href: docs/summit/index.qmd
       - text: Blog
