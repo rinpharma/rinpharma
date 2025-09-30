@@ -124,7 +124,7 @@ server <- function(input, output, session) {
       shiny::tags$div(
         class = "item-outer",
         div(class = "item-inner",
-          span(shiny::tags$strong(session$Start)),
+          span(shiny::tags$strong(substr(session$Start, 1, 5))),
           span(youtube_icon, abstract_icon)
         ),
         shiny::tags$div(class = "event-title", session$Title),
