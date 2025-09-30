@@ -18,8 +18,38 @@ library(bsicons)
 # Load the talks CSV dataset
 talks <- read.csv("https://rinpharma.github.io/data-pipelines/output/processed_talks.csv")
 
+icon_types <- c(
+  "Keynote" = "person-video", 
+  "Talk" = "person-video3", 
+  "Workshop" = "people", 
+  "Coffee session" = "cup-hot", 
+  "Schedule only" = "cup-hot", 
+  "On-Demand" = "person-video3"
+)
+
 ui <- page_fluid(
-  
+tags$head(
+  tags$style(HTML("
+    #event-items .item-outer {
+      padding: 0.5rem;
+      border-bottom: 0.5px solid #444;
+    }
+    #event-items .item-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+    #event-items .event-title {
+      font-weight: bold;
+      margin-bottom: 0.25rem;
+    }
+    #event-items .event-speaker {
+      color: #444;
+      font-size: 90%;
+    }
+  "))),
+
   layout_sidebar(
     sidebar = sidebar(
       selectInput(
@@ -29,10 +59,7 @@ ui <- page_fluid(
       ),
       uiOutput("day_buttons")
     ),
-    card(
-      card_header("Schedule"),
-       uiOutput("schedule_ui")
-    )
+    uiOutput("schedule_ui")
   )
 )
 
@@ -51,7 +78,7 @@ server <- function(input, output, session) {
   # dynamically generate day filter buttons
   output$day_buttons <- renderUI({
     lapply(days(), function(d) {
-      actionButton(inputId = paste0("day_", d), label = d, class = "btn-primary m-1")
+      actionButton(inputId = paste0("day_", d), label = d, class = "btn-primary m-0 rounded-3")
     })
   })
   
@@ -81,36 +108,67 @@ server <- function(input, output, session) {
       return(HTML("<p>No sessions for this day.</p>"))
     }
     
-    
     # Build rows with popovers
     rows <- lapply(seq_len(nrow(df)), function(i) {
       session <- df[i,]
-      p <- popover(
-        trigger = bs_icon("file-earmark-text"),
-        title = "Abstract",
-        session$Abstract
-      )
-    shiny::tags$div(
-        class = "p-2 border-bottom",
-        div(
-  style = "display: flex; justify-content: space-between; align-items: center; width: 100%;",
-  span(shiny::tags$strong(session$Start)),
-  span(shiny::a(href = session$Video, target = "_blank", bs_icon("youtube")), p)
-),
-        # br(),
-        shiny::p(session$Title),
-#          shiny::a(href = session$Video, target = "_blank", session$Title),
-        # br(),
-        shiny::tags$span(
-        paste0(session$Speaker, " (", session$Affiliation, ")"),
-        style = "color: #444; font-size: 90%;"
+
+      if (session$Type %in% c("Keynote", "Talk", "Workshop", "Coffee session", "Schedule only", "On-Demand")) {
+        type_icon <- bs_icon(icon_types[session$Type]) |> tooltip(session$Type)
+      } else {
+        type_icon <- bs_icon("app") 
+      }
+
+      ## Abstract icon
+      if (is.na(session$Abstract)) {
+        abstract_icon <- bs_icon("file-earmark-text", color = "#ccc")
+      } else {
+        abstract_icon <- popover(
+          trigger = bs_icon("file-earmark-text"),
+          title = "Abstract",
+          session$Abstract
         )
-#        br(),
-#        p
+      }
+
+      ## YouTube icon
+      if (is.na(session$Video)) {
+        youtube_icon <- bs_icon("youtube", color = "#ccc")
+      } else {
+        youtube_icon <- shiny::a(href = session$Video, target = "_blank", bs_icon("youtube", color = "#f00"))
+      }
+
+      ## Presenter
+      if (is.na(session$Affiliation)) {
+        if (is.na(session$Speaker)) {
+          speaker <- ""
+        } else {
+          speaker <- session$Speaker
+        }
+      } else {
+      speaker <- paste0(session$Speaker, " (", session$Affiliation, ")")
+      }
+
+      shiny::tags$div(
+        class = "item-outer",
+        div(class = "item-inner",
+          span(
+            span(class = "me-2", type_icon),
+            substr(session$Start, 1, 5)
+          ),
+          span(
+            span(class = "me-2", youtube_icon), 
+            abstract_icon
+          )
+        ),
+        shiny::tags$div(class = "event-title", session$Title),
+        shiny::tags$div(class = "event-speaker", speaker)
       )
     })
     
-    div(class = "list-group", rows)
+    card(
+      card_header(paste("Schedule:", selected_day())),
+      div(id = "event-items", class = "list-group", rows)
+    )
+    
   })
 }
 
