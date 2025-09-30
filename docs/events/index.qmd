@@ -12,7 +12,6 @@ filters:
 
 library(shiny)
 library(dplyr)
-library(arrow)
 library(bslib)
 library(bsicons)
 
