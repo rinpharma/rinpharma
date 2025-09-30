@@ -28,7 +28,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          Rscript -e 'install_packages(c("shiny", "dplyr", "bslib", "bsicons", "shinylive", "rmarkdown", "knitr", "jsonlite"))'
+          Rscript -e 'install.packages(c("shiny", "dplyr", "bslib", "bsicons", "shinylive", "rmarkdown", "knitr", "jsonlite"))'
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
