@@ -118,6 +118,7 @@ server <- function(input, output, session) {
         type_icon <- bs_icon("app") 
       }
 
+      ## Abstract icon
       if (is.na(session$Abstract)) {
         abstract_icon <- bs_icon("file-earmark-text", color = "#ccc")
       } else {
@@ -128,10 +129,22 @@ server <- function(input, output, session) {
         )
       }
 
+      ## YouTube icon
       if (is.na(session$Video)) {
         youtube_icon <- bs_icon("youtube", color = "#ccc")
       } else {
         youtube_icon <- shiny::a(href = session$Video, target = "_blank", bs_icon("youtube", color = "#f00"))
+      }
+
+      ## Presenter
+      if (is.na(session$Affiliation)) {
+        if (is.na(session$Speaker)) {
+          speaker <- ""
+        } else {
+          speaker <- session$Speaker
+        }
+      } else {
+      speaker <- paste0(session$Speaker, " (", session$Affiliation, ")")
       }
 
       shiny::tags$div(
@@ -147,9 +160,7 @@ server <- function(input, output, session) {
           )
         ),
         shiny::tags$div(class = "event-title", session$Title),
-        shiny::tags$div(class = "event-speaker",
-          paste0(session$Speaker, " (", session$Affiliation, ")")
-        )
+        shiny::tags$div(class = "event-speaker", speaker)
       )
     })
     
