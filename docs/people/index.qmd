@@ -12,7 +12,6 @@ R/Pharma is a volunteer organization.  All the people listed below donate their 
 ```{r}
 #| include: false
 library(htmltools)
-library(arrow)
 library(dplyr)
 library(bsicons)
 ```
