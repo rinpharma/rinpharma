@@ -1,5 +1,9 @@
 ---
-title: "The People Responsible for R/Pharma"
+title: "People"
+subtitle: "The People Responsible for R/Pharma"
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+page-layout: full
 ---
 
 R/Pharma is a volunteer organization.  All the people listed below donate their time, energy and effort to put on great events for the community for free.
