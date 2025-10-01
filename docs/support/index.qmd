@@ -1,5 +1,9 @@
 ---
 title: "R/Pharma Support"
+subtitle: "The groups that support R/Pharma"
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+page-layout: full
 ---
 
 R/Pharma is fortunate to have the support of many amazing organizations over the years.  We would like to thank the following for all their financial support:
