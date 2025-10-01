@@ -87,8 +87,8 @@ people_list <- function(df) {
 
 ```{r}
 #| echo: false
-df_team <- arrow::read_parquet(
-  "https://rinpharma.github.io/data-pipelines/output/processed_team.parquet"
+df_team <- read.csv(
+  "https://rinpharma.github.io/data-pipelines/output/processed_team.csv", check.names = FALSE
 ) |>
   dplyr::mutate(lastname = sub('^.* ([[:alnum:]]+)$', '\\1', Name)) |>
   dplyr::arrange(lastname)
