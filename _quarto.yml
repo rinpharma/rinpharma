@@ -54,12 +54,12 @@ website:
     left:
       - text: Overview
         href: index.qmd
-      - text: People
-        href: people.md
       - text: Events
         href: docs/events/index.qmd
       - text: Summit
         href: docs/summit/index.qmd
+      - text: People
+        href: docs/people/index.qmd
       - text: Blog
         href: docs/blog/index.qmd
       - text: Support

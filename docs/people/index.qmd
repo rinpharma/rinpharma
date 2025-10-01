@@ -1,0 +1,127 @@
+---
+title: "People"
+subtitle: "The People Responsible for R/Pharma"
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+page-layout: full
+---
+
+R/Pharma is a volunteer organization.  All the people listed below donate their time, energy and effort to put on great events for the community for free.
+
+
+```{r}
+#| include: false
+library(htmltools)
+library(arrow)
+library(dplyr)
+library(bsicons)
+```
+
+```{r}
+#| echo: false
+
+people_grid <- function(df) {
+  items <- apply(df, 1, function(row) {
+    name <- row[["Name"]]
+    company <- row[["Company"]]
+    github <- row[["github"]]
+    linkedin <- row[["linkedin"]]
+    
+    company_html <- if (nzchar(company)) {
+      span(class = "person-company",
+           bs_icon("building", class = "me-1"),
+           company
+      )
+    } else NULL
+    
+    github_html <- if (nzchar(github)) {
+      a(href = paste0("https://github.com/", github),
+        target = "_blank",
+        class = "person-icon",
+        bs_icon("github")
+      )
+    } else NULL
+    
+    linkedin_html <- if (nzchar(linkedin)) {
+      a(href = paste0("https://www.linkedin.com/in/", linkedin),
+        target = "_blank",
+        class = "person-icon",
+        bs_icon("linkedin")
+      )
+    } else NULL
+    
+    div(
+      class = "person-card",
+      div(class = "person-header",
+        strong(class = "person-name", name)
+      ),
+      div(class = "person-company", company_html),
+      div(class = "person-links", github_html, linkedin_html)
+    )
+  })
+
+  div(class = "people-grid", items)
+}
+
+people_list <- function(df) {
+  items <- apply(df, 1, function(row) {
+    name <- row[["Name"]]
+    company <- row[["Company"]]
+    if (is.na(company)) {
+      item <- name
+    } else {
+      item <- paste0(name, " (", company, ")")
+    }
+    tags$li(class = "people-list-item", item)
+  })
+
+  div(
+    tags$ul(
+      items
+    )
+  )
+    
+}
+
+```
+
+```{r}
+#| echo: false
+df_team <- arrow::read_parquet(
+  "https://rinpharma.github.io/data-pipelines/output/processed_team.parquet"
+) |>
+  dplyr::mutate(lastname = sub('^.* ([[:alnum:]]+)$', '\\1', Name)) |>
+  dplyr::arrange(lastname)
+```
+
+## Europe / US Organizing Team
+
+```{r}
+#| echo: false
+#| results: asis
+
+people_grid(dplyr::filter(df_team, EUROPE_US_OC == TRUE))
+```
+
+## APAC Organizing Team
+
+```{r}
+#| echo: false
+#| results: asis
+
+people_grid(dplyr::filter(df_team, APAC_OC == TRUE))
+```
+
+## Ex-Organizing Committee Members
+
+We are grateful for the hard work and dedication of ex-committtee members.
+
+```{r}
+#| echo: false
+#| results: asis
+
+people_list(dplyr::filter(df_team, `EX-EUROPE_US_OC` == TRUE | `EX-APAC_OC` == TRUE))
+
+
+```
+
