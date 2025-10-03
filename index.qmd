@@ -68,7 +68,7 @@ Our mission:
 
 <div class="tab-content" id="hello-quarto-tabcontent">
 
-<div class="tab-pane fade  show active" id="announcement" role="tabpanel" aria-labelledby="announcement-tab">
+<div class="tab-pane fade show active" id="announcement" role="tabpanel" aria-labelledby="announcement-tab">
 
 ::: {.grid}
 ::: {.g-col-lg-6 .g-col-12}
@@ -93,7 +93,7 @@ To register click the button below.
 
 </div>
 
-<div class="tab-pane fade  show active" id="conference" role="tabpanel" aria-labelledby="conference-tab">
+<div class="tab-pane fade show" id="conference" role="tabpanel" aria-labelledby="conference-tab">
 
 ::: {.grid}
 ::: {.g-col-lg-6 .g-col-12}
