@@ -26,14 +26,14 @@ people_grid <- function(df) {
     github <- row[["github"]]
     linkedin <- row[["linkedin"]]
     
-    company_html <- if (nzchar(company)) {
+    company_html <- if (!is.na(company)) {
       span(class = "person-company",
            bs_icon("building", class = "me-1"),
            company
       )
     } else NULL
     
-    github_html <- if (nzchar(github)) {
+    github_html <- if (!is.na(github)) {
       a(href = paste0("https://github.com/", github),
         target = "_blank",
         class = "person-icon",
@@ -41,7 +41,7 @@ people_grid <- function(df) {
       )
     } else NULL
     
-    linkedin_html <- if (nzchar(linkedin)) {
+    linkedin_html <- if (!is.na(linkedin)) {
       a(href = paste0("https://www.linkedin.com/in/", linkedin),
         target = "_blank",
         class = "person-icon",
