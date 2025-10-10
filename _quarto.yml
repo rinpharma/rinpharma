@@ -41,6 +41,12 @@ website:
 #      - icon: rss
 #        href: 
 #        aria-label:      
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "R in Pharma is from Nov 3-7, register now!"
+    type: primary
+    position: below-navbar
   navbar:
     background: light
     logo: images/logo-rinpharma.png
