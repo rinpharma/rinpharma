@@ -47,7 +47,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "R in Pharma is from Nov 3-7, register now!"
+    content: "R in Pharma is from Nov 3-7, register now! Final program and workshop is in the works!"
     type: primary
     position: below-navbar
   navbar:
