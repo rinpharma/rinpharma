@@ -29,6 +29,9 @@ website:
       - text: License
         href: license.qmd
     right:
+      - icon: youtube
+        href: https://www.youtube.com/rinpharma
+        aria-label: R/Pharma YouTube
       - icon: linkedin
         href: https://www.linkedin.com/company/open-source-in-pharma/
         aria-label: R/Pharma LinkedIn
@@ -67,6 +70,9 @@ website:
       - text: Support
         href: docs/support/index.qmd
     right:
+      - icon: youtube
+        href: https://www.youtube.com/rinpharma
+        aria-label: R/Pharma YouTube
       - icon: linkedin
         href: https://www.linkedin.com/company/open-source-in-pharma/
         aria-label: R/Pharma LinkedIn
