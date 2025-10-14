@@ -1,0 +1,14 @@
+---
+title: "R/Pharma Virtual 2025"
+subtitle: "R/Pharma Virtual Schedule"
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+page-layout: full
+---
+
+R/Pharma is excited to share the schedule for the R/Pharma virtual conference.  This year we will be running both Europe/US (Global) and APAC centric schedules.  
+Additional workshops will be added shortly.  
+
+Registration is free via [this link](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg).
+
+<script type="text/javascript" src="https://sessionize.com/api/v2/tvndes5n/view/GridSmart"></script>
