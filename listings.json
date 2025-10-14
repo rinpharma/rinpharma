@@ -1,5 +1,17 @@
 [
   {
+    "listing": "/docs/conference/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docs/blog/index.html",
+    "items": [
+      "/docs/blog/posts/2025-07-30-genAI/index.html",
+      "/docs/blog/posts/2025-07-25-hackathon/index.html",
+      "/docs/blog/posts/2025-06-14-announcements/index.html"
+    ]
+  },
+  {
     "listing": "/docs/summit/index.html",
     "items": [
       "/docs/summit/posts/2024-sce.html",
@@ -19,17 +31,5 @@
       "/docs/summit/posts/2023-ai.html",
       "/docs/summit/posts/2023-case-os.html"
     ]
-  },
-  {
-    "listing": "/docs/blog/index.html",
-    "items": [
-      "/docs/blog/posts/2025-07-30-genAI/index.html",
-      "/docs/blog/posts/2025-07-25-hackathon/index.html",
-      "/docs/blog/posts/2025-06-14-announcements/index.html"
-    ]
-  },
-  {
-    "listing": "/docs/conference/index.html",
-    "items": []
   }
 ]
