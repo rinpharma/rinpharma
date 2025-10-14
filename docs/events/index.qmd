@@ -16,7 +16,14 @@ library(bslib)
 library(bsicons)
 
 # Load the talks CSV dataset
-talks <- read.csv("https://rinpharma.github.io/data-pipelines/output/processed_talks.csv")
+talks <- read.csv("https://rinpharma.github.io/data-pipelines/output/processed_talks.csv") |>
+  mutate(
+    datetime_est = as.POSIXct(paste(Date, Start), tz = "America/New_York"),
+    # Convert to user's timezone
+    datetime_local = as.POSIXct(datetime_est, tz = Sys.timezone(location = TRUE)),
+    # Format to show only the time portion, e.g. "8:00 EST"
+    Local_Time = format(datetime_local, "%H:%M %Z")
+  )
 
 icon_types <- c(
   "Keynote" = "person-video", 
@@ -152,7 +159,7 @@ server <- function(input, output, session) {
         div(class = "item-inner",
           span(
             span(class = "me-2", type_icon),
-            substr(session$Start, 1, 5)
+            session$Local_Time
           ),
           span(
             span(class = "me-2", youtube_icon), 
