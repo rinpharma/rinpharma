@@ -59,6 +59,8 @@ website:
     left:
       - text: Overview
         href: index.qmd
+      - text: R/Pharma 2025
+        href: docs/RPH2025/index.qmd
       - text: Events
         href: docs/events/index.qmd
       - text: Summit
