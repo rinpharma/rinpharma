@@ -16,7 +16,16 @@ library(bslib)
 library(bsicons)
 
 # Load the talks CSV dataset
-talks <- read.csv("https://rinpharma.github.io/data-pipelines/output/processed_talks.csv")
+talks <- read.csv("https://rinpharma.github.io/data-pipelines/output/processed_talks.csv") |>
+  mutate(
+    datetime_est = as.POSIXct(paste(Date, Start), tz = "America/New_York"),
+    # Convert to user's timezone
+    datetime_local = as.POSIXct(datetime_est, tz = Sys.timezone(location = TRUE)),
+    # Get date in local timezone
+    date_local =  format(datetime_local, "%Y-%m-%d"),
+    # Format to show only the time portion, e.g. "8:00 EST"
+    Local_Time = format(datetime_local, "%H:%M %Z")
+  )
 
 icon_types <- c(
   "Keynote" = "person-video", 
@@ -72,7 +81,7 @@ server <- function(input, output, session) {
   
   # Available days in selected event
   days <- reactive({
-    unique(event_data()$Date)
+    unique(event_data()$date_local)
   })
   
   # dynamically generate day filter buttons
@@ -102,7 +111,7 @@ server <- function(input, output, session) {
   # schedule table
   output$schedule_ui <- renderUI({
     req(selected_day())
-    df <- event_data() %>% filter(Date == selected_day())
+    df <- event_data() %>% filter(date_local == selected_day())
     
     if (nrow(df) == 0) {
       return(HTML("<p>No sessions for this day.</p>"))
@@ -152,7 +161,7 @@ server <- function(input, output, session) {
         div(class = "item-inner",
           span(
             span(class = "me-2", type_icon),
-            substr(session$Start, 1, 5)
+            session$Local_Time
           ),
           span(
             span(class = "me-2", youtube_icon), 
