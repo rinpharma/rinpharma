@@ -9,9 +9,15 @@ page-layout: full
 R/Pharma is fortunate to have the support of many amazing organizations over the years.  We would like to thank the following for all their financial support:
 
 ::: {#supportlist}
+-  Abbvie
+-  B2S
 -  Beigene
 -  Biogen
+-  Gilead
+-  Harvard
 -  J&J
+-  Merck
+-  Metrum Research Group
 -  Pfizer
 -  Posit
 -  Roche
