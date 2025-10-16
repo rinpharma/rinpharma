@@ -1,6 +1,6 @@
 ---
-title: OS in Pharma Blog
-subtitle: Updates from the OS in Pharma team
+title: R/Pharma Blog
+subtitle: Updates from the R/Pharma team
 listing:
   sort: "date desc"
   contents: "posts"
