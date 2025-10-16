@@ -11,7 +11,7 @@ website:
   twitter-card: true
   site-url: https://rinpharma.com
   repo-url: https://github.com/rinpharma/rinpharma
-  repo-actions: [edit, issue]
+  repo-actions: [issue]
   page-navigation: true
   page-footer:
     left: |
