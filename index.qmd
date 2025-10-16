@@ -160,7 +160,7 @@ The monthly R/Pharma hangout is a place to discuss all things open source.  The 
 ::: {.g-col-lg-12 .g-col-12}
 ## Proceedings
 
-R/Pharma is proud to curate our prior abstracts here on the site, and talks on Youtube.  You can find previous talks on the [events page](/docs/events).
+R/Pharma curates proceedings from previous conferences on this site, and on YouTube.  You can find information on previous talks and workshops on the [events page](/docs/events).
 
 :::: {.hero-buttons}
 [YouTube Channel](https://www.youtube.com/rinpharma){.btn-action-warning .btn-action .btn .btn-warning .btn-lg role="button"}

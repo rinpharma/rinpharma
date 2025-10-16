@@ -6,12 +6,12 @@ website:
   title: "R/Pharma"
   image: "images/logo-rinpharma.png"
   favicon: "favicon.png"
-  google-analytics: "G-SRBLBCD4NS"
+#  google-analytics: "G-SRBLBCD4NS"
   open-graph: true
   twitter-card: true
   site-url: https://rinpharma.com
   repo-url: https://github.com/rinpharma/rinpharma
-  repo-actions: [edit, issue]
+  repo-actions: [issue]
   page-navigation: true
   page-footer:
     left: |
@@ -47,7 +47,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "R in Pharma is from Nov 3-7, register now! Final program and workshop is in the works!"
+    content: "R in Pharma is from Nov 3-7, register now! Program now available.  Workshops online soon."
     type: primary
     position: below-navbar
   navbar:
@@ -105,4 +105,4 @@ filters:
 execute:
   freeze: auto
 
-editor: visual
+#editor: visual
