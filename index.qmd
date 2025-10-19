@@ -82,7 +82,7 @@ R/Pharma conference registration is now open.  R/Pharma is a free conference cov
 
 ### Expo
 
-Want to showcase your R package, shiny app, YouTube channel or blog?  Check out the R/Pharma Expo!  More etails available [here](docs/blog/posts/2025-10-18-expo/)
+Want to showcase your R package, shiny app, YouTube channel or blog?  Check out the R/Pharma Expo!  More details available [here](docs/blog/posts/2025-10-18-expo/)
 
 :::
 
