@@ -9,7 +9,7 @@ categories:
   - conference
 author: R/Pharma
 date: 2025-06-14
-image: fireworks.jpg
+image: elisha-terada-_b4ppn1Ssgw-unsplash.jpg
 image-alt: "Fireworks"
 ---
 
@@ -62,3 +62,8 @@ The hangout is a welcoming space for anyone to come to chat about open source in
 
 
 **We hope to see you at R/Pharma events in 2025!**
+
+### {.citation-image}
+Photo by <a href="https://unsplash.com/@elishaterada?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Elisha Terada</a> on <a href="https://unsplash.com/photos/fireworks-at-nighttime-_b4ppn1Ssgw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+###
