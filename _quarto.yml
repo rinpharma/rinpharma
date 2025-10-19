@@ -47,7 +47,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "R in Pharma is from Nov 3-7, register now! Program now available.  Workshops online soon."
+    content: "R/Pharma Virtual running from Nov 3-7. Register now! Schedule and workshops available online"
     type: primary
     position: below-navbar
   navbar:
