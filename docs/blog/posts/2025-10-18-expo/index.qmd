@@ -1,0 +1,37 @@
+---
+title: R/Pharma Expo
+subtitle: Information on R/Pharma Expo
+description: |
+  Come showcase your awesome open source creations!
+categories:
+  - conference
+author: R/Pharma
+date: 2025-10-18
+image: vitaly-gariev-ECRBb_DgKPQ-unsplash.jpg
+image-alt: "Excitement"
+---
+
+## CALLING ALL OPEN SOURCE DEVELOPERS
+
+The R/Pharma Expo is an opportunity to show off your awesome work!  Do you contribute to open source by building packages or sharing shiny apps?  Do you share content through a podcast or YouTube channel? We're excited to announce that R/Pharma 2025 will feature a virtual expo hall where you can showcase what you do.  
+The expo will run continuously throughout R/Pharma giving people a chance to wander through virtual booths and interact with other attendees.  You can even share demos and chat to people via Zoom.
+
+If you want to take part then there's a few things that we'll need:
+
+  -  title and description of package, podcast, etc.
+  -  a short video (up to 5 minutes) as an MP4 or YouTube link and some images or screen captures (all optional).
+  -  website and social media links (optional).
+
+**We'll set up the booth for you.  All you need to do is provide the information**
+
+Just fill out this [online form](https://docs.google.com/forms/d/e/1FAIpQLScpXSBBfjUBgfBrIh1pIj6BMdzXOFEDRQM2U2WqCO47oBhung/viewform?usp=header){target="_blank"} and we'll take care of the rest.
+
+Any questions? Just reach out to us at [info@rinpharma.com](mailto:info@rinpharma.com).
+
+**Please note - No vendor or commercial products. R/Pharma is committed to opensource**
+
+### {.citation-image}
+
+Photo by <a href="https://unsplash.com/@silverkblack?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vitaly Gariev</a> on <a href="https://unsplash.com/photos/man-in-suit-celebrating-success-at-office-desk-ECRBb_DgKPQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
+###
