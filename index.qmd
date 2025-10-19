@@ -74,15 +74,15 @@ Our mission:
 ::: {.g-col-lg-6 .g-col-12}
 ## Latest Announcement
 
-R/Pharma conference registration is now opne.  R/Pharma is a free conference covering the use of R and other open source technologies in Pharma and Biotech industries.  This year the conference will run from 3-7 November with both a Europe/US and an APAC track.
-
-More details on the program will follow shortly.
-
-To register click the button below.
+R/Pharma conference registration is now open.  R/Pharma is a free conference covering the use of R and other open source technologies in Pharma and Biotech industries.  This year the conference will run from 3-7 November with both a Europe/US and an APAC track.
 
 :::: {.hero-buttons}
 [R/Pharma 2025 Registration](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
 :::: 
+
+### Expo
+
+Want to showcase your R package, shiny app, YouTube channel or blog?  Check out the R/Pharma Expo!  More etails available [here](docs/blog/posts/2025-10-18-expo/)
 
 :::
 
