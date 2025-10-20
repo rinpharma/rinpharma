@@ -71,6 +71,8 @@ website:
         href: docs/blog/index.qmd
       - text: Support
         href: docs/support/index.qmd
+      - text: Contact Us
+        href: contact.qmd
     right:
       - icon: youtube
         href: https://www.youtube.com/rinpharma
