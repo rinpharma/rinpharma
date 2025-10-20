@@ -1,18 +1,18 @@
 ---
 title: "Thank You"
-page-layout: article
-format:
-  html:
-    toc: false
-    page-layout: full
+subtitle: "Thank you for reaching out to R/Pharma"
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+page-layout: full
 ---
+
 
 ```{=html}
 <div class="container text-center my-5">
   <div class="p-5 border rounded shadow-sm bg-light">
-    <h1 class="text-success mb-3">🎉 Thank You!</h1>
-    <p class="lead mb-4">Your message has been sent successfully. We'll be in touch soon.</p>
-    <a href="./" class="btn btn-success btn-lg">Back to Home</a>
+    <h1 class="text-primary mb-3">🎉 Thank You!</h1>
+    <p class="lead mb-4">Your message has been sent successfully.</p>
+    <a href="./" class="btn btn-action-primary btn-action btn-lg px-4">Back to Home</a>
   </div>
 </div>
 ```

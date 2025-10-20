@@ -1,76 +1,104 @@
 ---
 title: "Contact Us"
-page-layout: article
-format:
-  html:
-    toc: false
-    page-layout: full
+subtitle: "Reach out to R/Pharma"
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+page-layout: full
 ---
 
 ```{=html}
 <!-- Invisible iframe to absorb Google Form redirect -->
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
 
-<form 
-  action="https://docs.google.com/forms/d/e/1FAIpQLSdTM2EedwSq_wnNQeiKRjJpe2tcRqG5S1zG1DkZoMCBzePnug/formResponse" 
-  method="POST" 
-  target="hidden_iframe" 
-  id="contact-form"
-  class="mx-auto mt-4 p-3 border rounded shadow-sm"
-  style="max-width: 600px;">
+<div class="mx-auto mt-4 p-3 border rounded shadow-sm" style="max-width: 600px;">
+  <form 
+    action="https://docs.google.com/forms/d/e/1FAIpQLSdTM2EedwSq_wnNQeiKRjJpe2tcRqG5S1zG1DkZoMCBzePnug/formResponse" 
+    method="POST" 
+    target="hidden_iframe" 
+    id="contact-form"
+    class="contact-form">
 
-  <div class="mb-3">
-    <label for="name" class="form-label fw-bold">Name</label>
-    <input type="text" name="entry.1617415932" id="name" class="form-control" placeholder="Your name" required>
+    <div class="mb-3">
+      <label for="name" class="form-label fw-bold">Name</label>
+      <input type="text" name="entry.1617415932" id="name" class="form-control" placeholder="Your name" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label fw-bold">Email</label>
+      <input type="email" name="entry.930974599" id="email" class="form-control" placeholder="you@example.com" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="message" class="form-label fw-bold">Message</label>
+      <textarea name="entry.1874483042" id="message" class="form-control" rows="5" placeholder="Your message" required></textarea>
+    </div>
+
+    <!-- Honeypot (hidden from humans) -->
+    <div style="display:none;">
+      <label for="honeypot">Leave this field blank</label>
+      <input type="text" name="entry.262929223" id="honeypot" autocomplete="off" tabindex="-1">
+    </div>
+
+    <div class="text-center mt-4">
+      <button type="submit" class="btn btn-success btn-lg px-4">Send Message</button>
+    </div>
+
+    <!-- Hidden inputs required by Google Forms -->
+    <input type="hidden" name="fvv" value="1">
+    <input type="hidden" name="draftResponse" value="[]">
+    <input type="hidden" name="pageHistory" value="0">
+    <input type="hidden" name="submit" value="Submit">
+  </form>
+
+  <!-- Submitting overlay -->
+  <div id="submitting-overlay" class="text-center" style="display:none; padding: 2em;">
+    <div class="spinner-border text-success" role="status">
+      <span class="visually-hidden">Submitting...</span>
+    </div>
+    <p class="mt-2 fw-bold">Submitting your message...</p>
   </div>
-
-  <div class="mb-3">
-    <label for="email" class="form-label fw-bold">Email</label>
-    <input type="email" name="entry.930974599" id="email" class="form-control" placeholder="you@example.com" required>
-  </div>
-
-  <div class="mb-3">
-    <label for="message" class="form-label fw-bold">Message</label>
-    <textarea name="entry.1874483042" id="message" class="form-control" rows="5" placeholder="Your message" required></textarea>
-  </div>
-
-  <!-- Honeypot (hidden from humans) -->
-  <div style="display:none;">
-    <label for="honeypot">Leave this field blank</label>
-    <input type="text" name="entry.262929223" id="honeypot" autocomplete="off" tabindex="-1">
-  </div>
-
-  <div class="text-center mt-4">
-    <button type="submit" class="btn btn-success btn-lg px-4">Send Message</button>
-  </div>
-
-  <!-- Hidden inputs required by Google Forms -->
-  <input type="hidden" name="fvv" value="1">
-  <input type="hidden" name="draftResponse" value="[]">
-  <input type="hidden" name="pageHistory" value="0">
-  <input type="hidden" name="submit" value="Submit">
-</form>
+</div>
 
 <script>
 let submitted = false;
+const form = document.getElementById('contact-form');
+const overlay = document.getElementById('submitting-overlay');
 
-document.getElementById('contact-form').addEventListener('submit', function(e) {
+form.addEventListener('submit', function(e) {
   const honeypot = document.getElementById('honeypot');
   if (honeypot && honeypot.value.trim() !== '') {
     console.warn('Bot detected — blocking submission.');
     e.preventDefault();
     return false;
   }
+
+  // Show submitting overlay and hide form
+  form.style.display = 'none';
+  overlay.style.display = 'block';
   submitted = true;
 });
 
-// Redirect handler for both local preview and production
+// Redirect handler for production after hidden iframe loads
 document.getElementById('hidden_iframe').addEventListener('load', function() {
   if (submitted) {
-    // Derive base path dynamically
     const base = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '/');
     window.location.href = base + 'thank-you.html';
   }
 });
 </script>
+
+<style>
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75em;
+  border: 1px solid var(--bs-border-color, #ccc);
+  border-radius: 6px;
+  font-size: 1em;
+  width: 100%;
+}
+
+#submitting-overlay {
+  font-family: system-ui, sans-serif;
+}
+</style>
 ```
