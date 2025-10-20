@@ -1,18 +1,5 @@
 [
   {
-    "listing": "/docs/conference/index.html",
-    "items": []
-  },
-  {
-    "listing": "/docs/blog/index.html",
-    "items": [
-      "/docs/blog/posts/2025-10-18-expo/index.html",
-      "/docs/blog/posts/2025-07-30-genAI/index.html",
-      "/docs/blog/posts/2025-07-25-hackathon/index.html",
-      "/docs/blog/posts/2025-06-14-announcements/index.html"
-    ]
-  },
-  {
     "listing": "/docs/summit/index.html",
     "items": [
       "/docs/summit/posts/2024-shiny-validation.html",
@@ -32,5 +19,18 @@
       "/docs/summit/posts/2023-shiny-validation.html",
       "/docs/summit/posts/2023-change-mgt.html"
     ]
+  },
+  {
+    "listing": "/docs/blog/index.html",
+    "items": [
+      "/docs/blog/posts/2025-10-18-expo/index.html",
+      "/docs/blog/posts/2025-07-30-genAI/index.html",
+      "/docs/blog/posts/2025-07-25-hackathon/index.html",
+      "/docs/blog/posts/2025-06-14-announcements/index.html"
+    ]
+  },
+  {
+    "listing": "/docs/conference/index.html",
+    "items": []
   }
 ]

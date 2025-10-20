@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Open Source License – R/Pharma</title>
+<title>Contact Us – R/Pharma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,14 +72,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Open Source License – R/Pharma">
-<meta property="og:description" content="">
+<meta property="og:title" content="Contact Us – R/Pharma">
 <meta property="og:image" content="https://rinpharma.com/images/logo-rinpharma.png">
 <meta property="og:site_name" content="R/Pharma">
 <meta property="og:image:height" content="70">
 <meta property="og:image:width" content="201">
-<meta name="twitter:title" content="Open Source License – R/Pharma">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="Contact Us – R/Pharma">
 <meta name="twitter:image" content="https://rinpharma.com/images/logo-rinpharma.png">
 <meta name="twitter:image-height" content="70">
 <meta name="twitter:image-width" content="201">
@@ -133,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Support</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link active" href="./contact.html" aria-current="page"> 
 <span class="menu-text">Contact Us</span></a>
   </li>  
 </ul>
@@ -169,23 +167,21 @@ ul.task-list li input[type="checkbox"] {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Open Source License</h1>
+<h1 class="title">Contact Us</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -197,8 +193,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The theme of this website is based on the permisively licensed Quarto website <a href="https://github.com/quarto-dev/" class="uri">https://github.com/quarto-dev/</a>.</p>
-<p>Any additional content beyond the initial forked website theme unique to Open Source in Pharma is licenced under an MIT licence, copyrighted by Open Source in Pharma.</p>
+<!-- Invisible iframe to absorb Google Form redirect -->
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSdTM2EedwSq_wnNQeiKRjJpe2tcRqG5S1zG1DkZoMCBzePnug/formResponse" method="POST" target="hidden_iframe" id="contact-form" class="mx-auto mt-4 p-3 border rounded shadow-sm" style="max-width: 600px;">
+
+  <div class="mb-3">
+    <label for="name" class="form-label fw-bold">Name</label>
+    <input type="text" name="entry.1617415932" id="name" class="form-control" placeholder="Your name" required="">
+  </div>
+
+  <div class="mb-3">
+    <label for="email" class="form-label fw-bold">Email</label>
+    <input type="email" name="entry.930974599" id="email" class="form-control" placeholder="you@example.com" required="">
+  </div>
+
+  <div class="mb-3">
+    <label for="message" class="form-label fw-bold">Message</label>
+    <textarea name="entry.1874483042" id="message" class="form-control" rows="5" placeholder="Your message" required=""></textarea>
+  </div>
+
+  <!-- Honeypot (hidden from humans) -->
+  <div style="display:none;">
+    <label for="honeypot">Leave this field blank</label>
+    <input type="text" name="entry.262929223" id="honeypot" autocomplete="off" tabindex="-1">
+  </div>
+
+  <div class="text-center mt-4">
+    <button type="submit" class="btn btn-success btn-lg px-4">Send Message</button>
+  </div>
+
+  <!-- Hidden inputs required by Google Forms -->
+  <input type="hidden" name="fvv" value="1">
+  <input type="hidden" name="draftResponse" value="[]">
+  <input type="hidden" name="pageHistory" value="0">
+  <input type="hidden" name="submit" value="Submit">
+</form>
+
+<script>
+let submitted = false;
+
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+  const honeypot = document.getElementById('honeypot');
+  if (honeypot && honeypot.value.trim() !== '') {
+    console.warn('Bot detected — blocking submission.');
+    e.preventDefault();
+    return false;
+  }
+  submitted = true;
+});
+
+// Redirect handler for both local preview and production
+document.getElementById('hidden_iframe').addEventListener('load', function() {
+  if (submitted) {
+    // Derive base path dynamically
+    const base = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '/');
+    window.location.href = base + 'thank-you.html';
+  }
+});
+</script>
 
 
 
@@ -639,7 +692,7 @@ if (!kPlatformMac) {
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link active" href="./license.html" aria-current="page">
+    <a class="nav-link" href="./license.html">
 <p>License</p>
 </a>
   </li>  
