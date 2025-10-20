@@ -40,7 +40,7 @@ page-layout: full
     </div>
 
     <div class="text-center mt-4">
-      <button type="submit" class="btn btn-success btn-lg px-4">Send Message</button>
+      <button type="submit" class="btn btn-action-primary btn-action btn-lg px-4">Send Message</button>
     </div>
 
     <!-- Hidden inputs required by Google Forms -->
