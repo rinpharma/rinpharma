@@ -14,7 +14,7 @@ image-alt: "Excitement"
 ## CALLING ALL OPEN SOURCE DEVELOPERS
 
 The R/Pharma Expo is an opportunity to show off your awesome work!  Do you contribute to open source by building packages or sharing shiny apps?  Do you share content through a podcast or YouTube channel? We're excited to announce that R/Pharma 2025 will feature a virtual expo hall where you can showcase what you do.  
-The expo will run continuously throughout R/Pharma giving people a chance to wander through virtual booths and interact with other attendees.  You can even share demos and chat to people via Zoom.
+The expo will run continuously from November 3-7, throughout the R/Pharma conference, giving people a chance to wander through virtual booths and interact with other attendees.  You can even share demos and chat to people via Zoom.
 
 If you want to take part then there's a few things that we'll need:
 
@@ -24,7 +24,9 @@ If you want to take part then there's a few things that we'll need:
 
 **We'll set up the booth for you.  All you need to do is provide the information**
 
-Just fill out this [online form](https://docs.google.com/forms/d/e/1FAIpQLScpXSBBfjUBgfBrIh1pIj6BMdzXOFEDRQM2U2WqCO47oBhung/viewform?usp=header){target="_blank"} and we'll take care of the rest.
+Click on the button below and fill out the google form to enter details and we'll take care of the rest!
+
+[EXPO Submission Form](https://docs.google.com/forms/d/e/1FAIpQLScpXSBBfjUBgfBrIh1pIj6BMdzXOFEDRQM2U2WqCO47oBhung/viewform?usp=header){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" target="_blank"}
 
 Any questions? Just reach out to us at [info@rinpharma.com](mailto:info@rinpharma.com).
 

@@ -77,12 +77,16 @@ Our mission:
 R/Pharma conference registration is now open.  R/Pharma is a free conference covering the use of R and other open source technologies in Pharma and Biotech industries.  This year the conference will run from 3-7 November with both a Europe/US and an APAC track.
 
 :::: {.hero-buttons}
-[R/Pharma 2025 Registration](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+[R/Pharma 2025 Registration](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" target="_blank"}
 :::: 
 
 ### Expo
 
-Want to showcase your R package, shiny app, YouTube channel or blog?  Check out the R/Pharma Expo!  More details available [here](docs/blog/posts/2025-10-18-expo/)
+Want to showcase your R package, shiny app, YouTube channel or blog?  Check out the R/Pharma Expo!  More details available here:
+
+:::: {.hero-buttons}
+[EXPO Details](docs/blog/posts/2025-10-18-expo/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+:::: 
 
 :::
 
@@ -107,7 +111,7 @@ Pharma companies.
 R/Pharma runs Europe/US and APAC tracks.  To register click the button below.
 
 :::: {.hero-buttons}
-[R/Pharma 2025 Registration](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+[R/Pharma 2025 Registration](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" target="_blank"}
 :::: 
 
 :::
@@ -143,11 +147,11 @@ Throughout the 2025 R/Pharma Summit, facilitators fostered in-person discussions
 
 ### Diversity Alliance
 
-We aspire to be an inclusive R community for developers who work in the pharma space. Our goal is to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices. The R/Pharma **Diversity Alliance** is a space where all ways of being and doing can feel welcome.  Each year, the Diversity Alliance put on a hackathon to introduce new voices to open source R package development.  For more details subscribe to our [meeting calendar](https://www.addevent.com/calendar/AD808454) or email us at [diversityalliance@opensourceinpharma.com](mailto:diversityalliance@opensourceinpharma.com).
+We aspire to be an inclusive R community for developers who work in the pharma space. Our goal is to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices. The R/Pharma **Diversity Alliance** is a space where all ways of being and doing can feel welcome.  Each year, the Diversity Alliance put on a hackathon to introduce new voices to open source R package development.  For more details subscribe to our [meeting calendar](https://www.addevent.com/calendar/AD808454){target="_blank"} or email us at [diversityalliance@opensourceinpharma.com](mailto:diversityalliance@opensourceinpharma.com).
 
 ### R/Pharma Hangouts
 
-The monthly R/Pharma hangout is a place to discuss all things open source.  The hangouts are hosted by Eric Nantz and Jared Woolfolk and are never recorded so you can be yourself!  For more details, subscribe to our [meeting calendar](https://www.addevent.com/calendar/wC797942).
+The monthly R/Pharma hangout is a place to discuss all things open source.  The hangouts are hosted by Eric Nantz and Jared Woolfolk and are never recorded so you can be yourself!  For more details, subscribe to our [meeting calendar](https://www.addevent.com/calendar/wC797942){target="_blank"}.
 
 :::
 :::
@@ -163,7 +167,7 @@ The monthly R/Pharma hangout is a place to discuss all things open source.  The 
 R/Pharma curates proceedings from previous conferences on this site, and on YouTube.  You can find information on previous talks and workshops on the [events page](/docs/events).
 
 :::: {.hero-buttons}
-[YouTube Channel](https://www.youtube.com/rinpharma){.btn-action-warning .btn-action .btn .btn-warning .btn-lg role="button"}
+[YouTube Channel](https://www.youtube.com/rinpharma){.btn-action-warning .btn-action .btn .btn-warning .btn-lg role="button" target="_blank"}
 :::: 
 
 :::
