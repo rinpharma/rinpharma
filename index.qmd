@@ -192,7 +192,7 @@ R/Pharma curates proceedings from previous conferences on this site, and on YouT
 
 ### Do you want to get connected and involved?
 
-[Connect with us](https://forms.gle/8ftqG6pwJN22prA9A){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
+[Connect with us](/contact.qmd){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
 
 :::
 :::
