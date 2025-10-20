@@ -10,6 +10,6 @@ R/Pharma is excited to share the schedule for the R/Pharma virtual conference.  
 
 Registration is free via [this link](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg).
 
-The conference will also include a virtual exhibition hall where you can showcase your open source and community contributions.  Check out this [blog entry](docs/blog/posts/2025-10-18-expo/) for more details.
+The conference will also include a virtual exhibition hall where you can showcase your open source and community contributions.  Check out this [blog entry](/docs/blog/posts/2025-10-18-expo/) for more details.
 
 <script type="text/javascript" src="https://sessionize.com/api/v2/tvndes5n/view/GridSmart"></script>
