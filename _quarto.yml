@@ -38,6 +38,12 @@ website:
       - icon: twitter
         href: https://twitter.com/rinpharma
         aria-label: R/Pharma Twitter
+      - icon: mastodon
+        href: https://rstats.me/@rinpharma
+        aria-label: R/Pharma Mastodon
+      - icon: bluesky
+        href: https://bsky.app/profile/rinpharma.bsky.social
+        aria-label: R/Pharma Bluesky
       - icon: github
         href: https://github.com/rinpharma
         aria-label: R/Pharma github
@@ -83,6 +89,12 @@ website:
       - icon: twitter
         href: https://twitter.com/rinpharma
         aria-label: R/Pharma Twitter
+      - icon: mastodon
+        href: https://rstats.me/@rinpharma
+        aria-label: R/Pharma Mastodon
+      - icon: bluesky
+        href: https://bsky.app/profile/rinpharma.bsky.social
+        aria-label: R/Pharma Bluesky
       - icon: github
         href: https://github.com/openpharma
         aria-label: OpenPharma github
@@ -99,7 +111,7 @@ format:
     code-overflow: wrap
     css: styles.css
     include-after-body: js.html
-
+    include-in-header: head.html
 filters:
   - filters/tools-tabset.lua
 
