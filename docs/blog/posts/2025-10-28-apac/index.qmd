@@ -1,6 +1,5 @@
 ---
 title: R/Pharma APAC Track 2025
-draft: true
 description: |
   Learn more about the APAC track for the R/Pharma conference 2025.
 categories:
