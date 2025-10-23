@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "terms.html",
-    "href": "terms.html",
-    "title": "Terms and Conditions",
-    "section": "",
-    "text": "Open Source in Pharma and R/Pharma put on events by passionate volunteers.\nBy registering for our events you agree that Open Source in Pharma and R/Pharma assume no responsibility, and any costs, annoyances or catastrophic events incurred due to attending our events are yours and yours alone.\nAt in-person events we may take some photos, audio or video recordings. While participating in the group activities, your photo may be taken and be posted on the group website. It is your responsibility to inform others if you do not wish to be photographed and inform us if any of your photos to be removed. Please do not take recordings of other participants without their permission. At both in-person and virtual events we record presentations to be shared with attendees. Please let us know if you are a presenter and you prefer not to have your talk recorded. Attendees are not permitted to record information at Open Source in Pharma and R/Pharma without written permission.\nPlease don’t share content from Open Source in Pharma or R/Pharma unless you have permission to do so.\nTickets to Open Source in Pharma and R/Pharma events cannot be transferred or exchanged without permission of the Organizing Committee. In the unlikely occurrence that an Open Source in Pharma or R/Pharma event is cancelled or postponed due to circumstances beyond our control, we cannot be held responsible for any costs incurred by the event attendee.\nSpeakers are subject to change and we do not guarantee that any specific speakers or participants will appear at Open Source in Pharma and R/Pharma events. However, we will always try to find a suitable replacement if one of our key speakers or participants is unable to attend. Views expressed by speakers at our events may not be the views of Open Source in Pharma or R/Pharma.\nEvent materials are provided on an “as is” basis and Open Source in Pharma and R/Pharma make no warranty regarding the accuracy or completeness of those materials.\n\n\nDiversity\nOpen Source in Pharma and R/Pharma are dedicated to providing harassment-free conference experiences for everyone regardless of gender, sexual orientation, disability or any feature that distinguishes human beings.\n\n\nPolicy Statement of the R/Pharma Conference and other events hosted by Open Source in Pharma\nThe purpose of the R/Pharma conference is to foster discussion on the use of R in the pharmaceutical industry. R/Pharma is not, and hopefully never will be a commercially oriented meeting. As such, we do not accept administrative responsibility for distributing commercial materials, nor do we allow vendors to participate in the meeting in any role other than as scientists/practitioners interested in learning or discussing the application of R in Pharma. All attendees are requested to adhere to the spirit of this policy. Please don’t spam attendees.\n\n\nTerms\nThe majority of R/Pharma events are free and come with ABSOLUTELY NO WARRANTY. YOUR PARTICIPATION IS AT YOUR SOLE AND EXCLUSIVE RISK. By accepting the invitation to attend and registering a ticket, you freely and voluntarily assume all risks. You also agree not to hold organizers responsible for their negligence in connection with the conference or Content or events.\nOpen Source in Pharma and R/Pharma assume no responsibility for any costs (e.g. travel) in any circumstance, examples including if the conference is cancelled, or named speakers are unable to attend.\nYou agree to indemnify, defend, and hold Open Source in Pharma and R/Pharma and all parites and its subsidiaries, affiliates, officers, directors, agents, co-branders or other partners, employees, and representatives harmless from and against any and all claims, damages, losses, costs or expenses (including reasonable attorneys’ fees and disbursements) which arise directly or indirectly out of or from (i) your breach of this Agreement, (ii) any allegation that any materials that you submit to R/Pharma or present (e.g., conference, github, website) infringe or otherwise violate the copyright, trade secret, trademark or other intellectual property rights of a third party, and (iii) your access or use of the Sites and/or the Services.\nNOTWITHSTANDING ANYTHING TO THE CONTRARY HEREIN, TO THE FULLEST EXTENT ALLOWED BY LAW, YOU AGREE TO WAIVE, DISCHARGE CLAIMS, RELEASE All Parties FROM ALL LIABILITY AND INDEMNIFY AND HOLD HARMLESS ORGANIZERS, HOSTS, SUBSIDIARIES, AFFILIATES, OFFICERS, AGENTS, VOLUNTEERS AND OTHER PARTNERS AND EMPLOYEES, FROM ANY AND ALL LIABILITY ON ACCOUNT OF, OR IN ANY WAY RESULTING FROM INJURIES AND DAMAGES IN ANY WAY CONNECTED WITH ANY EVENTS OR ACTIVITIES.\n\n\nNotes\nNo confidential information should be disclosed at meetings and no warranty of confidentiality is made by the event organizers. Audio Recordings of events may be taken by event organizers and general content may be used in discussion postings or meeting highlights on our website, github or used elsewhere. Attendees of events acknowledge this content may be shared and release the event organizers to use this content freely. Audio or video recordings of events by attendees are prohibited. We will not share information if you request we do not do so.\n\n\nCloud Software Terms\nWe use, or have used, several cloud services to manage Open Source in Pharma and R/Pharma events including AddEvent, Credly, EventBrite, GitHub, Hopin (now Ring Central), Posit, Sessionize, Slido and Zoom. Please refer to the terms and conditions of these sites.\nWe expect you to provide your full name and email address for our events. You may have to register with one or more of the platforms listed above to use their services."
-  },
-  {
     "objectID": "thank-you.html",
     "href": "thank-you.html",
     "title": "Thank You",
@@ -14,25 +7,39 @@
     "text": "🎉 Thank You!\n    Your message has been sent successfully.\n    Back to Home"
   },
   {
+    "objectID": "docs/people/index.html",
+    "href": "docs/people/index.html",
+    "title": "People",
+    "section": "",
+    "text": "R/Pharma is a volunteer organization. All the people listed below donate their time, energy and effort to put on great events for the community for free."
+  },
+  {
+    "objectID": "docs/people/index.html#europe-us-organizing-team",
+    "href": "docs/people/index.html#europe-us-organizing-team",
+    "title": "People",
+    "section": "Europe / US Organizing Team",
+    "text": "Europe / US Organizing Team\n\n\n\nPaulo Bargo\n\n\n\n\n\nNovartis\n\n\n\n\n\n\n\n\nJames Black\n\n\n\n\n\nNovartis\n\n\n\n\n\n\n\n\n\nMichael Blanks\n\n\n\n\n\nExelixis\n\n\n\n\n\n\n\n\nPhil Bowsher\n\n\n\n\n\nPosit\n\n\n\n\n\n\n\n\n\nAnna Giczewskau\n\n\n\n\n\nDuke\n\n\n\n\n\n\n\n\nShannon Haughton\n\n\n\n\n\nGlaxosmithkline\n\n\n\n\n\n\n\n\nKatie Igartua\n\n\n\n\n\nTempus\n\n\n\n\n\n\n\n\nNing Leng\n\n\n\n\n\nRoche / Genentech\n\n\n\n\n\n\n\n\n\nHarvey Lieberman\n\n\n\n\n\nNovartis\n\n\n\n\n\n\n\n\n\nMelvin Munsaka\n\n\n\n\n\nAbbVie\n\n\n\n\n\n\n\n\nSatish Murthy\n\n\n\n\n\nJanssen\n\n\n\n\n\n\n\n\nEric Nantz\n\n\n\n\n\nEli Lilly\n\n\n\n\n\n\n\n\n\nVictoria Prince\n\n\n\n\n\nTakeda\n\n\n\n\n\n\n\n\nElena Rantou\n\n\n\n\n\nFDA\n\n\n\n\n\n\n\n\nPaul Schuette\n\n\n\n\n\nFDA\n\n\n\n\n\n\n\n\nJonathan Tisack\n\n\n\n\n\nAmgen\n\n\n\n\n\n\n\n\nJeremy Wildfire\n\n\n\n\n\nGilead\n\n\n\n\n\n\n\n\nJared Woolfolk\n\n\n\n\n\nCytel\n\n\n\n\n\n\n\n\nAudrey Yeo\n\n\n\n\n\nRoche / Genentech"
+  },
+  {
+    "objectID": "docs/people/index.html#apac-organizing-team",
+    "href": "docs/people/index.html#apac-organizing-team",
+    "title": "People",
+    "section": "APAC Organizing Team",
+    "text": "APAC Organizing Team\n\n\n\nDaniel Sabanés Bové\n\n\n\n\n\nRCONIS\n\n\n\n\n\n\n\n\n\nJonathan Carroll\n\n\n\n\n\nIrregularly Scheduled Programming\n\n\n\n\n\n\n\n\n\nYanli Chang\n\n\n\n\n\nJohnson & Johnson\n\n\n\n\n\n\n\n\nYuichi Nakajima\n\n\n\n\n\nGlaxoSmithCline K.K.\n\n\n\n\n\n\n\n\nXiaolin Song\n\n\n\n\n\nTakeda\n\n\n\n\n\n\n\n\n\nSteven Ting\n\n\n\n\n\nCytel\n\n\n\n\n\n\n\n\nFrank Yang\n\n\n\n\n\nCIMS Global\n\n\n\n\n\n\n\n\nJoe Zhu\n\n\n\n\n\nRoche"
+  },
+  {
+    "objectID": "docs/people/index.html#ex-organizing-committee-members",
+    "href": "docs/people/index.html#ex-organizing-committee-members",
+    "title": "People",
+    "section": "Ex-Organizing Committee Members",
+    "text": "Ex-Organizing Committee Members\nWe are grateful for the hard work and dedication of ex-committtee members.\n\n\nSmitha Ankinakatte (Syncorp Health Pvt Ltd)\nBella Feng (EQRx)\nEllis Hughes (GlaxoSmithKline)\nJoanna Moćko-Łazarewicz (Appsilon)\nHarshal Khanolkar (Novo Nordisk)\nReinhold Koch (Roche / Genentech)\nEdward Lauzier (Merck)\nMichael Lawrence (Roche / Genentech)\nMin Lee (Amgen)\nMaya Malepati (Procogia)\nJuliane Manitz (EMD Serono)\nDaniella Mark (Procogia)\nJenna Reps (Johnson & Johnson)\nEric Simms (Glaxosmithkline)\nJohn Sims (Pfizer)\nVolha Tryputsen (Janssen)"
+  },
+  {
     "objectID": "docs/events/index.html",
     "href": "docs/events/index.html",
     "title": "R/Pharma Events",
     "section": "",
     "text": "#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 600\n\nlibrary(shiny)\nlibrary(dplyr)\nlibrary(bslib)\nlibrary(bsicons)\n\n# Load the talks CSV dataset\ntalks &lt;- read.csv(\"https://rinpharma.github.io/data-pipelines/output/processed_talks.csv\") |&gt;\n  mutate(\n    datetime_est = as.POSIXct(paste(Date, Start), tz = \"America/New_York\"),\n    # Convert to user's timezone\n    datetime_local = as.POSIXct(datetime_est, tz = Sys.timezone(location = TRUE)),\n    # Get date in local timezone\n    date_local =  format(datetime_local, \"%Y-%m-%d\"),\n    # Format to show only the time portion, e.g. \"8:00 EST\"\n    Local_Time = format(datetime_local, \"%H:%M %Z\")\n  )\n\nicon_types &lt;- c(\n  \"Keynote\" = \"person-video\", \n  \"Talk\" = \"person-video3\", \n  \"Workshop\" = \"people\", \n  \"Coffee session\" = \"cup-hot\", \n  \"Schedule only\" = \"cup-hot\", \n  \"On-Demand\" = \"person-video3\"\n)\n\nui &lt;- page_fluid(\ntags$head(\n  tags$style(HTML(\"\n    #event-items .item-outer {\n      padding: 0.5rem;\n      border-bottom: 0.5px solid #444;\n    }\n    #event-items .item-inner {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      width: 100%;\n    }\n    #event-items .event-title {\n      font-weight: bold;\n      margin-bottom: 0.25rem;\n    }\n    #event-items .event-speaker {\n      color: #444;\n      font-size: 90%;\n    }\n  \"))),\n\n  layout_sidebar(\n    sidebar = sidebar(\n      selectInput(\n        \"event\", \"Select Event:\",\n        choices = sort(unique(talks$Event)),\n        selected = unique(talks$Event)[1]\n      ),\n      uiOutput(\"day_buttons\")\n    ),\n    uiOutput(\"schedule_ui\")\n  )\n)\n\nserver &lt;- function(input, output, session) {\n  \n  # Reactive subset by event\n  event_data &lt;- reactive({\n    talks %&gt;% filter(Event == input$event)\n  })\n  \n  # Available days in selected event\n  days &lt;- reactive({\n    unique(event_data()$date_local)\n  })\n  \n  # dynamically generate day filter buttons\n  output$day_buttons &lt;- renderUI({\n    lapply(days(), function(d) {\n      actionButton(inputId = paste0(\"day_\", d), label = d, class = \"btn-primary m-0 rounded-3\")\n    })\n  })\n  \n  # track selected day\n  selected_day &lt;- reactiveVal(NULL)\n  \n  # default day\n  observeEvent(days(), {\n    if (length(days()) &gt; 0) selected_day(days()[1])\n  })\n  \n  # update when button clicked\n  observe({\n    lapply(days(), function(d) {\n      observeEvent(input[[paste0(\"day_\", d)]], {\n        selected_day(d)\n      })\n    })\n  })\n  \n  # schedule table\n  output$schedule_ui &lt;- renderUI({\n    req(selected_day())\n    df &lt;- event_data() %&gt;% filter(date_local == selected_day())\n    \n    if (nrow(df) == 0) {\n      return(HTML(\"&lt;p&gt;No sessions for this day.&lt;/p&gt;\"))\n    }\n    \n    # Build rows with popovers\n    rows &lt;- lapply(seq_len(nrow(df)), function(i) {\n      session &lt;- df[i,]\n\n      if (session$Type %in% c(\"Keynote\", \"Talk\", \"Workshop\", \"Coffee session\", \"Schedule only\", \"On-Demand\")) {\n        type_icon &lt;- bs_icon(icon_types[session$Type]) |&gt; tooltip(session$Type)\n      } else {\n        type_icon &lt;- bs_icon(\"app\") \n      }\n\n      ## Abstract icon\n      if (is.na(session$Abstract)) {\n        abstract_icon &lt;- bs_icon(\"file-earmark-text\", color = \"#ccc\")\n      } else {\n        abstract_icon &lt;- popover(\n          trigger = bs_icon(\"file-earmark-text\"),\n          title = \"Abstract\",\n          session$Abstract\n        )\n      }\n\n      ## YouTube icon\n      if (is.na(session$Video)) {\n        youtube_icon &lt;- bs_icon(\"youtube\", color = \"#ccc\")\n      } else {\n        youtube_icon &lt;- shiny::a(href = session$Video, target = \"_blank\", bs_icon(\"youtube\", color = \"#f00\"))\n      }\n\n      ## Presenter\n      if (is.na(session$Affiliation)) {\n        if (is.na(session$Speaker)) {\n          speaker &lt;- \"\"\n        } else {\n          speaker &lt;- session$Speaker\n        }\n      } else {\n      speaker &lt;- paste0(session$Speaker, \" (\", session$Affiliation, \")\")\n      }\n\n      shiny::tags$div(\n        class = \"item-outer\",\n        div(class = \"item-inner\",\n          span(\n            span(class = \"me-2\", type_icon),\n            session$Local_Time\n          ),\n          span(\n            span(class = \"me-2\", youtube_icon), \n            abstract_icon\n          )\n        ),\n        shiny::tags$div(class = \"event-title\", session$Title),\n        shiny::tags$div(class = \"event-speaker\", speaker)\n      )\n    })\n    \n    card(\n      card_header(paste(\"Schedule:\", selected_day())),\n      div(id = \"event-items\", class = \"list-group\", rows)\n    )\n    \n  })\n}\n\nshinyApp(ui, server)"
-  },
-  {
-    "objectID": "docs/RPH2025/index.html",
-    "href": "docs/RPH2025/index.html",
-    "title": "R/Pharma Virtual 2025",
-    "section": "",
-    "text": "R/Pharma is excited to share the schedule for the R/Pharma virtual conference. This year we will be running both Europe/US (Global) and APAC centric schedules.\nRegistration is free via this link.\nThe conference will also include a virtual exhibition hall where you can showcase your open source and community contributions. Check out this blog entry for more details."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Us",
-    "section": "",
-    "text": "Name\n      \n    \n\n    \n      Email\n      \n    \n\n    \n      Message\n      \n    \n\n    \n    \n      Leave this field blank\n      \n    \n\n    \n      Send Message\n    \n\n    \n    \n    \n    \n    \n  \n\n  \n  \n    \n      Submitting...\n    \n    Submitting your message..."
   },
   {
     "objectID": "about.html",
@@ -84,53 +91,25 @@
     "text": "Support\nVisit the support tab find out about R/Pharma supporters."
   },
   {
-    "objectID": "docs/people/index.html",
-    "href": "docs/people/index.html",
-    "title": "People",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Us",
     "section": "",
-    "text": "R/Pharma is a volunteer organization. All the people listed below donate their time, energy and effort to put on great events for the community for free."
+    "text": "Name\n      \n    \n\n    \n      Email\n      \n    \n\n    \n      Message\n      \n    \n\n    \n    \n      Leave this field blank\n      \n    \n\n    \n      Send Message\n    \n\n    \n    \n    \n    \n    \n  \n\n  \n  \n    \n      Submitting...\n    \n    Submitting your message..."
   },
   {
-    "objectID": "docs/people/index.html#europe-us-organizing-team",
-    "href": "docs/people/index.html#europe-us-organizing-team",
-    "title": "People",
-    "section": "Europe / US Organizing Team",
-    "text": "Europe / US Organizing Team\n\n\n\nPaulo Bargo\n\n\n\n\n\nNovartis\n\n\n\n\n\n\n\n\nJames Black\n\n\n\n\n\nNovartis\n\n\n\n\n\n\n\n\n\nMichael Blanks\n\n\n\n\n\nExelixis\n\n\n\n\n\n\n\n\nPhil Bowsher\n\n\n\n\n\nPosit\n\n\n\n\n\n\n\n\n\nAnna Giczewskau\n\n\n\n\n\nDuke\n\n\n\n\n\n\n\n\nShannon Haughton\n\n\n\n\n\nGlaxosmithkline\n\n\n\n\n\n\n\n\nKatie Igartua\n\n\n\n\n\nTempus\n\n\n\n\n\n\n\n\nNing Leng\n\n\n\n\n\nRoche / Genentech\n\n\n\n\n\n\n\n\n\nHarvey Lieberman\n\n\n\n\n\nNovartis\n\n\n\n\n\n\n\n\n\nMelvin Munsaka\n\n\n\n\n\nAbbVie\n\n\n\n\n\n\n\n\nSatish Murthy\n\n\n\n\n\nJanssen\n\n\n\n\n\n\n\n\nEric Nantz\n\n\n\n\n\nEli Lilly\n\n\n\n\n\n\n\n\n\nVictoria Prince\n\n\n\n\n\nTakeda\n\n\n\n\n\n\n\n\nElena Rantou\n\n\n\n\n\nFDA\n\n\n\n\n\n\n\n\nPaul Schuette\n\n\n\n\n\nFDA\n\n\n\n\n\n\n\n\nJonathan Tisack\n\n\n\n\n\nAmgen\n\n\n\n\n\n\n\n\nJeremy Wildfire\n\n\n\n\n\nGilead\n\n\n\n\n\n\n\n\nJared Woolfolk\n\n\n\n\n\nCytel\n\n\n\n\n\n\n\n\nAudrey Yeo\n\n\n\n\n\nRoche / Genentech"
-  },
-  {
-    "objectID": "docs/people/index.html#apac-organizing-team",
-    "href": "docs/people/index.html#apac-organizing-team",
-    "title": "People",
-    "section": "APAC Organizing Team",
-    "text": "APAC Organizing Team\n\n\n\nDaniel Sabanés Bové\n\n\n\n\n\nRCONIS\n\n\n\n\n\n\n\n\n\nJonathan Carroll\n\n\n\n\n\nIrregularly Scheduled Programming\n\n\n\n\n\n\n\n\n\nYanli Chang\n\n\n\n\n\nJohnson & Johnson\n\n\n\n\n\n\n\n\nYuichi Nakajima\n\n\n\n\n\nGlaxoSmithCline K.K.\n\n\n\n\n\n\n\n\nXiaolin Song\n\n\n\n\n\nTakeda\n\n\n\n\n\n\n\n\n\nSteven Ting\n\n\n\n\n\nCytel\n\n\n\n\n\n\n\n\nFrank Yang\n\n\n\n\n\nCIMS Global\n\n\n\n\n\n\n\n\nJoe Zhu\n\n\n\n\n\nRoche"
-  },
-  {
-    "objectID": "docs/people/index.html#ex-organizing-committee-members",
-    "href": "docs/people/index.html#ex-organizing-committee-members",
-    "title": "People",
-    "section": "Ex-Organizing Committee Members",
-    "text": "Ex-Organizing Committee Members\nWe are grateful for the hard work and dedication of ex-committtee members.\n\n\nSmitha Ankinakatte (Syncorp Health Pvt Ltd)\nBella Feng (EQRx)\nEllis Hughes (GlaxoSmithKline)\nJoanna Moćko-Łazarewicz (Appsilon)\nHarshal Khanolkar (Novo Nordisk)\nReinhold Koch (Roche / Genentech)\nEdward Lauzier (Merck)\nMichael Lawrence (Roche / Genentech)\nMin Lee (Amgen)\nMaya Malepati (Procogia)\nJuliane Manitz (EMD Serono)\nDaniella Mark (Procogia)\nJenna Reps (Johnson & Johnson)\nEric Simms (Glaxosmithkline)\nJohn Sims (Pfizer)\nVolha Tryputsen (Janssen)"
-  },
-  {
-    "objectID": "docs/conference/index.html",
-    "href": "docs/conference/index.html",
-    "title": "R/Pharma Events",
+    "objectID": "terms.html",
+    "href": "terms.html",
+    "title": "Terms and Conditions",
     "section": "",
-    "text": "Open Source in Pharma is a transperant non-profit. Use the fields below to get to know our organisation, and where you can get involved.\n\nIncoporated as a corporation in 2021 and recognised as a registered non-profit by North Carolina in 2022 (link), Open Source in Pharma was originally formed to govern and support the R/Pharma conference. This has expanded to the R/Pharma task forces, and supporting efforts like the creation of Coursera content.\n\n\n\n\n\n\nNoteMission statement\n\n\n\nFoster a global community centred around adoption of open source technology in Pharma by being an inclusive software foundation devoted to an open philosophy, participatory community driven development, and connecting practitioners into a cohesive community.\nOpen Source in Pharma Goals\nThe following aspirational goals support the overall mission. As a foundation we seek to:\n\nchampion the use of open-source and community participation through the development of an open education curriculum\nremain vendor neutral\ncontinue to foster the community through conferences, meetups and provide a collaborative platform for discussion\nbe a welcoming and inclusive worldwide organization at all levels\ncelebrate excellence, openness and service in an open source context within the Pharma community\n\n\n\n\nConference Organising Committee\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n      \n        Years\n      \n      \n        Affiliation\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nYears\n\n\n\nAffiliation\n\n\n\n\n\n\n\n\nHarvey Lieberman\n\n\nPresident\n\n\nAssociate Director, Novartis\n\n\n\n\n\n\nJames Black\n\n\n2012-2024\n\n\nSenior Director, Roche\n\n\n\n\n\n\nMichael Blanks\n\n\nTreasurer, VP of Finance \n\n\nAssociate Director, BeiGene\n\n\n\n\n\n\nPhil Bowsher\n\n\nVice Chair, VP of Development \n\n\nDirector, Posit\n\n\n\n\n\n\nPaulo Bargo\n\n\nChair, VP of Operations \n\n\nHead R&D Data and AA, Ethicon\n\n\n\n\n\n\nNo matching items\n\n\n\nSummit Organising Committee\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n      \n        Years\n      \n      \n        Affiliation\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nYears\n\n\n\nAffiliation\n\n\n\n\n\n\n\n\nKatie Igartua\n\n\n2024-2025\n\n\nVP, Tempus\n\n\n\n\n\n\nPhil Bowsher\n\n\n2023-2025\n\n\nDirector, Posit\n\n\n\n\n\n\nHarvey Lieberman\n\n\n2023-2025\n\n\nAssociate Director, Novartis\n\n\n\n\n\n\nJames Black\n\n\n2023-2025\n\n\nExecutive Director, Novartis\n\n\n\n\n\n\nNo matching items"
+    "text": "Open Source in Pharma and R/Pharma put on events by passionate volunteers.\nBy registering for our events you agree that Open Source in Pharma and R/Pharma assume no responsibility, and any costs, annoyances or catastrophic events incurred due to attending our events are yours and yours alone.\nAt in-person events we may take some photos, audio or video recordings. While participating in the group activities, your photo may be taken and be posted on the group website. It is your responsibility to inform others if you do not wish to be photographed and inform us if any of your photos to be removed. Please do not take recordings of other participants without their permission. At both in-person and virtual events we record presentations to be shared with attendees. Please let us know if you are a presenter and you prefer not to have your talk recorded. Attendees are not permitted to record information at Open Source in Pharma and R/Pharma without written permission.\nPlease don’t share content from Open Source in Pharma or R/Pharma unless you have permission to do so.\nTickets to Open Source in Pharma and R/Pharma events cannot be transferred or exchanged without permission of the Organizing Committee. In the unlikely occurrence that an Open Source in Pharma or R/Pharma event is cancelled or postponed due to circumstances beyond our control, we cannot be held responsible for any costs incurred by the event attendee.\nSpeakers are subject to change and we do not guarantee that any specific speakers or participants will appear at Open Source in Pharma and R/Pharma events. However, we will always try to find a suitable replacement if one of our key speakers or participants is unable to attend. Views expressed by speakers at our events may not be the views of Open Source in Pharma or R/Pharma.\nEvent materials are provided on an “as is” basis and Open Source in Pharma and R/Pharma make no warranty regarding the accuracy or completeness of those materials.\n\n\nDiversity\nOpen Source in Pharma and R/Pharma are dedicated to providing harassment-free conference experiences for everyone regardless of gender, sexual orientation, disability or any feature that distinguishes human beings.\n\n\nPolicy Statement of the R/Pharma Conference and other events hosted by Open Source in Pharma\nThe purpose of the R/Pharma conference is to foster discussion on the use of R in the pharmaceutical industry. R/Pharma is not, and hopefully never will be a commercially oriented meeting. As such, we do not accept administrative responsibility for distributing commercial materials, nor do we allow vendors to participate in the meeting in any role other than as scientists/practitioners interested in learning or discussing the application of R in Pharma. All attendees are requested to adhere to the spirit of this policy. Please don’t spam attendees.\n\n\nTerms\nThe majority of R/Pharma events are free and come with ABSOLUTELY NO WARRANTY. YOUR PARTICIPATION IS AT YOUR SOLE AND EXCLUSIVE RISK. By accepting the invitation to attend and registering a ticket, you freely and voluntarily assume all risks. You also agree not to hold organizers responsible for their negligence in connection with the conference or Content or events.\nOpen Source in Pharma and R/Pharma assume no responsibility for any costs (e.g. travel) in any circumstance, examples including if the conference is cancelled, or named speakers are unable to attend.\nYou agree to indemnify, defend, and hold Open Source in Pharma and R/Pharma and all parites and its subsidiaries, affiliates, officers, directors, agents, co-branders or other partners, employees, and representatives harmless from and against any and all claims, damages, losses, costs or expenses (including reasonable attorneys’ fees and disbursements) which arise directly or indirectly out of or from (i) your breach of this Agreement, (ii) any allegation that any materials that you submit to R/Pharma or present (e.g., conference, github, website) infringe or otherwise violate the copyright, trade secret, trademark or other intellectual property rights of a third party, and (iii) your access or use of the Sites and/or the Services.\nNOTWITHSTANDING ANYTHING TO THE CONTRARY HEREIN, TO THE FULLEST EXTENT ALLOWED BY LAW, YOU AGREE TO WAIVE, DISCHARGE CLAIMS, RELEASE All Parties FROM ALL LIABILITY AND INDEMNIFY AND HOLD HARMLESS ORGANIZERS, HOSTS, SUBSIDIARIES, AFFILIATES, OFFICERS, AGENTS, VOLUNTEERS AND OTHER PARTNERS AND EMPLOYEES, FROM ANY AND ALL LIABILITY ON ACCOUNT OF, OR IN ANY WAY RESULTING FROM INJURIES AND DAMAGES IN ANY WAY CONNECTED WITH ANY EVENTS OR ACTIVITIES.\n\n\nNotes\nNo confidential information should be disclosed at meetings and no warranty of confidentiality is made by the event organizers. Audio Recordings of events may be taken by event organizers and general content may be used in discussion postings or meeting highlights on our website, github or used elsewhere. Attendees of events acknowledge this content may be shared and release the event organizers to use this content freely. Audio or video recordings of events by attendees are prohibited. We will not share information if you request we do not do so.\n\n\nCloud Software Terms\nWe use, or have used, several cloud services to manage Open Source in Pharma and R/Pharma events including AddEvent, Credly, EventBrite, GitHub, Hopin (now Ring Central), Posit, Sessionize, Slido and Zoom. Please refer to the terms and conditions of these sites.\nWe expect you to provide your full name and email address for our events. You may have to register with one or more of the platforms listed above to use their services."
   },
   {
-    "objectID": "docs/faq/index.html",
-    "href": "docs/faq/index.html",
-    "title": "Frequently Asked Questions",
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "Open Source License",
     "section": "",
-    "text": "Still to be asked…"
-  },
-  {
-    "objectID": "docs/support/index.html",
-    "href": "docs/support/index.html",
-    "title": "R/Pharma Support",
-    "section": "",
-    "text": "R/Pharma is fortunate to have the support of many amazing organizations over the years. We would like to thank the following for all their financial support:\n\n\nAbbvie\nB2S\nBeigene\nBiogen\nGilead\nHarvard\nJ&J\nMerck\nMetrum Research Group\nPfizer\nPosit\nRoche"
+    "text": "The theme of this website is based on the permisively licensed Quarto website https://github.com/quarto-dev/.\nAny additional content beyond the initial forked website theme unique to Open Source in Pharma is licenced under an MIT licence, copyrighted by Open Source in Pharma."
   },
   {
     "objectID": "privacy.html",
@@ -182,10 +161,31 @@
     "text": "Information From Cookies\nOur third-party providers use cookies to automatically collect and record information about your usage and browsing activities on their sites. We may use third-party analytics tools such as Google Analytics."
   },
   {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "Open Source License",
+    "objectID": "docs/faq/index.html",
+    "href": "docs/faq/index.html",
+    "title": "Frequently Asked Questions",
     "section": "",
-    "text": "The theme of this website is based on the permisively licensed Quarto website https://github.com/quarto-dev/.\nAny additional content beyond the initial forked website theme unique to Open Source in Pharma is licenced under an MIT licence, copyrighted by Open Source in Pharma."
+    "text": "Still to be asked…"
+  },
+  {
+    "objectID": "docs/support/index.html",
+    "href": "docs/support/index.html",
+    "title": "R/Pharma Support",
+    "section": "",
+    "text": "R/Pharma is fortunate to have the support of many amazing organizations over the years. We would like to thank the following for all their financial support:\n\n\nAbbvie\nB2S\nBeigene\nBiogen\nGilead\nHarvard\nJ&J\nMerck\nMetrum Research Group\nPfizer\nPosit\nRoche"
+  },
+  {
+    "objectID": "docs/conference/index.html",
+    "href": "docs/conference/index.html",
+    "title": "R/Pharma Events",
+    "section": "",
+    "text": "Open Source in Pharma is a transperant non-profit. Use the fields below to get to know our organisation, and where you can get involved.\n\nIncoporated as a corporation in 2021 and recognised as a registered non-profit by North Carolina in 2022 (link), Open Source in Pharma was originally formed to govern and support the R/Pharma conference. This has expanded to the R/Pharma task forces, and supporting efforts like the creation of Coursera content.\n\n\n\n\n\n\nNoteMission statement\n\n\n\nFoster a global community centred around adoption of open source technology in Pharma by being an inclusive software foundation devoted to an open philosophy, participatory community driven development, and connecting practitioners into a cohesive community.\nOpen Source in Pharma Goals\nThe following aspirational goals support the overall mission. As a foundation we seek to:\n\nchampion the use of open-source and community participation through the development of an open education curriculum\nremain vendor neutral\ncontinue to foster the community through conferences, meetups and provide a collaborative platform for discussion\nbe a welcoming and inclusive worldwide organization at all levels\ncelebrate excellence, openness and service in an open source context within the Pharma community\n\n\n\n\nConference Organising Committee\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n      \n        Years\n      \n      \n        Affiliation\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nYears\n\n\n\nAffiliation\n\n\n\n\n\n\n\n\nHarvey Lieberman\n\n\nPresident\n\n\nAssociate Director, Novartis\n\n\n\n\n\n\nJames Black\n\n\n2012-2024\n\n\nSenior Director, Roche\n\n\n\n\n\n\nMichael Blanks\n\n\nTreasurer, VP of Finance \n\n\nAssociate Director, BeiGene\n\n\n\n\n\n\nPhil Bowsher\n\n\nVice Chair, VP of Development \n\n\nDirector, Posit\n\n\n\n\n\n\nPaulo Bargo\n\n\nChair, VP of Operations \n\n\nHead R&D Data and AA, Ethicon\n\n\n\n\n\n\nNo matching items\n\n\n\nSummit Organising Committee\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n      \n        Years\n      \n      \n        Affiliation\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nYears\n\n\n\nAffiliation\n\n\n\n\n\n\n\n\nKatie Igartua\n\n\n2024-2025\n\n\nVP, Tempus\n\n\n\n\n\n\nPhil Bowsher\n\n\n2023-2025\n\n\nDirector, Posit\n\n\n\n\n\n\nHarvey Lieberman\n\n\n2023-2025\n\n\nAssociate Director, Novartis\n\n\n\n\n\n\nJames Black\n\n\n2023-2025\n\n\nExecutive Director, Novartis\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "docs/RPH2025/index.html",
+    "href": "docs/RPH2025/index.html",
+    "title": "R/Pharma Virtual 2025",
+    "section": "",
+    "text": "R/Pharma is excited to share the schedule for the R/Pharma virtual conference. This year we will be running both Europe/US (Global) and APAC centric schedules.\nRegistration is free via this link.\nThe conference will also include a virtual exhibition hall where you can showcase your open source and community contributions. Check out this blog entry for more details."
   }
 ]
