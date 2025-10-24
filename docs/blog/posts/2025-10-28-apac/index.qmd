@@ -20,7 +20,7 @@ conference!
 
 ## What?
 
-R/Pharma is a scientifically and industry-oriented, collegial online conference
+R/Pharma is a scientifically and industry-oriented, collegial, online conference
 focused on the use of R in the development of pharmaceuticals, with breakout
 in-person and APAC satellite events. After a successful introduction last year, 
 we are once again hosting a track which is better aligned with the Asia-Pacific 
@@ -52,7 +52,7 @@ with guidance and support from the
 We have a fantastic line-up of speakers arranged, with keynotes from Yoshitake
 Kitanishi, Joe Zhu, Jimmy Breen, and Sang Ho Park, plus recorded keynotes from
 the Global Track (Simon Couch and Sam Warden). On top of that we have 18 regular
-presentations covering a broad range of R, Pharma, and adjacent topics such as
+presentations covering a broad range of R, pharma, and adjacent topics such as
 reporting, prediction, and of course AI, plus a workshop session on Thursday, 
 November 6.
 
@@ -70,8 +70,8 @@ these, please
 ## When?
 
 The APAC Track will be providing sessions suitably timed for those in the
-Asia-Pacific Region on Tuesday, November 4 through to Friday, November 7 will
-with . The Global Track commences on Monday, November 3.
+Asia-Pacific Region on Tuesday, November 4 through to Friday, November 7. The
+Global Track commences on Monday, November 3.
 
 The schedule for the Global and APAC Tracks is available 
 [in your local timezone here](https://rinpharma.com/docs/RPH2025/).
@@ -80,6 +80,8 @@ The schedule for the Global and APAC Tracks is available
 
 Registration is free via [this link](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg).
 
+---
+
 Thanks a lot in advance for your engagement!
 
-
+On behalf of the APAC Track organising committee.
