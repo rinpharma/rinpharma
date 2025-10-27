@@ -1,0 +1,87 @@
+---
+title: R/Pharma APAC Track 2025
+description: |
+  Learn more about the APAC track for the R/Pharma conference 2025.
+categories:
+  - conference
+  - APAC
+  - asia-pacific
+author: Jonathan Carroll
+date: 2025-10-28
+image: apac.png
+image-alt: "Fireworks"
+---
+
+The APAC Track organising committee is excited to announce that the
+Asia-Pacific (APAC) Track returns for the free and virtual R/Pharma 2025
+conference!
+
+![](apac.png)
+
+## What?
+
+R/Pharma is a scientifically and industry-oriented, collegial, online conference
+focused on the use of R in the development of pharmaceuticals, with breakout
+in-person and APAC satellite events. After a successful introduction last year, 
+we are once again hosting a track which is better aligned with the Asia-Pacific 
+region - anyone for whom midday GMT+8 (±3) is a comfortable time.
+
+## Who?
+
+Attending? Hopefully YOU! But a conference like this doesn't happen by accident, 
+so your thanks for pulling everything together goes to the organising committee(s) 
+who put in the hard work of designing the schedule, reviewing and approving 
+submitted talks, hosting sessions, etc.
+
+### APAC Organising Committee
+
+- [Daniel Sabanés Bové](https://www.linkedin.com/in/danielsabanesbove) 🇹🇼 - RCONIS
+- [Jonathan Carroll](https://www.linkedin.com/in/carrolljonathan) 🇦🇺 - Biogen, Roche/Genentech
+- [Yanli Chang](https://www.linkedin.com/in/yanli-chang-00b765145) 🇨🇳 - Johnson & Johnson
+- [Yuichi Nakajima](https://www.linkedin.com/in/yuichi-nakajima-8984759a) 🇯🇵 - GlaxoSmithKline K.K.
+- [Xiaolin Song](https://www.linkedin.com/in/xiaolin-sing-133853144) 🇯🇵 - Takeda
+- [Steven Ting](https://www.linkedin.com/in/steven-ting12) 🇸🇬 - Cytel
+- [Frank Yang](https://www.linkedin.com/in/frank-yang-192559236) 🇹🇼 - CIMS Global
+- [Joe Zhu](https://www.linkedin.com/in/joe-zhu-464b5818) 🇨🇳 - Roche
+
+with guidance and support from the 
+[Europe / US Organizing Team](https://rinpharma.com/docs/people/#europe-us-organizing-team).
+
+### Speakers
+
+We have a fantastic line-up of speakers arranged, with keynotes from Yoshitake
+Kitanishi, Joe Zhu, Jimmy Breen, and Sang Ho Park, plus recorded keynotes from
+the Global Track (Simon Couch and Sam Warden). On top of that we have 18 regular
+presentations covering a broad range of R, pharma, and adjacent topics such as
+reporting, prediction, and of course AI, plus a workshop session on Thursday, 
+November 6.
+
+## Where?
+
+Online, via Zoom. Registration is free via 
+[this link](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg).
+
+For those fortunate enough to be in (or can travel to) Osaka, Shanghai, or
+Taipei we will be hosting local rooms for attending in-person on Tuesday,
+November 4, with limited capacity. If you are interested in attending one of
+these, please
+[get in contact with us](https://rinpharma.com/contact.html).
+
+## When?
+
+The APAC Track will be providing sessions suitably timed for those in the
+Asia-Pacific Region on Tuesday, November 4 through to Friday, November 7. The
+Global Track commences on Monday, November 3.
+
+The schedule for the Global and APAC Tracks is available 
+[in your local timezone here](https://rinpharma.com/docs/RPH2025/).
+
+## How do I sign up?
+
+Registration is free via [this link](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg).
+
+---
+
+Thanks a lot in advance for your engagement!
+
+On behalf of the APAC Track organising committee.
