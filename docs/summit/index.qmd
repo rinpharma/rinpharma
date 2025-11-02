@@ -54,7 +54,7 @@ Each year we host a face-to-face summit as posit::conf, bringing thought leaders
 
 ### {{< fa users >}} 2025 F2F Roundtables in Atlanta
 
-100+ leaders from 40+ companies met F2F in Seattle for a series of
+100+ leaders from 40+ companies met F2F in Atlanta (September 15th) for a series of
 discussions on the most pressing topics for late-stage reporting in R. 
 
 The discussion was crowdsourced via a github discussion, and led to the 
@@ -79,7 +79,7 @@ following topics:
 
 ### {{< fa users >}} 2024 F2F Roundtables in Seattle
 
-~120 leaders from 40+ companies met F2F in Seattle for a series of
+~120 leaders from 40+ companies met F2F in Seattle (August 11th) for a series of
 discussions on the most pressing topics for late-stage reporting in R. 
 
 The discussion was crowdsourced via a github discussion, and led to the 
@@ -106,7 +106,7 @@ following topics:
 
 ### {{< fa users >}} 2023 F2F Roundtables in Chicago
 
-~60 leaders from 40+ companies met F2F in Chicago for a series of
+~60 leaders from 40+ companies met F2F in Chicago (Septembe 18th) for a series of
 discussions on the most pressing topics for late-stage reporting in R. 
 
 The discussion was crowdsourced via a github discussion, and led to the 
