@@ -17,7 +17,496 @@
 <width>144</width>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Sun, 11 Aug 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 15 Sep 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Implementation and Perspectives of CROs (2025)</title>
+  <dc:creator>Douglas Henry</dc:creator>
+  <dc:creator>Steven Tan</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2025-CROs.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="perspectives-of-cros" class="level1">
+<h1>Perspectives of CROs</h1>
+<p>Chairs: Douglas Henry and Steven Tan</p>
+<section id="current-industry-landscape" class="level2">
+<h2 class="anchored" data-anchor-id="current-industry-landscape">Current Industry Landscape</h2>
+<ul>
+<li><strong>SAS Dominance</strong>: SAS remains a major part of CRO workflows and processes</li>
+<li><strong>Innovation Gap</strong>: Differentiation between innovative CROs (smaller, forward-thinking) and traditional CROs (larger, dominant market players)</li>
+</ul>
+</section>
+<section id="key-challenges-for-cros" class="level2">
+<h2 class="anchored" data-anchor-id="key-challenges-for-cros">Key Challenges for CROs</h2>
+<ul>
+<li><strong>Upskilling Requirements</strong>: Need to invest in training staff on new technologies while maintaining SAS capabilities</li>
+<li><strong>Dual Technology Management</strong>: Challenge of managing both traditional and modern toolchains</li>
+<li><strong>Guidance Dependency</strong>: Many CROs seeking more direction from sponsor companies rather than self-directing change</li>
+<li><strong>Business Model Constraints</strong>: Traditional “order taker” model doesn’t align well with consulting-style technology guidance</li>
+</ul>
+</section>
+<section id="cro-as-resource-vs.-bottleneck" class="level2">
+<h2 class="anchored" data-anchor-id="cro-as-resource-vs.-bottleneck">CRO as Resource vs.&nbsp;Bottleneck</h2>
+<ul>
+<li><strong>Bottleneck Risk</strong>: CROs can become bottlenecks when trying to figure out technology transitions independently</li>
+<li><strong>Valuable Resource Potential</strong>: CROs have extensive cross-client experience that could be leveraged for best practices</li>
+<li><strong>Service Evolution</strong>: Pivoting from process-focused to more consultative roles as clients demand technology expertise</li>
+</ul>
+</section>
+<section id="sponsor-cro-relationship-dynamics" class="level2">
+<h2 class="anchored" data-anchor-id="sponsor-cro-relationship-dynamics">Sponsor-CRO Relationship Dynamics</h2>
+<ul>
+<li><strong>Timeline Expectations</strong>: Question whether sponsors understand the time required for upskilling and technology changes</li>
+<li><strong>Communication Gap</strong>: Need for better understanding between sponsors and CROs regarding transition requirements</li>
+<li><strong>Business Model Evolution</strong>: Traditional expectations may need adjustment for new technology paradigms</li>
+</ul>
+</section>
+<section id="community-engagement" class="level2">
+<h2 class="anchored" data-anchor-id="community-engagement">Community Engagement</h2>
+<ul>
+<li><strong>Information Access</strong>: Importance of CROs participating in organizations like R/Pharma for knowledge sharing</li>
+<li><strong>Ecosystem Integration</strong>: CROs are significant players in the overall life sciences technology ecosystem</li>
+<li><strong>Increased Participation</strong>: Need for more CRO involvement in industry technology discussions</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2025</category>
+  <category>CRO</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2025-CROs.html</guid>
+  <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Quality &amp; Validation (2025)</title>
+  <dc:creator>Olga Mierzwa-Sulima</dc:creator>
+  <dc:creator>Eric Nantz</dc:creator>
+  <dc:creator>Paulo Bargo</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2025-quality.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="quality-validation" class="level1">
+<h1>Quality &amp; Validation</h1>
+<p>Chairs: Olga Mierzwa-Sulima, Eric Nantz and Paulo Bargo</p>
+<p>See also: <a href="../../../docs/summit/posts/2023-shiny-validation.html">2023 Discussion</a>, <a href="../../../docs/summit/posts/2024-shiny-validation.html">2024 Discussion</a></p>
+<section id="shiny-centric-validation-discussion" class="level2">
+<h2 class="anchored" data-anchor-id="shiny-centric-validation-discussion">Shiny-Centric Validation Discussion</h2>
+<ul>
+<li><strong>Dynamic Validation</strong>: Challenges validating Shiny apps with multiple inputs and dynamic UI changes</li>
+<li><strong>Cross-Language Validation</strong>: Interesting approach using different languages (e.g., SAS) to validate Shiny outputs</li>
+<li><strong>User-Centric Testing</strong>: Need for dynamic validation of user interactions beyond business logic validation</li>
+</ul>
+</section>
+<section id="package-validation-approaches" class="level2">
+<h2 class="anchored" data-anchor-id="package-validation-approaches">Package Validation Approaches</h2>
+<ul>
+<li><strong>Environment Types</strong>: Companies building both exploratory and validated GXP environments</li>
+<li><strong>Validation Cycles</strong>: Range from every 6-12 months to agile approaches completing validation in hours</li>
+<li><strong>Speed vs.&nbsp;Compliance</strong>: Demonstration that speed and compliance can coexist with proper processes</li>
+</ul>
+</section>
+<section id="infrastructure-management" class="level2">
+<h2 class="anchored" data-anchor-id="infrastructure-management">Infrastructure Management</h2>
+<ul>
+<li><strong>Container Strategy</strong>:
+<ul>
+<li>Managing multiple packages and images is challenging</li>
+<li>Base images specific to projects or therapeutic areas recommended</li>
+<li>Kubernetes as standard for container management</li>
+<li>Container sizing remains technical challenge</li>
+</ul></li>
+<li><strong>Image Management</strong>: Need for structured approach to container proliferation</li>
+</ul>
+</section>
+<section id="package-transparency-benefits" class="level2">
+<h2 class="anchored" data-anchor-id="package-transparency-benefits">Package Transparency Benefits</h2>
+<ul>
+<li><strong>Open Source Advantage</strong>: Unlike SAS, can see how bugs are identified and resolved</li>
+<li><strong>Visibility</strong>: Access to bug reports and fixes provides better understanding than closed-source alternatives</li>
+<li><strong>Internal Package Standards</strong>: Internal packages should follow same validation processes as external packages</li>
+</ul>
+</section>
+<section id="testing-standards-and-practices" class="level2">
+<h2 class="anchored" data-anchor-id="testing-standards-and-practices">Testing Standards and Practices</h2>
+<ul>
+<li><strong>Separation of Roles</strong>: Testers should be different from developers</li>
+<li><strong>Validation Definitions</strong>: No industry standard for what “validated package” means - companies define their own criteria</li>
+<li><strong>Reproducibility</strong>: Focus on reproducible code as foundation for validation</li>
+</ul>
+</section>
+<section id="genai-integration-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="genai-integration-challenges">GenAI Integration Challenges</h2>
+<ul>
+<li><strong>Output Validation</strong>: GenAI outputs need reproducible code that can be tested and validated</li>
+<li><strong>Documentation Transparency</strong>: Suggestion to identify AI-generated documentation for additional scrutiny</li>
+<li><strong>AI-Assisted Review</strong>: Mixed opinions on using AI bots to evaluate tests - could be useful but may reduce human vigilance</li>
+</ul>
+</section>
+<section id="emerging-tools-and-technologies" class="level2">
+<h2 class="anchored" data-anchor-id="emerging-tools-and-technologies">Emerging Tools and Technologies</h2>
+<ul>
+<li><strong>Testing Innovation</strong>: New automated testing tools with reporting and screenshots coming from vendors</li>
+<li><strong>ShinyTest Evolution</strong>: Improvements in Shiny testing capabilities</li>
+<li><strong>Teal vs.&nbsp;ShinyMeta</strong>: Teal’s approach to reproducible scripts gaining more adoption than ShinyMeta</li>
+<li><strong>DuckDB Integration</strong>: Promising for handling large data in Shiny applications without full database overhead</li>
+</ul>
+</section>
+<section id="backward-compatibility" class="level2">
+<h2 class="anchored" data-anchor-id="backward-compatibility">Backward Compatibility</h2>
+<ul>
+<li><strong>R Perception vs.&nbsp;Reality</strong>: Addressing misconceptions about R’s backward compatibility</li>
+<li><strong>Documentation Needs</strong>: Importance of documenting package versioning and major changes</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2025</category>
+  <category>Validation</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2025-quality.html</guid>
+  <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Python for Clinical Study Reports and Submission (2025)</title>
+  <dc:creator>Yilong Zhang</dc:creator>
+  <dc:creator>Jonathan Tisack</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2025-python.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="python-for-clinical-study-reports-and-submission" class="level1">
+<h1>Python for Clinical Study Reports and Submission</h1>
+<p>Chairs: Yilong Zhang and Jonathan Tisack</p>
+<section id="industry-heterogeneity" class="level2">
+<h2 class="anchored" data-anchor-id="industry-heterogeneity">Industry Heterogeneity</h2>
+<ul>
+<li><strong>Medical Devices vs.&nbsp;Pharma</strong>: Different use cases and adoption patterns
+<ul>
+<li>Medical device engineers more familiar with Python as standard language</li>
+<li>Creates challenges managing multiple languages within organizations</li>
+<li>Some companies choosing Python-only approach despite challenges</li>
+</ul></li>
+</ul>
+</section>
+<section id="primary-use-cases" class="level2">
+<h2 class="anchored" data-anchor-id="primary-use-cases">Primary Use Cases</h2>
+<ul>
+<li><strong>Medical Devices</strong>:
+<ul>
+<li>Large datasets from device data</li>
+<li>Product development beyond just data analysis</li>
+<li>Engineering-driven adoption</li>
+</ul></li>
+<li><strong>Pharma Applications</strong>:
+<ul>
+<li>ETL processes for speed advantages</li>
+<li>Machine learning implementations</li>
+<li>Data engineering tasks</li>
+</ul></li>
+</ul>
+</section>
+<section id="validation-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="validation-challenges">Validation Challenges</h2>
+<ul>
+<li><strong>R Validation Hub Principles</strong>: White paper was meant to be language-agnostic, principles apply to Python</li>
+<li><strong>Trusted Sources</strong>: Questions about what constitutes trusted sources in Python ecosystem
+<ul>
+<li>Anaconda, PyPI with RSPM scrutiny mentioned as possibilities</li>
+<li>Python ecosystem seen as “wild west” compared to R</li>
+</ul></li>
+<li><strong>Statistical Packages</strong>: Python statistical libraries still developing; roughly 8 years behind R in maturity</li>
+<li><strong>Containers</strong>: Discussion of containerization for validation approaches</li>
+</ul>
+</section>
+<section id="regulatory-and-submission-status" class="level2">
+<h2 class="anchored" data-anchor-id="regulatory-and-submission-status">Regulatory and Submission Status</h2>
+<ul>
+<li><strong>Submission Gap</strong>: No Python submissions to regulators yet (unlike R which has established precedent)</li>
+<li><strong>Regulatory Acceptance</strong>: Need for groundwork similar to what was done for R submissions</li>
+<li><strong>Pilot Programs</strong>: Reference to submission pilots (pilot 15) for future development</li>
+</ul>
+</section>
+<section id="python-vs.-r-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="python-vs.-r-considerations">Python vs.&nbsp;R Considerations</h2>
+<ul>
+<li><strong>GenAI Integration</strong>: Python more prevalent in generative AI development, potentially driving adoption</li>
+<li><strong>Large Dataset Handling</strong>: Python advantages for genetic datasets and other large-scale data due to memory limitations in R</li>
+<li><strong>Statistical Maturity</strong>: R still ahead in statistical package validation and regulatory acceptance</li>
+</ul>
+</section>
+<section id="future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
+<ul>
+<li>Need for Python-specific validation frameworks</li>
+<li>Development of regulatory submission pathways</li>
+<li>Balancing language choice with organizational capabilities</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2025</category>
+  <category>Python</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2025-python.html</guid>
+  <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Open-Source Change Management (2025)</title>
+  <dc:creator>Ning Leng</dc:creator>
+  <dc:creator>Nate Mockler</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2025-change-mgt.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="open-source-change-management" class="level1">
+<h1>Open-Source Change Management</h1>
+<p>Chairs: Ning Leng, Nate Mockler</p>
+<p>See also: <a href="../../../docs/summit/posts/2023-change-mgt.html">2023 Discussion</a>, <a href="../../../docs/summit/posts/2024-change-mgt.html">2024 Discussion</a></p>
+<section id="the-foundation-why-before-how" class="level2">
+<h2 class="anchored" data-anchor-id="the-foundation-why-before-how">The Foundation: Why Before How</h2>
+<ul>
+<li><strong>Risk Management</strong>: Change management is fundamentally about managing risk</li>
+<li><strong>Breaking the IBM Rule</strong>: “No one gets fired for buying IBM” - need to show upsides of change to overcome conservative mindset</li>
+<li><strong>Value Proposition</strong>: Emphasize collaboration benefits, AI integration opportunities, and modern capabilities</li>
+</ul>
+</section>
+<section id="three-pillars-of-change-management" class="level2">
+<h2 class="anchored" data-anchor-id="three-pillars-of-change-management">Three Pillars of Change Management</h2>
+<section id="people" class="level3">
+<h3 class="anchored" data-anchor-id="people">People</h3>
+<ul>
+<li><strong>Grassroots vs.&nbsp;Top-Down</strong>: Grassroots efforts have limits; executive support and repeated messaging from leadership essential</li>
+<li><strong>Innovation Teams</strong>: Trend toward creating dedicated innovation groups rather than making change management a side job</li>
+<li><strong>Hiring vs.&nbsp;Training</strong>:
+<ul>
+<li>Just-in-time training more effective than advance training</li>
+<li>Trend toward hiring R/Python programmers from day one</li>
+<li>Removing SAS requirements from job descriptions</li>
+</ul></li>
+<li><strong>Standards Influence</strong>: Good opportunity to influence internal standards and reset limitations from legacy tools</li>
+</ul>
+</section>
+<section id="technology" class="level3">
+<h3 class="anchored" data-anchor-id="technology">Technology</h3>
+<ul>
+<li><strong>Git Foundation</strong>: Essential foundation for open source adoption and AI tool integration</li>
+<li><strong>Environment Management</strong>: Focus on Statistical Computing Environment (SCE) setup</li>
+<li><strong>Containerization</strong>: Important for managing package versioning issues (R+ENV, Docker)</li>
+</ul>
+</section>
+<section id="process" class="level3">
+<h3 class="anchored" data-anchor-id="process">Process</h3>
+<ul>
+<li><strong>Version Control</strong>: Git as key process improvement</li>
+<li><strong>Reporting Innovation</strong>: Opportunities to rethink clinical trial reporting (e.g., using Shiny to reduce static TLFs)</li>
+<li><strong>Communication Strategy</strong>: Right people delivering right messages, expect pushback, avoid mandate-style approaches</li>
+</ul>
+</section>
+</section>
+<section id="key-success-factors" class="level2">
+<h2 class="anchored" data-anchor-id="key-success-factors">Key Success Factors</h2>
+<ul>
+<li><strong>R Validation Hub</strong>: Valuable resource for demonstrating process and risk metrics</li>
+<li><strong>Specific Use Cases</strong>: Show concrete examples of complex tables/graphs generated easily</li>
+<li><strong>Environment Comfort</strong>: Ensure users feel comfortable in the new environment</li>
+<li><strong>Package Management</strong>: Education about dynamic nature of open source vs.&nbsp;traditional single-package updates</li>
+<li><strong>Trial Periods</strong>: Implement trials before major investments</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2025</category>
+  <category>OS</category>
+  <category>Change management</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2025-change-mgt.html</guid>
+  <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SCEs (2025)</title>
+  <dc:creator>David Thiriot</dc:creator>
+  <dc:creator>Phil Bowsher</dc:creator>
+  <dc:creator>James Black</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2025-sce.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="sces-in-2025" class="level1">
+<h1>SCEs in 2025</h1>
+<p>Chairs: David Thiriot, Phil Bowsher and James Black</p>
+<p>See also: <a href="../../../docs/summit/posts/2023-sce.html">2023 Discussion</a>, <a href="../../../docs/summit/posts/2024-sce.html">2024 Discussion</a></p>
+<section id="sce-components-5-core-elements" class="level2">
+<h2 class="anchored" data-anchor-id="sce-components-5-core-elements">SCE Components (5 Core Elements)</h2>
+<ol type="1">
+<li><strong>IDE</strong>: Development environment interface</li>
+<li><strong>File and Version Management</strong>: Source control and file handling</li>
+<li><strong>Data and Access</strong>: Data storage and access management</li>
+<li><strong>Governance</strong>: Policies and compliance frameworks<br>
+</li>
+<li><strong>Compute</strong>: Processing and computational resources</li>
+</ol>
+</section>
+<section id="scope-and-architecture-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="scope-and-architecture-challenges">Scope and Architecture Challenges</h2>
+<ul>
+<li><strong>Historical Separation</strong>: Legacy approach had separate SCEs for GXP work vs.&nbsp;everything else</li>
+<li><strong>Unified Direction</strong>: Most companies moving toward single SCE for all work</li>
+<li><strong>User Diversity</strong>: Modern SCEs serve PK, Biostatistics, Stats Programming, and other groups on same platform</li>
+</ul>
+</section>
+<section id="vendor-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="vendor-considerations">Vendor Considerations</h2>
+<ul>
+<li><strong>Ecosystem Promises</strong>: Vendors offer packaged solutions but create vendor lock-in concerns</li>
+<li><strong>Missing Integrations</strong>: Gaps in vendor offerings, sometimes strategically maintained</li>
+<li><strong>Cost Management</strong>: Total cost of ownership concerns when using multiple vendors</li>
+<li><strong>Integration Overlap</strong>: Redundancy between different vendor products increases costs</li>
+</ul>
+</section>
+<section id="validation-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="validation-challenges">Validation Challenges</h2>
+<ul>
+<li><strong>Timeline</strong>: Validation processes take months (up to 3 months reported)</li>
+<li><strong>Test Suite Maintenance</strong>: Significant burden maintaining test suites as platforms change</li>
+<li><strong>IDE Validation Debate</strong>: Whether to validate IDE as part of environment or keep separate</li>
+<li><strong>System vs.&nbsp;Process</strong>: Best practice is qualifying systems while validating processes</li>
+</ul>
+</section>
+<section id="technology-evolution" class="level2">
+<h2 class="anchored" data-anchor-id="technology-evolution">Technology Evolution</h2>
+<ul>
+<li><strong>Python Integration</strong>: Coming into clinical reporting, mainly for transformations</li>
+<li><strong>Python Validation Gap</strong>: Lacks standardized documentation and testing frameworks compared to R</li>
+<li><strong>Data Format Shift</strong>: Parquet replacing SAS7bdat as standard data format</li>
+<li><strong>Package Governance</strong>: Some companies using opinionated lists of approved R packages</li>
+</ul>
+</section>
+<section id="environment-management" class="level2">
+<h2 class="anchored" data-anchor-id="environment-management">Environment Management</h2>
+<ul>
+<li><strong>Update Cycles</strong>: 3-6 months common window for base environment updates</li>
+<li><strong>Package Coupling</strong>: Most companies couple R packages with environments (some decouple)</li>
+<li><strong>Environment Tracking</strong>: Tools to flag whether environments are managed/production-ready</li>
+<li><strong>Consistency Requirements</strong>: Containers must be accessible across SCE, Shiny apps, HPC, etc.</li>
+</ul>
+</section>
+<section id="version-control-and-data-access" class="level2">
+<h2 class="anchored" data-anchor-id="version-control-and-data-access">Version Control and Data Access</h2>
+<ul>
+<li><strong>Git Adoption</strong>: Standard direction but significant change management challenges</li>
+<li><strong>Learning Curve</strong>: Git presents training challenges for traditional SAS users</li>
+<li><strong>Data Access Complexity</strong>: Challenges with data access in Shiny applications</li>
+<li><strong>Technology Solutions</strong>: Denodo and AWS Data Zone mentioned for data access management</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2025</category>
+  <category>SCE</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2025-sce.html</guid>
+  <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AI in Pharma (2025)</title>
+  <dc:creator>Jeremy Wildfire</dc:creator>
+  <dc:creator>Sri Pavan Vemuri</dc:creator>
+  <dc:creator>Satish Murthy</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2025-ai.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="ai-in-pharma" class="level1">
+<h1>AI in Pharma</h1>
+<p>Chairs: Jeremy Wildfire, Sri Pavan Vemuri and Satish Murthy</p>
+<p>See also: <a href="../../../docs/summit/posts/2023-ai.html">2023 Discussion</a>, <a href="../../../docs/summit/posts/2024-ai.html">2024 Discussion</a></p>
+<section id="current-use-cases" class="level2">
+<h2 class="anchored" data-anchor-id="current-use-cases">Current Use Cases</h2>
+<ul>
+<li><strong>Development Support</strong>: Chatbots, ADM, Adam TLF coding standards, general coding support and automation</li>
+<li><strong>Specification Generation</strong>: Potential for generating specifications from SAPs and study documents to complete the code generation loop</li>
+<li><strong>Clinical Operations</strong>:
+<ul>
+<li>Improving operational efficiency</li>
+<li>Signal detection for safety monitoring</li>
+</ul></li>
+</ul>
+</section>
+<section id="implementation-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="implementation-strategy">Implementation Strategy</h2>
+<ul>
+<li>Break problems into manageable pipelines</li>
+<li>Start with proof-of-concepts (POCs)</li>
+<li>Leverage domain knowledge as a key asset</li>
+</ul>
+</section>
+<section id="technical-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="technical-challenges">Technical Challenges</h2>
+<ul>
+<li><strong>Data Privacy</strong>: Major concern with handling sensitive clinical data securely</li>
+<li><strong>Quality Control</strong>: Issues with traceability, repeatability, and quality control</li>
+<li><strong>AI Limitations</strong>: Hallucination problems with AI outputs</li>
+<li><strong>Implementation Issues</strong>: Tendency to over-engineer solutions rather than creating manageable ones</li>
+</ul>
+</section>
+<section id="organizational-barriers" class="level2">
+<h2 class="anchored" data-anchor-id="organizational-barriers">Organizational Barriers</h2>
+<ul>
+<li><strong>Management Resistance</strong>: Leadership not being on board due to established habits</li>
+<li><strong>ROI Challenges</strong>: Difficulty demonstrating return on investment</li>
+<li><strong>Validation Requirements</strong>: Need for repeatability and validation processes</li>
+<li><strong>Training Needs</strong>: Comprehensive user training required for process changes</li>
+<li><strong>Job Security Concerns</strong>: Worries about AI-related job displacement</li>
+</ul>
+</section>
+<section id="regulatory-and-compliance-issues" class="level2">
+<h2 class="anchored" data-anchor-id="regulatory-and-compliance-issues">Regulatory and Compliance Issues</h2>
+<ul>
+<li><strong>Audit Trail</strong>: Maintaining proper audit trails</li>
+<li><strong>Documentation</strong>: Ensuring complete documentation and transparency of AI pathways</li>
+<li><strong>Quality Standards</strong>: Meeting industry quality standards</li>
+<li><strong>Data Governance</strong>: Implementing proper guardrails and controls on sensitive data</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2025</category>
+  <category>AI</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2025-ai.html</guid>
+  <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Modern SCEs (2024)</title>
   <dc:creator>James Black</dc:creator>
@@ -28,8 +517,8 @@
 
 
 
-<section id="sharing-r-code-without-sharing-r-code" class="level1">
-<h1>Sharing R code without sharing R code</h1>
+<section id="modern-sces" class="level1">
+<h1>Modern SCEs</h1>
 <p>Chair: James Black</p>
 <p>See also: <a href="../../../docs/summit/posts/2023-sce.html">2023 Discussion</a></p>
 <section id="objectively-track-migrationslanguage-use-in-studies" class="level2">
@@ -188,7 +677,7 @@
   <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Small to mid Pharma in an post-SAS world</title>
+  <title>Small to mid Pharma in an post-SAS world (2024)</title>
   <dc:creator>Katie Igartua</dc:creator>
   <dc:creator>Kas Yousefi</dc:creator>
   <link>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</link>
@@ -265,7 +754,7 @@
   <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Can we do data storage and processing better in clinical trials?</title>
+  <title>Can we do data storage and processing better in clinical trials (2024)?</title>
   <dc:creator>Stephanie Lussier</dc:creator>
   <dc:creator>Doug Kelkhoff</dc:creator>
   <link>https://rinpharma.com/docs/summit/posts/2024-dataformat.html</link>
@@ -376,7 +865,7 @@
   <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Sharing R code without sharing R code</title>
+  <title>Sharing R code without sharing R code (2024)</title>
   <dc:creator>Rohan Parmar</dc:creator>
   <dc:creator>Min Lee</dc:creator>
   <link>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</link>
@@ -425,7 +914,7 @@ Warning
   <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Validating R packages</title>
+  <title>Validating R packages (2024)</title>
   <dc:creator>Doug Kelkhof</dc:creator>
   <dc:creator>Margaret Wishart</dc:creator>
   <link>https://rinpharma.com/docs/summit/posts/2024-r-pkg-validation.html</link>
@@ -479,6 +968,7 @@ Warning
  ]]></description>
   <category>2024</category>
   <category>R</category>
+  <category>Validation</category>
   <guid>https://rinpharma.com/docs/summit/posts/2024-r-pkg-validation.html</guid>
   <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
 </item>
@@ -667,12 +1157,13 @@ Warning
  ]]></description>
   <category>2024</category>
   <category>R</category>
+  <category>Validation</category>
   <category>Shiny</category>
   <guid>https://rinpharma.com/docs/summit/posts/2024-shiny-validation.html</guid>
   <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Depending on Open Source</title>
+  <title>Depending on Open Source (2023)</title>
   <dc:creator>Mike Smith</dc:creator>
   <dc:creator>Ed Lauzier</dc:creator>
   <link>https://rinpharma.com/docs/summit/posts/2023-os-depends.html</link>
@@ -713,7 +1204,7 @@ Warning
   <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Interactive CSR</title>
+  <title>Interactive CSR (2023)</title>
   <dc:creator>Ning Ling</dc:creator>
   <dc:creator>Phil Bowsher</dc:creator>
   <link>https://rinpharma.com/docs/summit/posts/2023-interactive-csr.html</link>
@@ -905,12 +1396,13 @@ Warning
  ]]></description>
   <category>2023</category>
   <category>R</category>
+  <category>Validation</category>
   <category>Shiny</category>
   <guid>https://rinpharma.com/docs/summit/posts/2023-shiny-validation.html</guid>
   <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Multi-modal drug development</title>
+  <title>Multi-modal drug development (2023)</title>
   <dc:creator>Katie Igartua</dc:creator>
   <link>https://rinpharma.com/docs/summit/posts/2023-multi-modal.html</link>
   <description><![CDATA[ 
@@ -946,7 +1438,7 @@ Warning
 
  ]]></description>
   <category>2023</category>
-  <category>AI</category>
+  <category>Multi-modal</category>
   <guid>https://rinpharma.com/docs/summit/posts/2023-multi-modal.html</guid>
   <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
 </item>
@@ -1173,124 +1665,6 @@ Warning
   <category>OS</category>
   <category>Change management</category>
   <guid>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</guid>
-  <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>AI opportunities (2023)</title>
-  <dc:creator>Paulo Bargo</dc:creator>
-  <dc:creator>Ning Leng</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-ai.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="llmsaaai-opportunities" class="level1">
-<h1>LLMs/AA/AI opportunities?</h1>
-<p>Chairs: Paulo Bargo &amp; Ning Leng</p>
-<p>See also: <a href="../../../docs/summit/posts/2024-ai.html">2024 Discussion</a></p>
-<section id="question" class="level3">
-<h3 class="anchored" data-anchor-id="question">Question</h3>
-<p>What should we be doing to leverage advances in LLMs/AA/AI impact? (at the drug development through to developer efficiency levels)</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Warning</span>Missing notes
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Notes are not available for this roundtable.</p>
-</div>
-</div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>2023</category>
-  <category>AI</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-ai.html</guid>
-  <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>The case for OS</title>
-  <dc:creator>Satish Murphy &amp; Becca Krouse</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-case-os.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="the-case-for-os" class="level1">
-<h1>The case for OS</h1>
-<p>Chairs: Satish Murphy &amp; Becca Krouse</p>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>What is stopping people and companies from contributions in OS? Can we define the case for contributing to OS?</p>
-</section>
-<section id="main-concerns" class="level2">
-<h2 class="anchored" data-anchor-id="main-concerns">Main concerns</h2>
-<section id="licencing" class="level3">
-<h3 class="anchored" data-anchor-id="licencing">Licencing</h3>
-<ul>
-<li>R’s core is released on a copyleft GPL license, so there are concerns around any additions we make being required to publish back to the community. This is a concern for companies that are not in the business of selling software, but rather use software as a tool to do their business.</li>
-<li>Python is seen as less of risk, as it is released via permissive licence</li>
-<li>Is there really a legal risk for copy-left licences, and if so under what circumstances? (e.g.&nbsp;using it internally for a plot vs making and selling an app or algorithm that uses the copyleft dependency)</li>
-<li>Can we understand better how IP is protected in OS?</li>
-</ul>
-</section>
-<section id="process" class="level3">
-<h3 class="anchored" data-anchor-id="process">Process</h3>
-<ul>
-<li>When using an internal package in a filing, we can package it directly as part of the study code and give to the FDA - which is seen as less of a risk than publishing it as OS where the global community can view the code.</li>
-<li>Folks often want to contribute - but there are some limitations both professionally (e.g.&nbsp;internal process to contribute) and personally</li>
-<li>If someone works on a project in their own time, there is a concern that treated is a company asset even though they are doing it outside of working hours. What is the actual boundary between work and personal contributions?</li>
-<li>People making the policies need to actually understand the topic of OS</li>
-</ul>
-</section>
-<section id="liability" class="level3">
-<h3 class="anchored" data-anchor-id="liability">Liability</h3>
-<ul>
-<li>We know the liability is similar between OS and proprietary software, but there is a perception that all OS is more risky</li>
-</ul>
-</section>
-<section id="people" class="level3">
-<h3 class="anchored" data-anchor-id="people">People</h3>
-<ul>
-<li>OS contributions are seen as nice to have - how can this be prioritised vs project work?</li>
-<li>Be involved in projects like Oak, NEST and admiral brings recognition to the contributors</li>
-<li>Often projects are mostly driven by a handful, or even a couple, of people. What if someone leaves? Is OS actually a benefit here as same developer could promote and lead to use of the package at their new company?</li>
-<li>Write up a short post / article titled “Here’s why you should allow your people to contribute to open source”</li>
-<li>Write a blog post and short PDF that can be shared internally at the leadership level</li>
-</ul>
-</section>
-</section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<ul>
-<li><a href="https://phuse-org.github.io/E2E-OS-Guidance/slides/eu23">PHUSE Open Source guidance</a></li>
-</ul>
-</section>
-<section id="what-can-we-do" class="level2">
-<h2 class="anchored" data-anchor-id="what-can-we-do">What can we do?</h2>
-<ul>
-<li>Create a framework to help articulate the benefit, and help to tackle the concerns/process that gets in the way</li>
-</ul>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>2023</category>
-  <category>OS</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-case-os.html</guid>
   <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>

@@ -6,12 +6,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ning Ling">
-<meta name="author" content="Phil Bowsher">
-<meta name="dcterms.date" content="2023-09-18">
-<meta name="description" content="What are our goals with an interactive CSR?">
+<meta name="author" content="Jeremy Wildfire">
+<meta name="author" content="Sri Pavan Vemuri">
+<meta name="author" content="Satish Murthy">
+<meta name="dcterms.date" content="2025-09-15">
+<meta name="description" content="Best Practices for AI-Assisted R Coding and Data Workflows; What would an “AI-friendly” submission look like?; Reimagine open-label trial deliverables with interactive display/AI">
 
-<title>Interactive CSR (2023) – R/Pharma</title>
+<title>AI in Pharma (2025) – R/Pharma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -85,12 +86,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Interactive CSR (2023) – R/Pharma">
-<meta property="og:description" content="What are our goals with an interactive CSR?">
+<meta property="og:title" content="AI in Pharma (2025) – R/Pharma">
+<meta property="og:description" content="Best Practices for AI-Assisted R Coding and Data Workflows; What would an “AI-friendly” submission look like?; Reimagine open-label trial deliverables with interactive display/AI">
 <meta property="og:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta name="twitter:title" content="Interactive CSR (2023) – R/Pharma">
-<meta name="twitter:description" content="What are our goals with an interactive CSR?">
+<meta name="twitter:title" content="AI in Pharma (2025) – R/Pharma">
+<meta name="twitter:description" content="Best Practices for AI-Assisted R Coding and Data Workflows; What would an “AI-friendly” submission look like?; Reimagine open-label trial deliverables with interactive display/AI">
 <meta name="twitter:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -191,15 +192,15 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Interactive CSR (2023)</h1>
-            <p class="subtitle lead">Ning Leng and Phil Bowsher</p>
+      <h1 class="title">AI in Pharma (2025)</h1>
+            <p class="subtitle lead">Jeremy Wildfire, Sri Pavan Vemuri &amp; Satish Murthy</p>
                   <div>
         <div class="description">
-          <p>What are our goals with an interactive CSR?</p>
+          <p>Best Practices for AI-Assisted R Coding and Data Workflows; What would an “AI-friendly” submission look like?; Reimagine open-label trial deliverables with interactive display/AI</p>
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">2023</div>
+                <div class="quarto-category">2025</div>
                 <div class="quarto-category">AI</div>
               </div>
                   </div>
@@ -211,15 +212,16 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Authors</div>
       <div class="quarto-title-meta-contents">
-               <p>Ning Ling </p>
-               <p>Phil Bowsher </p>
+               <p>Jeremy Wildfire </p>
+               <p>Sri Pavan Vemuri </p>
+               <p>Satish Murthy </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 18, 2023</p>
+        <p class="date">September 15, 2025</p>
       </div>
     </div>
     
@@ -234,14 +236,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#interactive-csr" id="toc-interactive-csr" class="nav-link active" data-scroll-target="#interactive-csr">Interactive CSR</a>
+  <li><a href="#ai-in-pharma" id="toc-ai-in-pharma" class="nav-link active" data-scroll-target="#ai-in-pharma">AI in Pharma</a>
   <ul class="collapse">
-  <li><a href="#question" id="toc-question" class="nav-link" data-scroll-target="#question">Question</a></li>
-  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why?</a></li>
-  <li><a href="#barriers" id="toc-barriers" class="nav-link" data-scroll-target="#barriers">Barriers</a></li>
-  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a></li>
-  <li><a href="#path-to-the-csr" id="toc-path-to-the-csr" class="nav-link" data-scroll-target="#path-to-the-csr">Path to the CSR</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#current-use-cases" id="toc-current-use-cases" class="nav-link" data-scroll-target="#current-use-cases">Current Use Cases</a></li>
+  <li><a href="#implementation-strategy" id="toc-implementation-strategy" class="nav-link" data-scroll-target="#implementation-strategy">Implementation Strategy</a></li>
+  <li><a href="#technical-challenges" id="toc-technical-challenges" class="nav-link" data-scroll-target="#technical-challenges">Technical Challenges</a></li>
+  <li><a href="#organizational-barriers" id="toc-organizational-barriers" class="nav-link" data-scroll-target="#organizational-barriers">Organizational Barriers</a></li>
+  <li><a href="#regulatory-and-compliance-issues" id="toc-regulatory-and-compliance-issues" class="nav-link" data-scroll-target="#regulatory-and-compliance-issues">Regulatory and Compliance Issues</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
@@ -257,59 +258,57 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="interactive-csr" class="level1">
-<h1>Interactive CSR</h1>
-<p>Chairs: Ning Leng and Phil Bowsher</p>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>If we assume it’s technically possible to transfer - what would it mean to give an interactive CSR? How would primary, secondary and ad-hoc analysis be viewed? Would views change depending on role (e.g.&nbsp;sponsor, statistical reviewer, clinical reviewer)?</p>
-</section>
-<section id="why" class="level2">
-<h2 class="anchored" data-anchor-id="why">Why?</h2>
-<p>The current process of CSR generation and review involves generating large amounts of tables and plots. In such scenarios, we believe an interactive application would provide a more efficient method to explore both primary and secondary analysis results.</p>
-</section>
-<section id="barriers" class="level2">
-<h2 class="anchored" data-anchor-id="barriers">Barriers</h2>
+<section id="ai-in-pharma" class="level1">
+<h1>AI in Pharma</h1>
+<p>Chairs: Jeremy Wildfire, Sri Pavan Vemuri and Satish Murthy</p>
+<p>See also: <a href="../../../docs/summit/posts/2023-ai.html">2023 Discussion</a>, <a href="../../../docs/summit/posts/2024-ai.html">2024 Discussion</a></p>
+<section id="current-use-cases" class="level2">
+<h2 class="anchored" data-anchor-id="current-use-cases">Current Use Cases</h2>
 <ul>
-<li>Internally
+<li><strong>Development Support</strong>: Chatbots, ADM, Adam TLF coding standards, general coding support and automation</li>
+<li><strong>Specification Generation</strong>: Potential for generating specifications from SAPs and study documents to complete the code generation loop</li>
+<li><strong>Clinical Operations</strong>:
 <ul>
-<li>Most companies have a highly process driven to medical writing, where any change is difficult to implement</li>
-</ul></li>
-<li>External / FDA
-<ul>
-<li>Concern of encouraging data fishing, if controls on for instance subgroup analysis are not in place?</li>
-<li>Need cross industry harmonization as HA is highly unlikely to accept each pharma company submitting an interactive CSR based on a different framework</li>
+<li>Improving operational efficiency</li>
+<li>Signal detection for safety monitoring</li>
 </ul></li>
 </ul>
 </section>
-<section id="requirements" class="level2">
-<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
+<section id="implementation-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="implementation-strategy">Implementation Strategy</h2>
 <ul>
-<li>Can an interactive CSR by default be limited to only analyses defined in the SAP, should/can exploring a wider scope be allowed with clear and explicit intent by the app user?
-<ul>
-<li>How is the ROI of interactivity in a CSR impacted if it’s limited to produce only pre-specified anlayses? Would different reviewers have different access? (e.g.&nbsp;statisticla vs clinical)</li>
-</ul></li>
-<li>There is a gap in patient profile modules and patient narratives in shiny apps</li>
+<li>Break problems into manageable pipelines</li>
+<li>Start with proof-of-concepts (POCs)</li>
+<li>Leverage domain knowledge as a key asset</li>
 </ul>
 </section>
-<section id="path-to-the-csr" class="level2">
-<h2 class="anchored" data-anchor-id="path-to-the-csr">Path to the CSR</h2>
-<p>There are many places where this tooling can be applied before the CSR:</p>
+<section id="technical-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="technical-challenges">Technical Challenges</h2>
 <ul>
-<li>Monitoring</li>
-<li>Decision making - data in clinical science hands</li>
-<li>Efficiency boost (e.g.&nbsp;at unblinding app is on hand)</li>
-<li>CSR</li>
+<li><strong>Data Privacy</strong>: Major concern with handling sensitive clinical data securely</li>
+<li><strong>Quality Control</strong>: Issues with traceability, repeatability, and quality control</li>
+<li><strong>AI Limitations</strong>: Hallucination problems with AI outputs</li>
+<li><strong>Implementation Issues</strong>: Tendency to over-engineer solutions rather than creating manageable ones</li>
 </ul>
-<p>Can we define the tangible benefits? What is the ROI over different use cases? Could this allow health authorities to make less requests? How does this lead to faster reviews in tangible terms?</p>
-<p>How would access control and security work? How would this be audited? Would this be validated? How would results be archived?</p>
-<p>Can commenting be possible (as you can markup a PDF/work doc)?</p>
-<p>Existing frameworks exist - e.g.&nbsp;<code>teal</code> from NEST. ARDs may mean additional results can be pre-generated in a controlled way - but ARDs can’t further process data.</p>
 </section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<p>Eric Nantz, from the R Submissions working group, <a href="https://rconsortium.github.io/submissions-wg/pilot2.html">which have been working with the FDA on a shiny submisson as part of pilot 2</a>:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/5TEpJruIm-Y?si=-B8yoFhrPKGw_8CP" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="organizational-barriers" class="level2">
+<h2 class="anchored" data-anchor-id="organizational-barriers">Organizational Barriers</h2>
+<ul>
+<li><strong>Management Resistance</strong>: Leadership not being on board due to established habits</li>
+<li><strong>ROI Challenges</strong>: Difficulty demonstrating return on investment</li>
+<li><strong>Validation Requirements</strong>: Need for repeatability and validation processes</li>
+<li><strong>Training Needs</strong>: Comprehensive user training required for process changes</li>
+<li><strong>Job Security Concerns</strong>: Worries about AI-related job displacement</li>
+</ul>
+</section>
+<section id="regulatory-and-compliance-issues" class="level2">
+<h2 class="anchored" data-anchor-id="regulatory-and-compliance-issues">Regulatory and Compliance Issues</h2>
+<ul>
+<li><strong>Audit Trail</strong>: Maintaining proper audit trails</li>
+<li><strong>Documentation</strong>: Ensuring complete documentation and transparency of AI pathways</li>
+<li><strong>Quality Standards</strong>: Meeting industry quality standards</li>
+<li><strong>Data Governance</strong>: Implementing proper guardrails and controls on sensitive data</li>
+</ul>
 
 
 </section>

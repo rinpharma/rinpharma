@@ -6,12 +6,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ning Ling">
-<meta name="author" content="Phil Bowsher">
-<meta name="dcterms.date" content="2023-09-18">
-<meta name="description" content="What are our goals with an interactive CSR?">
+<meta name="author" content="Olga Mierzwa-Sulima">
+<meta name="author" content="Eric Nantz">
+<meta name="author" content="Paulo Bargo">
+<meta name="dcterms.date" content="2025-09-15">
+<meta name="description" content="Validating Open Source Tools with Stochastic Components; Architectures to provision validated R packages">
 
-<title>Interactive CSR (2023) – R/Pharma</title>
+<title>Quality &amp; Validation (2025) – R/Pharma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -85,12 +86,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Interactive CSR (2023) – R/Pharma">
-<meta property="og:description" content="What are our goals with an interactive CSR?">
+<meta property="og:title" content="Quality &amp; Validation (2025) – R/Pharma">
+<meta property="og:description" content="Validating Open Source Tools with Stochastic Components; Architectures to provision validated R packages">
 <meta property="og:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta name="twitter:title" content="Interactive CSR (2023) – R/Pharma">
-<meta name="twitter:description" content="What are our goals with an interactive CSR?">
+<meta name="twitter:title" content="Quality &amp; Validation (2025) – R/Pharma">
+<meta name="twitter:description" content="Validating Open Source Tools with Stochastic Components; Architectures to provision validated R packages">
 <meta name="twitter:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -191,16 +192,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Interactive CSR (2023)</h1>
-            <p class="subtitle lead">Ning Leng and Phil Bowsher</p>
+      <h1 class="title">Quality &amp; Validation (2025)</h1>
+            <p class="subtitle lead">Olga Mierzwa-Sulima, Eric Nantz &amp; Paulo Bargo</p>
                   <div>
         <div class="description">
-          <p>What are our goals with an interactive CSR?</p>
+          <p>Validating Open Source Tools with Stochastic Components; Architectures to provision validated R packages</p>
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">2023</div>
-                <div class="quarto-category">AI</div>
+                <div class="quarto-category">2025</div>
+                <div class="quarto-category">Validation</div>
               </div>
                   </div>
   </div>
@@ -211,15 +212,16 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Authors</div>
       <div class="quarto-title-meta-contents">
-               <p>Ning Ling </p>
-               <p>Phil Bowsher </p>
+               <p>Olga Mierzwa-Sulima </p>
+               <p>Eric Nantz </p>
+               <p>Paulo Bargo </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 18, 2023</p>
+        <p class="date">September 15, 2025</p>
       </div>
     </div>
     
@@ -234,14 +236,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#interactive-csr" id="toc-interactive-csr" class="nav-link active" data-scroll-target="#interactive-csr">Interactive CSR</a>
+  <li><a href="#quality-validation" id="toc-quality-validation" class="nav-link active" data-scroll-target="#quality-validation">Quality &amp; Validation</a>
   <ul class="collapse">
-  <li><a href="#question" id="toc-question" class="nav-link" data-scroll-target="#question">Question</a></li>
-  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why?</a></li>
-  <li><a href="#barriers" id="toc-barriers" class="nav-link" data-scroll-target="#barriers">Barriers</a></li>
-  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a></li>
-  <li><a href="#path-to-the-csr" id="toc-path-to-the-csr" class="nav-link" data-scroll-target="#path-to-the-csr">Path to the CSR</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#shiny-centric-validation-discussion" id="toc-shiny-centric-validation-discussion" class="nav-link" data-scroll-target="#shiny-centric-validation-discussion">Shiny-Centric Validation Discussion</a></li>
+  <li><a href="#package-validation-approaches" id="toc-package-validation-approaches" class="nav-link" data-scroll-target="#package-validation-approaches">Package Validation Approaches</a></li>
+  <li><a href="#infrastructure-management" id="toc-infrastructure-management" class="nav-link" data-scroll-target="#infrastructure-management">Infrastructure Management</a></li>
+  <li><a href="#package-transparency-benefits" id="toc-package-transparency-benefits" class="nav-link" data-scroll-target="#package-transparency-benefits">Package Transparency Benefits</a></li>
+  <li><a href="#testing-standards-and-practices" id="toc-testing-standards-and-practices" class="nav-link" data-scroll-target="#testing-standards-and-practices">Testing Standards and Practices</a></li>
+  <li><a href="#genai-integration-challenges" id="toc-genai-integration-challenges" class="nav-link" data-scroll-target="#genai-integration-challenges">GenAI Integration Challenges</a></li>
+  <li><a href="#emerging-tools-and-technologies" id="toc-emerging-tools-and-technologies" class="nav-link" data-scroll-target="#emerging-tools-and-technologies">Emerging Tools and Technologies</a></li>
+  <li><a href="#backward-compatibility" id="toc-backward-compatibility" class="nav-link" data-scroll-target="#backward-compatibility">Backward Compatibility</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
@@ -257,59 +261,78 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="interactive-csr" class="level1">
-<h1>Interactive CSR</h1>
-<p>Chairs: Ning Leng and Phil Bowsher</p>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>If we assume it’s technically possible to transfer - what would it mean to give an interactive CSR? How would primary, secondary and ad-hoc analysis be viewed? Would views change depending on role (e.g.&nbsp;sponsor, statistical reviewer, clinical reviewer)?</p>
-</section>
-<section id="why" class="level2">
-<h2 class="anchored" data-anchor-id="why">Why?</h2>
-<p>The current process of CSR generation and review involves generating large amounts of tables and plots. In such scenarios, we believe an interactive application would provide a more efficient method to explore both primary and secondary analysis results.</p>
-</section>
-<section id="barriers" class="level2">
-<h2 class="anchored" data-anchor-id="barriers">Barriers</h2>
+<section id="quality-validation" class="level1">
+<h1>Quality &amp; Validation</h1>
+<p>Chairs: Olga Mierzwa-Sulima, Eric Nantz and Paulo Bargo</p>
+<p>See also: <a href="../../../docs/summit/posts/2023-shiny-validation.html">2023 Discussion</a>, <a href="../../../docs/summit/posts/2024-shiny-validation.html">2024 Discussion</a></p>
+<section id="shiny-centric-validation-discussion" class="level2">
+<h2 class="anchored" data-anchor-id="shiny-centric-validation-discussion">Shiny-Centric Validation Discussion</h2>
 <ul>
-<li>Internally
-<ul>
-<li>Most companies have a highly process driven to medical writing, where any change is difficult to implement</li>
-</ul></li>
-<li>External / FDA
-<ul>
-<li>Concern of encouraging data fishing, if controls on for instance subgroup analysis are not in place?</li>
-<li>Need cross industry harmonization as HA is highly unlikely to accept each pharma company submitting an interactive CSR based on a different framework</li>
-</ul></li>
+<li><strong>Dynamic Validation</strong>: Challenges validating Shiny apps with multiple inputs and dynamic UI changes</li>
+<li><strong>Cross-Language Validation</strong>: Interesting approach using different languages (e.g., SAS) to validate Shiny outputs</li>
+<li><strong>User-Centric Testing</strong>: Need for dynamic validation of user interactions beyond business logic validation</li>
 </ul>
 </section>
-<section id="requirements" class="level2">
-<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
+<section id="package-validation-approaches" class="level2">
+<h2 class="anchored" data-anchor-id="package-validation-approaches">Package Validation Approaches</h2>
 <ul>
-<li>Can an interactive CSR by default be limited to only analyses defined in the SAP, should/can exploring a wider scope be allowed with clear and explicit intent by the app user?
+<li><strong>Environment Types</strong>: Companies building both exploratory and validated GXP environments</li>
+<li><strong>Validation Cycles</strong>: Range from every 6-12 months to agile approaches completing validation in hours</li>
+<li><strong>Speed vs.&nbsp;Compliance</strong>: Demonstration that speed and compliance can coexist with proper processes</li>
+</ul>
+</section>
+<section id="infrastructure-management" class="level2">
+<h2 class="anchored" data-anchor-id="infrastructure-management">Infrastructure Management</h2>
 <ul>
-<li>How is the ROI of interactivity in a CSR impacted if it’s limited to produce only pre-specified anlayses? Would different reviewers have different access? (e.g.&nbsp;statisticla vs clinical)</li>
+<li><strong>Container Strategy</strong>:
+<ul>
+<li>Managing multiple packages and images is challenging</li>
+<li>Base images specific to projects or therapeutic areas recommended</li>
+<li>Kubernetes as standard for container management</li>
+<li>Container sizing remains technical challenge</li>
 </ul></li>
-<li>There is a gap in patient profile modules and patient narratives in shiny apps</li>
+<li><strong>Image Management</strong>: Need for structured approach to container proliferation</li>
 </ul>
 </section>
-<section id="path-to-the-csr" class="level2">
-<h2 class="anchored" data-anchor-id="path-to-the-csr">Path to the CSR</h2>
-<p>There are many places where this tooling can be applied before the CSR:</p>
+<section id="package-transparency-benefits" class="level2">
+<h2 class="anchored" data-anchor-id="package-transparency-benefits">Package Transparency Benefits</h2>
 <ul>
-<li>Monitoring</li>
-<li>Decision making - data in clinical science hands</li>
-<li>Efficiency boost (e.g.&nbsp;at unblinding app is on hand)</li>
-<li>CSR</li>
+<li><strong>Open Source Advantage</strong>: Unlike SAS, can see how bugs are identified and resolved</li>
+<li><strong>Visibility</strong>: Access to bug reports and fixes provides better understanding than closed-source alternatives</li>
+<li><strong>Internal Package Standards</strong>: Internal packages should follow same validation processes as external packages</li>
 </ul>
-<p>Can we define the tangible benefits? What is the ROI over different use cases? Could this allow health authorities to make less requests? How does this lead to faster reviews in tangible terms?</p>
-<p>How would access control and security work? How would this be audited? Would this be validated? How would results be archived?</p>
-<p>Can commenting be possible (as you can markup a PDF/work doc)?</p>
-<p>Existing frameworks exist - e.g.&nbsp;<code>teal</code> from NEST. ARDs may mean additional results can be pre-generated in a controlled way - but ARDs can’t further process data.</p>
 </section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<p>Eric Nantz, from the R Submissions working group, <a href="https://rconsortium.github.io/submissions-wg/pilot2.html">which have been working with the FDA on a shiny submisson as part of pilot 2</a>:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/5TEpJruIm-Y?si=-B8yoFhrPKGw_8CP" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="testing-standards-and-practices" class="level2">
+<h2 class="anchored" data-anchor-id="testing-standards-and-practices">Testing Standards and Practices</h2>
+<ul>
+<li><strong>Separation of Roles</strong>: Testers should be different from developers</li>
+<li><strong>Validation Definitions</strong>: No industry standard for what “validated package” means - companies define their own criteria</li>
+<li><strong>Reproducibility</strong>: Focus on reproducible code as foundation for validation</li>
+</ul>
+</section>
+<section id="genai-integration-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="genai-integration-challenges">GenAI Integration Challenges</h2>
+<ul>
+<li><strong>Output Validation</strong>: GenAI outputs need reproducible code that can be tested and validated</li>
+<li><strong>Documentation Transparency</strong>: Suggestion to identify AI-generated documentation for additional scrutiny</li>
+<li><strong>AI-Assisted Review</strong>: Mixed opinions on using AI bots to evaluate tests - could be useful but may reduce human vigilance</li>
+</ul>
+</section>
+<section id="emerging-tools-and-technologies" class="level2">
+<h2 class="anchored" data-anchor-id="emerging-tools-and-technologies">Emerging Tools and Technologies</h2>
+<ul>
+<li><strong>Testing Innovation</strong>: New automated testing tools with reporting and screenshots coming from vendors</li>
+<li><strong>ShinyTest Evolution</strong>: Improvements in Shiny testing capabilities</li>
+<li><strong>Teal vs.&nbsp;ShinyMeta</strong>: Teal’s approach to reproducible scripts gaining more adoption than ShinyMeta</li>
+<li><strong>DuckDB Integration</strong>: Promising for handling large data in Shiny applications without full database overhead</li>
+</ul>
+</section>
+<section id="backward-compatibility" class="level2">
+<h2 class="anchored" data-anchor-id="backward-compatibility">Backward Compatibility</h2>
+<ul>
+<li><strong>R Perception vs.&nbsp;Reality</strong>: Addressing misconceptions about R’s backward compatibility</li>
+<li><strong>Documentation Needs</strong>: Importance of documenting package versioning and major changes</li>
+</ul>
 
 
 </section>

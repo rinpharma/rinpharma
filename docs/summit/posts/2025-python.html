@@ -6,12 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ning Ling">
-<meta name="author" content="Phil Bowsher">
-<meta name="dcterms.date" content="2023-09-18">
-<meta name="description" content="What are our goals with an interactive CSR?">
+<meta name="author" content="Yilong Zhang">
+<meta name="author" content="Jonathan Tisack">
+<meta name="dcterms.date" content="2025-09-15">
+<meta name="description" content="Python for Clinical Study Reports and Submission">
 
-<title>Interactive CSR (2023) – R/Pharma</title>
+<title>Python for Clinical Study Reports and Submission (2025) – R/Pharma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -85,12 +85,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Interactive CSR (2023) – R/Pharma">
-<meta property="og:description" content="What are our goals with an interactive CSR?">
+<meta property="og:title" content="Python for Clinical Study Reports and Submission (2025) – R/Pharma">
+<meta property="og:description" content="Python for Clinical Study Reports and Submission">
 <meta property="og:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta name="twitter:title" content="Interactive CSR (2023) – R/Pharma">
-<meta name="twitter:description" content="What are our goals with an interactive CSR?">
+<meta name="twitter:title" content="Python for Clinical Study Reports and Submission (2025) – R/Pharma">
+<meta name="twitter:description" content="Python for Clinical Study Reports and Submission">
 <meta name="twitter:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -191,16 +191,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Interactive CSR (2023)</h1>
-            <p class="subtitle lead">Ning Leng and Phil Bowsher</p>
+      <h1 class="title">Python for Clinical Study Reports and Submission (2025)</h1>
+            <p class="subtitle lead">Yilong Zhang &amp; Jonathan Tisack</p>
                   <div>
         <div class="description">
-          <p>What are our goals with an interactive CSR?</p>
+          <p>Python for Clinical Study Reports and Submission</p>
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">2023</div>
-                <div class="quarto-category">AI</div>
+                <div class="quarto-category">2025</div>
+                <div class="quarto-category">Python</div>
               </div>
                   </div>
   </div>
@@ -211,15 +211,15 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Authors</div>
       <div class="quarto-title-meta-contents">
-               <p>Ning Ling </p>
-               <p>Phil Bowsher </p>
+               <p>Yilong Zhang </p>
+               <p>Jonathan Tisack </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 18, 2023</p>
+        <p class="date">September 15, 2025</p>
       </div>
     </div>
     
@@ -234,14 +234,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#interactive-csr" id="toc-interactive-csr" class="nav-link active" data-scroll-target="#interactive-csr">Interactive CSR</a>
+  <li><a href="#python-for-clinical-study-reports-and-submission" id="toc-python-for-clinical-study-reports-and-submission" class="nav-link active" data-scroll-target="#python-for-clinical-study-reports-and-submission">Python for Clinical Study Reports and Submission</a>
   <ul class="collapse">
-  <li><a href="#question" id="toc-question" class="nav-link" data-scroll-target="#question">Question</a></li>
-  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why?</a></li>
-  <li><a href="#barriers" id="toc-barriers" class="nav-link" data-scroll-target="#barriers">Barriers</a></li>
-  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a></li>
-  <li><a href="#path-to-the-csr" id="toc-path-to-the-csr" class="nav-link" data-scroll-target="#path-to-the-csr">Path to the CSR</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#industry-heterogeneity" id="toc-industry-heterogeneity" class="nav-link" data-scroll-target="#industry-heterogeneity">Industry Heterogeneity</a></li>
+  <li><a href="#primary-use-cases" id="toc-primary-use-cases" class="nav-link" data-scroll-target="#primary-use-cases">Primary Use Cases</a></li>
+  <li><a href="#validation-challenges" id="toc-validation-challenges" class="nav-link" data-scroll-target="#validation-challenges">Validation Challenges</a></li>
+  <li><a href="#regulatory-and-submission-status" id="toc-regulatory-and-submission-status" class="nav-link" data-scroll-target="#regulatory-and-submission-status">Regulatory and Submission Status</a></li>
+  <li><a href="#python-vs.-r-considerations" id="toc-python-vs.-r-considerations" class="nav-link" data-scroll-target="#python-vs.-r-considerations">Python vs.&nbsp;R Considerations</a></li>
+  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
@@ -257,59 +257,73 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="interactive-csr" class="level1">
-<h1>Interactive CSR</h1>
-<p>Chairs: Ning Leng and Phil Bowsher</p>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>If we assume it’s technically possible to transfer - what would it mean to give an interactive CSR? How would primary, secondary and ad-hoc analysis be viewed? Would views change depending on role (e.g.&nbsp;sponsor, statistical reviewer, clinical reviewer)?</p>
-</section>
-<section id="why" class="level2">
-<h2 class="anchored" data-anchor-id="why">Why?</h2>
-<p>The current process of CSR generation and review involves generating large amounts of tables and plots. In such scenarios, we believe an interactive application would provide a more efficient method to explore both primary and secondary analysis results.</p>
-</section>
-<section id="barriers" class="level2">
-<h2 class="anchored" data-anchor-id="barriers">Barriers</h2>
+<section id="python-for-clinical-study-reports-and-submission" class="level1">
+<h1>Python for Clinical Study Reports and Submission</h1>
+<p>Chairs: Yilong Zhang and Jonathan Tisack</p>
+<section id="industry-heterogeneity" class="level2">
+<h2 class="anchored" data-anchor-id="industry-heterogeneity">Industry Heterogeneity</h2>
 <ul>
-<li>Internally
+<li><strong>Medical Devices vs.&nbsp;Pharma</strong>: Different use cases and adoption patterns
 <ul>
-<li>Most companies have a highly process driven to medical writing, where any change is difficult to implement</li>
-</ul></li>
-<li>External / FDA
-<ul>
-<li>Concern of encouraging data fishing, if controls on for instance subgroup analysis are not in place?</li>
-<li>Need cross industry harmonization as HA is highly unlikely to accept each pharma company submitting an interactive CSR based on a different framework</li>
+<li>Medical device engineers more familiar with Python as standard language</li>
+<li>Creates challenges managing multiple languages within organizations</li>
+<li>Some companies choosing Python-only approach despite challenges</li>
 </ul></li>
 </ul>
 </section>
-<section id="requirements" class="level2">
-<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
+<section id="primary-use-cases" class="level2">
+<h2 class="anchored" data-anchor-id="primary-use-cases">Primary Use Cases</h2>
 <ul>
-<li>Can an interactive CSR by default be limited to only analyses defined in the SAP, should/can exploring a wider scope be allowed with clear and explicit intent by the app user?
+<li><strong>Medical Devices</strong>:
 <ul>
-<li>How is the ROI of interactivity in a CSR impacted if it’s limited to produce only pre-specified anlayses? Would different reviewers have different access? (e.g.&nbsp;statisticla vs clinical)</li>
+<li>Large datasets from device data</li>
+<li>Product development beyond just data analysis</li>
+<li>Engineering-driven adoption</li>
 </ul></li>
-<li>There is a gap in patient profile modules and patient narratives in shiny apps</li>
-</ul>
-</section>
-<section id="path-to-the-csr" class="level2">
-<h2 class="anchored" data-anchor-id="path-to-the-csr">Path to the CSR</h2>
-<p>There are many places where this tooling can be applied before the CSR:</p>
+<li><strong>Pharma Applications</strong>:
 <ul>
-<li>Monitoring</li>
-<li>Decision making - data in clinical science hands</li>
-<li>Efficiency boost (e.g.&nbsp;at unblinding app is on hand)</li>
-<li>CSR</li>
+<li>ETL processes for speed advantages</li>
+<li>Machine learning implementations</li>
+<li>Data engineering tasks</li>
+</ul></li>
 </ul>
-<p>Can we define the tangible benefits? What is the ROI over different use cases? Could this allow health authorities to make less requests? How does this lead to faster reviews in tangible terms?</p>
-<p>How would access control and security work? How would this be audited? Would this be validated? How would results be archived?</p>
-<p>Can commenting be possible (as you can markup a PDF/work doc)?</p>
-<p>Existing frameworks exist - e.g.&nbsp;<code>teal</code> from NEST. ARDs may mean additional results can be pre-generated in a controlled way - but ARDs can’t further process data.</p>
 </section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<p>Eric Nantz, from the R Submissions working group, <a href="https://rconsortium.github.io/submissions-wg/pilot2.html">which have been working with the FDA on a shiny submisson as part of pilot 2</a>:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/5TEpJruIm-Y?si=-B8yoFhrPKGw_8CP" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="validation-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="validation-challenges">Validation Challenges</h2>
+<ul>
+<li><strong>R Validation Hub Principles</strong>: White paper was meant to be language-agnostic, principles apply to Python</li>
+<li><strong>Trusted Sources</strong>: Questions about what constitutes trusted sources in Python ecosystem
+<ul>
+<li>Anaconda, PyPI with RSPM scrutiny mentioned as possibilities</li>
+<li>Python ecosystem seen as “wild west” compared to R</li>
+</ul></li>
+<li><strong>Statistical Packages</strong>: Python statistical libraries still developing; roughly 8 years behind R in maturity</li>
+<li><strong>Containers</strong>: Discussion of containerization for validation approaches</li>
+</ul>
+</section>
+<section id="regulatory-and-submission-status" class="level2">
+<h2 class="anchored" data-anchor-id="regulatory-and-submission-status">Regulatory and Submission Status</h2>
+<ul>
+<li><strong>Submission Gap</strong>: No Python submissions to regulators yet (unlike R which has established precedent)</li>
+<li><strong>Regulatory Acceptance</strong>: Need for groundwork similar to what was done for R submissions</li>
+<li><strong>Pilot Programs</strong>: Reference to submission pilots (pilot 15) for future development</li>
+</ul>
+</section>
+<section id="python-vs.-r-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="python-vs.-r-considerations">Python vs.&nbsp;R Considerations</h2>
+<ul>
+<li><strong>GenAI Integration</strong>: Python more prevalent in generative AI development, potentially driving adoption</li>
+<li><strong>Large Dataset Handling</strong>: Python advantages for genetic datasets and other large-scale data due to memory limitations in R</li>
+<li><strong>Statistical Maturity</strong>: R still ahead in statistical package validation and regulatory acceptance</li>
+</ul>
+</section>
+<section id="future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
+<ul>
+<li>Need for Python-specific validation frameworks</li>
+<li>Development of regulatory submission pathways</li>
+<li>Balancing language choice with organizational capabilities</li>
+</ul>
 
 
 </section>
