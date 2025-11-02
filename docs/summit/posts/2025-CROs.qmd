@@ -1,5 +1,5 @@
 ---
-title: Implementation and Perspectives of CROs
+title: Implementation and Perspectives of CROs (2025)
 subtitle: Douglas Henry & Steven Tan
 description: |
   Expanding the Pharmaverse beyond Clinical Reporting

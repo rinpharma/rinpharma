@@ -1,5 +1,5 @@
 ---
-title: Quality & Validation
+title: Quality & Validation (2025)
 subtitle: Olga Mierzwa-Sulima, Eric Nantz & Paulo Bargo
 description: |
   Validating Open Source Tools with Stochastic Components; Architectures to provision validated R packages

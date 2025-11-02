@@ -1,5 +1,5 @@
 ---
-title: Depending on Open Source
+title: Depending on Open Source (2023)
 subtitle: Mike Smith & Ed Lauzier
 description: |
   Depending on Open Source

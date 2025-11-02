@@ -1,11 +1,8 @@
 ---
-title: AI in Pharma
+title: AI in Pharma (2025)
 subtitle: Jeremy Wildfire, Sri Pavan Vemuri & Satish Murthy
 description: |
-  Best Practices for AI-Assisted R Coding  
-  What would an “AI-friendly” submission look like?  
-  Reimagine open-label trial deliverables with interactive display/AI  
-  Best Practices for AI Integration in Data Workflows
+  Best Practices for AI-Assisted R Coding and Data Workflows; What would an "AI-friendly" submission look like?; Reimagine open-label trial deliverables with interactive display/AI
 categories:
   - 2025
   - AI

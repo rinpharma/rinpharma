@@ -1,5 +1,5 @@
 ---
-title: Python for Clinical Study Reports and Submission
+title: Python for Clinical Study Reports and Submission (2025)
 subtitle: Yilong Zhang & Jonathan Tisack
 description: |
   Python for Clinical Study Reports and Submission

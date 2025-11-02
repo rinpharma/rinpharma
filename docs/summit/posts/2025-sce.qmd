@@ -1,5 +1,5 @@
 ---
-title: SCEs in 2025
+title: SCEs (2025)
 subtitle: David Thiriot, Phil Bowsher & James Black
 description: |
   Python for Clinical Study Reports and Submission

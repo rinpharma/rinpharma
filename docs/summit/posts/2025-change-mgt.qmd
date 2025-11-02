@@ -1,5 +1,5 @@
 ---
-title: Open-Source Change Management
+title: Open-Source Change Management (2025)
 subtitle: Ning Leng & Nate Mockler
 description: |
   From Hacks to Habits - Tools & Tricks That Changed the Game
