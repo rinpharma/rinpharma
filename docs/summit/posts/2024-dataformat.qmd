@@ -1,5 +1,5 @@
 ---
-title: Can we do data storage and processing better in clinical trials?
+title: Can we do data storage and processing better in clinical trials (2024)?
 subtitle: Stephanie Lussier and Doug Kelkhoff
 description: |
   Can we do data storage and processing better in clinical trials?

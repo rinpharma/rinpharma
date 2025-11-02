@@ -1,11 +1,12 @@
 ---
-title: Validating R packages
+title: Validating R packages (2024)
 subtitle:  Doug Kelkhof and Margaret Wishart
 description: |
   Validating R packages
 categories:
   - 2024
   - R
+  - Validation
 author: 
   - Doug Kelkhof
   - Margaret Wishart

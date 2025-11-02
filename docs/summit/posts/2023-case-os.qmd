@@ -1,5 +1,5 @@
 ---
-title: The case for OS
+title: The case for OS (2023)
 subtitle: Satish Murphy & Becca Krouse
 description: |
   What is stopping people and companies from contributions in OS? Can we define the case for contributing to OS?
