@@ -5,7 +5,7 @@ description: |
   Multi-modal drug development
 categories:
   - 2023
-  - AI
+  - Multi-modal
 author: 
   - Katie Igartua
 date: 2023-09-18

@@ -12,7 +12,7 @@ date: 2024-08-11
 image-alt: ""
 ---
 
-# Sharing R code without sharing R code
+# Modern SCEs
 
 Chair: James Black
 
