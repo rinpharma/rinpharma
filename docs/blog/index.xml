@@ -17,7 +17,85 @@
 <width>144</width>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Tue, 28 Oct 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 04 Nov 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Brian Bole Award</title>
+  <dc:creator>R/Pharma </dc:creator>
+  <link>https://rinpharma.com/docs/blog/posts/2025-11-04-brianbole/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="the-brian-bole-award-of-excellence" class="level2">
+<h2 class="anchored" data-anchor-id="the-brian-bole-award-of-excellence">The Brian Bole Award of Excellence</h2>
+<p>Open Source in Pharma proudly presents the <strong>“Brian Bole Award of Excellence”</strong> presented each year at R/Pharma Virtual to recognize outstanding contributions to the open-source ecosystem within the life sciences. This award celebrates the individuals and teams who embody the spirit of open collaboration, drive innovation, and help the community embrace open source for clinical reporting and research.</p>
+<section id="honoring-brian-bole" class="level3">
+<h3 class="anchored" data-anchor-id="honoring-brian-bole">Honoring Brian Bole</h3>
+<p>The award is named in honor of Brian Bole, an innovator and thought leader in the field of healthcare. Brian was working in Open Source over 10 years ago and was a very early adopter of R and Shiny. Brian was a health data scientist for Armus Corp and a former NASA Scientist.</p>
+<p>Brian was an inspiration to all that worked with him and accelerated the Open Source space in the life sciences by adopting and accelerating innovation through data science. Brian was a son, husband, and brother and earned a degree in mathematics and a doctorate in electrical engineering from Georgia Tech.</p>
+<p>We are excited to honor Brian’s legacy with the Brian Bole Award of Excellence from Open Source in Pharma. This award is presented annually in recognition of outstanding achievements by practitioners and open source developers who have made a lasting impression on the field and significant contribution to drive and accelerate Open Source in life Sciences so others can learn, adapt and improve the health of their populations.</p>
+<p>You can learn more about Brian’s work <a href="https://scholar.google.com/citations?user=ckHiu5sAAAAJ&amp;hl=en" target="_blank">here</a>.</p>
+</section>
+<section id="award-history-and-recipients" class="level3">
+<h3 class="anchored" data-anchor-id="award-history-and-recipients">Award History and Recipients</h3>
+<section id="recipient-gtsummary-team" class="level4">
+<h4 class="anchored" data-anchor-id="recipient-gtsummary-team">2025 Recipient: gtsummary Team</h4>
+<p><strong>Daniel Sjoberg and the gtsummary team</strong></p>
+<ul>
+<li>The Project: gtsummary</li>
+<li>Team Members: Daniel Sjoberg, Emily de la Rua, and all contributors.</li>
+<li>Recognition: Congratulations to Daniel Sjoberg and the gtsummary team! This team has created and maintained an essential package for producing publication-ready analytic and summary tables using the R programming language. Their work dramatically simplifies the process of creating reproducible and high-quality results tables for clinical reporting.</li>
+</ul>
+</section>
+<section id="recipient-r-submission-working-group" class="level4">
+<h4 class="anchored" data-anchor-id="recipient-r-submission-working-group">2024 Recipient: R Submission Working Group</h4>
+<p><strong>The R Submission Working Group!</strong></p>
+<ul>
+<li>The Group: <a href="https://rconsortium.github.io/submissions-wg/" target="_blank">https://rconsortium.github.io/submissions-wg/</a></li>
+<li>Key Drivers: Ben Straub (GSK), Eric Nantz (Eli Lilly), Ning Leng (Roche/Genentech), and all members helping to drive the group.</li>
+<li>Recognition: The R Submission Working Group is a cross-industry pharma group focusing on improving practices for R-based clinical trial regulatory submissions. We were proud to present the award to this group for the incredible work they have done for the submissions pilots and for pushing the boundaries for future technologies. Their work includes:
+<ul>
+<li>3 completed submissions successfully accepted by the FDA.</li>
+<li>Pilot 4: Utilizing alternative methods of distributing a self-contained submission bundle of the Pilot 2 Shiny application container and web-assembly technologies.</li>
+<li>Pilot 5: Delivering a publicly accessible R-based Submission through the eCTD portal using datasetjson and utilizing R generate ADaM datasets (expanding on Pilots 1 and 3).</li>
+</ul></li>
+</ul>
+</section>
+<section id="recipient-novo-nordisk-team" class="level4">
+<h4 class="anchored" data-anchor-id="recipient-novo-nordisk-team">2023 Recipient: Novo Nordisk Team</h4>
+<p><strong>Ari Siggaard Knoph (MSc), Steffen Falgreen Larsen (MSc, PhD), and Anders Ellern Bilgrau (MSc, PhD)</strong></p>
+<ul>
+<li>The Team: Novo Nordisk.</li>
+<li>Recognition: The Novo Nordisk team detailed their first FDA submission package featuring outputs exclusively written in R in a live presentation, showcasing a landmark achievement for the industry. Their contributions to the Open Source in Pharma ecosystem are truly astounding. They have done a wonderful job with their open-source submission and educating the community around R, the pharmaverse, and their journey! They truly represent the Open Source spirit and have helped thousands of people embrace open source for clinical reporting.</li>
+<li>More information: <a href="https://posit.co/about/customer-stories/novo-nordisk/" target="_blank">https://posit.co/about/customer-stories/novo-nordisk/</a></li>
+</ul>
+</section>
+<section id="recipient-the-admiral-core-team-and-all-contributors" class="level4">
+<h4 class="anchored" data-anchor-id="recipient-the-admiral-core-team-and-all-contributors">2022 Recipient: The {admiral} Core Team and All Contributors</h4>
+<p><strong>The core team and all contributors to {admiral} and its extension packages.</strong></p>
+<ul>
+<li>The Project: {admiral} (A Data Model in R)</li>
+<li>Recognition: The inaugural award was dedicated to the core team and all contributors to the {admiral} project. Their contributions to the Open Source in Pharma ecosystem are truly astounding. They have done a wonderful job with leading Admiral and also educating the community for free! They truly represent the Open Source spirit and have helped thousands of people embrace open source for clinical reporting.</li>
+<li>More information: <a href="https://pharmaverse.github.io/admiral/cran-release/" target="_blank">https://pharmaverse.github.io/admiral/cran-release/</a></li>
+</ul>
+</section>
+</section>
+<section id="section" class="level3 citation-image">
+<h3 class="citation-image anchored" data-anchor-id="section"></h3>
+<p>Photo by <a href="https://unsplash.com/@giorgiotrovato?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Giorgio Trovato</a> on <a href="https://unsplash.com/photos/yellow-and-white-trophy-_XTY6lD8jgM?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>conference</category>
+  <guid>https://rinpharma.com/docs/blog/posts/2025-11-04-brianbole/</guid>
+  <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2025-11-04-brianbole/giorgio-trovato-_XTY6lD8jgM-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>R/Pharma APAC Track 2025</title>
   <dc:creator>Jonathan Carroll</dc:creator>
