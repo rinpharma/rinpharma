@@ -1,7 +1,8 @@
 comments:
   giscus:
-    repo: OpenSourceinPharma/OpenSourceinPharma
-    category: Blog
+    repo: rinpharma/rinpharma
+    category: Announcements
+    mapping: url
 title-block-banner: "#EDF3F9"
 title-block-banner-color: body
 toc-location: left
