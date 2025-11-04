@@ -1,0 +1,62 @@
+---
+title: The Brian Bole Award
+description: |
+  The Brian Bole Award of Excellence
+categories:
+  - conference
+author: R/Pharma
+date: 2025-11-04
+image: giorgio-trovato-_XTY6lD8jgM-unsplash.jpg
+image-alt: "Award"
+---
+
+## The Brian Bole Award of Excellence
+Open Source in Pharma proudly presents the **"Brian Bole Award of Excellence"** presented each year at R/Pharma Virtual to recognize outstanding contributions to the open-source ecosystem within the life sciences. This award celebrates the individuals and teams who embody the spirit of open collaboration, drive innovation, and help the community embrace open source for clinical reporting and research.
+
+### Honoring Brian Bole
+The award is named in honor of Brian Bole, an innovator and thought leader in the field of healthcare. Brian was working in Open Source over 10 years ago and was a very early adopter of R and Shiny. Brian was a health data scientist for Armus Corp and a former NASA Scientist.
+
+Brian was an inspiration to all that worked with him and accelerated the Open Source space in the life sciences by adopting and accelerating innovation through data science. Brian was a son, husband, and brother and earned a degree in mathematics and a doctorate in electrical engineering from Georgia Tech.
+
+We are excited to honor Brian's legacy with the Brian Bole Award of Excellence from Open Source in Pharma. This award is presented annually in recognition of outstanding achievements by practitioners and open source developers who have made a lasting impression on the field and significant contribution to drive and accelerate Open Source in life Sciences so others can learn, adapt and improve the health of their populations.
+
+You can learn more about Brian's work [here](https://scholar.google.com/citations?user=ckHiu5sAAAAJ&hl=en){target="_blank"}.
+
+### Award History and Recipients
+
+#### 2025 Recipient: gtsummary Team
+**Daniel Sjoberg and the gtsummary team**
+
+  - The Project: gtsummary
+  - Team Members: Daniel Sjoberg, Emily de la Rua, and all contributors.
+  - Recognition: Congratulations to Daniel Sjoberg and the gtsummary team! This team has created and maintained an essential package for producing publication-ready analytic and summary tables using the R programming language. Their work dramatically simplifies the process of creating reproducible and high-quality results tables for clinical reporting.
+
+
+#### 2024 Recipient: R Submission Working Group
+**The R Submission Working Group!**
+
+  - The Group: [https://rconsortium.github.io/submissions-wg/](https://rconsortium.github.io/submissions-wg/){target="_blank"}
+  - Key Drivers: Ben Straub (GSK), Eric Nantz (Eli Lilly), Ning Leng (Roche/Genentech), and all members helping to drive the group.
+  - Recognition: The R Submission Working Group is a cross-industry pharma group focusing on improving practices for R-based clinical trial regulatory submissions. We were proud to present the award to this group for the incredible work they have done for the submissions pilots and for pushing the boundaries for future technologies. Their work includes:
+    - 3 completed submissions successfully accepted by the FDA.
+    - Pilot 4: Utilizing alternative methods of distributing a self-contained submission bundle of the Pilot 2 Shiny application container and web-assembly technologies.
+    - Pilot 5: Delivering a publicly accessible R-based Submission through the eCTD portal using datasetjson and utilizing R generate ADaM datasets (expanding on Pilots 1 and 3).
+
+#### 2023 Recipient: Novo Nordisk Team
+**Ari Siggaard Knoph (MSc), Steffen Falgreen Larsen (MSc, PhD), and Anders Ellern Bilgrau (MSc, PhD)**
+
+  - The Team: Novo Nordisk.
+  - Recognition: The Novo Nordisk team detailed their first FDA submission package featuring outputs exclusively written in R in a live presentation, showcasing a landmark achievement for the industry. Their contributions to the Open Source in Pharma ecosystem are truly astounding. They have done a wonderful job with their open-source submission and educating the community around R, the pharmaverse, and their journey! They truly represent the Open Source spirit and have helped thousands of people embrace open source for clinical reporting.
+  - More information: [https://posit.co/about/customer-stories/novo-nordisk/](https://posit.co/about/customer-stories/novo-nordisk/){target="_blank"}
+
+#### 2022 Recipient: The {admiral} Core Team and All Contributors
+**The core team and all contributors to {admiral} and its extension packages.**
+
+  - The Project: {admiral} (A Data Model in R)
+  - Recognition: The inaugural award was dedicated to the core team and all contributors to the {admiral} project. Their contributions to the Open Source in Pharma ecosystem are truly astounding. They have done a wonderful job with leading Admiral and also educating the community for free! They truly represent the Open Source spirit and have helped thousands of people embrace open source for clinical reporting.
+  - More information: [https://pharmaverse.github.io/admiral/cran-release/](https://pharmaverse.github.io/admiral/cran-release/){target="_blank"}
+
+### {.citation-image}
+
+Photo by <a href="https://unsplash.com/@giorgiotrovato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Giorgio Trovato</a> on <a href="https://unsplash.com/photos/yellow-and-white-trophy-_XTY6lD8jgM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
