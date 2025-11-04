@@ -53,7 +53,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "R/Pharma Virtual running from Nov 3-7. Register now! Schedule and workshops available online"
+    content: "R/Pharma Virtual is LIVE, check out schedule with workshops and talks from Nov 3-7. Register now! It's free!"
     type: primary
     position: below-navbar
   navbar:
