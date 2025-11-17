@@ -51,9 +51,9 @@ website:
 #        href: 
 #        aria-label:      
   announcement: 
-    icon: info-circle
+    icon: check-circle
     dismissable: true
-    content: "R/Pharma Virtual is LIVE, check out schedule with workshops and talks from Nov 3-7. Register now! It's free!"
+    content: "R/Pharma Virtual 2025 is now complete! Thank you for joining us. Workshop and talk recordings will be posted in the next few weeks."
     type: primary
     position: below-navbar
   navbar:
