@@ -238,6 +238,8 @@ icon_types &lt;- c(
   "Workshop" = "people", 
   "Coffee session" = "cup-hot", 
   "Schedule only" = "cup-hot", 
+  "Remarks" = "person-video3",
+  "Panel" = "people",
   "On-Demand" = "person-video3"
 )
 
@@ -326,7 +328,7 @@ server &lt;- function(input, output, session) {
     rows &lt;- lapply(seq_len(nrow(df)), function(i) {
       session &lt;- df[i,]
 
-      if (session$Type %in% c("Keynote", "Talk", "Workshop", "Coffee session", "Schedule only", "On-Demand")) {
+      if (session$Type %in% names(icon_types)) {
         type_icon &lt;- bs_icon(icon_types[session$Type]) |&gt; tooltip(session$Type)
       } else {
         type_icon &lt;- bs_icon("app") 
@@ -341,6 +343,13 @@ server &lt;- function(input, output, session) {
           title = "Abstract",
           session$Abstract
         )
+      }
+
+      ## Slides icon
+      if (is.na(session$Slides)) {
+        slides_icon &lt;- bs_icon("easel3-fill", color = "#ccc")
+      } else {
+        slides_icon &lt;- shiny::a(href = session$Slides, target = "_blank", bs_icon("easel3-fill", color = "#000"))
       }
 
       ## YouTube icon
@@ -369,6 +378,7 @@ server &lt;- function(input, output, session) {
             session$Local_Time
           ),
           span(
+            span(class = "me-2", slides_icon), 
             span(class = "me-2", youtube_icon), 
             abstract_icon
           )
