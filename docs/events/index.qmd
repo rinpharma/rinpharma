@@ -138,6 +138,13 @@ server <- function(input, output, session) {
         )
       }
 
+      ## Slides icon
+      if (is.na(session$Slides)) {
+        slides_icon <- bs_icon("easel3-fill", color = "#ccc")
+      } else {
+        slides_icon <- shiny::a(href = session$Slides, target = "_blank", bs_icon("easel3-fill", color = "#000"))
+      }
+
       ## YouTube icon
       if (is.na(session$Video)) {
         youtube_icon <- bs_icon("youtube", color = "#ccc")
@@ -164,6 +171,7 @@ server <- function(input, output, session) {
             session$Local_Time
           ),
           span(
+            span(class = "me-2", slides_icon), 
             span(class = "me-2", youtube_icon), 
             abstract_icon
           )
