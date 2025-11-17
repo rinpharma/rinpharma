@@ -33,6 +33,8 @@ icon_types <- c(
   "Workshop" = "people", 
   "Coffee session" = "cup-hot", 
   "Schedule only" = "cup-hot", 
+  "Remarks" = "person-video3",
+  "Panel" = "people",
   "On-Demand" = "person-video3"
 )
 
@@ -121,7 +123,7 @@ server <- function(input, output, session) {
     rows <- lapply(seq_len(nrow(df)), function(i) {
       session <- df[i,]
 
-      if (session$Type %in% c("Keynote", "Talk", "Workshop", "Coffee session", "Schedule only", "On-Demand")) {
+      if (session$Type %in% names(icon_types)) {
         type_icon <- bs_icon(icon_types[session$Type]) |> tooltip(session$Type)
       } else {
         type_icon <- bs_icon("app") 
