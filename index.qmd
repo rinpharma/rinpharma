@@ -29,7 +29,7 @@ Our mission:
 - Encourage seminars, discussion and facilitate collaboration between companies
 
 ::: {.hero-buttons}
-[R/Pharma 2025 Registration](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+<!--[R/Pharma 2025 Registration](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}-->
 [YouTube Channel](https://www.youtube.com/rinpharma){.btn-action-warning .btn-action .btn .btn-warning .btn-lg role="button"}
 ::: 
 
@@ -74,9 +74,11 @@ Our mission:
 ::: {.g-col-lg-6 .g-col-12}
 ## Latest Announcement
 
-R/Pharma conference registration is now open.  R/Pharma is a free conference covering the use of R and other open source technologies in Pharma and Biotech industries.  This year the conference will run from 3-7 November with both a Europe/US and an APAC track.
+R/Pharma 2025 recordings are now available on our YouTube channel.  Workshops will be available in January.
 
-:::: {.hero-buttons}
+R/Pharma will return in 2026 with several events.  Please check the R/Pharma website or LinkedIn page.
+
+<!--:::: {.hero-buttons}
 [R/Pharma 2025 Registration](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" target="_blank"}
 :::: 
 
@@ -86,7 +88,7 @@ Want to showcase your R package, shiny app, YouTube channel or blog?  Check out 
 
 :::: {.hero-buttons}
 [EXPO Details](docs/blog/posts/2025-10-18-expo/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
-:::: 
+::::--> 
 
 :::
 
@@ -108,11 +110,11 @@ The first conference took place in 2018, as an in-person event hosted by Harvard
 The conference is free to attend, and all hosting costs are met by contributions by 
 Pharma companies.
 
-R/Pharma runs Europe/US and APAC tracks.  To register click the button below.
+<!--R/Pharma runs Europe/US and APAC tracks.  To register click the button below.
 
 :::: {.hero-buttons}
 [R/Pharma 2025 Registration](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" target="_blank"}
-:::: 
+::::--> 
 
 :::
 
@@ -132,7 +134,7 @@ R/Pharma runs Europe/US and APAC tracks.  To register click the button below.
 
 The R/Pharma summit has run for three years at posit::conf.  In 2025, over 100 representatives from 40+ companies met in-person to discuss some of the most pressing topics pharma is tackling.  The in-person summit focuses on the future of drug development using open source and tailored for program leaders and people leading Open Source initiatives. A summary of prior years is here: [Summit page](/docs/summit). 
 
-Throughout the 2025 R/Pharma Summit, facilitators fostered in-person discussions and conversations about key items (reproducibility, interactivity, submissions, scalability, etc.) with industry leaders about open-source tools for next-generation submissions.The advisory board, shaping the agenda and planned actions for the event, spans >10 pharma companies, as well as CROs and academic research centers.
+Throughout the 2025 R/Pharma Summit, facilitators fostered in-person discussions and conversations about key items (reproducibility, interactivity, submissions, scalability, etc.) with industry leaders about open-source tools for next-generation submissions. The advisory board, shaping the agenda and planned actions for the event, is made up of more than 10 pharma companies as well as CROs and academic research centers.
 
 :::
 :::
