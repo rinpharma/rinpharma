@@ -26,7 +26,7 @@ Our mission:
 
 - Promote the use of open source, and collaboration between companies 
 - Put on fantastic, vendor free, community events like R/Pharma, R/Pharma APAC and R/Pharma Summit
-- Encourage seminars, dicussion and facilitate collaboration between companies
+- Encourage seminars, discussion and facilitate collaboration between companies
 
 ::: {.hero-buttons}
 [R/Pharma 2025 Registration](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
