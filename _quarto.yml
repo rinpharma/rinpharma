@@ -53,7 +53,7 @@ website:
   announcement: 
     icon: check-circle
     dismissable: true
-    content: "R/Pharma Virtual 2025 is now complete! Thank you for joining us. Workshop and talk recordings will be posted in the next few weeks."
+    content: "R/Pharma Virtual 2025 recordings are available on [YouTube](https://www.youtube.com/@RinPharma){target='_blank'}.  Workshop recordings will be available in January."
     type: primary
     position: below-navbar
   navbar:
@@ -65,8 +65,8 @@ website:
     left:
       - text: Overview
         href: index.qmd
-      - text: R/Pharma 2025
-        href: docs/RPH2025/index.qmd
+#      - text: R/Pharma 2025
+#        href: docs/RPH2025/index.qmd
       - text: Events
         href: docs/events/index.qmd
       - text: Summit
