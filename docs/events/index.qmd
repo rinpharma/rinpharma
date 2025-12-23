@@ -39,8 +39,8 @@ icon_types <- c(
 )
 
 ui <- page_fluid(
-tags$head(
-  tags$style(HTML("
+  tags$head(
+    tags$style(HTML("
     #event-items .item-outer {
       padding: 0.5rem;
       border-bottom: 0.5px solid #444;
@@ -59,8 +59,12 @@ tags$head(
       color: #444;
       font-size: 90%;
     }
+    .apac {
+      font-size: 0.5rem;
+      vertical-align: middle;
+    }
   "))),
-
+  
   layout_sidebar(
     sidebar = sidebar(
       selectInput(
@@ -122,13 +126,13 @@ server <- function(input, output, session) {
     # Build rows with popovers
     rows <- lapply(seq_len(nrow(df)), function(i) {
       session <- df[i,]
-
+      
       if (session$Type %in% names(icon_types)) {
         type_icon <- bs_icon(icon_types[session$Type]) |> tooltip(session$Type)
       } else {
         type_icon <- bs_icon("app") 
       }
-
+      
       ## Abstract icon
       if (is.na(session$Abstract)) {
         abstract_icon <- bs_icon("file-earmark-text", color = "#ccc")
@@ -139,21 +143,21 @@ server <- function(input, output, session) {
           session$Abstract
         )
       }
-
+      
       ## Slides icon
       if (is.na(session$Slides)) {
         slides_icon <- bs_icon("easel3-fill", color = "#ccc")
       } else {
         slides_icon <- shiny::a(href = session$Slides, target = "_blank", bs_icon("easel3-fill", color = "#000"))
       }
-
+      
       ## YouTube icon
       if (is.na(session$Video)) {
         youtube_icon <- bs_icon("youtube", color = "#ccc")
       } else {
         youtube_icon <- shiny::a(href = session$Video, target = "_blank", bs_icon("youtube", color = "#f00"))
       }
-
+      
       ## Presenter
       if (is.na(session$Affiliation)) {
         if (is.na(session$Speaker)) {
@@ -162,21 +166,30 @@ server <- function(input, output, session) {
           speaker <- session$Speaker
         }
       } else {
-      speaker <- paste0(session$Speaker, " (", session$Affiliation, ")")
+        speaker <- paste0(session$Speaker, " (", session$Affiliation, ")")
       }
-
+      
+      ## APAC badge
+      if (is.na(session$APAC)) {
+        apac_badge <- NULL
+      } else {
+        apac_badge <- span(class = "badge bg-light text-dark apac", "APAC") |> 
+          tooltip("session held in APAC region")
+      }
+      
       shiny::tags$div(
         class = "item-outer",
         div(class = "item-inner",
-          span(
-            span(class = "me-2", type_icon),
-            session$Local_Time
-          ),
-          span(
-            span(class = "me-2", slides_icon), 
-            span(class = "me-2", youtube_icon), 
-            abstract_icon
-          )
+            span(
+              span(class = "me-2", type_icon),
+              session$Local_Time,
+              apac_badge
+            ),
+            span(
+              span(class = "me-2", slides_icon), 
+              span(class = "me-2", youtube_icon), 
+              abstract_icon
+            )
         ),
         shiny::tags$div(class = "event-title", session$Title),
         shiny::tags$div(class = "event-speaker", speaker)
