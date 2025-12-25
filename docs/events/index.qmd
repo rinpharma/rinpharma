@@ -158,15 +158,19 @@ server <- function(input, output, session) {
         youtube_icon <- shiny::a(href = session$Video, target = "_blank", bs_icon("youtube", color = "#f00"))
       }
       
-      ## Presenter
-      if (is.na(session$Affiliation)) {
-        if (is.na(session$Speaker)) {
-          speaker <- ""
-        } else {
-          speaker <- session$Speaker
-        }
+      ## Presenters and affiliations
+      if (is.na(session$Speaker)) {
+        speakers <- NULL
       } else {
-        speaker <- paste0(session$Speaker, " (", session$Affiliation, ")")
+        speaker_count <- stringr::str_count(session$Speaker, "\\|") + 1
+        affiliation_count <- if (is.na(session$Affiliation)) 0 else stringr::str_count(session$Affiliation, "\\|") + 1
+        split_speakers <- unlist(strsplit(session$Speaker, " \\| "))
+        if (speaker_count == affiliation_count) {
+          split_affiliations <- unlist(strsplit(session$Affiliation, " \\| "))
+          speakers <- glue::glue_collapse(glue::glue("{split_speakers} ({split_affiliations})"), sep = ", ", last = " and ")
+        } else {
+          speakers <- glue::glue_collapse(split_speakers, sep = ", ", last = " and ")
+        }
       }
       
       ## APAC badge
@@ -192,7 +196,7 @@ server <- function(input, output, session) {
             )
         ),
         shiny::tags$div(class = "event-title", session$Title),
-        shiny::tags$div(class = "event-speaker", speaker)
+        shiny::tags$div(class = "event-speaker", speakers)
       )
     })
     
