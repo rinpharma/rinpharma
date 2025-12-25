@@ -359,15 +359,19 @@ server &lt;- function(input, output, session) {
         youtube_icon &lt;- shiny::a(href = session$Video, target = "_blank", bs_icon("youtube", color = "#f00"))
       }
       
-      ## Presenter
-      if (is.na(session$Affiliation)) {
-        if (is.na(session$Speaker)) {
-          speaker &lt;- ""
-        } else {
-          speaker &lt;- session$Speaker
-        }
+      ## Presenters and affiliations
+      if (is.na(session$Speaker)) {
+        speakers &lt;- NULL
       } else {
-        speaker &lt;- paste0(session$Speaker, " (", session$Affiliation, ")")
+        speaker_count &lt;- stringr::str_count(session$Speaker, "\\|") + 1
+        affiliation_count &lt;- if (is.na(session$Affiliation)) 0 else stringr::str_count(session$Affiliation, "\\|") + 1
+        split_speakers &lt;- unlist(strsplit(session$Speaker, " \\| "))
+        if (speaker_count == affiliation_count) {
+          split_affiliations &lt;- unlist(strsplit(session$Affiliation, " \\| "))
+          speakers &lt;- glue::glue_collapse(glue::glue("{split_speakers} ({split_affiliations})"), sep = ", ", last = " and ")
+        } else {
+          speakers &lt;- glue::glue_collapse(split_speakers, sep = ", ", last = " and ")
+        }
       }
       
       ## APAC badge
@@ -393,7 +397,7 @@ server &lt;- function(input, output, session) {
             )
         ),
         shiny::tags$div(class = "event-title", session$Title),
-        shiny::tags$div(class = "event-speaker", speaker)
+        shiny::tags$div(class = "event-speaker", speakers)
       )
     })
     
