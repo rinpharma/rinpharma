@@ -41,24 +41,60 @@ icon_types <- c(
 ui <- page_fluid(
   tags$head(
     tags$style(HTML("
+    
+    /* Constrain the entire Shiny app height */
+    html, body {
+      height: 100%;
+    }
+    
+    /* scrollbar for main panel */
+    #main-scroll {
+      height: calc(100vh - 1rem);
+      overflow-y: auto;
+      padding-right: 0.5rem;
+    }
+
+    /* sidebar never scrolls */
+    .bslib-sidebar {
+      max-height: 100vh;
+      overflow: hidden;
+    }
+    
+    /* Prevent Quarto page scroll */
+    .shiny-frame,
+    .shiny-bound-output,
+    .container-fluid {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    /* schedule items outer container */
     #event-items .item-outer {
       padding: 0.5rem;
       border-bottom: 0.5px solid #444;
     }
+
+    /* schedule top row */
     #event-items .item-inner {
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: 100%;
     }
+    
+    /* talk title */
     #event-items .event-title {
       font-weight: bold;
       margin-bottom: 0.25rem;
     }
+
+    /* speaker names and affiliations */
     #event-items .event-speaker {
       color: #444;
       font-size: 90%;
     }
+
+    /* styling for APAC badge */
     .apac {
       font-size: 0.5rem;
       vertical-align: middle;
@@ -74,11 +110,17 @@ ui <- page_fluid(
       ),
       uiOutput("day_buttons")
     ),
-    uiOutput("schedule_ui")
+    div(
+      id = "main-scroll",
+      uiOutput("schedule_ui")
+    )
   )
 )
 
 server <- function(input, output, session) {
+  
+  # Track selected day
+  selected_day <- reactiveVal(NULL)
   
   # Reactive subset by event
   event_data <- reactive({
@@ -90,29 +132,56 @@ server <- function(input, output, session) {
     unique(event_data()$date_local)
   })
   
-  # dynamically generate day filter buttons
-  output$day_buttons <- renderUI({
-    lapply(days(), function(d) {
-      actionButton(inputId = paste0("day_", d), label = d, class = "btn-primary m-0 rounded-3")
-    })
-  })
-  
-  # track selected day
-  selected_day <- reactiveVal(NULL)
-  
-  # default day
+  # Set a default day when event changes
   observeEvent(days(), {
-    if (length(days()) > 0) selected_day(days()[1])
-  })
-  
-  # update when button clicked
-  observe({
-    lapply(days(), function(d) {
-      observeEvent(input[[paste0("day_", d)]], {
-        selected_day(d)
-      })
+    req(days())
+    isolate({
+      selected_day(days()[1])
     })
   })
+
+  # dynamically generate day filter buttons or dropdown
+  output$day_buttons <- renderUI({
+    req(days())
+    ds <- days()
+    
+    if (length(ds) <= 6) {
+      # buttons for small number of days
+      div(
+        class = "d-grid gap-1",
+        lapply(ds, function(d) {
+          actionButton(
+            inputId = paste0("day_", d),
+            label = d,
+            class = "btn-primary rounded-3",
+            onclick = sprintf(
+              "Shiny.setInputValue('selected_day_click', '%s', {priority: 'event'})",
+              d
+            )
+          )
+        })
+      )
+    } else {
+      # switch to dropdown for many days
+      selectInput(
+        "day_select",
+        "Select day:",
+        choices = ds,
+        selected = selected_day()
+      )
+    }
+  })
+  
+  # Button click
+  observeEvent(input$selected_day_click, {
+    selected_day(input$selected_day_click)
+  }, ignoreInit = TRUE)
+
+ # Dropdown selection
+  observeEvent(input$day_select, {
+    req(input$day_select)
+    selected_day(input$day_select)
+  }, ignoreInit = TRUE)
   
   # schedule table
   output$schedule_ui <- renderUI({
