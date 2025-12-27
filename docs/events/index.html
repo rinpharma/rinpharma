@@ -356,7 +356,7 @@ server &lt;- function(input, output, session) {
             label = d,
             class = "btn-primary rounded-3",
             onclick = sprintf(
-              "Shiny.setInputValue('selected_day_click', '%s', {priority: 'event'})",
+              "Shiny.setInputValue('day', '%s', {priority: 'event'})",
               d
             )
           )
@@ -365,7 +365,7 @@ server &lt;- function(input, output, session) {
     } else {
       # switch to dropdown for many days
       selectInput(
-        "day_select",
+        "day",
         "Select day:",
         choices = ds,
         selected = selected_day()
@@ -373,15 +373,10 @@ server &lt;- function(input, output, session) {
     }
   })
   
-  # Button click
-  observeEvent(input$selected_day_click, {
-    selected_day(input$selected_day_click)
-  }, ignoreInit = TRUE)
-
- # Dropdown selection
-  observeEvent(input$day_select, {
-    req(input$day_select)
-    selected_day(input$day_select)
+  # Button click or dropdown selection
+  observeEvent(input$day, {
+    req(input$day)
+    selected_day(input$day)
   }, ignoreInit = TRUE)
   
   # schedule table
