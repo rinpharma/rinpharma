@@ -7,3 +7,6 @@ site_libs/
 .vscode/settings.json
 .Rproj.user/
 rinpharma.Rproj
+
+# nix development files
+result
