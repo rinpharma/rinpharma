@@ -17,7 +17,41 @@
 <width>144</width>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Tue, 04 Nov 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 09 Feb 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>The New and Improved R/Pharma Hangouts</title>
+  <dc:creator>Eric Nantz &amp; Jared Woolfolk</dc:creator>
+  <link>https://rinpharma.com/docs/blog/posts/2026-02-09-hangouts/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We are very excited to share that the R/Pharma Hangouts return in 2026! In this post you’ll learn more about what has inspired our new approach for this year’s series and a preview of what you can expect.</p>
+<section id="origins" class="level2">
+<h2 class="anchored" data-anchor-id="origins">Origins</h2>
+<p>The R/Pharma conference has been built on core principles of showcasing the value open-source software brings to the life sciences industry, with participation across industry, health authorities, and more to share their knowledge and learn from each other. With the main conference talks and highly-regarded workshops, there has been high interest to continue conversation about the topics shared as well as taking deeper dives into the many packages, workflows, and innovative uses of R in the conference. Over the past year, R/Pharma has held casual Hangout sessions once a month led by myself (Eric Nantz) and Jared Woolfolk as an open platform to discuss various topics.</p>
+<p>After a bit of reflection from the 2025 R/Pharma conference, Jared and I saw an opportunity to take the Hangout sessions in a new direction that blends key concepts seen in Posit’s popular Data Science Hangout, Data Science Lab, as well as my Shiny Developer Series. Specifically, this year’s hangouts will feature a key innovator in the world of open source and/or a group of innovators to go hands-on with a key R package, application, or entire workflow that is highly relevant to the life sciences industry. We are confident that this new format will encompass the values R/Pharma has always brought to the community while showcasing fundamental principles we can all benefit from, and have fun along the way!</p>
+</section>
+<section id="a-look-ahead" class="level2">
+<h2 class="anchored" data-anchor-id="a-look-ahead">A Look Ahead</h2>
+<p>Our first Hangout session in this new format is scheduled for February 17th (12:00 PM Eastern time) and featuring Posit software engineer Barret Schloerke, where we plan to take a hands-on look at leveraging OpenTelemetry inside Shiny applications to unlock new possibilities of observing usage patterns inside Shiny applications in ways that were cumbersome if not impossible beforehand. Barret <a href="https://www.youtube.com/watch?v=zwxhFKRlQLs">presented this topic</a> at posit::conf(2025) if you’re interested in seeing a preview.</p>
+<p>Each month of this year we plan to examine a different topic (another idea we’ve discussed is the state of dependency management for R packages), and we are also open to suggestions if you want us to consider a key area. We hope to have you join us next week!</p>
+</section>
+<section id="how-to-join" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-join">How to Join?</h2>
+<p>To sign up for our Hangout sessions, please subscribe to the <a href="https://www.addevent.com/calendar/wC797942">R/Pharma meeting calendar</a>!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>hangout</category>
+  <guid>https://rinpharma.com/docs/blog/posts/2026-02-09-hangouts/</guid>
+  <pubDate>Mon, 09 Feb 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2026-02-09-hangouts/crowd_pic.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>The Brian Bole Award</title>
   <dc:creator>R/Pharma </dc:creator>
