@@ -53,7 +53,7 @@ website:
   announcement: 
     icon: check-circle
     dismissable: true
-    content: "R/Pharma Virtual 2025 recordings are available on [YouTube](https://www.youtube.com/@RinPharma){target='_blank'}.  Workshop recordings will be available in January."
+    content: "All R/Pharma Virtual 2025 recordings (talks and workshops) are available on [YouTube](https://www.youtube.com/@RinPharma){target='_blank'}."
     type: primary
     position: below-navbar
   navbar:
