@@ -1,0 +1,61 @@
+---
+title: R/Pharma Basel Summit
+description: |
+  Join us for the R/Pharma Basel Summit on November 17th.
+categories:
+  - summit
+  - basel
+  - switzerland
+author: R/Pharma Organizing Committee
+date: 2026-11-17
+image-alt: "R/Pharma Basel Summit"
+---
+
+We are excited to announce the R/Pharma Basel Summit, taking place on November 17th!
+
+## What?
+
+The R/Pharma Basel Summit is a face-to-face gathering bringing together thought leaders and decision makers from the pharmaceutical industry to discuss all things open source, R, and pharma. Building on the success of our previous summits in Atlanta, Seattle, and Chicago, this Basel event continues our mission to foster in-person collaboration and knowledge sharing.
+
+## Who?
+
+This summit is designed for:
+
+- Statistical programmers and data scientists in pharma
+- R package developers and maintainers
+- Regulatory affairs professionals
+- Decision makers and leaders championing open source in pharma
+- Anyone passionate about advancing the use of R in pharmaceutical development
+
+## Where?
+
+Basel, Switzerland - the heart of the European pharmaceutical industry.
+
+Location details will be announced soon.
+
+## When?
+
+**November 17th, 2026**
+
+Full schedule and timing details to be announced.
+
+## Why Basel?
+
+Basel is home to numerous pharmaceutical companies and represents a strategic location for European pharma professionals. This summit will provide an opportunity to:
+
+- Discuss the latest developments in R for pharma
+- Share best practices and lessons learned
+- Build connections with peers across the industry
+- Collaborate on advancing open source initiatives in pharmaceutical development
+
+## How to Get Involved
+
+Stay tuned for registration details and the full program agenda.
+
+For questions or to express interest in participating, please [contact us](https://rinpharma.com/contact.html).
+
+---
+
+We look forward to seeing you in Basel!
+
+On behalf of the R/Pharma Organizing Committee.
