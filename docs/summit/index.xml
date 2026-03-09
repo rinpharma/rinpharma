@@ -83,6 +83,169 @@
   <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>AI in Pharma (2025)</title>
+  <dc:creator>Jeremy Wildfire</dc:creator>
+  <dc:creator>Sri Pavan Vemuri</dc:creator>
+  <dc:creator>Satish Murthy</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2025-ai.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="ai-in-pharma" class="level1">
+<h1>AI in Pharma</h1>
+<p>Chairs: Jeremy Wildfire, Sri Pavan Vemuri and Satish Murthy</p>
+<p>See also: <a href="../../../docs/summit/posts/2023-ai.html">2023 Discussion</a>, <a href="../../../docs/summit/posts/2024-ai.html">2024 Discussion</a></p>
+<section id="current-use-cases" class="level2">
+<h2 class="anchored" data-anchor-id="current-use-cases">Current Use Cases</h2>
+<ul>
+<li><strong>Development Support</strong>: Chatbots, ADM, Adam TLF coding standards, general coding support and automation</li>
+<li><strong>Specification Generation</strong>: Potential for generating specifications from SAPs and study documents to complete the code generation loop</li>
+<li><strong>Clinical Operations</strong>:
+<ul>
+<li>Improving operational efficiency</li>
+<li>Signal detection for safety monitoring</li>
+</ul></li>
+</ul>
+</section>
+<section id="implementation-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="implementation-strategy">Implementation Strategy</h2>
+<ul>
+<li>Break problems into manageable pipelines</li>
+<li>Start with proof-of-concepts (POCs)</li>
+<li>Leverage domain knowledge as a key asset</li>
+</ul>
+</section>
+<section id="technical-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="technical-challenges">Technical Challenges</h2>
+<ul>
+<li><strong>Data Privacy</strong>: Major concern with handling sensitive clinical data securely</li>
+<li><strong>Quality Control</strong>: Issues with traceability, repeatability, and quality control</li>
+<li><strong>AI Limitations</strong>: Hallucination problems with AI outputs</li>
+<li><strong>Implementation Issues</strong>: Tendency to over-engineer solutions rather than creating manageable ones</li>
+</ul>
+</section>
+<section id="organizational-barriers" class="level2">
+<h2 class="anchored" data-anchor-id="organizational-barriers">Organizational Barriers</h2>
+<ul>
+<li><strong>Management Resistance</strong>: Leadership not being on board due to established habits</li>
+<li><strong>ROI Challenges</strong>: Difficulty demonstrating return on investment</li>
+<li><strong>Validation Requirements</strong>: Need for repeatability and validation processes</li>
+<li><strong>Training Needs</strong>: Comprehensive user training required for process changes</li>
+<li><strong>Job Security Concerns</strong>: Worries about AI-related job displacement</li>
+</ul>
+</section>
+<section id="regulatory-and-compliance-issues" class="level2">
+<h2 class="anchored" data-anchor-id="regulatory-and-compliance-issues">Regulatory and Compliance Issues</h2>
+<ul>
+<li><strong>Audit Trail</strong>: Maintaining proper audit trails</li>
+<li><strong>Documentation</strong>: Ensuring complete documentation and transparency of AI pathways</li>
+<li><strong>Quality Standards</strong>: Meeting industry quality standards</li>
+<li><strong>Data Governance</strong>: Implementing proper guardrails and controls on sensitive data</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2025</category>
+  <category>AI</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2025-ai.html</guid>
+  <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Python for Clinical Study Reports and Submission (2025)</title>
+  <dc:creator>Yilong Zhang</dc:creator>
+  <dc:creator>Jonathan Tisack</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2025-python.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="python-for-clinical-study-reports-and-submission" class="level1">
+<h1>Python for Clinical Study Reports and Submission</h1>
+<p>Chairs: Yilong Zhang and Jonathan Tisack</p>
+<section id="industry-heterogeneity" class="level2">
+<h2 class="anchored" data-anchor-id="industry-heterogeneity">Industry Heterogeneity</h2>
+<ul>
+<li><strong>Medical Devices vs.&nbsp;Pharma</strong>: Different use cases and adoption patterns
+<ul>
+<li>Medical device engineers more familiar with Python as standard language</li>
+<li>Creates challenges managing multiple languages within organizations</li>
+<li>Some companies choosing Python-only approach despite challenges</li>
+</ul></li>
+</ul>
+</section>
+<section id="primary-use-cases" class="level2">
+<h2 class="anchored" data-anchor-id="primary-use-cases">Primary Use Cases</h2>
+<ul>
+<li><strong>Medical Devices</strong>:
+<ul>
+<li>Large datasets from device data</li>
+<li>Product development beyond just data analysis</li>
+<li>Engineering-driven adoption</li>
+</ul></li>
+<li><strong>Pharma Applications</strong>:
+<ul>
+<li>ETL processes for speed advantages</li>
+<li>Machine learning implementations</li>
+<li>Data engineering tasks</li>
+</ul></li>
+</ul>
+</section>
+<section id="validation-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="validation-challenges">Validation Challenges</h2>
+<ul>
+<li><strong>R Validation Hub Principles</strong>: White paper was meant to be language-agnostic, principles apply to Python</li>
+<li><strong>Trusted Sources</strong>: Questions about what constitutes trusted sources in Python ecosystem
+<ul>
+<li>Anaconda, PyPI with RSPM scrutiny mentioned as possibilities</li>
+<li>Python ecosystem seen as “wild west” compared to R</li>
+</ul></li>
+<li><strong>Statistical Packages</strong>: Python statistical libraries still developing; roughly 8 years behind R in maturity</li>
+<li><strong>Containers</strong>: Discussion of containerization for validation approaches</li>
+</ul>
+</section>
+<section id="regulatory-and-submission-status" class="level2">
+<h2 class="anchored" data-anchor-id="regulatory-and-submission-status">Regulatory and Submission Status</h2>
+<ul>
+<li><strong>Submission Gap</strong>: No Python submissions to regulators yet (unlike R which has established precedent)</li>
+<li><strong>Regulatory Acceptance</strong>: Need for groundwork similar to what was done for R submissions</li>
+<li><strong>Pilot Programs</strong>: Reference to submission pilots (pilot 15) for future development</li>
+</ul>
+</section>
+<section id="python-vs.-r-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="python-vs.-r-considerations">Python vs.&nbsp;R Considerations</h2>
+<ul>
+<li><strong>GenAI Integration</strong>: Python more prevalent in generative AI development, potentially driving adoption</li>
+<li><strong>Large Dataset Handling</strong>: Python advantages for genetic datasets and other large-scale data due to memory limitations in R</li>
+<li><strong>Statistical Maturity</strong>: R still ahead in statistical package validation and regulatory acceptance</li>
+</ul>
+</section>
+<section id="future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
+<ul>
+<li>Need for Python-specific validation frameworks</li>
+<li>Development of regulatory submission pathways</li>
+<li>Balancing language choice with organizational capabilities</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2025</category>
+  <category>Python</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2025-python.html</guid>
+  <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Quality &amp; Validation (2025)</title>
   <dc:creator>Olga Mierzwa-Sulima</dc:creator>
   <dc:creator>Eric Nantz</dc:creator>
@@ -175,95 +338,6 @@
   <category>2025</category>
   <category>Validation</category>
   <guid>https://rinpharma.com/docs/summit/posts/2025-quality.html</guid>
-  <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Python for Clinical Study Reports and Submission (2025)</title>
-  <dc:creator>Yilong Zhang</dc:creator>
-  <dc:creator>Jonathan Tisack</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2025-python.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="python-for-clinical-study-reports-and-submission" class="level1">
-<h1>Python for Clinical Study Reports and Submission</h1>
-<p>Chairs: Yilong Zhang and Jonathan Tisack</p>
-<section id="industry-heterogeneity" class="level2">
-<h2 class="anchored" data-anchor-id="industry-heterogeneity">Industry Heterogeneity</h2>
-<ul>
-<li><strong>Medical Devices vs.&nbsp;Pharma</strong>: Different use cases and adoption patterns
-<ul>
-<li>Medical device engineers more familiar with Python as standard language</li>
-<li>Creates challenges managing multiple languages within organizations</li>
-<li>Some companies choosing Python-only approach despite challenges</li>
-</ul></li>
-</ul>
-</section>
-<section id="primary-use-cases" class="level2">
-<h2 class="anchored" data-anchor-id="primary-use-cases">Primary Use Cases</h2>
-<ul>
-<li><strong>Medical Devices</strong>:
-<ul>
-<li>Large datasets from device data</li>
-<li>Product development beyond just data analysis</li>
-<li>Engineering-driven adoption</li>
-</ul></li>
-<li><strong>Pharma Applications</strong>:
-<ul>
-<li>ETL processes for speed advantages</li>
-<li>Machine learning implementations</li>
-<li>Data engineering tasks</li>
-</ul></li>
-</ul>
-</section>
-<section id="validation-challenges" class="level2">
-<h2 class="anchored" data-anchor-id="validation-challenges">Validation Challenges</h2>
-<ul>
-<li><strong>R Validation Hub Principles</strong>: White paper was meant to be language-agnostic, principles apply to Python</li>
-<li><strong>Trusted Sources</strong>: Questions about what constitutes trusted sources in Python ecosystem
-<ul>
-<li>Anaconda, PyPI with RSPM scrutiny mentioned as possibilities</li>
-<li>Python ecosystem seen as “wild west” compared to R</li>
-</ul></li>
-<li><strong>Statistical Packages</strong>: Python statistical libraries still developing; roughly 8 years behind R in maturity</li>
-<li><strong>Containers</strong>: Discussion of containerization for validation approaches</li>
-</ul>
-</section>
-<section id="regulatory-and-submission-status" class="level2">
-<h2 class="anchored" data-anchor-id="regulatory-and-submission-status">Regulatory and Submission Status</h2>
-<ul>
-<li><strong>Submission Gap</strong>: No Python submissions to regulators yet (unlike R which has established precedent)</li>
-<li><strong>Regulatory Acceptance</strong>: Need for groundwork similar to what was done for R submissions</li>
-<li><strong>Pilot Programs</strong>: Reference to submission pilots (pilot 15) for future development</li>
-</ul>
-</section>
-<section id="python-vs.-r-considerations" class="level2">
-<h2 class="anchored" data-anchor-id="python-vs.-r-considerations">Python vs.&nbsp;R Considerations</h2>
-<ul>
-<li><strong>GenAI Integration</strong>: Python more prevalent in generative AI development, potentially driving adoption</li>
-<li><strong>Large Dataset Handling</strong>: Python advantages for genetic datasets and other large-scale data due to memory limitations in R</li>
-<li><strong>Statistical Maturity</strong>: R still ahead in statistical package validation and regulatory acceptance</li>
-</ul>
-</section>
-<section id="future-directions" class="level2">
-<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
-<ul>
-<li>Need for Python-specific validation frameworks</li>
-<li>Development of regulatory submission pathways</li>
-<li>Balancing language choice with organizational capabilities</li>
-</ul>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>2025</category>
-  <category>Python</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2025-python.html</guid>
   <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -434,177 +508,41 @@
   <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>AI in Pharma (2025)</title>
-  <dc:creator>Jeremy Wildfire</dc:creator>
-  <dc:creator>Sri Pavan Vemuri</dc:creator>
-  <dc:creator>Satish Murthy</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2025-ai.html</link>
+  <title>Sharing R code without sharing R code (2024)</title>
+  <dc:creator>Rohan Parmar</dc:creator>
+  <dc:creator>Min Lee</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<section id="ai-in-pharma" class="level1">
-<h1>AI in Pharma</h1>
-<p>Chairs: Jeremy Wildfire, Sri Pavan Vemuri and Satish Murthy</p>
-<p>See also: <a href="../../../docs/summit/posts/2023-ai.html">2023 Discussion</a>, <a href="../../../docs/summit/posts/2024-ai.html">2024 Discussion</a></p>
-<section id="current-use-cases" class="level2">
-<h2 class="anchored" data-anchor-id="current-use-cases">Current Use Cases</h2>
-<ul>
-<li><strong>Development Support</strong>: Chatbots, ADM, Adam TLF coding standards, general coding support and automation</li>
-<li><strong>Specification Generation</strong>: Potential for generating specifications from SAPs and study documents to complete the code generation loop</li>
-<li><strong>Clinical Operations</strong>:
-<ul>
-<li>Improving operational efficiency</li>
-<li>Signal detection for safety monitoring</li>
-</ul></li>
-</ul>
+<section id="sharing-r-code-without-sharing-r-code" class="level1">
+<h1>Sharing R code without sharing R code</h1>
+<p>Chairs: Rohan Parmar and Min Lee</p>
+<section id="proposal" class="level2">
+<h2 class="anchored" data-anchor-id="proposal">Proposal</h2>
+<p>You created a small shiny application for your colleagues in a small team (2-5 people), that application is now getting extensive usage with more than 20, 30 or even 300 users. How do you go about scaling up your application? We want to hear from other users’ experience in creating long lived R based workflows. This can be anything from small snippets of code that started off as scripts that can be sequestered into R packages that are idiomatic to commonly used R interfaces to cater to a wider audience. Shiny apps that are doing computationally heavy tasks with multiple users that require you to think about scalability, fault tolerance, and complexity.</p>
 </section>
-<section id="implementation-strategy" class="level2">
-<h2 class="anchored" data-anchor-id="implementation-strategy">Implementation Strategy</h2>
-<ul>
-<li>Break problems into manageable pipelines</li>
-<li>Start with proof-of-concepts (POCs)</li>
-<li>Leverage domain knowledge as a key asset</li>
-</ul>
-</section>
-<section id="technical-challenges" class="level2">
-<h2 class="anchored" data-anchor-id="technical-challenges">Technical Challenges</h2>
-<ul>
-<li><strong>Data Privacy</strong>: Major concern with handling sensitive clinical data securely</li>
-<li><strong>Quality Control</strong>: Issues with traceability, repeatability, and quality control</li>
-<li><strong>AI Limitations</strong>: Hallucination problems with AI outputs</li>
-<li><strong>Implementation Issues</strong>: Tendency to over-engineer solutions rather than creating manageable ones</li>
-</ul>
-</section>
-<section id="organizational-barriers" class="level2">
-<h2 class="anchored" data-anchor-id="organizational-barriers">Organizational Barriers</h2>
-<ul>
-<li><strong>Management Resistance</strong>: Leadership not being on board due to established habits</li>
-<li><strong>ROI Challenges</strong>: Difficulty demonstrating return on investment</li>
-<li><strong>Validation Requirements</strong>: Need for repeatability and validation processes</li>
-<li><strong>Training Needs</strong>: Comprehensive user training required for process changes</li>
-<li><strong>Job Security Concerns</strong>: Worries about AI-related job displacement</li>
-</ul>
-</section>
-<section id="regulatory-and-compliance-issues" class="level2">
-<h2 class="anchored" data-anchor-id="regulatory-and-compliance-issues">Regulatory and Compliance Issues</h2>
-<ul>
-<li><strong>Audit Trail</strong>: Maintaining proper audit trails</li>
-<li><strong>Documentation</strong>: Ensuring complete documentation and transparency of AI pathways</li>
-<li><strong>Quality Standards</strong>: Meeting industry quality standards</li>
-<li><strong>Data Governance</strong>: Implementing proper guardrails and controls on sensitive data</li>
-</ul>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>2025</category>
-  <category>AI</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2025-ai.html</guid>
-  <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Modern SCEs (2024)</title>
-  <dc:creator>James Black</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2024-sce.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="modern-sces" class="level1">
-<h1>Modern SCEs</h1>
-<p>Chair: James Black</p>
-<p>See also: <a href="../../../docs/summit/posts/2023-sce.html">2023 Discussion</a></p>
-<section id="objectively-track-migrationslanguage-use-in-studies" class="level2">
-<h2 class="anchored" data-anchor-id="objectively-track-migrationslanguage-use-in-studies">Objectively track migrations/language use in studies?</h2>
-<ul>
-<li>Most companies are using Github or Gitlab for study code - if we know where all the repos are, can we scan them via the API to track things like which studies are using R, Python or still on SAS?</li>
-<li><strong>Key Questions:</strong>
-<ul>
-<li>What code should be scanned? Look for files present? <code>.sas</code>, <code>.R</code>, <code>.py</code>, <code>.sql</code>, etc.? Is it more accurate than inbuilt language detection present in API endpoints?</li>
-<li>Should the focus be on studying all code written or only focus on study code (e.g.&nbsp;limit scope to org that holds studies)?</li>
-<li>Is there an API endpoint that can indicate which repository is being used?</li>
-</ul></li>
-</ul>
-</section>
-<section id="can-we-understand-what-packages-are-being-used-in-studies" class="level2">
-<h2 class="anchored" data-anchor-id="can-we-understand-what-packages-are-being-used-in-studies">Can we understand what packages are being used in studies?</h2>
-<ul>
-<li><strong>Idea:</strong>
-<ul>
-<li>The Posit Package Manager API doesn’t reliably say what validated R packages are used in each study, but as <code>renv</code> is used more, can we scan the <code>renv.lock</code> files to see what packages are being used?</li>
-</ul></li>
-<li><strong>Purpose:</strong>
-<ul>
-<li>This helps validation teams, our teams working on R packages, as well as help flag if we need to identify who used a specific version of a specific package in a study.</li>
-<li>Where packages are ‘pre-baked’ into containers to speed up ‘time to pulling data’, want to keep that as lean as possible using metrics like this.</li>
-</ul></li>
-</ul>
-</section>
-<section id="understanding-container-use" class="level2">
-<h2 class="anchored" data-anchor-id="understanding-container-use">Understanding container use</h2>
-<ul>
-<li><strong>Challenges:</strong>
-<ul>
-<li>How do we understand uptake of managed images, and who is using old images?</li>
-<li>Need for a strategy to manage container upgrades effectively.</li>
-<li>Actively understand patterns of image use across your SCE</li>
-<li>Look at patterns that should be dealt with - e.g.&nbsp;large numbers of idle interactive containers clogging worker nodes</li>
-</ul></li>
-<li><strong>Idea:</strong>
-<ul>
-<li>Pull k8’s logs to get list of all active containers by person over time</li>
-</ul></li>
-</ul>
-</section>
-<section id="keeping-connect-lean" class="level2">
-<h2 class="anchored" data-anchor-id="keeping-connect-lean">Keeping Connect lean</h2>
-<ul>
-<li><strong>Idea:</strong>
-<ul>
-<li>Roche had an example where &gt;500 broken items, and &gt;500 items not touched in more than a year were on the server</li>
-<li>Use Connect data (the postgres database as the API is very slow) to remove content</li>
-</ul></li>
-<li><strong>Purpose:</strong>
-<ul>
-<li>Remove potentially GBs of un-used data on the Connect server, and also enforce retention rules</li>
-</ul></li>
-</ul>
-</section>
-<section id="general-notes" class="level2">
-<h2 class="anchored" data-anchor-id="general-notes">General notes</h2>
-<ul>
-<li>Shift continues to data being outside of the SCE</li>
-<li>Some companies moved to ‘iterate anywhere - final batch runs matter’ stance. Some still consider every activity requiring validation.</li>
-<li>Discussion highlighted a split on whether internet access is blocked - in some companies there is no air gap, in ohers there is, particularly on ‘validated batch runs’</li>
-<li>singularity compresses containers better</li>
-<li>big celebrations that now we do not need to rebuild containers each time workbench is updated!!</li>
-<li>Provenance is an audit/validation requirement</li>
-<li>Explore the potential use of common tools to data engineering that are absent in clinical reporting (e.g.&nbsp;dbt, airflow, prefect)</li>
-</ul>
-</section>
-<section id="action-items-and-questions" class="level2">
-<h2 class="anchored" data-anchor-id="action-items-and-questions">Action Items and Questions</h2>
-<ul>
-<li><strong>Action Item:</strong>
-<ul>
-<li>White paper with Mark Bynens on the SCE.</li>
-<li>In white paper, clarify what the SCE is and how to handle program environments and data integration more effectively.</li>
-</ul></li>
-</ul>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<ul>
-<li>James’ posit::conf talk: <a href="https://epijim.uk/talk/giving-your-scientific-computing-environment-sce-a-voice/">epijim.uk/talk/giving-your-scientific-computing-environment-sce-a-voice</a></li>
-<li>Alanah Jonas from GSK may have a relevant talk later in the year at PHUSE EU 2024</li>
-</ul>
+<section id="expected-impact" class="level2">
+<h2 class="anchored" data-anchor-id="expected-impact">Expected impact</h2>
+<p>Sharing how others have made their R code into something that is much more user friendly or easier to contribute to. Code that readily interfaces with prior frameworks like tidyverse or scales easily. Other R users can navigate the trade-offs around consistency and scalability. Make informed decisions when writing R code taking into account future necessities such as validation requirements or maintainability.</p>
+<p><a href="https://github.com/rinpharma/rinpharma-summit-2024/discussions/16">Productionalizing R code · rinpharma rinpharma-summit-2024 · Discussion #16</a></p>
+<p>In the discussion, it was noted this was a common problem where an app grows into something bigger organically, and Nitesh flagged some connection to the topic of wanting to share R functions without sharing the R code.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Additional notes are not available for this roundtable.</p>
+</div>
+</div>
 
 
 </section>
@@ -612,8 +550,10 @@
 
  ]]></description>
   <category>2024</category>
-  <category>SCE</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2024-sce.html</guid>
+  <category>OS</category>
+  <category>R</category>
+  <category>Products</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</guid>
   <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -674,302 +614,6 @@
   <category>OS</category>
   <category>Change management</category>
   <guid>https://rinpharma.com/docs/summit/posts/2024-change-mgt.html</guid>
-  <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Small to mid Pharma in an post-SAS world (2024)</title>
-  <dc:creator>Katie Igartua</dc:creator>
-  <dc:creator>Kas Yousefi</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="smallmid-pharma-os" class="level1">
-<h1>Small/mid pharma &amp; OS</h1>
-<p>Chairs: Katie Igartua and Kas Yousefi</p>
-<section id="proposal" class="level2">
-<h2 class="anchored" data-anchor-id="proposal">Proposal</h2>
-<p>A pressing topic I think we should discuss is how best to engage and enable small/mid-sized pharma to use open source Ecosystems.</p>
-<p>It can be sometimes overwhelming and would be helpful to have an idea where to start to join the open source journey and utilize the resources and approaches already available.</p>
-<p>Some questions:</p>
-<ol type="1">
-<li>How to go about setting up an open source Environment? What are the hurdles? How can the crowd-sourced groups help?</li>
-<li>Could small pharma use R for IB/DSUR? Does this need to be in a validated environment?</li>
-<li>How do other small pharma companies uses open-source environments? and what would be areas for collaboration?</li>
-</ol>
-</section>
-<section id="expected-impact" class="level2">
-<h2 class="anchored" data-anchor-id="expected-impact">Expected impact</h2>
-<p>I believe this topic would be a benefit because small pharma often needs to be innovative, but due to resource limits may rely on traditional approaches and heavily rely on CROs. Having stronger small pharma presence could help in new resources and approaches for open-sourced solutions</p>
-</section>
-<section id="prior-discussionswork" class="level2">
-<h2 class="anchored" data-anchor-id="prior-discussionswork">Prior discussions/work</h2>
-<p>Some prior work includes……</p>
-<ul>
-<li>BBSW Panel Discussion for Open Source Tools in Small/mid sized pharma</li>
-<li><a href="https://github.com/rinpharma/rinpharma-summit-2024/discussions/17">How best to engage and enable small/mid-size pharma to use open source tools · rinpharma rinpharma-summit-2024 · Discussion #17</a></li>
-</ul>
-</section>
-<section id="round-table" class="level2">
-<h2 class="anchored" data-anchor-id="round-table">Round table</h2>
-<ul>
-<li>Open sourcing adoption/contribution barrier
-<ul>
-<li>risk taking when you only have one product</li>
-<li>cost: small companies often fully outsource regulatory work to CROs, hard to justify additional investment on infra or open source work for non regulatory tasks</li>
-<li>IT resource: posit installation for small pharma - small company may not have the right in house IT talent to even get posit running</li>
-<li>Are you ready to be a shiny dev ops person &amp; R admin?</li>
-</ul></li>
-<li>What are use cases to use open source? mainly in non validated env
-<ul>
-<li>data review, monitoring, visualization, patient profile, DSUR</li>
-<li>IDCC uses shiny for IDMC close sessions (instead of long pdf)</li>
-</ul></li>
-<li>Asks to the community
-<ul>
-<li>can large pharma open source their infra config? such as AMS yaml file?
-<ul>
-<li>from the perspective at the intersection of IT, DS, stat</li>
-</ul></li>
-<li>what about a “single” opinionated workflow (pharmaverse is seen more as a comprehensive tool box)
-<ul>
-<li>from an independent body such as r consortium?</li>
-<li>or can individual big pharma publish the whole workflow</li>
-</ul></li>
-</ul></li>
-<li>GxP set up: timing tradeoff - is it good to set up early or late? setting up early can put on restrictions that is hard to change later. balance of flexibility, best practice and cost</li>
-</ul>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>2024</category>
-  <category>R</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</guid>
-  <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Can we do data storage and processing better in clinical trials (2024)?</title>
-  <dc:creator>Stephanie Lussier</dc:creator>
-  <dc:creator>Doug Kelkhoff</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2024-dataformat.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="can-we-do-data-better" class="level1">
-<h1>Can we do data better?</h1>
-<p>Chairs: Stephanie Lussier and Doug Kelkhoff</p>
-<section id="databases" class="level3">
-<h3 class="anchored" data-anchor-id="databases"><code>databases</code></h3>
-<p>A lot of thought currently about databases, but not a lot of companies using it in primary data flows (although it is used in curated trial data for secondary use, e.g.&nbsp;Novartis’ Data42 and Roche’s EDIS).</p>
-</section>
-<section id="blockers" class="level3">
-<h3 class="anchored" data-anchor-id="blockers">Blockers</h3>
-<ul>
-<li>Dependence on CROs who deliver SAS datasets generated by SAS code is a factor.</li>
-<li>Often fear from IT groups about the cloud, which is sometimes confusing when platforms like medidate are already cloud-based and other companies already have STDM/ADaM in AWS S3/cloud.</li>
-<li>Unclear justification for changes, particularly what are we getting from databases for current STDM/ADaM primary use; existing systems are mostly functional.</li>
-<li>Challenges with concurrent data access by multiple teams in some file based approaches, leading to errors.</li>
-</ul>
-</section>
-<section id="an-approach-around-tortoisesvn" class="level3">
-<h3 class="anchored" data-anchor-id="an-approach-around-tortoisesvn">An approach around tortoiseSVN</h3>
-<ul>
-<li>One company had been using tortoiseSVN for a while, and is considering moving to snowflake.</li>
-<li>Pros: Integration with version control and modern cloud storage solutions.</li>
-<li>Cons:
-<ul>
-<li>Higher entry threshold for users.</li>
-<li>Gap in a user friendly GUI</li>
-<li>Storing data in ‘normal’ version control rather than tools designed for data versioning rapidly leads to bloated repositories.</li>
-</ul></li>
-</ul>
-</section>
-<section id="version-control-and-data-storage" class="level3">
-<h3 class="anchored" data-anchor-id="version-control-and-data-storage">Version Control and Data Storage</h3>
-<ul>
-<li>Alignment code versioning in Git; data versioning in tools like S3 versioning</li>
-<li>S3 can be accessed as a mounted drive (e.g.&nbsp;Lustre) and the S3 API.</li>
-</ul>
-</section>
-<section id="denodo-as-data-fabric-mesh" class="level3">
-<h3 class="anchored" data-anchor-id="denodo-as-data-fabric-mesh">Denodo as Data Fabric Mesh</h3>
-<p>One company uses Denodo as a data fabric mesh; users interact via Denodo, which serves as an API layer. No direct interaction with the source data by users.</p>
-</section>
-<section id="nontabular-data" class="level3">
-<h3 class="anchored" data-anchor-id="nontabular-data">Nontabular Data</h3>
-<ul>
-<li>Not common for statistical programmers working on clinical trial data.</li>
-</ul>
-</section>
-<section id="cdisc-dataset-json-vs.-manifest-json" class="level3">
-<h3 class="anchored" data-anchor-id="cdisc-dataset-json-vs.-manifest-json">CDISC Dataset JSON vs.&nbsp;Manifest JSON</h3>
-<p>Writing CDISC JSON is super slow and potentially not sufficient for regular working data.</p>
-</section>
-<section id="popularity-and-concerns-with-parquet-datasets" class="level3">
-<h3 class="anchored" data-anchor-id="popularity-and-concerns-with-parquet-datasets">Popularity and Concerns with Parquet Datasets</h3>
-<ul>
-<li>Admiral tool generates Parquet directly; others convert from SAS to Parquet.</li>
-<li>Questions about the longevity and maintenance requirements of Parquet as it’s a blob (vs a ‘human readable’ format like CSV/JSON)</li>
-</ul>
-</section>
-<section id="handling-legacy-data" class="level3">
-<h3 class="anchored" data-anchor-id="handling-legacy-data">Handling Legacy Data</h3>
-<ul>
-<li>Suggest stacking legacy data into a database if for secondary data use</li>
-</ul>
-</section>
-<section id="change-management" class="level3">
-<h3 class="anchored" data-anchor-id="change-management">Change Management</h3>
-<ul>
-<li>For statistical programming, direct instruction to new systems is necessary.</li>
-<li>Emphasize direct support over broad training.</li>
-<li>Simplify systems for users to reduce friction.</li>
-<li>Consider a GUI similar to Azure.</li>
-<li>Focus on reducing the user burden.</li>
-</ul>
-</section>
-<section id="different-data-use-cases" class="level3">
-<h3 class="anchored" data-anchor-id="different-data-use-cases">Different Data Use Cases</h3>
-<p>Differences in data use (e.g., Shiny App vs.&nbsp;regulatory documents). Dashboards directly accessing EDC without needing snapshots.</p>
-</section>
-<section id="summary" class="level3">
-<h3 class="anchored" data-anchor-id="summary"><strong>Summary</strong></h3>
-<p>Uncertain value in moving from CDISC data standards to databases. Limited interest and action in this area across the organization. Not a high priority given other ongoing organizational changes. Ongoing shift away from SAS-based datasets and file storage to cloud-based systems, with increasing use of Parquet.</p>
-</section>
-<section id="action-items" class="level3">
-<h3 class="anchored" data-anchor-id="action-items"><strong>Action Items</strong></h3>
-<ul>
-<li>SCE whitepaper - mark bynum from J&amp;J</li>
-<li>Is there actual value / gain in databases?</li>
-<li>Not the best investment relative to other non-data changes going on across organization (e.g.&nbsp;R, containers, etc)</li>
-</ul>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>2024</category>
-  <category>OS</category>
-  <category>Data</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2024-dataformat.html</guid>
-  <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Sharing R code without sharing R code (2024)</title>
-  <dc:creator>Rohan Parmar</dc:creator>
-  <dc:creator>Min Lee</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="sharing-r-code-without-sharing-r-code" class="level1">
-<h1>Sharing R code without sharing R code</h1>
-<p>Chairs: Rohan Parmar and Min Lee</p>
-<section id="proposal" class="level2">
-<h2 class="anchored" data-anchor-id="proposal">Proposal</h2>
-<p>You created a small shiny application for your colleagues in a small team (2-5 people), that application is now getting extensive usage with more than 20, 30 or even 300 users. How do you go about scaling up your application? We want to hear from other users’ experience in creating long lived R based workflows. This can be anything from small snippets of code that started off as scripts that can be sequestered into R packages that are idiomatic to commonly used R interfaces to cater to a wider audience. Shiny apps that are doing computationally heavy tasks with multiple users that require you to think about scalability, fault tolerance, and complexity.</p>
-</section>
-<section id="expected-impact" class="level2">
-<h2 class="anchored" data-anchor-id="expected-impact">Expected impact</h2>
-<p>Sharing how others have made their R code into something that is much more user friendly or easier to contribute to. Code that readily interfaces with prior frameworks like tidyverse or scales easily. Other R users can navigate the trade-offs around consistency and scalability. Make informed decisions when writing R code taking into account future necessities such as validation requirements or maintainability.</p>
-<p><a href="https://github.com/rinpharma/rinpharma-summit-2024/discussions/16">Productionalizing R code · rinpharma rinpharma-summit-2024 · Discussion #16</a></p>
-<p>In the discussion, it was noted this was a common problem where an app grows into something bigger organically, and Nitesh flagged some connection to the topic of wanting to share R functions without sharing the R code.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Additional notes are not available for this roundtable.</p>
-</div>
-</div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>2024</category>
-  <category>OS</category>
-  <category>R</category>
-  <category>Products</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</guid>
-  <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Validating R packages (2024)</title>
-  <dc:creator>Doug Kelkhof</dc:creator>
-  <dc:creator>Margaret Wishart</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2024-r-pkg-validation.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="validating-r-packages" class="level1">
-<h1>Validating R packages</h1>
-<p>Chairs: Doug Kelkhof and Margaret Wishart</p>
-<section id="package-lifecycle-management-and-validation" class="level2">
-<h2 class="anchored" data-anchor-id="package-lifecycle-management-and-validation">Package Lifecycle Management and Validation</h2>
-<p>Lifecycle Changes and Impact: Managing the lifecycle of R packages is crucial, particularly understanding what it means for a package to change its behavior. It’s important to assess whether such changes are significant and if they impact the stability or reliability of the package. The use of tools like Diffify can help track lifecycle changes and validate whether new versions introduce breaking changes or fix bugs.</p>
-<p>Containerization and Stability: Containers, such as those created using Nix, are increasingly seen as a way forward for maintaining stable software environments. They help bundle specific package versions, ensuring that a validated environment can be reliably reproduced. However, there are challenges, such as what exactly gets bundled in a container and the legal implications (e.g., GPL license concerns). Posit snapshots are favored by some for controlled environments, as they significantly reduce maintenance, though migrating snapshots can introduce challenges.</p>
-<p>Snapshot Management: Deciding when to lock down a snapshot is crucial. Should it be at the beginning of a project, or after some initial work? Snapshots offer a stable point of reference, but as packages evolve, there’s a risk of missing out on important updates or bug fixes. The question of whether to use an old snapshot or stay on the cutting edge is a balancing act between stability and leveraging new features or fixes.</p>
-<p>Temporal Metrics: With rapidly changing packages, it’s important to look at temporal metrics to assess risks associated with quick changes. For instance, the validation of packages like Arrow needs to consider how a bug fix might impact its validation status and whether a high rate of change poses additional risks.</p>
-</section>
-<section id="risk-management-and-validation-practices" class="level2">
-<h2 class="anchored" data-anchor-id="risk-management-and-validation-practices">Risk Management and Validation Practices</h2>
-<p>Risk Retrospective: There’s a need for a systematic approach to retrospectively evaluate risks. For example, running old tests on new package versions can reveal breaking changes or confirm that past bugs have been addressed. This process ensures that packages remain reliable over time, even as they evolve.</p>
-<p>Automation vs Human Involvement: While automation is key to maintaining consistency, especially in long-term projects, human oversight is crucial for high-risk packages. These packages often require additional validation steps, and there’s debate over how much human intervention is necessary. High-risk packages might involve more in-the-loop validation, while low-risk ones could rely more on automated processes.</p>
-</section>
-<section id="internal-vs-external-package-validation" class="level2">
-<h2 class="anchored" data-anchor-id="internal-vs-external-package-validation">Internal vs External Package Validation</h2>
-<p>Differentiated Validation Criteria: Internal packages often have different validation criteria compared to those on CRAN. Internal developers might not be as familiar with traditional checks like R CMD checks, leading to a need for more tailored validation processes. It’s also noted that internal validation is more stringent, often requiring additional tests that aren’t open-sourced, which raises questions about whether these should be contributed to public repositories.</p>
-<p>Baseline and Organizational Validation: Organizations often maintain a baseline of validated packages and differentiate between internal and third-party vendor packages. Some organizations have recreated their own risk metrics tools, tailoring them to their specific needs. The audit process involves defining testing processes and being aware of the risks associated with package updates or changes.</p>
-</section>
-<section id="unit-testing-and-quality-assurance" class="level2">
-<h2 class="anchored" data-anchor-id="unit-testing-and-quality-assurance">Unit Testing and Quality Assurance</h2>
-<p>Effective Testing Beyond Coverage: Simply hitting a coverage threshold is not enough; the quality of tests is crucial. For instance, high test coverage doesn’t guarantee that the tests are meaningful or effective. There’s a need to ensure that tests validate the core functionality of packages, particularly in statistical packages that might be treated differently due to their implications in analysis.</p>
-<p>Custom and Public Contributions: Organizations often write additional tests on top of package tests to further validate functionality. However, these tests are usually kept internal, which leads to a discussion on the potential benefits of contributing these tests to public repositories. Barriers to this include the time-intensive nature of creating these tests and a lack of familiarity with the contribution process.</p>
-<p>Regulatory and Industry Standards: In regulated industries, such as pharmaceuticals, there are higher requirements for package submissions, including unit tests and documentation. Collaboration with regulatory bodies like the FDA and EMA is essential to establish minimum validation requirements. Pharmaverse, for example, has adopted a notion that all packages must have standardized documentation and testing, accepted by the community.</p>
-</section>
-<section id="package-management-and-environment-control" class="level2">
-<h2 class="anchored" data-anchor-id="package-management-and-environment-control">Package Management and Environment Control</h2>
-<p>Package Manager and Snapshot Control: Managing package snapshots is typically the responsibility of IT, with packages being added as needed. Renv is commonly used but can sometimes fail catastrophically, leading to a preference for Posit snapshots in controlled environments. This method cuts down maintenance significantly, though issues arise when migrating snapshots, as users may have to deal with multiple package version updates simultaneously.</p>
-<p>Containerization Challenges: While Docker containers are technically preferred for creating stable environments, there are trade-offs, such as handling individual environments and licensing concerns. Containers might be seen as derivative works under GPL, which complicates their use in proprietary settings. Nix offers a different approach by locking down R and package versions with a declarative installation method, though challenges remain with mirrors and installation reliability. Snapshot Migration and Version Locking: The decision of when to lock down a snapshot—whether at the beginning of a project or after some work has been done—is critical. Locking down too early might prevent access to necessary updates, while delaying it could introduce instability. Some organizations favor letting certain users work on the bleeding edge to vet new package versions, while others prioritize stability by locking down environments early on.</p>
-</section>
-<section id="action-items-and-future-directions" class="level2">
-<h2 class="anchored" data-anchor-id="action-items-and-future-directions">Action Items and Future Directions</h2>
-<p>Validation Guidelines and Metrics: There’s a need to establish standard validation guidelines that include metrics to help determine risk levels. This could start with Pharmaverse and eventually be expanded to other areas in pharma and beyond.</p>
-<p>Collaboration with Regulatory Bodies: Working with entities like the FDA and EMA to develop minimum validation requirements and documentation standards for R packages is essential. This collaboration would help ensure that the industry adopts consistent and reliable validation practices.</p>
-<p>Text-Based Metric Files: Creating text-based files for major defined metrics would facilitate the tracking and management of package validation. This would help in setting clear criteria for evaluating package risk and determining when additional scrutiny is needed.</p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>2024</category>
-  <category>R</category>
-  <category>Validation</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2024-r-pkg-validation.html</guid>
   <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -1163,6 +807,362 @@ Warning
   <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>Modern SCEs (2024)</title>
+  <dc:creator>James Black</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2024-sce.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="modern-sces" class="level1">
+<h1>Modern SCEs</h1>
+<p>Chair: James Black</p>
+<p>See also: <a href="../../../docs/summit/posts/2023-sce.html">2023 Discussion</a></p>
+<section id="objectively-track-migrationslanguage-use-in-studies" class="level2">
+<h2 class="anchored" data-anchor-id="objectively-track-migrationslanguage-use-in-studies">Objectively track migrations/language use in studies?</h2>
+<ul>
+<li>Most companies are using Github or Gitlab for study code - if we know where all the repos are, can we scan them via the API to track things like which studies are using R, Python or still on SAS?</li>
+<li><strong>Key Questions:</strong>
+<ul>
+<li>What code should be scanned? Look for files present? <code>.sas</code>, <code>.R</code>, <code>.py</code>, <code>.sql</code>, etc.? Is it more accurate than inbuilt language detection present in API endpoints?</li>
+<li>Should the focus be on studying all code written or only focus on study code (e.g.&nbsp;limit scope to org that holds studies)?</li>
+<li>Is there an API endpoint that can indicate which repository is being used?</li>
+</ul></li>
+</ul>
+</section>
+<section id="can-we-understand-what-packages-are-being-used-in-studies" class="level2">
+<h2 class="anchored" data-anchor-id="can-we-understand-what-packages-are-being-used-in-studies">Can we understand what packages are being used in studies?</h2>
+<ul>
+<li><strong>Idea:</strong>
+<ul>
+<li>The Posit Package Manager API doesn’t reliably say what validated R packages are used in each study, but as <code>renv</code> is used more, can we scan the <code>renv.lock</code> files to see what packages are being used?</li>
+</ul></li>
+<li><strong>Purpose:</strong>
+<ul>
+<li>This helps validation teams, our teams working on R packages, as well as help flag if we need to identify who used a specific version of a specific package in a study.</li>
+<li>Where packages are ‘pre-baked’ into containers to speed up ‘time to pulling data’, want to keep that as lean as possible using metrics like this.</li>
+</ul></li>
+</ul>
+</section>
+<section id="understanding-container-use" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-container-use">Understanding container use</h2>
+<ul>
+<li><strong>Challenges:</strong>
+<ul>
+<li>How do we understand uptake of managed images, and who is using old images?</li>
+<li>Need for a strategy to manage container upgrades effectively.</li>
+<li>Actively understand patterns of image use across your SCE</li>
+<li>Look at patterns that should be dealt with - e.g.&nbsp;large numbers of idle interactive containers clogging worker nodes</li>
+</ul></li>
+<li><strong>Idea:</strong>
+<ul>
+<li>Pull k8’s logs to get list of all active containers by person over time</li>
+</ul></li>
+</ul>
+</section>
+<section id="keeping-connect-lean" class="level2">
+<h2 class="anchored" data-anchor-id="keeping-connect-lean">Keeping Connect lean</h2>
+<ul>
+<li><strong>Idea:</strong>
+<ul>
+<li>Roche had an example where &gt;500 broken items, and &gt;500 items not touched in more than a year were on the server</li>
+<li>Use Connect data (the postgres database as the API is very slow) to remove content</li>
+</ul></li>
+<li><strong>Purpose:</strong>
+<ul>
+<li>Remove potentially GBs of un-used data on the Connect server, and also enforce retention rules</li>
+</ul></li>
+</ul>
+</section>
+<section id="general-notes" class="level2">
+<h2 class="anchored" data-anchor-id="general-notes">General notes</h2>
+<ul>
+<li>Shift continues to data being outside of the SCE</li>
+<li>Some companies moved to ‘iterate anywhere - final batch runs matter’ stance. Some still consider every activity requiring validation.</li>
+<li>Discussion highlighted a split on whether internet access is blocked - in some companies there is no air gap, in ohers there is, particularly on ‘validated batch runs’</li>
+<li>singularity compresses containers better</li>
+<li>big celebrations that now we do not need to rebuild containers each time workbench is updated!!</li>
+<li>Provenance is an audit/validation requirement</li>
+<li>Explore the potential use of common tools to data engineering that are absent in clinical reporting (e.g.&nbsp;dbt, airflow, prefect)</li>
+</ul>
+</section>
+<section id="action-items-and-questions" class="level2">
+<h2 class="anchored" data-anchor-id="action-items-and-questions">Action Items and Questions</h2>
+<ul>
+<li><strong>Action Item:</strong>
+<ul>
+<li>White paper with Mark Bynens on the SCE.</li>
+<li>In white paper, clarify what the SCE is and how to handle program environments and data integration more effectively.</li>
+</ul></li>
+</ul>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li>James’ posit::conf talk: <a href="https://epijim.uk/talk/giving-your-scientific-computing-environment-sce-a-voice/">epijim.uk/talk/giving-your-scientific-computing-environment-sce-a-voice</a></li>
+<li>Alanah Jonas from GSK may have a relevant talk later in the year at PHUSE EU 2024</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2024</category>
+  <category>SCE</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2024-sce.html</guid>
+  <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Validating R packages (2024)</title>
+  <dc:creator>Doug Kelkhof</dc:creator>
+  <dc:creator>Margaret Wishart</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2024-r-pkg-validation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="validating-r-packages" class="level1">
+<h1>Validating R packages</h1>
+<p>Chairs: Doug Kelkhof and Margaret Wishart</p>
+<section id="package-lifecycle-management-and-validation" class="level2">
+<h2 class="anchored" data-anchor-id="package-lifecycle-management-and-validation">Package Lifecycle Management and Validation</h2>
+<p>Lifecycle Changes and Impact: Managing the lifecycle of R packages is crucial, particularly understanding what it means for a package to change its behavior. It’s important to assess whether such changes are significant and if they impact the stability or reliability of the package. The use of tools like Diffify can help track lifecycle changes and validate whether new versions introduce breaking changes or fix bugs.</p>
+<p>Containerization and Stability: Containers, such as those created using Nix, are increasingly seen as a way forward for maintaining stable software environments. They help bundle specific package versions, ensuring that a validated environment can be reliably reproduced. However, there are challenges, such as what exactly gets bundled in a container and the legal implications (e.g., GPL license concerns). Posit snapshots are favored by some for controlled environments, as they significantly reduce maintenance, though migrating snapshots can introduce challenges.</p>
+<p>Snapshot Management: Deciding when to lock down a snapshot is crucial. Should it be at the beginning of a project, or after some initial work? Snapshots offer a stable point of reference, but as packages evolve, there’s a risk of missing out on important updates or bug fixes. The question of whether to use an old snapshot or stay on the cutting edge is a balancing act between stability and leveraging new features or fixes.</p>
+<p>Temporal Metrics: With rapidly changing packages, it’s important to look at temporal metrics to assess risks associated with quick changes. For instance, the validation of packages like Arrow needs to consider how a bug fix might impact its validation status and whether a high rate of change poses additional risks.</p>
+</section>
+<section id="risk-management-and-validation-practices" class="level2">
+<h2 class="anchored" data-anchor-id="risk-management-and-validation-practices">Risk Management and Validation Practices</h2>
+<p>Risk Retrospective: There’s a need for a systematic approach to retrospectively evaluate risks. For example, running old tests on new package versions can reveal breaking changes or confirm that past bugs have been addressed. This process ensures that packages remain reliable over time, even as they evolve.</p>
+<p>Automation vs Human Involvement: While automation is key to maintaining consistency, especially in long-term projects, human oversight is crucial for high-risk packages. These packages often require additional validation steps, and there’s debate over how much human intervention is necessary. High-risk packages might involve more in-the-loop validation, while low-risk ones could rely more on automated processes.</p>
+</section>
+<section id="internal-vs-external-package-validation" class="level2">
+<h2 class="anchored" data-anchor-id="internal-vs-external-package-validation">Internal vs External Package Validation</h2>
+<p>Differentiated Validation Criteria: Internal packages often have different validation criteria compared to those on CRAN. Internal developers might not be as familiar with traditional checks like R CMD checks, leading to a need for more tailored validation processes. It’s also noted that internal validation is more stringent, often requiring additional tests that aren’t open-sourced, which raises questions about whether these should be contributed to public repositories.</p>
+<p>Baseline and Organizational Validation: Organizations often maintain a baseline of validated packages and differentiate between internal and third-party vendor packages. Some organizations have recreated their own risk metrics tools, tailoring them to their specific needs. The audit process involves defining testing processes and being aware of the risks associated with package updates or changes.</p>
+</section>
+<section id="unit-testing-and-quality-assurance" class="level2">
+<h2 class="anchored" data-anchor-id="unit-testing-and-quality-assurance">Unit Testing and Quality Assurance</h2>
+<p>Effective Testing Beyond Coverage: Simply hitting a coverage threshold is not enough; the quality of tests is crucial. For instance, high test coverage doesn’t guarantee that the tests are meaningful or effective. There’s a need to ensure that tests validate the core functionality of packages, particularly in statistical packages that might be treated differently due to their implications in analysis.</p>
+<p>Custom and Public Contributions: Organizations often write additional tests on top of package tests to further validate functionality. However, these tests are usually kept internal, which leads to a discussion on the potential benefits of contributing these tests to public repositories. Barriers to this include the time-intensive nature of creating these tests and a lack of familiarity with the contribution process.</p>
+<p>Regulatory and Industry Standards: In regulated industries, such as pharmaceuticals, there are higher requirements for package submissions, including unit tests and documentation. Collaboration with regulatory bodies like the FDA and EMA is essential to establish minimum validation requirements. Pharmaverse, for example, has adopted a notion that all packages must have standardized documentation and testing, accepted by the community.</p>
+</section>
+<section id="package-management-and-environment-control" class="level2">
+<h2 class="anchored" data-anchor-id="package-management-and-environment-control">Package Management and Environment Control</h2>
+<p>Package Manager and Snapshot Control: Managing package snapshots is typically the responsibility of IT, with packages being added as needed. Renv is commonly used but can sometimes fail catastrophically, leading to a preference for Posit snapshots in controlled environments. This method cuts down maintenance significantly, though issues arise when migrating snapshots, as users may have to deal with multiple package version updates simultaneously.</p>
+<p>Containerization Challenges: While Docker containers are technically preferred for creating stable environments, there are trade-offs, such as handling individual environments and licensing concerns. Containers might be seen as derivative works under GPL, which complicates their use in proprietary settings. Nix offers a different approach by locking down R and package versions with a declarative installation method, though challenges remain with mirrors and installation reliability. Snapshot Migration and Version Locking: The decision of when to lock down a snapshot—whether at the beginning of a project or after some work has been done—is critical. Locking down too early might prevent access to necessary updates, while delaying it could introduce instability. Some organizations favor letting certain users work on the bleeding edge to vet new package versions, while others prioritize stability by locking down environments early on.</p>
+</section>
+<section id="action-items-and-future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="action-items-and-future-directions">Action Items and Future Directions</h2>
+<p>Validation Guidelines and Metrics: There’s a need to establish standard validation guidelines that include metrics to help determine risk levels. This could start with Pharmaverse and eventually be expanded to other areas in pharma and beyond.</p>
+<p>Collaboration with Regulatory Bodies: Working with entities like the FDA and EMA to develop minimum validation requirements and documentation standards for R packages is essential. This collaboration would help ensure that the industry adopts consistent and reliable validation practices.</p>
+<p>Text-Based Metric Files: Creating text-based files for major defined metrics would facilitate the tracking and management of package validation. This would help in setting clear criteria for evaluating package risk and determining when additional scrutiny is needed.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2024</category>
+  <category>R</category>
+  <category>Validation</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2024-r-pkg-validation.html</guid>
+  <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Can we do data storage and processing better in clinical trials (2024)?</title>
+  <dc:creator>Stephanie Lussier</dc:creator>
+  <dc:creator>Doug Kelkhoff</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2024-dataformat.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="can-we-do-data-better" class="level1">
+<h1>Can we do data better?</h1>
+<p>Chairs: Stephanie Lussier and Doug Kelkhoff</p>
+<section id="databases" class="level3">
+<h3 class="anchored" data-anchor-id="databases"><code>databases</code></h3>
+<p>A lot of thought currently about databases, but not a lot of companies using it in primary data flows (although it is used in curated trial data for secondary use, e.g.&nbsp;Novartis’ Data42 and Roche’s EDIS).</p>
+</section>
+<section id="blockers" class="level3">
+<h3 class="anchored" data-anchor-id="blockers">Blockers</h3>
+<ul>
+<li>Dependence on CROs who deliver SAS datasets generated by SAS code is a factor.</li>
+<li>Often fear from IT groups about the cloud, which is sometimes confusing when platforms like medidate are already cloud-based and other companies already have STDM/ADaM in AWS S3/cloud.</li>
+<li>Unclear justification for changes, particularly what are we getting from databases for current STDM/ADaM primary use; existing systems are mostly functional.</li>
+<li>Challenges with concurrent data access by multiple teams in some file based approaches, leading to errors.</li>
+</ul>
+</section>
+<section id="an-approach-around-tortoisesvn" class="level3">
+<h3 class="anchored" data-anchor-id="an-approach-around-tortoisesvn">An approach around tortoiseSVN</h3>
+<ul>
+<li>One company had been using tortoiseSVN for a while, and is considering moving to snowflake.</li>
+<li>Pros: Integration with version control and modern cloud storage solutions.</li>
+<li>Cons:
+<ul>
+<li>Higher entry threshold for users.</li>
+<li>Gap in a user friendly GUI</li>
+<li>Storing data in ‘normal’ version control rather than tools designed for data versioning rapidly leads to bloated repositories.</li>
+</ul></li>
+</ul>
+</section>
+<section id="version-control-and-data-storage" class="level3">
+<h3 class="anchored" data-anchor-id="version-control-and-data-storage">Version Control and Data Storage</h3>
+<ul>
+<li>Alignment code versioning in Git; data versioning in tools like S3 versioning</li>
+<li>S3 can be accessed as a mounted drive (e.g.&nbsp;Lustre) and the S3 API.</li>
+</ul>
+</section>
+<section id="denodo-as-data-fabric-mesh" class="level3">
+<h3 class="anchored" data-anchor-id="denodo-as-data-fabric-mesh">Denodo as Data Fabric Mesh</h3>
+<p>One company uses Denodo as a data fabric mesh; users interact via Denodo, which serves as an API layer. No direct interaction with the source data by users.</p>
+</section>
+<section id="nontabular-data" class="level3">
+<h3 class="anchored" data-anchor-id="nontabular-data">Nontabular Data</h3>
+<ul>
+<li>Not common for statistical programmers working on clinical trial data.</li>
+</ul>
+</section>
+<section id="cdisc-dataset-json-vs.-manifest-json" class="level3">
+<h3 class="anchored" data-anchor-id="cdisc-dataset-json-vs.-manifest-json">CDISC Dataset JSON vs.&nbsp;Manifest JSON</h3>
+<p>Writing CDISC JSON is super slow and potentially not sufficient for regular working data.</p>
+</section>
+<section id="popularity-and-concerns-with-parquet-datasets" class="level3">
+<h3 class="anchored" data-anchor-id="popularity-and-concerns-with-parquet-datasets">Popularity and Concerns with Parquet Datasets</h3>
+<ul>
+<li>Admiral tool generates Parquet directly; others convert from SAS to Parquet.</li>
+<li>Questions about the longevity and maintenance requirements of Parquet as it’s a blob (vs a ‘human readable’ format like CSV/JSON)</li>
+</ul>
+</section>
+<section id="handling-legacy-data" class="level3">
+<h3 class="anchored" data-anchor-id="handling-legacy-data">Handling Legacy Data</h3>
+<ul>
+<li>Suggest stacking legacy data into a database if for secondary data use</li>
+</ul>
+</section>
+<section id="change-management" class="level3">
+<h3 class="anchored" data-anchor-id="change-management">Change Management</h3>
+<ul>
+<li>For statistical programming, direct instruction to new systems is necessary.</li>
+<li>Emphasize direct support over broad training.</li>
+<li>Simplify systems for users to reduce friction.</li>
+<li>Consider a GUI similar to Azure.</li>
+<li>Focus on reducing the user burden.</li>
+</ul>
+</section>
+<section id="different-data-use-cases" class="level3">
+<h3 class="anchored" data-anchor-id="different-data-use-cases">Different Data Use Cases</h3>
+<p>Differences in data use (e.g., Shiny App vs.&nbsp;regulatory documents). Dashboards directly accessing EDC without needing snapshots.</p>
+</section>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary"><strong>Summary</strong></h3>
+<p>Uncertain value in moving from CDISC data standards to databases. Limited interest and action in this area across the organization. Not a high priority given other ongoing organizational changes. Ongoing shift away from SAS-based datasets and file storage to cloud-based systems, with increasing use of Parquet.</p>
+</section>
+<section id="action-items" class="level3">
+<h3 class="anchored" data-anchor-id="action-items"><strong>Action Items</strong></h3>
+<ul>
+<li>SCE whitepaper - mark bynum from J&amp;J</li>
+<li>Is there actual value / gain in databases?</li>
+<li>Not the best investment relative to other non-data changes going on across organization (e.g.&nbsp;R, containers, etc)</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2024</category>
+  <category>OS</category>
+  <category>Data</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2024-dataformat.html</guid>
+  <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Small to mid Pharma in an post-SAS world (2024)</title>
+  <dc:creator>Katie Igartua</dc:creator>
+  <dc:creator>Kas Yousefi</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="smallmid-pharma-os" class="level1">
+<h1>Small/mid pharma &amp; OS</h1>
+<p>Chairs: Katie Igartua and Kas Yousefi</p>
+<section id="proposal" class="level2">
+<h2 class="anchored" data-anchor-id="proposal">Proposal</h2>
+<p>A pressing topic I think we should discuss is how best to engage and enable small/mid-sized pharma to use open source Ecosystems.</p>
+<p>It can be sometimes overwhelming and would be helpful to have an idea where to start to join the open source journey and utilize the resources and approaches already available.</p>
+<p>Some questions:</p>
+<ol type="1">
+<li>How to go about setting up an open source Environment? What are the hurdles? How can the crowd-sourced groups help?</li>
+<li>Could small pharma use R for IB/DSUR? Does this need to be in a validated environment?</li>
+<li>How do other small pharma companies uses open-source environments? and what would be areas for collaboration?</li>
+</ol>
+</section>
+<section id="expected-impact" class="level2">
+<h2 class="anchored" data-anchor-id="expected-impact">Expected impact</h2>
+<p>I believe this topic would be a benefit because small pharma often needs to be innovative, but due to resource limits may rely on traditional approaches and heavily rely on CROs. Having stronger small pharma presence could help in new resources and approaches for open-sourced solutions</p>
+</section>
+<section id="prior-discussionswork" class="level2">
+<h2 class="anchored" data-anchor-id="prior-discussionswork">Prior discussions/work</h2>
+<p>Some prior work includes……</p>
+<ul>
+<li>BBSW Panel Discussion for Open Source Tools in Small/mid sized pharma</li>
+<li><a href="https://github.com/rinpharma/rinpharma-summit-2024/discussions/17">How best to engage and enable small/mid-size pharma to use open source tools · rinpharma rinpharma-summit-2024 · Discussion #17</a></li>
+</ul>
+</section>
+<section id="round-table" class="level2">
+<h2 class="anchored" data-anchor-id="round-table">Round table</h2>
+<ul>
+<li>Open sourcing adoption/contribution barrier
+<ul>
+<li>risk taking when you only have one product</li>
+<li>cost: small companies often fully outsource regulatory work to CROs, hard to justify additional investment on infra or open source work for non regulatory tasks</li>
+<li>IT resource: posit installation for small pharma - small company may not have the right in house IT talent to even get posit running</li>
+<li>Are you ready to be a shiny dev ops person &amp; R admin?</li>
+</ul></li>
+<li>What are use cases to use open source? mainly in non validated env
+<ul>
+<li>data review, monitoring, visualization, patient profile, DSUR</li>
+<li>IDCC uses shiny for IDMC close sessions (instead of long pdf)</li>
+</ul></li>
+<li>Asks to the community
+<ul>
+<li>can large pharma open source their infra config? such as AMS yaml file?
+<ul>
+<li>from the perspective at the intersection of IT, DS, stat</li>
+</ul></li>
+<li>what about a “single” opinionated workflow (pharmaverse is seen more as a comprehensive tool box)
+<ul>
+<li>from an independent body such as r consortium?</li>
+<li>or can individual big pharma publish the whole workflow</li>
+</ul></li>
+</ul></li>
+<li>GxP set up: timing tradeoff - is it good to set up early or late? setting up early can put on restrictions that is hard to change later. balance of flexibility, best practice and cost</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2024</category>
+  <category>R</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</guid>
+  <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Depending on Open Source (2023)</title>
   <dc:creator>Mike Smith</dc:creator>
   <dc:creator>Ed Lauzier</dc:creator>
@@ -1204,189 +1204,90 @@ Warning
   <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Interactive CSR (2023)</title>
-  <dc:creator>Ning Ling</dc:creator>
-  <dc:creator>Phil Bowsher</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-interactive-csr.html</link>
+  <title>Change management (2023)</title>
+  <dc:creator>Matthew Kumar</dc:creator>
+  <dc:creator>Cassie Burns</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<section id="interactive-csr" class="level1">
-<h1>Interactive CSR</h1>
-<p>Chairs: Ning Leng and Phil Bowsher</p>
+<section id="change-management" class="level1">
+<h1>Change management</h1>
+<p>Chairs: Matthew Kumar and Cassie Burns</p>
+<p>See also: <a href="../../../docs/summit/posts/2024-change-mgt.html">2024 Discussion</a></p>
 <section id="question" class="level2">
 <h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>If we assume it’s technically possible to transfer - what would it mean to give an interactive CSR? How would primary, secondary and ad-hoc analysis be viewed? Would views change depending on role (e.g.&nbsp;sponsor, statistical reviewer, clinical reviewer)?</p>
+<p>Where are we on getting data analysts and data scientists that work with clinical data on board (in particular, those delivering CSRs and submission packages)? What are the challenges - what has been overcome?</p>
 </section>
-<section id="why" class="level2">
-<h2 class="anchored" data-anchor-id="why">Why?</h2>
-<p>The current process of CSR generation and review involves generating large amounts of tables and plots. In such scenarios, we believe an interactive application would provide a more efficient method to explore both primary and secondary analysis results.</p>
+<section id="who-are-our-people" class="level2">
+<h2 class="anchored" data-anchor-id="who-are-our-people">Who are our people?</h2>
+<p>Prefaced both sessions by asking individuals to define the <em>our</em> in <em>our people</em>;</p>
+<ul>
+<li>Stat Programmers</li>
+<li>Statisticians</li>
+<li>Data Management</li>
+<li>Other CSR-deliverable oriented roles (e.g.&nbsp;medical and scientific writing)</li>
+<li>Management, Leadership</li>
+</ul>
+<section id="theme-r-adoption-and-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="theme-r-adoption-and-challenges">Theme: R Adoption and Challenges</h3>
+<ul>
+<li><p>The adoption of R requires varied types of commitment depending on the perspective of the stakeholders involved, notably management and employees.</p></li>
+<li><p>Leadership usually supports the adoption of R, yet, in many cases, they don’t adequately communicate or advocate its application. Common concerns include the lack of realized ROI and the perception of R as a “nice-to-have” rather than a necessity.</p></li>
+<li><p>It is not viable to mandate or compel individuals to learn R.</p></li>
+<li><p>Seasoned programmers, who prefer proprietary software, may leave the company if forced to switch.</p></li>
+<li><p>These programmers often prefer to maintain current workflows that involve proprietary tools, established macros, homegrown IDEs, etc.</p></li>
+<li><p>Some in management endorse an approach of “mandate” or “force,” while others aim to “encourage.”</p></li>
+<li><p>Experienced stat programmers cite R’s learning curve as an obstacle to transition, and some don’t see the ROI in making the switch.</p></li>
+</ul>
 </section>
-<section id="barriers" class="level2">
-<h2 class="anchored" data-anchor-id="barriers">Barriers</h2>
+<section id="theme-change-management" class="level3">
+<h3 class="anchored" data-anchor-id="theme-change-management">Theme: Change Management</h3>
 <ul>
-<li>Internally
+<li><p>Implementing proper change management was emphasized by several attendees in both sessions.</p></li>
+<li><p>Organically, through change management, approximately 25% of experienced statistical programmers or statisticians have successfully completed R training, while the remaining 75% have shown resistance.</p></li>
+<li><p>Among the successful 25%, only 5% have applied what they’ve learned in actual study work. This is often due to time constraints related to product deliverables.</p></li>
+<li><p>Mapping the transition to R with learning and development goals is one strategy.</p></li>
+<li><p>A structured learning plan and a roadmap for R upskilling are essential. This includes trainings focused on R, particularly in the context of the pharmaceutical industry, and from a proprietary software programmer’s perspective.</p></li>
+<li><p>Identification of champions or early adopters among statistical programmers could aid in transitioning colleagues.</p></li>
+<li><p>Several companies shared their strategies for promoting community learning (e.g., bi-monthly meetings, presentations, assignments), both on a “just in time” basis and on a regular schedule.</p></li>
+<li><p>Pointing individuals to ongoing efforts and resources, such as R in Pharma, PharmaVerse, Phuse, etc., can boost awareness and participation.</p></li>
+<li><p>Granting individuals protected or dedicated time to learn and fail is recommended. An analogy used was “giving them a safe sandbox to try making a castle.”</p></li>
+<li><p>R need not be used for all tasks immediately. A more measured approach, such as starting with creating figures and then moving to more complex tasks, like AdAM programming, could better build confidence and competence.</p></li>
+<li><p>Ensuring enough transition time and clear direction (“as of X date, we’ll work in R”) is crucial.</p></li>
+<li><p>Having leadership advocacy is vital at the end of the day.</p></li>
+</ul>
+</section>
+<section id="theme-emerging-talent" class="level3">
+<h3 class="anchored" data-anchor-id="theme-emerging-talent">Theme: Emerging Talent</h3>
 <ul>
-<li>Most companies have a highly process driven to medical writing, where any change is difficult to implement</li>
+<li><p>Newer talent is increasingly trained in open-source approaches and languages, with fewer exposed to proprietary tools.</p></li>
+<li><p>With the rise of data science as a field of study, many are less interested in joining a company for routine implementation work; they identify as “data scientists” and have been trained in markedly different ways.</p></li>
+<li><p>This affects talent attraction, development, and retention within a company.</p></li>
+<li><p>Innovation can come from new hires, justifying the need to foster their development and listen to their insights.</p></li>
+<li><p>There’s a unique opportunity for co-mentorship: new hires (proficient in R, Python, etc.) and existing staff (experts in domain knowledge, clinical trials, etc.):&nbsp;<em>how vs what/why</em></p></li>
+<li><p>There’s a need for clear “career pathing” or “trajectories” within statistical programming as roles evolve. Examples include:</p>
+<ul>
+<li>“Analyst” requires traditional statistical programming knowledge and training</li>
+<li>“Engineer” needs DevOps skills and a systems mindset</li>
+<li>“Tool builder” needs a software engineering mindset</li>
 </ul></li>
-<li>External / FDA
-<ul>
-<li>Concern of encouraging data fishing, if controls on for instance subgroup analysis are not in place?</li>
-<li>Need cross industry harmonization as HA is highly unlikely to accept each pharma company submitting an interactive CSR based on a different framework</li>
-</ul></li>
+<li><p>General trends suggest companies are demanding a secondary language in addition to proprietary software (not necessarily R), but knowledge of at least two languages indicates an individual could reasonably learn R.</p></li>
 </ul>
 </section>
-<section id="requirements" class="level2">
-<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
+<section id="theme-other-points-and-considerations" class="level3">
+<h3 class="anchored" data-anchor-id="theme-other-points-and-considerations">Theme: Other Points and Considerations</h3>
 <ul>
-<li>Can an interactive CSR by default be limited to only analyses defined in the SAP, should/can exploring a wider scope be allowed with clear and explicit intent by the app user?
-<ul>
-<li>How is the ROI of interactivity in a CSR impacted if it’s limited to produce only pre-specified anlayses? Would different reviewers have different access? (e.g.&nbsp;statisticla vs clinical)</li>
-</ul></li>
-<li>There is a gap in patient profile modules and patient narratives in shiny apps</li>
+<li><p>Questions to consider include:&nbsp;<em>What kind of training will people need in the future state?</em>&nbsp;<em>How should the support be arranged to enable the future state, potentially with IT and DEV involvement?</em></p></li>
+<li><p>Due to the required skillset, statistics and programming now need to work together more than ever</p></li>
+<li><p>Stakeholders seek the benefits of R (e.g., Shiny, Rmarkdown), but often lack personnel to build and maintain these assets.</p></li>
+<li><p>R and Shiny tools can be utilized in more areas beyond TLF programming such as dose decision meetings, clinical trial design, administrative tasks, and long-term-focused applications.</p></li>
+<li><p>Legacy infrastructure (e.g., virtual machines and proprietary software) can pose challenges when implementing newer approaches like R and Shiny, making the transition difficult and cumbersome.</p></li>
+<li><p>AI and GPT can be a valuable tool in transitioning to R, but won’t completely replace a programmer. It can be used to effectively explain or translate existing code or generate entirely new code.</p></li>
 </ul>
-</section>
-<section id="path-to-the-csr" class="level2">
-<h2 class="anchored" data-anchor-id="path-to-the-csr">Path to the CSR</h2>
-<p>There are many places where this tooling can be applied before the CSR:</p>
-<ul>
-<li>Monitoring</li>
-<li>Decision making - data in clinical science hands</li>
-<li>Efficiency boost (e.g.&nbsp;at unblinding app is on hand)</li>
-<li>CSR</li>
-</ul>
-<p>Can we define the tangible benefits? What is the ROI over different use cases? Could this allow health authorities to make less requests? How does this lead to faster reviews in tangible terms?</p>
-<p>How would access control and security work? How would this be audited? Would this be validated? How would results be archived?</p>
-<p>Can commenting be possible (as you can markup a PDF/work doc)?</p>
-<p>Existing frameworks exist - e.g.&nbsp;<code>teal</code> from NEST. ARDs may mean additional results can be pre-generated in a controlled way - but ARDs can’t further process data.</p>
-</section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<p>Eric Nantz, from the R Submissions working group, <a href="https://rconsortium.github.io/submissions-wg/pilot2.html">which have been working with the FDA on a shiny submisson as part of pilot 2</a>:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/5TEpJruIm-Y?si=-B8yoFhrPKGw_8CP" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>2023</category>
-  <category>AI</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-interactive-csr.html</guid>
-  <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Can we validate shiny apps (2023)?</title>
-  <dc:creator>James Black</dc:creator>
-  <dc:creator>Harvey Lieberman</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-shiny-validation.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="validate-shiny-apps" class="level1">
-<h1>Validate Shiny Apps?</h1>
-<p>Chairs: James Black and Harvey Lieberman</p>
-<p>See also: <a href="../../../docs/summit/posts/2024-shiny-validation.html">2024 Discussion</a></p>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>We have a path to R package validation - but what about shiny apps? In what context would validation become relevant to shiny app code, and how can we get ahead of this topic to pave a way forward for interactive CSRs?</p>
-</section>
-<section id="topics-discussed" class="level2">
-<h2 class="anchored" data-anchor-id="topics-discussed">Topics discussed</h2>
-<section id="do-we-need-to-validate" class="level3">
-<h3 class="anchored" data-anchor-id="do-we-need-to-validate">Do we need to validate?</h3>
-<ul>
-<li>Tiered approach / decision tree
-<ul>
-<li>Lowest is made by study team for study team. 2nd level is risk is unsupervised use, or specific contexts - e.g.&nbsp;making an app for dosing or safety. 3rd would be shiny CSR.</li>
-<li>Is the results going directly from the app into a submission?</li>
-<li>Don’t validate a shiny app - validate the static functions in the R packages. CSV may not be relevant for UIs (vs static R packages)</li>
-</ul></li>
-</ul>
-</section>
-<section id="what-are-we-testing-and-why" class="level3">
-<h3 class="anchored" data-anchor-id="what-are-we-testing-and-why">What are we Testing and Why?</h3>
-<p>There is a clear difference of opinion throughout the industry, often led by quality groups. Some companies validate shiny apps as if they were distinct pieces of software, using their internal software validation procedures. These processes are often outdated and unsuitable, requiring timestamped user-testing and screen captures.</p>
-<p>Other companies solely consider packages, not even validating shiny apps, but validating just the logic. The group discussed a preferred way of working – separating the logic and the UI.</p>
-<p>This brings up the question – <strong>do we really need to validate shiny apps? Can we just validate the logic?</strong></p>
-</section>
-<section id="who-does-the-testing" class="level3">
-<h3 class="anchored" data-anchor-id="who-does-the-testing">Who Does the Testing?</h3>
-<p>Again, there is some difference between companies in who does the testing. Generally, the developer writes the tests but tests are performed either by the business or by the quality group.</p>
-</section>
-<section id="use-of-automation" class="level3">
-<h3 class="anchored" data-anchor-id="use-of-automation">Use of Automation</h3>
-<p>Question posed to people present around the table: Does your company’s validation system allow for automation? Answers from the table: 8 companies = yes, 2 companies = no. Another 4 companies = no (offered by consultant who works with Pharma companies). Clearly a range of capabilities across the industry.</p>
-<p>From an automation perspective, the Pharma industry is very far behind the technology industry. Technology codebases tend to be far more complex but they are also automated. Can we learn from their platforms and apply their processes to validating shiny apps? Tools such as {shinytest2} are daunting to use. Can they be made more user friendly? There have been some steps to help automate these tasks – eg {shinyvalidator} but more work is needed in this area.</p>
-<p>It’s very challenging to validate a reactive graph. Automated processes have the ability to detect changes in a single pixel – is this desirable or undesirable?</p>
-</section>
-<section id="types-of-testing" class="level3">
-<h3 class="anchored" data-anchor-id="types-of-testing">Types of Testing</h3>
-<p>There is a clear difference across companies in opinions as to the amount of unit testing vs UAT and end-user testing. Unit tests are easy to write but are do not demonstrate how an app works. {shinytest2} can be used for end-user testing but, as mentioned above, may be daunting to use, may not be acceptable within a quality organization and may not fit in current work practices.</p>
-<p>Unit tests are generally written as code is written. They are fast to write and fast to execute. End-to-end tests, however, are written once code is complete and tend to be slow to execute.</p>
-</section>
-<section id="robust-uis" class="level3">
-<h3 class="anchored" data-anchor-id="robust-uis">Robust UIs?</h3>
-<ul>
-<li>Good to have unit tests - often manual testing. Automated can easily get messed up as the code evolves.</li>
-<li>We should use the git flow - e.g.&nbsp;protect master and disable manual deployments</li>
-<li>Show or download R code is perfect for reproducibility → e.g.&nbsp;show code button
-<ul>
-<li>But then need to actually run that in a prod batch run</li>
-<li>this use can case skip validation as code is run as study code</li>
-</ul></li>
-<li>Some cases where you don’t want to export and run code → e.g.&nbsp;output used directly for decision making are coming</li>
-<li>How to handle risk of UI problems if our focus is on the static code - e.g.&nbsp;misnamed reactive values so wrong values being shown, even if static R packages giving correct results.</li>
-<li>Risk based is really important - e.g.&nbsp;for something like dark mode breaking, we need to know what requirements are high risk (e.g.&nbsp;table is correct) vs low risk (e.g.&nbsp;dark mode button)</li>
-</ul>
-</section>
-<section id="ideas-to-improve-the-process" class="level3">
-<h3 class="anchored" data-anchor-id="ideas-to-improve-the-process">Ideas to improve the process</h3>
-<ul>
-<li>Validation tests as text files (ATDD/BDD from software engineering).<br>
-</li>
-<li>Frame in <a href="https://www.guru99.com/gherkin-test-cucumber.html">Gherkin format</a> plus package of fixtures</li>
-<li>Contribute test code to public packages</li>
-<li>When companies write extra tests, make a PR to add them to the actual package test suite and get others in the community to review and comment</li>
-<li>Extend to more than tests – documentation, etc.</li>
-<li>We need clarity around packages used in submissions.</li>
-<li>Would big Pharma be willing to list all packages that pass their internal risk-assessment and share? Also share why they pass/fail a risk-assessment?</li>
-<li>Validating shiny apps – can we share some cross-industry experience?</li>
-<li>QA vs validation. At what stage should I worry about validation?
-<ul>
-<li>Can we talk to QA departments / QA senior leadership to get them to write up their thoughts / requirements? Ask “How can we make your job easier?”<br>
-</li>
-</ul></li>
-<li>Should we include QA and more IT at next year’s summit?</li>
-</ul>
-</section>
-<section id="actions" class="level3">
-<h3 class="anchored" data-anchor-id="actions">Actions</h3>
-<ul>
-<li>Can we share some common high level guidance on stratifying risk in shiny shared across companies? (Pfizer has written this already internally).</li>
-<li>Discuss if we should have an extension of R package whitepaper to cover shiny?</li>
-</ul>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span><i class="fa-solid fa-list" aria-label="list"></i>
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Establish a CSR working group (first talk to Shiny submissions working group to establish overlap?)</li>
-</ul>
-</div>
-</div>
 
 
 </section>
@@ -1395,51 +1296,9 @@ Warning
 
  ]]></description>
   <category>2023</category>
-  <category>R</category>
-  <category>Validation</category>
-  <category>Shiny</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-shiny-validation.html</guid>
-  <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Multi-modal drug development (2023)</title>
-  <dc:creator>Katie Igartua</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-multi-modal.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="multi-modal-drug-development" class="level1">
-<h1>Multi-modal drug development</h1>
-<p>Chair: Katie Igartua</p>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>There is more need than ever to integrate different roles, and ways of working, along with different data modalities. What are the barriers bringing imaging/genomics/digital biomarkers and the CRF closer, how could we overcome them, and what is our envisioned benefit?</p>
-</section>
-<section id="topics-discussed" class="level2">
-<h2 class="anchored" data-anchor-id="topics-discussed">Topics discussed</h2>
-<ol type="1">
-<li><p>Use of real-world evidence data (RWE) for contextualizing clinical trial samples to support indication selection, patient settings and combination therapy strategies.</p>
-<ul>
-<li>Challenges for users arise when leveraging multiple sources (both public and licensed) given biases such as in abstraction rules or genomic assays.</li>
-<li>Best practices of real world evidence outcomes analyses (eg. rwPFS, rwOS).</li>
-</ul></li>
-<li><p>Integration of Claims datasets and validation. Requirement for multiple lines of evidence for a given event would enrich the quality and usability of the data and bypass biases from the source of claims data.</p></li>
-<li><p>Imaging validation frameworks. Challenges discussed include i) interpretability and adoption of deep networks models and utility relative to the gold standard (e.g.&nbsp;prediction vs.&nbsp;RESIST criteria), ii) transferability of models across different instrument platforms and iii) variability of pathologist vs.&nbsp;radiologist calls in the labels.</p></li>
-<li><p>Use of smart devices in clinical trials. Consensus was that this is more common in non-oncology areas (e.g.&nbsp;cardio). How can we mitigate risk of compliance in trials?</p></li>
-<li><p>Contextualizing small patient cohorts with rich phenotype data and longitudinal data. Liquid assays for monitoring resistance mechanisms in oncology.</p></li>
-</ol>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>2023</category>
-  <category>Multi-modal</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-multi-modal.html</guid>
+  <category>OS</category>
+  <category>Change management</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</guid>
   <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -1570,90 +1429,265 @@ Warning
   <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Change management (2023)</title>
-  <dc:creator>Matthew Kumar</dc:creator>
-  <dc:creator>Cassie Burns</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</link>
+  <title>Interactive CSR (2023)</title>
+  <dc:creator>Ning Ling</dc:creator>
+  <dc:creator>Phil Bowsher</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2023-interactive-csr.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<section id="change-management" class="level1">
-<h1>Change management</h1>
-<p>Chairs: Matthew Kumar and Cassie Burns</p>
-<p>See also: <a href="../../../docs/summit/posts/2024-change-mgt.html">2024 Discussion</a></p>
+<section id="interactive-csr" class="level1">
+<h1>Interactive CSR</h1>
+<p>Chairs: Ning Leng and Phil Bowsher</p>
 <section id="question" class="level2">
 <h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>Where are we on getting data analysts and data scientists that work with clinical data on board (in particular, those delivering CSRs and submission packages)? What are the challenges - what has been overcome?</p>
+<p>If we assume it’s technically possible to transfer - what would it mean to give an interactive CSR? How would primary, secondary and ad-hoc analysis be viewed? Would views change depending on role (e.g.&nbsp;sponsor, statistical reviewer, clinical reviewer)?</p>
 </section>
-<section id="who-are-our-people" class="level2">
-<h2 class="anchored" data-anchor-id="who-are-our-people">Who are our people?</h2>
-<p>Prefaced both sessions by asking individuals to define the <em>our</em> in <em>our people</em>;</p>
-<ul>
-<li>Stat Programmers</li>
-<li>Statisticians</li>
-<li>Data Management</li>
-<li>Other CSR-deliverable oriented roles (e.g.&nbsp;medical and scientific writing)</li>
-<li>Management, Leadership</li>
-</ul>
-<section id="theme-r-adoption-and-challenges" class="level3">
-<h3 class="anchored" data-anchor-id="theme-r-adoption-and-challenges">Theme: R Adoption and Challenges</h3>
-<ul>
-<li><p>The adoption of R requires varied types of commitment depending on the perspective of the stakeholders involved, notably management and employees.</p></li>
-<li><p>Leadership usually supports the adoption of R, yet, in many cases, they don’t adequately communicate or advocate its application. Common concerns include the lack of realized ROI and the perception of R as a “nice-to-have” rather than a necessity.</p></li>
-<li><p>It is not viable to mandate or compel individuals to learn R.</p></li>
-<li><p>Seasoned programmers, who prefer proprietary software, may leave the company if forced to switch.</p></li>
-<li><p>These programmers often prefer to maintain current workflows that involve proprietary tools, established macros, homegrown IDEs, etc.</p></li>
-<li><p>Some in management endorse an approach of “mandate” or “force,” while others aim to “encourage.”</p></li>
-<li><p>Experienced stat programmers cite R’s learning curve as an obstacle to transition, and some don’t see the ROI in making the switch.</p></li>
-</ul>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why?</h2>
+<p>The current process of CSR generation and review involves generating large amounts of tables and plots. In such scenarios, we believe an interactive application would provide a more efficient method to explore both primary and secondary analysis results.</p>
 </section>
-<section id="theme-change-management" class="level3">
-<h3 class="anchored" data-anchor-id="theme-change-management">Theme: Change Management</h3>
+<section id="barriers" class="level2">
+<h2 class="anchored" data-anchor-id="barriers">Barriers</h2>
 <ul>
-<li><p>Implementing proper change management was emphasized by several attendees in both sessions.</p></li>
-<li><p>Organically, through change management, approximately 25% of experienced statistical programmers or statisticians have successfully completed R training, while the remaining 75% have shown resistance.</p></li>
-<li><p>Among the successful 25%, only 5% have applied what they’ve learned in actual study work. This is often due to time constraints related to product deliverables.</p></li>
-<li><p>Mapping the transition to R with learning and development goals is one strategy.</p></li>
-<li><p>A structured learning plan and a roadmap for R upskilling are essential. This includes trainings focused on R, particularly in the context of the pharmaceutical industry, and from a proprietary software programmer’s perspective.</p></li>
-<li><p>Identification of champions or early adopters among statistical programmers could aid in transitioning colleagues.</p></li>
-<li><p>Several companies shared their strategies for promoting community learning (e.g., bi-monthly meetings, presentations, assignments), both on a “just in time” basis and on a regular schedule.</p></li>
-<li><p>Pointing individuals to ongoing efforts and resources, such as R in Pharma, PharmaVerse, Phuse, etc., can boost awareness and participation.</p></li>
-<li><p>Granting individuals protected or dedicated time to learn and fail is recommended. An analogy used was “giving them a safe sandbox to try making a castle.”</p></li>
-<li><p>R need not be used for all tasks immediately. A more measured approach, such as starting with creating figures and then moving to more complex tasks, like AdAM programming, could better build confidence and competence.</p></li>
-<li><p>Ensuring enough transition time and clear direction (“as of X date, we’ll work in R”) is crucial.</p></li>
-<li><p>Having leadership advocacy is vital at the end of the day.</p></li>
-</ul>
-</section>
-<section id="theme-emerging-talent" class="level3">
-<h3 class="anchored" data-anchor-id="theme-emerging-talent">Theme: Emerging Talent</h3>
+<li>Internally
 <ul>
-<li><p>Newer talent is increasingly trained in open-source approaches and languages, with fewer exposed to proprietary tools.</p></li>
-<li><p>With the rise of data science as a field of study, many are less interested in joining a company for routine implementation work; they identify as “data scientists” and have been trained in markedly different ways.</p></li>
-<li><p>This affects talent attraction, development, and retention within a company.</p></li>
-<li><p>Innovation can come from new hires, justifying the need to foster their development and listen to their insights.</p></li>
-<li><p>There’s a unique opportunity for co-mentorship: new hires (proficient in R, Python, etc.) and existing staff (experts in domain knowledge, clinical trials, etc.):&nbsp;<em>how vs what/why</em></p></li>
-<li><p>There’s a need for clear “career pathing” or “trajectories” within statistical programming as roles evolve. Examples include:</p>
-<ul>
-<li>“Analyst” requires traditional statistical programming knowledge and training</li>
-<li>“Engineer” needs DevOps skills and a systems mindset</li>
-<li>“Tool builder” needs a software engineering mindset</li>
+<li>Most companies have a highly process driven to medical writing, where any change is difficult to implement</li>
 </ul></li>
-<li><p>General trends suggest companies are demanding a secondary language in addition to proprietary software (not necessarily R), but knowledge of at least two languages indicates an individual could reasonably learn R.</p></li>
+<li>External / FDA
+<ul>
+<li>Concern of encouraging data fishing, if controls on for instance subgroup analysis are not in place?</li>
+<li>Need cross industry harmonization as HA is highly unlikely to accept each pharma company submitting an interactive CSR based on a different framework</li>
+</ul></li>
 </ul>
 </section>
-<section id="theme-other-points-and-considerations" class="level3">
-<h3 class="anchored" data-anchor-id="theme-other-points-and-considerations">Theme: Other Points and Considerations</h3>
+<section id="requirements" class="level2">
+<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
 <ul>
-<li><p>Questions to consider include:&nbsp;<em>What kind of training will people need in the future state?</em>&nbsp;<em>How should the support be arranged to enable the future state, potentially with IT and DEV involvement?</em></p></li>
-<li><p>Due to the required skillset, statistics and programming now need to work together more than ever</p></li>
-<li><p>Stakeholders seek the benefits of R (e.g., Shiny, Rmarkdown), but often lack personnel to build and maintain these assets.</p></li>
-<li><p>R and Shiny tools can be utilized in more areas beyond TLF programming such as dose decision meetings, clinical trial design, administrative tasks, and long-term-focused applications.</p></li>
-<li><p>Legacy infrastructure (e.g., virtual machines and proprietary software) can pose challenges when implementing newer approaches like R and Shiny, making the transition difficult and cumbersome.</p></li>
-<li><p>AI and GPT can be a valuable tool in transitioning to R, but won’t completely replace a programmer. It can be used to effectively explain or translate existing code or generate entirely new code.</p></li>
+<li>Can an interactive CSR by default be limited to only analyses defined in the SAP, should/can exploring a wider scope be allowed with clear and explicit intent by the app user?
+<ul>
+<li>How is the ROI of interactivity in a CSR impacted if it’s limited to produce only pre-specified anlayses? Would different reviewers have different access? (e.g.&nbsp;statisticla vs clinical)</li>
+</ul></li>
+<li>There is a gap in patient profile modules and patient narratives in shiny apps</li>
 </ul>
+</section>
+<section id="path-to-the-csr" class="level2">
+<h2 class="anchored" data-anchor-id="path-to-the-csr">Path to the CSR</h2>
+<p>There are many places where this tooling can be applied before the CSR:</p>
+<ul>
+<li>Monitoring</li>
+<li>Decision making - data in clinical science hands</li>
+<li>Efficiency boost (e.g.&nbsp;at unblinding app is on hand)</li>
+<li>CSR</li>
+</ul>
+<p>Can we define the tangible benefits? What is the ROI over different use cases? Could this allow health authorities to make less requests? How does this lead to faster reviews in tangible terms?</p>
+<p>How would access control and security work? How would this be audited? Would this be validated? How would results be archived?</p>
+<p>Can commenting be possible (as you can markup a PDF/work doc)?</p>
+<p>Existing frameworks exist - e.g.&nbsp;<code>teal</code> from NEST. ARDs may mean additional results can be pre-generated in a controlled way - but ARDs can’t further process data.</p>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p>Eric Nantz, from the R Submissions working group, <a href="https://rconsortium.github.io/submissions-wg/pilot2.html">which have been working with the FDA on a shiny submisson as part of pilot 2</a>:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/5TEpJruIm-Y?si=-B8yoFhrPKGw_8CP" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2023</category>
+  <category>AI</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2023-interactive-csr.html</guid>
+  <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The case for OS (2023)</title>
+  <dc:creator>Satish Murphy &amp; Becca Krouse</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2023-case-os.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="the-case-for-os" class="level1">
+<h1>The case for OS</h1>
+<p>Chairs: Satish Murphy &amp; Becca Krouse</p>
+<section id="question" class="level2">
+<h2 class="anchored" data-anchor-id="question">Question</h2>
+<p>What is stopping people and companies from contributions in OS? Can we define the case for contributing to OS?</p>
+</section>
+<section id="main-concerns" class="level2">
+<h2 class="anchored" data-anchor-id="main-concerns">Main concerns</h2>
+<section id="licencing" class="level3">
+<h3 class="anchored" data-anchor-id="licencing">Licencing</h3>
+<ul>
+<li>R’s core is released on a copyleft GPL license, so there are concerns around any additions we make being required to publish back to the community. This is a concern for companies that are not in the business of selling software, but rather use software as a tool to do their business.</li>
+<li>Python is seen as less of risk, as it is released via permissive licence</li>
+<li>Is there really a legal risk for copy-left licences, and if so under what circumstances? (e.g.&nbsp;using it internally for a plot vs making and selling an app or algorithm that uses the copyleft dependency)</li>
+<li>Can we understand better how IP is protected in OS?</li>
+</ul>
+</section>
+<section id="process" class="level3">
+<h3 class="anchored" data-anchor-id="process">Process</h3>
+<ul>
+<li>When using an internal package in a filing, we can package it directly as part of the study code and give to the FDA - which is seen as less of a risk than publishing it as OS where the global community can view the code.</li>
+<li>Folks often want to contribute - but there are some limitations both professionally (e.g.&nbsp;internal process to contribute) and personally</li>
+<li>If someone works on a project in their own time, there is a concern that treated is a company asset even though they are doing it outside of working hours. What is the actual boundary between work and personal contributions?</li>
+<li>People making the policies need to actually understand the topic of OS</li>
+</ul>
+</section>
+<section id="liability" class="level3">
+<h3 class="anchored" data-anchor-id="liability">Liability</h3>
+<ul>
+<li>We know the liability is similar between OS and proprietary software, but there is a perception that all OS is more risky</li>
+</ul>
+</section>
+<section id="people" class="level3">
+<h3 class="anchored" data-anchor-id="people">People</h3>
+<ul>
+<li>OS contributions are seen as nice to have - how can this be prioritised vs project work?</li>
+<li>Be involved in projects like Oak, NEST and admiral brings recognition to the contributors</li>
+<li>Often projects are mostly driven by a handful, or even a couple, of people. What if someone leaves? Is OS actually a benefit here as same developer could promote and lead to use of the package at their new company?</li>
+<li>Write up a short post / article titled “Here’s why you should allow your people to contribute to open source”</li>
+<li>Write a blog post and short PDF that can be shared internally at the leadership level</li>
+</ul>
+</section>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<ul>
+<li><a href="https://phuse-org.github.io/E2E-OS-Guidance/slides/eu23">PHUSE Open Source guidance</a></li>
+</ul>
+</section>
+<section id="what-can-we-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-can-we-do">What can we do?</h2>
+<ul>
+<li>Create a framework to help articulate the benefit, and help to tackle the concerns/process that gets in the way</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2023</category>
+  <category>OS</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2023-case-os.html</guid>
+  <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Can we validate shiny apps (2023)?</title>
+  <dc:creator>James Black</dc:creator>
+  <dc:creator>Harvey Lieberman</dc:creator>
+  <link>https://rinpharma.com/docs/summit/posts/2023-shiny-validation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="validate-shiny-apps" class="level1">
+<h1>Validate Shiny Apps?</h1>
+<p>Chairs: James Black and Harvey Lieberman</p>
+<p>See also: <a href="../../../docs/summit/posts/2024-shiny-validation.html">2024 Discussion</a></p>
+<section id="question" class="level2">
+<h2 class="anchored" data-anchor-id="question">Question</h2>
+<p>We have a path to R package validation - but what about shiny apps? In what context would validation become relevant to shiny app code, and how can we get ahead of this topic to pave a way forward for interactive CSRs?</p>
+</section>
+<section id="topics-discussed" class="level2">
+<h2 class="anchored" data-anchor-id="topics-discussed">Topics discussed</h2>
+<section id="do-we-need-to-validate" class="level3">
+<h3 class="anchored" data-anchor-id="do-we-need-to-validate">Do we need to validate?</h3>
+<ul>
+<li>Tiered approach / decision tree
+<ul>
+<li>Lowest is made by study team for study team. 2nd level is risk is unsupervised use, or specific contexts - e.g.&nbsp;making an app for dosing or safety. 3rd would be shiny CSR.</li>
+<li>Is the results going directly from the app into a submission?</li>
+<li>Don’t validate a shiny app - validate the static functions in the R packages. CSV may not be relevant for UIs (vs static R packages)</li>
+</ul></li>
+</ul>
+</section>
+<section id="what-are-we-testing-and-why" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-we-testing-and-why">What are we Testing and Why?</h3>
+<p>There is a clear difference of opinion throughout the industry, often led by quality groups. Some companies validate shiny apps as if they were distinct pieces of software, using their internal software validation procedures. These processes are often outdated and unsuitable, requiring timestamped user-testing and screen captures.</p>
+<p>Other companies solely consider packages, not even validating shiny apps, but validating just the logic. The group discussed a preferred way of working – separating the logic and the UI.</p>
+<p>This brings up the question – <strong>do we really need to validate shiny apps? Can we just validate the logic?</strong></p>
+</section>
+<section id="who-does-the-testing" class="level3">
+<h3 class="anchored" data-anchor-id="who-does-the-testing">Who Does the Testing?</h3>
+<p>Again, there is some difference between companies in who does the testing. Generally, the developer writes the tests but tests are performed either by the business or by the quality group.</p>
+</section>
+<section id="use-of-automation" class="level3">
+<h3 class="anchored" data-anchor-id="use-of-automation">Use of Automation</h3>
+<p>Question posed to people present around the table: Does your company’s validation system allow for automation? Answers from the table: 8 companies = yes, 2 companies = no. Another 4 companies = no (offered by consultant who works with Pharma companies). Clearly a range of capabilities across the industry.</p>
+<p>From an automation perspective, the Pharma industry is very far behind the technology industry. Technology codebases tend to be far more complex but they are also automated. Can we learn from their platforms and apply their processes to validating shiny apps? Tools such as {shinytest2} are daunting to use. Can they be made more user friendly? There have been some steps to help automate these tasks – eg {shinyvalidator} but more work is needed in this area.</p>
+<p>It’s very challenging to validate a reactive graph. Automated processes have the ability to detect changes in a single pixel – is this desirable or undesirable?</p>
+</section>
+<section id="types-of-testing" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-testing">Types of Testing</h3>
+<p>There is a clear difference across companies in opinions as to the amount of unit testing vs UAT and end-user testing. Unit tests are easy to write but are do not demonstrate how an app works. {shinytest2} can be used for end-user testing but, as mentioned above, may be daunting to use, may not be acceptable within a quality organization and may not fit in current work practices.</p>
+<p>Unit tests are generally written as code is written. They are fast to write and fast to execute. End-to-end tests, however, are written once code is complete and tend to be slow to execute.</p>
+</section>
+<section id="robust-uis" class="level3">
+<h3 class="anchored" data-anchor-id="robust-uis">Robust UIs?</h3>
+<ul>
+<li>Good to have unit tests - often manual testing. Automated can easily get messed up as the code evolves.</li>
+<li>We should use the git flow - e.g.&nbsp;protect master and disable manual deployments</li>
+<li>Show or download R code is perfect for reproducibility → e.g.&nbsp;show code button
+<ul>
+<li>But then need to actually run that in a prod batch run</li>
+<li>this use can case skip validation as code is run as study code</li>
+</ul></li>
+<li>Some cases where you don’t want to export and run code → e.g.&nbsp;output used directly for decision making are coming</li>
+<li>How to handle risk of UI problems if our focus is on the static code - e.g.&nbsp;misnamed reactive values so wrong values being shown, even if static R packages giving correct results.</li>
+<li>Risk based is really important - e.g.&nbsp;for something like dark mode breaking, we need to know what requirements are high risk (e.g.&nbsp;table is correct) vs low risk (e.g.&nbsp;dark mode button)</li>
+</ul>
+</section>
+<section id="ideas-to-improve-the-process" class="level3">
+<h3 class="anchored" data-anchor-id="ideas-to-improve-the-process">Ideas to improve the process</h3>
+<ul>
+<li>Validation tests as text files (ATDD/BDD from software engineering).<br>
+</li>
+<li>Frame in <a href="https://www.guru99.com/gherkin-test-cucumber.html">Gherkin format</a> plus package of fixtures</li>
+<li>Contribute test code to public packages</li>
+<li>When companies write extra tests, make a PR to add them to the actual package test suite and get others in the community to review and comment</li>
+<li>Extend to more than tests – documentation, etc.</li>
+<li>We need clarity around packages used in submissions.</li>
+<li>Would big Pharma be willing to list all packages that pass their internal risk-assessment and share? Also share why they pass/fail a risk-assessment?</li>
+<li>Validating shiny apps – can we share some cross-industry experience?</li>
+<li>QA vs validation. At what stage should I worry about validation?
+<ul>
+<li>Can we talk to QA departments / QA senior leadership to get them to write up their thoughts / requirements? Ask “How can we make your job easier?”<br>
+</li>
+</ul></li>
+<li>Should we include QA and more IT at next year’s summit?</li>
+</ul>
+</section>
+<section id="actions" class="level3">
+<h3 class="anchored" data-anchor-id="actions">Actions</h3>
+<ul>
+<li>Can we share some common high level guidance on stratifying risk in shiny shared across companies? (Pfizer has written this already internally).</li>
+<li>Discuss if we should have an extension of R package whitepaper to cover shiny?</li>
+</ul>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span><i class="fa-solid fa-list" aria-label="list"></i>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Establish a CSR working group (first talk to Shiny submissions working group to establish overlap?)</li>
+</ul>
+</div>
+</div>
 
 
 </section>
@@ -1662,9 +1696,10 @@ Warning
 
  ]]></description>
   <category>2023</category>
-  <category>OS</category>
-  <category>Change management</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</guid>
+  <category>R</category>
+  <category>Validation</category>
+  <category>Shiny</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2023-shiny-validation.html</guid>
   <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
