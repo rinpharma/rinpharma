@@ -82,10 +82,7 @@ Our mission:
 
 <p>
 <a href="https://www.linkedin.com/company/open-source-in-pharma/" target="_blank">
-<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-alt="LinkedIn"
-width="18"
-style="vertical-align:middle; margin-right:6px;">
+<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="18">
 Follow us on LinkedIn
 </a>
 to be notified when submissions open and to stay up to date on speakers, program announcements, and conference news.
