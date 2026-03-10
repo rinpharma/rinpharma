@@ -74,9 +74,19 @@ Our mission:
 ::: {.g-col-lg-6 .g-col-12}
 ## Latest Announcement
 
-All R/Pharma 2025 recordings are now available on our YouTube channel.
+<p><strong>R/Pharma 2026 is happening October 20–21!</strong></p>
 
-R/Pharma will return in 2026 with several events.  Please check the R/Pharma website or LinkedIn page.
+<p>Workshops will take place <strong>September 28 – October 1</strong>.</p>
+
+<p>Call for Talks will run <strong>April 5 - 26</strong>.</p>
+
+<p>
+<a href="https://www.linkedin.com/company/open-source-in-pharma/" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="18">
+Follow us on LinkedIn
+</a>
+to be notified when submissions open and to stay up to date on speakers, program announcements, and conference news.
+</p>
 
 <!--:::: {.hero-buttons}
 [R/Pharma 2025 Registration](https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" target="_blank"}

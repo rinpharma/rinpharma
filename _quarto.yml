@@ -51,9 +51,9 @@ website:
 #        href: 
 #        aria-label:      
   announcement: 
-    icon: check-circle
+    icon: bell-fill
     dismissable: true
-    content: "All R/Pharma Virtual 2025 recordings (talks and workshops) are available on [YouTube](https://www.youtube.com/@RinPharma){target='_blank'}."
+    content: "R/Pharma Virtual 2026 is October 20-21! Call for talks opens April 5th"
     type: primary
     position: below-navbar
   navbar:
