@@ -117,6 +117,6 @@ filters:
 
 
 execute:
-  freeze: auto
+  freeze: false
 
 #editor: visual
