@@ -4,6 +4,9 @@ site_libs/
 
 /.luarc.json
 
+# macOS
+.DS_Store
+
 .vscode/settings.json
 .Rproj.user/
 rinpharma.Rproj
