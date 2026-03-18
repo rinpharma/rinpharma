@@ -1,0 +1,19 @@
+---
+title: "R/Pharma Hangouts"
+description: |
+  The R/Pharma Hangouts (hosted by Eric Nantz & Jared Woolfolk) feature key innovators across the world of open source and life sciences to go hands-on with key R packages, applications, or entire workflows highly relevant to the life sciences industry. You can view the recordings of past Hangout sessions below! 
+listing:
+  sort: "date desc"
+  type: default
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, author, date, image]
+  image-align: left
+  page-size: 5
+comments: false
+
+format:
+  html:
+    page-layout: full
+title-block-banner: false
+---

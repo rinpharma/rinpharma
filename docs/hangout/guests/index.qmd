@@ -1,0 +1,18 @@
+---
+title: "Guests of the R/Pharma Hangouts"
+description: |
+  A gallery of the previous guests on the R/Pharma Hangouts! Ordered by most recent appearance on the series.
+listing:
+  sort: "date desc"
+  type: grid
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, image]
+  image-align: left
+comments: false
+
+format:
+  html:
+    page-layout: full
+title-block-banner: false
+---
