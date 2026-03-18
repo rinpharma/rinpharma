@@ -1,0 +1,30 @@
+---
+draft: false
+title: Kevin Ushey
+subtitle: Software Engineer
+date: '2026-03-17'
+about:
+  template: marquee
+  image: featured.jpg
+  links:
+  - icon: link
+    text: Posit
+    href: https://posit.co
+  - icon: house
+    href: https://kevinushey.github.io/
+  - icon: video
+    text: Package Management
+    href: ../recordings/package_management
+  - icon: linkedin
+    href: http://www.linkedin.com/pub/kevin-ushey/42/355/33a
+  - icon: bluesky
+    href: https://bsky.app/profile/kevinushey.bsky.social
+  - icon: mastodon
+    href: https://fosstodon.org/@kevinushey
+  - icon: github
+    href: https://github.com/kevinushey
+---
+
+Kevin Ushey is a software engineer at Posit, and previously worked as as a statistical programmer at the rglab within the Fred Hutchinson Cancer Research Center. Kevin is a tool builder -- he enjoys developing computational tools that help researchers and scientists to achieve their analytic goals.
+
+Kevin completed his MSc in Statistics at the University of British Columbia, under the supervision of Jenny Bryan. His thesis involved the study of gene-gene and gene-Rx interaction effects, and statistical assessment of these epistatic effects in yeast growth curves.

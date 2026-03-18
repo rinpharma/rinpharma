@@ -1,0 +1,28 @@
+---
+draft: false
+title: Shannon Pileggi
+subtitle: Associate Director, Data Science
+date: '2026-03-17'
+about:
+  template: marquee
+  image: featured.png
+  links:
+  - icon: link
+    text: Piping Hot Data
+    href: https://www.pipinghotdata.com/
+  - icon: video
+    text: Package Management
+    href: ../recordings/package_management
+  - icon: linkedin
+    href: https://www.linkedin.com/in/shannon-m-pileggi/
+  - icon: bluesky
+    href: https://bsky.app/profile/pipinghotdata.com
+  - icon: mastodon
+    href: https://fosstodon.org/@PipingHotData
+  - icon: github
+    href: https://github.com/shannonpileggi
+  - icon: cv
+    href: https://www.pipinghotdata.com/shannon_pileggi_cv
+---
+
+ Shannon Pileggi (she/her) is an Associate Directory of Data Science at The Prostate Cancer Clinical Trials Consortium, an occasional blogger, a frequent workshop instructor, and a member of the R-Ladies Leadership team. She enjoys automating data wrangling and data outputs, and making both data insights and learning new material digestible.
