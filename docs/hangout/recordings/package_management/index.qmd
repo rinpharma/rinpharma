@@ -8,10 +8,10 @@ guests:
 - kushey
 - dpastoor
 draft: false
-youtube: 5ce_x4gUmks
+youtube: 2ZmTXE74xnI
 ---
 
-{{< video https://youtu.be/5ce_x4gUmks >}}
+{{< video https://youtu.be/2ZmTXE74xnI >}}
 
 ## Resources mentioned in the Hangout
 
