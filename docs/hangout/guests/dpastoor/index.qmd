@@ -1,0 +1,24 @@
+---
+draft: false
+title: Devin Pastoor
+subtitle: Chief Technology & Product Officer
+date: '2026-03-17'
+about:
+  template: marquee
+  image: featured.jpg
+  links:
+  - icon: link
+    text: A2-AI
+    href: https://a2-ai.com/
+  - icon: video
+    text: Package Management
+    href: ../recordings/package_management
+  - icon: linkedin
+    href: https://www.linkedin.com/in/devinpastoor/
+  - icon: github
+    href: https://github.com/dpastoor
+---
+
+As CTPO of A2-Ai, Devin works with clients to deliver end-to-end solutions that support quantitative decision-making. Devin specializes in bridging the unique characteristics of each client’s IT structure with the needs of the scientific team. Some of his focuses for clients include providing strategies to migrate from existing tools to more modern cloud-based workflows, and building prototype tools and dashboards to solve business challenges. Before joining A2-Ai, Devin worked as a principal solutions engineer to help dozens of organizations ranging from the FDA to small biotech and device manufacturers to develop and implement data science solutions.
+
+Devin received his B.S. in Biochemistry from University of North Carolina, Chapel Hill, his Master of Toxicology from North Carolina State University, and his PhD in Pharmaceutical Sciences from University of Maryland, Baltimore. His doctoral training focused on application of quantitative methods and regulatory strategy to accelerate the development of pharmaceutical products. In addition, he served as an ORISE fellow at the FDA working to improve the agency’s capability to analyze large datasets across disease areas for regulatory policy and decision-making. He then spent time consulting across many of the top 10 pharma companies around how to adopt novel data analysis toolchains, before joining Metrum Research Group, where he grew a new Technology Solutions group from the ground up. He led the development of a validated high performance compute platform, designed novel analytics tools, handled data management and governance, and grew a technical consulting arm targeting various stages of the drug development lifecycle from genomic analysis through manufacturing quality assurance. Devin is a world-leading expert in the use of R and python in controlled and validated environments. He has trained hundreds of scientists on how to do rigorous data science, and has successfully guided dozens of organizations looking to adopt open source data science tooling.

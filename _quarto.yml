@@ -71,6 +71,12 @@ website:
         href: docs/events/index.qmd
       - text: Summit
         href: docs/summit/index.qmd
+      - text: Hangouts
+        menu:
+          - text: Recordings
+            href: docs/hangout/recordings/index.qmd
+          - text: Guests
+            href: docs/hangout/guests/index.qmd
       - text: People
         href: docs/people/index.qmd
       - text: Blog
