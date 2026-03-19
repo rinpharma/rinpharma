@@ -39,6 +39,20 @@
     ]
   },
   {
+    "listing": "/docs/hangout/recordings/index.html",
+    "items": [
+      "/docs/hangout/recordings/package_management/index.html"
+    ]
+  },
+  {
+    "listing": "/docs/hangout/guests/index.html",
+    "items": [
+      "/docs/hangout/guests/kushey/index.html",
+      "/docs/hangout/guests/spileggi/index.html",
+      "/docs/hangout/guests/dpastoor/index.html"
+    ]
+  },
+  {
     "listing": "/docs/conference/index.html",
     "items": []
   }
