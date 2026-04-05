@@ -1,0 +1,48 @@
+---
+title: R/Pharma 2026 Call-For-Talks
+subtitle: 2026 announcement for call-for-talks
+description: |
+  2026 announcement for call-for-talks.
+categories:
+  - conference
+author: R/Pharma
+date: 2026-04-04
+image: patrick-fore-5YU0uZh43Bk-unsplash.jpg
+image-alt: "Announcement"
+---
+
+We're exited to announce that the call-for-talks for R/Pharma 2026 is now open!  R/Pharma 2026 will be held **October 20-21**, with workshops taking place three weeks before from **September 28-October 1**.  If you are interested in presenting a talk or workshop, please submit your proposal via [Sessionize](https://sessionize.com/rpharma-2026/){target="_blank"}.
+
+## Asia-Pacific (APAC) Event
+
+For the third year running, R/Pharma will be running talks and workshops in Asia-Pacific (APAC) time zones.  The APAC event will run hybrid for the first day (more details to follow).  If you are interested in presenting a talk or workshop, please submit your proposal via the [Sessionize](https://sessionize.com/rpharma-2026/){target="_blank"} link and check the *APAC* box to specify your interest in presenting in the APAC region.
+
+## Submissions
+
+Talks are 10-20 minutes in length and workshops are 1-4 hours in length.  We welcome talks and workshops on any topic related to the use of R or other open source technologies in the pharmaceutical industry, including but not limited to:
+
+- Use of shiny and interactive tools for early and late-stage drug development
+- Use of R in regulatory submissions
+- Use of open source with AI/LLMs in Pharma
+- Administration and management: package management, containerization, scaling, HPC, etc.
+
+Call-for-talks will run from **April 5-May 2** and we'll endeavor to review and respond to all submissions by end of May.  **We look forward to your submissions!**
+
+## Parallel Tracks
+
+For the first time, R/Pharma will be hosting two parallel tracks:
+
+- CMC, Process and Analytical Development.  As the industry shifts towards *Digital CMC* the need for reproducible data science, robust statistical modeling, and automated reporting in manufacturing and quality control has never been greater.  This track will focus on the use of R and other open source tools in CMC, process and analytical development.
+- Python.  As a core language fot end-to-end data work, from data ingestion and wrangling to scalable modeling, automation and production-grade deployment, Python is an indispensable tool for data scientists.  This track will focus on the use of Python in drug development.
+
+::: {.hero-buttons}
+[Call-for-Talks](https://sessionize.com/rpharma-2026/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+::: 
+
+
+### {.citation-image}
+Photo by <a href="https://unsplash.com/@patrickian4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patrick Fore</a> on <a href="https://unsplash.com/photos/silhouette-of-woman-holding-rectangular-board-5YU0uZh43Bk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+###
+
+      
