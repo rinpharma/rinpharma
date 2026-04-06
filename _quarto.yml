@@ -53,7 +53,7 @@ website:
   announcement: 
     icon: bell-fill
     dismissable: true
-    content: "R/Pharma Virtual 2026 is October 20-21! Call for talks opens April 5th"
+    content: "R/Pharma Virtual 2026 will run October 20-21!&emsp;[Call for talks](https://sessionize.com/rpharma-2026/){target='_blank'} now open."
     type: primary
     position: below-navbar
   navbar:
