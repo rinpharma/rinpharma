@@ -16,8 +16,61 @@
 <height>50</height>
 <width>144</width>
 </image>
-<generator>quarto-1.8.27</generator>
-<lastBuildDate>Mon, 09 Feb 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.36</generator>
+<lastBuildDate>Sat, 04 Apr 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>R/Pharma 2026 Call-For-Talks</title>
+  <dc:creator>R/Pharma </dc:creator>
+  <link>https://rinpharma.com/docs/blog/posts/2026-04-03-call-for-talks/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We’re exited to announce that the call-for-talks for R/Pharma 2026 is now open! R/Pharma 2026 will be held <strong>October 20-21</strong>, with workshops taking place three weeks before from <strong>September 28-October 1</strong>. If you are interested in presenting a talk or workshop, please submit your proposal via <a href="https://sessionize.com/rpharma-2026/" target="_blank">Sessionize</a>.</p>
+<section id="asia-pacific-apac-event" class="level2">
+<h2 class="anchored" data-anchor-id="asia-pacific-apac-event">Asia-Pacific (APAC) Event</h2>
+<p>For the third year running, R/Pharma will be running talks and workshops in Asia-Pacific (APAC) time zones. The APAC event will run hybrid for the first day (more details to follow). If you are interested in presenting a talk or workshop, please submit your proposal via the <a href="https://sessionize.com/rpharma-2026/" target="_blank">Sessionize</a> link and check the <em>APAC</em> box to specify your interest in presenting in the APAC region.</p>
+</section>
+<section id="submissions" class="level2">
+<h2 class="anchored" data-anchor-id="submissions">Submissions</h2>
+<p>Talks are 10-20 minutes in length and workshops are 1-4 hours in length. We welcome talks and workshops on any topic related to the use of R or other open source technologies in the pharmaceutical industry, including but not limited to:</p>
+<ul>
+<li>Use of shiny and interactive tools for early and late-stage drug development</li>
+<li>Use of R in regulatory submissions</li>
+<li>Use of open source with AI/LLMs in Pharma</li>
+<li>Administration and management: package management, containerization, scaling, HPC, etc.</li>
+</ul>
+<p>Call-for-talks will run from <strong>April 5-May 2</strong> and we’ll endeavor to review and respond to all submissions by end of May. <strong>We look forward to your submissions!</strong></p>
+</section>
+<section id="parallel-tracks" class="level2">
+<h2 class="anchored" data-anchor-id="parallel-tracks">Parallel Tracks</h2>
+<p>For the first time, R/Pharma will be hosting two parallel tracks:</p>
+<ul>
+<li>CMC, Process and Analytical Development. As the industry shifts towards <em>Digital CMC</em> the need for reproducible data science, robust statistical modeling, and automated reporting in manufacturing and quality control has never been greater. This track will focus on the use of R and other open source tools in CMC, process and analytical development.</li>
+<li>Python. As a core language fot end-to-end data work, from data ingestion and wrangling to scalable modeling, automation and production-grade deployment, Python is an indispensable tool for data scientists. This track will focus on the use of Python in drug development.</li>
+</ul>
+<div class="hero-buttons">
+<p><a href="https://sessionize.com/rpharma-2026/" class="btn-action-primary btn-action btn btn-success btn-lg">Call-for-Talks</a></p>
+</div>
+<section id="section" class="level3 citation-image">
+<h3 class="citation-image anchored" data-anchor-id="section"></h3>
+<p>Photo by <a href="https://unsplash.com/@patrickian4?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Patrick Fore</a> on <a href="https://unsplash.com/photos/silhouette-of-woman-holding-rectangular-board-5YU0uZh43Bk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+</section>
+<section id="section-1" class="level3">
+<h3 class="anchored" data-anchor-id="section-1"></h3>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>conference</category>
+  <guid>https://rinpharma.com/docs/blog/posts/2026-04-03-call-for-talks/</guid>
+  <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2026-04-03-call-for-talks/patrick-fore-5YU0uZh43Bk-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>The New and Improved R/Pharma Hangouts</title>
   <dc:creator>Eric Nantz &amp; Jared Woolfolk</dc:creator>
