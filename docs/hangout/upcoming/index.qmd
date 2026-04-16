@@ -1,0 +1,55 @@
+---
+title: "Upcoming R/Pharma Hangouts"
+description: |
+  Join us for upcoming R/Pharma Hangouts featuring key innovators across the world of open source and life sciences.
+comments: false
+
+format:
+  html:
+    page-layout: full
+title-block-banner: false
+---
+
+Each month R/Pharma brings you a live Hangout featuring key innovators across the world of open source and life sciences.  
+Join us for upcoming R/Pharma Hangouts, and check out our [recordings](/hangout/recordings.qmd) to catch up on past events.
+
+Keep up to date with [LinkedIn events and announcements](https://www.linkedin.com/company/open-source-in-pharma/) for each Hangout and, if you have a topic or guest you'd like to see featured, please reach out to us at [info@rinpharma.com](mailto:info@rinpharma.com) or via our [contact form](/contact.qmd).
+
+::: {style="display: flex; justify-content: center;"}
+
+| Date | Title | Guests |
+|:----:|:------|:-------|
+| 21 April, 2026 | Open Telemetry | Barret Schloerke |
+| 19 May, 2026 | Containers (Nix) and Reproducibility | Bruno Rodrigues |
+| 16 June, 2026<br>as part of GenAI Day | ShinyMCP | James Wade |
+| 21 July, 2026 | tbc | tbc |
+| 18 August, 2026 | ARD and ARS | Daniel Sjoberg |
+| 15 September, 2026 | Behavior-Driven Development | Brian Repko & Jacub Sobolewski |
+
+:::
+
+<style>
+.quarto-float {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+table {
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+table td:first-child {
+  width: 18%;
+}
+
+table td:nth-child(2) {
+  width: 35%;
+}
+
+table td:nth-child(3) {
+  width: 47%;
+}
+</style>
+

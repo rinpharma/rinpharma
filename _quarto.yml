@@ -73,6 +73,8 @@ website:
         href: docs/summit/index.qmd
       - text: Hangouts
         menu:
+          - text: Upcoming Hangouts
+            href: docs/hangout/upcoming/index.qmd
           - text: Recordings
             href: docs/hangout/recordings/index.qmd
           - text: Guests
