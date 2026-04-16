@@ -4,44 +4,17 @@
     "items": []
   },
   {
-    "listing": "/docs/hangout/recordings/index.html",
-    "items": [
-      "/docs/hangout/recordings/package_management/index.html"
-    ]
-  },
-  {
     "listing": "/docs/hangout/guests/index.html",
     "items": [
       "/docs/hangout/guests/spileggi/index.html",
-      "/docs/hangout/guests/dpastoor/index.html",
-      "/docs/hangout/guests/kushey/index.html"
+      "/docs/hangout/guests/kushey/index.html",
+      "/docs/hangout/guests/dpastoor/index.html"
     ]
   },
   {
-    "listing": "/docs/summit/index.html",
+    "listing": "/docs/hangout/recordings/index.html",
     "items": [
-      "/docs/summit/posts/2025-quality.html",
-      "/docs/summit/posts/2025-change-mgt.html",
-      "/docs/summit/posts/2025-sce.html",
-      "/docs/summit/posts/2025-CROs.html",
-      "/docs/summit/posts/2025-python.html",
-      "/docs/summit/posts/2025-ai.html",
-      "/docs/summit/posts/2024-sce.html",
-      "/docs/summit/posts/2024-dataformat.html",
-      "/docs/summit/posts/2024-r-pkg-validation.html",
-      "/docs/summit/posts/2024-shiny-validation.html",
-      "/docs/summit/posts/2024-change-mgt.html",
-      "/docs/summit/posts/2024-ai.html",
-      "/docs/summit/posts/2024-rproducts.html",
-      "/docs/summit/posts/2024-small-mid-pharma.html",
-      "/docs/summit/posts/2023-os-depends.html",
-      "/docs/summit/posts/2023-case-os.html",
-      "/docs/summit/posts/2023-multi-modal.html",
-      "/docs/summit/posts/2023-ai.html",
-      "/docs/summit/posts/2023-shiny-validation.html",
-      "/docs/summit/posts/2023-interactive-csr.html",
-      "/docs/summit/posts/2023-change-mgt.html",
-      "/docs/summit/posts/2023-sce.html"
+      "/docs/hangout/recordings/package_management/index.html"
     ]
   },
   {
@@ -55,6 +28,33 @@
       "/docs/blog/posts/2025-07-30-genAI/index.html",
       "/docs/blog/posts/2025-07-25-hackathon/index.html",
       "/docs/blog/posts/2025-06-14-announcements/index.html"
+    ]
+  },
+  {
+    "listing": "/docs/summit/index.html",
+    "items": [
+      "/docs/summit/posts/2025-python.html",
+      "/docs/summit/posts/2025-ai.html",
+      "/docs/summit/posts/2025-quality.html",
+      "/docs/summit/posts/2025-CROs.html",
+      "/docs/summit/posts/2025-sce.html",
+      "/docs/summit/posts/2025-change-mgt.html",
+      "/docs/summit/posts/2024-ai.html",
+      "/docs/summit/posts/2024-shiny-validation.html",
+      "/docs/summit/posts/2024-rproducts.html",
+      "/docs/summit/posts/2024-sce.html",
+      "/docs/summit/posts/2024-r-pkg-validation.html",
+      "/docs/summit/posts/2024-small-mid-pharma.html",
+      "/docs/summit/posts/2024-dataformat.html",
+      "/docs/summit/posts/2024-change-mgt.html",
+      "/docs/summit/posts/2023-os-depends.html",
+      "/docs/summit/posts/2023-interactive-csr.html",
+      "/docs/summit/posts/2023-case-os.html",
+      "/docs/summit/posts/2023-shiny-validation.html",
+      "/docs/summit/posts/2023-change-mgt.html",
+      "/docs/summit/posts/2023-sce.html",
+      "/docs/summit/posts/2023-ai.html",
+      "/docs/summit/posts/2023-multi-modal.html"
     ]
   }
 ]

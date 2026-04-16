@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-03-17">
-<meta name="description" content="A foundational strength of the R language is the vast ecosystem of packages available that cover a wide array of statistical analysis techniques, data processing, innovative web application development, and much more. With the increased importance of R in the life sciences industry, it is more important than ever to have effective tools for managing these packages. In this edition of the R/Pharma Hangout sessions, we take a deeper look at both {renv} and the new rv package managers with a panel featuring Kevin Ushey, Devin Pastoor, and Shannon Pileggi to share best practices and advice for adopting these frameworks for your next project!">
+<meta name="description" content="Join us for upcoming R/Pharma Hangouts featuring key innovators across the world of open source and life sciences.">
 
-<title>Package Management in R – R/Pharma</title>
+<title>Upcoming R/Pharma Hangouts – R/Pharma</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -28,24 +27,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../../">
-<link href="../../../../favicon.png" rel="icon" type="image/png">
-<script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap-aaf0a8e7d1a49a8df1a020332ac712f2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-aaf0a8e7d1a49a8df1a020332ac712f2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,18 +77,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<link rel="stylesheet" href="../../../../styles.css">
-<meta property="og:title" content="Package Management in R – R/Pharma">
-<meta property="og:description" content="A foundational strength of the R language is the vast ecosystem of packages available that cover a wide array of statistical analysis techniques, data processing, innovative web application development, and much more. With the increased importance of R in the life sciences industry, it is more important than ever to have effective tools for managing these packages. In this edition of the R/Pharma Hangout sessions, we take a deeper look at both {renv} and the new rv package managers with a panel featuring Kevin Ushey, Devin Pastoor, and Shannon Pileggi to share best practices and advice for adopting these frameworks for your next project!">
-<meta property="og:image" content="https://rinpharma.com/docs/hangout/recordings/package_management/featured.png">
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="Upcoming R/Pharma Hangouts – R/Pharma">
+<meta property="og:description" content="Join us for upcoming R/Pharma Hangouts featuring key innovators across the world of open source and life sciences.">
+<meta property="og:image" content="https://rinpharma.com/docs/hangout/upcoming/images/logo-rinpharma.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta property="og:image:height" content="720">
-<meta property="og:image:width" content="1280">
-<meta name="twitter:title" content="Package Management in R – R/Pharma">
-<meta name="twitter:description" content="A foundational strength of the R language is the vast ecosystem of packages available that cover a wide array of statistical analysis techniques, data processing, innovative web application development, and much more. With the increased importance of R in the life sciences industry, it is more important than ever to have effective tools for managing these packages. In this edition of the R/Pharma Hangout sessions, we take a deeper look at both {renv} and the new rv package managers with a panel featuring Kevin Ushey, Devin Pastoor, and Shannon Pileggi to share best practices and advice for adopting these frameworks for your next project!">
-<meta name="twitter:image" content="https://rinpharma.com/docs/hangout/recordings/package_management/featured.png">
-<meta name="twitter:image-height" content="720">
-<meta name="twitter:image-width" content="1280">
+<meta name="twitter:title" content="Upcoming R/Pharma Hangouts – R/Pharma">
+<meta name="twitter:description" content="Join us for upcoming R/Pharma Hangouts featuring key innovators across the world of open source and life sciences.">
+<meta name="twitter:image" content="https://rinpharma.com/docs/hangout/upcoming/images/logo-rinpharma.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -100,9 +95,9 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo light-content">
-    <img src="../../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo dark-content">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo light-content">
+    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -112,15 +107,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../docs/events/index.html"> 
+    <a class="nav-link" href="../../../docs/events/index.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../docs/summit/index.html"> 
+    <a class="nav-link" href="../../../docs/summit/index.html"> 
 <span class="menu-text">Summit</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -129,33 +124,33 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-hangouts">    
         <li>
-    <a class="dropdown-item" href="../../../../docs/hangout/upcoming/index.html">
+    <a class="dropdown-item" href="../../../docs/hangout/upcoming/index.html">
  <span class="dropdown-text">Upcoming Hangouts</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../docs/hangout/recordings/index.html">
+    <a class="dropdown-item" href="../../../docs/hangout/recordings/index.html">
  <span class="dropdown-text">Recordings</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../docs/hangout/guests/index.html">
+    <a class="dropdown-item" href="../../../docs/hangout/guests/index.html">
  <span class="dropdown-text">Guests</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../../docs/people/index.html"> 
+    <a class="nav-link" href="../../../docs/people/index.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../docs/blog/index.html"> 
+    <a class="nav-link" href="../../../docs/blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../docs/support/index.html"> 
+    <a class="nav-link" href="../../../docs/support/index.html"> 
 <span class="menu-text">Support</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../contact.html"> 
+    <a class="nav-link" href="../../../contact.html"> 
 <span class="menu-text">Contact Us</span></a>
   </li>  
 </ul>
@@ -201,43 +196,30 @@ ul.task-list li input[type="checkbox"] {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#resources-mentioned-in-the-hangout" id="toc-resources-mentioned-in-the-hangout" class="nav-link active" data-scroll-target="#resources-mentioned-in-the-hangout">Resources mentioned in the Hangout</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Package Management in R</h1>
-<p class="subtitle lead">A hands-on look at both renv and rv to take control of your project’s package library.</p>
+<h1 class="title">Upcoming R/Pharma Hangouts</h1>
 </div>
 
 <div>
   <div class="description">
-    A foundational strength of the R language is the vast ecosystem of packages available that cover a wide array of statistical analysis techniques, data processing, innovative web application development, and much more. With the increased importance of R in the life sciences industry, it is more important than ever to have effective tools for managing these packages. In this edition of the R/Pharma Hangout sessions, we take a deeper look at both <code>{renv}</code> and the new <code>rv</code> package managers with a panel featuring Kevin Ushey, Devin Pastoor, and Shannon Pileggi to share best practices and advice for adopting these frameworks for your next project!
+    <p>Join us for upcoming R/Pharma Hangouts featuring key innovators across the world of open source and life sciences.</p>
   </div>
 </div>
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">March 17, 2026</p>
-    </div>
-  </div>
   
     
   </div>
@@ -247,25 +229,83 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/2ZmTXE74xnI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<section id="resources-mentioned-in-the-hangout" class="level2">
-<h2 class="anchored" data-anchor-id="resources-mentioned-in-the-hangout">Resources mentioned in the Hangout</h2>
-<ul>
-<li>rig: The R installation manager <a href="https://github.com/r-lib/rig?tab=readme-ov-file#id-macos-installer" class="uri">https://github.com/r-lib/rig?tab=readme-ov-file#id-macos-installer</a></li>
-<li>Practical <code>{renv}</code> (Shannon Pileggi) <a href="https://www.youtube.com/watch?v=l01u7Ue9pIQ" class="uri">https://www.youtube.com/watch?v=l01u7Ue9pIQ</a></li>
-<li>renv: Project environments for R <a href="https://rstudio.github.io/renv/index.html" class="uri">https://rstudio.github.io/renv/index.html</a>
-<ul>
-<li>FAQ <a href="https://rstudio.github.io/renv/articles/faq.html" class="uri">https://rstudio.github.io/renv/articles/faq.html</a></li>
-<li>Introduction to <code>{renv}</code> <a href="https://rstudio.github.io/renv/articles/renv.html" class="uri">https://rstudio.github.io/renv/articles/renv.html</a></li>
-<li>Using <code>{renv}</code> with Docker <a href="https://rstudio.github.io/renv/articles/docker.html" class="uri">https://rstudio.github.io/renv/articles/docker.html</a></li>
-</ul></li>
-<li>rv: A declarative R package manager <a href="https://a2-ai.github.io/rv-docs" class="uri">https://a2-ai.github.io/rv-docs</a></li>
-<li>Pharmaverse examples <a href="https://pharmaverse.github.io/examples" class="uri">https://pharmaverse.github.io/examples</a></li>
-<li>The R-Podcast Episode 32: RStudio’s Big Move and Kevin Ushey <a href="https://r-podcast.org/032-rsconf2020-part1/" class="uri">https://r-podcast.org/032-rsconf2020-part1/</a></li>
-</ul>
+<p>Each month R/Pharma brings you a live Hangout featuring key innovators across the world of open source and life sciences.<br>
+Join us for upcoming R/Pharma Hangouts, and check out our <a href="../../../hangout/recordings.qmd">recordings</a> to catch up on past events.</p>
+<p>Keep up to date with <a href="https://www.linkedin.com/company/open-source-in-pharma/">LinkedIn events and announcements</a> for each Hangout and, if you have a topic or guest you’d like to see featured, please reach out to us at <a href="mailto:info@rinpharma.com">info@rinpharma.com</a> or via our <a href="../../../contact.html">contact form</a>.</p>
+<div style="display: flex; justify-content: center;">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 33%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Date</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Guests</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">21 April, 2026</td>
+<td style="text-align: left;">Open Telemetry</td>
+<td style="text-align: left;">Barret Schloerke</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">19 May, 2026</td>
+<td style="text-align: left;">Containers (Nix) and Reproducibility</td>
+<td style="text-align: left;">Bruno Rodrigues</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">16 June, 2026<br>as part of GenAI Day</td>
+<td style="text-align: left;">ShinyMCP</td>
+<td style="text-align: left;">James Wade</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">21 July, 2026</td>
+<td style="text-align: left;">tbc</td>
+<td style="text-align: left;">tbc</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">18 August, 2026</td>
+<td style="text-align: left;">ARD and ARS</td>
+<td style="text-align: left;">Daniel Sjoberg</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">15 September, 2026</td>
+<td style="text-align: left;">Behavior-Driven Development</td>
+<td style="text-align: left;">Brian Repko &amp; Jacub Sobolewski</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+.quarto-float {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+table {
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+table td:first-child {
+  width: 18%;
+}
+
+table td:nth-child(2) {
+  width: 35%;
+}
+
+table td:nth-child(3) {
+  width: 47%;
+}
+</style>
 
 
-</section>
 
 </main> <!-- /main -->
 <script type="text/javascript">
@@ -684,32 +724,32 @@ if (!kPlatformMac) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Proud organizer of <a href="https://www.rinpharma.com"><img src="../../../../images/logo-rinpharma.png" class="img-fluid" alt="OS in Pharma logo" width="65"></a></p>
+<p>Proud organizer of <a href="https://www.rinpharma.com"><img src="../../../images/logo-rinpharma.png" class="img-fluid" alt="OS in Pharma logo" width="65"></a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../../../about.html">
+    <a class="nav-link" href="../../../about.html">
 <p>About</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../../privacy.html">
+    <a class="nav-link" href="../../../privacy.html">
 <p>Privacy Policy</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../../terms.html">
+    <a class="nav-link" href="../../../terms.html">
 <p>Terms and Conditions</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../../license.html">
+    <a class="nav-link" href="../../../license.html">
 <p>License</p>
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
