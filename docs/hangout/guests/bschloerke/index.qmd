@@ -1,0 +1,22 @@
+---
+draft: false
+title: Barret Schloerke
+subtitle: Software Engineer
+date: '2026-04-21'
+about:
+  template: marquee
+  image: featured.jpeg
+  links:
+  - icon: link
+    text: Posit
+    href: https://posit.co
+  - icon: video
+    text: OpenTelemetry with Shiny
+    href: ../recordings/shiny_otel
+  - icon: linkedin
+    href: https://www.linkedin.com/in/schloerke/
+  - icon: github
+    href: https://github.com/schloerke
+---
+
+Barret Schloerke is a software engineer on the Shiny development team at Posit. Barret received his PhD in Statistics from Purdue University specializing in large data visualization under the direction of Dr. Ryan Hafen and Dr. William Cleveland. Barret works on many different parts of the Shiny ecosystem including core packages like reactlog, shinytest, and shinyloadtest, as well as non-Shiny packages plumber, gt, and leaflet.
