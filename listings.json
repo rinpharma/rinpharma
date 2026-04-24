@@ -1,19 +1,21 @@
 [
   {
-    "listing": "/docs/conference/index.html",
-    "items": []
-  },
-  {
     "listing": "/docs/hangout/guests/index.html",
     "items": [
+      "/docs/hangout/guests/bschloerke/index.html",
       "/docs/hangout/guests/spileggi/index.html",
       "/docs/hangout/guests/kushey/index.html",
       "/docs/hangout/guests/dpastoor/index.html"
     ]
   },
   {
+    "listing": "/docs/conference/index.html",
+    "items": []
+  },
+  {
     "listing": "/docs/hangout/recordings/index.html",
     "items": [
+      "/docs/hangout/recordings/shiny_otel/index.html",
       "/docs/hangout/recordings/package_management/index.html"
     ]
   },

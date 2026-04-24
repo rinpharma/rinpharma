@@ -77,25 +77,32 @@
     "text": "Resources mentioned in the Hangout\n\nrig: The R installation manager https://github.com/r-lib/rig?tab=readme-ov-file#id-macos-installer\nPractical {renv} (Shannon Pileggi) https://www.youtube.com/watch?v=l01u7Ue9pIQ\nrenv: Project environments for R https://rstudio.github.io/renv/index.html\n\nFAQ https://rstudio.github.io/renv/articles/faq.html\nIntroduction to {renv} https://rstudio.github.io/renv/articles/renv.html\nUsing {renv} with Docker https://rstudio.github.io/renv/articles/docker.html\n\nrv: A declarative R package manager https://a2-ai.github.io/rv-docs\nPharmaverse examples https://pharmaverse.github.io/examples\nThe R-Podcast Episode 32: RStudio’s Big Move and Kevin Ushey https://r-podcast.org/032-rsconf2020-part1/"
   },
   {
-    "objectID": "docs/hangout/upcoming/index.html",
-    "href": "docs/hangout/upcoming/index.html",
-    "title": "Upcoming R/Pharma Hangouts",
-    "section": "",
-    "text": "Each month R/Pharma brings you a live Hangout featuring key innovators across the world of open source and life sciences.\nJoin us for upcoming R/Pharma Hangouts, and check out our recordings to catch up on past events.\nKeep up to date with LinkedIn events and announcements for each Hangout and, if you have a topic or guest you’d like to see featured, please reach out to us at info@rinpharma.com or via our contact form.\n\n\n\n\n\n\n\n\n\nDate\nTitle\nGuests\n\n\n\n\n21 April, 2026\nOpen Telemetry\nBarret Schloerke\n\n\n19 May, 2026\nContainers (Nix) and Reproducibility\nBruno Rodrigues\n\n\n16 June, 2026as part of GenAI Day\nShinyMCP\nJames Wade\n\n\n21 July, 2026\ntbc\ntbc\n\n\n18 August, 2026\nARD and ARS\nDaniel Sjoberg\n\n\n15 September, 2026\nBehavior-Driven Development\nBrian Repko & Jacub Sobolewski"
+    "objectID": "docs/hangout/recordings/shiny_otel/index.html#resources-mentioned-in-the-hangout",
+    "href": "docs/hangout/recordings/shiny_otel/index.html#resources-mentioned-in-the-hangout",
+    "title": "OpenTelemetry with Shiny",
+    "section": "Resources mentioned in the Hangout",
+    "text": "Resources mentioned in the Hangout\n\nExample Shiny application used in this session https://github.com/rinpharma/hangouts/tree/main/shiny-otel\nOpenTelmetry with Shiny article https://shiny.posit.co/r/articles/improve/opentelemetry/\n{otelsdk} vignette on collecting telemetry data https://otelsdk.r-lib.org/reference/collecting.html\nLogfire https://logfire-us.pydantic.dev\nOtel Desktop Viewer https://github.com/CtrlSpice/otel-desktop-viewer"
   },
   {
-    "objectID": "docs/hangout/guests/kushey/index.html",
-    "href": "docs/hangout/guests/kushey/index.html",
-    "title": "Kevin Ushey",
+    "objectID": "docs/hangout/guests/dpastoor/index.html",
+    "href": "docs/hangout/guests/dpastoor/index.html",
+    "title": "Devin Pastoor",
     "section": "",
-    "text": "Kevin Ushey is a software engineer at Posit, and previously worked as as a statistical programmer at the rglab within the Fred Hutchinson Cancer Research Center. Kevin is a tool builder – he enjoys developing computational tools that help researchers and scientists to achieve their analytic goals.\nKevin completed his MSc in Statistics at the University of British Columbia, under the supervision of Jenny Bryan. His thesis involved the study of gene-gene and gene-Rx interaction effects, and statistical assessment of these epistatic effects in yeast growth curves."
+    "text": "As CTPO of A2-Ai, Devin works with clients to deliver end-to-end solutions that support quantitative decision-making. Devin specializes in bridging the unique characteristics of each client’s IT structure with the needs of the scientific team. Some of his focuses for clients include providing strategies to migrate from existing tools to more modern cloud-based workflows, and building prototype tools and dashboards to solve business challenges. Before joining A2-Ai, Devin worked as a principal solutions engineer to help dozens of organizations ranging from the FDA to small biotech and device manufacturers to develop and implement data science solutions.\nDevin received his B.S. in Biochemistry from University of North Carolina, Chapel Hill, his Master of Toxicology from North Carolina State University, and his PhD in Pharmaceutical Sciences from University of Maryland, Baltimore. His doctoral training focused on application of quantitative methods and regulatory strategy to accelerate the development of pharmaceutical products. In addition, he served as an ORISE fellow at the FDA working to improve the agency’s capability to analyze large datasets across disease areas for regulatory policy and decision-making. He then spent time consulting across many of the top 10 pharma companies around how to adopt novel data analysis toolchains, before joining Metrum Research Group, where he grew a new Technology Solutions group from the ground up. He led the development of a validated high performance compute platform, designed novel analytics tools, handled data management and governance, and grew a technical consulting arm targeting various stages of the drug development lifecycle from genomic analysis through manufacturing quality assurance. Devin is a world-leading expert in the use of R and python in controlled and validated environments. He has trained hundreds of scientists on how to do rigorous data science, and has successfully guided dozens of organizations looking to adopt open source data science tooling."
   },
   {
-    "objectID": "docs/hangout/guests/spileggi/index.html",
-    "href": "docs/hangout/guests/spileggi/index.html",
-    "title": "Shannon Pileggi",
+    "objectID": "docs/hangout/guests/index.html",
+    "href": "docs/hangout/guests/index.html",
+    "title": "Guests of the R/Pharma Hangouts",
     "section": "",
-    "text": "Shannon Pileggi (she/her) is an Associate Directory of Data Science at The Prostate Cancer Clinical Trials Consortium, an occasional blogger, a frequent workshop instructor, and a member of the R-Ladies Leadership team. She enjoys automating data wrangling and data outputs, and making both data insights and learning new material digestible."
+    "text": "Barret Schloerke\n\n\nSoftware Engineer\n\n\n\n\n\n\n\n\n\n\nShannon Pileggi\n\n\nAssociate Director, Data Science\n\n\n\n\n\n\n\n\n\n\nKevin Ushey\n\n\nSoftware Engineer\n\n\n\n\n\n\n\n\n\n\nDevin Pastoor\n\n\nChief Technology & Product Officer\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "docs/hangout/guests/bschloerke/index.html",
+    "href": "docs/hangout/guests/bschloerke/index.html",
+    "title": "Barret Schloerke",
+    "section": "",
+    "text": "Barret Schloerke is a software engineer on the Shiny development team at Posit. Barret received his PhD in Statistics from Purdue University specializing in large data visualization under the direction of Dr. Ryan Hafen and Dr. William Cleveland. Barret works on many different parts of the Shiny ecosystem including core packages like reactlog, shinytest, and shinyloadtest, as well as non-Shiny packages plumber, gt, and leaflet."
   },
   {
     "objectID": "docs/conference/index.html",
@@ -168,25 +175,32 @@
     "text": "R/Pharma is fortunate to have the support of many amazing organizations over the years. We would like to thank the following for all their financial support:\n\n\nAbbvie\nB2S\nBeigene\nBiogen\nGilead\nHarvard\nJ&J\nMerck\nMetrum Research Group\nPfizer\nPosit\nRoche"
   },
   {
-    "objectID": "docs/hangout/guests/index.html",
-    "href": "docs/hangout/guests/index.html",
-    "title": "Guests of the R/Pharma Hangouts",
+    "objectID": "docs/hangout/guests/spileggi/index.html",
+    "href": "docs/hangout/guests/spileggi/index.html",
+    "title": "Shannon Pileggi",
     "section": "",
-    "text": "Shannon Pileggi\n\n\nAssociate Director, Data Science\n\n\n\n\n\n\n\n\n\n\nKevin Ushey\n\n\nSoftware Engineer\n\n\n\n\n\n\n\n\n\n\nDevin Pastoor\n\n\nChief Technology & Product Officer\n\n\n\n\n\nNo matching items"
+    "text": "Shannon Pileggi (she/her) is an Associate Directory of Data Science at The Prostate Cancer Clinical Trials Consortium, an occasional blogger, a frequent workshop instructor, and a member of the R-Ladies Leadership team. She enjoys automating data wrangling and data outputs, and making both data insights and learning new material digestible."
   },
   {
-    "objectID": "docs/hangout/guests/dpastoor/index.html",
-    "href": "docs/hangout/guests/dpastoor/index.html",
-    "title": "Devin Pastoor",
+    "objectID": "docs/hangout/guests/kushey/index.html",
+    "href": "docs/hangout/guests/kushey/index.html",
+    "title": "Kevin Ushey",
     "section": "",
-    "text": "As CTPO of A2-Ai, Devin works with clients to deliver end-to-end solutions that support quantitative decision-making. Devin specializes in bridging the unique characteristics of each client’s IT structure with the needs of the scientific team. Some of his focuses for clients include providing strategies to migrate from existing tools to more modern cloud-based workflows, and building prototype tools and dashboards to solve business challenges. Before joining A2-Ai, Devin worked as a principal solutions engineer to help dozens of organizations ranging from the FDA to small biotech and device manufacturers to develop and implement data science solutions.\nDevin received his B.S. in Biochemistry from University of North Carolina, Chapel Hill, his Master of Toxicology from North Carolina State University, and his PhD in Pharmaceutical Sciences from University of Maryland, Baltimore. His doctoral training focused on application of quantitative methods and regulatory strategy to accelerate the development of pharmaceutical products. In addition, he served as an ORISE fellow at the FDA working to improve the agency’s capability to analyze large datasets across disease areas for regulatory policy and decision-making. He then spent time consulting across many of the top 10 pharma companies around how to adopt novel data analysis toolchains, before joining Metrum Research Group, where he grew a new Technology Solutions group from the ground up. He led the development of a validated high performance compute platform, designed novel analytics tools, handled data management and governance, and grew a technical consulting arm targeting various stages of the drug development lifecycle from genomic analysis through manufacturing quality assurance. Devin is a world-leading expert in the use of R and python in controlled and validated environments. He has trained hundreds of scientists on how to do rigorous data science, and has successfully guided dozens of organizations looking to adopt open source data science tooling."
+    "text": "Kevin Ushey is a software engineer at Posit, and previously worked as as a statistical programmer at the rglab within the Fred Hutchinson Cancer Research Center. Kevin is a tool builder – he enjoys developing computational tools that help researchers and scientists to achieve their analytic goals.\nKevin completed his MSc in Statistics at the University of British Columbia, under the supervision of Jenny Bryan. His thesis involved the study of gene-gene and gene-Rx interaction effects, and statistical assessment of these epistatic effects in yeast growth curves."
+  },
+  {
+    "objectID": "docs/hangout/upcoming/index.html",
+    "href": "docs/hangout/upcoming/index.html",
+    "title": "Upcoming R/Pharma Hangouts",
+    "section": "",
+    "text": "Each month R/Pharma brings you a live Hangout featuring key innovators across the world of open source and life sciences.\nJoin us for upcoming R/Pharma Hangouts, and check out our recordings to catch up on past events.\nKeep up to date with LinkedIn events and announcements for each Hangout and, if you have a topic or guest you’d like to see featured, please reach out to us at info@rinpharma.com or via our contact form.\n\n\n\n\n\n\n\n\n\nDate\nTitle\nGuests\n\n\n\n\n21 April, 2026\nOpen Telemetry\nBarret Schloerke\n\n\n19 May, 2026\nContainers (Nix) and Reproducibility\nBruno Rodrigues\n\n\n16 June, 2026as part of GenAI Day\nShinyMCP\nJames Wade\n\n\n21 July, 2026\ntbc\ntbc\n\n\n18 August, 2026\nARD and ARS\nDaniel Sjoberg\n\n\n15 September, 2026\nBehavior-Driven Development\nBrian Repko & Jacub Sobolewski"
   },
   {
     "objectID": "docs/hangout/recordings/index.html",
     "href": "docs/hangout/recordings/index.html",
     "title": "R/Pharma Hangouts",
     "section": "",
-    "text": "Package Management in R\n\n\nA hands-on look at both renv and rv to take control of your project’s package library.\n\n\n\n\n\nMar 17, 2026\n\n\n\n\n\nNo matching items"
+    "text": "OpenTelemetry with Shiny\n\n\nHarnessing the power of OpenTelemetry inside Shiny applications for observability in production\n\n\n\n\n\nApr 21, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPackage Management in R\n\n\nA hands-on look at both renv and rv to take control of your project’s package library.\n\n\n\n\n\nMar 17, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "privacy.html",
