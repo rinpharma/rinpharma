@@ -13,3 +13,8 @@ rinpharma.Rproj
 
 # nix development files
 result
+
+**/*.quarto_ipynb
+
+# renv setup
+setup_renv.R
