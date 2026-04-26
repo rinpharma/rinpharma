@@ -33,7 +33,7 @@ jobs:
       - name: Cache renv
         uses: actions/cache@v4
         with:
-          ppath: ${{ env.RENV_PATHS_ROOT }}
+          path: ${{ env.RENV_PATHS_ROOT }}
           key: ${{ runner.os }}-renv-4.5.3-${{ hashFiles('renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-renv-4.5.3-
@@ -48,7 +48,7 @@ jobs:
           echo "source('renv/activate.R')" >> ~/.Rprofile
           Rscript -e '.libPaths()'
           Rscript -e 'library(shinylive)'
-          
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
