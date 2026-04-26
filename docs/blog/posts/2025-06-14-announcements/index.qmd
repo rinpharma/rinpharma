@@ -5,7 +5,7 @@ description: |
   Learn more about In-Person and Virtual Events for 2025.
 categories:
   - summit
-  - gen-AI-day
+  - genAI-day
   - conference
 author: R/Pharma
 date: 2025-06-14

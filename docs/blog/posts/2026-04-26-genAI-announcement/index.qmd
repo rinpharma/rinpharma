@@ -5,6 +5,8 @@ description: |
   Free virtual conference on the use of genAI in Pharma.
 categories:
   - genAI-day
+  - APAC
+  - asia-pacific
 author: R/Pharma
 date: 2026-04-26
 image: genAI.png
