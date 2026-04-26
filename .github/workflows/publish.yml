@@ -10,9 +10,11 @@ jobs:
     runs-on: ubuntu-24.04
     permissions:
       contents: write
+    env:
+      RENV_PATHS_ROOT: ~/.local/share/renv
     steps:
       - name: Check out repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         
       - name: Install system libraries
         run: |
@@ -31,16 +33,22 @@ jobs:
       - name: Cache renv
         uses: actions/cache@v4
         with:
-          path: renv/library
-          key: ${{ runner.os }}-renv-${{ hashFiles('renv.lock') }}
+          ppath: ${{ env.RENV_PATHS_ROOT }}
+          key: ${{ runner.os }}-renv-4.5.3-${{ hashFiles('renv.lock') }}
           restore-keys: |
-            ${{ runner.os }}-renv-
+            ${{ runner.os }}-renv-4.5.3-
 
       - name: Restore R packages
         run: |
           Rscript -e 'install.packages("renv", repos="https://cloud.r-project.org")'
           Rscript -e 'renv::restore()'
 
+      - name: Activate renv for Quarto
+        run: |
+          echo "source('renv/activate.R')" >> ~/.Rprofile
+          Rscript -e '.libPaths()'
+          Rscript -e 'library(shinylive)'
+          
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
