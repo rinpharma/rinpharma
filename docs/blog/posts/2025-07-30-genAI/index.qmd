@@ -4,7 +4,7 @@ subtitle: Our second genAI single day event
 description: |
   Free virtual conference on the use of genAI in Pharma.
 categories:
-  - gen-AI-day
+  - genAI-day
 author: R/Pharma
 date: 2025-07-30
 image: genAI.png
