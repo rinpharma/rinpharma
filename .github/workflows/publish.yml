@@ -10,13 +10,15 @@ jobs:
     runs-on: ubuntu-24.04
     permissions:
       contents: write
+
     env:
       RENV_PATHS_ROOT: ~/.local/share/renv
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
         
-      - name: Install system libraries
+      - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y \
@@ -31,14 +33,6 @@ jobs:
         with:
           r-version: '4.5.3'
 
-      - name: Cache renv
-        uses: actions/cache@v4
-        with:
-          path: renv/library
-          key: ${{ runner.os }}-renv-4.5.3-${{ hashFiles('renv.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-renv-4.5.3-
-
       - name: Install renv
         run: |
           Rscript -e 'install.packages("renv", repos="https://cloud.r-project.org")'
@@ -46,6 +40,18 @@ jobs:
       - name: Restore renv environment
         run: |
           Rscript -e 'renv::restore(prompt = FALSE)'
+
+      - name: Activate renv globally
+        run: |
+          echo 'source("renv/activate.R")' >> $GITHUB_ENV
+
+      - name: Cache renv
+        uses: actions/cache@v4
+        with:
+          path: renv/library
+          key: ${{ runner.os }}-renv-4.5.3-${{ hashFiles('renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-4.5.3-
 
       - name: Validate R environment
         run: |
