@@ -47,7 +47,7 @@ jobs:
         run: |
           Rscript -e 'renv::restore(prompt = FALSE)'
 
-      - name: Rname: Validate R environment
+      - name: Validate R environment
         run: |
           Rscript -e '.libPaths()'
           Rscript -e 'library(shinylive)'
