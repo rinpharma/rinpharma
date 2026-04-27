@@ -15,6 +15,3 @@ rinpharma.Rproj
 result
 
 **/*.quarto_ipynb
-
-# renv setup
-setup_renv.R
