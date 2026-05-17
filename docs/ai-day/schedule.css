@@ -1,0 +1,117 @@
+/* ===== Layout ===== */
+
+.schedule-container {
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.schedule-row {
+  display: flex;
+  margin-bottom: 0.85em;
+}
+
+.schedule-row .time {
+  width: 80px;
+  font-weight: 600;
+}
+
+.schedule-row .content {
+  flex: 1;
+  line-height: 1.4;
+}
+
+/* ===== Break styling ===== */
+
+.schedule-row.break {
+  color: #666;
+  font-style: italic;
+}
+
+/* ===== Speaker ===== */
+
+.speaker {
+  font-weight: 600;
+  color: #444;
+  display: inline; /* ensures tight hover area */
+}
+
+/* ===== Title + duration ===== */
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.title-row .talk-title {
+  flex: 0 1 auto;   /* 🔑 prevents stretching across row */
+  min-width: 0;
+  display: inline;  /* 🔑 fixes hover area */
+  margin-top: 2px;
+}
+
+.title-row .duration {
+  white-space: nowrap;
+  color: #888;
+  font-size: 0.9em;
+}
+
+/* ===== Tooltip ===== */
+
+.tippy-box {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* ===== Desktop ===== */
+
+@media (min-width: 900px) {
+
+  .schedule-container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+/* ===== Mobile ===== */
+
+@media (max-width: 600px) {
+
+  .schedule-row {
+    flex-direction: column;
+  }
+
+  .schedule-row .time {
+    width: auto;
+    margin-bottom: 4px;
+  }
+
+  .title-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .title-row .duration {
+    margin-left: 0;
+  }
+}
+
+/* ===== Buttons ===== */
+
+.hero-buttons-ai {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 1.2rem;
+}
+
+.hero-buttons-ai .btn {
+  min-width: 200px;   /* optional: equal-ish width */
+  text-align: center;
+}

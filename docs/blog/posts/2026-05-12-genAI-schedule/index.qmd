@@ -1,0 +1,137 @@
+---
+title: R/Pharma GenAI Day Schedule
+subtitle: Our third genAI single day event
+description: |
+  Free virtual conference on the use of genAI in Pharma.
+categories:
+  - genAI-day
+author: R/Pharma
+date: 2026-05-12
+image: markus-winkler-_a97xDX9eZg-unsplash.jpg
+image-alt: "genAI Image"
+format:
+  html:
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="schedule.css">
+---
+
+We are excited to share the schedule for the third **R/Pharma genAI** day, a free single day event focused on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.
+
+For talk abstracts and speaker bios, check out our [conference page](/docs/ai-day/index.qmd).
+
+```{r}
+#| echo: FALSE
+library(yaml)
+library(purrr)
+library(tibble)
+library(htmltools)
+
+file <- "./schedule.yml"
+raw <- yaml::read_yaml(file)
+
+normalize_speakers <- function(s) {
+  if (is.null(s)) return(NULL)
+  lapply(s, function(x) {
+    list(
+      name = x$name,
+      affiliation = if (!is.null(x$affiliation) && nzchar(x$affiliation)) x$affiliation else NULL
+    )
+  })
+}
+
+schedule <- tibble(
+  time = map_chr(raw, "time"),
+  type = map_chr(raw, "type"),
+  title = map_chr(raw, "title"),
+  duration = map_chr(raw, "duration"),
+  speakers = map(raw, ~ normalize_speakers(.x$speakers))
+)
+
+speaker_tag <- function(name, affiliation) {
+
+  has_text <- function(x) {
+    !is.null(x) && length(x) == 1 && !is.na(x) && nzchar(x)
+  }
+
+  label <- name
+  if (has_text(affiliation)) {
+    label <- paste0(name, " (", affiliation, ")")
+  }
+
+  tags$span(class = "speaker", label)
+}
+
+speakers_block <- function(speakers) {
+
+  if (is.null(speakers) || length(speakers) == 0) return(NULL)
+
+  if (length(speakers) == 1 && is.list(speakers[[1]]) && !is.null(speakers[[1]][[1]]$name)) {
+    speakers <- speakers[[1]]
+  }
+
+  tagList(
+    purrr::imap(speakers, function(sp, i) {
+      tagList(
+        speaker_tag(
+          sp$name %||% "",
+          sp$affiliation %||% NULL
+        ),
+        if (i < length(speakers)) ", "
+      )
+    })
+  )
+}
+
+render_row <- function(row) {
+
+  if (row$type == "break") {
+    return(
+      tags$div(class = "schedule-row break",
+        tags$div(class = "time", row$time),
+        tags$div(class = "content",
+          tags$strong(row$title),
+          tags$span(class = "duration", row$duration)
+        )
+      )
+    )
+  }
+
+  tags$div(class = "schedule-row talk",
+    tags$div(class = "time", row$time),
+    tags$div(class = "content",
+
+      speakers_block(row$speakers),
+
+      if (!is.null(row$speakers) && length(row$speakers) > 0) tags$br(),
+
+      tags$div(class = "title-row",
+        tags$span(class = "talk-title", row$title),
+        tags$span(class = "duration", row$duration)
+      )
+    )
+  )
+}
+
+schedule_html <- tags$div(
+  class = "schedule-container",
+  tagList(
+    lapply(seq_len(nrow(schedule)), function(i) {
+      render_row(schedule[i, ])
+    })
+  )
+)
+```
+
+```{r}
+#| echo: FALSE
+#| output: asis
+schedule_html
+```
+
+### {.citation-image}
+Photo by <a href="https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Winkler</a> on <a href="https://unsplash.com/photos/a-close-up-of-an-old-fashioned-typewriter-_a97xDX9eZg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+###
+
+      

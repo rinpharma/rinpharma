@@ -77,7 +77,7 @@ Our mission:
 ## Latest Announcement
 
 <p><strong>genAI Day is happening June 16.  Registration is open!</strong><br/>
-[Register here](https://events.zoom.us/ev/AkKYQ7Uryr8k8HeuQ7F6rkZTHJwjHlP6gxu14Z2s1LYb0kswLdDT~ApU4J3CViJWrwmjZhnw0nwGzDFCxNGoMHJAw01NbG30yNwnVwf9IJQkvOg)
+Schedule available [here](/docs/ai-day/index.qmd)
 </p>
 
 <p><strong>R/Pharma 2026 is happening October 20–21!</strong><br/>

@@ -1,0 +1,359 @@
+- time: "10:00"
+  type: "workshop"
+  title: "To be announced"
+  duration: "40 min"
+  abstract: "Abstract to follow"
+  speakers:
+    - name: "Sara Altman"
+      affiliation: "Posit"
+      bio: " "
+    - name: "Simon Couch"
+      affiliation: "Posit"
+      bio: " "
+
+- time: "10:40"
+  type: "break"
+  title: "Break"
+  duration: "20 min"
+
+- time: "11:00"
+  type: "talk"
+  title: "Using LLMs to generate Teal applications: from proof of concept to production"
+  duration: "20 min"
+  abstract: >
+    Large language models (LLMs) can accelerate code generation, making it easier to build 
+    proof-of-concept tools and solutions. For example, building R Shiny applications using 
+    the Teal framework for clinical data visualisation.  
+    However, moving from AI experts building proof-of-concept applications to 
+    Statistical Programmers using these tools to build production applications introduces 
+    significant challenges. Applications are often highly customised and complex, and their 
+    development requires a detailed understanding of specific clinical data, the programming 
+    environment, and the company’s wider processes. Developers may also be new to 
+    AI-assisted coding and the Teal framework.  
+    In this presentation, we will discuss these challenges and share how 
+    Johnson & Johnson is addressing them to scale adoption of Teal applications and 
+    AI-assisted programming, enabling statistical programmers to harness LLMs 
+    effectively in their day-to-day work.
+  speakers:
+    - name: "Nikolas Burkhoff"
+      affiliation: "Johnson & Johnson"
+      bio: >
+        Nik is a scientific software developer with over a decade of experience solving 
+        technical challenges throughout the drug discovery life cycle. He has a strong 
+        focus on R, algorithm development, and industrialising tools for statisticians and 
+        scientists. He was a member of the core teal development team in its early years and 
+        is excited to see its continued growth and adoption. He is energised by the 
+        opportunities Gen AI brings and mindful of the challenges of its use in such a highly 
+        regulated environment.
+
+- time: "11:20"
+  type: "talk"
+  title: "To be announced"
+  duration: "20 min"
+  abstract: "Abstract to follow"
+  speakers:
+    - name: "Isabella Velásquez"
+      affiliation: "Posit"
+      bio: " "
+
+- time: "11:40"
+  type: "talk"
+  title: "From R, Shiny, and Container to AI Skills: The R Consortium Submissions Working Group Call for Contributors"
+  duration: "20 min"
+  abstract: >
+    The R Consortium Submission Working Group has spent the past several years 
+    putting modernized components through FDA pilots — R, containers, Shiny, WebAssembly, 
+    JSON — demonstrating that open-source tooling can meet regulated-submission standards. 
+    Through that work, one limitation kept surfacing: benchmark data. The CDISC SDTM/ADaM 
+    Pilot 1 dataset, our de facto test bed for every new technology component, is now 
+    nearly two decades old and narrow in scope. When we turned to AI skills for specialized 
+    statistical tasks, the gap became acute — there were not enough benchmark test cases 
+    for these workflows.
+
+    Pilot 7 is our response. It has two parts: build modern, varied benchmark clinical 
+    trial data for general tooling, and crowdsource benchmark test cases for pharma-skills, 
+    an open-source library of AI skills developed jointly with Bay area Biotech-Pharma 
+    Statistics Workshop (BBSW). The first skill we open-sourced is Group Sequential 
+    Design, built on gsDesign, gsDesign2, graphicalMCP with lrstat Monte Carlo verification 
+    and a JSON-driven Word report (https://github.com/RConsortium/pharma-skills). To 
+    evaluate the skill, we aim to develop test cases that cover both typical scenarios 
+    and edge cases, helping us understand its limits across different AI agents. 
+
+    One week since release, the community has contributed 10+ benchmark test cases. 
+    We'd love more — especially the tough ones that stretch the skill. Submitting 
+    takes about 15 minutes on GitHub and no coding required: describe a design scenario, 
+    state the expected output, write objective rubric criteria. Each case you share helps 
+    shape how AI shows up in our field, built by the statisticians who know the work best. 
+  speakers:
+    - name: "Eric Zhang"
+      affiliation: "Eikon Therapeutics"
+      bio: >
+        Eric Zhang is the Director of Biostatistics at Eikon Therapeutics, where he 
+        supports oncology programs spanning early to late-stage clinical development. 
+        He earned his Ph.D. in Biostatistics from the University of Southern California 
+        and began his career at Merck, where he served as the lead statistician for 
+        late-stage oncology trials and played a pivotal role in the regulatory filing 
+        and approval of pembrolizumab (KEYTRUDA) for RCC and HN cancer. Following his 
+        time at Merck, Eric worked at BeiGene and Gilead Sciences. In addition to his 
+        project work, Eric is also an active participant in scientific discussions across 
+        industry and regulatory bodies, and has published extensively in both statistical 
+        and medical journals. 
+    - name: "Ning Leng"
+      affiliation: "Abbvie"
+      bio: " "
+
+- time: "12:50"
+  type: "hangout"
+  title: "R/Pharma Hangout: shinymcp"
+  duration: "50 min"
+  abstract: >
+    Eric and Jared will be joined by this month's guest, James Wade, at the R/Pharma 
+    Hangout.  Come to find out all about shinymcp.
+  speakers:
+    - name: "James Wade"
+      affiliation: "Dow"
+      bio: " "
+
+- time: "12:50"
+  type: "break"
+  title: "Break"
+  duration: "10 min"
+
+- time: "13:00"
+  type: "talk"
+  title: "Evolving Methods for Scalable Content Generation with AI"
+  duration: "20 min"
+  abstract: >
+    Content generation is evolving rapidly from section by section mapping where 
+    authors must still manually define templated and structured content toward AI 
+    systems that read the full body of project evidence, builds a unified understanding 
+    of the work, and writes every section of content from that shared foundation. Key 
+    recent advances in memory systems, context structure and compaction now enable this 
+    evolving paradigm, The core insight is that most quality problems in technical 
+    artifacts - terminology drift, redundancy, incomplete context - are symptoms of 
+    context switching. An agentic pipeline that eliminates context switching eliminates 
+    the symptoms of drift and lack of coherence across the body of the content being 
+    generated. Layered quality passes, combining fast deterministic checks with 
+    LLM-driven semantic review enable large scale pressure testing for generated content. 
+    The resulting artifacts and documents are structurally complete, compliant, and 
+    internally consistent and represent a new, evolving paradigm in content generation 
+    for clinical and medical information.
+  speakers:
+    - name: "Jeremy Zhang"
+      affiliation: "Otsuka Pharmaceutical Companies"
+      bio: >
+        Jeremy Zhang, PhD is Senior Director, Data Science Solutions at Otsuka 
+        Pharmaceutical Companies, focusing on extracting insights from data, 
+        building predictive models, and enabling data-driven decision-making and 
+        the development and application of advanced analytical methods including AI. 
+        Jeremy has over 15 years of experience in life science research, development, 
+        manufacturing, quality, and product launch. Prior to joining Otsuka, he has 
+        held data science leadership positions of increasing responsibility at Gilead 
+        Sciences and Abbott Labs. Jeremy holds a Bachelor’s degree in biomedical 
+        engineering from Duke University and a PhD in bioengineering from Clemson 
+        University.
+
+- time: "13:20"
+  type: "talk"
+  title: "Hands Dirty First: Practical Notes from Before, During, and After Building Agentic Workflows"
+  duration: "20 min"
+  abstract: >
+    2026 has been a banner year for AI and has pushed LLM capabilities across a new 
+    operational threshold that makes it practical for agents to execute structured 
+    workflows through explicit orchestration frameworks such as Claude Code, with 
+    task-specific guidance encoded in lightweight markdown artifacts such as skill 
+    files. In a biostatistical and clinical data context, this can facilitate tasks 
+    such as authoring statistical documentation and programming code, which in turn 
+    produce analysis datasets and outputs. In practice, however, building such workflows 
+    reliably raises substantial concerns around accuracy, evaluation, domain knowledge, 
+    GxP validation, data privacy, and human accountability. This presentation shares 
+    practical experience and reflections from building agentic workflows, organized in 
+    three parts: early exploration, observations after diving in, and considerations 
+    for those preparing to do the same. Examples will be presented to illustrate the 
+    ideas.
+  speakers:
+    - name: "Peng Zhang"
+      affiliation: "CIMS Global"
+      bio: >
+        Peng Zhang is the Associate Director of Innovative Data Sciences Department 
+        at CIMS Global. He graduated from Rutgers School of Public Health with Ph.D. in 
+        Biostatistics with research interest in adaptive design and statistical monitoring 
+        of clinical trials.  
+        Peng leads the internal development of R packages, R Shiny apps, agentic 
+        workflow, and supports software & platform development with open-source solutions. 
+        Peng has also served as independent statistician for 30+ DSMB meetings and 10+ 
+        ongoing clinical trials from phase 2 to phase 3 for different therapeutic areas.
+
+- time: "13:40"
+  type: "talk"
+  title: "'Ignore All Previous Instructions' and Other Things Your LLM Shouldn't Do in Pharma: Applying GenAI Security Guardrails in R"
+  duration: "20 min"
+  abstract: >
+    As R users in pharma begin integrating LLMs into analytical and reporting workflows, 
+    a practical question keeps coming up: how do we check what goes into the model and 
+    what comes back, in a way that is transparent, auditable, and fits into how we already 
+    work in R? 
+
+    This talk presents {llmshieldr}, an open-source R package I've been developing as 
+    an attempt to fill that gap. It adds a transparent, model-agnostic guardrail layer 
+    that scans prompts, retrieved context, and model outputs before anything risky 
+    leaves or enters your workflow. The rule engine supports regex pattern matching, 
+    lightweight NLP intent detection, and optional semantic review using local LLMs, 
+    keeping sensitive data off third-party APIs entirely. Controls are mapped to the 
+    OWASP Top 10 for LLM Applications (2025), and every scan produces auditable findings 
+    with configurable policies and structured logging. 
+
+    I'll walk through the design with real examples, highlighting pharma-relevant 
+    scenarios. This is an experimental project, being built for open source. The goal is 
+    to share what's working, what's not, and start a conversation about what secure LLM 
+    usage in R focussed pharma teams should actually look like.
+  speakers:
+    - name: "Indraneel Chakraborty"
+      affiliation: "Independent Contributor"
+      bio: >
+        Indraneel is a Bioinformatician turned techie working at the intersection of 
+        large language models and regulated cloud environments. With a background 
+        spanning academic research and the biomedical data industry, he specializes 
+        in bridging R and Python ecosystems to transform complex, domain-specific 
+        problems into usable, maintainable solutions. As an active open-source advocate, 
+        he contributes to projects across both R and Python, reviews technical 
+        publications, and develops and maintains packages on CRAN. His R package 
+        {clintrialx} with over 4.5k downloads has been recently cited in a Cambridge 
+        University Press journal, reflecting its growing adoption within the research 
+        community. His professional interests lie at the confluence of DevSecOps 
+        practices for regulated industries, AI assisted reproducible data pipelines, 
+        and democratizing safety tooling for the broader R community.
+
+- time: "14:00"
+  type: "talk"
+  title: "Accelerating Population PK/PD Modeling and Simulation with GenAI"
+  duration: "20 min"
+  abstract: >
+    Generative AI is rapidly moving from novelty to utility in quantitative drug 
+    development. In this talk, I will present a live demo of how genAI can be applied 
+    to population PK modeling and simulation workflows in R, from data review and model 
+    coding to simulation, interpretation, and reporting. The session will highlight 
+    practical use cases where genAI can improve speed and consistency while keeping 
+    the pharmacometrician firmly in the loop. Attendees will leave with a grounded view 
+    of how genAI can be used today to augment pharmacometrics workflows in a reproducible 
+    and scientifically credible way.
+  speakers:
+    - name: "Husain Attarwala"
+      affiliation: "Aera Therapeutics"
+      bio: >
+        Husain Attarwala is a quantitative clinical pharmacology and pharmacometrics 
+        leader specializing in nucleic acid therapeutics, translational PK/PD, and 
+        model-informed drug development. He is Vice President of Bioanalytics, DMPK, 
+        Clinical Pharmacology and Analytics at Aera Therapeutics, where he works across 
+        delivery-enabled genetic medicines and helps drive strategy across bioanalytics, 
+        translational science, and clinical pharmacology. In addition to his scientific 
+        leadership, he has developed genAI workflows for a range of use cases, including 
+        regulatory report writing, competitive intelligence, and automation of 
+        pharmacometrics and data analysis workflows. His career spans Alnylam, Moderna, 
+        and Aera. At Alnylam, he contributed to programs associated with six approved 
+        drugs. At Moderna, he supported development efforts during the COVID-19 vaccine 
+        era while working across mRNA therapeutics and translational development. Across 
+        his career, he has worked at the intersection of quantitative science, platform 
+        innovation, and practical decision-making in drug development.
+
+- time: "14:20"
+  type: "break"
+  title: "Break"
+  duration: "20 min"
+
+- time: "14:40"
+  type: "talk"
+  title: "Agentic workflows for clinical data acceleration"
+  duration: "20 min"
+  abstract: "Abstract to follow"
+  speakers:
+    - name: "Weijie Zhang"
+      affiliation: "Moderna"
+      bio: " "
+    - name: "Xing Chen"
+      affiliation: "Moderna"
+      bio: " "
+
+- time: "15:00"
+  type: "talk"
+  title: "Harnessing Generative AI to Improve Test Data Quality and Efficiency in Clinical Trial Set-Up"
+  duration: "20 min"
+  abstract: >
+    Generating and entering test data into electronic data capture (EDC) systems is a 
+    critical yet laborious task, essential for validating study designs and numerous 
+    downstream systems and programs. We previously leveraged open-source technology to 
+    develop a tool to significantly ease the time-intensive effort of manual test data 
+    entry and notable efficiency gains have been achieved since its release; however, it 
+    falls short in effectively covering the full spectrum of test cases necessary for 
+    clinical system set-up and programming. To overcome these challenges, Takeda has 
+    sought to build on this innovative software solution to harness the power of 
+    generative AI (GenAI) to expand the range of covered testing scenarios. During the 
+    development process, strategies and best practices for maximizing GenAI potential 
+    in the clinical test data context have been established, along with valuable lessons 
+    learned along the way. Exciting potential future directions have been identified to 
+    further reduce clinical trial system set-up times.
+  speakers:
+    - name: "Rita Pecuch"
+      affiliation: "Takeda"
+      bio: >
+        Rita Pecuch is a Senior Data Engineer at Takeda with deep expertise at the 
+        intersection of technology and the pharmaceutical industry, currently supporting 
+        innovation and data enablement for clinical data management. She leads the design 
+        and delivery of scalable automation capabilities and processes. In parallel, she 
+        strengthens clinical programming foundations through modern software engineering 
+        practices, robust controls, and fit-for-purpose generative AI implementations. 
+        Rita brings hands-on experience navigating regulated environments and translating 
+        complex clinical trial requirements into reliable, auditable solutions that improve 
+        quality and accelerate trial execution. She is passionate about advancing clinical 
+        trial technology and processes to help bring new treatment options to patients faster. 
+    - name: "Varun Jagadeesh"
+      affiliation: "Takeda"
+      bio: >
+        Varun Jagadeesh is a Principal Data Engineer with a strong background in building 
+        scalable data platforms for clinical research. He leads the design of end-to-end 
+        data pipelines that integrate, transform, and standardize data from diverse 
+        systems — including APIs, EDC platforms, and cloud data warehouses — to enable 
+        real-time analytics and strategic decision-making. His automation frameworks have 
+        dramatically reduced manual processing times, cutting workflows that once took 
+        weeks down to hours, and his tools empower non-technical stakeholders with direct 
+        access to insights. He also drives innovation through AI-powered solutions, 
+        including generative AI applications that enhance clinical workflows. 
+
+- time: "15:20"
+  type: "talk"
+  title: "Scheduled Clinical Insights: AI-Assisted Quarto Reporting for Oncology Studies"
+  duration: "20 min"
+  abstract: >
+    In a previous effort, we developed a hybrid R Shiny application combining 
+    deterministic clinical visualizations with LLM-assisted exploration for early-phase 
+    oncology data review. This talk presents an alternative delivery mode we're 
+    exploring — an interactive, automated Quarto report generated and delivered daily 
+    to end users. The workflow, orchestrated through Posit Connect, queries updated 
+    study data, produces an abridged set of key outputs, applies LLM-assisted interpretation 
+    to static visualizations, and incorporates a lightweight RAG pipeline (via ragnar) to 
+    ground AI-generated insights in study context. We'll share the setup and practical 
+    lessons from this early-stage effort. The Shiny app remains primary, but this explores 
+    a scheduled, push-based complement for users whose needs are better met by a delivered 
+    report than an open-ended tool.
+  speakers:
+    - name: "Matthew Kumar"
+      affiliation: "Bayer"
+      bio: >
+        Matthew Kumar is a Lead Computational Scientist in Bayer's Applied Machine 
+        Learning group, based in Mississauga, Ontario, Canada. He has over 10 years of 
+        experience as a data scientist and statistician across epidemiology, regulatory 
+        affairs, academia, and pharmaceuticals. He has co-authored peer-reviewed journal 
+        articles, developed R and other statistical software packages, and consulted with 
+        health agencies on statistical analysis and reporting. Matthew holds an M.Sc. in 
+        Biostatistics from the University of Toronto and a Specialized Honours B.A. in 
+        Behavioural Sciences from York University. 
+
+- time: "15:40"
+  type: "talk"
+  title: "To be announced"
+  duration: "20 min"
+  abstract: "Abstract to follow"
+  speakers:
+    - name: "Presenter to follow"
+      affiliation: " "
+      bio: " "

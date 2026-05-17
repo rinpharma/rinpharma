@@ -1,0 +1,187 @@
+---
+title: "R/Pharma genAI Day 2026"
+subtitle: "Information on R/Pharma's third genAI single day event"
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+page-layout: full
+format:
+  html:
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/light.css">
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://unpkg.com/tippy.js@6"></script>
+        <link rel="stylesheet" href="schedule.css">
+        <script src="schedule.js"></script>    
+---
+
+:::: {.hero-buttons-ai}
+[genAI Day Registration](https://events.zoom.us/ev/AkKYQ7Uryr8k8HeuQ7F6rkZTHJwjHlP6gxu14Z2s1LYb0kswLdDT~ApU4J3CViJWrwmjZhnw0nwGzDFCxNGoMHJAw01NbG30yNwnVwf9IJQkvOg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" target="_blank" data-tippy-content="Register for the virtual event (free)"}
+
+[Expo Submission](https://docs.google.com/forms/d/e/1FAIpQLSeTxjipa92YWmM6ZZhb2C6hFKmlB2b7eYaQ33lQZIIu-wuOPw/viewform?usp=sharing&ouid=116517077506150901012){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" target="_blank" data-tippy-content="Submit a booth for the genAI Expo session"}
+::::
+
+The third Annual R/Pharma genAI Day will be held virtually on **June 16, 2026**.  This free single day event will focus on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.
+
+This page contains details and a schedule for the event.  For registration and other information, please visit [R/Pharma genAI Day](https://events.zoom.us/ev/AkKYQ7Uryr8k8HeuQ7F6rkZTHJwjHlP6gxu14Z2s1LYb0kswLdDT~ApU4J3CViJWrwmjZhnw0nwGzDFCxNGoMHJAw01NbG30yNwnVwf9IJQkvOg){target="_blank"}.
+
+## Calling all Open Source Developers!
+
+We will be featuring a virtual exhibition hall that will be open throughout the event.  This is a chance for you to showcase your awesome open source creations!  Please consider sharing your work in a virtual booth if you:
+
+- have an R or Python package or app
+- have created a useful AI agent or skill
+- contribute to the community through a YouTube channel, blog or podcast
+
+If you wish to include a virtual booth please use contribute using the [EXPO Form](https://docs.google.com/forms/d/e/1FAIpQLSeTxjipa92YWmM6ZZhb2C6hFKmlB2b7eYaQ33lQZIIu-wuOPw/viewform?usp=sharing&ouid=116517077506150901012){target="_blank"}.
+
+## Schedule
+
+Tap or hover on talk titles for abstracts and speaker names for bios.  All times are in EDT.
+
+```{r}
+#| echo: FALSE
+#| warning: FALSE
+library(yaml)
+library(purrr)
+library(tibble)
+library(htmltools)
+
+file <- "./schedule.yml"
+
+raw <- yaml::read_yaml(file)
+
+normalize_speakers <- function(s) {
+  if (is.null(s)) return(NULL)
+  lapply(s, function(x) {
+    list(
+      name = x$name,
+      affiliation = if (!is.null(x$affiliation) && nzchar(x$affiliation)) x$affiliation else NULL,
+      bio = x$bio %||% ""
+    )
+  })
+}
+
+schedule <- tibble(
+  time = map_chr(raw, "time"),
+  type = map_chr(raw, "type"),
+  title = map_chr(raw, "title"),
+  duration = map_chr(raw, "duration"),
+  abstract = map_chr(raw, ~ .x$abstract %||% ""),
+  speakers = map(raw, ~ normalize_speakers(.x$speakers))
+)
+
+speaker_tag <- function(name, affiliation, bio) {
+
+  has_text <- function(x) {
+    !is.null(x) && length(x) == 1 && !is.na(x) && nzchar(x)
+  }
+
+  label <- name
+  if (has_text(affiliation)) {
+    label <- paste0(name, " (", affiliation, ")")
+  }
+
+  if (has_text(bio)) {
+    tags$span(
+      class = "has-tooltip speaker",
+      `data-tippy-content` = paste0(
+        "<strong>", name, "</strong>",
+        if (has_text(affiliation)) {
+          paste0("<br><em>", affiliation, "</em>")
+        } else "",
+        "<br><br>", bio
+      ),
+      HTML(label)
+    )
+  } else {
+    tags$span(class = "speaker", label)
+  }
+}
+
+speakers_block <- function(speakers) {
+
+  if (is.null(speakers) || length(speakers) == 0) return(NULL)
+
+  # 🔑 unwrap common YAML/list-column nesting issue
+  if (length(speakers) == 1 && is.list(speakers[[1]]) && !is.null(speakers[[1]][[1]]$name)) {
+    speakers <- speakers[[1]]
+  }
+
+  tagList(
+    purrr::imap(speakers, function(sp, i) {
+      tagList(
+        speaker_tag(
+          sp$name %||% "",
+          sp$affiliation %||% "",
+          sp$bio %||% NULL
+        ),
+        if (i < length(speakers)) ", "
+      )
+    })
+  )
+}
+
+title_tag <- function(title, abstract) {
+
+  has_text <- function(x) {
+    !is.null(x) && length(x) == 1 && !is.na(x) && nzchar(x)
+  }
+
+  if (has_text(abstract)) {
+    tags$span(
+      class = "has-tooltip talk-title",
+      `data-tippy-content` = paste0(
+        "<strong>Abstract</strong><br><br>", abstract
+      ),
+      title
+    )
+  } else {
+    tags$span(class = "talk-title", title)
+  }
+}
+
+render_row <- function(row) {
+
+  if (row$type == "break") {
+    return(
+      tags$div(class = "schedule-row break",
+        tags$div(class = "time", row$time),
+        tags$div(class = "content",
+          tags$strong(row$title),
+          tags$span(class = "duration", row$duration)
+        )
+      )
+    )
+  }
+
+  tags$div(class = "schedule-row talk",
+    tags$div(class = "time", row$time),
+    tags$div(class = "content",
+
+      speakers_block(row$speakers),
+
+      if (!is.null(row$speakers) && length(row$speakers) > 0) tags$br(),
+
+      tags$div(class = "title-row",
+        title_tag(row$title, row$abstract),
+        tags$span(class = "duration", row$duration)
+      )
+    )
+  )
+}
+
+schedule_html <- tags$div(class = "schedule-container",
+  tagList(
+    lapply(seq_len(nrow(schedule)), function(i) {
+      render_row(schedule[i, ])
+    })
+  )
+)
+```
+
+```{r}
+#| echo: FALSE
+#| output: asis
+schedule_html
+```
