@@ -17,7 +17,209 @@
 <width>144</width>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 26 Apr 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 12 May 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>R/Pharma GenAI Day Schedule</title>
+  <dc:creator>R/Pharma </dc:creator>
+  <link>https://rinpharma.com/docs/blog/posts/2026-05-12-genAI-schedule/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We are excited to share the schedule for the third <strong>R/Pharma genAI</strong> day, a free single day event focused on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.</p>
+<p>For talk abstracts and speaker bios, check out our <a href="../../../../docs/ai-day/index.html">conference page</a>.</p>
+<div class="schedule-container">
+<div class="schedule-row talk">
+<div class="time">10:00</div>
+<div class="content">
+<span class="speaker">Sara Altman (Posit)</span>
+, 
+<span class="speaker">Simon Couch (Posit)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">To be announced</span>
+<span class="duration">40 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row break">
+<div class="time">10:40</div>
+<div class="content">
+<strong>Break</strong>
+<span class="duration">20 min</span>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">11:00</div>
+<div class="content">
+<span class="speaker">Nikolas Burkhoff (Johnson &amp; Johnson)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">Using LLMs to generate Teal applications: from proof of concept to production</span>
+<span class="duration">20 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">11:20</div>
+<div class="content">
+<span class="speaker">Isabella Velásquez (Posit)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">To be announced</span>
+<span class="duration">20 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">11:40</div>
+<div class="content">
+<span class="speaker">Eric Zhang (Eikon Therapeutics)</span>
+, 
+<span class="speaker">Ning Leng (Abbvie)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">From R, Shiny, and Container to AI Skills: The R Consortium Submissions Working Group Call for Contributors</span>
+<span class="duration">20 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">12:50</div>
+<div class="content">
+<span class="speaker">James Wade (Dow)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">R/Pharma Hangout: shinymcp</span>
+<span class="duration">50 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row break">
+<div class="time">12:50</div>
+<div class="content">
+<strong>Break</strong>
+<span class="duration">10 min</span>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">13:00</div>
+<div class="content">
+<span class="speaker">Jeremy Zhang (Otsuka Pharmaceutical Companies)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">Evolving Methods for Scalable Content Generation with AI</span>
+<span class="duration">20 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">13:20</div>
+<div class="content">
+<span class="speaker">Peng Zhang (CIMS Global)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">Hands Dirty First: Practical Notes from Before, During, and After Building Agentic Workflows</span>
+<span class="duration">20 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">13:40</div>
+<div class="content">
+<span class="speaker">Indraneel Chakraborty (Independent Contributor)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">'Ignore All Previous Instructions' and Other Things Your LLM Shouldn't Do in Pharma: Applying GenAI Security Guardrails in R</span>
+<span class="duration">20 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">14:00</div>
+<div class="content">
+<span class="speaker">Husain Attarwala (Aera Therapeutics)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">Accelerating Population PK/PD Modeling and Simulation with GenAI</span>
+<span class="duration">20 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row break">
+<div class="time">14:20</div>
+<div class="content">
+<strong>Break</strong>
+<span class="duration">20 min</span>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">14:40</div>
+<div class="content">
+<span class="speaker">Weijie Zhang (Moderna)</span>
+, 
+<span class="speaker">Xing Chen (Moderna)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">Agentic workflows for clinical data acceleration</span>
+<span class="duration">20 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">15:00</div>
+<div class="content">
+<span class="speaker">Rita Pecuch (Takeda)</span>
+, 
+<span class="speaker">Varun Jagadeesh (Takeda)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">Harnessing Generative AI to Improve Test Data Quality and Efficiency in Clinical Trial Set-Up</span>
+<span class="duration">20 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">15:20</div>
+<div class="content">
+<span class="speaker">Matthew Kumar (Bayer)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">Scheduled Clinical Insights: AI-Assisted Quarto Reporting for Oncology Studies</span>
+<span class="duration">20 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">15:40</div>
+<div class="content">
+<span class="speaker">Presenter to follow ( )</span>
+<br>
+<div class="title-row">
+<span class="talk-title">To be announced</span>
+<span class="duration">20 min</span>
+</div>
+</div>
+</div>
+</div>
+<section id="section" class="level3 citation-image">
+<h3 class="citation-image anchored" data-anchor-id="section"></h3>
+<p>Photo by <a href="https://unsplash.com/@markuswinkler?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Winkler</a> on <a href="https://unsplash.com/photos/a-close-up-of-an-old-fashioned-typewriter-_a97xDX9eZg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+</section>
+<section id="section-1" class="level3">
+<h3 class="anchored" data-anchor-id="section-1"></h3>
+
+
+</section>
+
+ ]]></description>
+  <category>genAI-day</category>
+  <guid>https://rinpharma.com/docs/blog/posts/2026-05-12-genAI-schedule/</guid>
+  <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2026-05-12-genAI-schedule/markus-winkler-_a97xDX9eZg-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>R/Pharma GenAI Day</title>
   <dc:creator>R/Pharma </dc:creator>
