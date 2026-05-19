@@ -354,8 +354,11 @@
   duration: "20 min"
   abstract: "Abstract to follow"
   speakers:
-    - name: "Presenter to follow"
-      affiliation: ""
+    - name: "Michael Rimler"
+      affiliation: "GSK"
+      bio: " "
+    - name: "Mike Stackhouse"
+      affiliation: "Atorus"
       bio: " "
 
 - time: "16:00"
