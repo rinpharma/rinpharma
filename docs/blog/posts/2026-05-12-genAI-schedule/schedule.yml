@@ -1,15 +1,37 @@
 - time: "10:00"
   type: "workshop"
-  title: "To be announced"
+  title: "Agents for Correct, Transparent, and Reproducible Data Analysis"
   duration: "40 min"
-  abstract: "Abstract to follow"
+  abstract: >
+    How do we build competent data analysis agents? Data analysis requires a 
+    willingness to pause, question conclusions, and dig into subtleties. Frontier 
+    LLMs, however, are optimized to push tasks toward completion, not to slow down 
+    when something seems off. This tendency works well for coding agents, where 
+    success is often verifiable. But for data analysis, verification is more 
+    complicated, and autonomous work by the agent can be at odds with the spirit 
+    of the discipline. Drawing on our experience building data analysis agents, 
+    we'll share evaluations that expose where LLM-driven analysis goes wrong and 
+    design patterns that keep analyses correct, transparent, and reproducible.
   speakers:
     - name: "Sara Altman"
       affiliation: "Posit"
-      bio: " "
+      bio: >
+        Sara Altman is a Senior Developer Advocate on the AI Core team at Posit, 
+        where she focuses on how AI can be effectively and responsibly used for 
+        data science. Previously, she helped build Posit Academy and taught data 
+        science and R at Stanford.  Sara authors the Posit AI Newsletter along 
+        with Simon Couch.
     - name: "Simon Couch"
       affiliation: "Posit"
-      bio: " "
+      bio: >
+        Simon Couch builds tools that make the work of data science more joyful and 
+        effective. As an engineer on the AI Core Team at Posit, his work spans coding 
+        agents, model evaluations, inference engineering, and next-edit-suggestion 
+        systems. Drawing on his background in statistics, Simon spent several years 
+        authoring and maintaining core packages in the open-source tidymodels 
+        framework—like stacks, broom, and infer—before shifting his focus to LLMs. 
+        He blogs about his work at simonpcouch.com. Simon authors the Posit AI Newsletter 
+        along with Sara Altman.
 
 - time: "10:40"
   type: "break"
