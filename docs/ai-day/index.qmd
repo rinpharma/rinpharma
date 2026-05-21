@@ -47,8 +47,7 @@ library(purrr)
 library(tibble)
 library(htmltools)
 
-file <- "./schedule.yml"
-
+file <- here::here("data", "schedule.yml")
 raw <- yaml::read_yaml(file)
 
 normalize_speakers <- function(s) {
