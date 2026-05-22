@@ -57,7 +57,7 @@
     AI-assisted programming, enabling statistical programmers to harness LLMs 
     effectively in their day-to-day work.
   speakers:
-    - name: "Nikolas Burkhoff"
+    - name: "Nikolas Burkoff"
       affiliation: "Johnson & Johnson"
       bio: >
         Nik is a scientific software developer with over a decade of experience solving 
@@ -372,13 +372,32 @@
 
 - time: "15:40"
   type: "talk"
-  title: "To be announced"
+  title: "Agentic AI Basics: How LLMs Work"
   duration: "20 min"
-  abstract: "Abstract to follow"
+  abstract: >
+    AI is everywhere. No doubt that your organization is exploring how to integrate LLMs 
+    and GenAI into daily work. Now we have AI Agents and MCPs - the gap continues to widen 
+    between simple prompting in an LLM interface to fully automated agentic coding that can 
+    handle routine tasks end-to-end. This presentation will explore how one might help 
+    close that gap through a use-case scenario that was delivered as a hands-on workshop 
+    at the 2026 PHUSE US Connect in Austin, TX. The objective of the workshop was for 
+    participants to leave the session with (i) an understanding of the fundamental concepts 
+    of how LLMs and AI solutions operate, (ii) a sense of the ease of entry to get started 
+    with agentic coding and (iii) an appreciation for the effort required to engineer the 
+    initial 'first solution' into a robust and stable ready-for-production solution.
   speakers:
     - name: "Michael Rimler"
       affiliation: "GSK"
-      bio: " "
+      bio: >
+        Michael leads the Flu/Covid Clinical Programming group within GSK Biostatistics. 
+        He has 15 years of experience in the pharmaceutical industry, providing technical, 
+        analytical, and leadership support to clinical reporting teams. In 2019, Michael 
+        launched the GSK Clinical Programming’s R Adoption initiative, is a founding 
+        council member for pharmaverse, and was the Chair of the 2023 PHUSE US Connect. 
+        Michael also serves on the PHUSE Board of Directors as Open Source Technologies 
+        Director, a position held since 2023.  In a previous life, he sat on the faculty 
+        of Xavier University as an Assistant Professor of Economics. He lives in 
+        Cincinnati, Ohio with his wife, two kids, and a dog.
     - name: "Mike Stackhouse"
       affiliation: "Atorus"
       bio: " "
