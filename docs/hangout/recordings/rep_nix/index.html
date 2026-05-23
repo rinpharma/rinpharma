@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Join us for upcoming R/Pharma Hangouts featuring key innovators across the world of open source and life sciences.">
+<meta name="dcterms.date" content="2026-05-19">
+<meta name="description" content="Ensuring reproducibility in data science workflows is paramount to the life sciences industry and beyond. A common workflow when using R or other languages such as Python is to manage package versions in a particular project with tools such as {renv} and rv, the focus of the Package Management in R session. But reproducibility in a data science environment goes beyond the R packages. Other important considerations include the system-level dependencies those packages depend on, which presents additional challenges. In this edition of the R/Pharma Hangout sessions, Bruno Rodrigues (head of the statistics department at the Ministry of Research and Higher Education in Luxembourg) joins us to showcase how the Nix package manager enables powerful capabilities to ensure reproducible environments in many levels, with a focus on the {rix}, {rixpress} and the brand-new T language.">
 
-<title>Upcoming R/Pharma Hangouts – R/Pharma</title>
+<title>Reproducible Data Science with Nix – R/Pharma</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,24 +28,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../favicon.png" rel="icon" type="image/png">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-dcf06a0160d7b174bdef52c5d055fbe1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../favicon.png" rel="icon" type="image/png">
+<script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-dcf06a0160d7b174bdef52c5d055fbe1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,14 +78,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Upcoming R/Pharma Hangouts – R/Pharma">
-<meta property="og:description" content="Join us for upcoming R/Pharma Hangouts featuring key innovators across the world of open source and life sciences.">
-<meta property="og:image" content="https://rinpharma.com/docs/hangout/upcoming/images/logo-rinpharma.png">
+<link rel="stylesheet" href="../../../../styles.css">
+<meta property="og:title" content="Reproducible Data Science with Nix – R/Pharma">
+<meta property="og:description" content="Ensuring reproducibility in data science workflows is paramount to the life sciences industry and beyond. A common workflow when using R or other languages such as Python is to manage package versions in a particular project with tools such as {renv} and rv, the focus of the Package Management in R session. But reproducibility in a data science environment goes beyond the R packages. Other important considerations include the system-level dependencies those packages depend on, which presents additional challenges. In this edition of the R/Pharma Hangout sessions, Bruno Rodrigues (head of the statistics department at the Ministry of Research and Higher Education in Luxembourg) joins us to showcase how the Nix package manager enables powerful capabilities to ensure reproducible environments in many levels, with a focus on the {rix}, {rixpress} and the brand-new T language.">
+<meta property="og:image" content="https://rinpharma.com/docs/hangout/recordings/rep_nix/featured.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta name="twitter:title" content="Upcoming R/Pharma Hangouts – R/Pharma">
-<meta name="twitter:description" content="Join us for upcoming R/Pharma Hangouts featuring key innovators across the world of open source and life sciences.">
-<meta name="twitter:image" content="https://rinpharma.com/docs/hangout/upcoming/images/logo-rinpharma.png">
+<meta property="og:image:height" content="720">
+<meta property="og:image:width" content="1280">
+<meta name="twitter:title" content="Reproducible Data Science with Nix – R/Pharma">
+<meta name="twitter:description" content="Ensuring reproducibility in data science workflows is paramount to the life sciences industry and beyond. A common workflow when using R or other languages such as Python is to manage package versions in a particular project with tools such as {renv} and rv, the focus of the Package Management in R session. But reproducibility in a data science environment goes beyond the R packages. Other important considerations include the system-level dependencies those packages depend on, which presents additional challenges. In this edition of the R/Pharma Hangout sessions, Bruno Rodrigues (head of the statistics department at the Ministry of Research and Higher Education in Luxembourg) joins us to showcase how the Nix package manager enables powerful capabilities to ensure reproducible environments in many levels, with a focus on the {rix}, {rixpress} and the brand-new T language.">
+<meta name="twitter:image" content="https://rinpharma.com/docs/hangout/recordings/rep_nix/featured.png">
+<meta name="twitter:image-height" content="720">
+<meta name="twitter:image-width" content="1280">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -95,9 +100,9 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo light-content">
-    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo dark-content">
+    <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo light-content">
+    <img src="../../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -107,19 +112,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="../../../../index.html"> 
 <span class="menu-text">Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/ai-day/index.html"> 
+    <a class="nav-link" href="../../../../docs/ai-day/index.html"> 
 <span class="menu-text">AI</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/events/index.html"> 
+    <a class="nav-link" href="../../../../docs/events/index.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/summit/index.html"> 
+    <a class="nav-link" href="../../../../docs/summit/index.html"> 
 <span class="menu-text">Summit</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -128,33 +133,33 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-hangouts">    
         <li>
-    <a class="dropdown-item" href="../../../docs/hangout/upcoming/index.html">
+    <a class="dropdown-item" href="../../../../docs/hangout/upcoming/index.html">
  <span class="dropdown-text">Upcoming Hangouts</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../docs/hangout/recordings/index.html">
+    <a class="dropdown-item" href="../../../../docs/hangout/recordings/index.html">
  <span class="dropdown-text">Recordings</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../docs/hangout/guests/index.html">
+    <a class="dropdown-item" href="../../../../docs/hangout/guests/index.html">
  <span class="dropdown-text">Guests</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/people/index.html"> 
+    <a class="nav-link" href="../../../../docs/people/index.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/blog/index.html"> 
+    <a class="nav-link" href="../../../../docs/blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/support/index.html"> 
+    <a class="nav-link" href="../../../../docs/support/index.html"> 
 <span class="menu-text">Support</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../contact.html"> 
+    <a class="nav-link" href="../../../../contact.html"> 
 <span class="menu-text">Contact Us</span></a>
   </li>  
 </ul>
@@ -200,30 +205,44 @@ ul.task-list li input[type="checkbox"] {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#resources-mentioned-in-the-hangout" id="toc-resources-mentioned-in-the-hangout" class="nav-link active" data-scroll-target="#resources-mentioned-in-the-hangout">Resources mentioned in the Hangout</a></li>
+  <li><a href="#additional-examples" id="toc-additional-examples" class="nav-link" data-scroll-target="#additional-examples">Additional Examples</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Upcoming R/Pharma Hangouts</h1>
+<h1 class="title">Reproducible Data Science with Nix</h1>
+<p class="subtitle lead">How the Nix package manager ensures multiple levels of reproducibility with {rix}, {rixpress}, and the new T language</p>
 </div>
 
 <div>
   <div class="description">
-    <p>Join us for upcoming R/Pharma Hangouts featuring key innovators across the world of open source and life sciences.</p>
+    Ensuring reproducibility in data science workflows is paramount to the life sciences industry and beyond. A common workflow when using R or other languages such as Python is to manage package versions in a particular project with tools such as <code>{renv}</code> and <code>rv</code>, the focus of the <a href="https://rinpharma.com/docs/hangout/recordings/package_management/">Package Management in R</a> session. But reproducibility in a data science environment goes beyond the R packages. Other important considerations include the system-level dependencies those packages depend on, which presents additional challenges. In this edition of the <a href="https://rinpharma.com">R/Pharma</a> Hangout sessions, Bruno Rodrigues (head of the statistics department at the Ministry of Research and Higher Education in Luxembourg) joins us to showcase how the Nix package manager enables powerful capabilities to ensure reproducible environments in many levels, with a focus on the <code>{rix}</code>, <code>{rixpress}</code> and the brand-new T language.
   </div>
 </div>
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 19, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -233,76 +252,26 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Each month R/Pharma brings you a live Hangout featuring key innovators across the world of open source and life sciences.<br>
-Join us for upcoming R/Pharma Hangouts, and check out our <a href="../../../docs/hangout/recordings">recordings</a> to catch up on past events.</p>
-<p>Keep up to date with <a href="https://www.linkedin.com/company/open-source-in-pharma/">LinkedIn events and announcements</a> for each Hangout and, if you have a topic or guest you’d like to see featured, please reach out to us at <a href="mailto:info@rinpharma.com">info@rinpharma.com</a> or via our <a href="../../../contact.html">contact form</a>.</p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<thead>
-<tr class="header">
-<th style="text-align: left;" data-quarto-table-cell-role="th">Date</th>
-<th style="text-align: left;" data-quarto-table-cell-role="th">Title</th>
-<th style="text-align: left;" data-quarto-table-cell-role="th">Guests</th>
-<th style="text-align: left;" data-quarto-table-cell-role="th">Recording</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">2026-03-17</td>
-<td style="text-align: left;">Package Management</td>
-<td style="text-align: left;">Devin Pastoor, Shannon Pileggi &amp; Kevin Ushey</td>
-<td style="text-align: left;"><a href="../../../docs/hangout/recordings/package_management/" class="badge rounded-pill text-bg-danger d-inline-flex align-items-center gap-1 text-decoration-none">Recording</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2026-04-21</td>
-<td style="text-align: left;">Open Telemetry</td>
-<td style="text-align: left;">Barret Schloerke</td>
-<td style="text-align: left;"><a href="../../../docs/hangout/recordings/shiny_otel/" class="badge rounded-pill text-bg-danger d-inline-flex align-items-center gap-1 text-decoration-none">Recording</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2026-05-19</td>
-<td style="text-align: left;">Containers (Nix) and Reproducibility</td>
-<td style="text-align: left;">Bruno Rodrigues</td>
-<td style="text-align: left;"><a href="../../../docs/hangout/recordings/rep_nix/" class="badge rounded-pill text-bg-danger d-inline-flex align-items-center gap-1 text-decoration-none">Recording</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2026-06-16</td>
-<td style="text-align: left;">ShinyMCP</td>
-<td style="text-align: left;">James Wade</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2026-07-21</td>
-<td style="text-align: left;">pointblank</td>
-<td style="text-align: left;">Rich Iannone</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2026-08-18</td>
-<td style="text-align: left;">ARD and ARS</td>
-<td style="text-align: left;">Daniel Sjoberg</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2026-09-15</td>
-<td style="text-align: left;">Behavior-Driven Development</td>
-<td style="text-align: left;">Brian Repko &amp; Jacub Sobolewski</td>
-<td style="text-align: left;"></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<style>
-table {
-  max-width: 900px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-</style>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wkjLVhaazRI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="resources-mentioned-in-the-hangout" class="level2">
+<h2 class="anchored" data-anchor-id="resources-mentioned-in-the-hangout">Resources mentioned in the Hangout</h2>
+<ul>
+<li>Session slides <a href="https://b-rodrigues.github.io/repro_r_pharma/" class="uri">https://b-rodrigues.github.io/repro_r_pharma/</a> and accompanying GitHub repository <a href="https://github.com/b-rodrigues/repro_r_pharma/tree/main" class="uri">https://github.com/b-rodrigues/repro_r_pharma/tree/main</a></li>
+<li><code>{rix}</code> documentation <a href="https://docs.ropensci.org/rix/index.html" class="uri">https://docs.ropensci.org/rix/index.html</a></li>
+<li><code>{rixpress}</code> documentation <a href="https://b-rodrigues.github.io/rixpress/" class="uri">https://b-rodrigues.github.io/rixpress/</a></li>
+<li>T language <a href="https://tstats-project.org/index.html" class="uri">https://tstats-project.org/index.html</a></li>
+</ul>
+</section>
+<section id="additional-examples" class="level2">
+<h2 class="anchored" data-anchor-id="additional-examples">Additional Examples</h2>
+<p>Visit the repositories below to see two additional showcases of Nix for reproducible data science:</p>
+<ul>
+<li><a href="https://github.com/rinpharma/demo_rix">rinpharma/demo_rix</a>: Using <code>{rix}</code> to manage R dependencies for Pharmaverse example R scripts.</li>
+<li><a href="https://github.com/rinpharma/demo_t_workflow">rinpharma/demo_t_workflow</a>: Using the T language to run a clinical simulation pipeline originally created with the <code>{targets}</code> package.</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script type="text/javascript">
@@ -721,32 +690,32 @@ if (!kPlatformMac) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Proud organizer of <a href="https://www.rinpharma.com"><img src="../../../images/logo-rinpharma.png" class="img-fluid" alt="OS in Pharma logo" width="65"></a></p>
+<p>Proud organizer of <a href="https://www.rinpharma.com"><img src="../../../../images/logo-rinpharma.png" class="img-fluid" alt="OS in Pharma logo" width="65"></a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../../about.html">
+    <a class="nav-link" href="../../../../about.html">
 <p>About</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../privacy.html">
+    <a class="nav-link" href="../../../../privacy.html">
 <p>Privacy Policy</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../terms.html">
+    <a class="nav-link" href="../../../../terms.html">
 <p>Terms and Conditions</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../license.html">
+    <a class="nav-link" href="../../../../license.html">
 <p>License</p>
 </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

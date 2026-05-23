@@ -2,230 +2,238 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rinpharma.com/about.html</loc>
-    <lastmod>2026-05-22T01:59:53.065Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.211Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/contact.html</loc>
-    <lastmod>2026-05-22T01:59:53.065Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.211Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.099Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.247Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/terms.html</loc>
-    <lastmod>2026-05-22T01:59:53.099Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.247Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/events/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.077Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.222Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/RPH2025/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.066Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.211Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/blog/posts/2025-06-14-announcements/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.066Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.212Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/blog/posts/2025-07-30-genAI/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.067Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.212Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/blog/posts/2026-04-03-call-for-talks/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.074Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.219Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/blog/posts/2025-07-25-hackathon/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.066Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.212Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/blog/posts/2026-04-26-genAI-announcement/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.076Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.221Z</lastmod>
   </url>
   <url>
-    <loc>https://rinpharma.com/docs/hangout/recordings/package_management/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.093Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/hangout/recordings/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.092Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/hangout/guests/kushey/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.078Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/hangout/guests/bschloerke/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.078Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/hangout/upcoming/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.094Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.094Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2025-quality.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2024-sce.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2023-ai.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2024-shiny-validation.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2023-multi-modal.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2023-sce.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2023-shiny-validation.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2023-os-depends.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2025-CROs.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/faq/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.077Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/conference/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.077Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/support/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.096Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2024-dataformat.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2025-ai.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2025-sce.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2025-python.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2024-change-mgt.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2023-case-os.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2025-change-mgt.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2024-r-pkg-validation.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2023-interactive-csr.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/summit/posts/2024-ai.html</loc>
-    <lastmod>2026-05-22T01:59:53.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/people/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.094Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/hangout/guests/dpastoor/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.078Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/hangout/guests/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.078Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rinpharma.com/docs/hangout/guests/spileggi/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.091Z</lastmod>
+    <loc>https://rinpharma.com/docs/hangout/recordings/rep_nix/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.240Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/hangout/recordings/shiny_otel/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.094Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.241Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/hangout/guests/spileggi/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.238Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/hangout/guests/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.223Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/hangout/guests/bschloerke/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.223Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/hangout/upcoming/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.241Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.242Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2025-quality.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2024-sce.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2024-small-mid-pharma.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2023-ai.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2024-shiny-validation.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2023-multi-modal.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2024-rproducts.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2023-sce.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2023-shiny-validation.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2023-os-depends.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2025-CROs.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/faq/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.223Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/conference/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.222Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/support/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.244Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2024-dataformat.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2025-ai.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2025-sce.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2025-python.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2024-change-mgt.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2023-case-os.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2025-change-mgt.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2024-r-pkg-validation.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2023-interactive-csr.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/summit/posts/2024-ai.html</loc>
+    <lastmod>2026-05-23T05:44:07.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/people/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.242Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/hangout/guests/dpastoor/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.223Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/hangout/guests/brodrigues/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.223Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/hangout/guests/kushey/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/hangout/recordings/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinpharma.com/docs/hangout/recordings/package_management/index.html</loc>
+    <lastmod>2026-05-23T05:44:07.239Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/blog/posts/2025-10-18-expo/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.067Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.212Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/blog/posts/2025-11-04-brianbole/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.069Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.214Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/blog/posts/2026-02-09-hangouts/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.074Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.219Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/blog/posts/2026-05-12-genAI-schedule/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.076Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.221Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/blog/posts/2025-10-28-apac/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.068Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.214Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/blog/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.066Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.212Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/docs/ai-day/index.html</loc>
-    <lastmod>2026-05-22T01:59:53.066Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.211Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/license.html</loc>
-    <lastmod>2026-05-22T01:59:53.099Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.247Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/thank-you.html</loc>
-    <lastmod>2026-05-22T01:59:53.099Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.247Z</lastmod>
   </url>
   <url>
     <loc>https://rinpharma.com/privacy.html</loc>
-    <lastmod>2026-05-22T01:59:53.099Z</lastmod>
+    <lastmod>2026-05-23T05:44:07.247Z</lastmod>
   </url>
 </urlset>
