@@ -1,0 +1,26 @@
+---
+title: "Reproducible Data Science with Nix" 
+subtitle: "How the Nix package manager ensures multiple levels of reproducibility with {rix}, {rixpress}, and the new T language"
+date: '2026-05-19'
+description: Ensuring reproducibility in data science workflows is paramount to the life sciences industry and beyond. A common workflow when using R or other languages such as Python is to manage package versions in a particular project with tools such as `{renv}` and `rv`, the focus of the [Package Management in R](https://rinpharma.com/docs/hangout/recordings/package_management/) session. But reproducibility in a data science environment goes beyond the R packages. Other important considerations include the system-level dependencies those packages depend on, which presents additional challenges. In this edition of the [R/Pharma](https://rinpharma.com) Hangout sessions, Bruno Rodrigues (head of the statistics department at the Ministry of Research and Higher Education in Luxembourg) joins us to showcase how the Nix package manager enables powerful capabilities to ensure reproducible environments in many levels, with a focus on the `{rix}`, `{rixpress}` and the brand-new T language.
+guests:
+- brodrigues
+draft: false
+youtube: wkjLVhaazRI
+---
+
+{{< video https://youtu.be/wkjLVhaazRI >}}
+
+## Resources mentioned in the Hangout
+
+* Session slides <https://b-rodrigues.github.io/repro_r_pharma/> and accompanying GitHub repository <https://github.com/b-rodrigues/repro_r_pharma/tree/main>
+* `{rix}` documentation <https://docs.ropensci.org/rix/index.html>
+* `{rixpress}` documentation <https://b-rodrigues.github.io/rixpress/>
+* T language <https://tstats-project.org/index.html>
+
+## Additional Examples
+
+Visit the repositories below to see two additional showcases of Nix for reproducible data science:
+
+* [rinpharma/demo_rix](https://github.com/rinpharma/demo_rix): Using `{rix}` to manage R dependencies for Pharmaverse example R scripts.
+* [rinpharma/demo_t_workflow](https://github.com/rinpharma/demo_t_workflow): Using the T language to run a clinical simulation pipeline originally created with the `{targets}` package.

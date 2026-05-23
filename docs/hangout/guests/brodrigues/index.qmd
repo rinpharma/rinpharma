@@ -1,0 +1,25 @@
+---
+draft: false
+title: Bruno Rodrigues
+subtitle: Statistician
+date: '2026-05-19'
+about:
+  template: marquee
+  image: featured.jpg
+  links:
+  - icon: link
+    text: blog
+    href: https://brodrigues.co/
+  - icon: linkedin
+    href: https://www.linkedin.com/in/brodriguesco/
+  - icon: bluesky
+    href: https://bsky.app/profile/brodriguesco.bsky.social
+  - icon: mastodon
+    href: https://fosstodon.org/@brodriguesco
+  - icon: github
+    href: https://github.com/b-rodrigues
+  - icon: youtube
+    href: https://www.youtube.com/channel/UCTZXht1RTL2Duc3eU8MYGzQ
+---
+
+Bruno Rodrigues is the head of the statistics department at the Ministry of Research and Higher Education in Luxembourg. Before that he was senior data scientist and then manager in the data science team at PwC Luxembourg, and before that he was a research assistant at STATEC Research. His hobbies are boxing, lifting weights, cycling, cooking and reading or listening to audiobooks, which is more compatible with the life of a young father.
