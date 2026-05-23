@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>R/Pharma</title>
+<link>https://rinpharma.com/docs/hangout/recordings/</link>
+<atom:link href="https://rinpharma.com/docs/hangout/recordings/index.xml" rel="self" type="application/rss+xml"/>
+<description>The R/Pharma Hangouts (hosted by Eric Nantz &amp; Jared Woolfolk) feature key innovators across the world of open source and life sciences to go hands-on with key R packages, applications, or entire workflows highly relevant to the life sciences industry. You can view the recordings of past Hangout sessions below!
+</description>
+<image>
+<url>https://rinpharma.com/featured.png</url>
+<title>R/Pharma</title>
+<link>https://rinpharma.com/docs/hangout/recordings/</link>
+</image>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Tue, 19 May 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Reproducible Data Science with Nix</title>
+  <link>https://rinpharma.com/docs/hangout/recordings/rep_nix/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wkjLVhaazRI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="resources-mentioned-in-the-hangout" class="level2">
+<h2 class="anchored" data-anchor-id="resources-mentioned-in-the-hangout">Resources mentioned in the Hangout</h2>
+<ul>
+<li>Session slides <a href="https://b-rodrigues.github.io/repro_r_pharma/" class="uri">https://b-rodrigues.github.io/repro_r_pharma/</a> and accompanying GitHub repository <a href="https://github.com/b-rodrigues/repro_r_pharma/tree/main" class="uri">https://github.com/b-rodrigues/repro_r_pharma/tree/main</a></li>
+<li><code>{rix}</code> documentation <a href="https://docs.ropensci.org/rix/index.html" class="uri">https://docs.ropensci.org/rix/index.html</a></li>
+<li><code>{rixpress}</code> documentation <a href="https://b-rodrigues.github.io/rixpress/" class="uri">https://b-rodrigues.github.io/rixpress/</a></li>
+<li>T language <a href="https://tstats-project.org/index.html" class="uri">https://tstats-project.org/index.html</a></li>
+</ul>
+</section>
+<section id="additional-examples" class="level2">
+<h2 class="anchored" data-anchor-id="additional-examples">Additional Examples</h2>
+<p>Visit the repositories below to see two additional showcases of Nix for reproducible data science:</p>
+<ul>
+<li><a href="https://github.com/rinpharma/demo_rix">rinpharma/demo_rix</a>: Using <code>{rix}</code> to manage R dependencies for Pharmaverse example R scripts.</li>
+<li><a href="https://github.com/rinpharma/demo_t_workflow">rinpharma/demo_t_workflow</a>: Using the T language to run a clinical simulation pipeline originally created with the <code>{targets}</code> package.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://rinpharma.com/docs/hangout/recordings/rep_nix/</guid>
+  <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/hangout/recordings/rep_nix/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>OpenTelemetry with Shiny</title>
+  <link>https://rinpharma.com/docs/hangout/recordings/shiny_otel/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/T9uARfuwABM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="resources-mentioned-in-the-hangout" class="level2">
+<h2 class="anchored" data-anchor-id="resources-mentioned-in-the-hangout">Resources mentioned in the Hangout</h2>
+<ul>
+<li>Example Shiny application used in this session <a href="https://github.com/rinpharma/hangouts/tree/main/shiny-otel" class="uri">https://github.com/rinpharma/hangouts/tree/main/shiny-otel</a></li>
+<li>OpenTelmetry with Shiny article <a href="https://shiny.posit.co/r/articles/improve/opentelemetry/" class="uri">https://shiny.posit.co/r/articles/improve/opentelemetry/</a></li>
+<li><code>{otelsdk}</code> vignette on collecting telemetry data <a href="https://otelsdk.r-lib.org/reference/collecting.html" class="uri">https://otelsdk.r-lib.org/reference/collecting.html</a></li>
+<li>Logfire <a href="https://logfire-us.pydantic.dev" class="uri">https://logfire-us.pydantic.dev</a></li>
+<li>Otel Desktop Viewer <a href="https://github.com/CtrlSpice/otel-desktop-viewer" class="uri">https://github.com/CtrlSpice/otel-desktop-viewer</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://rinpharma.com/docs/hangout/recordings/shiny_otel/</guid>
+  <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/hangout/recordings/shiny_otel/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Package Management in R</title>
+  <link>https://rinpharma.com/docs/hangout/recordings/package_management/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/2ZmTXE74xnI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="resources-mentioned-in-the-hangout" class="level2">
+<h2 class="anchored" data-anchor-id="resources-mentioned-in-the-hangout">Resources mentioned in the Hangout</h2>
+<ul>
+<li>rig: The R installation manager <a href="https://github.com/r-lib/rig?tab=readme-ov-file#id-macos-installer" class="uri">https://github.com/r-lib/rig?tab=readme-ov-file#id-macos-installer</a></li>
+<li>Practical <code>{renv}</code> (Shannon Pileggi) <a href="https://www.youtube.com/watch?v=l01u7Ue9pIQ" class="uri">https://www.youtube.com/watch?v=l01u7Ue9pIQ</a></li>
+<li>renv: Project environments for R <a href="https://rstudio.github.io/renv/index.html" class="uri">https://rstudio.github.io/renv/index.html</a>
+<ul>
+<li>FAQ <a href="https://rstudio.github.io/renv/articles/faq.html" class="uri">https://rstudio.github.io/renv/articles/faq.html</a></li>
+<li>Introduction to <code>{renv}</code> <a href="https://rstudio.github.io/renv/articles/renv.html" class="uri">https://rstudio.github.io/renv/articles/renv.html</a></li>
+<li>Using <code>{renv}</code> with Docker <a href="https://rstudio.github.io/renv/articles/docker.html" class="uri">https://rstudio.github.io/renv/articles/docker.html</a></li>
+</ul></li>
+<li>rv: A declarative R package manager <a href="https://a2-ai.github.io/rv-docs" class="uri">https://a2-ai.github.io/rv-docs</a></li>
+<li>Pharmaverse examples <a href="https://pharmaverse.github.io/examples" class="uri">https://pharmaverse.github.io/examples</a></li>
+<li>The R-Podcast Episode 32: RStudio’s Big Move and Kevin Ushey <a href="https://r-podcast.org/032-rsconf2020-part1/" class="uri">https://r-podcast.org/032-rsconf2020-part1/</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://rinpharma.com/docs/hangout/recordings/package_management/</guid>
+  <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/hangout/recordings/package_management/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+</channel>
+</rss>
