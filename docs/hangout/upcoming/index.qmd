@@ -36,7 +36,7 @@ hangouts:
 ---
 
 Each month R/Pharma brings you a live Hangout featuring key innovators across the world of open source and life sciences.  
-Join us for upcoming R/Pharma Hangouts, and check out our [recordings](/docs/hangout/recordings) to catch up on past events.
+Join us for upcoming R/Pharma Hangouts, and check out our [recordings](/docs/hangout/recordings) to catch up on past events. Use the recordings [RSS feed](../recordings/index.xml) in your favorite RSS application to be notified when recordings are available.
 
 Keep up to date with [LinkedIn events and announcements](https://www.linkedin.com/company/open-source-in-pharma/) for each Hangout and, if you have a topic or guest you'd like to see featured, please reach out to us at [info@rinpharma.com](mailto:info@rinpharma.com) or via our [contact form](/contact.qmd).
 

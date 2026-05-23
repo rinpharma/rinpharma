@@ -9,7 +9,8 @@ listing:
   filter-ui: false
   fields: [title, subtitle, author, date, image]
   image-align: left
-  page-size: 5
+  page-size: 10
+  feed: true
 comments: false
 
 format:
