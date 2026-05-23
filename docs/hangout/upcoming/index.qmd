@@ -20,6 +20,7 @@ hangouts:
   - Date: "2026-05-19"
     Title: "Containers (Nix) and Reproducibility"
     Guests: "Bruno Rodrigues"
+    Recording: "rep_nix"
   - Date: "2026-06-16"
     Title: "ShinyMCP"
     Guests: "James Wade"

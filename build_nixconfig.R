@@ -10,7 +10,14 @@ rix(
     "rmarkdown",
     "shinylive",
     "bsicons",
-    "stringr"
+    "stringr",
+    "purrr",
+    "yaml",
+    "htmltools",
+    "tibble",
+    "shiny",
+    "bslib",
+    "here"
   ),
   system_pkgs = "quarto",
   ide = "none",
