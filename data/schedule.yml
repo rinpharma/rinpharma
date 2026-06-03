@@ -136,44 +136,10 @@
       affiliation: "Dow"
       bio: " "
 
-- time: "12:50"
+- time: "13:00"
   type: "break"
   title: "Break"
-  duration: "10 min"
-
-- time: "13:00"
-  type: "talk"
-  title: "Evolving Methods for Scalable Content Generation with AI"
   duration: "20 min"
-  abstract: >
-    Content generation is evolving rapidly from section by section mapping where 
-    authors must still manually define templated and structured content toward AI 
-    systems that read the full body of project evidence, builds a unified understanding 
-    of the work, and writes every section of content from that shared foundation. Key 
-    recent advances in memory systems, context structure and compaction now enable this 
-    evolving paradigm, The core insight is that most quality problems in technical 
-    artifacts - terminology drift, redundancy, incomplete context - are symptoms of 
-    context switching. An agentic pipeline that eliminates context switching eliminates 
-    the symptoms of drift and lack of coherence across the body of the content being 
-    generated. Layered quality passes, combining fast deterministic checks with 
-    LLM-driven semantic review enable large scale pressure testing for generated content. 
-    The resulting artifacts and documents are structurally complete, compliant, and 
-    internally consistent and represent a new, evolving paradigm in content generation 
-    for clinical and medical information.
-  speakers:
-    - name: "Jeremy Zhang"
-      affiliation: "Otsuka Pharmaceutical Companies"
-      bio: >
-        Jeremy Zhang, PhD is Senior Director, Data Science Solutions at Otsuka 
-        Pharmaceutical Companies, focusing on extracting insights from data, 
-        building predictive models, and enabling data-driven decision-making and 
-        the development and application of advanced analytical methods including AI. 
-        Jeremy has over 15 years of experience in life science research, development, 
-        manufacturing, quality, and product launch. Prior to joining Otsuka, he has 
-        held data science leadership positions of increasing responsibility at Gilead 
-        Sciences and Abbott Labs. Jeremy holds a Bachelor’s degree in biomedical 
-        engineering from Duke University and a PhD in bioengineering from Clemson 
-        University.
 
 - time: "13:20"
   type: "talk"
