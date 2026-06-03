@@ -16,7 +16,7 @@
 <height>50</height>
 <width>144</width>
 </image>
-<generator>quarto-1.9.37</generator>
+<generator>quarto-1.9.38</generator>
 <lastBuildDate>Tue, 12 May 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>R/Pharma GenAI Day Schedule</title>
@@ -98,21 +98,10 @@
 </div>
 </div>
 <div class="schedule-row break">
-<div class="time">12:50</div>
-<div class="content">
-<strong>Break</strong>
-<span class="duration">10 min</span>
-</div>
-</div>
-<div class="schedule-row talk">
 <div class="time">13:00</div>
 <div class="content">
-<span class="speaker">Jeremy Zhang (Otsuka Pharmaceutical Companies)</span>
-<br>
-<div class="title-row">
-<span class="talk-title">Evolving Methods for Scalable Content Generation with AI</span>
+<strong>Break</strong>
 <span class="duration">20 min</span>
-</div>
 </div>
 </div>
 <div class="schedule-row talk">
