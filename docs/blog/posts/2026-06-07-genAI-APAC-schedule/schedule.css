@@ -1,0 +1,51 @@
+.schedule-row {
+  display: flex;
+  margin-bottom: 0.85em;
+}
+
+.schedule-row .time {
+  width: 80px;
+  font-weight: 600;
+}
+
+.schedule-row .content {
+  flex: 1;
+  line-height: 1.4;
+}
+
+.schedule-row.break {
+  color: #666;
+  font-style: italic;
+}
+
+.speaker {
+  font-weight: 600;
+}
+
+.talk-title {
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.duration {
+  margin-left: 8px;
+  color: #888;
+  font-size: 0.9em;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.title-row .talk-title {
+  flex: 1;
+}
+
+.title-row .duration {
+  white-space: nowrap;
+  color: #888;
+  font-size: 0.9em;
+}
