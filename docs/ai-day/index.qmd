@@ -21,7 +21,7 @@ format:
 [Expo Submission](https://docs.google.com/forms/d/e/1FAIpQLSeTxjipa92YWmM6ZZhb2C6hFKmlB2b7eYaQ33lQZIIu-wuOPw/viewform?usp=sharing&ouid=116517077506150901012){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" target="_blank" data-tippy-content="Submit a booth for the genAI Expo session"}
 ::::
 
-The third Annual R/Pharma genAI Day will be held virtually on **June 16, 2026**.  This free single day event will focus on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.
+The third Annual R/Pharma genAI Day will be held virtually on **June 16, 2026** (**June 17** in APAC region).  This free single day event will focus on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.
 
 This page contains details and a schedule for the event.  For registration and other information, please visit [R/Pharma genAI Day](https://events.zoom.us/ev/AkKYQ7Uryr8k8HeuQ7F6rkZTHJwjHlP6gxu14Z2s1LYb0kswLdDT~ApU4J3CViJWrwmjZhnw0nwGzDFCxNGoMHJAw01NbG30yNwnVwf9IJQkvOg){target="_blank"}.
 
@@ -34,10 +34,6 @@ We will be featuring a virtual exhibition hall that will be open throughout the 
 - contribute to the community through a YouTube channel, blog or podcast
 
 If you wish to include a virtual booth please use contribute using the [EXPO Form](https://docs.google.com/forms/d/e/1FAIpQLSeTxjipa92YWmM6ZZhb2C6hFKmlB2b7eYaQ33lQZIIu-wuOPw/viewform?usp=sharing&ouid=116517077506150901012){target="_blank"}.
-
-## Schedule
-
-Tap or hover on talk titles for abstracts and speaker names for bios.  All times are in EDT.
 
 ```{r}
 #| echo: FALSE
@@ -61,13 +57,16 @@ normalize_speakers <- function(s) {
   })
 }
 
+default_track <- "us_europe"
+
 schedule <- tibble(
   time = map_chr(raw, "time"),
   type = map_chr(raw, "type"),
   title = map_chr(raw, "title"),
   duration = map_chr(raw, "duration"),
   abstract = map_chr(raw, ~ .x$abstract %||% ""),
-  speakers = map(raw, ~ normalize_speakers(.x$speakers))
+  speakers = map(raw, ~ normalize_speakers(.x$speakers)),
+  track = map_chr(raw, "track" %||% default_track)
 )
 
 speaker_tag <- function(name, affiliation, bio) {
@@ -170,17 +169,41 @@ render_row <- function(row) {
   )
 }
 
-schedule_html <- tags$div(class = "schedule-container",
-  tagList(
-    lapply(seq_len(nrow(schedule)), function(i) {
-      render_row(schedule[i, ])
-    })
+render_schedule <- function(df) {
+  tags$div(
+    class = "schedule-container",
+    tagList(
+      lapply(seq_len(nrow(df)), function(i) {
+        render_row(df[i, ])
+      })
+    )
   )
-)
+}
+
 ```
+
+## Europe/US Schedule
+
+Tap or hover on talk titles for abstracts and speaker names for bios.  All times are in EDT on **June 16, 2026**.
 
 ```{r}
 #| echo: FALSE
 #| output: asis
-schedule_html
+
+schedule_us_europe <- dplyr::filter(schedule, track == "us_europe")
+render_schedule(schedule_us_europe)
+```
+
+
+## APAC Schedule
+
+R/Pharma is exited to bring the first APAC-targeted schedule this year.  
+Tap or hover on talk titles for abstracts and speaker names for bios.  All times are in IST on **June 17, 2026**.
+
+```{r}
+#| echo: FALSE
+#| output: asis
+
+schedule_apac <- dplyr::filter(schedule, track == "apac")
+render_schedule(schedule_apac)
 ```
