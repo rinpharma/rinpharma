@@ -1,7 +1,8 @@
-- time: "10:00"
+- time: "10:00 EDT"
   type: "workshop"
   title: "Agents for Correct, Transparent, and Reproducible Data Analysis"
   duration: "40 min"
+  track: us_europe
   abstract: >
     How do we build competent data analysis agents? Data analysis requires a 
     willingness to pause, question conclusions, and dig into subtleties. Frontier 
@@ -33,15 +34,17 @@
         He blogs about his work at simonpcouch.com. Simon authors the Posit AI Newsletter 
         along with Sara Altman.
 
-- time: "10:40"
+- time: "10:40 EDT"
   type: "break"
   title: "Break"
   duration: "20 min"
+  track: us_europe
 
-- time: "11:00"
+- time: "11:00 EDT"
   type: "talk"
   title: "Using LLMs to generate Teal applications: from proof of concept to production"
   duration: "20 min"
+  track: us_europe
   abstract: >
     Large language models (LLMs) can accelerate code generation, making it easier to build 
     proof-of-concept tools and solutions. For example, building R Shiny applications using 
@@ -68,20 +71,22 @@
         opportunities Gen AI brings and mindful of the challenges of its use in such a highly 
         regulated environment.
 
-- time: "11:20"
+- time: "11:20 EDT"
   type: "talk"
   title: "To be announced"
   duration: "20 min"
+  track: us_europe
   abstract: "Abstract to follow"
   speakers:
     - name: "Isabella Velásquez"
       affiliation: "Posit"
       bio: " "
 
-- time: "11:40"
+- time: "11:40 EDT"
   type: "talk"
   title: "From R, Shiny, and Container to AI Skills: The R Consortium Submissions Working Group Call for Contributors"
   duration: "20 min"
+  track: us_europe
   abstract: >
     The R Consortium Submission Working Group has spent the past several years 
     putting modernized components through FDA pilots — R, containers, Shiny, WebAssembly, 
@@ -124,10 +129,11 @@
       affiliation: "Abbvie"
       bio: " "
 
-- time: "12:00"
+- time: "12:00 EDT"
   type: "hangout"
   title: "R/Pharma Hangout: shinymcp"
   duration: "50 min"
+  track: us_europe
   abstract: >
     Eric and Jared will be joined by this month's guest, James Wade, at the R/Pharma 
     Hangout.  Come to find out all about shinymcp.
@@ -136,15 +142,17 @@
       affiliation: "Dow"
       bio: " "
 
-- time: "13:00"
+- time: "13:00 EDT"
   type: "break"
   title: "Break"
   duration: "20 min"
+  track: us_europe
 
-- time: "13:20"
+- time: "13:20 EDT"
   type: "talk"
   title: "Hands Dirty First: Practical Notes from Before, During, and After Building Agentic Workflows"
   duration: "20 min"
+  track: us_europe
   abstract: >
     2026 has been a banner year for AI and has pushed LLM capabilities across a new 
     operational threshold that makes it practical for agents to execute structured 
@@ -172,10 +180,11 @@
         Peng has also served as independent statistician for 30+ DSMB meetings and 10+ 
         ongoing clinical trials from phase 2 to phase 3 for different therapeutic areas.
 
-- time: "13:40"
+- time: "13:40 EDT"
   type: "talk"
   title: "'Ignore All Previous Instructions' and Other Things Your LLM Shouldn't Do in Pharma: Applying GenAI Security Guardrails in R"
   duration: "20 min"
+  track: us_europe
   abstract: >
     As R users in pharma begin integrating LLMs into analytical and reporting workflows, 
     a practical question keeps coming up: how do we check what goes into the model and 
@@ -212,10 +221,11 @@
         practices for regulated industries, AI assisted reproducible data pipelines, 
         and democratizing safety tooling for the broader R community.
 
-- time: "14:00"
+- time: "14:00 EDT"
   type: "talk"
   title: "Accelerating Population PK/PD Modeling and Simulation with GenAI"
   duration: "20 min"
+  track: us_europe
   abstract: >
     Generative AI is rapidly moving from novelty to utility in quantitative drug 
     development. In this talk, I will present a live demo of how genAI can be applied 
@@ -244,15 +254,17 @@
         his career, he has worked at the intersection of quantitative science, platform 
         innovation, and practical decision-making in drug development.
 
-- time: "14:20"
+- time: "14:20 EDT"
   type: "break"
   title: "Break"
   duration: "20 min"
+  track: us_europe
 
-- time: "14:40"
+- time: "14:40 EDT"
   type: "talk"
   title: "Agentic workflows for clinical data acceleration"
   duration: "20 min"
+  track: us_europe
   abstract: "Abstract to follow"
   speakers:
     - name: "Weijie Zhang"
@@ -262,10 +274,11 @@
       affiliation: "Moderna"
       bio: " "
 
-- time: "15:00"
+- time: "15:00 EDT"
   type: "talk"
   title: "Harnessing Generative AI to Improve Test Data Quality and Efficiency in Clinical Trial Set-Up"
   duration: "20 min"
+  track: us_europe
   abstract: >
     Generating and entering test data into electronic data capture (EDC) systems is a 
     critical yet laborious task, essential for validating study designs and numerous 
@@ -307,10 +320,11 @@
         access to insights. He also drives innovation through AI-powered solutions, 
         including generative AI applications that enhance clinical workflows. 
 
-- time: "15:20"
+- time: "15:20 EDT"
   type: "talk"
   title: "Scheduled Clinical Insights: AI-Assisted Quarto Reporting for Oncology Studies"
   duration: "20 min"
+  track: us_europe
   abstract: >
     In a previous effort, we developed a hybrid R Shiny application combining 
     deterministic clinical visualizations with LLM-assisted exploration for early-phase 
@@ -336,10 +350,11 @@
         Biostatistics from the University of Toronto and a Specialized Honours B.A. in 
         Behavioural Sciences from York University. 
 
-- time: "15:40"
+- time: "15:40 EDT"
   type: "talk"
   title: "Agentic AI Basics: How LLMs Work"
   duration: "20 min"
+  track: us_europe
   abstract: >
     AI is everywhere. No doubt that your organization is exploring how to integrate LLMs 
     and GenAI into daily work. Now we have AI Agents and MCPs - the gap continues to widen 
@@ -368,10 +383,11 @@
       affiliation: "Atorus"
       bio: " "
 
-- time: "16:00"
+- time: "16:00 EDT"
   type: "talk"
   title: "Close-out and questions"
   duration: "10 min"
+  track: us_europe
   abstract: "Close out of genAI Day and any final questions"
   speakers:
     - name: "Phil Bowsher"
@@ -380,3 +396,100 @@
     - name: "Harvey Lieberman"
       affiliation: "Novartis"
       bio: " "
+
+- time: "07:30 IST"
+  type: "workshop"
+  title: "Hands-on Introduction to AI with Ellmer and Positron"
+  duration: "115 min"
+  track: apac
+  abstract: "abstract to follow"
+  speakers:
+    - name: "Phil Bowsher"
+      affiliation: "Posit"
+      bio: " "
+
+- time: "09:25 IST"
+  type: "break"
+  title: "Break"
+  duration: "5 min"
+  track: apac
+
+- time: "09:30 IST"
+  type: "talk"
+  title: "Beyond the Prompt: Building Truly Autonomous AI Agents with MCP"
+  duration: "60 min"
+  track: apac
+  abstract: >
+    Large Language Models are powerful, but they are often limited by "stale" knowledge. 
+    To move toward true Agentic Coding—where AI plans, executes, and iterates 
+    autonomously—we must provide them with real-time, high-fidelity context. The Model 
+    Context Protocol (MCP) provides the missing link. This session explores the 
+    technical "Deep-Dive" into MCP's primitives, including dynamic prompts and resource 
+    interpolation. We'll demonstrate how agents can now query GitHub issues, run tests, 
+    and fetch live documentation using natural language. Stop building isolated chatbots 
+    and start building integrated AI partners.
+  speakers:
+    - name: "Harshavardhan Bajoria"
+      affiliation: "UnStop"
+      bio: >
+        Product Manager - AI & Innovation @Unstop
+        GitHub Campus Expert - Alumni
+        Knight @LeetCode
+        Microsoft Certified x7
+        Oracle Certified x5
+        Google Certified x5
+
+- time: "10:30 IST"
+  type: "talk"
+  title: "Hands Dirty First: Practical Notes from Before, During, and After Building Agentic Workflows"
+  duration: "30 min"
+  track: apac
+  abstract: >
+    2026 has been a banner year for AI and has pushed LLM capabilities across a new operational 
+    threshold that makes it practical for agents to execute structured workflows through explicit 
+    orchestration frameworks such as Claude Code, with task-specific guidance encoded in 
+    lightweight markdown artifacts such as skill files. In a biostatistical and clinical data 
+    context, this can facilitate tasks such as authoring statistical documentation and programming 
+    code, which in turn produce analysis datasets and outputs. In practice, however, building such 
+    workflows reliably raises substantial concerns around accuracy, evaluation, domain knowledge, 
+    GxP validation, data privacy, and human accountability. This presentation shares practical 
+    experience and reflections from building agentic workflows, organized in three parts: early 
+    exploration, observations after diving in, and considerations for those preparing to do the 
+    same. Examples will be presented to illustrate the ideas.
+  speakers:
+    - name: "Mia Chen"
+      affiliation: "CIMS Global"
+      bio: >
+        Mia Chen is a Clinical Data Scientist at CIMS GLOBAL, specializing in clinical data engineering, 
+        R Shiny application development, and AI-driven workflow automation for clinical research.
+
+- time: "11:00 IST"
+  type: "talk"
+  title: "My Agents fought and became friends under 5 mins"
+  duration: "30 min"
+  track: apac
+  abstract: >
+    Open-source agents are easy to plug into workflows. Until they start disagreeing.
+
+    Give one agent the task of retrieving clinical data, another for budget constraints, another 
+    for regulatory or submission checks—and ask a simple question: generate a study-ready output. 
+    Watch them conflict, duplicate queries, and loop across tools. Tokens burn, latency spikes, 
+    and reproducibility—the thing pharma cares about most—starts to break.
+
+    I'll demo this failure live. Then, in under 5 minutes, restructure the same system—introducing 
+    lightweight orchestration with Strands, clearer agent boundaries, and controlled interaction 
+    patterns. The same agents that were “fighting” now coordinate, share context, and produce 
+    consistent, auditable results in fewer steps and lower cost.
+
+    The fix isn't more agents or better prompts. It's rethinking how agents interact in regulated, 
+    reproducible environments—what they own, how they communicate, and how their outputs can be 
+    trusted. The patterns emerging across open-source systems all point to the same idea: agents 
+    don't need more autonomy—they need better coordination.
+  speakers:
+    - name: "Anannya Roy Chowdhury"
+      affiliation: "AWS"
+      bio: >
+        I am an AI Engineer and Architect specializing in Agentic systems, production-grade GenAI, 
+        and Responsible AI design. As a GenAI Developer/Advocate at AWS, I work at the intersection 
+        of building multi-agent architectures, observability, and real-world AI deployment 
+        to helping developers move from demos to scalable, trustworthy systems across domains.
