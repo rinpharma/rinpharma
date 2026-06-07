@@ -17,7 +17,89 @@
 <width>144</width>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Tue, 12 May 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 07 Jun 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>R/Pharma APAC GenAI Day Schedule</title>
+  <dc:creator>R/Pharma </dc:creator>
+  <link>https://rinpharma.com/docs/blog/posts/2026-06-07-genAI-APAC-schedule/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We are excited to announce that this year, <strong>R/Pharma genAI Day</strong> will have a dedicated APAC track. The free single day virtual event will run on <strong>June 17th</strong> with a workshop and talks scheduled in Asia-Pacific timezones. The event is focused on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.</p>
+<p>For talk abstracts and speaker bios, check out our <a href="../../../../docs/ai-day/index.html">conference page</a>.</p>
+<p>All times in the schedule below are in IST.</p>
+<div class="schedule-container">
+<div class="schedule-row talk">
+<div class="time">07:30 IST</div>
+<div class="content">
+<span class="speaker">Phil Bowsher (Posit)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">Hands-on Introduction to AI with Ellmer and Positron</span>
+<span class="duration">115 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row break">
+<div class="time">09:25 IST</div>
+<div class="content">
+<strong>Break</strong>
+<span class="duration">5 min</span>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">09:30 IST</div>
+<div class="content">
+<span class="speaker">Harshavardhan Bajoria (UnStop)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">Beyond the Prompt: Building Truly Autonomous AI Agents with MCP</span>
+<span class="duration">60 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">10:30 IST</div>
+<div class="content">
+<span class="speaker">Mia Chen (CIMS Global)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">Hands Dirty First: Practical Notes from Before, During, and After Building Agentic Workflows</span>
+<span class="duration">30 min</span>
+</div>
+</div>
+</div>
+<div class="schedule-row talk">
+<div class="time">11:00 IST</div>
+<div class="content">
+<span class="speaker">Anannya Roy Chowdhury (AWS)</span>
+<br>
+<div class="title-row">
+<span class="talk-title">My Agents fought and became friends under 5 mins</span>
+<span class="duration">30 min</span>
+</div>
+</div>
+</div>
+</div>
+<section id="section" class="level3 citation-image">
+<h3 class="citation-image anchored" data-anchor-id="section"></h3>
+<p>Photo by <a href="https://unsplash.com/@markuswinkler?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Winkler</a> on <a href="https://unsplash.com/photos/a-close-up-of-an-old-fashioned-typewriter-_a97xDX9eZg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+</section>
+<section id="section-1" class="level3">
+<h3 class="anchored" data-anchor-id="section-1"></h3>
+
+
+</section>
+
+ ]]></description>
+  <category>genAI-day</category>
+  <guid>https://rinpharma.com/docs/blog/posts/2026-06-07-genAI-APAC-schedule/</guid>
+  <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2026-06-07-genAI-APAC-schedule/markus-winkler-_a97xDX9eZg-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>R/Pharma GenAI Day Schedule</title>
   <dc:creator>R/Pharma </dc:creator>
@@ -28,11 +110,11 @@
 
 
 
-<p>We are excited to share the schedule for the third <strong>R/Pharma genAI</strong> day, a free single day event focused on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.</p>
+<p>We are excited to share the schedule for the third <strong>R/Pharma genAI</strong> day, a free single day virtual event on <strong>June 16th</strong>, focused on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.</p>
 <p>For talk abstracts and speaker bios, check out our <a href="../../../../docs/ai-day/index.html">conference page</a>.</p>
 <div class="schedule-container">
 <div class="schedule-row talk">
-<div class="time">10:00</div>
+<div class="time">10:00 EDT</div>
 <div class="content">
 <span class="speaker">Sara Altman (Posit)</span>
 , 
@@ -45,14 +127,14 @@
 </div>
 </div>
 <div class="schedule-row break">
-<div class="time">10:40</div>
+<div class="time">10:40 EDT</div>
 <div class="content">
 <strong>Break</strong>
 <span class="duration">20 min</span>
 </div>
 </div>
 <div class="schedule-row talk">
-<div class="time">11:00</div>
+<div class="time">11:00 EDT</div>
 <div class="content">
 <span class="speaker">Nikolas Burkoff (Johnson &amp; Johnson)</span>
 <br>
@@ -63,7 +145,7 @@
 </div>
 </div>
 <div class="schedule-row talk">
-<div class="time">11:20</div>
+<div class="time">11:20 EDT</div>
 <div class="content">
 <span class="speaker">Isabella Velásquez (Posit)</span>
 <br>
@@ -74,7 +156,7 @@
 </div>
 </div>
 <div class="schedule-row talk">
-<div class="time">11:40</div>
+<div class="time">11:40 EDT</div>
 <div class="content">
 <span class="speaker">Eric Zhang (Eikon Therapeutics)</span>
 , 
@@ -87,7 +169,7 @@
 </div>
 </div>
 <div class="schedule-row talk">
-<div class="time">12:00</div>
+<div class="time">12:00 EDT</div>
 <div class="content">
 <span class="speaker">James Wade (Dow)</span>
 <br>
@@ -98,14 +180,14 @@
 </div>
 </div>
 <div class="schedule-row break">
-<div class="time">13:00</div>
+<div class="time">13:00 EDT</div>
 <div class="content">
 <strong>Break</strong>
 <span class="duration">20 min</span>
 </div>
 </div>
 <div class="schedule-row talk">
-<div class="time">13:20</div>
+<div class="time">13:20 EDT</div>
 <div class="content">
 <span class="speaker">Peng Zhang (CIMS Global)</span>
 <br>
@@ -116,7 +198,7 @@
 </div>
 </div>
 <div class="schedule-row talk">
-<div class="time">13:40</div>
+<div class="time">13:40 EDT</div>
 <div class="content">
 <span class="speaker">Indraneel Chakraborty (Independent Contributor)</span>
 <br>
@@ -127,7 +209,7 @@
 </div>
 </div>
 <div class="schedule-row talk">
-<div class="time">14:00</div>
+<div class="time">14:00 EDT</div>
 <div class="content">
 <span class="speaker">Husain Attarwala (Aera Therapeutics)</span>
 <br>
@@ -138,14 +220,14 @@
 </div>
 </div>
 <div class="schedule-row break">
-<div class="time">14:20</div>
+<div class="time">14:20 EDT</div>
 <div class="content">
 <strong>Break</strong>
 <span class="duration">20 min</span>
 </div>
 </div>
 <div class="schedule-row talk">
-<div class="time">14:40</div>
+<div class="time">14:40 EDT</div>
 <div class="content">
 <span class="speaker">Weijie Zhang (Moderna)</span>
 , 
@@ -158,7 +240,7 @@
 </div>
 </div>
 <div class="schedule-row talk">
-<div class="time">15:00</div>
+<div class="time">15:00 EDT</div>
 <div class="content">
 <span class="speaker">Rita Pecuch (Takeda)</span>
 , 
@@ -171,7 +253,7 @@
 </div>
 </div>
 <div class="schedule-row talk">
-<div class="time">15:20</div>
+<div class="time">15:20 EDT</div>
 <div class="content">
 <span class="speaker">Matthew Kumar (Bayer)</span>
 <br>
@@ -182,7 +264,7 @@
 </div>
 </div>
 <div class="schedule-row talk">
-<div class="time">15:40</div>
+<div class="time">15:40 EDT</div>
 <div class="content">
 <span class="speaker">Michael Rimler (GSK)</span>
 , 
@@ -195,7 +277,7 @@
 </div>
 </div>
 <div class="schedule-row talk">
-<div class="time">16:00</div>
+<div class="time">16:00 EDT</div>
 <div class="content">
 <span class="speaker">Phil Bowsher (Posit)</span>
 , 
