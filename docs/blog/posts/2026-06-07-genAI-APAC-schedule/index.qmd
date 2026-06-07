@@ -16,7 +16,7 @@ format:
         <link rel="stylesheet" href="schedule.css">
 ---
 
-We are excited to announce that this year, **R/Pharma genAI Day** will have a dedicated APAC track.  The free single day virtual event will run on June 17th with a workshop and talks scheduled in Asia-Pacific timezones.  The event is focused on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.
+We are excited to announce that this year, **R/Pharma genAI Day** will have a dedicated APAC track.  The free single day virtual event will run on **June 17th** with a workshop and talks scheduled in Asia-Pacific timezones.  The event is focused on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.
 
 For talk abstracts and speaker bios, check out our [conference page](/docs/ai-day/index.qmd).
 

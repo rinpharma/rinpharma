@@ -16,7 +16,7 @@ format:
         <link rel="stylesheet" href="schedule.css">
 ---
 
-We are excited to share the schedule for the third **R/Pharma genAI** day, a free single day virtual event on June 16th, focused on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.
+We are excited to share the schedule for the third **R/Pharma genAI** day, a free single day virtual event on **June 16th**, focused on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.
 
 For talk abstracts and speaker bios, check out our [conference page](/docs/ai-day/index.qmd).
 

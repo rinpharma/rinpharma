@@ -184,7 +184,7 @@ render_schedule <- function(df) {
 
 ## Europe/US Schedule
 
-Tap or hover on talk titles for abstracts and speaker names for bios.  All times are in EDT on June 16, 2026.
+Tap or hover on talk titles for abstracts and speaker names for bios.  All times are in EDT on **June 16, 2026**.
 
 ```{r}
 #| echo: FALSE
@@ -198,7 +198,7 @@ render_schedule(schedule_us_europe)
 ## APAC Schedule
 
 R/Pharma is exited to bring the first APAC-targeted schedule this year.  
-Tap or hover on talk titles for abstracts and speaker names for bios.  All times are in IST on June 17, 2026.
+Tap or hover on talk titles for abstracts and speaker names for bios.  All times are in IST on **June 17, 2026**.
 
 ```{r}
 #| echo: FALSE
