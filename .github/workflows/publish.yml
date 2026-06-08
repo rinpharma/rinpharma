@@ -36,14 +36,20 @@ jobs:
       - name: Cache R packages
         uses: actions/cache@v4
         with:
-          path: |
-            ~/.local/share/R
-            ~/.cache/R
-          key: r-packages-${{ runner.os }}-${{ hashFiles('**/DESCRIPTION') }}
-          restore-keys: |
+          path: /home/runner/work/_temp/Library
+          key: r-packages-${{ runner.os }}-r453
+
+      - name: Cache R packages 
+        id: cache-r 
+        uses: actions/cache@v4 
+        with: 
+          path: /home/runner/work/_temp/Library
+          key: r-packages-${{ runner.os }}-r453-v1
+          restore-keys: | 
             r-packages-${{ runner.os }}-
 
       - name: Install R packages
+        if: steps.cache-r.outputs.cache-hit != 'true'
         run: |
           Rscript -e '
             install.packages(
@@ -62,10 +68,6 @@ jobs:
               repos = sprintf("https://packagemanager.posit.co/cran/2025-10-08/bin/linux/noble-%s/%s", R.version["arch"], substr(getRversion(), 1, 3))
             )
           '
-      - name: Show R libraries
-        run: |
-          Rscript -e '.libPaths()'
-
       - name: Cache Shinylive assets
         uses: actions/cache@v4
         with:
