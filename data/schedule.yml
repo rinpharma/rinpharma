@@ -73,14 +73,14 @@
 
 - time: "11:20 EDT"
   type: "talk"
-  title: "To be announced"
+  title: "Skills 101"
   duration: "20 min"
   track: us_europe
   abstract: >
-    Throughout this conference, you’re going to hear the word "skill" a lot. These specifically 
+    Throughout this conference, you're going to hear the word "skill" a lot. These specifically 
     mean "agent skills", specialized tools and behaviors passed to large language models to make 
     them actionable. If you've found yourself wondering, "What actually is a skill?"" then join us 
-    for Skills 101. We’ll break down what they are, what they are not, and how they work, giving 
+    for Skills 101. We'll break down what they are, what they are not, and how they work, giving 
     you the foundational toolkit to navigate the rest of the conference.
   speakers:
     - name: "Isabella Velásquez"
