@@ -146,7 +146,7 @@ R/Pharma runs Europe/US and APAC tracks.  To register click the button below.
 The R/Pharma summit has run for three years at posit::conf.  In 2025, over 100 representatives from 40+ companies met in-person to discuss some of the most pressing topics pharma is tackling.  The in-person summit focuses on the future of drug development using open source and tailored for program leaders and people leading Open Source initiatives. A summary of prior years is here: [Summit page](/docs/summit). 
 
 In 2026 we will host two summits.  The first will run on September 13th in Houston, TX, the day before posit::conf.  The second will run on October 5th at the Novartis Campus in Basel.  
-Registration for the US summit is available via posit::conf and more details on the European summit are available [here](https://github.com/rinpharma/rinpharma-summit-2026).  
+Registration for the US summit is available via posit::conf and more details on the European summit are available [here](https://rinpharma.github.io/rinpharma-summit-2026/).  
 We invite the public to suggest and comment on round-table discussions through the summit [Github Discussion Board](https://github.com/rinpharma/rinpharma-summit-2026/discussions).
 
 
