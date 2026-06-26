@@ -1,0 +1,21 @@
+---
+title: "Shiny components as building blocks for AI agents" 
+subtitle: "Bring Shiny apps directly into AI chat conversations and much more"
+date: '2026-06-16'
+description: Shiny is a proven way to build interactive data applications, but a Shiny app lives behind a URL. As AI assistants become a common place to explore and analyze data, that separation means users leave the conversation to use the app, then carry the results back by hand. In this edition of the R/Pharma Hangout sessions, James Wade (Dow) demonstrates {shinymcp}, which converts Shiny apps into MCP-compatible interfaces that render inside chat-based tools. Plots, inputs, and summaries appear inline, respond to user input, and execute code within the conversation. The session also covers two related packages built on ellmer - {dsprrr}, which brings DSPy-style signatures, optimization, and tracing to R so prompts can be improved with data instead of hand-tuning, and {deputy}, an agent runtime for building tool-using AI agents with permissions, hooks, and multi-agent coordination. Together, these tools treat Shiny components as building blocks for agent-connected workflows rather than standalone dashboards.
+guests:
+- jwade
+draft: false
+youtube: M5UUuBWJ6h4
+---
+
+{{< video https://youtu.be/M5UUuBWJ6h4 >}}
+
+## Resources mentioned in the Hangout
+
+* Presentation materials: <https://github.com/JamesHWade/shinymcp/tree/main/inst/examples/rpharma-hangout>
+* `{shinymcp}`: <https://jameshwade.github.io/shinymcp>
+* Background blog post on `{shinymcp}`: <https://jameshwade.com/posts/2026-02-21_shinymcp.html>
+* `{dsprrr}`: <https://jameshwade.github.io/dsprrr>
+* GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning <https://arxiv.org/abs/2507.19457>
+* `{deputy}`: <https://jameshwade.github.io/deputy>

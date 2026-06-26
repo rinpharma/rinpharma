@@ -1,0 +1,25 @@
+---
+draft: false
+title: James Wade
+subtitle: Senior Research Scientist
+date: '2026-06-16'
+about:
+  template: marquee
+  image: featured.png
+  links:
+  - icon: link
+    text: blog
+    href: http://jameshwade.com/
+  - icon: linkedin
+    href: https://www.linkedin.com/in/james-h-wade/
+  - icon: bluesky
+    href: https://bsky.app/profile/jameshwade.bsky.social
+  - icon: mastodon
+    href: https://fosstodon.org/@jameshwade
+  - icon: github
+    href: https://github.com/JamesHWade
+  - icon: youtube
+    href: https://youtube.com/@james-h-wade
+---
+
+James Wade is a Senior Research Scientist in Core R&D at Dow, where he works on digital transformation efforts at the intersection of chemistry, data science, and AI. His work focuses on applying machine learning and generative AI to accelerate R&D workflows, including predictive modeling, automated reporting, and deployment of agentic tools.
