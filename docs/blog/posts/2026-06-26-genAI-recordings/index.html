@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="The R/Pharma Hangouts (hosted by Eric Nantz &amp; Jared Woolfolk) feature key innovators across the world of open source and life sciences to go hands-on with key R packages, applications, or entire workflows highly relevant to the life sciences industry. You can view the recordings of past Hangout sessions below!">
+<meta name="author" content="R/Pharma">
+<meta name="dcterms.date" content="2026-06-26">
+<meta name="description" content="Watch the specatcular talks and workshops completely free!">
 
-<title>R/Pharma Hangouts – R/Pharma</title>
+<title>R/Pharma GenAI Day Recordings – R/Pharma</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,26 +29,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../favicon.png" rel="icon" type="image/png">
-<script src="../../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-6c3f95c8e1b5fc8492399835485299e6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../favicon.png" rel="icon" type="image/png">
+<script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-6c3f95c8e1b5fc8492399835485299e6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,90 +74,44 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<style>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-author','listing-date','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
+      .quarto-title-block .quarto-title-banner {
+        background: #EDF3F9;
+      }
+</style>
 <!-- _includes/head.html -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.css">
 
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../../../styles.css">
-<link rel="alternate" type="application/rss+xml" title="R/Pharma" href="index.xml" data-external="1"><meta property="og:title" content="R/Pharma Hangouts – R/Pharma">
-<meta property="og:description" content="The R/Pharma Hangouts (hosted by Eric Nantz &amp; Jared Woolfolk) feature key innovators across the world of open source and life sciences to go hands-on with key R packages, applications, or entire workflows highly relevant to the life sciences industry. You can view the recordings of past Hangout sessions below!">
-<meta property="og:image" content="https://rinpharma.com/docs/hangout/recordings/featured.png">
+<link rel="stylesheet" href="../../../../styles.css">
+<meta property="og:title" content="R/Pharma GenAI Day Recordings – R/Pharma">
+<meta property="og:description" content="Watch the specatcular talks and workshops completely free!">
+<meta property="og:image" content="https://rinpharma.com/docs/blog/posts/2026-06-26-genAI-recordings/genAI.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta name="twitter:title" content="R/Pharma Hangouts – R/Pharma">
-<meta name="twitter:description" content="The R/Pharma Hangouts (hosted by Eric Nantz &amp; Jared Woolfolk) feature key innovators across the world of open source and life sciences to go hands-on with key R packages, applications, or entire workflows highly relevant to the life sciences industry. You can view the recordings of past Hangout sessions below!">
-<meta name="twitter:image" content="https://rinpharma.com/docs/hangout/recordings/featured.png">
+<meta property="og:image:height" content="540">
+<meta property="og:image:width" content="810">
+<meta property="og:image:alt" content="genAI Image">
+<meta name="twitter:title" content="R/Pharma GenAI Day Recordings – R/Pharma">
+<meta name="twitter:description" content="Watch the specatcular talks and workshops completely free!">
+<meta name="twitter:image" content="https://rinpharma.com/docs/blog/posts/2026-06-26-genAI-recordings/genAI.png">
+<meta name="twitter:image-height" content="540">
+<meta name="twitter:image-width" content="810">
+<meta name="twitter:image:alt" content="genAI Image">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo light-content">
-    <img src="../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo dark-content">
+    <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo light-content">
+    <img src="../../../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -167,19 +121,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="../../../../index.html"> 
 <span class="menu-text">Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/ai-day/index.html"> 
+    <a class="nav-link" href="../../../../docs/ai-day/index.html"> 
 <span class="menu-text">AI</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/events/index.html"> 
+    <a class="nav-link" href="../../../../docs/events/index.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/summit/index.html"> 
+    <a class="nav-link" href="../../../../docs/summit/index.html"> 
 <span class="menu-text">Summit</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -188,33 +142,33 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-hangouts">    
         <li>
-    <a class="dropdown-item" href="../../../docs/hangout/upcoming/index.html">
+    <a class="dropdown-item" href="../../../../docs/hangout/upcoming/index.html">
  <span class="dropdown-text">Upcoming Hangouts</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../docs/hangout/recordings/index.html">
+    <a class="dropdown-item" href="../../../../docs/hangout/recordings/index.html">
  <span class="dropdown-text">Recordings</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../docs/hangout/guests/index.html">
+    <a class="dropdown-item" href="../../../../docs/hangout/guests/index.html">
  <span class="dropdown-text">Guests</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/people/index.html"> 
+    <a class="nav-link" href="../../../../docs/people/index.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/blog/index.html"> 
+    <a class="nav-link" href="../../../../docs/blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/support/index.html"> 
+    <a class="nav-link" href="../../../../docs/support/index.html"> 
 <span class="menu-text">Support</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../contact.html"> 
+    <a class="nav-link" href="../../../../contact.html"> 
 <span class="menu-text">Contact Us</span></a>
   </li>  
 </ul>
@@ -260,136 +214,82 @@ window.Quarto = {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">R/Pharma GenAI Day Recordings</h1>
+            <p class="subtitle lead">Now available on YouTube</p>
+                  <div>
+        <div class="description">
+          <p>Watch the specatcular talks and workshops completely free!</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">genAI-day</div>
+                <div class="quarto-category">APAC</div>
+                <div class="quarto-category">asia-pacific</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>R/Pharma </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 26, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">R/Pharma Hangouts</h1>
-</div>
-
-<div>
-  <div class="description">
-    <p>The R/Pharma Hangouts (hosted by Eric Nantz &amp; Jared Woolfolk) feature key innovators across the world of open source and life sciences to go hands-on with key R packages, applications, or entire workflows highly relevant to the life sciences industry. You can view the recordings of past Hangout sessions below!</p>
-  </div>
-</div>
-
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p>We’re thrilled to announce that the recordings of talks and workshops from the third <strong>R/Pharma genAI</strong> day are now available! You can access all of the individual recordings on the R/Pharma <a href="https://www.youtube.com/@RinPharma" target="_blank">YouTube Channel</a> or head directly to the <a href="https://www.youtube.com/playlist?list=PLEozv0atVie0" target="_blank">2026 GenAI Day Playlist</a>.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/-LTJb9HkQvs?si=KDMqTQxFH3yNb4p3" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>This year’s collection of talks and workshops illustrate a growing trend of how the life sciences industry is starting to find consistency in the foundational layers of open-source packages to power innovation with AI. From the practical perspectives on building agentic workflows, embedding safe guardrails in custom agents, and learning the fundamentals behind skills, there is a wealth of knowledge available for you. On behalf of our organizing and program committees, we extend a huge thank you to the speakers for all of their time and effort to share their experiences in this year’s event!</p>
+<section id="section" class="level3 citation-image">
+<h3 class="citation-image anchored" data-anchor-id="section"></h3>
+<p>Blog image generated by AI</p>
+</section>
+<section id="section-1" class="level3">
+<h3 class="anchored" data-anchor-id="section-1"></h3>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1781568000000" data-listing-file-modified-sort="1782506967073" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="../../../docs/hangout/recordings/shinymcp/index.html" class="no-external">
 
-<img loading="lazy" src="../../../docs/hangout/recordings/shinymcp/featured.png" class="thumbnail-image">
+</section>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../docs/hangout/recordings/shinymcp/index.html" class="no-external">Shiny components as building blocks for AI agents</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../docs/hangout/recordings/shinymcp/index.html" class="no-external">Bring Shiny apps directly into AI chat conversations and much more</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../../docs/hangout/recordings/shinymcp/index.html" class="no-external">
-<div class="listing-date">
-Jun 16, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-listing-date-sort="1779148800000" data-listing-file-modified-sort="1782506967069" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
-<div class="thumbnail"><a href="../../../docs/hangout/recordings/rep_nix/index.html" class="no-external">
-
-<img loading="lazy" src="../../../docs/hangout/recordings/rep_nix/featured.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../docs/hangout/recordings/rep_nix/index.html" class="no-external">Reproducible Data Science with Nix</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../docs/hangout/recordings/rep_nix/index.html" class="no-external">How the Nix package manager ensures multiple levels of reproducibility with {rix}, {rixpress}, and the new T language</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../../docs/hangout/recordings/rep_nix/index.html" class="no-external">
-<div class="listing-date">
-May 19, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-listing-date-sort="1776729600000" data-listing-file-modified-sort="1782506967070" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
-<div class="thumbnail"><a href="../../../docs/hangout/recordings/shiny_otel/index.html" class="no-external">
-
-<img loading="lazy" src="../../../docs/hangout/recordings/shiny_otel/featured.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../docs/hangout/recordings/shiny_otel/index.html" class="no-external">OpenTelemetry with Shiny</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../docs/hangout/recordings/shiny_otel/index.html" class="no-external">Harnessing the power of OpenTelemetry inside Shiny applications for observability in production</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../../docs/hangout/recordings/shiny_otel/index.html" class="no-external">
-<div class="listing-date">
-Apr 21, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="3" data-listing-date-sort="1773705600000" data-listing-file-modified-sort="1782506967068" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
-<div class="thumbnail"><a href="../../../docs/hangout/recordings/package_management/index.html" class="no-external">
-
-<img loading="lazy" src="../../../docs/hangout/recordings/package_management/featured.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../docs/hangout/recordings/package_management/index.html" class="no-external">Package Management in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../docs/hangout/recordings/package_management/index.html" class="no-external">A hands-on look at both renv and rv to take control of your project’s package library.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../../docs/hangout/recordings/package_management/index.html" class="no-external">
-<div class="listing-date">
-Mar 17, 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script type="text/javascript">
 
 // replace cmd keyboard shortcut w/ control on non-Mac platforms
@@ -802,36 +702,65 @@ if (!kPlatformMac) {
     }
   });
   </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "rinpharma/rinpharma";
+    script.dataset.repoId = "R_kgDONq2IYg";
+    script.dataset.category = "Announcements";
+    script.dataset.categoryId = "DIC_kwDONq2IYs4Cxbx7";
+    script.dataset.mapping = "url";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Proud organizer of <a href="https://www.rinpharma.com"><img src="../../../images/logo-rinpharma.png" class="img-fluid" alt="OS in Pharma logo" width="65"></a></p>
+<p>Proud organizer of <a href="https://www.rinpharma.com"><img src="../../../../images/logo-rinpharma.png" class="img-fluid" alt="OS in Pharma logo" width="65"></a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../../about.html">
+    <a class="nav-link" href="../../../../about.html">
 <p>About</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../privacy.html">
+    <a class="nav-link" href="../../../../privacy.html">
 <p>Privacy Policy</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../terms.html">
+    <a class="nav-link" href="../../../../terms.html">
 <p>Terms and Conditions</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../license.html">
+    <a class="nav-link" href="../../../../license.html">
 <p>License</p>
 </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

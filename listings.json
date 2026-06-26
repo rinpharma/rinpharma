@@ -2,11 +2,21 @@
   {
     "listing": "/docs/hangout/guests/index.html",
     "items": [
+      "/docs/hangout/guests/jwade/index.html",
       "/docs/hangout/guests/brodrigues/index.html",
       "/docs/hangout/guests/bschloerke/index.html",
       "/docs/hangout/guests/spileggi/index.html",
       "/docs/hangout/guests/dpastoor/index.html",
       "/docs/hangout/guests/kushey/index.html"
+    ]
+  },
+  {
+    "listing": "/docs/hangout/recordings/index.html",
+    "items": [
+      "/docs/hangout/recordings/shinymcp/index.html",
+      "/docs/hangout/recordings/rep_nix/index.html",
+      "/docs/hangout/recordings/shiny_otel/index.html",
+      "/docs/hangout/recordings/package_management/index.html"
     ]
   },
   {
@@ -39,6 +49,7 @@
   {
     "listing": "/docs/blog/index.html",
     "items": [
+      "/docs/blog/posts/2026-06-26-genAI-recordings/index.html",
       "/docs/blog/posts/2026-06-07-genAI-APAC-schedule/index.html",
       "/docs/blog/posts/2026-05-12-genAI-schedule/index.html",
       "/docs/blog/posts/2026-04-26-genAI-announcement/index.html",
@@ -50,14 +61,6 @@
       "/docs/blog/posts/2025-07-30-genAI/index.html",
       "/docs/blog/posts/2025-07-25-hackathon/index.html",
       "/docs/blog/posts/2025-06-14-announcements/index.html"
-    ]
-  },
-  {
-    "listing": "/docs/hangout/recordings/index.html",
-    "items": [
-      "/docs/hangout/recordings/rep_nix/index.html",
-      "/docs/hangout/recordings/shiny_otel/index.html",
-      "/docs/hangout/recordings/package_management/index.html"
     ]
   },
   {

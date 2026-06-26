@@ -16,7 +16,35 @@
 <link>https://rinpharma.com/docs/hangout/recordings/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Tue, 19 May 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 16 Jun 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Shiny components as building blocks for AI agents</title>
+  <link>https://rinpharma.com/docs/hangout/recordings/shinymcp/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/M5UUuBWJ6h4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="resources-mentioned-in-the-hangout" class="level2">
+<h2 class="anchored" data-anchor-id="resources-mentioned-in-the-hangout">Resources mentioned in the Hangout</h2>
+<ul>
+<li>Presentation materials: <a href="https://github.com/JamesHWade/shinymcp/tree/main/inst/examples/rpharma-hangout" class="uri">https://github.com/JamesHWade/shinymcp/tree/main/inst/examples/rpharma-hangout</a></li>
+<li><code>{shinymcp}</code>: <a href="https://jameshwade.github.io/shinymcp" class="uri">https://jameshwade.github.io/shinymcp</a></li>
+<li>Background blog post on <code>{shinymcp}</code>: <a href="https://jameshwade.com/posts/2026-02-21_shinymcp.html" class="uri">https://jameshwade.com/posts/2026-02-21_shinymcp.html</a></li>
+<li><code>{dsprrr}</code>: <a href="https://jameshwade.github.io/dsprrr" class="uri">https://jameshwade.github.io/dsprrr</a></li>
+<li>GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning <a href="https://arxiv.org/abs/2507.19457" class="uri">https://arxiv.org/abs/2507.19457</a></li>
+<li><code>{deputy}</code>: <a href="https://jameshwade.github.io/deputy" class="uri">https://jameshwade.github.io/deputy</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://rinpharma.com/docs/hangout/recordings/shinymcp/</guid>
+  <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/hangout/recordings/shinymcp/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>Reproducible Data Science with Nix</title>
   <link>https://rinpharma.com/docs/hangout/recordings/rep_nix/</link>
