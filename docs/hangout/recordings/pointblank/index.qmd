@@ -1,0 +1,27 @@
+---
+title: "Pointblank, GT, and Great Docs: A Tour Across R and Python" 
+subtitle: "A tour of Pointblank, GT/Great Tables, and Great Docs across the R and Python ecosystems"
+date: '2026-07-21'
+description: Ensuring data quality, communicating results with polished tables, and documenting software effectively are three challenges that every life sciences data science team encounters on a regular basis. In this edition of the [R/Pharma](https://rinpharma.com) Hangout sessions, Posit software engineer Rich Iannone joins us for a wide-ranging tour of his open source work across both R and Python. Rich demonstrates `{pointblank}` for data validation, including a compelling new example that applies over 400 CDISC SDTM conformance rules to clinical data and produces a stakeholder-friendly report with drill-down capabilities on failed checks. He also shares the latest developments in `{gt}` and `{great_tables}` alongside his newly released free book on creating effective display tables, and closes with a preview of `{great_docs}` and its embedded Term Show editor, an HTML-based video editor for terminal recordings that promises to transform how we document CLI-based workflows and training materials. 
+guests:
+- riannone
+draft: false
+youtube: 6KuC3MxfNV8
+---
+
+{{< video https://youtu.be/6KuC3MxfNV8 >}}
+
+## Resources mentioned in the Hangout
+
+* Pointblank: Data Validation and Organization of Metadata for Local and Remote Tables
+   * R version: <https://rstudio.github.io/pointblank/>
+   * Python version: <https://posit-dev.github.io/pointblank/>
+* Pointblank examples for CDISC data:
+   * Clinical Data Standards: <https://posit-dev.github.io/pointblank/user-guide/metadata-import/cdisc-validation.html>
+   * Submission Conformance: <https://posit-dev.github.io/pointblank/user-guide/metadata-import/cdisc-submission-conformance.html>
+* watcher: Watch the file system for changes <https://watcher.r-lib.org/>
+* GT: Easily Create Presentation-Ready Display Tables <https://gt.rstudio.com/>
+* Great Tables (Python) <https://posit-dev.github.io/great-tables/>
+* Creating Effective Display Tables with the gt Package: <https://rich-iannone.github.io/gt-effective-display-tables>
+* Great Docs: Documentation sites for Python packages <https://posit-dev.github.io/great-docs/>
+* Great Docs Terminal Recordings guide <https://posit-dev.github.io/great-docs/user-guide/terminal-recordings.html>
