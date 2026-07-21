@@ -16,7 +16,45 @@
 <link>https://rinpharma.com/docs/hangout/recordings/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Tue, 16 Jun 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 21 Jul 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Pointblank, GT, and Great Docs: A Tour Across R and Python</title>
+  <link>https://rinpharma.com/docs/hangout/recordings/pointblank/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/6KuC3MxfNV8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="resources-mentioned-in-the-hangout" class="level2">
+<h2 class="anchored" data-anchor-id="resources-mentioned-in-the-hangout">Resources mentioned in the Hangout</h2>
+<ul>
+<li>Pointblank: Data Validation and Organization of Metadata for Local and Remote Tables
+<ul>
+<li>R version: <a href="https://rstudio.github.io/pointblank/" class="uri">https://rstudio.github.io/pointblank/</a></li>
+<li>Python version: <a href="https://posit-dev.github.io/pointblank/" class="uri">https://posit-dev.github.io/pointblank/</a></li>
+</ul></li>
+<li>Pointblank examples for CDISC data:
+<ul>
+<li>Clinical Data Standards: <a href="https://posit-dev.github.io/pointblank/user-guide/metadata-import/cdisc-validation.html" class="uri">https://posit-dev.github.io/pointblank/user-guide/metadata-import/cdisc-validation.html</a></li>
+<li>Submission Conformance: <a href="https://posit-dev.github.io/pointblank/user-guide/metadata-import/cdisc-submission-conformance.html" class="uri">https://posit-dev.github.io/pointblank/user-guide/metadata-import/cdisc-submission-conformance.html</a></li>
+</ul></li>
+<li>watcher: Watch the file system for changes <a href="https://watcher.r-lib.org/" class="uri">https://watcher.r-lib.org/</a></li>
+<li>GT: Easily Create Presentation-Ready Display Tables <a href="https://gt.rstudio.com/" class="uri">https://gt.rstudio.com/</a></li>
+<li>Great Tables (Python) <a href="https://posit-dev.github.io/great-tables/" class="uri">https://posit-dev.github.io/great-tables/</a></li>
+<li>Creating Effective Display Tables with the gt Package: <a href="https://rich-iannone.github.io/gt-effective-display-tables" class="uri">https://rich-iannone.github.io/gt-effective-display-tables</a></li>
+<li>Great Docs: Documentation sites for Python packages <a href="https://posit-dev.github.io/great-docs/" class="uri">https://posit-dev.github.io/great-docs/</a></li>
+<li>Great Docs Terminal Recordings guide <a href="https://posit-dev.github.io/great-docs/user-guide/terminal-recordings.html" class="uri">https://posit-dev.github.io/great-docs/user-guide/terminal-recordings.html</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://rinpharma.com/docs/hangout/recordings/pointblank/</guid>
+  <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/hangout/recordings/pointblank/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>Shiny components as building blocks for AI agents</title>
   <link>https://rinpharma.com/docs/hangout/recordings/shinymcp/</link>

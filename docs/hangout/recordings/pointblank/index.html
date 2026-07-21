@@ -6,11 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="R/Pharma">
-<meta name="dcterms.date" content="2025-07-30">
-<meta name="description" content="Free virtual conference on the use of genAI in Pharma.">
+<meta name="dcterms.date" content="2026-07-21">
+<meta name="description" content="Ensuring data quality, communicating results with polished tables, and documenting software effectively are three challenges that every life sciences data science team encounters on a regular basis. In this edition of the R/Pharma Hangout sessions, Posit software engineer Rich Iannone joins us for a wide-ranging tour of his open source work across both R and Python. Rich demonstrates {pointblank} for data validation, including a compelling new example that applies over 400 CDISC SDTM conformance rules to clinical data and produces a stakeholder-friendly report with drill-down capabilities on failed checks. He also shares the latest developments in {gt} and {great_tables} alongside his newly released free book on creating effective display tables, and closes with a preview of {great_docs} and its embedded Term Show editor, an HTML-based video editor for terminal recordings that promises to transform how we document CLI-based workflows and training materials.">
 
-<title>R/Pharma GenAI Day – R/Pharma</title>
+<title>Pointblank, GT, and Great Docs: A Tour Across R and Python – R/Pharma</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,38 +73,30 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background: #EDF3F9;
-      }
-</style>
 <!-- _includes/head.html -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.css">
 
 
 
 <link rel="stylesheet" href="../../../../styles.css">
-<meta property="og:title" content="R/Pharma GenAI Day – R/Pharma">
-<meta property="og:description" content="Free virtual conference on the use of genAI in Pharma.">
-<meta property="og:image" content="https://rinpharma.com/docs/blog/posts/2025-07-30-genAI/genAI.png">
+<meta property="og:title" content="Pointblank, GT, and Great Docs: A Tour Across R and Python – R/Pharma">
+<meta property="og:description" content="Ensuring data quality, communicating results with polished tables, and documenting software effectively are three challenges that every life sciences data science team encounters on a regular basis. In this edition of the R/Pharma Hangout sessions, Posit software engineer Rich Iannone joins us for a wide-ranging tour of his open source work across both R and Python. Rich demonstrates {pointblank} for data validation, including a compelling new example that applies over 400 CDISC SDTM conformance rules to clinical data and produces a stakeholder-friendly report with drill-down capabilities on failed checks. He also shares the latest developments in {gt} and {great_tables} alongside his newly released free book on creating effective display tables, and closes with a preview of {great_docs} and its embedded Term Show editor, an HTML-based video editor for terminal recordings that promises to transform how we document CLI-based workflows and training materials.">
+<meta property="og:image" content="https://rinpharma.com/docs/hangout/recordings/pointblank/featured.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta property="og:image:height" content="540">
-<meta property="og:image:width" content="810">
-<meta property="og:image:alt" content="genAI Image">
-<meta name="twitter:title" content="R/Pharma GenAI Day – R/Pharma">
-<meta name="twitter:description" content="Free virtual conference on the use of genAI in Pharma.">
-<meta name="twitter:image" content="https://rinpharma.com/docs/blog/posts/2025-07-30-genAI/genAI.png">
-<meta name="twitter:image-height" content="540">
-<meta name="twitter:image-width" content="810">
-<meta name="twitter:image:alt" content="genAI Image">
+<meta property="og:image:height" content="720">
+<meta property="og:image:width" content="1280">
+<meta name="twitter:title" content="Pointblank, GT, and Great Docs: A Tour Across R and Python – R/Pharma">
+<meta name="twitter:description" content="Ensuring data quality, communicating results with polished tables, and documenting software effectively are three challenges that every life sciences data science team encounters on a regular basis. In this edition of the R/Pharma Hangout sessions, Posit software engineer Rich Iannone joins us for a wide-ranging tour of his open source work across both R and Python. Rich demonstrates {pointblank} for data validation, including a compelling new example that applies over 400 CDISC SDTM conformance rules to clinical data and produces a stakeholder-friendly report with drill-down capabilities on failed checks. He also shares the latest developments in {gt} and {great_tables} alongside his newly released free book on creating effective display tables, and closes with a preview of {great_docs} and its embedded Term Show editor, an HTML-based video editor for terminal recordings that promises to transform how we document CLI-based workflows and training materials.">
+<meta name="twitter:image" content="https://rinpharma.com/docs/hangout/recordings/pointblank/featured.png">
+<meta name="twitter:image-height" content="720">
+<meta name="twitter:image-width" content="1280">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="floating nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -214,170 +205,73 @@ ul.task-list li input[type="checkbox"] {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">R/Pharma GenAI Day</h1>
-            <p class="subtitle lead">Our second genAI single day event</p>
-                  <div>
-        <div class="description">
-          <p>Free virtual conference on the use of genAI in Pharma.</p>
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">genAI-day</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>R/Pharma </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">July 30, 2025</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
+  <li><a href="#resources-mentioned-in-the-hangout" id="toc-resources-mentioned-in-the-hangout" class="nav-link active" data-scroll-target="#resources-mentioned-in-the-hangout">Resources mentioned in the Hangout</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Pointblank, GT, and Great Docs: A Tour Across R and Python</h1>
+<p class="subtitle lead">A tour of Pointblank, GT/Great Tables, and Great Docs across the R and Python ecosystems</p>
+</div>
+
+<div>
+  <div class="description">
+    Ensuring data quality, communicating results with polished tables, and documenting software effectively are three challenges that every life sciences data science team encounters on a regular basis. In this edition of the <a href="https://rinpharma.com">R/Pharma</a> Hangout sessions, Posit software engineer Rich Iannone joins us for a wide-ranging tour of his open source work across both R and Python. Rich demonstrates <code>{pointblank}</code> for data validation, including a compelling new example that applies over 400 CDISC SDTM conformance rules to clinical data and produces a stakeholder-friendly report with drill-down capabilities on failed checks. He also shares the latest developments in <code>{gt}</code> and <code>{great_tables}</code> alongside his newly released free book on creating effective display tables, and closes with a preview of <code>{great_docs}</code> and its embedded Term Show editor, an HTML-based video editor for terminal recordings that promises to transform how we document CLI-based workflows and training materials.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 21, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
-<p>We’re so excited to announce the lineup for the second <strong>R/Pharma genAI day</strong>, the single day event focused on examples of using generative artificial intelligence (GenAI) with an emphasis in the drug development space and clinical domain.</p>
-<p>The virtual Single Day Event (August 19th) will be focused on various applications of GenAI such as accelerating the learning of open source languages and supporting late-stage reporting tasks. The day will consist of a workshop, talks, and a panel discussion/hangout.</p>
-<p>Free registration: <a href="https://events.zoom.us/ev/AhJgNAEgFp0gVZG2EFBctyctEm8CstaLIEhxRlQMdtnGW3kbCTuI~ArOl6K2ZzYqVlcryttKbAVtgnsvE6g6mByAhuOim9_vxpcQ-lh-mJvL1Ag" class="uri">https://events.zoom.us/ev/AhJgNAEgFp0gVZG2EFBctyctEm8CstaLIEhxRlQMdtnGW3kbCTuI~ArOl6K2ZzYqVlcryttKbAVtgnsvE6g6mByAhuOim9_vxpcQ-lh-mJvL1Ag</a></p>
-<p>See below for the program (all times in ET).</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 26%">
-<col style="width: 28%">
-<col style="width: 45%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Time</th>
-<th>Speaker</th>
-<th>Title</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">10:00-10:40AM</td>
-<td>Garrick Aden-Buie (Posit)</td>
-<td>Interactive Session: Building the Future of Data Apps: LLMs Meet Shiny</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">10:40-11:00AM</td>
-<td>Break</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11:00-11:20AM</td>
-<td>Olga Mierzwa-Sulima &amp; Jakub Nowicki (Appsilon)</td>
-<td>Interactive and Instant: GenAI-driven Creation of Clinical Trial Applications</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11:20-11:40AM</td>
-<td>Ari Siggaard Knoph &amp; Anthony Stefan Rajecki-Doyle (Novo Nordisk)</td>
-<td>Building an AI Pair Programmer for ADaM</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11:40-12:00PM</td>
-<td>Sam Parmar (Pfizer)</td>
-<td>Enabling genAI Capabilities for Statistical Programmers</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">12:00-1:00PM</td>
-<td>Eric Nantz, Jared Woolfolk</td>
-<td>GenAI R/Pharma Hangout (Please note: this session is not recorded)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">1:00-1:20PM</td>
-<td>Emily Yates (Formation Bio)</td>
-<td>Maximizing LLM Potential: How Data Structure and Context Drive Quality Insights</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">1:20-1:40PM</td>
-<td>Devin Pastoor (A2-AI)</td>
-<td>Agents and MCP and RAG, oh my! Where is the GenAI Yellow-Brick-Road Leading?</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">1:40-2:00PM</td>
-<td>Vincent Shen (Roche)</td>
-<td>Customized GenAI coding assistant leveraging multi-agent framework</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2:00-2:20PM</td>
-<td>Break</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2:20-2:40PM</td>
-<td>Jay Timmerman (Biogen)</td>
-<td>Inside an AI Project: From Idea to Value</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2:40-3:00PM</td>
-<td>Vina Ro and Ian M Sturdy (Eli Lilly)</td>
-<td>Natural Language to Code: AI-Powered Automation for CDISC-Compliant Datasets</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3:00-3:20PM</td>
-<td>Jake Gagnon (Biogen)</td>
-<td>Considerations of LLM’s benefits and risks</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3:20-3:40PM</td>
-<td>Thomas Mock (Posit)</td>
-<td>Positron Assistant for Developing Shiny Apps</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3:40-4:00PM</td>
-<td></td>
-<td>Q/A Wrap Up</td>
-</tr>
-</tbody>
-</table>
-<p>genAI Day will also have an Expo. It’s a chance for you to show off your awesome open source contributions (packages, applications, youTube channel, etc). If you are interested in submitting contents for an expo booth please use the following link: <a href="https://docs.google.com/forms/d/e/1FAIpQLScs1oxOn-XmiGCC8Ds11Jaz1EstESZlmhdT9QUvImHomPLBgA/viewform?usp=header" class="uri">https://docs.google.com/forms/d/e/1FAIpQLScs1oxOn-XmiGCC8Ds11Jaz1EstESZlmhdT9QUvImHomPLBgA/viewform?usp=header</a></p>
-<p>This form will guide you through the details we’ll need (description, some images and a short video).</p>
-<p>We look forward to seeing you on Tuesday, August 19th!</p>
-<section id="section" class="level3 citation-image">
-<h3 class="citation-image anchored" data-anchor-id="section"></h3>
-<p>Blog image generated by AI</p>
-</section>
-<section id="section-1" class="level3">
-<h3 class="anchored" data-anchor-id="section-1"></h3>
+
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/6KuC3MxfNV8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="resources-mentioned-in-the-hangout" class="level2">
+<h2 class="anchored" data-anchor-id="resources-mentioned-in-the-hangout">Resources mentioned in the Hangout</h2>
+<ul>
+<li>Pointblank: Data Validation and Organization of Metadata for Local and Remote Tables
+<ul>
+<li>R version: <a href="https://rstudio.github.io/pointblank/" class="uri">https://rstudio.github.io/pointblank/</a></li>
+<li>Python version: <a href="https://posit-dev.github.io/pointblank/" class="uri">https://posit-dev.github.io/pointblank/</a></li>
+</ul></li>
+<li>Pointblank examples for CDISC data:
+<ul>
+<li>Clinical Data Standards: <a href="https://posit-dev.github.io/pointblank/user-guide/metadata-import/cdisc-validation.html" class="uri">https://posit-dev.github.io/pointblank/user-guide/metadata-import/cdisc-validation.html</a></li>
+<li>Submission Conformance: <a href="https://posit-dev.github.io/pointblank/user-guide/metadata-import/cdisc-submission-conformance.html" class="uri">https://posit-dev.github.io/pointblank/user-guide/metadata-import/cdisc-submission-conformance.html</a></li>
+</ul></li>
+<li>watcher: Watch the file system for changes <a href="https://watcher.r-lib.org/" class="uri">https://watcher.r-lib.org/</a></li>
+<li>GT: Easily Create Presentation-Ready Display Tables <a href="https://gt.rstudio.com/" class="uri">https://gt.rstudio.com/</a></li>
+<li>Great Tables (Python) <a href="https://posit-dev.github.io/great-tables/" class="uri">https://posit-dev.github.io/great-tables/</a></li>
+<li>Creating Effective Display Tables with the gt Package: <a href="https://rich-iannone.github.io/gt-effective-display-tables" class="uri">https://rich-iannone.github.io/gt-effective-display-tables</a></li>
+<li>Great Docs: Documentation sites for Python packages <a href="https://posit-dev.github.io/great-docs/" class="uri">https://posit-dev.github.io/great-docs/</a></li>
+<li>Great Docs Terminal Recordings guide <a href="https://posit-dev.github.io/great-docs/user-guide/terminal-recordings.html" class="uri">https://posit-dev.github.io/great-docs/user-guide/terminal-recordings.html</a></li>
+</ul>
 
 
 </section>
@@ -795,35 +689,6 @@ if (!kPlatformMac) {
     }
   });
   </script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
-<script>
-  function loadGiscus() {
-    // Function to get the theme based on body class
-    const getTheme = () => {
-      let baseTheme = document.getElementById('giscus-base-theme').value;
-      let altTheme = document.getElementById('giscus-alt-theme').value;
-      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
-    };
-    const script = document.createElement("script");
-    script.src = "https://giscus.app/client.js";
-    script.async = true;
-    script.dataset.repo = "rinpharma/rinpharma";
-    script.dataset.repoId = "R_kgDONq2IYg";
-    script.dataset.category = "Announcements";
-    script.dataset.categoryId = "DIC_kwDONq2IYs4Cxbx7";
-    script.dataset.mapping = "url";
-    script.dataset.reactionsEnabled = "1";
-    script.dataset.emitMetadata = "0";
-    script.dataset.inputPosition = "top";
-    script.dataset.theme = getTheme();
-    script.dataset.lang = "en";
-    script.crossOrigin = "anonymous";
-    // Append the script to the desired div instead of at the end of the body
-    document.getElementById("quarto-content").appendChild(script);
-  }
-  loadGiscus();
-</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
