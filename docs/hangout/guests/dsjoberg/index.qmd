@@ -1,0 +1,23 @@
+---
+draft: false
+title: Daniel Sjoberg
+subtitle: Data Scientist
+date: '2026-08-18'
+about:
+  template: marquee
+  image: featured.jpg
+  links:
+  - icon: link
+    text: blog
+    href: https://www.danieldsjoberg.com/
+  - icon: linkedin
+    href: https://www.linkedin.com/in/ddsjoberg/
+  - icon: bluesky
+    href: https://bsky.app/profile/ddsjoberg.bsky.social
+  - icon: mastodon
+    href: https://mastodon.social/@ddsjoberg
+  - icon: github
+    href: https://github.com/ddsjoberg
+---
+
+Daniel Sjoberg is a data scientist, biostatistician, and open-source developer serving as an executive director at Kardigan. Previously he was a Senior Principal Data Scientist at Genentech/Roche, as well as a Lead Data Science Manager at the Prostate Cancer Clinical Trials Consortium, and a Senior Biostatistician at Memorial Sloan Kettering Cancer Center in New York City. Daniel is an avid R package developer. His research interests include adaptive methods in clinical trials, precision medicine, predictive modeling, and prostate cancer screening methods. In his free time, Daniel enjoys baking, going to the beach, and running.

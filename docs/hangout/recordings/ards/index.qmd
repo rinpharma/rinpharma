@@ -1,0 +1,20 @@
+---
+title: "Analysis Results Data with gtsummary and cards" 
+subtitle: "Building metadata-driven clinical summaries with the ARD format and novel workflows using gtsummary"
+date: '2026-08-18'
+description: The Analysis Results Standard (ARS) from CDISC introduces a metadata-driven workflow for storing and reusing clinical trial results, and the R ecosystem now has a rich set of tools to embrace this format. In this edition of the [R/Pharma](https://rinpharma.com) Hangout sessions, Daniel Sjoberg joins us to walk through how the Analysis Results Dataset (ARD) format underpins the latest versions of `{gtsummary}`, `{cards}`, and `{cardx}`, enabling programmatic QC, result reuse across tables, plots, and publications, and language-agnostic sharing of statistical outputs. Daniel also shares live coding examples of working with list-column ARDs, previews substantial performance improvements coming to `{gtsummary}` and `{cards}` (including up to 94% faster computation on high-cardinality summaries), and discusses how simulated data and modern AI tooling are reshaping the way statistical programmers build and maintain clinical reporting pipelines. 
+guests:
+- dsjoberg
+draft: false
+youtube: jjVwSx2QIHs
+---
+
+{{< video https://youtu.be/jjVwSx2QIHs >}}
+
+## Resources mentioned in the Hangout
+
+* `{gtsummary}` <https://www.danieldsjoberg.com/gtsummary/>
+* ARDS + AI: Building the Future of Clinical Reporting with `{gtsummary}` and `{cards}` BBSW 2025 workshop materials <https://www.danieldsjoberg.com/BBSW-gtsummary-ARD-2025/>
+* Analysis Results Datasets Onboarding <https://www.danieldsjoberg.com/ARD-onboarding/>
+* `{cards}` <https://insightsengineering.github.io/cards/>
+* `{cardx}` <https://pharmaverse.github.io/cardx/latest-tag/>
