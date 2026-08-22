@@ -15,8 +15,35 @@
 <title>R/Pharma</title>
 <link>https://rinpharma.com/docs/hangout/recordings/</link>
 </image>
-<generator>quarto-1.9.38</generator>
-<lastBuildDate>Tue, 21 Jul 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Tue, 18 Aug 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Analysis Results Data with gtsummary and cards</title>
+  <link>https://rinpharma.com/docs/hangout/recordings/ards/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/jjVwSx2QIHs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="resources-mentioned-in-the-hangout" class="level2">
+<h2 class="anchored" data-anchor-id="resources-mentioned-in-the-hangout">Resources mentioned in the Hangout</h2>
+<ul>
+<li><code>{gtsummary}</code> <a href="https://www.danieldsjoberg.com/gtsummary/" class="uri">https://www.danieldsjoberg.com/gtsummary/</a></li>
+<li>ARDS + AI: Building the Future of Clinical Reporting with <code>{gtsummary}</code> and <code>{cards}</code> BBSW 2025 workshop materials <a href="https://www.danieldsjoberg.com/BBSW-gtsummary-ARD-2025/" class="uri">https://www.danieldsjoberg.com/BBSW-gtsummary-ARD-2025/</a></li>
+<li>Analysis Results Datasets Onboarding <a href="https://www.danieldsjoberg.com/ARD-onboarding/" class="uri">https://www.danieldsjoberg.com/ARD-onboarding/</a></li>
+<li><code>{cards}</code> <a href="https://insightsengineering.github.io/cards/" class="uri">https://insightsengineering.github.io/cards/</a></li>
+<li><code>{cardx}</code> <a href="https://pharmaverse.github.io/cardx/latest-tag/" class="uri">https://pharmaverse.github.io/cardx/latest-tag/</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://rinpharma.com/docs/hangout/recordings/ards/</guid>
+  <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/hangout/recordings/ards/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>Pointblank, GT, and Great Docs: A Tour Across R and Python</title>
   <link>https://rinpharma.com/docs/hangout/recordings/pointblank/</link>
