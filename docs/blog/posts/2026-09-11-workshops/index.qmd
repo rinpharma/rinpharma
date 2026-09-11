@@ -50,6 +50,10 @@ workshops_us:
     Length: 4 hr
     Presenters: Brian Varney (Experis)
     Title: Getting Started with R Clinical Programming
+  - Date: "2026-09-30 8:30AM"
+    Length: 1.5 hr hr
+    Presenters: Daniel Sabanés Bové (RPACT)
+    Title: crmPack - dose escalation trials made easy and flexible
   - Date: "2026-09-30 9:00AM"
     Length: 4 hr
     Presenters: Matt Fidler (Novartis), Anne Keuneke (LAP&P), Mutaz M. Jaber (Gilead), Justin Wilkins (Occams)
@@ -106,7 +110,7 @@ workshops_apac:
   - Date: "2026-10-01 9:30AM"
     Length: 2 hr
     Presenters: Rammprasad Ganapathy (Genentech)
-    Title: Hands-On Patient Profile Visualization
+    Title: "Programming SDTM using {sdtm.oak}"
   - Date: "2026-10-01 10:30AM"
     Length: 45 mins
     Presenters: Hana Lee (College of Nursing, Daegu Catholic University, Republic of Korea)
@@ -117,7 +121,7 @@ workshops_apac:
     Title: "Simple tricks to improve your 'ggplot2' data visualisations"
 ---
 
-R/Pharma is thrilled to bring 25 workshops across Europe/US and Asia Pacific timezones.  Workshops will run between September 28th and October 1st.  Registration is via the R/Pharma [registration page](https://events.zoom.us/ev/Ao58QRuKpY_AuvCDVGqF3tiibvbsLw6MKXn7n_PL2vPdHVQnSAuC~AulApVxluxkRoEef4TZ6ozp1uwmnBHGti8cDERG7p01yOGKH0KXFbLhUNw).
+R/Pharma is thrilled to bring 25 workshops and a Pharmaverse hackathon across Europe/US and Asia Pacific timezones.  Workshops will run between September 28th and October 1st.  Registration is via the R/Pharma [registration page](https://events.zoom.us/ev/Ao58QRuKpY_AuvCDVGqF3tiibvbsLw6MKXn7n_PL2vPdHVQnSAuC~AulApVxluxkRoEef4TZ6ozp1uwmnBHGti8cDERG7p01yOGKH0KXFbLhUNw).
 
 ::: {.hero-buttons}
 [R/Pharma 2026 Registration](https://events.zoom.us/ev/Ao58QRuKpY_AuvCDVGqF3tiibvbsLw6MKXn7n_PL2vPdHVQnSAuC~AulApVxluxkRoEef4TZ6ozp1uwmnBHGti8cDERG7p01yOGKH0KXFbLhUNw){.btn-action-success .btn-action .btn .btn-success .btn-lg role="button" target="_blank"}
