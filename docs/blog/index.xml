@@ -28,7 +28,7 @@
 
 
 
-<p>R/Pharma is thrilled to bring 25 workshops across Europe/US and Asia Pacific timezones. Workshops will run between September 28th and October 1st. Registration is via the R/Pharma <a href="https://events.zoom.us/ev/Ao58QRuKpY_AuvCDVGqF3tiibvbsLw6MKXn7n_PL2vPdHVQnSAuC~AulApVxluxkRoEef4TZ6ozp1uwmnBHGti8cDERG7p01yOGKH0KXFbLhUNw">registration page</a>.</p>
+<p>R/Pharma is thrilled to bring 25 workshops and a Pharmaverse hackathon across Europe/US and Asia Pacific timezones. Workshops will run between September 28th and October 1st. Registration is via the R/Pharma <a href="https://events.zoom.us/ev/Ao58QRuKpY_AuvCDVGqF3tiibvbsLw6MKXn7n_PL2vPdHVQnSAuC~AulApVxluxkRoEef4TZ6ozp1uwmnBHGti8cDERG7p01yOGKH0KXFbLhUNw">registration page</a>.</p>
 <div class="hero-buttons">
 <p><a href="https://events.zoom.us/ev/Ao58QRuKpY_AuvCDVGqF3tiibvbsLw6MKXn7n_PL2vPdHVQnSAuC~AulApVxluxkRoEef4TZ6ozp1uwmnBHGti8cDERG7p01yOGKH0KXFbLhUNw" class="btn-action-success btn-action btn btn-success btn-lg" target="_blank">R/Pharma 2026 Registration</a></p>
 </div>
@@ -103,54 +103,60 @@
 <td style="text-align: left;">Getting Started with R Clinical Programming</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">2026-09-30 8:30AM</td>
+<td style="text-align: left;">1.5 hr hr</td>
+<td style="text-align: left;">Daniel Sabanés Bové (RPACT)</td>
+<td style="text-align: left;">crmPack - dose escalation trials made easy and flexible</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">2026-09-30 9:00AM</td>
 <td style="text-align: left;">4 hr</td>
 <td style="text-align: left;">Matt Fidler (Novartis), Anne Keuneke (LAP&amp;P), Mutaz M. Jaber (Gilead), Justin Wilkins (Occams)</td>
 <td style="text-align: left;">Pharmacometric modeling and simulation with nlmixr2 and rxode2</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">2026-09-30 1:00PM</td>
 <td style="text-align: left;">3 hr</td>
 <td style="text-align: left;">Kevin Lee (Clinvia)</td>
 <td style="text-align: left;">Building SKILLs for AI Agents</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">2026-10-01 8:00AM</td>
 <td style="text-align: left;">3 hr</td>
 <td style="text-align: left;">Marcin Dubel (Appsilon)</td>
 <td style="text-align: left;">Mediforce: Step-by-step Automation For Pharma Workflows</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">2026-10-01 9:00AM</td>
 <td style="text-align: left;">3 hr</td>
 <td style="text-align: left;">Jeff Dickinson (Navitas Data Sciences), Eric Zhang (Eikon Therapeutics)</td>
 <td style="text-align: left;">Pharma Skills Workshop: Hands-On AI Skills for Clinical Programming and Biostatistics</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">2026-10-01 9:30AM</td>
 <td style="text-align: left;">2.5 hr</td>
 <td style="text-align: left;">Daniel Lee (Bayesian Ops)</td>
 <td style="text-align: left;">Bayesian Modeling in Practice: A Hands-On Introduction with Stan</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">2026-10-01 10:00AM</td>
 <td style="text-align: left;">3 hr</td>
 <td style="text-align: left;">Sam Hume (CDISC)</td>
 <td style="text-align: left;">Creating Define-XML Solutions Using Python and odmlib</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">2026-10-01 11:00AM</td>
 <td style="text-align: left;">3 hr</td>
 <td style="text-align: left;">Bruno Rodrigues (Ministry of Research and Higher Education in Luxembourg)</td>
 <td style="text-align: left;">A Practical Introduction to Reproducible R with Nix &amp; rix</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">2026-10-01 12:00AM</td>
 <td style="text-align: left;">2 hr</td>
 <td style="text-align: left;">Arryn Panagos (Eli Lilly)</td>
 <td style="text-align: left;">What Happens When You Stop Telling AI to "Be More Careful" and Start Constraining What It Can See</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">2026-10-01 1:00PM</td>
 <td style="text-align: left;">2 hr</td>
 <td style="text-align: left;">Yi Guo (Pfizer)</td>
@@ -204,7 +210,7 @@
 <td style="text-align: left;">2026-10-01 9:30AM</td>
 <td style="text-align: left;">2 hr</td>
 <td style="text-align: left;">Rammprasad Ganapathy (Genentech)</td>
-<td style="text-align: left;">Hands-On Patient Profile Visualization</td>
+<td style="text-align: left;">Programming SDTM using {sdtm.oak}</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">2026-10-01 10:30AM</td>
