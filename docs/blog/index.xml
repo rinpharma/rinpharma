@@ -17,7 +17,278 @@
 <width>144</width>
 </image>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Fri, 26 Jun 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 11 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>R/Pharma Workshops</title>
+  <dc:creator>R/Pharma </dc:creator>
+  <link>https://rinpharma.com/docs/blog/posts/2026-09-11-workshops/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>R/Pharma is thrilled to bring 25 workshops across Europe/US and Asia Pacific timezones. Workshops will run between September 28th and October 1st. Registration is via the R/Pharma <a href="https://events.zoom.us/ev/Ao58QRuKpY_AuvCDVGqF3tiibvbsLw6MKXn7n_PL2vPdHVQnSAuC~AulApVxluxkRoEef4TZ6ozp1uwmnBHGti8cDERG7p01yOGKH0KXFbLhUNw">registration page</a>.</p>
+<div class="hero-buttons">
+<p><a href="https://events.zoom.us/ev/Ao58QRuKpY_AuvCDVGqF3tiibvbsLw6MKXn7n_PL2vPdHVQnSAuC~AulApVxluxkRoEef4TZ6ozp1uwmnBHGti8cDERG7p01yOGKH0KXFbLhUNw" class="btn-action-success btn-action btn btn-success btn-lg" target="_blank">R/Pharma 2026 Registration</a></p>
+</div>
+<p>A huge thank you to all the workshop presenters who are giving their time to put together and teach such amazing content! Be sure to register to attend.</p>
+<section id="workshops-in-useurope" class="level2">
+<h2 class="anchored" data-anchor-id="workshops-in-useurope">Workshops in US/Europe</h2>
+<p>All workshop times in <strong>EDT</strong>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Date</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Length</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Presenters</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Title</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2026-09-28 9:00AM</td>
+<td style="text-align: left;">2 hr</td>
+<td style="text-align: left;">Isabella Velásquez (Posit), Yilong Chang (Meta), Michael Chow (Posit)</td>
+<td style="text-align: left;">Python &amp; Positron for Clinical Study Reports and Submissions</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-09-28 9:00AM</td>
+<td style="text-align: left;">2 hr</td>
+<td style="text-align: left;">Jagadish Katam (Princeps Technologies)</td>
+<td style="text-align: left;">{gtsummary} for Clinical Programmers: Demographics, Adverse Events, and Lab Summaries</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-09-28 10:00AM</td>
+<td style="text-align: left;">2 hr</td>
+<td style="text-align: left;">Max Kuhn (Posit)</td>
+<td style="text-align: left;">Deep Learning and Foundational Models for Tabular Data in R</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-09-28 1:00PM</td>
+<td style="text-align: left;">3 hr</td>
+<td style="text-align: left;">Michelle Harwood (AstraZeneca)</td>
+<td style="text-align: left;">Visualizing Clinical Data: From Publication-Quality Figures to Interactive Shiny Dashboards</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-09-28 1:00PM</td>
+<td style="text-align: left;">3 hr</td>
+<td style="text-align: left;">Garrett Grolemund (Posit)</td>
+<td style="text-align: left;">Human-in-the-Loop AI: Using Posit Assistant in Positron to Accelerate Analysis Without Sacrificing Control</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-09-28 2:00PM</td>
+<td style="text-align: left;">2 hr</td>
+<td style="text-align: left;">Daniel Sjoberg (Kardigan), Shannon Pileggi (PCCTC)</td>
+<td style="text-align: left;">Enterprise {gtsummary}: Themes, ARDs, and Custom Extensions for Pharma</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-09-29 8:00AM</td>
+<td style="text-align: left;">4 hr</td>
+<td style="text-align: left;">Adrian Waddell (Posit)</td>
+<td style="text-align: left;">Administering R: Installations, Libraries, and Package Management</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-09-29 10:00AM</td>
+<td style="text-align: left;">2 hr</td>
+<td style="text-align: left;">Rich Iannone (Posit)</td>
+<td style="text-align: left;">The pointblank for R workshop: everything you need to know to validate data effectively</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-09-29 12:00PM</td>
+<td style="text-align: left;">4 hr</td>
+<td style="text-align: left;">Brian Varney (Experis)</td>
+<td style="text-align: left;">Getting Started with R Clinical Programming</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-09-30 9:00AM</td>
+<td style="text-align: left;">4 hr</td>
+<td style="text-align: left;">Matt Fidler (Novartis), Anne Keuneke (LAP&amp;P), Mutaz M. Jaber (Gilead), Justin Wilkins (Occams)</td>
+<td style="text-align: left;">Pharmacometric modeling and simulation with nlmixr2 and rxode2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-09-30 1:00PM</td>
+<td style="text-align: left;">3 hr</td>
+<td style="text-align: left;">Kevin Lee (Clinvia)</td>
+<td style="text-align: left;">Building SKILLs for AI Agents</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-10-01 8:00AM</td>
+<td style="text-align: left;">3 hr</td>
+<td style="text-align: left;">Marcin Dubel (Appsilon)</td>
+<td style="text-align: left;">Mediforce: Step-by-step Automation For Pharma Workflows</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-10-01 9:00AM</td>
+<td style="text-align: left;">3 hr</td>
+<td style="text-align: left;">Jeff Dickinson (Navitas Data Sciences), Eric Zhang (Eikon Therapeutics)</td>
+<td style="text-align: left;">Pharma Skills Workshop: Hands-On AI Skills for Clinical Programming and Biostatistics</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-10-01 9:30AM</td>
+<td style="text-align: left;">2.5 hr</td>
+<td style="text-align: left;">Daniel Lee (Bayesian Ops)</td>
+<td style="text-align: left;">Bayesian Modeling in Practice: A Hands-On Introduction with Stan</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-10-01 10:00AM</td>
+<td style="text-align: left;">3 hr</td>
+<td style="text-align: left;">Sam Hume (CDISC)</td>
+<td style="text-align: left;">Creating Define-XML Solutions Using Python and odmlib</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-10-01 11:00AM</td>
+<td style="text-align: left;">3 hr</td>
+<td style="text-align: left;">Bruno Rodrigues (Ministry of Research and Higher Education in Luxembourg)</td>
+<td style="text-align: left;">A Practical Introduction to Reproducible R with Nix &amp; rix</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-10-01 12:00AM</td>
+<td style="text-align: left;">2 hr</td>
+<td style="text-align: left;">Arryn Panagos (Eli Lilly)</td>
+<td style="text-align: left;">What Happens When You Stop Telling AI to "Be More Careful" and Start Constraining What It Can See</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-10-01 1:00PM</td>
+<td style="text-align: left;">2 hr</td>
+<td style="text-align: left;">Yi Guo (Pfizer)</td>
+<td style="text-align: left;">From Idea to Shiny App: Building Practical Visual QC Tools in R</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="workshops-in-asia-pacific" class="level2">
+<h2 class="anchored" data-anchor-id="workshops-in-asia-pacific">Workshops in Asia Pacific</h2>
+<p>All workshop times in <strong>IST</strong>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Date</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Length</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Presenters</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Title</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2026-09-28 10:30AM</td>
+<td style="text-align: left;">1 hr</td>
+<td style="text-align: left;">Joe Zhu (Roche)</td>
+<td style="text-align: left;">Mastering Clinical Slide Automation with autoslider: From Custom Templates to AI-Powered Generation with Claude</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-09-28 12:00PM</td>
+<td style="text-align: left;">2 hr</td>
+<td style="text-align: left;">Joe Zhu (Roche)</td>
+<td style="text-align: left;"><strong>HACKATHON:</strong> autoslider.core Hackathon: Advancing Open-Source Clinical Slide Automation</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-09-28 12:30PM</td>
+<td style="text-align: left;">1 hr</td>
+<td style="text-align: left;">Edward Gillian (Cytel)</td>
+<td style="text-align: left;">risk.assessr workshop</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-10-01 7:30AM</td>
+<td style="text-align: left;">2 hr</td>
+<td style="text-align: left;">Kuenhung Lin (IQVIA)</td>
+<td style="text-align: left;">Hands-On Patient Profile Visualization</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-10-01 9:30AM</td>
+<td style="text-align: left;">2 hr</td>
+<td style="text-align: left;">Rammprasad Ganapathy (Genentech)</td>
+<td style="text-align: left;">Hands-On Patient Profile Visualization</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-10-01 10:30AM</td>
+<td style="text-align: left;">45 mins</td>
+<td style="text-align: left;">Hana Lee (College of Nursing, Daegu Catholic University, Republic of Korea)</td>
+<td style="text-align: left;">From YouTube Comments to Insights: Applying Natural Language Processing to Real-World Text Data</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-10-01 12:30PM</td>
+<td style="text-align: left;">2 hr</td>
+<td style="text-align: left;">Nicola Rennie (Office for National Statistics)</td>
+<td style="text-align: left;">Simple tricks to improve your 'ggplot2' data visualisations</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<style>
+  table {
+    max-width: 900px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+    border: 1px solid #dfeaf5;
+    border-radius: 14px;
+    box-shadow: 0 14px 30px rgba(57, 114, 158, 0.08);
+  }
+
+  thead th {
+    background: linear-gradient(135deg, #dfeaf5, #cfe0ee);
+    color: #1f3b4d;
+    font-weight: 700;
+    padding: 0.9rem 0.8rem;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #bfd1e3;
+  }
+
+  tbody td {
+    padding: 0.8rem 0.8rem;
+    border-bottom: 1px solid #edf3f9;
+    vertical-align: top;
+  }
+
+  tbody tr:nth-child(odd) {
+    background: rgba(68, 112, 153, 0.04);
+  }
+
+  tbody tr:nth-child(even) {
+    background: rgba(132, 175, 203, 0.08);
+  }
+
+  tbody tr:hover {
+    background: rgba(68, 112, 153, 0.12);
+  }
+
+  .btn-action-success,
+  .btn-action {
+    background: linear-gradient(135deg, #447099, #7ca8c8) !important;
+    border: none !important;
+    box-shadow: 0 10px 18px rgba(68, 112, 153, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .btn-action-success:hover,
+  .btn-action:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 12px 24px rgba(68, 112, 153, 0.28);
+  }
+</style>
+
+
+</section>
+
+ ]]></description>
+  <category>conference</category>
+  <category>APAC</category>
+  <category>asia-pacific</category>
+  <category>workshops</category>
+  <guid>https://rinpharma.com/docs/blog/posts/2026-09-11-workshops/</guid>
+  <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2026-09-11-workshops/markus-winkler-_a97xDX9eZg-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>R/Pharma GenAI Day Recordings</title>
   <dc:creator>R/Pharma </dc:creator>
