@@ -16,7 +16,7 @@ image-alt: "genAI Image"
 workshops_us:
   - Date: "2026-09-28 9:00AM"
     Length: 2 hr
-    Presenters: Isabella Velásquez (Posit), Yilong Chang (Meta), Michael Chow (Posit)
+    Presenters: Isabella Velásquez (Posit), Yilong Zhang (Meta), Michael Chow (Posit)
     Title: Python & Positron for Clinical Study Reports and Submissions
   - Date: "2026-09-28 9:00AM"
     Length: 2 hr
