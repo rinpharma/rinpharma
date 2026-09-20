@@ -1,0 +1,37 @@
+---
+title: Reproducible Environments (2026)
+description: |
+  Environment and package management for regulatory submissions - locked-down vs. open environments, cross-OS reproducibility, and tooling like renv, rv, and uv
+categories:
+  - 2026
+  - SCE
+date: 2026-09-13
+image-alt: ""
+---
+
+# Reproducible Environments
+
+See also: [2023 Discussion](/docs/summit/posts/2023-sce.html), [2024 Discussion](/docs/summit/posts/2024-sce.html), [2025 Discussion](/docs/summit/posts/2025-sce.html)
+
+## The Submission Reproducibility Challenge
+* **The "Recipe" We Ship**: For submissions, sponsors must record the environment - R version, package versions, proprietary packages - so regulators can attempt to reproduce results
+* **OS Mismatch**: Sponsors typically develop on Linux (often containerized), while regulators run Windows - the recipe must be detailed enough to bridge that gap and get regulators as close as possible to the original environment
+* **How Far Do We Go?**: How much testing is required before shipping is dominating discussions
+
+## Locked-Down vs. Open Environments
+* **Both Are Needed**: Organizations need a spectrum of options for different use cases, not a single environment strategy
+* **Locked-Down Advantages**: Reproducibility is baked in - grab the container, revisit later, and it just works
+* **Open Environment Challenges**: Reproducibility problems happen when users hit package/environment management issues for the first time and only learn about them *after* something breaks
+* **Managing Both**: Strategies exist for managing open environments, but there are still real bumps
+
+## Tooling: renv, rv, uv
+* **Learning Curve**: renv, rv, uv and similar tools require users to understand *why* they exist and what they're doing behind the scenes - a tall order for the average user
+* **Feedback to Vendors**: A direct request to the community from Posit - when renv (or similar) doesn't work, file it. Capture what you were trying to do, include log files, and send a GitHub issue (or reach out via your rep if it must be private). Without that context, the problems are hard to fix
+
+## Base Starting Point
+* **Every Project a Snowflake?**: If every project starts from base R and layers on renv/rv from scratch, you're rebuilding from square one each time
+* **A Common Core**: Better model - agree on a shared core set of packages/elements consistent across projects, then layer only the project-specific extras on top
+* **Reduces Variability**: A common baseline keeps the surface area small and makes environments more predictable across teams
+
+## Overall Takeaway
+Reproducible environments for submissions require sponsors to think in terms of "recipes" that survive an OS change on the regulator's end. Organizations need both locked-down and open environments, education on the tooling powering them, and a common core to avoid every project being bespoke.

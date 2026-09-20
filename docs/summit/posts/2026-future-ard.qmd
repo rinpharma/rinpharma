@@ -1,0 +1,34 @@
+---
+title: Future of ARD/ARS (2026)
+description: |
+  The value proposition of Analysis Results Standards for sponsors and regulators, and the case for a lighter-weight ARD
+categories:
+  - 2026
+  - ARD
+date: 2026-09-13
+image-alt: ""
+---
+
+# Future of ARD/ARS
+
+## Value Proposition for Sponsors
+* **Strong But Hard to Implement**: The value proposition for sponsors adopting ARS (including Analysis Result Datasets) is much stronger than for regulators - but implementation remains a real challenge
+* **Efficiency of TFL Generation**: Standard analysis result datasets let sponsors generate TFLs efficiently from a shared intermediate form
+* **Powerful Downstream Uses**: When ARDs are curated well (especially cross-study, cross-indication), snapping a dashboard or a query chat on top can be very powerful
+* **Metadata Curation is the Bottleneck**: Doing this well requires deep metadata-curation expertise that many staff programmers do not have
+
+## Value Proposition for Regulators is Nebulous
+* **FDA Isn't Asking**: Companies that have given ARDs to the FDA report that reviewers *can* generate different TFLs from them, but there's no clear signal that FDA needs or wants this
+* **"Nice, But For Them"**: Reviewers often just want a static copy - the extra flexibility isn't being requested
+* **Uncertain ROI on the Regulator Side**: Without demand, sponsors have less incentive to solve the hard implementation problems purely for regulator benefit
+
+## Complexity of the Standard
+* **Convoluted UML**: The ARS specification, as originally proposed, is a very complex UML diagram - even people familiar with ontologies find it hard to parse
+* **Barrier to Effective Use**: Understanding and effectively using ARS as currently specified is a real barrier to adoption
+
+## The Case for a "Light" ARS
+* **Agent-Friendly Metadata**: With the rise of AI agents, using an ARD with a smaller, lighter metadata layer as agent context can go a long way
+* **Open Question**: Is a lighter version of ARDs - one that agents can use effectively - enough for most purposes? That was the core discussion point
+
+## Overall Takeaway
+Three main messages: the sponsor value proposition for ARS is strong but implementation is hard; the regulator value proposition is unclear because regulators aren't asking for it; and the future of ARS may well be a "light" version that trades full specification complexity for something agents (and humans) can actually use.

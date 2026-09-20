@@ -1,0 +1,47 @@
+---
+title: AI in Practice (2026)
+description: |
+  AI Operations - practical use, upskilling, cost, and integrating AI with deterministic workflows
+categories:
+  - 2026
+  - AI
+date: 2026-09-13
+image-alt: ""
+---
+
+# AI in Practice
+
+See also: [2023 Discussion](/docs/summit/posts/2023-ai.html), [2024 Discussion](/docs/summit/posts/2024-ai.html), [2025 Discussion](/docs/summit/posts/2025-ai.html)
+
+## Deterministic vs. Probabilistic AI
+* **Right Tool for the Job**: Use deterministic approaches when reproducibility is required (e.g., dashboards with clearly defined requirements); use probabilistic AI when the task involves exploration, ambiguity, or natural language interaction
+* **Hybrid Patterns**: Structured dashboards combined with a chatbot layer let reviewers query data conventionally and then ask follow-up questions in natural language
+* **Skill Gap Risk**: Some teams jump directly to probabilistic AI because they lack the skill to build a deterministic workflow - the resulting "zero to 100%" systems can be unreliable and hard to maintain
+* **Best of Both Worlds**: Use AI to help build deterministic workflows - leverage its broad knowledge to generate efficient, reproducible pipelines rather than replacing them
+* **Set Inputs, Set Outputs**: If a task has predictable inputs and outputs, write a function - don't have AI redo it every time. AI can help write the function itself
+
+## Cost and Benchmarking
+* **Wild West Pricing**: Usage limits, per-user quotas, and pricing structures vary widely and depend heavily on organizational contracts with providers
+* **Limited Visibility**: Most users have little insight into what their AI usage actually costs the organization; a few teams see costs directly in the IDE
+* **Local Models Not Automatically Cheaper**: Small or locally-run models can be slower, harder to operate, or require significant engineering effort - total cost may exceed hosted options
+* **Vendor Economics**: AI companies are currently burning money to acquire users - bringing models in-house means taking on those costs directly
+* **Benchmarking Immature**: Formal benchmarking of AI skills is uncommon today; participants noted it often doesn't feel worth the effort while everyone is still learning
+* **Cost Awareness When Embedding**: When AI is embedded in a tool you ship, cost matters much more - use the smallest model that will do the job
+
+## IDE Setup and Upskilling Paths
+* **Three Distinct Paths**: Distinguish between exploration, development, and controlled/GXP processes - cool experimentation doesn't need to happen in a GXP environment
+* **Reliable Code ≠ Reliable System**: AI makes code generation easier, but engineering a reliable end-to-end system is a separate discipline
+* **Regulatory Reality**: Artifacts are submitted to regulators, not AI products - artifacts must meet standards for quality and traceability regardless of how they were generated
+
+## Human Oversight and Workflow
+* **Human Always in the Loop**: There is very little fully AI-driven automation happening in practice - a human is required somewhere in the workflow
+* **Context Hygiene**: Basic training on how conversation context works is valuable - start a new conversation for a new task rather than piling everything into one thread that keeps growing
+* **Shared Skills Libraries**: AI "skills" can be very helpful; the pharmaverse/consortium skills library was flagged as a resource worth learning about
+* **Training on Skill Authoring**: Learning how to build better skills is an emerging and useful area of training
+
+## Future Direction
+* **Mixing AI and Deterministic Code**: More interest in teaching AI to call vetted deterministic code, and in writing functions that themselves call AI where appropriate - a topic expected to grow significantly next year
+* **Code Reuse Problem**: Too much code is being rewritten from scratch by AI when it could be copied and pasted from prior analyses - a discovery/reuse problem the community will need to solve
+
+## Overall Takeaway
+AI does not need to be used everywhere - the goal is thoughtful use where it adds value, with cost control and strong engineering and human review wrapped around it.

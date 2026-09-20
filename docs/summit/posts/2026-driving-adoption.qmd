@@ -1,0 +1,43 @@
+---
+title: Driving Adoption (2026)
+description: |
+  Getting people on board with open source - training, tooling, deployment, and change management from SAS to R and beyond
+categories:
+  - 2026
+  - Change management
+date: 2026-09-13
+image-alt: ""
+---
+
+# Driving Adoption
+
+See also: [2023 Discussion](/docs/summit/posts/2023-change-mgt.html), [2024 Discussion](/docs/summit/posts/2024-change-mgt.html), [2025 Discussion](/docs/summit/posts/2025-change-mgt.html)
+
+## Training and Tier-One Support
+* **Non-Judgmental Culture**: A programmer with decades of SAS experience may not want to ask how to do a pivot table in R - fear of "looking like a newbie" is a real barrier
+* **Workshops and Side-by-Side Tooling**: Using Positron with the VS Code SAS extension lets teams work in both languages side by side
+* **AI as a Learning Buddy**: Encouraging users to ask AI to teach them R (and translate their SAS code) helps overcome the fear of asking colleagues
+
+## Deployment and Environment
+* **Cost Shifts, It Doesn't Disappear**: Moving from SAS licenses to open source isn't automatic savings - the spend just moves to infrastructure and platform work
+* **Frictionless End-User Experience**: Users want to open a tool, do their work, and not fight with environments that fail to load or packages that aren't available
+* **DevOps Skills Bundled In**: People comfortable with open source tend to arrive with Git, package management, and Unix skills - a bonus beyond just R proficiency
+
+## Business Drivers
+* **Talent Acquisition**: Finding people who want to work in SAS is getting harder - a major driver for the shift to open source
+* **The COBOL Analogy**: Long-tenured SAS programmers near end of career have little incentive to change - they may become the highly-paid, scarce specialists of the future
+* **Time to Learn**: Programmers are too busy day-to-day to learn on their own - enterprises must invest the time and create dedicated learning environments; PositConf talks over the years have highlighted this
+* **Not a Quick Fix**: Change takes time; people must be given time - this cannot be rushed
+
+## AI's Role in Adoption
+* **Best for Intermediate → Advanced**: AI is very helpful for programmers moving from beginner/intermediate to advanced R, less so for going from nothing to R
+* **SAS → R Translation**: A powerful onboarding technique is taking SAS code, asking AI to write the equivalent in R, and having it explain what it did
+* **Learning Too Fast?**: Concern that going straight from idea to outcome via AI skips the fundamentals - people may not learn what's happening in the middle
+
+## Change Fatigue is Broader Than SAS → R
+* **"You Won Me Over When I Saw a Shiny App"**: But now the same people are told to learn R, environments, packages, and everything else - the surrounding ecosystem is a stumbling block for people coming from a highly-structured SAS environment
+* **RStudio → Positron**: Migration currently in progress at many organizations - painful for people who worked in RStudio their entire careers
+* **Quarto and Beyond**: Other tooling changes (like Quarto) add to the cumulative change load
+
+## Overall Takeaway
+Adoption is fundamentally a people problem. Provide non-judgmental support, give people time, use AI as a translation and tutoring aid, and remember that "change management" is now a continuous state - it's not just about SAS to R, but a stack of overlapping tooling transitions.
