@@ -57,7 +57,7 @@ Each year we host a face-to-face summit as posit::conf, bringing thought leaders
 
 ### {{< fa users >}} 2026 F2F Roundtables in Houston (United States)
 
-100+ leaders met F2F in Houston (September 13th) for a series of
+90+ leaders met F2F in Houston (September 13th) for a series of
 discussions on the most pressing topics for use of AI, environment reproducibility, use of open source in regulatory submissions, and more. 
 
 The discussion was crowdsourced via a github discussion, and led to the 
