@@ -1,0 +1,46 @@
+---
+title: Open Source Submissions (2026)
+description: |
+  Regulatory discussion on SAS vs. R usage, communication with reviewers, and the role of AI in submission workflows
+categories:
+  - 2026
+  - OS
+  - Regulatory
+date: 2026-09-13
+image-alt: ""
+---
+
+# Open Source Submissions
+
+## SAS vs. R in Practice
+* **Stickiness of Existing Tools**: People already using R want to keep using R; people already using SAS often stay in SAS - the challenge is not about closing a technical gap
+* **Closing the Gap Isn't Enough**: Even if the SAS/R capability gap disappeared, the adoption problem wouldn't - users stay with what they know
+* **Focus on Making It Easier**: The productive question is how to reduce friction for those who *do* want to move, not how to force parity
+
+## Risk of Not Adopting Open Source
+* **Should Be Acknowledged**: There is real risk in *not* adopting R/open source (talent, tooling, innovation pace), and this should be part of the conversation
+* **But Adoption Still Isn't Easy**: Acknowledging the risk doesn't magically make the transition simple
+
+## Communicating with Reviewers
+* **Successful Submission Playbook**: Let your reviewers know what you're doing - the community has been sharing talking points and blog posts on how to run a successful submission
+* **"Make Them Follow the Instructions"**: If someone in your organization isn't familiar with R, have them run through the submission instructions themselves - that shakes out issues before the FDA sees them
+* **Denali Example**: Companies (e.g., Denali) that have submitted successfully communicated *ahead* to FDA about what they were doing and how - making the submission itself seamless
+* **Community Effort Beyond Code**: The community could contribute more by sharing what worked in reviewer communications - which instructions were sent, what feedback came back, what patterns generalize
+
+## FDA is Agnostic to Software
+* **Consensus**: We're "almost there" on adaptability - many of the remaining barriers are our own habits, not FDA requirements
+* **FDA Has Been Clear**: They are agnostic to the software used, as long as the submission is well-communicated and reproducible
+
+## Environments and Reproducibility
+* **renv Frustrations**: Several participants shared ongoing struggles with renv - echoing the environments session, the guidance was to talk to Posit with concrete failure information
+* **A Manifest-Style Idea**: Could something like the Shiny Server manifest (a declarative statement of packages and versions the server needs) evolve into an "IQ 2.0" style artifact for submissions? Floated as an idea worth exploring
+
+## AI in Submission Workflows
+* **AI for Finalization and Development**: General agreement that AI is useful for finalizing artifacts and as a coding assistant during development
+* **No Full Agentic AI**: Participants were *not* comfortable with fully agentic AI where no human is involved
+* **You Own the Code**: You own the code and are responsible for the output - it doesn't matter whether AI helped write it
+* **QC Still Required**: R code must still be QC'd whether it was AI-augmented or not
+* **Guardrails**: Guardrails were flagged as an important companion topic, echoing themes from the AI Trust and Governance session
+
+## Overall Takeaway
+Regulators are ready for open-source submissions - what's left is largely our own habits, our communication with reviewers, and reliable tooling for reproducible environments. AI can accelerate development and finalization, but code ownership and QC responsibilities do not change.

@@ -30,7 +30,10 @@ Each year we host a face-to-face summit as posit::conf, bringing thought leaders
 
 <ul class="nav nav-pills" id="hello-quarto-tab" role="tablist">
   <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="summit-2025-tab" data-bs-toggle="tab" data-bs-target="#summit-2025" type="button" role="tab" aria-controls="summit-2025" aria-selected="true">2025 Summit</button>
+    <button class="nav-link active" id="summit-2026-us-tab" data-bs-toggle="tab" data-bs-target="#summit-2026-us" type="button" role="tab" aria-controls="summit-2026-us" aria-selected="true">2026 Summit (US)</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="summit-2025-tab" data-bs-toggle="tab" data-bs-target="#summit-2025" type="button" role="tab" aria-controls="summit-2025" aria-selected="true">2025 Summit</button>
   </li>
   <li class="nav-item" role="presentation">
     <button class="nav-link" id="summit-2024-tab" data-bs-toggle="tab" data-bs-target="#summit-2024" type="button" role="tab" aria-controls="summit-2024" aria-selected="true">2024 Summit</button>
@@ -47,7 +50,32 @@ Each year we host a face-to-face summit as posit::conf, bringing thought leaders
 
 <div class="tab-content" id="hello-quarto-tabcontent">
 
-<div class="tab-pane fade  show active" id="summit-2025" role="tabpanel" aria-labelledby="summit-2025-tab">
+<div class="tab-pane fade show active" id="summit-2026-us" role="tabpanel" aria-labelledby="summit-2026-tab-us">
+
+::: {.grid}
+::: {.g-col-lg-12 .g-col-12}
+
+### {{< fa users >}} 2026 F2F Roundtables in Houston (United States)
+
+100+ leaders met F2F in Houston (September 13th) for a series of
+discussions on the most pressing topics for use of AI, environment reproducibility, use of open source in regulatory submissions, and more. 
+
+The discussion was crowdsourced via a github discussion, and led to the 
+following topics:
+
+- [Trust, Safeguards & Governance for Agentic AI](/docs/summit/posts/2026-ai-trust-governance.html)
+- [AI in Practice: Automation, Cost & Skills](/docs/summit/posts/2026-ai-practice.html)
+- [Reproducible Environments & Package Provisioning](/docs/summit/posts/2026-env-packages.html)
+- [Open Source in Regulatory Submissions & Validation](/docs/summit/posts/2026-open-source-submissions.html)
+- [The Future of Analysis Results Standards (ARD/ARS)](/docs/summit/posts/2026-future-ard.html)
+- [Driving Adoption Beyond the Early Adopters](/docs/summit/posts/2026-driving-adoption.html)
+
+:::
+:::
+
+</div>
+
+<div class="tab-pane fade" id="summit-2025" role="tabpanel" aria-labelledby="summit-2025-tab">
 
 ::: {.grid}
 ::: {.g-col-lg-12 .g-col-12}

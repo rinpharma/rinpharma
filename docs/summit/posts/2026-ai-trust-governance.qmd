@@ -1,0 +1,83 @@
+---
+title: AI Trust and Governance (2026)
+description: |
+  Governance, validation, accountability, and human oversight for AI in regulated pharma environments
+categories:
+  - 2026
+  - AI
+date: 2026-09-13
+image-alt: ""
+---
+
+# AI Trust and Governance
+
+See also: [2023 Discussion](/docs/summit/posts/2023-ai.html), [2024 Discussion](/docs/summit/posts/2024-ai.html), [2025 Discussion](/docs/summit/posts/2025-ai.html)
+
+## Governance in Regulated vs. Non-Regulated Environments
+* **No Real Difference**: Consensus was that governance expectations should not fundamentally differ between regulated and non-regulated environments
+* **Documentation Lag**: Documented procedures supporting GXP platforms inevitably lag behind rapid technological advances
+* **Internal Approvals Required**: Deploying AI (e.g., Claude Code) inside an SCE requires internal governance approval covering intended use and safeguards
+* **Extending Existing Processes**: Many organizations are keeping their existing QC processes and simply adding AI as a drafting/development accelerator rather than reinventing controls
+
+## Over-Reliance and Hallucination
+* **Skipping Human Review is Dangerous**: Real-world example - a 400-page compliance questionnaire fed to Copilot returned ~40-50% compliance but was largely hallucinated, pulling irrelevant architecture documents from OneDrive
+* **LLMs Fabricate in Ways Humans Don't**: This must be explicitly recognized in validation and review procedures
+* **Mitigations**:
+  - Require AI systems to document references and sources during code generation to support traceability
+  - Use benchmarking, multiple AI tools, adversarial validation, and metadata analysis (e.g., RoboRev)
+  - Create an MCP registry for tools and prompts to provide auditability, safeguards, and compliance evidence
+
+## Human Oversight and Accountability
+* **Human in the Loop is Non-Negotiable**: But it comes with a real problem - "human in the loop" can degenerate into a person miserably reviewing 100% of AI-generated code, which is a job people do poorly
+* **Volume Problem**: AI generates code far faster than humans can review it - if you review every line, you spend more resources than writing it from scratch
+* **Ownership**: Whoever runs the AI owns the code and is responsible for the output regardless of how it was written
+* **Business vs. IT Accountability**: 
+  - Business owns the outcome of their actions (e.g., excluding data they should have included)
+  - IT owns platform failures, model drift, and integration issues
+  - Clear separation prevents finger-pointing when things go wrong
+* **Cultural Reality**: Everyone wants responsibility and credit; few want accountability, especially when things go wrong
+
+## Deployment Patterns
+* **Code Generation, Not Production**: Current dominant pattern - AI used for drafting code inside GXP-adjacent environments, with normal QC/independent programming applied downstream
+* **Data Handling**: 
+  - Development done against blinded/de-identified data; production runs are a separate process
+  - Some organizations classify patient data as "secret" and only send metadata to LLMs, which return code and visuals without ever seeing the raw data
+  - LLM hosting configured with zero-retention policies
+* **Fit-for-Purpose Shiny Apps**: AI-driven Shiny apps where the AI updates inputs and the validated app produces outputs - keeps the statistician in control
+* **MCP Servers**: A focal point for guardrails - can connect Claude Desktop into a validated environment and tightly control which workflows are exposed
+
+## Observability and Telemetry
+* **Emerging Priority**: Organizations are dedicating significant 2027 budget to observability and telemetry of AI usage
+* **Platforms Being Evaluated**: Datadog and open-source alternatives being considered
+* **Why It Matters**: Without observability, you can't detect wasted token cycles, models drifting to unrelated content (like the OneDrive hallucination), or misuse
+* **"Fox in the Henhouse"**: Enthusiasm to deploy AI outpaced governance; observability is now being added retroactively
+
+## Intent for Use and Validation
+* **You Can't Validate a Black Box**: Frontier models are unvalidatable neurons - what you validate is the *use case* (intent for use / context of use), aligned with FDA and EMA guidance
+* **Scope the Validation Correctly**: A broad use case (e.g., "TFL generation") requires broad testing; a narrow use case (e.g., "trial design domains from a structured protocol") can be tested rigorously
+* **Not One-and-Done**: Because models drift, validation must include ongoing procedures to refresh, monitor, and control for drift and hallucination
+* **RCA Path**: When something goes wrong, be able to isolate whether the problem sits in business use, the platform, the LLM, or the integration points
+
+## The Modular Approach
+* **Software Engineering 101 Applied to AI**: Build smaller chunks - modules, packages, macros - with strict inputs, strict outputs, observability, and logging
+* **AI as Orchestrator, Not Author**: Let AI figure out fuzzy things (e.g., that "temperature" and "column_temp" are the same variable) and call vetted deterministic functions for the analytics
+* **Building Blocks / Lego Model**: Give users a bucket of pre-validated blocks that AI can assemble into pipelines the user needs - reproducible code that can be rerun and tested
+* **Trade-off Acknowledged**: Constraining AI with deterministic modules reduces some of AI's flexibility, but it's where trust actually comes from today
+
+## Where to Draw the Line
+* **AI is Good At**: Small functions, unit tests, data harmonization (edge-case column matching, whitespace, variant naming), refactoring legacy code (one participant refactored a 2-month Shiny effort in ~5 days)
+* **AI Should Not Do**: The mathematics itself. Ask it to write traceable code that performs a power calculation using named packages; don't ask it for the answer directly
+* **Competency Question**: A SAS programmer who can write plain-English comments, have AI produce R, and QC the output can still perform a valid QC - QC is about plausibility of results and a documented trail, not about who wrote the code
+* **Trust Follows Consistency**: Comfort with AI comes from repeatedly seeing correct outcomes; without domain knowledge to spot errors, users should remain uncomfortable relying on AI
+
+## Security
+* **Multi-Tenant Isolation**: When multiple organizations share an AI provider, how do we ensure data doesn't leak across tenants?
+* **Metadata-Only Patterns**: Sending only metadata (never raw patient data) to hosted LLMs is one practical safeguard
+
+## Tension: FDA Rejections and AI
+* **Silly Errors Predate AI**: Examples like hidden `.Rprofile` files causing rejections are basic issues that have nothing to do with AI - AI didn't cause them
+* **Cheap Linter/CI Wins**: Many recent FDA-flagged issues would have been caught by linting, GitHub Actions, or code-review bots long before submission
+* **Volume Amplifies Everything**: AI doesn't create new categories of error, but it makes review a bottleneck - a senior reviewer used to get one submission at a time and can now expect three a day
+
+## Overall Takeaway
+Trust in AI comes from validating narrow, well-defined use cases, wrapping AI in modular deterministic building blocks, keeping humans accountable at each step, and investing in observability. Human review is essential but must be designed as engaging, high-leverage work - not "read all the code all day".
