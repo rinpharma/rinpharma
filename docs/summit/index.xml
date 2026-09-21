@@ -17,7 +17,461 @@
 <width>144</width>
 </image>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Mon, 15 Sep 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 13 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Reproducible Environments (2026)</title>
+  <link>https://rinpharma.com/docs/summit/posts/2026-env-packages.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="reproducible-environments" class="level1">
+<h1>Reproducible Environments</h1>
+<p>See also: <a href="../../../docs/summit/posts/2023-sce.html">2023 Discussion</a>, <a href="../../../docs/summit/posts/2024-sce.html">2024 Discussion</a>, <a href="../../../docs/summit/posts/2025-sce.html">2025 Discussion</a></p>
+<section id="the-submission-reproducibility-challenge" class="level2">
+<h2 class="anchored" data-anchor-id="the-submission-reproducibility-challenge">The Submission Reproducibility Challenge</h2>
+<ul>
+<li><strong>The “Recipe” We Ship</strong>: For submissions, sponsors must record the environment - R version, package versions, proprietary packages - so regulators can attempt to reproduce results</li>
+<li><strong>OS Mismatch</strong>: Sponsors typically develop on Linux (often containerized), while regulators run Windows - the recipe must be detailed enough to bridge that gap and get regulators as close as possible to the original environment</li>
+<li><strong>How Far Do We Go?</strong>: How much testing is required before shipping is dominating discussions</li>
+</ul>
+</section>
+<section id="locked-down-vs.-open-environments" class="level2">
+<h2 class="anchored" data-anchor-id="locked-down-vs.-open-environments">Locked-Down vs.&nbsp;Open Environments</h2>
+<ul>
+<li><strong>Both Are Needed</strong>: Organizations need a spectrum of options for different use cases, not a single environment strategy</li>
+<li><strong>Locked-Down Advantages</strong>: Reproducibility is baked in - grab the container, revisit later, and it just works</li>
+<li><strong>Open Environment Challenges</strong>: Reproducibility problems happen when users hit package/environment management issues for the first time and only learn about them <em>after</em> something breaks</li>
+<li><strong>Managing Both</strong>: Strategies exist for managing open environments, but there are still real bumps</li>
+</ul>
+</section>
+<section id="tooling-renv-rv-uv" class="level2">
+<h2 class="anchored" data-anchor-id="tooling-renv-rv-uv">Tooling: renv, rv, uv</h2>
+<ul>
+<li><strong>Learning Curve</strong>: renv, rv, uv and similar tools require users to understand <em>why</em> they exist and what they’re doing behind the scenes - a tall order for the average user</li>
+<li><strong>Feedback to Vendors</strong>: A direct request to the community from Posit - when renv (or similar) doesn’t work, file it. Capture what you were trying to do, include log files, and send a GitHub issue (or reach out via your rep if it must be private). Without that context, the problems are hard to fix</li>
+</ul>
+</section>
+<section id="base-starting-point" class="level2">
+<h2 class="anchored" data-anchor-id="base-starting-point">Base Starting Point</h2>
+<ul>
+<li><strong>Every Project a Snowflake?</strong>: If every project starts from base R and layers on renv/rv from scratch, you’re rebuilding from square one each time</li>
+<li><strong>A Common Core</strong>: Better model - agree on a shared core set of packages/elements consistent across projects, then layer only the project-specific extras on top</li>
+<li><strong>Reduces Variability</strong>: A common baseline keeps the surface area small and makes environments more predictable across teams</li>
+</ul>
+</section>
+<section id="overall-takeaway" class="level2">
+<h2 class="anchored" data-anchor-id="overall-takeaway">Overall Takeaway</h2>
+<p>Reproducible environments for submissions require sponsors to think in terms of “recipes” that survive an OS change on the regulator’s end. Organizations need both locked-down and open environments, education on the tooling powering them, and a common core to avoid every project being bespoke.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2026</category>
+  <category>SCE</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2026-env-packages.html</guid>
+  <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Driving Adoption (2026)</title>
+  <link>https://rinpharma.com/docs/summit/posts/2026-driving-adoption.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="driving-adoption" class="level1">
+<h1>Driving Adoption</h1>
+<p>See also: <a href="../../../docs/summit/posts/2023-change-mgt.html">2023 Discussion</a>, <a href="../../../docs/summit/posts/2024-change-mgt.html">2024 Discussion</a>, <a href="../../../docs/summit/posts/2025-change-mgt.html">2025 Discussion</a></p>
+<section id="training-and-tier-one-support" class="level2">
+<h2 class="anchored" data-anchor-id="training-and-tier-one-support">Training and Tier-One Support</h2>
+<ul>
+<li><strong>Non-Judgmental Culture</strong>: A programmer with decades of SAS experience may not want to ask how to do a pivot table in R - fear of “looking like a newbie” is a real barrier</li>
+<li><strong>Workshops and Side-by-Side Tooling</strong>: Using Positron with the VS Code SAS extension lets teams work in both languages side by side</li>
+<li><strong>AI as a Learning Buddy</strong>: Encouraging users to ask AI to teach them R (and translate their SAS code) helps overcome the fear of asking colleagues</li>
+</ul>
+</section>
+<section id="deployment-and-environment" class="level2">
+<h2 class="anchored" data-anchor-id="deployment-and-environment">Deployment and Environment</h2>
+<ul>
+<li><strong>Cost Shifts, It Doesn’t Disappear</strong>: Moving from SAS licenses to open source isn’t automatic savings - the spend just moves to infrastructure and platform work</li>
+<li><strong>Frictionless End-User Experience</strong>: Users want to open a tool, do their work, and not fight with environments that fail to load or packages that aren’t available</li>
+<li><strong>DevOps Skills Bundled In</strong>: People comfortable with open source tend to arrive with Git, package management, and Unix skills - a bonus beyond just R proficiency</li>
+</ul>
+</section>
+<section id="business-drivers" class="level2">
+<h2 class="anchored" data-anchor-id="business-drivers">Business Drivers</h2>
+<ul>
+<li><strong>Talent Acquisition</strong>: Finding people who want to work in SAS is getting harder - a major driver for the shift to open source</li>
+<li><strong>The COBOL Analogy</strong>: Long-tenured SAS programmers near end of career have little incentive to change - they may become the highly-paid, scarce specialists of the future</li>
+<li><strong>Time to Learn</strong>: Programmers are too busy day-to-day to learn on their own - enterprises must invest the time and create dedicated learning environments; PositConf talks over the years have highlighted this</li>
+<li><strong>Not a Quick Fix</strong>: Change takes time; people must be given time - this cannot be rushed</li>
+</ul>
+</section>
+<section id="ais-role-in-adoption" class="level2">
+<h2 class="anchored" data-anchor-id="ais-role-in-adoption">AI’s Role in Adoption</h2>
+<ul>
+<li><strong>Best for Intermediate → Advanced</strong>: AI is very helpful for programmers moving from beginner/intermediate to advanced R, less so for going from nothing to R</li>
+<li><strong>SAS → R Translation</strong>: A powerful onboarding technique is taking SAS code, asking AI to write the equivalent in R, and having it explain what it did</li>
+<li><strong>Learning Too Fast?</strong>: Concern that going straight from idea to outcome via AI skips the fundamentals - people may not learn what’s happening in the middle</li>
+</ul>
+</section>
+<section id="change-fatigue-is-broader-than-sas-r" class="level2">
+<h2 class="anchored" data-anchor-id="change-fatigue-is-broader-than-sas-r">Change Fatigue is Broader Than SAS → R</h2>
+<ul>
+<li><strong>“You Won Me Over When I Saw a Shiny App”</strong>: But now the same people are told to learn R, environments, packages, and everything else - the surrounding ecosystem is a stumbling block for people coming from a highly-structured SAS environment</li>
+<li><strong>RStudio → Positron</strong>: Migration currently in progress at many organizations - painful for people who worked in RStudio their entire careers</li>
+<li><strong>Quarto and Beyond</strong>: Other tooling changes (like Quarto) add to the cumulative change load</li>
+</ul>
+</section>
+<section id="overall-takeaway" class="level2">
+<h2 class="anchored" data-anchor-id="overall-takeaway">Overall Takeaway</h2>
+<p>Adoption is fundamentally a people problem. Provide non-judgmental support, give people time, use AI as a translation and tutoring aid, and remember that “change management” is now a continuous state - it’s not just about SAS to R, but a stack of overlapping tooling transitions.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2026</category>
+  <category>Change management</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2026-driving-adoption.html</guid>
+  <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AI in Practice (2026)</title>
+  <link>https://rinpharma.com/docs/summit/posts/2026-ai-practice.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="ai-in-practice" class="level1">
+<h1>AI in Practice</h1>
+<p>See also: <a href="../../../docs/summit/posts/2023-ai.html">2023 Discussion</a>, <a href="../../../docs/summit/posts/2024-ai.html">2024 Discussion</a>, <a href="../../../docs/summit/posts/2025-ai.html">2025 Discussion</a></p>
+<section id="deterministic-vs.-probabilistic-ai" class="level2">
+<h2 class="anchored" data-anchor-id="deterministic-vs.-probabilistic-ai">Deterministic vs.&nbsp;Probabilistic AI</h2>
+<ul>
+<li><strong>Right Tool for the Job</strong>: Use deterministic approaches when reproducibility is required (e.g., dashboards with clearly defined requirements); use probabilistic AI when the task involves exploration, ambiguity, or natural language interaction</li>
+<li><strong>Hybrid Patterns</strong>: Structured dashboards combined with a chatbot layer let reviewers query data conventionally and then ask follow-up questions in natural language</li>
+<li><strong>Skill Gap Risk</strong>: Some teams jump directly to probabilistic AI because they lack the skill to build a deterministic workflow - the resulting “zero to 100%” systems can be unreliable and hard to maintain</li>
+<li><strong>Best of Both Worlds</strong>: Use AI to help build deterministic workflows - leverage its broad knowledge to generate efficient, reproducible pipelines rather than replacing them</li>
+<li><strong>Set Inputs, Set Outputs</strong>: If a task has predictable inputs and outputs, write a function - don’t have AI redo it every time. AI can help write the function itself</li>
+</ul>
+</section>
+<section id="cost-and-benchmarking" class="level2">
+<h2 class="anchored" data-anchor-id="cost-and-benchmarking">Cost and Benchmarking</h2>
+<ul>
+<li><strong>Wild West Pricing</strong>: Usage limits, per-user quotas, and pricing structures vary widely and depend heavily on organizational contracts with providers</li>
+<li><strong>Limited Visibility</strong>: Most users have little insight into what their AI usage actually costs the organization; a few teams see costs directly in the IDE</li>
+<li><strong>Local Models Not Automatically Cheaper</strong>: Small or locally-run models can be slower, harder to operate, or require significant engineering effort - total cost may exceed hosted options</li>
+<li><strong>Vendor Economics</strong>: AI companies are currently burning money to acquire users - bringing models in-house means taking on those costs directly</li>
+<li><strong>Benchmarking Immature</strong>: Formal benchmarking of AI skills is uncommon today; participants noted it often doesn’t feel worth the effort while everyone is still learning</li>
+<li><strong>Cost Awareness When Embedding</strong>: When AI is embedded in a tool you ship, cost matters much more - use the smallest model that will do the job</li>
+</ul>
+</section>
+<section id="ide-setup-and-upskilling-paths" class="level2">
+<h2 class="anchored" data-anchor-id="ide-setup-and-upskilling-paths">IDE Setup and Upskilling Paths</h2>
+<ul>
+<li><strong>Three Distinct Paths</strong>: Distinguish between exploration, development, and controlled/GXP processes - cool experimentation doesn’t need to happen in a GXP environment</li>
+<li><strong>Reliable Code ≠ Reliable System</strong>: AI makes code generation easier, but engineering a reliable end-to-end system is a separate discipline</li>
+<li><strong>Regulatory Reality</strong>: Artifacts are submitted to regulators, not AI products - artifacts must meet standards for quality and traceability regardless of how they were generated</li>
+</ul>
+</section>
+<section id="human-oversight-and-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="human-oversight-and-workflow">Human Oversight and Workflow</h2>
+<ul>
+<li><strong>Human Always in the Loop</strong>: There is very little fully AI-driven automation happening in practice - a human is required somewhere in the workflow</li>
+<li><strong>Context Hygiene</strong>: Basic training on how conversation context works is valuable - start a new conversation for a new task rather than piling everything into one thread that keeps growing</li>
+<li><strong>Shared Skills Libraries</strong>: AI “skills” can be very helpful; the pharmaverse/consortium skills library was flagged as a resource worth learning about</li>
+<li><strong>Training on Skill Authoring</strong>: Learning how to build better skills is an emerging and useful area of training</li>
+</ul>
+</section>
+<section id="future-direction" class="level2">
+<h2 class="anchored" data-anchor-id="future-direction">Future Direction</h2>
+<ul>
+<li><strong>Mixing AI and Deterministic Code</strong>: More interest in teaching AI to call vetted deterministic code, and in writing functions that themselves call AI where appropriate - a topic expected to grow significantly next year</li>
+<li><strong>Code Reuse Problem</strong>: Too much code is being rewritten from scratch by AI when it could be copied and pasted from prior analyses - a discovery/reuse problem the community will need to solve</li>
+</ul>
+</section>
+<section id="overall-takeaway" class="level2">
+<h2 class="anchored" data-anchor-id="overall-takeaway">Overall Takeaway</h2>
+<p>AI does not need to be used everywhere - the goal is thoughtful use where it adds value, with cost control and strong engineering and human review wrapped around it.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2026</category>
+  <category>AI</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2026-ai-practice.html</guid>
+  <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AI Trust and Governance (2026)</title>
+  <link>https://rinpharma.com/docs/summit/posts/2026-ai-trust-governance.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="ai-trust-and-governance" class="level1">
+<h1>AI Trust and Governance</h1>
+<p>See also: <a href="../../../docs/summit/posts/2023-ai.html">2023 Discussion</a>, <a href="../../../docs/summit/posts/2024-ai.html">2024 Discussion</a>, <a href="../../../docs/summit/posts/2025-ai.html">2025 Discussion</a></p>
+<section id="governance-in-regulated-vs.-non-regulated-environments" class="level2">
+<h2 class="anchored" data-anchor-id="governance-in-regulated-vs.-non-regulated-environments">Governance in Regulated vs.&nbsp;Non-Regulated Environments</h2>
+<ul>
+<li><strong>No Real Difference</strong>: Consensus was that governance expectations should not fundamentally differ between regulated and non-regulated environments</li>
+<li><strong>Documentation Lag</strong>: Documented procedures supporting GXP platforms inevitably lag behind rapid technological advances</li>
+<li><strong>Internal Approvals Required</strong>: Deploying AI (e.g., Claude Code) inside an SCE requires internal governance approval covering intended use and safeguards</li>
+<li><strong>Extending Existing Processes</strong>: Many organizations are keeping their existing QC processes and simply adding AI as a drafting/development accelerator rather than reinventing controls</li>
+</ul>
+</section>
+<section id="over-reliance-and-hallucination" class="level2">
+<h2 class="anchored" data-anchor-id="over-reliance-and-hallucination">Over-Reliance and Hallucination</h2>
+<ul>
+<li><strong>Skipping Human Review is Dangerous</strong>: Real-world example - a 400-page compliance questionnaire fed to Copilot returned ~40-50% compliance but was largely hallucinated, pulling irrelevant architecture documents from OneDrive</li>
+<li><strong>LLMs Fabricate in Ways Humans Don’t</strong>: This must be explicitly recognized in validation and review procedures</li>
+<li><strong>Mitigations</strong>:
+<ul>
+<li>Require AI systems to document references and sources during code generation to support traceability</li>
+<li>Use benchmarking, multiple AI tools, adversarial validation, and metadata analysis (e.g., RoboRev)</li>
+<li>Create an MCP registry for tools and prompts to provide auditability, safeguards, and compliance evidence</li>
+</ul></li>
+</ul>
+</section>
+<section id="human-oversight-and-accountability" class="level2">
+<h2 class="anchored" data-anchor-id="human-oversight-and-accountability">Human Oversight and Accountability</h2>
+<ul>
+<li><strong>Human in the Loop is Non-Negotiable</strong>: But it comes with a real problem - “human in the loop” can degenerate into a person miserably reviewing 100% of AI-generated code, which is a job people do poorly</li>
+<li><strong>Volume Problem</strong>: AI generates code far faster than humans can review it - if you review every line, you spend more resources than writing it from scratch</li>
+<li><strong>Ownership</strong>: Whoever runs the AI owns the code and is responsible for the output regardless of how it was written</li>
+<li><strong>Business vs.&nbsp;IT Accountability</strong>:
+<ul>
+<li>Business owns the outcome of their actions (e.g., excluding data they should have included)</li>
+<li>IT owns platform failures, model drift, and integration issues</li>
+<li>Clear separation prevents finger-pointing when things go wrong</li>
+</ul></li>
+<li><strong>Cultural Reality</strong>: Everyone wants responsibility and credit; few want accountability, especially when things go wrong</li>
+</ul>
+</section>
+<section id="deployment-patterns" class="level2">
+<h2 class="anchored" data-anchor-id="deployment-patterns">Deployment Patterns</h2>
+<ul>
+<li><strong>Code Generation, Not Production</strong>: Current dominant pattern - AI used for drafting code inside GXP-adjacent environments, with normal QC/independent programming applied downstream</li>
+<li><strong>Data Handling</strong>:
+<ul>
+<li>Development done against blinded/de-identified data; production runs are a separate process</li>
+<li>Some organizations classify patient data as “secret” and only send metadata to LLMs, which return code and visuals without ever seeing the raw data</li>
+<li>LLM hosting configured with zero-retention policies</li>
+</ul></li>
+<li><strong>Fit-for-Purpose Shiny Apps</strong>: AI-driven Shiny apps where the AI updates inputs and the validated app produces outputs - keeps the statistician in control</li>
+<li><strong>MCP Servers</strong>: A focal point for guardrails - can connect Claude Desktop into a validated environment and tightly control which workflows are exposed</li>
+</ul>
+</section>
+<section id="observability-and-telemetry" class="level2">
+<h2 class="anchored" data-anchor-id="observability-and-telemetry">Observability and Telemetry</h2>
+<ul>
+<li><strong>Emerging Priority</strong>: Organizations are dedicating significant 2027 budget to observability and telemetry of AI usage</li>
+<li><strong>Platforms Being Evaluated</strong>: Datadog and open-source alternatives being considered</li>
+<li><strong>Why It Matters</strong>: Without observability, you can’t detect wasted token cycles, models drifting to unrelated content (like the OneDrive hallucination), or misuse</li>
+<li><strong>“Fox in the Henhouse”</strong>: Enthusiasm to deploy AI outpaced governance; observability is now being added retroactively</li>
+</ul>
+</section>
+<section id="intent-for-use-and-validation" class="level2">
+<h2 class="anchored" data-anchor-id="intent-for-use-and-validation">Intent for Use and Validation</h2>
+<ul>
+<li><strong>You Can’t Validate a Black Box</strong>: Frontier models are unvalidatable neurons - what you validate is the <em>use case</em> (intent for use / context of use), aligned with FDA and EMA guidance</li>
+<li><strong>Scope the Validation Correctly</strong>: A broad use case (e.g., “TFL generation”) requires broad testing; a narrow use case (e.g., “trial design domains from a structured protocol”) can be tested rigorously</li>
+<li><strong>Not One-and-Done</strong>: Because models drift, validation must include ongoing procedures to refresh, monitor, and control for drift and hallucination</li>
+<li><strong>RCA Path</strong>: When something goes wrong, be able to isolate whether the problem sits in business use, the platform, the LLM, or the integration points</li>
+</ul>
+</section>
+<section id="the-modular-approach" class="level2">
+<h2 class="anchored" data-anchor-id="the-modular-approach">The Modular Approach</h2>
+<ul>
+<li><strong>Software Engineering 101 Applied to AI</strong>: Build smaller chunks - modules, packages, macros - with strict inputs, strict outputs, observability, and logging</li>
+<li><strong>AI as Orchestrator, Not Author</strong>: Let AI figure out fuzzy things (e.g., that “temperature” and “column_temp” are the same variable) and call vetted deterministic functions for the analytics</li>
+<li><strong>Building Blocks / Lego Model</strong>: Give users a bucket of pre-validated blocks that AI can assemble into pipelines the user needs - reproducible code that can be rerun and tested</li>
+<li><strong>Trade-off Acknowledged</strong>: Constraining AI with deterministic modules reduces some of AI’s flexibility, but it’s where trust actually comes from today</li>
+</ul>
+</section>
+<section id="where-to-draw-the-line" class="level2">
+<h2 class="anchored" data-anchor-id="where-to-draw-the-line">Where to Draw the Line</h2>
+<ul>
+<li><strong>AI is Good At</strong>: Small functions, unit tests, data harmonization (edge-case column matching, whitespace, variant naming), refactoring legacy code (one participant refactored a 2-month Shiny effort in ~5 days)</li>
+<li><strong>AI Should Not Do</strong>: The mathematics itself. Ask it to write traceable code that performs a power calculation using named packages; don’t ask it for the answer directly</li>
+<li><strong>Competency Question</strong>: A SAS programmer who can write plain-English comments, have AI produce R, and QC the output can still perform a valid QC - QC is about plausibility of results and a documented trail, not about who wrote the code</li>
+<li><strong>Trust Follows Consistency</strong>: Comfort with AI comes from repeatedly seeing correct outcomes; without domain knowledge to spot errors, users should remain uncomfortable relying on AI</li>
+</ul>
+</section>
+<section id="security" class="level2">
+<h2 class="anchored" data-anchor-id="security">Security</h2>
+<ul>
+<li><strong>Multi-Tenant Isolation</strong>: When multiple organizations share an AI provider, how do we ensure data doesn’t leak across tenants?</li>
+<li><strong>Metadata-Only Patterns</strong>: Sending only metadata (never raw patient data) to hosted LLMs is one practical safeguard</li>
+</ul>
+</section>
+<section id="tension-fda-rejections-and-ai" class="level2">
+<h2 class="anchored" data-anchor-id="tension-fda-rejections-and-ai">Tension: FDA Rejections and AI</h2>
+<ul>
+<li><strong>Silly Errors Predate AI</strong>: Examples like hidden <code>.Rprofile</code> files causing rejections are basic issues that have nothing to do with AI - AI didn’t cause them</li>
+<li><strong>Cheap Linter/CI Wins</strong>: Many recent FDA-flagged issues would have been caught by linting, GitHub Actions, or code-review bots long before submission</li>
+<li><strong>Volume Amplifies Everything</strong>: AI doesn’t create new categories of error, but it makes review a bottleneck - a senior reviewer used to get one submission at a time and can now expect three a day</li>
+</ul>
+</section>
+<section id="overall-takeaway" class="level2">
+<h2 class="anchored" data-anchor-id="overall-takeaway">Overall Takeaway</h2>
+<p>Trust in AI comes from validating narrow, well-defined use cases, wrapping AI in modular deterministic building blocks, keeping humans accountable at each step, and investing in observability. Human review is essential but must be designed as engaging, high-leverage work - not “read all the code all day”.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2026</category>
+  <category>AI</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2026-ai-trust-governance.html</guid>
+  <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Future of ARD/ARS (2026)</title>
+  <link>https://rinpharma.com/docs/summit/posts/2026-future-ard.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="future-of-ardars" class="level1">
+<h1>Future of ARD/ARS</h1>
+<section id="value-proposition-for-sponsors" class="level2">
+<h2 class="anchored" data-anchor-id="value-proposition-for-sponsors">Value Proposition for Sponsors</h2>
+<ul>
+<li><strong>Strong But Hard to Implement</strong>: The value proposition for sponsors adopting ARS (including Analysis Result Datasets) is much stronger than for regulators - but implementation remains a real challenge</li>
+<li><strong>Efficiency of TFL Generation</strong>: Standard analysis result datasets let sponsors generate TFLs efficiently from a shared intermediate form</li>
+<li><strong>Powerful Downstream Uses</strong>: When ARDs are curated well (especially cross-study, cross-indication), snapping a dashboard or a query chat on top can be very powerful</li>
+<li><strong>Metadata Curation is the Bottleneck</strong>: Doing this well requires deep metadata-curation expertise that many staff programmers do not have</li>
+</ul>
+</section>
+<section id="value-proposition-for-regulators-is-nebulous" class="level2">
+<h2 class="anchored" data-anchor-id="value-proposition-for-regulators-is-nebulous">Value Proposition for Regulators is Nebulous</h2>
+<ul>
+<li><strong>FDA Isn’t Asking</strong>: Companies that have given ARDs to the FDA report that reviewers <em>can</em> generate different TFLs from them, but there’s no clear signal that FDA needs or wants this</li>
+<li><strong>“Nice, But For Them”</strong>: Reviewers often just want a static copy - the extra flexibility isn’t being requested</li>
+<li><strong>Uncertain ROI on the Regulator Side</strong>: Without demand, sponsors have less incentive to solve the hard implementation problems purely for regulator benefit</li>
+</ul>
+</section>
+<section id="complexity-of-the-standard" class="level2">
+<h2 class="anchored" data-anchor-id="complexity-of-the-standard">Complexity of the Standard</h2>
+<ul>
+<li><strong>Convoluted UML</strong>: The ARS specification, as originally proposed, is a very complex UML diagram - even people familiar with ontologies find it hard to parse</li>
+<li><strong>Barrier to Effective Use</strong>: Understanding and effectively using ARS as currently specified is a real barrier to adoption</li>
+</ul>
+</section>
+<section id="the-case-for-a-light-ars" class="level2">
+<h2 class="anchored" data-anchor-id="the-case-for-a-light-ars">The Case for a “Light” ARS</h2>
+<ul>
+<li><strong>Agent-Friendly Metadata</strong>: With the rise of AI agents, using an ARD with a smaller, lighter metadata layer as agent context can go a long way</li>
+<li><strong>Open Question</strong>: Is a lighter version of ARDs - one that agents can use effectively - enough for most purposes? That was the core discussion point</li>
+</ul>
+</section>
+<section id="overall-takeaway" class="level2">
+<h2 class="anchored" data-anchor-id="overall-takeaway">Overall Takeaway</h2>
+<p>Three main messages: the sponsor value proposition for ARS is strong but implementation is hard; the regulator value proposition is unclear because regulators aren’t asking for it; and the future of ARS may well be a “light” version that trades full specification complexity for something agents (and humans) can actually use.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2026</category>
+  <category>ARD</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2026-future-ard.html</guid>
+  <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Open Source Submissions (2026)</title>
+  <link>https://rinpharma.com/docs/summit/posts/2026-open-source-submissions.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="open-source-submissions" class="level1">
+<h1>Open Source Submissions</h1>
+<section id="sas-vs.-r-in-practice" class="level2">
+<h2 class="anchored" data-anchor-id="sas-vs.-r-in-practice">SAS vs.&nbsp;R in Practice</h2>
+<ul>
+<li><strong>Stickiness of Existing Tools</strong>: People already using R want to keep using R; people already using SAS often stay in SAS - the challenge is not about closing a technical gap</li>
+<li><strong>Closing the Gap Isn’t Enough</strong>: Even if the SAS/R capability gap disappeared, the adoption problem wouldn’t - users stay with what they know</li>
+<li><strong>Focus on Making It Easier</strong>: The productive question is how to reduce friction for those who <em>do</em> want to move, not how to force parity</li>
+</ul>
+</section>
+<section id="risk-of-not-adopting-open-source" class="level2">
+<h2 class="anchored" data-anchor-id="risk-of-not-adopting-open-source">Risk of Not Adopting Open Source</h2>
+<ul>
+<li><strong>Should Be Acknowledged</strong>: There is real risk in <em>not</em> adopting R/open source (talent, tooling, innovation pace), and this should be part of the conversation</li>
+<li><strong>But Adoption Still Isn’t Easy</strong>: Acknowledging the risk doesn’t magically make the transition simple</li>
+</ul>
+</section>
+<section id="communicating-with-reviewers" class="level2">
+<h2 class="anchored" data-anchor-id="communicating-with-reviewers">Communicating with Reviewers</h2>
+<ul>
+<li><strong>Successful Submission Playbook</strong>: Let your reviewers know what you’re doing - the community has been sharing talking points and blog posts on how to run a successful submission</li>
+<li><strong>“Make Them Follow the Instructions”</strong>: If someone in your organization isn’t familiar with R, have them run through the submission instructions themselves - that shakes out issues before the FDA sees them</li>
+<li><strong>Denali Example</strong>: Companies (e.g., Denali) that have submitted successfully communicated <em>ahead</em> to FDA about what they were doing and how - making the submission itself seamless</li>
+<li><strong>Community Effort Beyond Code</strong>: The community could contribute more by sharing what worked in reviewer communications - which instructions were sent, what feedback came back, what patterns generalize</li>
+</ul>
+</section>
+<section id="fda-is-agnostic-to-software" class="level2">
+<h2 class="anchored" data-anchor-id="fda-is-agnostic-to-software">FDA is Agnostic to Software</h2>
+<ul>
+<li><strong>Consensus</strong>: We’re “almost there” on adaptability - many of the remaining barriers are our own habits, not FDA requirements</li>
+<li><strong>FDA Has Been Clear</strong>: They are agnostic to the software used, as long as the submission is well-communicated and reproducible</li>
+</ul>
+</section>
+<section id="environments-and-reproducibility" class="level2">
+<h2 class="anchored" data-anchor-id="environments-and-reproducibility">Environments and Reproducibility</h2>
+<ul>
+<li><strong>renv Frustrations</strong>: Several participants shared ongoing struggles with renv - echoing the environments session, the guidance was to talk to Posit with concrete failure information</li>
+<li><strong>A Manifest-Style Idea</strong>: Could something like the Shiny Server manifest (a declarative statement of packages and versions the server needs) evolve into an “IQ 2.0” style artifact for submissions? Floated as an idea worth exploring</li>
+</ul>
+</section>
+<section id="ai-in-submission-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="ai-in-submission-workflows">AI in Submission Workflows</h2>
+<ul>
+<li><strong>AI for Finalization and Development</strong>: General agreement that AI is useful for finalizing artifacts and as a coding assistant during development</li>
+<li><strong>No Full Agentic AI</strong>: Participants were <em>not</em> comfortable with fully agentic AI where no human is involved</li>
+<li><strong>You Own the Code</strong>: You own the code and are responsible for the output - it doesn’t matter whether AI helped write it</li>
+<li><strong>QC Still Required</strong>: R code must still be QC’d whether it was AI-augmented or not</li>
+<li><strong>Guardrails</strong>: Guardrails were flagged as an important companion topic, echoing themes from the AI Trust and Governance session</li>
+</ul>
+</section>
+<section id="overall-takeaway" class="level2">
+<h2 class="anchored" data-anchor-id="overall-takeaway">Overall Takeaway</h2>
+<p>Regulators are ready for open-source submissions - what’s left is largely our own habits, our communication with reviewers, and reliable tooling for reproducible environments. AI can accelerate development and finalization, but code ownership and QC responsibilities do not change.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>2026</category>
+  <category>OS</category>
+  <category>Regulatory</category>
+  <guid>https://rinpharma.com/docs/summit/posts/2026-open-source-submissions.html</guid>
+  <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>SCEs (2025)</title>
   <dc:creator>David Thiriot</dc:creator>
@@ -1161,513 +1615,6 @@ Warning
   <category>Shiny</category>
   <guid>https://rinpharma.com/docs/summit/posts/2024-shiny-validation.html</guid>
   <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Depending on Open Source (2023)</title>
-  <dc:creator>Mike Smith</dc:creator>
-  <dc:creator>Ed Lauzier</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-os-depends.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="depending-on-os-2023" class="level1">
-<h1>Depending on OS 2023</h1>
-<p>Chairs: Mike Smith &amp; Ed Lauzier</p>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>How much risk is there in depending on external packages, and can we foster a clearer set of expectations between developers and people/companies that depend on these packages?</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Warning</span>Missing notes
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Notes are not available for this roundtable, however the <a href="https://phuse-org.github.io/E2E-OS-Guidance/using.html">PHUSE Open Source guidance</a> includes a chapter on depending on Open Source.</p>
-</div>
-</div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>2023</category>
-  <category>OS</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-os-depends.html</guid>
-  <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Can we validate shiny apps (2023)?</title>
-  <dc:creator>James Black</dc:creator>
-  <dc:creator>Harvey Lieberman</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-shiny-validation.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="validate-shiny-apps" class="level1">
-<h1>Validate Shiny Apps?</h1>
-<p>Chairs: James Black and Harvey Lieberman</p>
-<p>See also: <a href="../../../docs/summit/posts/2024-shiny-validation.html">2024 Discussion</a></p>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>We have a path to R package validation - but what about shiny apps? In what context would validation become relevant to shiny app code, and how can we get ahead of this topic to pave a way forward for interactive CSRs?</p>
-</section>
-<section id="topics-discussed" class="level2">
-<h2 class="anchored" data-anchor-id="topics-discussed">Topics discussed</h2>
-<section id="do-we-need-to-validate" class="level3">
-<h3 class="anchored" data-anchor-id="do-we-need-to-validate">Do we need to validate?</h3>
-<ul>
-<li>Tiered approach / decision tree
-<ul>
-<li>Lowest is made by study team for study team. 2nd level is risk is unsupervised use, or specific contexts - e.g.&nbsp;making an app for dosing or safety. 3rd would be shiny CSR.</li>
-<li>Is the results going directly from the app into a submission?</li>
-<li>Don’t validate a shiny app - validate the static functions in the R packages. CSV may not be relevant for UIs (vs static R packages)</li>
-</ul></li>
-</ul>
-</section>
-<section id="what-are-we-testing-and-why" class="level3">
-<h3 class="anchored" data-anchor-id="what-are-we-testing-and-why">What are we Testing and Why?</h3>
-<p>There is a clear difference of opinion throughout the industry, often led by quality groups. Some companies validate shiny apps as if they were distinct pieces of software, using their internal software validation procedures. These processes are often outdated and unsuitable, requiring timestamped user-testing and screen captures.</p>
-<p>Other companies solely consider packages, not even validating shiny apps, but validating just the logic. The group discussed a preferred way of working – separating the logic and the UI.</p>
-<p>This brings up the question – <strong>do we really need to validate shiny apps? Can we just validate the logic?</strong></p>
-</section>
-<section id="who-does-the-testing" class="level3">
-<h3 class="anchored" data-anchor-id="who-does-the-testing">Who Does the Testing?</h3>
-<p>Again, there is some difference between companies in who does the testing. Generally, the developer writes the tests but tests are performed either by the business or by the quality group.</p>
-</section>
-<section id="use-of-automation" class="level3">
-<h3 class="anchored" data-anchor-id="use-of-automation">Use of Automation</h3>
-<p>Question posed to people present around the table: Does your company’s validation system allow for automation? Answers from the table: 8 companies = yes, 2 companies = no. Another 4 companies = no (offered by consultant who works with Pharma companies). Clearly a range of capabilities across the industry.</p>
-<p>From an automation perspective, the Pharma industry is very far behind the technology industry. Technology codebases tend to be far more complex but they are also automated. Can we learn from their platforms and apply their processes to validating shiny apps? Tools such as {shinytest2} are daunting to use. Can they be made more user friendly? There have been some steps to help automate these tasks – eg {shinyvalidator} but more work is needed in this area.</p>
-<p>It’s very challenging to validate a reactive graph. Automated processes have the ability to detect changes in a single pixel – is this desirable or undesirable?</p>
-</section>
-<section id="types-of-testing" class="level3">
-<h3 class="anchored" data-anchor-id="types-of-testing">Types of Testing</h3>
-<p>There is a clear difference across companies in opinions as to the amount of unit testing vs UAT and end-user testing. Unit tests are easy to write but are do not demonstrate how an app works. {shinytest2} can be used for end-user testing but, as mentioned above, may be daunting to use, may not be acceptable within a quality organization and may not fit in current work practices.</p>
-<p>Unit tests are generally written as code is written. They are fast to write and fast to execute. End-to-end tests, however, are written once code is complete and tend to be slow to execute.</p>
-</section>
-<section id="robust-uis" class="level3">
-<h3 class="anchored" data-anchor-id="robust-uis">Robust UIs?</h3>
-<ul>
-<li>Good to have unit tests - often manual testing. Automated can easily get messed up as the code evolves.</li>
-<li>We should use the git flow - e.g.&nbsp;protect master and disable manual deployments</li>
-<li>Show or download R code is perfect for reproducibility → e.g.&nbsp;show code button
-<ul>
-<li>But then need to actually run that in a prod batch run</li>
-<li>this use can case skip validation as code is run as study code</li>
-</ul></li>
-<li>Some cases where you don’t want to export and run code → e.g.&nbsp;output used directly for decision making are coming</li>
-<li>How to handle risk of UI problems if our focus is on the static code - e.g.&nbsp;misnamed reactive values so wrong values being shown, even if static R packages giving correct results.</li>
-<li>Risk based is really important - e.g.&nbsp;for something like dark mode breaking, we need to know what requirements are high risk (e.g.&nbsp;table is correct) vs low risk (e.g.&nbsp;dark mode button)</li>
-</ul>
-</section>
-<section id="ideas-to-improve-the-process" class="level3">
-<h3 class="anchored" data-anchor-id="ideas-to-improve-the-process">Ideas to improve the process</h3>
-<ul>
-<li>Validation tests as text files (ATDD/BDD from software engineering).<br>
-</li>
-<li>Frame in <a href="https://www.guru99.com/gherkin-test-cucumber.html">Gherkin format</a> plus package of fixtures</li>
-<li>Contribute test code to public packages</li>
-<li>When companies write extra tests, make a PR to add them to the actual package test suite and get others in the community to review and comment</li>
-<li>Extend to more than tests – documentation, etc.</li>
-<li>We need clarity around packages used in submissions.</li>
-<li>Would big Pharma be willing to list all packages that pass their internal risk-assessment and share? Also share why they pass/fail a risk-assessment?</li>
-<li>Validating shiny apps – can we share some cross-industry experience?</li>
-<li>QA vs validation. At what stage should I worry about validation?
-<ul>
-<li>Can we talk to QA departments / QA senior leadership to get them to write up their thoughts / requirements? Ask “How can we make your job easier?”<br>
-</li>
-</ul></li>
-<li>Should we include QA and more IT at next year’s summit?</li>
-</ul>
-</section>
-<section id="actions" class="level3">
-<h3 class="anchored" data-anchor-id="actions">Actions</h3>
-<ul>
-<li>Can we share some common high level guidance on stratifying risk in shiny shared across companies? (Pfizer has written this already internally).</li>
-<li>Discuss if we should have an extension of R package whitepaper to cover shiny?</li>
-</ul>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span><i class="fa-solid fa-list" aria-label="list"></i>
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Establish a CSR working group (first talk to Shiny submissions working group to establish overlap?)</li>
-</ul>
-</div>
-</div>
-
-
-</section>
-</section>
-</section>
-
- ]]></description>
-  <category>2023</category>
-  <category>R</category>
-  <category>Validation</category>
-  <category>Shiny</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-shiny-validation.html</guid>
-  <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>The case for OS (2023)</title>
-  <dc:creator>Satish Murphy &amp; Becca Krouse</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-case-os.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="the-case-for-os" class="level1">
-<h1>The case for OS</h1>
-<p>Chairs: Satish Murphy &amp; Becca Krouse</p>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>What is stopping people and companies from contributions in OS? Can we define the case for contributing to OS?</p>
-</section>
-<section id="main-concerns" class="level2">
-<h2 class="anchored" data-anchor-id="main-concerns">Main concerns</h2>
-<section id="licencing" class="level3">
-<h3 class="anchored" data-anchor-id="licencing">Licencing</h3>
-<ul>
-<li>R’s core is released on a copyleft GPL license, so there are concerns around any additions we make being required to publish back to the community. This is a concern for companies that are not in the business of selling software, but rather use software as a tool to do their business.</li>
-<li>Python is seen as less of risk, as it is released via permissive licence</li>
-<li>Is there really a legal risk for copy-left licences, and if so under what circumstances? (e.g.&nbsp;using it internally for a plot vs making and selling an app or algorithm that uses the copyleft dependency)</li>
-<li>Can we understand better how IP is protected in OS?</li>
-</ul>
-</section>
-<section id="process" class="level3">
-<h3 class="anchored" data-anchor-id="process">Process</h3>
-<ul>
-<li>When using an internal package in a filing, we can package it directly as part of the study code and give to the FDA - which is seen as less of a risk than publishing it as OS where the global community can view the code.</li>
-<li>Folks often want to contribute - but there are some limitations both professionally (e.g.&nbsp;internal process to contribute) and personally</li>
-<li>If someone works on a project in their own time, there is a concern that treated is a company asset even though they are doing it outside of working hours. What is the actual boundary between work and personal contributions?</li>
-<li>People making the policies need to actually understand the topic of OS</li>
-</ul>
-</section>
-<section id="liability" class="level3">
-<h3 class="anchored" data-anchor-id="liability">Liability</h3>
-<ul>
-<li>We know the liability is similar between OS and proprietary software, but there is a perception that all OS is more risky</li>
-</ul>
-</section>
-<section id="people" class="level3">
-<h3 class="anchored" data-anchor-id="people">People</h3>
-<ul>
-<li>OS contributions are seen as nice to have - how can this be prioritised vs project work?</li>
-<li>Be involved in projects like Oak, NEST and admiral brings recognition to the contributors</li>
-<li>Often projects are mostly driven by a handful, or even a couple, of people. What if someone leaves? Is OS actually a benefit here as same developer could promote and lead to use of the package at their new company?</li>
-<li>Write up a short post / article titled “Here’s why you should allow your people to contribute to open source”</li>
-<li>Write a blog post and short PDF that can be shared internally at the leadership level</li>
-</ul>
-</section>
-</section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<ul>
-<li><a href="https://phuse-org.github.io/E2E-OS-Guidance/slides/eu23">PHUSE Open Source guidance</a></li>
-</ul>
-</section>
-<section id="what-can-we-do" class="level2">
-<h2 class="anchored" data-anchor-id="what-can-we-do">What can we do?</h2>
-<ul>
-<li>Create a framework to help articulate the benefit, and help to tackle the concerns/process that gets in the way</li>
-</ul>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>2023</category>
-  <category>OS</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-case-os.html</guid>
-  <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Modern SCEs (2023)</title>
-  <dc:creator>James Black</dc:creator>
-  <dc:creator>Satish Murphy</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-sce.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="modern-sces" class="level1">
-<h1>Modern SCEs</h1>
-<p>Chairs: James Black and Satish Murphy</p>
-<p>See also: <a href="../../../docs/summit/posts/2024-sce.html">2024 Discussion</a></p>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>What are our goals for a modern clinical reporting workflow, on a modern SCE? What are our learnings today achieving that goal, and how can we better prepare ourselves to balance the drive to innovate while having to evolve people and processes?</p>
-</section>
-<section id="topics-discussed" class="level2">
-<h2 class="anchored" data-anchor-id="topics-discussed">Topics discussed</h2>
-<section id="is-the-next-step-homegrown-or-vendor" class="level3">
-<h3 class="anchored" data-anchor-id="is-the-next-step-homegrown-or-vendor">Is the next step Homegrown or vendor</h3>
-<ul>
-<li>Split in vendor approaches vs homegrown for the new generation. We don’t know what the ideal is today, but we know we need to be able to evolve and adapt to new technologies and approaches much more than we did in the past.</li>
-<li>Homegrown usually means modular, as still relient on different open soruce and vendor solutions (e.g.&nbsp;AWS, Hashicorp, etc). Is a more accurate description turnkey vs modular?</li>
-<li>How to ensure our modular platform scales is an important new aspect, especially using new open source tools.</li>
-<li>In a turnkey, the vendor will have baked in provenance. In a modular we must focus on making sure metadata/provenance runs as a background across the system to ensure we can trace back from an insights and transformations to the source data.</li>
-<li>A major pain point is how things are funded - we are not used to funding a platform for sustained evolution/innovation, but in the data science space things are constantly evolving - so moving to operations/maintenance is equilivant to decay.</li>
-</ul>
-</section>
-<section id="relationship-with-informatics-partners" class="level3">
-<h3 class="anchored" data-anchor-id="relationship-with-informatics-partners">Relationship with informatics partners</h3>
-<ul>
-<li>There is often tension between informatics and the business, with the growth of business written code that looks more like software (e.g.&nbsp;R packages) vs the the scripts/macros we use to make. We shared experiences finding a balance as we entered this new phase.</li>
-<li>It was refreshing to see we have cases where informatics and the business are aligned on one goal, and we need to be more proactive trying to create these relationships (including inviting informatics to our pan-industry discussions. J&amp;J + Roche had informatics representation at this meeting, but otherwise the dialogue was from the business perspective).</li>
-</ul>
-</section>
-<section id="what-is-an-sce" class="level3">
-<h3 class="anchored" data-anchor-id="what-is-an-sce">What is an SCE?</h3>
-<ul>
-<li>Should GxP and exploratory remain seperate platforms?
-<ul>
-<li>Split across companies in the group, with some companies having a single platform for both, and others having seperate platforms.</li>
-<li>With initiatives like the digital protocol coming, we don’t know what the impact will be on routine clinical reporting, and what impacts this will have on the types of people and tasks needed to execute a CSR.</li>
-<li>Pain points merging:
-<ul>
-<li>Validation (CSV) is a long and high cost process in most companies, which can impact ability to support exploratory work.</li>
-<li>Needs are different. E.g. clinical reporting is low compute, while design and biomarker work is often heavy in memory and data.</li>
-</ul></li>
-</ul></li>
-<li>Is data part of the SCE? Traditionally yes, but some but not all companies are de-coupling data from compute.</li>
-<li>Whether it’s in the SCE or not, tracebility is extra important in our domain of regulatory reporting.</li>
-<li>It appeared across all companies access to an SCE is through a web-browser (not a local application)</li>
-</ul>
-</section>
-<section id="building-trust-in-businessopen-source-code" class="level3">
-<h3 class="anchored" data-anchor-id="building-trust-in-businessopen-source-code">Building trust in business/open source code</h3>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">The Cathedral and the Bazaar by Eric Rayman</a> was a recomended essay to read, that talks about ‘Cathedral’ products where the code is developed in a closed environment then released, vs ‘Bazaar’ products where the code is developed in the open. An arguement is the Bazaar model, as long as it is a project with enough eyeballs, will lead to shallow bugs; this is also known as <a href="https://en.wikipedia.org/wiki/Linus%27s_law">Linus’ Law</a>.</li>
-</ul>
-</section>
-<section id="change-management-into-a-modern-sce" class="level3">
-<h3 class="anchored" data-anchor-id="change-management-into-a-modern-sce">Change-management into a modern SCE</h3>
-<ul>
-<li>What are we actually building? A general data science platform? A platform optimised for clinical reporting?
-<ul>
-<li>These are not the same platform, and which you pick has an impact. e.g.&nbsp;should statistical programmers learn git, or should we give a simple GUI for pushing code through QC and to Prod?</li>
-<li>There is not a consensus about this for next-gen, with only a handful of companies expecting statistical programmers to work in the same way as general data scientists.</li>
-</ul></li>
-<li>Historically we depended on SAS, it’s data formats, and filesystems. How to build a modern SCE that doesn’t?
-<ul>
-<li>Do we enable legacy workflows to work in the new SCE?; Only new ways; or how do we find a balance to ensure business continuity while enabling innovation?</li>
-<li>The human and process change management piece is massive, and SCE POs must work in tandem with statistical programming leadership.</li>
-<li>Agreement the biggest pain point is the dependency on file-based network share drives for data and insight outputs. One company mentioned they have millions of directories in their legacy SCE.</li>
-</ul></li>
-<li>Most companies have carried over having the outputs server be a network share drive, but would a more ‘publishing’ type model be more robust?</li>
-</ul>
-</section>
-<section id="general-notes" class="level3">
-<h3 class="anchored" data-anchor-id="general-notes">General notes</h3>
-<ul>
-<li>We manage on user access. A question is whether we should control access based on user access <em>and</em> the intended use. In terms of both where they are working and what the context of the work is.</li>
-<li>We need to rightsize our ambitions, as going to broad will slow us down.</li>
-<li>How will moving to this latest generation be a positive impact on our financials? Interesting point made about putting ourselves in the shoes of someone like a CMO - if you don’t care about how the CSR is generated, how is the new SCE making the company money and when will we get a fiscal ROI?</li>
-<li>Interactive analysis is growing - need to prepare for when people want to use something like shiny for GxP</li>
-<li>The ideal people to work on the SCEs are unicorns - they need to be able to work with the business, understand the trial processes, and be able to work with the technology. We need to be able to train people to be unicorns, and we need to be able to retain them.</li>
-</ul>
-</section>
-<section id="actions" class="level3">
-<h3 class="anchored" data-anchor-id="actions">Actions</h3>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span><i class="fa-solid fa-list" aria-label="list"></i>
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Can we have a learning series / discussion / panel on experience using a designing git flows</li>
-<li>What are companies experiences across the diverse scopes we’ve placed onto SCEs - need to share more here.</li>
-<li>How do we want to store data post shared drive, how do we want to track?</li>
-<li>We need to share learnings on the value add from these new SCEs!</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="resources" class="level3">
-<h3 class="anchored" data-anchor-id="resources">Resources</h3>
-<p><a href="https://phuse.s3.eu-central-1.amazonaws.com/Events/2021/US+Connect+2021/SCE_White_Paper_Final_15Dec2021.pdf">White paper on late-stage SCEs</a></p>
-<p>Keynote incoporating the discussion at the round tables:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/XO-oPX1TBuw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-
-
-</section>
-</section>
-</section>
-
- ]]></description>
-  <category>2023</category>
-  <category>SCE</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-sce.html</guid>
-  <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>AI opportunities (2023)</title>
-  <dc:creator>Paulo Bargo</dc:creator>
-  <dc:creator>Ning Leng</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-ai.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="llmsaaai-opportunities" class="level1">
-<h1>LLMs/AA/AI opportunities?</h1>
-<p>Chairs: Paulo Bargo &amp; Ning Leng</p>
-<p>See also: <a href="../../../docs/summit/posts/2024-ai.html">2024 Discussion</a></p>
-<section id="question" class="level3">
-<h3 class="anchored" data-anchor-id="question">Question</h3>
-<p>What should we be doing to leverage advances in LLMs/AA/AI impact? (at the drug development through to developer efficiency levels)</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Warning</span>Missing notes
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Notes are not available for this roundtable.</p>
-</div>
-</div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>2023</category>
-  <category>AI</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-ai.html</guid>
-  <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Change management (2023)</title>
-  <dc:creator>Matthew Kumar</dc:creator>
-  <dc:creator>Cassie Burns</dc:creator>
-  <link>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="change-management" class="level1">
-<h1>Change management</h1>
-<p>Chairs: Matthew Kumar and Cassie Burns</p>
-<p>See also: <a href="../../../docs/summit/posts/2024-change-mgt.html">2024 Discussion</a></p>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>Where are we on getting data analysts and data scientists that work with clinical data on board (in particular, those delivering CSRs and submission packages)? What are the challenges - what has been overcome?</p>
-</section>
-<section id="who-are-our-people" class="level2">
-<h2 class="anchored" data-anchor-id="who-are-our-people">Who are our people?</h2>
-<p>Prefaced both sessions by asking individuals to define the <em>our</em> in <em>our people</em>;</p>
-<ul>
-<li>Stat Programmers</li>
-<li>Statisticians</li>
-<li>Data Management</li>
-<li>Other CSR-deliverable oriented roles (e.g.&nbsp;medical and scientific writing)</li>
-<li>Management, Leadership</li>
-</ul>
-<section id="theme-r-adoption-and-challenges" class="level3">
-<h3 class="anchored" data-anchor-id="theme-r-adoption-and-challenges">Theme: R Adoption and Challenges</h3>
-<ul>
-<li><p>The adoption of R requires varied types of commitment depending on the perspective of the stakeholders involved, notably management and employees.</p></li>
-<li><p>Leadership usually supports the adoption of R, yet, in many cases, they don’t adequately communicate or advocate its application. Common concerns include the lack of realized ROI and the perception of R as a “nice-to-have” rather than a necessity.</p></li>
-<li><p>It is not viable to mandate or compel individuals to learn R.</p></li>
-<li><p>Seasoned programmers, who prefer proprietary software, may leave the company if forced to switch.</p></li>
-<li><p>These programmers often prefer to maintain current workflows that involve proprietary tools, established macros, homegrown IDEs, etc.</p></li>
-<li><p>Some in management endorse an approach of “mandate” or “force,” while others aim to “encourage.”</p></li>
-<li><p>Experienced stat programmers cite R’s learning curve as an obstacle to transition, and some don’t see the ROI in making the switch.</p></li>
-</ul>
-</section>
-<section id="theme-change-management" class="level3">
-<h3 class="anchored" data-anchor-id="theme-change-management">Theme: Change Management</h3>
-<ul>
-<li><p>Implementing proper change management was emphasized by several attendees in both sessions.</p></li>
-<li><p>Organically, through change management, approximately 25% of experienced statistical programmers or statisticians have successfully completed R training, while the remaining 75% have shown resistance.</p></li>
-<li><p>Among the successful 25%, only 5% have applied what they’ve learned in actual study work. This is often due to time constraints related to product deliverables.</p></li>
-<li><p>Mapping the transition to R with learning and development goals is one strategy.</p></li>
-<li><p>A structured learning plan and a roadmap for R upskilling are essential. This includes trainings focused on R, particularly in the context of the pharmaceutical industry, and from a proprietary software programmer’s perspective.</p></li>
-<li><p>Identification of champions or early adopters among statistical programmers could aid in transitioning colleagues.</p></li>
-<li><p>Several companies shared their strategies for promoting community learning (e.g., bi-monthly meetings, presentations, assignments), both on a “just in time” basis and on a regular schedule.</p></li>
-<li><p>Pointing individuals to ongoing efforts and resources, such as R in Pharma, PharmaVerse, Phuse, etc., can boost awareness and participation.</p></li>
-<li><p>Granting individuals protected or dedicated time to learn and fail is recommended. An analogy used was “giving them a safe sandbox to try making a castle.”</p></li>
-<li><p>R need not be used for all tasks immediately. A more measured approach, such as starting with creating figures and then moving to more complex tasks, like AdAM programming, could better build confidence and competence.</p></li>
-<li><p>Ensuring enough transition time and clear direction (“as of X date, we’ll work in R”) is crucial.</p></li>
-<li><p>Having leadership advocacy is vital at the end of the day.</p></li>
-</ul>
-</section>
-<section id="theme-emerging-talent" class="level3">
-<h3 class="anchored" data-anchor-id="theme-emerging-talent">Theme: Emerging Talent</h3>
-<ul>
-<li><p>Newer talent is increasingly trained in open-source approaches and languages, with fewer exposed to proprietary tools.</p></li>
-<li><p>With the rise of data science as a field of study, many are less interested in joining a company for routine implementation work; they identify as “data scientists” and have been trained in markedly different ways.</p></li>
-<li><p>This affects talent attraction, development, and retention within a company.</p></li>
-<li><p>Innovation can come from new hires, justifying the need to foster their development and listen to their insights.</p></li>
-<li><p>There’s a unique opportunity for co-mentorship: new hires (proficient in R, Python, etc.) and existing staff (experts in domain knowledge, clinical trials, etc.):&nbsp;<em>how vs what/why</em></p></li>
-<li><p>There’s a need for clear “career pathing” or “trajectories” within statistical programming as roles evolve. Examples include:</p>
-<ul>
-<li>“Analyst” requires traditional statistical programming knowledge and training</li>
-<li>“Engineer” needs DevOps skills and a systems mindset</li>
-<li>“Tool builder” needs a software engineering mindset</li>
-</ul></li>
-<li><p>General trends suggest companies are demanding a secondary language in addition to proprietary software (not necessarily R), but knowledge of at least two languages indicates an individual could reasonably learn R.</p></li>
-</ul>
-</section>
-<section id="theme-other-points-and-considerations" class="level3">
-<h3 class="anchored" data-anchor-id="theme-other-points-and-considerations">Theme: Other Points and Considerations</h3>
-<ul>
-<li><p>Questions to consider include:&nbsp;<em>What kind of training will people need in the future state?</em>&nbsp;<em>How should the support be arranged to enable the future state, potentially with IT and DEV involvement?</em></p></li>
-<li><p>Due to the required skillset, statistics and programming now need to work together more than ever</p></li>
-<li><p>Stakeholders seek the benefits of R (e.g., Shiny, Rmarkdown), but often lack personnel to build and maintain these assets.</p></li>
-<li><p>R and Shiny tools can be utilized in more areas beyond TLF programming such as dose decision meetings, clinical trial design, administrative tasks, and long-term-focused applications.</p></li>
-<li><p>Legacy infrastructure (e.g., virtual machines and proprietary software) can pose challenges when implementing newer approaches like R and Shiny, making the transition difficult and cumbersome.</p></li>
-<li><p>AI and GPT can be a valuable tool in transitioning to R, but won’t completely replace a programmer. It can be used to effectively explain or translate existing code or generate entirely new code.</p></li>
-</ul>
-
-
-</section>
-</section>
-</section>
-
- ]]></description>
-  <category>2023</category>
-  <category>OS</category>
-  <category>Change management</category>
-  <guid>https://rinpharma.com/docs/summit/posts/2023-change-mgt.html</guid>
-  <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

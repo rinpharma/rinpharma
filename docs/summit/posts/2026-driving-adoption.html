@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A gallery of the previous guests on the R/Pharma Hangouts! Ordered by most recent appearance on the series.">
+<meta name="dcterms.date" content="2026-09-13">
+<meta name="description" content="Getting people on board with open source - training, tooling, deployment, and change management from SAS to R and beyond">
 
-<title>Guests of the R/Pharma Hangouts – R/Pharma</title>
+<title>Driving Adoption (2026) – R/Pharma</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -38,8 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
 <link href="../../../favicon.png" rel="icon" type="image/png">
-<script src="../../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
@@ -77,84 +76,32 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<style>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
+      .quarto-title-block .quarto-title-banner {
+        background: #EDF3F9;
+      }
+</style>
 <!-- _includes/head.html -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.css">
 
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Guests of the R/Pharma Hangouts – R/Pharma">
-<meta property="og:description" content="A gallery of the previous guests on the R/Pharma Hangouts! Ordered by most recent appearance on the series.">
-<meta property="og:image" content="https://rinpharma.com/docs/hangout/guests/images/logo-rinpharma.png">
+<meta property="og:title" content="Driving Adoption (2026) – R/Pharma">
+<meta property="og:description" content="Getting people on board with open source - training, tooling, deployment, and change management from SAS to R and beyond">
+<meta property="og:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta name="twitter:title" content="Guests of the R/Pharma Hangouts – R/Pharma">
-<meta name="twitter:description" content="A gallery of the previous guests on the R/Pharma Hangouts! Ordered by most recent appearance on the series.">
-<meta name="twitter:image" content="https://rinpharma.com/docs/hangout/guests/images/logo-rinpharma.png">
+<meta name="twitter:title" content="Driving Adoption (2026) – R/Pharma">
+<meta name="twitter:description" content="Getting people on board with open source - training, tooling, deployment, and change management from SAS to R and beyond">
+<meta name="twitter:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -263,160 +210,120 @@ window.Quarto = {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Driving Adoption (2026)</h1>
+                  <div>
+        <div class="description">
+          <p>Getting people on board with open source - training, tooling, deployment, and change management from SAS to R and beyond</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">2026</div>
+                <div class="quarto-category">Change management</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 13, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#driving-adoption" id="toc-driving-adoption" class="nav-link active" data-scroll-target="#driving-adoption">Driving Adoption</a>
+  <ul class="collapse">
+  <li><a href="#training-and-tier-one-support" id="toc-training-and-tier-one-support" class="nav-link" data-scroll-target="#training-and-tier-one-support">Training and Tier-One Support</a></li>
+  <li><a href="#deployment-and-environment" id="toc-deployment-and-environment" class="nav-link" data-scroll-target="#deployment-and-environment">Deployment and Environment</a></li>
+  <li><a href="#business-drivers" id="toc-business-drivers" class="nav-link" data-scroll-target="#business-drivers">Business Drivers</a></li>
+  <li><a href="#ais-role-in-adoption" id="toc-ais-role-in-adoption" class="nav-link" data-scroll-target="#ais-role-in-adoption">AI’s Role in Adoption</a></li>
+  <li><a href="#change-fatigue-is-broader-than-sas-r" id="toc-change-fatigue-is-broader-than-sas-r" class="nav-link" data-scroll-target="#change-fatigue-is-broader-than-sas-r">Change Fatigue is Broader Than SAS → R</a></li>
+  <li><a href="#overall-takeaway" id="toc-overall-takeaway" class="nav-link" data-scroll-target="#overall-takeaway">Overall Takeaway</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Guests of the R/Pharma Hangouts</h1>
-</div>
-
-<div>
-  <div class="description">
-    <p>A gallery of the previous guests on the R/Pharma Hangouts! Ordered by most recent appearance on the series.</p>
-  </div>
-</div>
-
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="driving-adoption" class="level1">
+<h1>Driving Adoption</h1>
+<p>See also: <a href="../../../docs/summit/posts/2023-change-mgt.html">2023 Discussion</a>, <a href="../../../docs/summit/posts/2024-change-mgt.html">2024 Discussion</a>, <a href="../../../docs/summit/posts/2025-change-mgt.html">2025 Discussion</a></p>
+<section id="training-and-tier-one-support" class="level2">
+<h2 class="anchored" data-anchor-id="training-and-tier-one-support">Training and Tier-One Support</h2>
+<ul>
+<li><strong>Non-Judgmental Culture</strong>: A programmer with decades of SAS experience may not want to ask how to do a pivot table in R - fear of “looking like a newbie” is a real barrier</li>
+<li><strong>Workshops and Side-by-Side Tooling</strong>: Using Positron with the VS Code SAS extension lets teams work in both languages side by side</li>
+<li><strong>AI as a Learning Buddy</strong>: Encouraging users to ask AI to teach them R (and translate their SAS code) helps overcome the fear of asking colleagues</li>
+</ul>
+</section>
+<section id="deployment-and-environment" class="level2">
+<h2 class="anchored" data-anchor-id="deployment-and-environment">Deployment and Environment</h2>
+<ul>
+<li><strong>Cost Shifts, It Doesn’t Disappear</strong>: Moving from SAS licenses to open source isn’t automatic savings - the spend just moves to infrastructure and platform work</li>
+<li><strong>Frictionless End-User Experience</strong>: Users want to open a tool, do their work, and not fight with environments that fail to load or packages that aren’t available</li>
+<li><strong>DevOps Skills Bundled In</strong>: People comfortable with open source tend to arrive with Git, package management, and Unix skills - a bonus beyond just R proficiency</li>
+</ul>
+</section>
+<section id="business-drivers" class="level2">
+<h2 class="anchored" data-anchor-id="business-drivers">Business Drivers</h2>
+<ul>
+<li><strong>Talent Acquisition</strong>: Finding people who want to work in SAS is getting harder - a major driver for the shift to open source</li>
+<li><strong>The COBOL Analogy</strong>: Long-tenured SAS programmers near end of career have little incentive to change - they may become the highly-paid, scarce specialists of the future</li>
+<li><strong>Time to Learn</strong>: Programmers are too busy day-to-day to learn on their own - enterprises must invest the time and create dedicated learning environments; PositConf talks over the years have highlighted this</li>
+<li><strong>Not a Quick Fix</strong>: Change takes time; people must be given time - this cannot be rushed</li>
+</ul>
+</section>
+<section id="ais-role-in-adoption" class="level2">
+<h2 class="anchored" data-anchor-id="ais-role-in-adoption">AI’s Role in Adoption</h2>
+<ul>
+<li><strong>Best for Intermediate → Advanced</strong>: AI is very helpful for programmers moving from beginner/intermediate to advanced R, less so for going from nothing to R</li>
+<li><strong>SAS → R Translation</strong>: A powerful onboarding technique is taking SAS code, asking AI to write the equivalent in R, and having it explain what it did</li>
+<li><strong>Learning Too Fast?</strong>: Concern that going straight from idea to outcome via AI skips the fundamentals - people may not learn what’s happening in the middle</li>
+</ul>
+</section>
+<section id="change-fatigue-is-broader-than-sas-r" class="level2">
+<h2 class="anchored" data-anchor-id="change-fatigue-is-broader-than-sas-r">Change Fatigue is Broader Than SAS → R</h2>
+<ul>
+<li><strong>“You Won Me Over When I Saw a Shiny App”</strong>: But now the same people are told to learn R, environments, packages, and everything else - the surrounding ecosystem is a stumbling block for people coming from a highly-structured SAS environment</li>
+<li><strong>RStudio → Positron</strong>: Migration currently in progress at many organizations - painful for people who worked in RStudio their entire careers</li>
+<li><strong>Quarto and Beyond</strong>: Other tooling changes (like Quarto) add to the cumulative change load</li>
+</ul>
+</section>
+<section id="overall-takeaway" class="level2">
+<h2 class="anchored" data-anchor-id="overall-takeaway">Overall Takeaway</h2>
+<p>Adoption is fundamentally a people problem. Provide non-judgmental support, give people time, use AI as a translation and tutoring aid, and remember that “change management” is now a continuous state - it’s not just about SAS to R, but a stack of overlapping tooling transitions.</p>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1787011200000" data-listing-file-modified-sort="1789950123415" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
-<a href="../../../docs/hangout/guests/dsjoberg/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="dsjoberg/featured.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Daniel Sjoberg
-</h5>
-<div class="card-subtitle listing-subtitle">
-Data Scientist
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1784592000000" data-listing-file-modified-sort="1789950123417" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
-<a href="../../../docs/hangout/guests/riannone/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="riannone/featured.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Rich Iannone
-</h5>
-<div class="card-subtitle listing-subtitle">
-Senior Software Engineer
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1781568000000" data-listing-file-modified-sort="1789950123416" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="52">
-<a href="../../../docs/hangout/guests/jwade/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="jwade/featured.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-James Wade
-</h5>
-<div class="card-subtitle listing-subtitle">
-Senior Research Scientist
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1779148800000" data-listing-file-modified-sort="1789950123411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
-<a href="../../../docs/hangout/guests/brodrigues/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="brodrigues/featured.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bruno Rodrigues
-</h5>
-<div class="card-subtitle listing-subtitle">
-Statistician
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1776729600000" data-listing-file-modified-sort="1789950123412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
-<a href="../../../docs/hangout/guests/bschloerke/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="bschloerke/featured.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Barret Schloerke
-</h5>
-<div class="card-subtitle listing-subtitle">
-Software Engineer
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1773705600000" data-listing-file-modified-sort="1789950123429" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
-<a href="../../../docs/hangout/guests/spileggi/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="spileggi/featured.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Shannon Pileggi
-</h5>
-<div class="card-subtitle listing-subtitle">
-Associate Director, Data Science
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1773705600000" data-listing-file-modified-sort="1789950123416" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
-<a href="../../../docs/hangout/guests/kushey/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="kushey/featured.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Kevin Ushey
-</h5>
-<div class="card-subtitle listing-subtitle">
-Software Engineer
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1773705600000" data-listing-file-modified-sort="1789950123412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
-<a href="../../../docs/hangout/guests/dpastoor/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="dpastoor/featured.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Devin Pastoor
-</h5>
-<div class="card-subtitle listing-subtitle">
-Chief Technology &amp; Product Officer
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script type="text/javascript">
 
 // replace cmd keyboard shortcut w/ control on non-Mac platforms
@@ -829,6 +736,35 @@ if (!kPlatformMac) {
     }
   });
   </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "rinpharma/rinpharma";
+    script.dataset.repoId = "R_kgDONq2IYg";
+    script.dataset.category = "Announcements";
+    script.dataset.categoryId = "DIC_kwDONq2IYs4Cxbx7";
+    script.dataset.mapping = "url";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -858,7 +794,7 @@ if (!kPlatformMac) {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
