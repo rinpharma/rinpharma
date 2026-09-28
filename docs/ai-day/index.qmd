@@ -17,7 +17,7 @@ format:
 
 The third Annual R/Pharma genAI Day has wrapped up.  The single-day event featured examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.  950 attendees participated.  Thank you to everyone who came and everyone who contributed.
 
-Recordings will be available through the events page shortly.
+Recordings are available on the [events](/docs/events) page.
 
 ```{r}
 #| echo: FALSE
