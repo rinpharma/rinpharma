@@ -82,10 +82,10 @@ workshops_us:
     Length: 3 hr
     Presenters: Bruno Rodrigues (Ministry of Research and Higher Education in Luxembourg)
     Title: A Practical Introduction to Reproducible R with Nix & rix
-  - Date: "2026-10-01 12:00AM"
-    Length: 2 hr
-    Presenters: Arryn Panagos (Eli Lilly)
-    Title: 'What Happens When You Stop Telling AI to "Be More Careful" and Start Constraining What It Can See'
+#  - Date: "2026-10-01 12:00PM"
+#    Length: 2 hr
+#    Presenters: Arryn Panagos (Eli Lilly)
+#    Title: 'What Happens When You Stop Telling AI to "Be More Careful" and Start Constraining What It Can See'
   - Date: "2026-10-01 1:00PM"
     Length: 2 hr
     Presenters: Yi Guo (Pfizer)
@@ -121,7 +121,7 @@ workshops_apac:
     Title: "Simple tricks to improve your 'ggplot2' data visualisations"
 ---
 
-R/Pharma is thrilled to bring 25 workshops and a Pharmaverse hackathon across Europe/US and Asia Pacific timezones.  Workshops will run between September 28th and October 1st.  Registration is via the R/Pharma [registration page](https://events.zoom.us/ev/Ao58QRuKpY_AuvCDVGqF3tiibvbsLw6MKXn7n_PL2vPdHVQnSAuC~AulApVxluxkRoEef4TZ6ozp1uwmnBHGti8cDERG7p01yOGKH0KXFbLhUNw).
+R/Pharma is thrilled to bring 24 workshops and a Pharmaverse hackathon across Europe/US and Asia Pacific timezones.  Workshops will run between September 28th and October 1st.  Registration is via the R/Pharma [registration page](https://events.zoom.us/ev/Ao58QRuKpY_AuvCDVGqF3tiibvbsLw6MKXn7n_PL2vPdHVQnSAuC~AulApVxluxkRoEef4TZ6ozp1uwmnBHGti8cDERG7p01yOGKH0KXFbLhUNw).
 
 ::: {.hero-buttons}
 [R/Pharma 2026 Registration](https://events.zoom.us/ev/Ao58QRuKpY_AuvCDVGqF3tiibvbsLw6MKXn7n_PL2vPdHVQnSAuC~AulApVxluxkRoEef4TZ6ozp1uwmnBHGti8cDERG7p01yOGKH0KXFbLhUNw){.btn-action-success .btn-action .btn .btn-success .btn-lg role="button" target="_blank"}
