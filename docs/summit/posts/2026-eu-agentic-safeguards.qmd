@@ -1,0 +1,60 @@
+---
+title: Trust and Safeguards for Agentic Workflows (2026 EU Summit)
+description: |
+  Human accountability, technical boundaries, and practical safeguards for agentic workflows in pharma
+categories:
+  - 2026
+  - EU Summit
+  - AI
+date: 2026-10-05
+image-alt: ""
+---
+
+# Trust and Safeguards for Agentic Workflows
+
+Discussion summary from the inaugural R/Pharma EU Summit at Novartis in Basel on October 5, 2026, alongside BioTechX.
+
+See also: [2026 US Discussion](/docs/summit/posts/2026-ai-trust-governance.html)
+
+## Human Accountability and Trust
+
+Both groups agreed that **responsibility stays with the human**, even when an agent does the work. Without trust and safeguards, agents add noise to an already noisy space. The discussion covered ways of working, technical boundaries, and human boundaries.
+
+Problems participants had seen included agents getting things wrong while sounding right, telling users what they want to hear, and showing overconfidence. Participants also mentioned "convergence", apparently referring to answers drifting toward the same result; that interpretation remains uncertain.
+
+## Ways of Working
+
+- **Work in small chunks:** split work up, review each piece, then implement.
+- **Loop engineering:** iterate on specifications, code, tests, and outputs.
+- Maintain version control and traceability, normal programming practice, and standard data protection. These practices are useful beyond AI too.
+
+## Technical Risks and Scaling
+
+- **Agent permissions:** agents can break things or act unexpectedly. Sandbox them and limit access; controlled write access appeared to be part of this discussion. An agent's permissions should not simply match the user's.
+- **Data access:** check what data an agent can actually reach. Test data and methods documents may contain confidential information too.
+- **Unsupervised ("YOLO") mode:** fully autonomous modes still need human judgement and were generally viewed as not approved.
+- **Scaling:** rolling agents out to users with different skills, experience, and tolerance for uncertainty is difficult. It can lead to security compromises and double the effort.
+
+## Safeguards Discussed
+
+Fourteen safeguards were mentioned, but the recording does not clearly identify all of them. Thirteen could be recovered from the summary:
+
+1. Layered controls, likely the intended meaning of the word transcribed as "lawyers".
+2. No internet access, locked-down environments, and controlled write access.
+3. Requests small enough for a human to review.
+4. Review in interactive mode.
+5. Delayed version pinning: avoid being the first to adopt a new package or library release.
+6. The agent proposes and the human approves, for example for package installations.
+7. System-level boundaries.
+8. Start with people so they understand what they are doing.
+9. Observability and inspectability for both users and operations: an uninspectable system is a black box.
+10. Standard data protection and good practice, whether an agent or a human does the work.
+11. Gradually increase autonomy rather than granting full autonomy on day one.
+12. Domain experts help shape safeguards with additional context.
+13. Equivalent safeguards for humans, including clear written rules on what can and cannot be done.
+
+## Open Risks and Takeaway
+
+**Approval fatigue** can undermine human checks: clicking "yes" without reading is not meaningful review. Too many safeguards can also overwhelm people and encourage unthinking acceptance.
+
+The takeaway was to use agents with safeguards in mind, without over-engineering. Practical improvements and quick wins are available today.

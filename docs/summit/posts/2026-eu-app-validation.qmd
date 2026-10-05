@@ -1,0 +1,55 @@
+---
+title: Validation of Data Exploration Apps (2026 EU Summit)
+description: |
+  Risk-based validation, reproducibility, and lifecycle control for Shiny apps used in clinical data exploration
+categories:
+  - 2026
+  - EU Summit
+  - Validation
+  - Shiny
+date: 2026-10-05
+image-alt: ""
+---
+
+# Validation of Data Exploration Apps
+
+Discussion summary from the inaugural R/Pharma EU Summit at Novartis in Basel on October 5, 2026, alongside BioTechX.
+
+See also: [2023 Discussion](/docs/summit/posts/2023-shiny-validation.html), [2024 Discussion](/docs/summit/posts/2024-shiny-validation.html)
+
+## Context and Intended Use
+
+The discussion focused on Shiny apps for clinical data exploration in regulated settings. The two sessions differed sharply: the first assumed validation was essential, while the second questioned why it mattered at all.
+
+**Validation should follow risk and intended use.** Exploratory apps may not need validation, but requirements change when outputs support decisions, investigations, or regulated analyses.
+
+## Lifecycle and Reproducibility
+
+- **Long-running apps need governance:** one company described an app running for seven years. Copying files into folders is not adequate version control.
+- **Control the complete analytical unit:** the app, R packages, data, and preprocessing all matter for reproducibility.
+- **Containers:** containerisation could provide a scalable foundation. Posit's support for containerised Shiny apps could help standardise infrastructure and its qualification.
+- **Reusable validated frameworks:** companies described validated R packages for outputs, likely tables, listings, and graphs (TLGs), built on ADaM datasets that could support Shiny apps.
+
+## Testing and Delivery Challenges
+
+Quality control remains manual and labour-intensive: review, visual inspection, double programming, and screenshot comparisons against exported results.
+
+An alternative was to treat the entire app as an R package, apparently using a golem-style approach. Define expected functionality, attach tests to features, and systematically check outputs. Participants suggested this could substantially reduce validation time.
+
+Interactive outputs bring additional difficulties. Safety-signal views, spaghetti plots, and 3D visualisations may not reproduce like static reports. Conventional software validation can take months, while business or clinical decisions may be needed within weeks.
+
+## Changing Data and AI
+
+A validated app may need controlled data snapshots. Each data update must be shown not to break the app, effectively requiring validation of the data as well as the software.
+
+AI might eventually help with validation, but its models and guardrails would need validation too. Using one model to validate another raises questions about trust, skills, and quality.
+
+## Proposed Way Forward
+
+Fully validating interactive Shiny apps remains difficult and can be impractical. Participants proposed combining:
+
+- A risk-based approach and clearly defined intended use.
+- Controlled containers and validated packages.
+- Automated testing.
+- Controlled version management.
+- Reusable data snapshots.
