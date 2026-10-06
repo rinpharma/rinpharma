@@ -29,13 +29,12 @@ Participants saw renv as mature and stable, unlike earlier versions that could b
 ## Pain Points
 
 - **System dependencies:** R packages and system libraries, including library versions, remain disconnected. Participants debated whether this reflects current setups or a fundamental limitation.
-- **Regulatory reproduction:** a renv.lock file alone does not give FDA or EMA the correct system libraries or R version.
-- **Installation qualification:** updating packages separately from the rest of the environment was criticised as simulating qualification while leaving unresolved work to users.
-- **Deployment metadata:** Posit Connect was described as using packrat-style package definitions, although this detail was uncertain. Retrieving code from Connect can therefore produce a different format; participants also questioned whether deployment tools should be the source of code at all.
+- **Regulatory reproduction:** a renv.lock file alone does not give FDA or EMA the correct system libraries or R version installed.
+- **Installation qualification:** updating packages separately from the rest of the environment was called out as simulating qualification and then it happens for real later.
 
 ## Workarounds and Good Practice
 
-- One company detects lock files created with a different R version, stops the user, and explains how to proceed.
+- One company detects renv lock files created with a different R version, stops the user, and explains how to proceed.
 - A six-month frozen cycle was generally considered workable, especially with a semi-frozen layer between releases. It requires early planning with IT and advance specification of needs.
 - Separate what affects analytical reproducibility from what does not: for example, does the IDE version affect results?
 - Make the same GxP environments available in interactive sessions, HPC, Posit Connect, and other app hosting. Differences between platforms cause substantial friction.
