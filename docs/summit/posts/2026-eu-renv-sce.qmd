@@ -20,7 +20,7 @@ See also: [2026 US Discussion](/docs/summit/posts/2026-env-packages.html)
 
 - **Three companies** use renv as part of their statistical computing environment (SCE).
 - **Three** use frozen environments with pre-installed packages, making renv less relevant.
-- **Two** use renv partially to layer packages onto an environment, similar to GSK's "slushy" approach presented at PHUSE and posit::conf.
+- **Two** use renv partially to layer packages onto an environment
 
 The most common package refresh cycle was **six months**. One company freezes its container but updates packages weekly. Another makes new validated package sets available on demand through Posit Package Manager snapshots.
 
