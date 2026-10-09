@@ -6,12 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Matthew Kumar">
-<meta name="author" content="Cassie Burns">
-<meta name="dcterms.date" content="2023-09-18">
-<meta name="description" content="Transitioning from SAS to R in the Pharmaceutical Industry">
+<meta name="dcterms.date" content="2026-10-05">
+<meta name="description" content="Practices and trade-offs for supplying R packages to GxP analyses across frozen, semi-frozen, and project-specific environments">
 
-<title>Change management (2023) – R/Pharma</title>
+<title>Does renv Make Sense in an SCE? (2026 EU Summit) – R/Pharma</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -90,12 +88,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Change management (2023) – R/Pharma">
-<meta property="og:description" content="Transitioning from SAS to R in the Pharmaceutical Industry">
+<meta property="og:title" content="Does renv Make Sense in an SCE? (2026 EU Summit) – R/Pharma">
+<meta property="og:description" content="Practices and trade-offs for supplying R packages to GxP analyses across frozen, semi-frozen, and project-specific environments">
 <meta property="og:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta property="og:site_name" content="R/Pharma">
-<meta name="twitter:title" content="Change management (2023) – R/Pharma">
-<meta name="twitter:description" content="Transitioning from SAS to R in the Pharmaceutical Industry">
+<meta name="twitter:title" content="Does renv Make Sense in an SCE? (2026 EU Summit) – R/Pharma">
+<meta name="twitter:description" content="Practices and trade-offs for supplying R packages to GxP analyses across frozen, semi-frozen, and project-specific environments">
 <meta name="twitter:image" content="https://rinpharma.com/docs/summit/posts/images/logo-rinpharma.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -219,17 +217,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Change management (2023)</h1>
-            <p class="subtitle lead">Matthew Kumar and Cassie Burns</p>
+      <h1 class="title">Does renv Make Sense in an SCE? (2026 EU Summit)</h1>
                   <div>
         <div class="description">
-          <p>Transitioning from SAS to R in the Pharmaceutical Industry</p>
+          <p>Practices and trade-offs for supplying R packages to GxP analyses across frozen, semi-frozen, and project-specific environments</p>
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">2023</div>
-                <div class="quarto-category">OS</div>
-                <div class="quarto-category">Change management</div>
+                <div class="quarto-category">2026</div>
+                <div class="quarto-category">EU Summit</div>
+                <div class="quarto-category">SCE</div>
               </div>
                   </div>
   </div>
@@ -237,18 +234,11 @@ ul.task-list li input[type="checkbox"] {
   
   <div class="quarto-title-meta">
 
-      <div>
-      <div class="quarto-title-meta-heading">Authors</div>
-      <div class="quarto-title-meta-contents">
-               <p>Matthew Kumar </p>
-               <p>Cassie Burns </p>
-            </div>
-    </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 18, 2023</p>
+        <p class="date">October 5, 2026</p>
       </div>
     </div>
     
@@ -263,16 +253,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#change-management" id="toc-change-management" class="nav-link active" data-scroll-target="#change-management">Change management</a>
+  <li><a href="#does-renv-make-sense-in-an-sce" id="toc-does-renv-make-sense-in-an-sce" class="nav-link active" data-scroll-target="#does-renv-make-sense-in-an-sce">Does renv Make Sense in an SCE?</a>
   <ul class="collapse">
-  <li><a href="#question" id="toc-question" class="nav-link" data-scroll-target="#question">Question</a></li>
-  <li><a href="#who-are-our-people" id="toc-who-are-our-people" class="nav-link" data-scroll-target="#who-are-our-people">Who are our people?</a>
-  <ul class="collapse">
-  <li><a href="#theme-r-adoption-and-challenges" id="toc-theme-r-adoption-and-challenges" class="nav-link" data-scroll-target="#theme-r-adoption-and-challenges">Theme: R Adoption and Challenges</a></li>
-  <li><a href="#theme-change-management" id="toc-theme-change-management" class="nav-link" data-scroll-target="#theme-change-management">Theme: Change Management</a></li>
-  <li><a href="#theme-emerging-talent" id="toc-theme-emerging-talent" class="nav-link" data-scroll-target="#theme-emerging-talent">Theme: Emerging Talent</a></li>
-  <li><a href="#theme-other-points-and-considerations" id="toc-theme-other-points-and-considerations" class="nav-link" data-scroll-target="#theme-other-points-and-considerations">Theme: Other Points and Considerations</a></li>
-  </ul></li>
+  <li><a href="#practices-reported-in-the-discussion" id="toc-practices-reported-in-the-discussion" class="nav-link" data-scroll-target="#practices-reported-in-the-discussion">Practices Reported in the Discussion</a></li>
+  <li><a href="#pain-points" id="toc-pain-points" class="nav-link" data-scroll-target="#pain-points">Pain Points</a></li>
+  <li><a href="#workarounds-and-good-practice" id="toc-workarounds-and-good-practice" class="nav-link" data-scroll-target="#workarounds-and-good-practice">Workarounds and Good Practice</a></li>
+  <li><a href="#alternatives-and-validation-updates" id="toc-alternatives-and-validation-updates" class="nav-link" data-scroll-target="#alternatives-and-validation-updates">Alternatives and Validation Updates</a></li>
+  <li><a href="#consensus-and-main-takeaway" id="toc-consensus-and-main-takeaway" class="nav-link" data-scroll-target="#consensus-and-main-takeaway">Consensus and Main Takeaway</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
@@ -288,83 +275,50 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="change-management" class="level1">
-<h1>Change management</h1>
-<p>Chairs: Matthew Kumar and Cassie Burns</p>
-<p>See also: <a href="../../../docs/summit/posts/2024-change-mgt.html">2024 Discussion</a></p>
-<section id="question" class="level2">
-<h2 class="anchored" data-anchor-id="question">Question</h2>
-<p>Where are we on getting data analysts and data scientists that work with clinical data on board (in particular, those delivering CSRs and submission packages)? What are the challenges - what has been overcome?</p>
-</section>
-<section id="who-are-our-people" class="level2">
-<h2 class="anchored" data-anchor-id="who-are-our-people">Who are our people?</h2>
-<p>Prefaced both sessions by asking individuals to define the <em>our</em> in <em>our people</em>;</p>
+<section id="does-renv-make-sense-in-an-sce" class="level1">
+<h1>Does renv Make Sense in an SCE?</h1>
+<p>Discussion summary from the inaugural R/Pharma EU Summit at Novartis in Basel on October 5, 2026, alongside BioTechX, on best practices for providing R packages to GxP analyses.</p>
+<p>See also: <a href="../../../docs/summit/posts/2026-env-packages.html">2026 US Discussion</a></p>
+<section id="practices-reported-in-the-discussion" class="level2">
+<h2 class="anchored" data-anchor-id="practices-reported-in-the-discussion">Practices Reported in the Discussion</h2>
 <ul>
-<li>Stat Programmers</li>
-<li>Statisticians</li>
-<li>Data Management</li>
-<li>Other CSR-deliverable oriented roles (e.g.&nbsp;medical and scientific writing)</li>
-<li>Management, Leadership</li>
+<li><strong>Three companies</strong> use renv as part of their statistical computing environment (SCE).</li>
+<li><strong>Three</strong> use frozen environments with pre-installed packages, making renv less relevant.</li>
+<li><strong>Two</strong> use renv partially to layer packages onto an environment</li>
 </ul>
-<section id="theme-r-adoption-and-challenges" class="level3">
-<h3 class="anchored" data-anchor-id="theme-r-adoption-and-challenges">Theme: R Adoption and Challenges</h3>
+<p>The most common package refresh cycle was <strong>six months</strong>. One company freezes its container but updates packages weekly. Another makes new validated package sets available on demand through Posit Package Manager snapshots.</p>
+<p>Participants saw renv as mature and stable, unlike earlier versions that could break projects. However, an average statistician or programmer generally needs support when it breaks. One company uses its dependency detection without otherwise adopting it. Participants reported that every company represented uses renv at least for exploratory work.</p>
+</section>
+<section id="pain-points" class="level2">
+<h2 class="anchored" data-anchor-id="pain-points">Pain Points</h2>
 <ul>
-<li><p>The adoption of R requires varied types of commitment depending on the perspective of the stakeholders involved, notably management and employees.</p></li>
-<li><p>Leadership usually supports the adoption of R, yet, in many cases, they don’t adequately communicate or advocate its application. Common concerns include the lack of realized ROI and the perception of R as a “nice-to-have” rather than a necessity.</p></li>
-<li><p>It is not viable to mandate or compel individuals to learn R.</p></li>
-<li><p>Seasoned programmers, who prefer proprietary software, may leave the company if forced to switch.</p></li>
-<li><p>These programmers often prefer to maintain current workflows that involve proprietary tools, established macros, homegrown IDEs, etc.</p></li>
-<li><p>Some in management endorse an approach of “mandate” or “force,” while others aim to “encourage.”</p></li>
-<li><p>Experienced stat programmers cite R’s learning curve as an obstacle to transition, and some don’t see the ROI in making the switch.</p></li>
+<li><strong>System dependencies:</strong> R packages and system libraries, including library versions, remain disconnected. Participants debated whether this reflects current setups or a fundamental limitation.</li>
+<li><strong>Regulatory reproduction:</strong> a renv.lock file alone does not give FDA or EMA the correct system libraries or R version installed.</li>
+<li><strong>Installation qualification:</strong> updating packages separately from the rest of the environment was called out as simulating qualification and then it happens for real later.</li>
 </ul>
 </section>
-<section id="theme-change-management" class="level3">
-<h3 class="anchored" data-anchor-id="theme-change-management">Theme: Change Management</h3>
+<section id="workarounds-and-good-practice" class="level2">
+<h2 class="anchored" data-anchor-id="workarounds-and-good-practice">Workarounds and Good Practice</h2>
 <ul>
-<li><p>Implementing proper change management was emphasized by several attendees in both sessions.</p></li>
-<li><p>Organically, through change management, approximately 25% of experienced statistical programmers or statisticians have successfully completed R training, while the remaining 75% have shown resistance.</p></li>
-<li><p>Among the successful 25%, only 5% have applied what they’ve learned in actual study work. This is often due to time constraints related to product deliverables.</p></li>
-<li><p>Mapping the transition to R with learning and development goals is one strategy.</p></li>
-<li><p>A structured learning plan and a roadmap for R upskilling are essential. This includes trainings focused on R, particularly in the context of the pharmaceutical industry, and from a proprietary software programmer’s perspective.</p></li>
-<li><p>Identification of champions or early adopters among statistical programmers could aid in transitioning colleagues.</p></li>
-<li><p>Several companies shared their strategies for promoting community learning (e.g., bi-monthly meetings, presentations, assignments), both on a “just in time” basis and on a regular schedule.</p></li>
-<li><p>Pointing individuals to ongoing efforts and resources, such as R in Pharma, PharmaVerse, Phuse, etc., can boost awareness and participation.</p></li>
-<li><p>Granting individuals protected or dedicated time to learn and fail is recommended. An analogy used was “giving them a safe sandbox to try making a castle.”</p></li>
-<li><p>R need not be used for all tasks immediately. A more measured approach, such as starting with creating figures and then moving to more complex tasks, like AdAM programming, could better build confidence and competence.</p></li>
-<li><p>Ensuring enough transition time and clear direction (“as of X date, we’ll work in R”) is crucial.</p></li>
-<li><p>Having leadership advocacy is vital at the end of the day.</p></li>
+<li>One company detects renv lock files created with a different R version, stops the user, and explains how to proceed.</li>
+<li>A six-month frozen cycle was generally considered workable, especially with a semi-frozen layer between releases. It requires early planning with IT and advance specification of needs.</li>
+<li>Separate what affects analytical reproducibility from what does not: for example, does the IDE version affect results?</li>
+<li>Make the same GxP environments available in interactive sessions, HPC, Posit Connect, and other app hosting. Differences between platforms cause substantial friction.</li>
+<li>Manage containers and R packages together rather than independently of the Dockerfile. This could address many problems, but containers are a more complex layer: users may learn renv without becoming comfortable managing Dockerfiles.</li>
 </ul>
 </section>
-<section id="theme-emerging-talent" class="level3">
-<h3 class="anchored" data-anchor-id="theme-emerging-talent">Theme: Emerging Talent</h3>
-<ul>
-<li><p>Newer talent is increasingly trained in open-source approaches and languages, with fewer exposed to proprietary tools.</p></li>
-<li><p>With the rise of data science as a field of study, many are less interested in joining a company for routine implementation work; they identify as “data scientists” and have been trained in markedly different ways.</p></li>
-<li><p>This affects talent attraction, development, and retention within a company.</p></li>
-<li><p>Innovation can come from new hires, justifying the need to foster their development and listen to their insights.</p></li>
-<li><p>There’s a unique opportunity for co-mentorship: new hires (proficient in R, Python, etc.) and existing staff (experts in domain knowledge, clinical trials, etc.):&nbsp;<em>how vs what/why</em></p></li>
-<li><p>There’s a need for clear “career pathing” or “trajectories” within statistical programming as roles evolve. Examples include:</p>
-<ul>
-<li>“Analyst” requires traditional statistical programming knowledge and training</li>
-<li>“Engineer” needs DevOps skills and a systems mindset</li>
-<li>“Tool builder” needs a software engineering mindset</li>
-</ul></li>
-<li><p>General trends suggest companies are demanding a secondary language in addition to proprietary software (not necessarily R), but knowledge of at least two languages indicates an individual could reasonably learn R.</p></li>
-</ul>
+<section id="alternatives-and-validation-updates" class="level2">
+<h2 class="anchored" data-anchor-id="alternatives-and-validation-updates">Alternatives and Validation Updates</h2>
+<p>Tools mentioned included <strong>pixi</strong>, described as effectively an operating system inside an operating system; <strong>rv</strong>, with enthusiastic supporters; <strong>rix</strong>, heavily discussed in the second session and seen as emerging quickly; <strong>pak</strong>; and <strong>Nix</strong>, generally considered too complicated by more technical participants. Whatever is chosen will eventually need to support both R and Python analyses.</p>
+<p>R Validation Hub updates included <strong>val.pipeline</strong>, described as running riskmetric assessments across packages, and <strong>val.meter</strong>.</p>
+<p>The discussion also considered what validation can automate and what still requires judgement. Is documentation good enough, and do tests cover its claims? Whether AI could help assess those subjective links remained open.</p>
 </section>
-<section id="theme-other-points-and-considerations" class="level3">
-<h3 class="anchored" data-anchor-id="theme-other-points-and-considerations">Theme: Other Points and Considerations</h3>
-<ul>
-<li><p>Questions to consider include:&nbsp;<em>What kind of training will people need in the future state?</em>&nbsp;<em>How should the support be arranged to enable the future state, potentially with IT and DEV involvement?</em></p></li>
-<li><p>Due to the required skillset, statistics and programming now need to work together more than ever</p></li>
-<li><p>Stakeholders seek the benefits of R (e.g., Shiny, Rmarkdown), but often lack personnel to build and maintain these assets.</p></li>
-<li><p>R and Shiny tools can be utilized in more areas beyond TLF programming such as dose decision meetings, clinical trial design, administrative tasks, and long-term-focused applications.</p></li>
-<li><p>Legacy infrastructure (e.g., virtual machines and proprietary software) can pose challenges when implementing newer approaches like R and Shiny, making the transition difficult and cumbersome.</p></li>
-<li><p>AI and GPT can be a valuable tool in transitioning to R, but won’t completely replace a programmer. It can be used to effectively explain or translate existing code or generate entirely new code.</p></li>
-</ul>
+<section id="consensus-and-main-takeaway" class="level2">
+<h2 class="anchored" data-anchor-id="consensus-and-main-takeaway">Consensus and Main Takeaway</h2>
+<p>Participants unanimously rejected language-to-language comparison with SAS as a way to determine whether an R environment works as intended.</p>
+<p>This is a <strong>change-management challenge</strong> as much as a tooling choice. renv requires users to understand lock files and recovery; containers require familiarity with semi-frozen environments. Whatever the approach, the user experience must be acceptable.</p>
 
 
-</section>
 </section>
 </section>
 
