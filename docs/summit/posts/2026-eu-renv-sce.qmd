@@ -1,0 +1,55 @@
+---
+title: Does renv Make Sense in an SCE? (2026 EU Summit)
+description: |
+  Practices and trade-offs for supplying R packages to GxP analyses across frozen, semi-frozen, and project-specific environments
+categories:
+  - 2026
+  - EU Summit
+  - SCE
+date: 2026-10-05
+image-alt: ""
+---
+
+# Does renv Make Sense in an SCE?
+
+Discussion summary from the inaugural R/Pharma EU Summit at Novartis in Basel on October 5, 2026, alongside BioTechX, on best practices for providing R packages to GxP analyses.
+
+See also: [2026 US Discussion](/docs/summit/posts/2026-env-packages.html)
+
+## Practices Reported in the Discussion
+
+- **Three companies** use renv as part of their statistical computing environment (SCE).
+- **Three** use frozen environments with pre-installed packages, making renv less relevant.
+- **Two** use renv partially to layer packages onto an environment
+
+The most common package refresh cycle was **six months**. One company freezes its container but updates packages weekly. Another makes new validated package sets available on demand through Posit Package Manager snapshots.
+
+Participants saw renv as mature and stable, unlike earlier versions that could break projects. However, an average statistician or programmer generally needs support when it breaks. One company uses its dependency detection without otherwise adopting it. Participants reported that every company represented uses renv at least for exploratory work.
+
+## Pain Points
+
+- **System dependencies:** R packages and system libraries, including library versions, remain disconnected. Participants debated whether this reflects current setups or a fundamental limitation.
+- **Regulatory reproduction:** a renv.lock file alone does not give FDA or EMA the correct system libraries or R version installed.
+- **Installation qualification:** updating packages separately from the rest of the environment was called out as simulating qualification and then it happens for real later.
+
+## Workarounds and Good Practice
+
+- One company detects renv lock files created with a different R version, stops the user, and explains how to proceed.
+- A six-month frozen cycle was generally considered workable, especially with a semi-frozen layer between releases. It requires early planning with IT and advance specification of needs.
+- Separate what affects analytical reproducibility from what does not: for example, does the IDE version affect results?
+- Make the same GxP environments available in interactive sessions, HPC, Posit Connect, and other app hosting. Differences between platforms cause substantial friction.
+- Manage containers and R packages together rather than independently of the Dockerfile. This could address many problems, but containers are a more complex layer: users may learn renv without becoming comfortable managing Dockerfiles.
+
+## Alternatives and Validation Updates
+
+Tools mentioned included **pixi**, described as effectively an operating system inside an operating system; **rv**, with enthusiastic supporters; **rix**, heavily discussed in the second session and seen as emerging quickly; **pak**; and **Nix**, generally considered too complicated by more technical participants. Whatever is chosen will eventually need to support both R and Python analyses.
+
+R Validation Hub updates included **val.pipeline**, described as running riskmetric assessments across packages, and **val.meter**.
+
+The discussion also considered what validation can automate and what still requires judgement. Is documentation good enough, and do tests cover its claims? Whether AI could help assess those subjective links remained open.
+
+## Consensus and Main Takeaway
+
+Participants unanimously rejected language-to-language comparison with SAS as a way to determine whether an R environment works as intended.
+
+This is a **change-management challenge** as much as a tooling choice. renv requires users to understand lock files and recovery; containers require familiarity with semi-frozen environments. Whatever the approach, the user experience must be acceptable.

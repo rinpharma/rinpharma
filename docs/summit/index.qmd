@@ -19,7 +19,7 @@ search: false
 
 Our summit builds on one of the initial goals of R/Pharma - to bring people together in a room and start the conversations.  The first two years of R/Pharma were solely in-person events where amazing work was discussed, sparking industry initiatives.  When we moved to online conferences, the benefit of face-to-face interaction was lost.  The R/Pharma Summit brings it back.
 
-Each year we host a face-to-face summit as posit::conf, bringing thought leaders and decision makers together in a room to discuss all things open source and Pharma.  The notes taken, and any actions, are shared with the community.
+Our face-to-face summits bring thought leaders and decision makers together to discuss all things open source and Pharma. The US summit takes place alongside posit::conf. In 2026, we also held our inaugural EU summit at Novartis in Basel, Switzerland, on October 5, alongside BioTechX. The notes taken, and any actions, are shared with the community.
 
 ::: {.hello-quarto}
 ::: {.content-block}
@@ -30,16 +30,19 @@ Each year we host a face-to-face summit as posit::conf, bringing thought leaders
 
 <ul class="nav nav-pills" id="hello-quarto-tab" role="tablist">
   <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="summit-2026-us-tab" data-bs-toggle="tab" data-bs-target="#summit-2026-us" type="button" role="tab" aria-controls="summit-2026-us" aria-selected="true">2026 Summit (US)</button>
+    <button class="nav-link active" id="summit-2026-eu-tab" data-bs-toggle="tab" data-bs-target="#summit-2026-eu" type="button" role="tab" aria-controls="summit-2026-eu" aria-selected="true">2026 Summit (EU)</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="summit-2025-tab" data-bs-toggle="tab" data-bs-target="#summit-2025" type="button" role="tab" aria-controls="summit-2025" aria-selected="true">2025 Summit</button>
+    <button class="nav-link" id="summit-2026-us-tab" data-bs-toggle="tab" data-bs-target="#summit-2026-us" type="button" role="tab" aria-controls="summit-2026-us" aria-selected="false">2026 Summit (US)</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="summit-2024-tab" data-bs-toggle="tab" data-bs-target="#summit-2024" type="button" role="tab" aria-controls="summit-2024" aria-selected="true">2024 Summit</button>
+    <button class="nav-link" id="summit-2025-tab" data-bs-toggle="tab" data-bs-target="#summit-2025" type="button" role="tab" aria-controls="summit-2025" aria-selected="false">2025 Summit</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="summit-2023-tab" data-bs-toggle="tab" data-bs-target="#summit-2023" type="button" role="tab" aria-controls="summit-2023" aria-selected="true">2023 Summit</button>
+    <button class="nav-link" id="summit-2024-tab" data-bs-toggle="tab" data-bs-target="#summit-2024" type="button" role="tab" aria-controls="summit-2024" aria-selected="false">2024 Summit</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="summit-2023-tab" data-bs-toggle="tab" data-bs-target="#summit-2023" type="button" role="tab" aria-controls="summit-2023" aria-selected="false">2023 Summit</button>
   </li>
   <li class="nav-item" role="presentation">
     <button class="nav-link" id="summit-references-tab" data-bs-toggle="tab" data-bs-target="#references" type="button" role="tab" aria-controls="references" aria-selected="false">References</button>
@@ -50,7 +53,27 @@ Each year we host a face-to-face summit as posit::conf, bringing thought leaders
 
 <div class="tab-content" id="hello-quarto-tabcontent">
 
-<div class="tab-pane fade show active" id="summit-2026-us" role="tabpanel" aria-labelledby="summit-2026-tab-us">
+<div class="tab-pane fade show active" id="summit-2026-eu" role="tabpanel" aria-labelledby="summit-2026-eu-tab">
+
+::: {.grid}
+::: {.g-col-lg-12 .g-col-12}
+
+### {{< fa users >}} 2026 F2F Roundtables in Basel (EU Summit)
+
+The inaugural R/Pharma EU Summit took place at Novartis in Basel, Switzerland, on October 5, 2026, alongside BioTechX. Participants discussed the following five round-table topics:
+
+- [Trust and Safeguards for Agentic Workflows](/docs/summit/posts/2026-eu-agentic-safeguards.html)
+- [Open Source in Filings: R Validation in 2026](/docs/summit/posts/2026-eu-open-source-submissions.html)
+- [Validation of Data Exploration Apps](/docs/summit/posts/2026-eu-app-validation.html)
+- [Does renv Make Sense in an SCE?](/docs/summit/posts/2026-eu-renv-sce.html)
+- [Rule-Based vs AI-Driven Automation](/docs/summit/posts/2026-eu-automation.html)
+
+:::
+:::
+
+</div>
+
+<div class="tab-pane fade" id="summit-2026-us" role="tabpanel" aria-labelledby="summit-2026-us-tab">
 
 ::: {.grid}
 ::: {.g-col-lg-12 .g-col-12}

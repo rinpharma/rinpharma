@@ -1,0 +1,56 @@
+---
+title: Rule-Based vs AI-Driven Automation (2026 EU Summit)
+description: |
+  Blending deterministic building blocks with AI orchestration, while retaining human accountability and verification
+categories:
+  - 2026
+  - EU Summit
+  - AI
+  - Automation
+date: 2026-10-05
+image-alt: ""
+---
+
+# Rule-Based (Deterministic) vs AI-Driven Automation
+
+Discussion summary from the inaugural R/Pharma EU Summit at Novartis in Basel on October 5, 2026, alongside BioTechX.
+
+See also: [2026 US Discussion](/docs/summit/posts/2026-ai-practice.html)
+
+## What Are We Optimising For?
+
+Traditional automation aims to increase speed and remove repetitive work. AI blurs that objective: is the benefit speed, greater scope, or flexibility for stakeholders? The group did not reach a firm answer.
+
+Company KPIs were described as crude, such as average time per dataset or per table, figure, or listing (TFL). These indicate direction but ignore variation, making it hard to assess the value of speed or its trade-offs.
+
+## Deterministic Results from Non-Deterministic Processes
+
+AI is usually considered non-deterministic, but a human writing code is not deterministic either. What persists is the resulting program; what matters is whether its numbers are correct. **AI-assisted development can still produce a deterministic result.**
+
+The group saw limited value in trying to make AI itself more deterministic. Models change so quickly that a carefully tuned pipeline can be overtaken by a new model.
+
+## Trust, Validation, and Standardisation
+
+- **Human accountability remains:** whatever produces the code, a human is responsible for the output.
+- **Domain expertise matters:** participants may not consider themselves AI experts, but they are experts in producing reporting outputs. That knowledge needs to be built into workflows.
+- **Black-box concerns:** stakeholders may supply finished outputs, such as a PowerPoint, without explaining how they were made. There was no clear solution, but code should at least be archived for later checking.
+- **Broader standardisation:** standardise prompts and AI skills as well as calculations, and share effective ways of using AI.
+
+## A Blended Model
+
+There was little appetite for generating new code each time for routine outputs such as a standard adverse events table. Complex study designs may need new code. **Intended use should determine the balance:** simple outputs suit classic automation; unusual or complex outputs need greater flexibility.
+
+The group favoured retaining reusable building blocks, such as frequency calculations, survival models, and imputation libraries in a pharmaverse-style approach. AI could orchestrate these blocks, sometimes calling existing code and sometimes generating new code.
+
+## Skills, Roles, and Change Management
+
+The conversation ranged from bleak to exciting. Work may move from **"I write code" to "I review code and write specs"**, making specification-driven development important.
+
+Success still depends on people, readiness, and change management. Whether AI or a human writes code, it must pass through the same pipeline: is it correct, how is it verified, and how does it reach production?
+
+## Open Questions
+
+- Who builds agentic AI workflows?
+- Who owns the work and is liable for the code?
+- Should pharma companies upskill their own staff or seek outside support first?
+- How must roles and organisations change, and how can everyone be brought along?

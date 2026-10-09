@@ -1,0 +1,46 @@
+---
+title: Open Source in Filings - R Validation in 2026 (2026 EU Summit)
+description: |
+  Unresolved reproducibility challenges and possible support models for regulatory reviewers of R submissions
+categories:
+  - 2026
+  - EU Summit
+  - Validation
+date: 2026-10-05
+image-alt: ""
+---
+
+# Are Concerns About Open Source in Filings Solved?
+
+Discussion summary from the inaugural R/Pharma EU Summit at Novartis in Basel on October 5, 2026, alongside BioTechX.
+
+See also: [2026 US Discussion](/docs/summit/posts/2026-open-source-submissions.html)
+
+## Short Answer: Not Fully
+
+The main unresolved problem is how regulatory reviewers can reliably reproduce submitted results. This is especially difficult when a reviewer does not use R or lacks technical support, the required environment, or package setup. Even when a reviewer uses R, reproducibility is not guaranteed.
+
+## Main Concerns
+
+1. **Reproducibility:** reviewers unfamiliar with R face significant barriers to rerunning analyses.
+2. **Validation and verification:** people use these terms differently, particularly in submissions mixing programming languages. Sponsors need to state acceptable discrepancies and explain expected differences explicitly.
+3. **Reviewer readiness:** education and technical readiness vary between agencies. Code alone is insufficient; reviewers may need setup support, instructions for running analyses, and context for interpreting them.
+4. **Dependencies and version changes:** a large package stack behind a clinical study report (CSR) increases installation demands. Reproducing results years later may be difficult as packages and systems change. SAS was perceived as more backward-compatible, potentially making this a concern for open source.
+5. **Human support:** there is no clear support model when reproduction fails. Help may require agency IT, specialist technical teams, and a shared support structure outside the agency.
+
+## Possible Solutions Discussed
+
+These were proposals, not established solutions or regulatory commitments:
+
+- **Set expectations early:** tell reviewers up front that a submission uses open-source tools.
+- **Improve submission documentation:** use a clear Analysis Data Reviewer's Guide (ADRG) template. An R Consortium submissions working group pilot was described as working on this. Video walkthroughs could demonstrate setup and explain what to review in the ADRG and submission.
+- **Make statisticians the first contact:** they are well placed to explain both technical differences and expected analytical discrepancies when reviewers cannot reproduce R results.
+- **Define acceptable discrepancies in advance.**
+- **Provide standardised package environments:** industry could jointly create a curated, regulator-friendly, installable environment rather than only a shared repository. Collaboration with regulator IT was suggested; the specific examples, possibly FDA and China's CDE, were uncertain in the summary.
+- **Explore infrastructure options:** WebAssembly and webR were mentioned.
+- **Fund technical support inside agencies:** industry could collectively fund IT staff to set up environments and answer questions. Participants perceived a support gap, while noting conflicts of interest would make support from an individual pharma company problematic.
+- **Use AI skills:** these might help set up environments or explain discrepancies when regulators re-check R results in another language.
+
+## Takeaway
+
+The problem extends beyond validating packages. Reviewers need reproducible environments, clear expectations and documentation, and a workable human support model.
