@@ -42,7 +42,7 @@ Participants saw renv as mature and stable, unlike earlier versions that could b
 
 ## Alternatives and Validation Updates
 
-Tools mentioned included **pixi**, described as effectively an operating system inside an operating system; **rv**, with enthusiastic supporters; **rix**, heavily discussed in the second session and seen as emerging quickly; **pak**; and **Nix**, generally considered too complicated by more technical participants. Whatever is chosen will eventually need to support both R and Python analyses.
+Tools mentioned included **pixi**, described as effectively an operating system inside an operating system; **rv**, with enthusiastic supporters; **rig**, heavily discussed in the second session and seen as emerging quickly; **pak** was mentioned as a backend installation step; and **Nix** was generally considered too complicated by more technical participants. Whatever is chosen will eventually need to support both R and Python analyses.
 
 R Validation Hub updates included **val.pipeline**, described as running riskmetric assessments across packages, and **val.meter**.
 
