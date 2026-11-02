@@ -16,8 +16,8 @@ Details on the award and previous recipients can be found in this [blog post](do
 
 For 2026 the award is presented to the **nlmixr2 development team**.
 
-- Team Members: 
-  -  Matt Fidler
+- Current Team Members:
+  -  Matt Fidler (Lead, rewrote nlmixr2)
   -  Anne Keunecke
   -  Hidde van de Beek
   -  Benjamin Schneider
@@ -32,10 +32,14 @@ For 2026 the award is presented to the **nlmixr2 development team**.
   -  Rik Schoemaker
   -  Max Taubert
   -  Theo Papathanasiou
+- Past Team Members:
+  - Wenping Wang (founder of nlmixr)
+  - Teun Post
+  - Yuan Xiong
+  - Huijuan Xu
 - Recognition: Development of the nlmixr2 R package for nonlinear mixed-effects modeling supporting open source pharmacokinetic and pharmacodynamic analysis for drug development.
   - Development of an open source package that can compete with commercial pharmacokinetic tools.
   - Promoting the use of open source tools for regulatory submissions.
   - Demonstrating AI-focused ways-of-working
 
 Congratulations to the entire team and thank you for your contributions to the open source life science space!
-
