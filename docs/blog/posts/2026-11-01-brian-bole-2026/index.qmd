@@ -12,7 +12,7 @@ image-alt: "Award"
 
 Open Source in Pharma proudly presents the “Brian Bole Award of Excellence” presented each year at R/Pharma Virtual to recognize outstanding contributions to the open-source ecosystem within the life sciences. This award celebrates the individuals and teams who embody the spirit of open collaboration, drive innovation, and help the community embrace open source for clinical reporting and research.
 
-Details on the award and previous recipients can be found in this [blog post](docs/blog/posts/2025-11-04-brianbole/).
+Details on the award and previous recipients can be found in this [blog post](/docs/blog/posts/2025-11-04-brianbole/).
 
 For 2026 the award is presented to the **nlmixr2 development team**.
 
