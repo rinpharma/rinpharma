@@ -1,0 +1,41 @@
+---
+title: 2026 Brian Bole Award
+description: |
+  2026 The Brian Bole Award of Excellence
+categories:
+  - conference
+author: R/Pharma
+date: 2026-11-01
+image: giorgio-trovato-_XTY6lD8jgM-unsplash.jpg
+image-alt: "Award"
+---
+
+Open Source in Pharma proudly presents the “Brian Bole Award of Excellence” presented each year at R/Pharma Virtual to recognize outstanding contributions to the open-source ecosystem within the life sciences. This award celebrates the individuals and teams who embody the spirit of open collaboration, drive innovation, and help the community embrace open source for clinical reporting and research.
+
+Details on the award and previous recipients can be found in this [blog post](docs/blog/posts/2025-11-04-brianbole/).
+
+For 2026 the award is presented to the **nlmixr2 development team**.
+
+- Team Members: 
+  -  Matt Fidler
+  -  Anne Keunecke
+  -  Hidde van de Beek
+  -  Benjamin Schneider
+  -  Bill Denney
+  -  Brendan Bender
+  -  Daisy Lee
+  -  John Harrold
+  -  Justin Wilkins
+  -  Mirjam Trame
+  -  Mutaz Jaber
+  -  Richard Hooijmaijers
+  -  Rik Schoemaker
+  -  Max Taubert
+  -  Theo Papathanasiou
+- Recognition: Development of the nlmixr2 R package for nonlinear mixed-effects modeling supporting open source pharmacokinetic and pharmacodynamic analysis for drug development.
+  - Development of an open source package that can compete with commercial pharmacokinetic tools.
+  - Promoting the use of open source tools for regulatory submissions.
+  - Demonstrating AI-focused ways-of-working
+
+Congratulations to the entire team and thank you for your contributions to the open source life science space!
+
