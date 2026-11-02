@@ -32,9 +32,9 @@
 <p>Details on the award and previous recipients can be found in this <a href="docs/blog/posts/2025-11-04-brianbole/">blog post</a>.</p>
 <p>For 2026 the award is presented to the <strong>nlmixr2 development team</strong>.</p>
 <ul>
-<li>Team Members:
+<li>Current Team Members:
 <ul>
-<li>Matt Fidler</li>
+<li>Matt Fidler (Lead, rewrote nlmixr2)</li>
 <li>Anne Keunecke</li>
 <li>Hidde van de Beek</li>
 <li>Benjamin Schneider</li>
@@ -49,6 +49,13 @@
 <li>Rik Schoemaker</li>
 <li>Max Taubert</li>
 <li>Theo Papathanasiou</li>
+</ul></li>
+<li>Past Team Members:
+<ul>
+<li>Wenping Wang (founder of nlmixr)</li>
+<li>Teun Post</li>
+<li>Yuan Xiong</li>
+<li>Huijuan Xu</li>
 </ul></li>
 <li>Recognition: Development of the nlmixr2 R package for nonlinear mixed-effects modeling supporting open source pharmacokinetic and pharmacodynamic analysis for drug development.
 <ul>
