@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.20">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -41,14 +41,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-20d2c53f4e672e92c7fee61b4f03f432.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-43ed63961cf0acaf5d42d0bcde4237ec.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -101,12 +102,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <style>
 
@@ -151,19 +146,21 @@ window.Quarto = {
 <link rel="stylesheet" href="../../styles.css">
 <link rel="alternate" type="application/rss+xml" title="R/Pharma" href="index.xml" data-external="1"><meta property="og:title" content="R/Pharma Summit – R/Pharma">
 <meta property="og:description" content="The in-person event">
-<meta property="og:image" content="https://rinpharma.com/docs/summit/images/logo-rinpharma.png">
+<meta property="og:image" content="https://rinpharma.com/images/logo-rinpharma.png">
 <meta property="og:site_name" content="R/Pharma">
+<meta property="og:image:height" content="70">
+<meta property="og:image:width" content="201">
 <meta name="twitter:title" content="R/Pharma Summit – R/Pharma">
 <meta name="twitter:description" content="The in-person event">
-<meta name="twitter:image" content="https://rinpharma.com/docs/summit/images/logo-rinpharma.png">
+<meta name="twitter:image" content="https://rinpharma.com/images/logo-rinpharma.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
@@ -171,8 +168,7 @@ window.Quarto = {
     <img src="../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -268,6 +264,7 @@ window.Quarto = {
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
   <div id="quarto-announcement" data-announcement-id="c45a4245ab5fcfdb06e69ece36f51ffa" class="alert alert-primary hidden"><i class="bi bi-bell-fill quarto-announcement-icon"></i><div class="quarto-announcement-content">
@@ -296,7 +293,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -306,7 +303,7 @@ window.Quarto = {
 <div class="toc-actions"><ul><li><a href="https://github.com/rinpharma/rinpharma/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(33)</span></div><div class="category" data-category="MjAyMw==">2023 <span class="quarto-category-count">(8)</span></div><div class="category" data-category="MjAyNA==">2024 <span class="quarto-category-count">(8)</span></div><div class="category" data-category="MjAyNQ==">2025 <span class="quarto-category-count">(6)</span></div><div class="category" data-category="MjAyNg==">2026 <span class="quarto-category-count">(11)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(8)</span></div><div class="category" data-category="QVJE">ARD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXV0b21hdGlvbg==">Automation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2hhbmdlJTIwbWFuYWdlbWVudA==">Change management <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Q1JP">CRO <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YQ==">Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RVUlMjBTdW1taXQ=">EU Summit <span class="quarto-category-count">(5)</span></div><div class="category" data-category="TXVsdGktbW9kYWw=">Multi-modal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T1M=">OS <span class="quarto-category-count">(8)</span></div><div class="category" data-category="UHJvZHVjdHM=">Products <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UmVndWxhdG9yeQ==">Regulatory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U0NF">SCE <span class="quarto-category-count">(5)</span></div><div class="category" data-category="U2hpbnk=">Shiny <span class="quarto-category-count">(3)</span></div><div class="category" data-category="VmFsaWRhdGlvbg==">Validation <span class="quarto-category-count">(6)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content" tabindex="-1">
 
 
 
@@ -475,19 +472,16 @@ References
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="MjAyNiUyQ0VVJTIwU3VtbWl0JTJDQUk=" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
-<div class="thumbnail"><a href="../../docs/summit/posts/2026-eu-agentic-safeguards.html" class="no-external">
+<div class="quarto-post image-right" data-index="0" data-categories="MjAyNiUyQ0VVJTIwU3VtbWl0JTJDQUk=" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
+<div class="thumbnail"><a href="../../docs/summit/posts/2026-eu-agentic-safeguards.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2026-eu-agentic-safeguards.html" class="no-external">Trust and Safeguards for Agentic Workflows (2026 EU Summit)</a>
+<a href="../../docs/summit/posts/2026-eu-agentic-safeguards.html" class="no-external-icon">Trust and Safeguards for Agentic Workflows (2026 EU Summit)</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2026-eu-agentic-safeguards.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
@@ -497,31 +491,30 @@ References
 <div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2026-eu-agentic-safeguards.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2026-eu-agentic-safeguards.html" class="no-external-icon">
 <p>Human accountability, technical boundaries, and practical safeguards for agentic workflows in pharma</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2026-eu-agentic-safeguards.html" class="no-external">
+<a href="../../docs/summit/posts/2026-eu-agentic-safeguards.html" class="no-external-icon">
 <div class="listing-date">
 Oct 5, 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="MjAyNiUyQ0VVJTIwU3VtbWl0JTJDU0NF" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="507">
-<div class="thumbnail"><a href="../../docs/summit/posts/2026-eu-renv-sce.html" class="no-external">
+<div class="quarto-post image-right" data-index="1" data-categories="MjAyNiUyQ0VVJTIwU3VtbWl0JTJDU0NF" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="507">
+<div class="thumbnail"><a href="../../docs/summit/posts/2026-eu-renv-sce.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2026-eu-renv-sce.html" class="no-external">Does renv Make Sense in an SCE? (2026 EU Summit)</a>
+<a href="../../docs/summit/posts/2026-eu-renv-sce.html" class="no-external-icon">Does renv Make Sense in an SCE? (2026 EU Summit)</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2026-eu-renv-sce.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
@@ -531,31 +524,30 @@ Oct 5, 2026
 <div class="listing-category" onclick="window.quartoListingCategory('U0NF'); return false;">SCE</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2026-eu-renv-sce.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2026-eu-renv-sce.html" class="no-external-icon">
 <p>Practices and trade-offs for supplying R packages to GxP analyses across frozen, semi-frozen, and project-specific environments</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2026-eu-renv-sce.html" class="no-external">
+<a href="../../docs/summit/posts/2026-eu-renv-sce.html" class="no-external-icon">
 <div class="listing-date">
 Oct 5, 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="MjAyNiUyQ0VVJTIwU3VtbWl0JTJDVmFsaWRhdGlvbg==" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="420">
-<div class="thumbnail"><a href="../../docs/summit/posts/2026-eu-open-source-submissions.html" class="no-external">
+<div class="quarto-post image-right" data-index="2" data-categories="MjAyNiUyQ0VVJTIwU3VtbWl0JTJDVmFsaWRhdGlvbg==" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="420">
+<div class="thumbnail"><a href="../../docs/summit/posts/2026-eu-open-source-submissions.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2026-eu-open-source-submissions.html" class="no-external">Open Source in Filings - R Validation in 2026 (2026 EU Summit)</a>
+<a href="../../docs/summit/posts/2026-eu-open-source-submissions.html" class="no-external-icon">Open Source in Filings - R Validation in 2026 (2026 EU Summit)</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2026-eu-open-source-submissions.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
@@ -565,31 +557,30 @@ Oct 5, 2026
 <div class="listing-category" onclick="window.quartoListingCategory('VmFsaWRhdGlvbg=='); return false;">Validation</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2026-eu-open-source-submissions.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2026-eu-open-source-submissions.html" class="no-external-icon">
 <p>Unresolved reproducibility challenges and possible support models for regulatory reviewers of R submissions</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2026-eu-open-source-submissions.html" class="no-external">
+<a href="../../docs/summit/posts/2026-eu-open-source-submissions.html" class="no-external-icon">
 <div class="listing-date">
 Oct 5, 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="MjAyNiUyQ0VVJTIwU3VtbWl0JTJDVmFsaWRhdGlvbiUyQ1NoaW55" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="353">
-<div class="thumbnail"><a href="../../docs/summit/posts/2026-eu-app-validation.html" class="no-external">
+<div class="quarto-post image-right" data-index="3" data-categories="MjAyNiUyQ0VVJTIwU3VtbWl0JTJDVmFsaWRhdGlvbiUyQ1NoaW55" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="353">
+<div class="thumbnail"><a href="../../docs/summit/posts/2026-eu-app-validation.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2026-eu-app-validation.html" class="no-external">Validation of Data Exploration Apps (2026 EU Summit)</a>
+<a href="../../docs/summit/posts/2026-eu-app-validation.html" class="no-external-icon">Validation of Data Exploration Apps (2026 EU Summit)</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2026-eu-app-validation.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
@@ -601,31 +592,30 @@ Oct 5, 2026
 <div class="listing-category" onclick="window.quartoListingCategory('U2hpbnk='); return false;">Shiny</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2026-eu-app-validation.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2026-eu-app-validation.html" class="no-external-icon">
 <p>Risk-based validation, reproducibility, and lifecycle control for Shiny apps used in clinical data exploration</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2026-eu-app-validation.html" class="no-external">
+<a href="../../docs/summit/posts/2026-eu-app-validation.html" class="no-external-icon">
 <div class="listing-date">
 Oct 5, 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="MjAyNiUyQ0VVJTIwU3VtbWl0JTJDQUklMkNBdXRvbWF0aW9u" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="442">
-<div class="thumbnail"><a href="../../docs/summit/posts/2026-eu-automation.html" class="no-external">
+<div class="quarto-post image-right" data-index="4" data-categories="MjAyNiUyQ0VVJTIwU3VtbWl0JTJDQUklMkNBdXRvbWF0aW9u" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="442">
+<div class="thumbnail"><a href="../../docs/summit/posts/2026-eu-automation.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2026-eu-automation.html" class="no-external">Rule-Based vs AI-Driven Automation (2026 EU Summit)</a>
+<a href="../../docs/summit/posts/2026-eu-automation.html" class="no-external-icon">Rule-Based vs AI-Driven Automation (2026 EU Summit)</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2026-eu-automation.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
@@ -637,31 +627,30 @@ Oct 5, 2026
 <div class="listing-category" onclick="window.quartoListingCategory('QXV0b21hdGlvbg=='); return false;">Automation</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2026-eu-automation.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2026-eu-automation.html" class="no-external-icon">
 <p>Blending deterministic building blocks with AI orchestration, while retaining human accountability and verification</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2026-eu-automation.html" class="no-external">
+<a href="../../docs/summit/posts/2026-eu-automation.html" class="no-external-icon">
 <div class="listing-date">
 Oct 5, 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="MjAyNiUyQ09TJTJDUmVndWxhdG9yeQ==" data-listing-date-sort="1789257600000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="491">
-<div class="thumbnail"><a href="../../docs/summit/posts/2026-open-source-submissions.html" class="no-external">
+<div class="quarto-post image-right" data-index="5" data-categories="MjAyNiUyQ09TJTJDUmVndWxhdG9yeQ==" data-listing-date-sort="1789257600000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="491">
+<div class="thumbnail"><a href="../../docs/summit/posts/2026-open-source-submissions.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2026-open-source-submissions.html" class="no-external">Open Source Submissions (2026)</a>
+<a href="../../docs/summit/posts/2026-open-source-submissions.html" class="no-external-icon">Open Source Submissions (2026)</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2026-open-source-submissions.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
@@ -671,31 +660,30 @@ Oct 5, 2026
 <div class="listing-category" onclick="window.quartoListingCategory('UmVndWxhdG9yeQ=='); return false;">Regulatory</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2026-open-source-submissions.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2026-open-source-submissions.html" class="no-external-icon">
 <p>Regulatory discussion on SAS vs.&nbsp;R usage, communication with reviewers, and the role of AI in submission workflows</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2026-open-source-submissions.html" class="no-external">
+<a href="../../docs/summit/posts/2026-open-source-submissions.html" class="no-external-icon">
 <div class="listing-date">
 Sep 13, 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="MjAyNiUyQ0NoYW5nZSUyMG1hbmFnZW1lbnQ=" data-listing-date-sort="1789257600000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="484">
-<div class="thumbnail"><a href="../../docs/summit/posts/2026-driving-adoption.html" class="no-external">
+<div class="quarto-post image-right" data-index="6" data-categories="MjAyNiUyQ0NoYW5nZSUyMG1hbmFnZW1lbnQ=" data-listing-date-sort="1789257600000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="484">
+<div class="thumbnail"><a href="../../docs/summit/posts/2026-driving-adoption.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2026-driving-adoption.html" class="no-external">Driving Adoption (2026)</a>
+<a href="../../docs/summit/posts/2026-driving-adoption.html" class="no-external-icon">Driving Adoption (2026)</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2026-driving-adoption.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
@@ -703,31 +691,30 @@ Sep 13, 2026
 <div class="listing-category" onclick="window.quartoListingCategory('Q2hhbmdlJTIwbWFuYWdlbWVudA=='); return false;">Change management</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2026-driving-adoption.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2026-driving-adoption.html" class="no-external-icon">
 <p>Getting people on board with open source - training, tooling, deployment, and change management from SAS to R and beyond</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2026-driving-adoption.html" class="no-external">
+<a href="../../docs/summit/posts/2026-driving-adoption.html" class="no-external-icon">
 <div class="listing-date">
 Sep 13, 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="MjAyNiUyQ1NDRQ==" data-listing-date-sort="1789257600000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="367">
-<div class="thumbnail"><a href="../../docs/summit/posts/2026-env-packages.html" class="no-external">
+<div class="quarto-post image-right" data-index="7" data-categories="MjAyNiUyQ1NDRQ==" data-listing-date-sort="1789257600000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="367">
+<div class="thumbnail"><a href="../../docs/summit/posts/2026-env-packages.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2026-env-packages.html" class="no-external">Reproducible Environments (2026)</a>
+<a href="../../docs/summit/posts/2026-env-packages.html" class="no-external-icon">Reproducible Environments (2026)</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2026-env-packages.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
@@ -735,31 +722,30 @@ Sep 13, 2026
 <div class="listing-category" onclick="window.quartoListingCategory('U0NF'); return false;">SCE</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2026-env-packages.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2026-env-packages.html" class="no-external-icon">
 <p>Environment and package management for regulatory submissions - locked-down vs.&nbsp;open environments, cross-OS reproducibility, and tooling like renv, rv, and uv</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2026-env-packages.html" class="no-external">
+<a href="../../docs/summit/posts/2026-env-packages.html" class="no-external-icon">
 <div class="listing-date">
 Sep 13, 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="MjAyNiUyQ0FJ" data-listing-date-sort="1789257600000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1023">
-<div class="thumbnail"><a href="../../docs/summit/posts/2026-ai-trust-governance.html" class="no-external">
+<div class="quarto-post image-right" data-index="8" data-categories="MjAyNiUyQ0FJ" data-listing-date-sort="1789257600000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1023">
+<div class="thumbnail"><a href="../../docs/summit/posts/2026-ai-trust-governance.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2026-ai-trust-governance.html" class="no-external">AI Trust and Governance (2026)</a>
+<a href="../../docs/summit/posts/2026-ai-trust-governance.html" class="no-external-icon">AI Trust and Governance (2026)</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2026-ai-trust-governance.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
@@ -767,31 +753,30 @@ Sep 13, 2026
 <div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2026-ai-trust-governance.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2026-ai-trust-governance.html" class="no-external-icon">
 <p>Governance, validation, accountability, and human oversight for AI in regulated pharma environments</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2026-ai-trust-governance.html" class="no-external">
+<a href="../../docs/summit/posts/2026-ai-trust-governance.html" class="no-external-icon">
 <div class="listing-date">
 Sep 13, 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="MjAyNiUyQ0FJ" data-listing-date-sort="1789257600000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="569">
-<div class="thumbnail"><a href="../../docs/summit/posts/2026-ai-practice.html" class="no-external">
+<div class="quarto-post image-right" data-index="9" data-categories="MjAyNiUyQ0FJ" data-listing-date-sort="1789257600000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="569">
+<div class="thumbnail"><a href="../../docs/summit/posts/2026-ai-practice.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2026-ai-practice.html" class="no-external">AI in Practice (2026)</a>
+<a href="../../docs/summit/posts/2026-ai-practice.html" class="no-external-icon">AI in Practice (2026)</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2026-ai-practice.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
@@ -799,31 +784,30 @@ Sep 13, 2026
 <div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2026-ai-practice.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2026-ai-practice.html" class="no-external-icon">
 <p>AI Operations - practical use, upskilling, cost, and integrating AI with deterministic workflows</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2026-ai-practice.html" class="no-external">
+<a href="../../docs/summit/posts/2026-ai-practice.html" class="no-external-icon">
 <div class="listing-date">
 Sep 13, 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="MjAyNiUyQ0FSRA==" data-listing-date-sort="1789257600000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="328">
-<div class="thumbnail"><a href="../../docs/summit/posts/2026-future-ard.html" class="no-external">
+<div class="quarto-post image-right" data-index="10" data-categories="MjAyNiUyQ0FSRA==" data-listing-date-sort="1789257600000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="328">
+<div class="thumbnail"><a href="../../docs/summit/posts/2026-future-ard.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2026-future-ard.html" class="no-external">Future of ARD/ARS (2026)</a>
+<a href="../../docs/summit/posts/2026-future-ard.html" class="no-external-icon">Future of ARD/ARS (2026)</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/summit/posts/2026-future-ard.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
@@ -831,30 +815,32 @@ Sep 13, 2026
 <div class="listing-category" onclick="window.quartoListingCategory('QVJE'); return false;">ARD</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2026-future-ard.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2026-future-ard.html" class="no-external-icon">
 <p>The value proposition of Analysis Results Standards for sponsors and regulators, and the case for a lighter-weight ARD</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2026-future-ard.html" class="no-external">
+<a href="../../docs/summit/posts/2026-future-ard.html" class="no-external-icon">
 <div class="listing-date">
 Sep 13, 2026
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="MjAyNSUyQ1ZhbGlkYXRpb24=" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="343">
-<div class="thumbnail"><a href="../../docs/summit/posts/2025-quality.html" class="no-external">
+<div class="quarto-post image-right" data-index="11" data-categories="MjAyNSUyQ1ZhbGlkYXRpb24=" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="343">
+<div class="thumbnail"><a href="../../docs/summit/posts/2025-quality.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2025-quality.html" class="no-external">Quality &amp; Validation (2025)</a>
+<a href="../../docs/summit/posts/2025-quality.html" class="no-external-icon">Quality &amp; Validation (2025)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2025-quality.html" class="no-external">Olga Mierzwa-Sulima, Eric Nantz &amp; Paulo Bargo</a>
+<a href="../../docs/summit/posts/2025-quality.html" class="no-external-icon">Olga Mierzwa-Sulima, Eric Nantz &amp; Paulo Bargo</a>
 </div>
 <div class="listing-categories">
 
@@ -863,12 +849,14 @@ Sep 13, 2026
 <div class="listing-category" onclick="window.quartoListingCategory('VmFsaWRhdGlvbg=='); return false;">Validation</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2025-quality.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2025-quality.html" class="no-external-icon">
 <p>Validating Open Source Tools with Stochastic Components; Architectures to provision validated R packages</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2025-quality.html" class="no-external">
+<a href="../../docs/summit/posts/2025-quality.html" class="no-external-icon">
 <div class="listing-date">
 Sep 15, 2025
 </div>
@@ -878,18 +866,18 @@ Olga Mierzwa-Sulima, Eric Nantz, Paulo Bargo
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="MjAyNSUyQ0NSTw==" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="223">
-<div class="thumbnail"><a href="../../docs/summit/posts/2025-CROs.html" class="no-external">
+<div class="quarto-post image-right" data-index="12" data-categories="MjAyNSUyQ0NSTw==" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="223">
+<div class="thumbnail"><a href="../../docs/summit/posts/2025-CROs.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2025-CROs.html" class="no-external">Implementation and Perspectives of CROs (2025)</a>
+<a href="../../docs/summit/posts/2025-CROs.html" class="no-external-icon">Implementation and Perspectives of CROs (2025)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2025-CROs.html" class="no-external">Douglas Henry &amp; Steven Tan</a>
+<a href="../../docs/summit/posts/2025-CROs.html" class="no-external-icon">Douglas Henry &amp; Steven Tan</a>
 </div>
 <div class="listing-categories">
 
@@ -898,12 +886,14 @@ Olga Mierzwa-Sulima, Eric Nantz, Paulo Bargo
 <div class="listing-category" onclick="window.quartoListingCategory('Q1JP'); return false;">CRO</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2025-CROs.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2025-CROs.html" class="no-external-icon">
 <p>Expanding the Pharmaverse beyond Clinical Reporting</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2025-CROs.html" class="no-external">
+<a href="../../docs/summit/posts/2025-CROs.html" class="no-external-icon">
 <div class="listing-date">
 Sep 15, 2025
 </div>
@@ -913,18 +903,18 @@ Douglas Henry, Steven Tan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="MjAyNSUyQ1B5dGhvbg==" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="268">
-<div class="thumbnail"><a href="../../docs/summit/posts/2025-python.html" class="no-external">
+<div class="quarto-post image-right" data-index="13" data-categories="MjAyNSUyQ1B5dGhvbg==" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="268">
+<div class="thumbnail"><a href="../../docs/summit/posts/2025-python.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2025-python.html" class="no-external">Python for Clinical Study Reports and Submission (2025)</a>
+<a href="../../docs/summit/posts/2025-python.html" class="no-external-icon">Python for Clinical Study Reports and Submission (2025)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2025-python.html" class="no-external">Yilong Zhang &amp; Jonathan Tisack</a>
+<a href="../../docs/summit/posts/2025-python.html" class="no-external-icon">Yilong Zhang &amp; Jonathan Tisack</a>
 </div>
 <div class="listing-categories">
 
@@ -933,12 +923,14 @@ Douglas Henry, Steven Tan
 <div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2025-python.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2025-python.html" class="no-external-icon">
 <p>Python for Clinical Study Reports and Submission</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2025-python.html" class="no-external">
+<a href="../../docs/summit/posts/2025-python.html" class="no-external-icon">
 <div class="listing-date">
 Sep 15, 2025
 </div>
@@ -948,18 +940,18 @@ Yilong Zhang, Jonathan Tisack
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="MjAyNSUyQ09TJTJDQ2hhbmdlJTIwbWFuYWdlbWVudA==" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
-<div class="thumbnail"><a href="../../docs/summit/posts/2025-change-mgt.html" class="no-external">
+<div class="quarto-post image-right" data-index="14" data-categories="MjAyNSUyQ09TJTJDQ2hhbmdlJTIwbWFuYWdlbWVudA==" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
+<div class="thumbnail"><a href="../../docs/summit/posts/2025-change-mgt.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2025-change-mgt.html" class="no-external">Open-Source Change Management (2025)</a>
+<a href="../../docs/summit/posts/2025-change-mgt.html" class="no-external-icon">Open-Source Change Management (2025)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2025-change-mgt.html" class="no-external">Ning Leng &amp; Nate Mockler</a>
+<a href="../../docs/summit/posts/2025-change-mgt.html" class="no-external-icon">Ning Leng &amp; Nate Mockler</a>
 </div>
 <div class="listing-categories">
 
@@ -970,12 +962,14 @@ Yilong Zhang, Jonathan Tisack
 <div class="listing-category" onclick="window.quartoListingCategory('Q2hhbmdlJTIwbWFuYWdlbWVudA=='); return false;">Change management</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2025-change-mgt.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2025-change-mgt.html" class="no-external-icon">
 <p>From Hacks to Habits - Tools &amp; Tricks That Changed the Game</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2025-change-mgt.html" class="no-external">
+<a href="../../docs/summit/posts/2025-change-mgt.html" class="no-external-icon">
 <div class="listing-date">
 Sep 15, 2025
 </div>
@@ -985,18 +979,18 @@ Ning Leng, Nate Mockler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="MjAyNSUyQ1NDRQ==" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="318">
-<div class="thumbnail"><a href="../../docs/summit/posts/2025-sce.html" class="no-external">
+<div class="quarto-post image-right" data-index="15" data-categories="MjAyNSUyQ1NDRQ==" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="318">
+<div class="thumbnail"><a href="../../docs/summit/posts/2025-sce.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2025-sce.html" class="no-external">SCEs (2025)</a>
+<a href="../../docs/summit/posts/2025-sce.html" class="no-external-icon">SCEs (2025)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2025-sce.html" class="no-external">David Thiriot, Phil Bowsher &amp; James Black</a>
+<a href="../../docs/summit/posts/2025-sce.html" class="no-external-icon">David Thiriot, Phil Bowsher &amp; James Black</a>
 </div>
 <div class="listing-categories">
 
@@ -1005,12 +999,14 @@ Ning Leng, Nate Mockler
 <div class="listing-category" onclick="window.quartoListingCategory('U0NF'); return false;">SCE</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2025-sce.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2025-sce.html" class="no-external-icon">
 <p>Python for Clinical Study Reports and Submission</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2025-sce.html" class="no-external">
+<a href="../../docs/summit/posts/2025-sce.html" class="no-external-icon">
 <div class="listing-date">
 Sep 15, 2025
 </div>
@@ -1020,18 +1016,18 @@ David Thiriot, Phil Bowsher, James Black
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="MjAyNSUyQ0FJ" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
-<div class="thumbnail"><a href="../../docs/summit/posts/2025-ai.html" class="no-external">
+<div class="quarto-post image-right" data-index="16" data-categories="MjAyNSUyQ0FJ" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
+<div class="thumbnail"><a href="../../docs/summit/posts/2025-ai.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2025-ai.html" class="no-external">AI in Pharma (2025)</a>
+<a href="../../docs/summit/posts/2025-ai.html" class="no-external-icon">AI in Pharma (2025)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2025-ai.html" class="no-external">Jeremy Wildfire, Sri Pavan Vemuri &amp; Satish Murthy</a>
+<a href="../../docs/summit/posts/2025-ai.html" class="no-external-icon">Jeremy Wildfire, Sri Pavan Vemuri &amp; Satish Murthy</a>
 </div>
 <div class="listing-categories">
 
@@ -1040,12 +1036,14 @@ David Thiriot, Phil Bowsher, James Black
 <div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2025-ai.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2025-ai.html" class="no-external-icon">
 <p>Best Practices for AI-Assisted R Coding and Data Workflows; What would an “AI-friendly” submission look like?; Reimagine open-label trial deliverables with interactive display/AI</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2025-ai.html" class="no-external">
+<a href="../../docs/summit/posts/2025-ai.html" class="no-external-icon">
 <div class="listing-date">
 Sep 15, 2025
 </div>
@@ -1055,18 +1053,18 @@ Jeremy Wildfire, Sri Pavan Vemuri, Satish Murthy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="MjAyNCUyQ09TJTJDQ2hhbmdlJTIwbWFuYWdlbWVudA==" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="417">
-<div class="thumbnail"><a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external">
+<div class="quarto-post image-right" data-index="17" data-categories="MjAyNCUyQ09TJTJDQ2hhbmdlJTIwbWFuYWdlbWVudA==" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="417">
+<div class="thumbnail"><a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external">Change management (2024)</a>
+<a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external-icon">Change management (2024)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external">Cassie Murcray and Dror Berel</a>
+<a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external-icon">Cassie Murcray and Dror Berel</a>
 </div>
 <div class="listing-categories">
 
@@ -1077,12 +1075,14 @@ Jeremy Wildfire, Sri Pavan Vemuri, Satish Murthy
 <div class="listing-category" onclick="window.quartoListingCategory('Q2hhbmdlJTIwbWFuYWdlbWVudA=='); return false;">Change management</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external-icon">
 <p>Transitioning from SAS to R in the Pharmaceutical Industry</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external">
+<a href="../../docs/summit/posts/2024-change-mgt.html" class="no-external-icon">
 <div class="listing-date">
 Aug 11, 2024
 </div>
@@ -1092,18 +1092,18 @@ Cassie Murcray, Dror Berel
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="MjAyNCUyQ1NDRQ==" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="571">
-<div class="thumbnail"><a href="../../docs/summit/posts/2024-sce.html" class="no-external">
+<div class="quarto-post image-right" data-index="18" data-categories="MjAyNCUyQ1NDRQ==" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="571">
+<div class="thumbnail"><a href="../../docs/summit/posts/2024-sce.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2024-sce.html" class="no-external">Modern SCEs (2024)</a>
+<a href="../../docs/summit/posts/2024-sce.html" class="no-external-icon">Modern SCEs (2024)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2024-sce.html" class="no-external">James Black</a>
+<a href="../../docs/summit/posts/2024-sce.html" class="no-external-icon">James Black</a>
 </div>
 <div class="listing-categories">
 
@@ -1112,12 +1112,14 @@ Cassie Murcray, Dror Berel
 <div class="listing-category" onclick="window.quartoListingCategory('U0NF'); return false;">SCE</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2024-sce.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2024-sce.html" class="no-external-icon">
 <p>Leveraging operational metrics for better SCEs/platforms</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2024-sce.html" class="no-external">
+<a href="../../docs/summit/posts/2024-sce.html" class="no-external-icon">
 <div class="listing-date">
 Aug 11, 2024
 </div>
@@ -1127,18 +1129,18 @@ James Black
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="MjAyNCUyQ09TJTJDUiUyQ1Byb2R1Y3Rz" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="234">
-<div class="thumbnail"><a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">
+<div class="quarto-post image-right" data-index="19" data-categories="MjAyNCUyQ09TJTJDUiUyQ1Byb2R1Y3Rz" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="234">
+<div class="thumbnail"><a href="../../docs/summit/posts/2024-rproducts.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">Sharing R code without sharing R code (2024)</a>
+<a href="../../docs/summit/posts/2024-rproducts.html" class="no-external-icon">Sharing R code without sharing R code (2024)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">Rohan Parmar &amp; Min Lee</a>
+<a href="../../docs/summit/posts/2024-rproducts.html" class="no-external-icon">Rohan Parmar &amp; Min Lee</a>
 </div>
 <div class="listing-categories">
 
@@ -1151,12 +1153,14 @@ James Black
 <div class="listing-category" onclick="window.quartoListingCategory('UHJvZHVjdHM='); return false;">Products</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2024-rproducts.html" class="no-external-icon">
 <p>Depending on Open Source</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2024-rproducts.html" class="no-external">
+<a href="../../docs/summit/posts/2024-rproducts.html" class="no-external-icon">
 <div class="listing-date">
 Aug 11, 2024
 </div>
@@ -1166,18 +1170,18 @@ Rohan Parmar, Min Lee
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="MjAyNCUyQ1I=" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
-<div class="thumbnail"><a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">
+<div class="quarto-post image-right" data-index="20" data-categories="MjAyNCUyQ1I=" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
+<div class="thumbnail"><a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">Small to mid Pharma in an post-SAS world (2024)</a>
+<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external-icon">Small to mid Pharma in an post-SAS world (2024)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">Katie Igartua &amp; Kas Yousefi</a>
+<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external-icon">Katie Igartua &amp; Kas Yousefi</a>
 </div>
 <div class="listing-categories">
 
@@ -1186,12 +1190,14 @@ Rohan Parmar, Min Lee
 <div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external-icon">
 <p>Small to mid Pharma in an post-SAS world</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external">
+<a href="../../docs/summit/posts/2024-small-mid-pharma.html" class="no-external-icon">
 <div class="listing-date">
 Aug 11, 2024
 </div>
@@ -1201,18 +1207,18 @@ Katie Igartua, Kas Yousefi
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="MjAyNCUyQ1IlMkNWYWxpZGF0aW9u" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="999">
-<div class="thumbnail"><a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external">
+<div class="quarto-post image-right" data-index="21" data-categories="MjAyNCUyQ1IlMkNWYWxpZGF0aW9u" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="999">
+<div class="thumbnail"><a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external">Validating R packages (2024)</a>
+<a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external-icon">Validating R packages (2024)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external">Doug Kelkhof and Margaret Wishart</a>
+<a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external-icon">Doug Kelkhof and Margaret Wishart</a>
 </div>
 <div class="listing-categories">
 
@@ -1223,12 +1229,14 @@ Katie Igartua, Kas Yousefi
 <div class="listing-category" onclick="window.quartoListingCategory('VmFsaWRhdGlvbg=='); return false;">Validation</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external-icon">
 <p>Validating R packages</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external">
+<a href="../../docs/summit/posts/2024-r-pkg-validation.html" class="no-external-icon">
 <div class="listing-date">
 Aug 11, 2024
 </div>
@@ -1238,18 +1246,18 @@ Doug Kelkhof, Margaret Wishart
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="MjAyNCUyQ09TJTJDRGF0YQ==" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="468">
-<div class="thumbnail"><a href="../../docs/summit/posts/2024-dataformat.html" class="no-external">
+<div class="quarto-post image-right" data-index="22" data-categories="MjAyNCUyQ09TJTJDRGF0YQ==" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="468">
+<div class="thumbnail"><a href="../../docs/summit/posts/2024-dataformat.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2024-dataformat.html" class="no-external">Can we do data storage and processing better in clinical trials (2024)?</a>
+<a href="../../docs/summit/posts/2024-dataformat.html" class="no-external-icon">Can we do data storage and processing better in clinical trials (2024)?</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2024-dataformat.html" class="no-external">Stephanie Lussier and Doug Kelkhoff</a>
+<a href="../../docs/summit/posts/2024-dataformat.html" class="no-external-icon">Stephanie Lussier and Doug Kelkhoff</a>
 </div>
 <div class="listing-categories">
 
@@ -1260,12 +1268,14 @@ Doug Kelkhof, Margaret Wishart
 <div class="listing-category" onclick="window.quartoListingCategory('RGF0YQ=='); return false;">Data</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2024-dataformat.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2024-dataformat.html" class="no-external-icon">
 <p>Can we do data storage and processing better in clinical trials?</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2024-dataformat.html" class="no-external">
+<a href="../../docs/summit/posts/2024-dataformat.html" class="no-external-icon">
 <div class="listing-date">
 Aug 11, 2024
 </div>
@@ -1275,18 +1285,18 @@ Stephanie Lussier, Doug Kelkhoff
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="MjAyNCUyQ1IlMkNWYWxpZGF0aW9uJTJDU2hpbnk=" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<div class="thumbnail"><a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">
+<div class="quarto-post image-right" data-index="23" data-categories="MjAyNCUyQ1IlMkNWYWxpZGF0aW9uJTJDU2hpbnk=" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<div class="thumbnail"><a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">Can we validate shiny apps (2024)?</a>
+<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external-icon">Can we validate shiny apps (2024)?</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">Can we validate shiny?</a>
+<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external-icon">Can we validate shiny?</a>
 </div>
 <div class="listing-categories">
 
@@ -1299,12 +1309,14 @@ Stephanie Lussier, Doug Kelkhoff
 <div class="listing-category" onclick="window.quartoListingCategory('U2hpbnk='); return false;">Shiny</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external-icon">
 <p>Can we validate shiny?</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external">
+<a href="../../docs/summit/posts/2024-shiny-validation.html" class="no-external-icon">
 <div class="listing-date">
 Aug 11, 2024
 </div>
@@ -1314,18 +1326,18 @@ Devin Pastoor, Ellis Hughes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="MjAyNCUyQ0FJ" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="657">
-<div class="thumbnail"><a href="../../docs/summit/posts/2024-ai.html" class="no-external">
+<div class="quarto-post image-right" data-index="24" data-categories="MjAyNCUyQ0FJ" data-listing-date-sort="1723334400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="657">
+<div class="thumbnail"><a href="../../docs/summit/posts/2024-ai.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2024-ai.html" class="no-external">AI opportunities (2024)</a>
+<a href="../../docs/summit/posts/2024-ai.html" class="no-external-icon">AI opportunities (2024)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2024-ai.html" class="no-external">Vincent Shen and Melanie Hullings</a>
+<a href="../../docs/summit/posts/2024-ai.html" class="no-external-icon">Vincent Shen and Melanie Hullings</a>
 </div>
 <div class="listing-categories">
 
@@ -1334,12 +1346,14 @@ Devin Pastoor, Ellis Hughes
 <div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2024-ai.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2024-ai.html" class="no-external-icon">
 <p>What are the LLMs/AA/AI opportunities in drug development?</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2024-ai.html" class="no-external">
+<a href="../../docs/summit/posts/2024-ai.html" class="no-external-icon">
 <div class="listing-date">
 Aug 11, 2024
 </div>
@@ -1349,18 +1363,18 @@ Vincent Shen, Melanie Hullings
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="MjAyMyUyQ09T" data-listing-date-sort="1696118400000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
-<div class="thumbnail"><a href="../../docs/summit/posts/2023-os-depends.html" class="no-external">
+<div class="quarto-post image-right" data-index="25" data-categories="MjAyMyUyQ09T" data-listing-date-sort="1696118400000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<div class="thumbnail"><a href="../../docs/summit/posts/2023-os-depends.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2023-os-depends.html" class="no-external">Depending on Open Source (2023)</a>
+<a href="../../docs/summit/posts/2023-os-depends.html" class="no-external-icon">Depending on Open Source (2023)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2023-os-depends.html" class="no-external">Mike Smith &amp; Ed Lauzier</a>
+<a href="../../docs/summit/posts/2023-os-depends.html" class="no-external-icon">Mike Smith &amp; Ed Lauzier</a>
 </div>
 <div class="listing-categories">
 
@@ -1369,12 +1383,14 @@ Vincent Shen, Melanie Hullings
 <div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">OS</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2023-os-depends.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-os-depends.html" class="no-external-icon">
 <p>Depending on Open Source</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2023-os-depends.html" class="no-external">
+<a href="../../docs/summit/posts/2023-os-depends.html" class="no-external-icon">
 <div class="listing-date">
 Oct 1, 2023
 </div>
@@ -1384,18 +1400,18 @@ Mike Smith, Ed Lauzier
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="MjAyMyUyQ1NDRQ==" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1093">
-<div class="thumbnail"><a href="../../docs/summit/posts/2023-sce.html" class="no-external">
+<div class="quarto-post image-right" data-index="26" data-categories="MjAyMyUyQ1NDRQ==" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1093">
+<div class="thumbnail"><a href="../../docs/summit/posts/2023-sce.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2023-sce.html" class="no-external">Modern SCEs (2023)</a>
+<a href="../../docs/summit/posts/2023-sce.html" class="no-external-icon">Modern SCEs (2023)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2023-sce.html" class="no-external">James Black &amp; Satish Murphy</a>
+<a href="../../docs/summit/posts/2023-sce.html" class="no-external-icon">James Black &amp; Satish Murphy</a>
 </div>
 <div class="listing-categories">
 
@@ -1404,12 +1420,14 @@ Mike Smith, Ed Lauzier
 <div class="listing-category" onclick="window.quartoListingCategory('U0NF'); return false;">SCE</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2023-sce.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-sce.html" class="no-external-icon">
 <p>What are our goals with a modern SCE?</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2023-sce.html" class="no-external">
+<a href="../../docs/summit/posts/2023-sce.html" class="no-external-icon">
 <div class="listing-date">
 Sep 18, 2023
 </div>
@@ -1419,18 +1437,18 @@ James Black, Satish Murphy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="MjAyMyUyQ011bHRpLW1vZGFs" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
-<div class="thumbnail"><a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external">
+<div class="quarto-post image-right" data-index="27" data-categories="MjAyMyUyQ011bHRpLW1vZGFs" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
+<div class="thumbnail"><a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external">Multi-modal drug development (2023)</a>
+<a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external-icon">Multi-modal drug development (2023)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external">Katie Igartua</a>
+<a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external-icon">Katie Igartua</a>
 </div>
 <div class="listing-categories">
 
@@ -1439,12 +1457,14 @@ James Black, Satish Murphy
 <div class="listing-category" onclick="window.quartoListingCategory('TXVsdGktbW9kYWw='); return false;">Multi-modal</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external-icon">
 <p>Multi-modal drug development</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external">
+<a href="../../docs/summit/posts/2023-multi-modal.html" class="no-external-icon">
 <div class="listing-date">
 Sep 18, 2023
 </div>
@@ -1454,18 +1474,18 @@ Katie Igartua
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="28" data-categories="MjAyMyUyQ09TJTJDQ2hhbmdlJTIwbWFuYWdlbWVudA==" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="826">
-<div class="thumbnail"><a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">
+<div class="quarto-post image-right" data-index="28" data-categories="MjAyMyUyQ09TJTJDQ2hhbmdlJTIwbWFuYWdlbWVudA==" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="826">
+<div class="thumbnail"><a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">Change management (2023)</a>
+<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external-icon">Change management (2023)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">Matthew Kumar and Cassie Burns</a>
+<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external-icon">Matthew Kumar and Cassie Burns</a>
 </div>
 <div class="listing-categories">
 
@@ -1476,12 +1496,14 @@ Katie Igartua
 <div class="listing-category" onclick="window.quartoListingCategory('Q2hhbmdlJTIwbWFuYWdlbWVudA=='); return false;">Change management</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external-icon">
 <p>Transitioning from SAS to R in the Pharmaceutical Industry</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external">
+<a href="../../docs/summit/posts/2023-change-mgt.html" class="no-external-icon">
 <div class="listing-date">
 Sep 18, 2023
 </div>
@@ -1491,18 +1513,18 @@ Matthew Kumar, Cassie Burns
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="29" data-categories="MjAyMyUyQ0FJ" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
-<div class="thumbnail"><a href="../../docs/summit/posts/2023-ai.html" class="no-external">
+<div class="quarto-post image-right" data-index="29" data-categories="MjAyMyUyQ0FJ" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
+<div class="thumbnail"><a href="../../docs/summit/posts/2023-ai.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2023-ai.html" class="no-external">AI opportunities (2023)</a>
+<a href="../../docs/summit/posts/2023-ai.html" class="no-external-icon">AI opportunities (2023)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2023-ai.html" class="no-external">Paulo Bargo and Ning Leng</a>
+<a href="../../docs/summit/posts/2023-ai.html" class="no-external-icon">Paulo Bargo and Ning Leng</a>
 </div>
 <div class="listing-categories">
 
@@ -1511,12 +1533,14 @@ Matthew Kumar, Cassie Burns
 <div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2023-ai.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-ai.html" class="no-external-icon">
 <p>What are the LLMs/AA/AI opportunities in drug development?</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2023-ai.html" class="no-external">
+<a href="../../docs/summit/posts/2023-ai.html" class="no-external-icon">
 <div class="listing-date">
 Sep 18, 2023
 </div>
@@ -1526,18 +1550,18 @@ Paulo Bargo, Ning Leng
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="30" data-categories="MjAyMyUyQ0FJ" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
-<div class="thumbnail"><a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external">
+<div class="quarto-post image-right" data-index="30" data-categories="MjAyMyUyQ0FJ" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
+<div class="thumbnail"><a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external">Interactive CSR (2023)</a>
+<a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external-icon">Interactive CSR (2023)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external">Ning Leng and Phil Bowsher</a>
+<a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external-icon">Ning Leng and Phil Bowsher</a>
 </div>
 <div class="listing-categories">
 
@@ -1546,12 +1570,14 @@ Paulo Bargo, Ning Leng
 <div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external-icon">
 <p>What are our goals with an interactive CSR?</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external">
+<a href="../../docs/summit/posts/2023-interactive-csr.html" class="no-external-icon">
 <div class="listing-date">
 Sep 18, 2023
 </div>
@@ -1561,18 +1587,18 @@ Ning Ling, Phil Bowsher
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="31" data-categories="MjAyMyUyQ09T" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="418">
-<div class="thumbnail"><a href="../../docs/summit/posts/2023-case-os.html" class="no-external">
+<div class="quarto-post image-right" data-index="31" data-categories="MjAyMyUyQ09T" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="418">
+<div class="thumbnail"><a href="../../docs/summit/posts/2023-case-os.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2023-case-os.html" class="no-external">The case for OS (2023)</a>
+<a href="../../docs/summit/posts/2023-case-os.html" class="no-external-icon">The case for OS (2023)</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2023-case-os.html" class="no-external">Satish Murphy &amp; Becca Krouse</a>
+<a href="../../docs/summit/posts/2023-case-os.html" class="no-external-icon">Satish Murphy &amp; Becca Krouse</a>
 </div>
 <div class="listing-categories">
 
@@ -1581,12 +1607,14 @@ Ning Ling, Phil Bowsher
 <div class="listing-category" onclick="window.quartoListingCategory('T1M='); return false;">OS</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2023-case-os.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-case-os.html" class="no-external-icon">
 <p>What is stopping people and companies from contributions in OS? Can we define the case for contributing to OS?</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2023-case-os.html" class="no-external">
+<a href="../../docs/summit/posts/2023-case-os.html" class="no-external-icon">
 <div class="listing-date">
 Sep 18, 2023
 </div>
@@ -1596,18 +1624,18 @@ Satish Murphy &amp; Becca Krouse
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="32" data-categories="MjAyMyUyQ1IlMkNWYWxpZGF0aW9uJTJDU2hpbnk=" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793538140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="943">
-<div class="thumbnail"><a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external">
+<div class="quarto-post image-right" data-index="32" data-categories="MjAyMyUyQ1IlMkNWYWxpZGF0aW9uJTJDU2hpbnk=" data-listing-date-sort="1694995200000" data-listing-file-modified-sort="1793657751696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="943">
+<div class="thumbnail"><a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external">Can we validate shiny apps (2023)?</a>
+<a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external-icon">Can we validate shiny apps (2023)?</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external">James Black &amp; Harvey Lieberman</a>
+<a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external-icon">James Black &amp; Harvey Lieberman</a>
 </div>
 <div class="listing-categories">
 
@@ -1620,12 +1648,14 @@ Satish Murphy &amp; Becca Krouse
 <div class="listing-category" onclick="window.quartoListingCategory('U2hpbnk='); return false;">Shiny</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external-icon">
 <p>Can we validate shiny?</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external">
+<a href="../../docs/summit/posts/2023-shiny-validation.html" class="no-external-icon">
 <div class="listing-date">
 Sep 18, 2023
 </div>
@@ -1731,7 +1761,8 @@ if (!kPlatformMac) {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -1740,8 +1771,69 @@ if (!kPlatformMac) {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -1755,6 +1847,7 @@ if (!kPlatformMac) {
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -1917,44 +2010,54 @@ if (!kPlatformMac) {
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -2052,6 +2155,9 @@ if (!kPlatformMac) {
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 <footer class="footer">

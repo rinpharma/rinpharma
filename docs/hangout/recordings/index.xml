@@ -11,11 +11,11 @@
 <description>The R/Pharma Hangouts (hosted by Eric Nantz &amp; Jared Woolfolk) feature key innovators across the world of open source and life sciences to go hands-on with key R packages, applications, or entire workflows highly relevant to the life sciences industry. You can view the recordings of past Hangout sessions below!
 </description>
 <image>
-<url>https://rinpharma.com/featured.png</url>
+<url>https://rinpharma.com/docs/hangout/recordings/featured.png</url>
 <title>R/Pharma</title>
 <link>https://rinpharma.com/docs/hangout/recordings/</link>
 </image>
-<generator>quarto-1.10.20</generator>
+<generator>quarto-1.11.9</generator>
 <lastBuildDate>Tue, 18 Aug 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Analysis Results Data with gtsummary and cards</title>

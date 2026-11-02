@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.20">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -41,14 +41,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-20d2c53f4e672e92c7fee61b4f03f432.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-43ed63961cf0acaf5d42d0bcde4237ec.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -98,12 +99,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <style>
 
@@ -148,21 +143,23 @@ window.Quarto = {
 <link rel="stylesheet" href="../../styles.css">
 <link rel="alternate" type="application/rss+xml" title="R/Pharma" href="index.xml" data-external="1"><meta property="og:title" content="R/Pharma Blog – R/Pharma">
 <meta property="og:description" content="Updates from the R/Pharma team">
-<meta property="og:image" content="https://rinpharma.com/docs/blog/posts/2026-09-11-workshops/markus-winkler-_a97xDX9eZg-unsplash.jpg">
+<meta property="og:image" content="https://rinpharma.com/docs/blog/posts/2026-11-01-brian-bole-2026/giorgio-trovato-_XTY6lD8jgM-unsplash.jpg">
 <meta property="og:site_name" content="R/Pharma">
-<meta property="og:image:alt" content="genAI Image">
+<meta property="og:image:alt" content="Award">
+<meta property="og:image:height" content="427">
+<meta property="og:image:width" content="640">
 <meta name="twitter:title" content="R/Pharma Blog – R/Pharma">
 <meta name="twitter:description" content="Updates from the R/Pharma team">
-<meta name="twitter:image" content="https://rinpharma.com/docs/blog/posts/2026-09-11-workshops/markus-winkler-_a97xDX9eZg-unsplash.jpg">
-<meta name="twitter:image:alt" content="genAI Image">
+<meta name="twitter:image" content="https://rinpharma.com/docs/blog/posts/2026-11-01-brian-bole-2026/giorgio-trovato-_XTY6lD8jgM-unsplash.jpg">
+<meta name="twitter:image:alt" content="Award">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
@@ -170,8 +167,7 @@ window.Quarto = {
     <img src="../../images/logo-rinpharma.png" alt="R/Pharma logo." class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -267,6 +263,7 @@ window.Quarto = {
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
   <div id="quarto-announcement" data-announcement-id="c45a4245ab5fcfdb06e69ece36f51ffa" class="alert alert-primary hidden"><i class="bi bi-bell-fill quarto-announcement-icon"></i><div class="quarto-announcement-content">
@@ -296,9 +293,9 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(13)</span></div><div class="category" data-category="QVBBQw==">APAC <span class="quarto-category-count">(4)</span></div><div class="category" data-category="YXNpYS1wYWNpZmlj">asia-pacific <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Y29uZmVyZW5jZQ==">conference <span class="quarto-category-count">(6)</span></div><div class="category" data-category="ZGl2ZXJzaXR5LWFsbGlhbmNl">diversity-alliance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2VuQUktZGF5">genAI-day <span class="quarto-category-count">(6)</span></div><div class="category" data-category="aGFja2F0aG9u">hackathon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aGFuZ291dA==">hangout <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3VtbWl0">summit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d29ya3Nob3Bz">workshops <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="QVBBQw==">APAC <span class="quarto-category-count">(4)</span></div><div class="category" data-category="YXNpYS1wYWNpZmlj">asia-pacific <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Y29uZmVyZW5jZQ==">conference <span class="quarto-category-count">(7)</span></div><div class="category" data-category="ZGl2ZXJzaXR5LWFsbGlhbmNl">diversity-alliance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2VuQUktZGF5">genAI-day <span class="quarto-category-count">(6)</span></div><div class="category" data-category="aGFja2F0aG9u">hackathon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aGFuZ291dA==">hangout <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3VtbWl0">summit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d29ya3Nob3Bz">workshops <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content" tabindex="-1">
 
 
 
@@ -310,18 +307,50 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Y29uZmVyZW5jZSUyQ0FQQUMlMkNhc2lhLXBhY2lmaWMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1789084800000" data-listing-file-modified-sort="1793538140292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="338">
-<div class="thumbnail"><a href="../../docs/blog/posts/2026-09-11-workshops/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="0" data-categories="Y29uZmVyZW5jZQ==" data-listing-date-sort="1793491200000" data-listing-file-modified-sort="1793657751664" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
+<div class="thumbnail"><a href="../../docs/blog/posts/2026-11-01-brian-bole-2026/index.html" class="no-external-icon">
+
+<img loading="lazy" src="../../docs/blog/posts/2026-11-01-brian-bole-2026/giorgio-trovato-_XTY6lD8jgM-unsplash.jpg" class="thumbnail-image" alt="Award">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/blog/posts/2026-11-01-brian-bole-2026/index.html" class="no-external-icon">2026 Brian Bole Award</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZQ=='); return false;">conference</div>
+
+</div>
+<div class="listing-description">
+<a href="../../docs/blog/posts/2026-11-01-brian-bole-2026/index.html" class="no-external-icon">
+<p>2026 The Brian Bole Award of Excellence</p>
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/blog/posts/2026-11-01-brian-bole-2026/index.html" class="no-external-icon">
+<div class="listing-date">
+Nov 1, 2026
+</div>
+<div class="listing-author">
+R/Pharma
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Y29uZmVyZW5jZSUyQ0FQQUMlMkNhc2lhLXBhY2lmaWMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1789084800000" data-listing-file-modified-sort="1793657751664" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="338">
+<div class="thumbnail"><a href="../../docs/blog/posts/2026-09-11-workshops/index.html" class="no-external-icon">
 
 <img loading="lazy" src="../../docs/blog/posts/2026-09-11-workshops/markus-winkler-_a97xDX9eZg-unsplash.jpg" class="thumbnail-image" alt="genAI Image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2026-09-11-workshops/index.html" class="no-external">R/Pharma Workshops</a>
+<a href="../../docs/blog/posts/2026-09-11-workshops/index.html" class="no-external-icon">R/Pharma Workshops</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/blog/posts/2026-09-11-workshops/index.html" class="no-external">Europe/US and APAC Workshop Schedule</a>
+<a href="../../docs/blog/posts/2026-09-11-workshops/index.html" class="no-external-icon">Europe/US and APAC Workshop Schedule</a>
 </div>
 <div class="listing-categories">
 
@@ -334,12 +363,14 @@ window.Quarto = {
 <div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">workshops</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2026-09-11-workshops/index.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/blog/posts/2026-09-11-workshops/index.html" class="no-external-icon">
 <p>Free workshops at R/Pharma</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2026-09-11-workshops/index.html" class="no-external">
+<a href="../../docs/blog/posts/2026-09-11-workshops/index.html" class="no-external-icon">
 <div class="listing-date">
 Sep 11, 2026
 </div>
@@ -349,18 +380,18 @@ R/Pharma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Z2VuQUktZGF5JTJDQVBBQyUyQ2FzaWEtcGFjaWZpYw==" data-listing-date-sort="1782432000000" data-listing-file-modified-sort="1793538140292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
-<div class="thumbnail"><a href="../../docs/blog/posts/2026-06-26-genAI-recordings/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="2" data-categories="Z2VuQUktZGF5JTJDQVBBQyUyQ2FzaWEtcGFjaWZpYw==" data-listing-date-sort="1782432000000" data-listing-file-modified-sort="1793657751664" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
+<div class="thumbnail"><a href="../../docs/blog/posts/2026-06-26-genAI-recordings/index.html" class="no-external-icon">
 
 <img loading="lazy" src="../../docs/blog/posts/2026-06-26-genAI-recordings/genAI.png" class="thumbnail-image" alt="genAI Image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2026-06-26-genAI-recordings/index.html" class="no-external">R/Pharma GenAI Day Recordings</a>
+<a href="../../docs/blog/posts/2026-06-26-genAI-recordings/index.html" class="no-external-icon">R/Pharma GenAI Day Recordings</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/blog/posts/2026-06-26-genAI-recordings/index.html" class="no-external">Now available on YouTube</a>
+<a href="../../docs/blog/posts/2026-06-26-genAI-recordings/index.html" class="no-external-icon">Now available on YouTube</a>
 </div>
 <div class="listing-categories">
 
@@ -371,12 +402,14 @@ R/Pharma
 <div class="listing-category" onclick="window.quartoListingCategory('YXNpYS1wYWNpZmlj'); return false;">asia-pacific</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2026-06-26-genAI-recordings/index.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/blog/posts/2026-06-26-genAI-recordings/index.html" class="no-external-icon">
 <p>Watch the specatcular talks and workshops completely free!</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2026-06-26-genAI-recordings/index.html" class="no-external">
+<a href="../../docs/blog/posts/2026-06-26-genAI-recordings/index.html" class="no-external-icon">
 <div class="listing-date">
 Jun 26, 2026
 </div>
@@ -386,30 +419,32 @@ R/Pharma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Z2VuQUktZGF5" data-listing-date-sort="1780790400000" data-listing-file-modified-sort="1793538140291" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="553">
-<div class="thumbnail"><a href="../../docs/blog/posts/2026-06-07-genAI-APAC-schedule/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="3" data-categories="Z2VuQUktZGF5" data-listing-date-sort="1780790400000" data-listing-file-modified-sort="1793657751662" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="553">
+<div class="thumbnail"><a href="../../docs/blog/posts/2026-06-07-genAI-APAC-schedule/index.html" class="no-external-icon">
 
 <img loading="lazy" src="../../docs/blog/posts/2026-06-07-genAI-APAC-schedule/markus-winkler-_a97xDX9eZg-unsplash.jpg" class="thumbnail-image" alt="genAI Image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2026-06-07-genAI-APAC-schedule/index.html" class="no-external">R/Pharma APAC GenAI Day Schedule</a>
+<a href="../../docs/blog/posts/2026-06-07-genAI-APAC-schedule/index.html" class="no-external-icon">R/Pharma APAC GenAI Day Schedule</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/blog/posts/2026-06-07-genAI-APAC-schedule/index.html" class="no-external">The first APAC track for genAI Day!</a>
+<a href="../../docs/blog/posts/2026-06-07-genAI-APAC-schedule/index.html" class="no-external-icon">The first APAC track for genAI Day!</a>
 </div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Z2VuQUktZGF5'); return false;">genAI-day</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2026-06-07-genAI-APAC-schedule/index.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/blog/posts/2026-06-07-genAI-APAC-schedule/index.html" class="no-external-icon">
 <p>Free virtual conference on the use of genAI in Pharma.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2026-06-07-genAI-APAC-schedule/index.html" class="no-external">
+<a href="../../docs/blog/posts/2026-06-07-genAI-APAC-schedule/index.html" class="no-external-icon">
 <div class="listing-date">
 Jun 7, 2026
 </div>
@@ -419,30 +454,32 @@ R/Pharma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Z2VuQUktZGF5" data-listing-date-sort="1778544000000" data-listing-file-modified-sort="1793538140291" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="525">
-<div class="thumbnail"><a href="../../docs/blog/posts/2026-05-12-genAI-schedule/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="4" data-categories="Z2VuQUktZGF5" data-listing-date-sort="1778544000000" data-listing-file-modified-sort="1793657751661" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="525">
+<div class="thumbnail"><a href="../../docs/blog/posts/2026-05-12-genAI-schedule/index.html" class="no-external-icon">
 
 <img loading="lazy" src="../../docs/blog/posts/2026-05-12-genAI-schedule/markus-winkler-_a97xDX9eZg-unsplash.jpg" class="thumbnail-image" alt="genAI Image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2026-05-12-genAI-schedule/index.html" class="no-external">R/Pharma GenAI Day Schedule</a>
+<a href="../../docs/blog/posts/2026-05-12-genAI-schedule/index.html" class="no-external-icon">R/Pharma GenAI Day Schedule</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/blog/posts/2026-05-12-genAI-schedule/index.html" class="no-external">Our third genAI single day event</a>
+<a href="../../docs/blog/posts/2026-05-12-genAI-schedule/index.html" class="no-external-icon">Our third genAI single day event</a>
 </div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Z2VuQUktZGF5'); return false;">genAI-day</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2026-05-12-genAI-schedule/index.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/blog/posts/2026-05-12-genAI-schedule/index.html" class="no-external-icon">
 <p>Free virtual conference on the use of genAI in Pharma.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2026-05-12-genAI-schedule/index.html" class="no-external">
+<a href="../../docs/blog/posts/2026-05-12-genAI-schedule/index.html" class="no-external-icon">
 <div class="listing-date">
 May 12, 2026
 </div>
@@ -452,18 +489,18 @@ R/Pharma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Z2VuQUktZGF5JTJDQVBBQyUyQ2FzaWEtcGFjaWZpYw==" data-listing-date-sort="1777161600000" data-listing-file-modified-sort="1793538140291" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
-<div class="thumbnail"><a href="../../docs/blog/posts/2026-04-26-genAI-announcement/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="5" data-categories="Z2VuQUktZGF5JTJDQVBBQyUyQ2FzaWEtcGFjaWZpYw==" data-listing-date-sort="1777161600000" data-listing-file-modified-sort="1793657751661" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
+<div class="thumbnail"><a href="../../docs/blog/posts/2026-04-26-genAI-announcement/index.html" class="no-external-icon">
 
 <img loading="lazy" src="../../docs/blog/posts/2026-04-26-genAI-announcement/genAI.png" class="thumbnail-image" alt="genAI Image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2026-04-26-genAI-announcement/index.html" class="no-external">R/Pharma GenAI Day</a>
+<a href="../../docs/blog/posts/2026-04-26-genAI-announcement/index.html" class="no-external-icon">R/Pharma GenAI Day</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/blog/posts/2026-04-26-genAI-announcement/index.html" class="no-external">Our third genAI single day event</a>
+<a href="../../docs/blog/posts/2026-04-26-genAI-announcement/index.html" class="no-external-icon">Our third genAI single day event</a>
 </div>
 <div class="listing-categories">
 
@@ -474,12 +511,14 @@ R/Pharma
 <div class="listing-category" onclick="window.quartoListingCategory('YXNpYS1wYWNpZmlj'); return false;">asia-pacific</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2026-04-26-genAI-announcement/index.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/blog/posts/2026-04-26-genAI-announcement/index.html" class="no-external-icon">
 <p>Free virtual conference on the use of genAI in Pharma.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2026-04-26-genAI-announcement/index.html" class="no-external">
+<a href="../../docs/blog/posts/2026-04-26-genAI-announcement/index.html" class="no-external-icon">
 <div class="listing-date">
 Apr 26, 2026
 </div>
@@ -489,30 +528,32 @@ R/Pharma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Y29uZmVyZW5jZQ==" data-listing-date-sort="1775260800000" data-listing-file-modified-sort="1793538140288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="349">
-<div class="thumbnail"><a href="../../docs/blog/posts/2026-04-03-call-for-talks/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="6" data-categories="Y29uZmVyZW5jZQ==" data-listing-date-sort="1775260800000" data-listing-file-modified-sort="1793657751660" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="349">
+<div class="thumbnail"><a href="../../docs/blog/posts/2026-04-03-call-for-talks/index.html" class="no-external-icon">
 
 <img loading="lazy" src="../../docs/blog/posts/2026-04-03-call-for-talks/patrick-fore-5YU0uZh43Bk-unsplash.jpg" class="thumbnail-image" alt="Announcement">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2026-04-03-call-for-talks/index.html" class="no-external">R/Pharma 2026 Call-For-Talks</a>
+<a href="../../docs/blog/posts/2026-04-03-call-for-talks/index.html" class="no-external-icon">R/Pharma 2026 Call-For-Talks</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/blog/posts/2026-04-03-call-for-talks/index.html" class="no-external">2026 announcement for call-for-talks</a>
+<a href="../../docs/blog/posts/2026-04-03-call-for-talks/index.html" class="no-external-icon">2026 announcement for call-for-talks</a>
 </div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZQ=='); return false;">conference</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2026-04-03-call-for-talks/index.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/blog/posts/2026-04-03-call-for-talks/index.html" class="no-external-icon">
 <p>2026 announcement for call-for-talks.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2026-04-03-call-for-talks/index.html" class="no-external">
+<a href="../../docs/blog/posts/2026-04-03-call-for-talks/index.html" class="no-external-icon">
 <div class="listing-date">
 Apr 4, 2026
 </div>
@@ -522,30 +563,29 @@ R/Pharma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="aGFuZ291dA==" data-listing-date-sort="1770595200000" data-listing-file-modified-sort="1793538140288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="418">
-<div class="thumbnail"><a href="../../docs/blog/posts/2026-02-09-hangouts/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="7" data-categories="aGFuZ291dA==" data-listing-date-sort="1770595200000" data-listing-file-modified-sort="1793657751660" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="418">
+<div class="thumbnail"><a href="../../docs/blog/posts/2026-02-09-hangouts/index.html" class="no-external-icon">
 
 <img loading="lazy" src="../../docs/blog/posts/2026-02-09-hangouts/crowd_pic.png" class="thumbnail-image" alt="Audience Picture">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2026-02-09-hangouts/index.html" class="no-external">The New and Improved R/Pharma Hangouts</a>
+<a href="../../docs/blog/posts/2026-02-09-hangouts/index.html" class="no-external-icon">The New and Improved R/Pharma Hangouts</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/blog/posts/2026-02-09-hangouts/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('aGFuZ291dA=='); return false;">hangout</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2026-02-09-hangouts/index.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/blog/posts/2026-02-09-hangouts/index.html" class="no-external-icon">
 <p>Our new approach to bringing the best of R/Pharma and data science together in 2026.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2026-02-09-hangouts/index.html" class="no-external">
+<a href="../../docs/blog/posts/2026-02-09-hangouts/index.html" class="no-external-icon">
 <div class="listing-date">
 Feb 9, 2026
 </div>
@@ -555,30 +595,29 @@ Eric Nantz &amp; Jared Woolfolk
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Y29uZmVyZW5jZQ==" data-listing-date-sort="1762214400000" data-listing-file-modified-sort="1793538140284" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="704">
-<div class="thumbnail"><a href="../../docs/blog/posts/2025-11-04-brianbole/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="8" data-categories="Y29uZmVyZW5jZQ==" data-listing-date-sort="1762214400000" data-listing-file-modified-sort="1793657751655" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="704">
+<div class="thumbnail"><a href="../../docs/blog/posts/2025-11-04-brianbole/index.html" class="no-external-icon">
 
 <img loading="lazy" src="../../docs/blog/posts/2025-11-04-brianbole/giorgio-trovato-_XTY6lD8jgM-unsplash.jpg" class="thumbnail-image" alt="Award">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2025-11-04-brianbole/index.html" class="no-external">The Brian Bole Award</a>
+<a href="../../docs/blog/posts/2025-11-04-brianbole/index.html" class="no-external-icon">The Brian Bole Award</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/blog/posts/2025-11-04-brianbole/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZQ=='); return false;">conference</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2025-11-04-brianbole/index.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/blog/posts/2025-11-04-brianbole/index.html" class="no-external-icon">
 <p>The Brian Bole Award of Excellence</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2025-11-04-brianbole/index.html" class="no-external">
+<a href="../../docs/blog/posts/2025-11-04-brianbole/index.html" class="no-external-icon">
 <div class="listing-date">
 Nov 4, 2025
 </div>
@@ -588,19 +627,16 @@ R/Pharma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Y29uZmVyZW5jZSUyQ0FQQUMlMkNhc2lhLXBhY2lmaWM=" data-listing-date-sort="1761609600000" data-listing-file-modified-sort="1793538140283" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
-<div class="thumbnail"><a href="../../docs/blog/posts/2025-10-28-apac/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="9" data-categories="Y29uZmVyZW5jZSUyQ0FQQUMlMkNhc2lhLXBhY2lmaWM=" data-listing-date-sort="1761609600000" data-listing-file-modified-sort="1793657751655" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
+<div class="thumbnail"><a href="../../docs/blog/posts/2025-10-28-apac/index.html" class="no-external-icon">
 
 <img loading="lazy" src="../../docs/blog/posts/2025-10-28-apac/apac.png" class="thumbnail-image" alt="Fireworks">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2025-10-28-apac/index.html" class="no-external">R/Pharma APAC Track 2025</a>
+<a href="../../docs/blog/posts/2025-10-28-apac/index.html" class="no-external-icon">R/Pharma APAC Track 2025</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../../docs/blog/posts/2025-10-28-apac/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZQ=='); return false;">conference</div>
@@ -610,12 +646,14 @@ R/Pharma
 <div class="listing-category" onclick="window.quartoListingCategory('YXNpYS1wYWNpZmlj'); return false;">asia-pacific</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2025-10-28-apac/index.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/blog/posts/2025-10-28-apac/index.html" class="no-external-icon">
 <p>Learn more about the APAC track for the R/Pharma conference 2025.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2025-10-28-apac/index.html" class="no-external">
+<a href="../../docs/blog/posts/2025-10-28-apac/index.html" class="no-external-icon">
 <div class="listing-date">
 Oct 28, 2025
 </div>
@@ -625,30 +663,32 @@ Jonathan Carroll
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="Y29uZmVyZW5jZQ==" data-listing-date-sort="1760745600000" data-listing-file-modified-sort="1793538140283" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="230">
-<div class="thumbnail"><a href="../../docs/blog/posts/2025-10-18-expo/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="10" data-categories="Y29uZmVyZW5jZQ==" data-listing-date-sort="1760745600000" data-listing-file-modified-sort="1793657751653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="230">
+<div class="thumbnail"><a href="../../docs/blog/posts/2025-10-18-expo/index.html" class="no-external-icon">
 
 <img loading="lazy" src="../../docs/blog/posts/2025-10-18-expo/vitaly-gariev-ECRBb_DgKPQ-unsplash.jpg" class="thumbnail-image" alt="Excitement">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2025-10-18-expo/index.html" class="no-external">R/Pharma Expo</a>
+<a href="../../docs/blog/posts/2025-10-18-expo/index.html" class="no-external-icon">R/Pharma Expo</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/blog/posts/2025-10-18-expo/index.html" class="no-external">Information on R/Pharma Expo</a>
+<a href="../../docs/blog/posts/2025-10-18-expo/index.html" class="no-external-icon">Information on R/Pharma Expo</a>
 </div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZQ=='); return false;">conference</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2025-10-18-expo/index.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/blog/posts/2025-10-18-expo/index.html" class="no-external-icon">
 <p>Come showcase your awesome open source creations!</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2025-10-18-expo/index.html" class="no-external">
+<a href="../../docs/blog/posts/2025-10-18-expo/index.html" class="no-external-icon">
 <div class="listing-date">
 Oct 18, 2025
 </div>
@@ -658,30 +698,32 @@ R/Pharma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="Z2VuQUktZGF5" data-listing-date-sort="1753833600000" data-listing-file-modified-sort="1793538140283" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="386">
-<div class="thumbnail"><a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="11" data-categories="Z2VuQUktZGF5" data-listing-date-sort="1753833600000" data-listing-file-modified-sort="1793657751653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="386">
+<div class="thumbnail"><a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external-icon">
 
 <img loading="lazy" src="../../docs/blog/posts/2025-07-30-genAI/genAI.png" class="thumbnail-image" alt="genAI Image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external">R/Pharma GenAI Day</a>
+<a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external-icon">R/Pharma GenAI Day</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external">Our second genAI single day event</a>
+<a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external-icon">Our second genAI single day event</a>
 </div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Z2VuQUktZGF5'); return false;">genAI-day</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external-icon">
 <p>Free virtual conference on the use of genAI in Pharma.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external">
+<a href="../../docs/blog/posts/2025-07-30-genAI/index.html" class="no-external-icon">
 <div class="listing-date">
 Jul 30, 2025
 </div>
@@ -691,18 +733,18 @@ R/Pharma
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="ZGl2ZXJzaXR5LWFsbGlhbmNlJTJDaGFja2F0aG9u" data-listing-date-sort="1753401600000" data-listing-file-modified-sort="1793538140281" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
-<div class="thumbnail"><a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="12" data-categories="ZGl2ZXJzaXR5LWFsbGlhbmNlJTJDaGFja2F0aG9u" data-listing-date-sort="1753401600000" data-listing-file-modified-sort="1793657751653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
+<div class="thumbnail"><a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external-icon">
 
 <img loading="lazy" src="../../docs/blog/posts/2025-07-25-hackathon/vitaly-gariev-UtIr_UaiDmg-unsplash.jpg" class="thumbnail-image" alt="Posting sticky notes">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external">Diversity Alliance Hackathon</a>
+<a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external-icon">Diversity Alliance Hackathon</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external">Diversity Alliance Hackathon</a>
+<a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external-icon">Diversity Alliance Hackathon</a>
 </div>
 <div class="listing-categories">
 
@@ -711,12 +753,14 @@ R/Pharma
 <div class="listing-category" onclick="window.quartoListingCategory('aGFja2F0aG9u'); return false;">hackathon</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external-icon">
 <p>Details of the 2025 R/Pharma Diversity Alliance Hackathon.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external">
+<a href="../../docs/blog/posts/2025-07-25-hackathon/index.html" class="no-external-icon">
 <div class="listing-date">
 Jul 25, 2025
 </div>
@@ -726,18 +770,18 @@ Diversity Alliance
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="c3VtbWl0JTJDZ2VuQUktZGF5JTJDY29uZmVyZW5jZQ==" data-listing-date-sort="1749859200000" data-listing-file-modified-sort="1793538140281" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="621">
-<div class="thumbnail"><a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="13" data-categories="c3VtbWl0JTJDZ2VuQUktZGF5JTJDY29uZmVyZW5jZQ==" data-listing-date-sort="1749859200000" data-listing-file-modified-sort="1793657751653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="621">
+<div class="thumbnail"><a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external-icon">
 
 <img loading="lazy" src="../../docs/blog/posts/2025-06-14-announcements/elisha-terada-_b4ppn1Ssgw-unsplash.jpg" class="thumbnail-image" alt="Fireworks">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external">In-Person and Virtual Events for 2025</a>
+<a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external-icon">In-Person and Virtual Events for 2025</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external">In-Person and Virtual Events for 2025</a>
+<a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external-icon">In-Person and Virtual Events for 2025</a>
 </div>
 <div class="listing-categories">
 
@@ -748,12 +792,14 @@ Diversity Alliance
 <div class="listing-category" onclick="window.quartoListingCategory('Y29uZmVyZW5jZQ=='); return false;">conference</div>
 
 </div>
-<div class="delink listing-description"><a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external">
+<div class="listing-description">
+<a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external-icon">
 <p>Learn more about In-Person and Virtual Events for 2025.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external">
+<a href="../../docs/blog/posts/2025-06-14-announcements/index.html" class="no-external-icon">
 <div class="listing-date">
 Jun 14, 2025
 </div>
@@ -856,7 +902,8 @@ if (!kPlatformMac) {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -865,8 +912,69 @@ if (!kPlatformMac) {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -880,6 +988,7 @@ if (!kPlatformMac) {
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -1042,44 +1151,54 @@ if (!kPlatformMac) {
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -1177,6 +1296,9 @@ if (!kPlatformMac) {
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 <footer class="footer">

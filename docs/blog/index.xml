@@ -16,8 +16,57 @@
 <height>50</height>
 <width>144</width>
 </image>
-<generator>quarto-1.10.20</generator>
-<lastBuildDate>Fri, 11 Sep 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.11.9</generator>
+<lastBuildDate>Sun, 01 Nov 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>2026 Brian Bole Award</title>
+  <dc:creator>R/Pharma </dc:creator>
+  <link>https://rinpharma.com/docs/blog/posts/2026-11-01-brian-bole-2026/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Open Source in Pharma proudly presents the “Brian Bole Award of Excellence” presented each year at R/Pharma Virtual to recognize outstanding contributions to the open-source ecosystem within the life sciences. This award celebrates the individuals and teams who embody the spirit of open collaboration, drive innovation, and help the community embrace open source for clinical reporting and research.</p>
+<p>Details on the award and previous recipients can be found in this <a href="docs/blog/posts/2025-11-04-brianbole/">blog post</a>.</p>
+<p>For 2026 the award is presented to the <strong>nlmixr2 development team</strong>.</p>
+<ul>
+<li>Team Members:
+<ul>
+<li>Matt Fidler</li>
+<li>Anne Keunecke</li>
+<li>Hidde van de Beek</li>
+<li>Benjamin Schneider</li>
+<li>Bill Denney</li>
+<li>Brendan Bender</li>
+<li>Daisy Lee</li>
+<li>John Harrold</li>
+<li>Justin Wilkins</li>
+<li>Mirjam Trame</li>
+<li>Mutaz Jaber</li>
+<li>Richard Hooijmaijers</li>
+<li>Rik Schoemaker</li>
+<li>Max Taubert</li>
+<li>Theo Papathanasiou</li>
+</ul></li>
+<li>Recognition: Development of the nlmixr2 R package for nonlinear mixed-effects modeling supporting open source pharmacokinetic and pharmacodynamic analysis for drug development.
+<ul>
+<li>Development of an open source package that can compete with commercial pharmacokinetic tools.</li>
+<li>Promoting the use of open source tools for regulatory submissions.</li>
+<li>Demonstrating AI-focused ways-of-working</li>
+</ul></li>
+</ul>
+<p>Congratulations to the entire team and thank you for your contributions to the open source life science space!</p>
+
+
+
+ ]]></description>
+  <category>conference</category>
+  <guid>https://rinpharma.com/docs/blog/posts/2026-11-01-brian-bole-2026/</guid>
+  <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2026-11-01-brian-bole-2026/giorgio-trovato-_XTY6lD8jgM-unsplash.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
+</item>
 <item>
   <title>R/Pharma Workshops</title>
   <dc:creator>R/Pharma </dc:creator>
@@ -287,7 +336,7 @@
   <category>workshops</category>
   <guid>https://rinpharma.com/docs/blog/posts/2026-09-11-workshops/</guid>
   <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://rinpharma.com/docs/blog/posts/2026-09-11-workshops/markus-winkler-_a97xDX9eZg-unsplash.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2026-09-11-workshops/markus-winkler-_a97xDX9eZg-unsplash.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
 </item>
 <item>
   <title>R/Pharma GenAI Day Recordings</title>
@@ -402,7 +451,7 @@
   <category>genAI-day</category>
   <guid>https://rinpharma.com/docs/blog/posts/2026-06-07-genAI-APAC-schedule/</guid>
   <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://rinpharma.com/docs/blog/posts/2026-06-07-genAI-APAC-schedule/markus-winkler-_a97xDX9eZg-unsplash.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2026-06-07-genAI-APAC-schedule/markus-winkler-_a97xDX9eZg-unsplash.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
 </item>
 <item>
   <title>R/Pharma GenAI Day Schedule</title>
@@ -608,7 +657,7 @@
   <category>genAI-day</category>
   <guid>https://rinpharma.com/docs/blog/posts/2026-05-12-genAI-schedule/</guid>
   <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://rinpharma.com/docs/blog/posts/2026-05-12-genAI-schedule/markus-winkler-_a97xDX9eZg-unsplash.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2026-05-12-genAI-schedule/markus-winkler-_a97xDX9eZg-unsplash.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
 </item>
 <item>
   <title>R/Pharma GenAI Day</title>
@@ -696,7 +745,7 @@
   <category>conference</category>
   <guid>https://rinpharma.com/docs/blog/posts/2026-04-03-call-for-talks/</guid>
   <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://rinpharma.com/docs/blog/posts/2026-04-03-call-for-talks/patrick-fore-5YU0uZh43Bk-unsplash.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2026-04-03-call-for-talks/patrick-fore-5YU0uZh43Bk-unsplash.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
 </item>
 <item>
   <title>The New and Improved R/Pharma Hangouts</title>
@@ -808,7 +857,7 @@
   <category>conference</category>
   <guid>https://rinpharma.com/docs/blog/posts/2025-11-04-brianbole/</guid>
   <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://rinpharma.com/docs/blog/posts/2025-11-04-brianbole/giorgio-trovato-_XTY6lD8jgM-unsplash.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2025-11-04-brianbole/giorgio-trovato-_XTY6lD8jgM-unsplash.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
 </item>
 <item>
   <title>R/Pharma APAC Track 2025</title>
@@ -916,7 +965,7 @@ The expo will run continuously from November 3-7, throughout the R/Pharma confer
   <category>conference</category>
   <guid>https://rinpharma.com/docs/blog/posts/2025-10-18-expo/</guid>
   <pubDate>Sat, 18 Oct 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://rinpharma.com/docs/blog/posts/2025-10-18-expo/vitaly-gariev-ECRBb_DgKPQ-unsplash.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2025-10-18-expo/vitaly-gariev-ECRBb_DgKPQ-unsplash.jpg" medium="image" type="image/jpeg" height="81" width="144"/>
 </item>
 <item>
   <title>R/Pharma GenAI Day</title>
@@ -1081,7 +1130,7 @@ If you are interested in acting as a mentor and inspiring the next generation of
   <category>hackathon</category>
   <guid>https://rinpharma.com/docs/blog/posts/2025-07-25-hackathon/</guid>
   <pubDate>Fri, 25 Jul 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://rinpharma.com/docs/blog/posts/2025-07-25-hackathon/vitaly-gariev-UtIr_UaiDmg-unsplash.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2025-07-25-hackathon/vitaly-gariev-UtIr_UaiDmg-unsplash.jpg" medium="image" type="image/jpeg" height="81" width="144"/>
 </item>
 <item>
   <title>In-Person and Virtual Events for 2025</title>
@@ -1153,7 +1202,7 @@ We are also planning our Asia-Pacific region (APAC) event! Use the same link to 
   <category>conference</category>
   <guid>https://rinpharma.com/docs/blog/posts/2025-06-14-announcements/</guid>
   <pubDate>Sat, 14 Jun 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://rinpharma.com/docs/blog/posts/2025-06-14-announcements/elisha-terada-_b4ppn1Ssgw-unsplash.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://rinpharma.com/docs/blog/posts/2025-06-14-announcements/elisha-terada-_b4ppn1Ssgw-unsplash.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
 </item>
 </channel>
 </rss>
